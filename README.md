@@ -38,5 +38,3 @@ Naia Unbound는 HD-2D 그래픽을 기반으로 나이아(정령)과의 교감, 
 
 ## 참고 링크
 * [프로젝트 브로셔](https://app.notion.com/p/teamsparta/8-2-Naia-Unbound-3b12dc3ef51480c5b7f7e2fe085554ea?v=32f2dc3ef5148074bffa000ce95cce75&source=copy_link)
-
-<img width="1484" height="1060" alt="Logo" src="https://github.com/user-attachments/assets/6b30bc6c-e541-4cc7-8f22-2642c45309ab" />
