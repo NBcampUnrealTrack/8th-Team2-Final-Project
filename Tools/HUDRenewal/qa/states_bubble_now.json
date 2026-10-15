@@ -1,0 +1,32 @@
+[
+ {
+  "shot": "bub_village",
+  "py": "qa_village.py",
+  "wait": 20,
+  "frames": 240
+ },
+ {
+  "shot": "bub_plate",
+  "wait": 1.0,
+  "frames": 30,
+  "noui": true
+ },
+ {
+  "shot": "bub_short",
+  "py": "qa_bubble_short.py",
+  "wait": 1.0,
+  "frames": 30
+ },
+ {
+  "shot": "bub_long",
+  "py": "qa_bubble_long.py",
+  "wait": 1.0,
+  "frames": 30
+ },
+ {
+  "shot": "bub_party",
+  "py": "qa_bubble_party.py",
+  "wait": 1.0,
+  "frames": 30
+ }
+]

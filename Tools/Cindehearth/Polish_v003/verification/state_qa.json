@@ -1,0 +1,68 @@
+[
+  {
+    "stage": 0,
+    "mood": "Lively",
+    "crowd": 24,
+    "gate": 3,
+    "gate_collision": 3,
+    "hatch": 2,
+    "hatch_collision": 2,
+    "cocoon": 21,
+    "freed": 0
+  },
+  {
+    "stage": 7,
+    "mood": "Lively",
+    "crowd": 24,
+    "gate": 3,
+    "gate_collision": 3,
+    "hatch": 0,
+    "hatch_collision": 0,
+    "cocoon": 21,
+    "freed": 0
+  },
+  {
+    "stage": 8,
+    "mood": "Lively",
+    "crowd": 24,
+    "gate": 0,
+    "gate_collision": 0,
+    "hatch": 0,
+    "hatch_collision": 0,
+    "cocoon": 21,
+    "freed": 0
+  },
+  {
+    "stage": 9,
+    "mood": "Hushed",
+    "crowd": 24,
+    "gate": 0,
+    "gate_collision": 0,
+    "hatch": 0,
+    "hatch_collision": 0,
+    "cocoon": 21,
+    "freed": 0
+  },
+  {
+    "stage": 11,
+    "mood": "Hushed",
+    "crowd": 24,
+    "gate": 0,
+    "gate_collision": 0,
+    "hatch": 0,
+    "hatch_collision": 0,
+    "cocoon": 0,
+    "freed": 1
+  },
+  {
+    "stage": 12,
+    "mood": "Recovered",
+    "crowd": 24,
+    "gate": 0,
+    "gate_collision": 0,
+    "hatch": 0,
+    "hatch_collision": 0,
+    "cocoon": 0,
+    "freed": 1
+  }
+]

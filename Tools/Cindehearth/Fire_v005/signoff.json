@@ -1,0 +1,225 @@
+{
+  "status": "APPLIED_AND_VERIFIED_FRONT_VIEW",
+  "date": "2026-09-05",
+  "user_art_approval": false,
+  "camera_unchanged": true,
+  "runtime": {
+    "passed": true,
+    "pie": true,
+    "fire_cards": [
+      {
+        "label": "CH_F5_FrontFire_Hearth",
+        "location": [
+          -59.4,
+          -24.57,
+          237.25
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -115.0
+        ],
+        "scale": [
+          1.9,
+          1.6,
+          1.0
+        ],
+        "material": "/Game/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Hearth.MI_CH_FrontFire_Hearth",
+        "bounds": [
+          [
+            -59.400000000000006,
+            -24.57,
+            237.25
+          ],
+          [
+            95.0,
+            33.80946093925597,
+            72.50462296293199
+          ]
+        ]
+      },
+      {
+        "label": "CH_F5_FrontFire_Forge",
+        "location": [
+          -91.7,
+          733.0,
+          282.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -90.00000000000001
+        ],
+        "scale": [
+          0.62,
+          0.33,
+          1.0
+        ],
+        "material": "/Game/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Forge.MI_CH_FrontFire_Forge",
+        "bounds": [
+          [
+            -91.7,
+            733.0,
+            282.0
+          ],
+          [
+            31.0,
+            0.0,
+            16.5
+          ]
+        ]
+      }
+    ],
+    "hidden_crossed_cards": [
+      "CH_HD2D_HearthFire0",
+      "CH_HD2D_HearthFire1",
+      "CH_HD2D_HearthFire2",
+      "CH_HD2D_ForgeFire0",
+      "CH_HD2D_ForgeFire1"
+    ],
+    "camera": [
+      -25,
+      90,
+      32,
+      2100
+    ],
+    "states": [
+      {
+        "night": false,
+        "fire_visible": true,
+        "light_count": 2
+      },
+      {
+        "night": true,
+        "fire_visible": true,
+        "light_count": 2
+      }
+    ]
+  },
+  "saved": {
+    "passed": true,
+    "pie": false,
+    "fire_cards": [
+      {
+        "label": "CH_F5_FrontFire_Hearth",
+        "location": [
+          -59.4,
+          -24.57,
+          237.25
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -115.0
+        ],
+        "scale": [
+          1.9,
+          1.6,
+          1.0
+        ],
+        "material": "/Game/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Hearth.MI_CH_FrontFire_Hearth",
+        "bounds": [
+          [
+            -59.400000000000006,
+            -24.57,
+            237.25
+          ],
+          [
+            95.0,
+            33.80946093925597,
+            72.50462296293199
+          ]
+        ]
+      },
+      {
+        "label": "CH_F5_FrontFire_Forge",
+        "location": [
+          -91.7,
+          733.0,
+          282.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -90.00000000000001
+        ],
+        "scale": [
+          0.62,
+          0.33,
+          1.0
+        ],
+        "material": "/Game/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Forge.MI_CH_FrontFire_Forge",
+        "bounds": [
+          [
+            -91.7,
+            733.0,
+            282.0
+          ],
+          [
+            31.0,
+            0.0,
+            16.5
+          ]
+        ]
+      }
+    ],
+    "hidden_crossed_cards": [
+      "CH_HD2D_HearthFire0",
+      "CH_HD2D_HearthFire1",
+      "CH_HD2D_HearthFire2",
+      "CH_HD2D_ForgeFire0",
+      "CH_HD2D_ForgeFire1"
+    ],
+    "camera": [
+      -25,
+      90,
+      32,
+      2100
+    ],
+    "states": [],
+    "source_material_unchanged": true
+  },
+  "material": {
+    "material": "/Game/Cindehearth/Fire_v005/Materials/M_CH_FrontFire",
+    "instances": [
+      "/Game/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Hearth",
+      "/Game/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Forge"
+    ],
+    "compile_requested": true,
+    "expressions": 7,
+    "render_mode": "Unlit translucent, depth-tested; two static quads; no Niagara"
+  },
+  "credits_used": 0,
+  "gates": {
+    "structural": "Two depth-tested NoCollision quads, seven-expression material and two instances; compile request returned true and shader rendered correctly.",
+    "runtime": "Actual PIE front camera and day/night state readback passed.",
+    "pixel": "Front captures show no crossed-plane blades or rectangular fringe; forge placed inside dark firebox.",
+    "aesthetic": "Root reviewed yellow core/orange rim, unequal tongues and three time samples; contact correction verified.",
+    "archetype": "Persistent fire anchored to logs/firebox, sparse upward motes; no extinguishing loop reset."
+  },
+  "visual_evidence": [
+    {
+      "path": "verification\\final_hearth_day.png",
+      "sha256": "b0b9eb720694ab7fc88a57012e9711f43f01f9d009aacb248d72204b4d66548e"
+    },
+    {
+      "path": "verification\\final_hearth_night.png",
+      "sha256": "84b2a869120dd8af68242a1f421a5d300d68d61abc8f48a997d665cf88ee67fa"
+    },
+    {
+      "path": "verification\\final_hearth_motion_a.png",
+      "sha256": "6c36da19bea57ebb02cf2788f50b2589cb1509cb7cc407314bf26866f63105b3"
+    },
+    {
+      "path": "verification\\final_hearth_motion_b.png",
+      "sha256": "017da482d77b6f502e69b89836ac7143822fb29341ae211a489e79363204633b"
+    },
+    {
+      "path": "verification\\forge_final_forge.png",
+      "sha256": "2641f8a6bfc11e0c4600f209cce239c08a8ca1ed4fc6dd4cd5a57038d570f1fd"
+    }
+  ],
+  "performance_scope": "Five old quads -> two, no new lights or particle simulation. No target-platform frame-budget qualification.",
+  "original_assets_preserved": true,
+  "backup": "Saved/CindehearthFireBackup/20260905_v005/L_Cindehearth.umap"
+}

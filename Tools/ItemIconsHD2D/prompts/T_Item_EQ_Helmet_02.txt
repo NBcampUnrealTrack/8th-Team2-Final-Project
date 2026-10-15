@@ -1,0 +1,9 @@
+Pixel art inventory icon for a HD-2D fantasy JRPG, drawn exactly like the attached character sprite (first image):
+- a strict 32 x 32 pixel grid, every pixel a clearly visible square block of the same size, no anti-aliasing, no blur, no gradients, no dithering noise
+- a crisp 1-pixel black outline around the whole silhouette, like the character sprite
+- the same limited, slightly muted warm palette as the character sprite (about 12-16 colours), soft cel shading in 3-4 tones, one small bright highlight, light from the upper left
+- one single item, centred, filling about 80% of the grid with an even margin, slight three-quarter view, chunky readable shape
+- solid flat pure magenta background (#FF00FF) everywhere around the item, no shadow on the ground, no frame, no text, no border, no vignette
+The second attached image (if any) only shows WHAT the item is; do not copy its drawing style.
+
+Item: a helmet seen from the front, open face, clean and well made, polished surface, neat reinforced details, a small sky-blue gemstone accent.

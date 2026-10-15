@@ -1,0 +1,21 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"168921478800218\",\n    \"command\": \"model.import\",\n    \"state\": \"queued\"\n  }\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "result": {
+      "queued": true,
+      "job_id": "168921478800218",
+      "command": "model.import",
+      "state": "queued"
+    }
+  },
+  "isError": false
+}

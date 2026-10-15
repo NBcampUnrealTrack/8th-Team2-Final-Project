@@ -1,0 +1,21 @@
+{
+  "source": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Materials/tripo_mat_50ec2d11.tripo_mat_50ec2d11",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_07_Sanctuary_882dc.MI_HD2D_LG_07_Sanctuary_882dc",
+  "kind": "Surface",
+  "scalars": {
+    "PixelGrid": 256.0,
+    "Roughness": 0.87,
+    "Metallic": 0.0
+  },
+  "vectors": {
+    "MaterialTint": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "textures": {
+    "BaseColorTexture": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Textures/LG_07_Sanctuary_fbx_basecolor"
+  }
+}

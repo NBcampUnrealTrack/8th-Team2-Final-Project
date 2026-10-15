@@ -1,0 +1,204 @@
+[
+  {
+    "tool": "blender_mesh_edit",
+    "arguments": {
+      "source_object_name": "CH_GormHouse_REF__tripo_node_1000c101-304e-4bf3-87a0-f5706d905714",
+      "output_object_name": "CH_GormHouse_Clean_v001",
+      "operations": [
+        {
+          "type": "merge_by_distance",
+          "distance": 1e-06
+        }
+      ]
+    },
+    "request_id": 248212713979791
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"248212713979791\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "248212713979791",
+        "command": "mesh.edit",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"248212713979791\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"finished\",\n    \"created_at\": 1788587020.8511035,\n    \"finished_at\": 1788587021.847964,\n    \"result\": {\n      \"source_object_name\": \"CH_GormHouse_REF__tripo_node_1000c101-304e-4bf3-87a0-f5706d905714\",\n      \"source_fingerprint\": \"c12e90fd176f70015aeb355d6c7322ca6dc40c086f93ab7992eba26c4315f1e2\",\n      \"output_object_name\": \"CH_GormHouse_Clean_v001\",\n      \"operations\": [\n        {\n          \"type\": \"merge_by_distance\"\n        }\n      ],\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_GormHouse_Clean_v001\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_GormHouse_Clean_v001_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            0.9878687262535095,\n            1.0,\n            0.9482496380805969\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"ae3b650af36075d56e7dbe5f2617ed9d4b5854fa7a558b32e4dff207f2775f27\",\n        \"geometry\": {\n          \"vertices\": 9324,\n          \"edges\": 28022,\n          \"polygons\": 18681,\n          \"triangles\": 18681,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 20,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 18,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            -0.49393436312675476,\n            -0.5,\n            -0.47412481904029846\n          ],\n          \"local_max\": [\n            0.49393436312675476,\n            0.5,\n            0.47412481904029846\n          ],\n          \"world_min\": [\n            -0.49393436312675476,\n            -0.5,\n            -0.47412481904029846\n          ],\n          \"world_max\": [\n            0.49393436312675476,\n            0.5,\n            0.47412481904029846\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"tripo_material_1000c101-304e-4bf3-87a0-f5706d905714\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"UVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 56043,\n            \"bounds_min\": [\n              0.0,\n              0.0\n            ],\n            \"bounds_max\": [\n              1.0,\n              1.0\n            ],\n            \"out_of_zero_one_range\": 0,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 0\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 94,\n          \"blockers\": [],\n          \"warnings\": [\n            {\n              \"code\": \"non_manifold_geometry\",\n              \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n            }\n          ],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "248212713979791",
+        "command": "mesh.edit",
+        "state": "finished",
+        "created_at": 1788587020.8511035,
+        "finished_at": 1788587021.847964,
+        "result": {
+          "source_object_name": "CH_GormHouse_REF__tripo_node_1000c101-304e-4bf3-87a0-f5706d905714",
+          "source_fingerprint": "c12e90fd176f70015aeb355d6c7322ca6dc40c086f93ab7992eba26c4315f1e2",
+          "output_object_name": "CH_GormHouse_Clean_v001",
+          "operations": [
+            {
+              "type": "merge_by_distance"
+            }
+          ],
+          "output": {
+            "object": {
+              "name": "CH_GormHouse_Clean_v001",
+              "type": "MESH",
+              "data_name": "CH_GormHouse_Clean_v001_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                0.9878687262535095,
+                1.0,
+                0.9482496380805969
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "ae3b650af36075d56e7dbe5f2617ed9d4b5854fa7a558b32e4dff207f2775f27",
+            "geometry": {
+              "vertices": 9324,
+              "edges": 28022,
+              "polygons": 18681,
+              "triangles": 18681,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 20,
+              "wire_edges": 0,
+              "non_manifold_edges": 18,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -0.49393436312675476,
+                -0.5,
+                -0.47412481904029846
+              ],
+              "local_max": [
+                0.49393436312675476,
+                0.5,
+                0.47412481904029846
+              ],
+              "world_min": [
+                -0.49393436312675476,
+                -0.5,
+                -0.47412481904029846
+              ],
+              "world_max": [
+                0.49393436312675476,
+                0.5,
+                0.47412481904029846
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_material_1000c101-304e-4bf3-87a0-f5706d905714"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "UVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 56043,
+                "bounds_min": [
+                  0.0,
+                  0.0
+                ],
+                "bounds_max": [
+                  1.0,
+                  1.0
+                ],
+                "out_of_zero_one_range": 0,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 94,
+              "blockers": [],
+              "warnings": [
+                {
+                  "code": "non_manifold_geometry",
+                  "message": "Mesh contains boundary, wire, or non-manifold edges."
+                }
+              ],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

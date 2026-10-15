@@ -1,0 +1,32 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Hollowcore_Game_v003.blend",
+  "object_name": "CH_Polish_Hollowcore_Game_v003",
+  "expected_fingerprint": "9fde94adfaeb3d7aa07a7aa83f676aea2769ec32580d396c003ff6ef741ed985",
+  "output_object_name": "CH_Polish_Hollowcore_Overlap004",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Hollowcore_Overlap004.blend",
+  "operation": "delete_faces",
+  "selection_ids": [
+    80,
+    93,
+    96,
+    118,
+    119,
+    124,
+    148,
+    159,
+    179,
+    358,
+    376,
+    470,
+    477,
+    478,
+    636,
+    1092,
+    1634,
+    1637
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "polish_hollowcore_Overlap004"
+}

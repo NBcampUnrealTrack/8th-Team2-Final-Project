@@ -1,0 +1,24 @@
+{
+  "scalars": {
+    "StyleStrength": 1.0,
+    "PixelBlend": 0.9,
+    "TextureDensity": 1.0,
+    "PaletteSteps": 24.0,
+    "PosterizeStrength": 0.55,
+    "Saturation": 0.93,
+    "Contrast": 1.07,
+    "ShadowLift": 0.025,
+    "RoughnessBias": 0.02,
+    "NormalStrength": 0.55,
+    "EmissiveMultiplier": 1.0,
+    "WorldPixelSizeCm": 3.0
+  },
+  "vectors": {
+    "GlobalTint": [
+      1.02,
+      1.0,
+      0.95,
+      1
+    ]
+  }
+}

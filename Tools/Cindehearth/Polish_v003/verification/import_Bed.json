@@ -1,0 +1,27 @@
+{
+  "status": "finished",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Bed_Closed004.glb",
+  "assets": [
+    "/Game/Cindehearth/Polish_v003/Models/Bed/CH_Polish_Bed_Closed004/Textures/Normal.Normal",
+    "/Game/Cindehearth/Polish_v003/Models/Bed/CH_Polish_Bed_Closed004/Textures/Color.Color",
+    "/Game/Cindehearth/Polish_v003/Models/Bed/CH_Polish_Bed_Closed004/Textures/tripo_image_cf6facc2_2-tripo_image_cf6facc2_1.tripo_image_cf6facc2_2-tripo_image_cf6facc2_1",
+    "/Game/Cindehearth/Polish_v003/Models/Bed/CH_Polish_Bed_Closed004/Materials/tripo_mat_cf6facc2.tripo_mat_cf6facc2",
+    "/Game/Cindehearth/Polish_v003/Models/Bed/CH_Polish_Bed_Closed004/StaticMeshes/CH_Polish_Bed_Closed004.CH_Polish_Bed_Closed004"
+  ],
+  "meshes": [
+    {
+      "path": "/Game/Cindehearth/Polish_v003/Models/Bed/CH_Polish_Bed_Closed004/StaticMeshes/CH_Polish_Bed_Closed004.CH_Polish_Bed_Closed004",
+      "triangles": 1302,
+      "min": [
+        -150.0,
+        -99.43820190429688,
+        0.0
+      ],
+      "max": [
+        150.0,
+        99.43820190429688,
+        128.2364501953125
+      ]
+    }
+  ]
+}

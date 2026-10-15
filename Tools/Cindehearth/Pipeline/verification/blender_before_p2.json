@@ -1,0 +1,138 @@
+[
+  {
+    "tool": "blender_scene_inspect",
+    "arguments": {},
+    "request_id": 218848867594442
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"scene\": \"Scene\",\n    \"active_object\": \"CH_GormHouse_REF__tripo_node_1000c101-304e-4bf3-87a0-f5706d905714\",\n    \"object_count\": 3,\n    \"returned_object_count\": 3,\n    \"truncated\": false,\n    \"collections\": [\n      \"Collection\"\n    ],\n    \"materials\": [\n      \"Dots Stroke\",\n      \"Material\",\n      \"tripo_material_1000c101-304e-4bf3-87a0-f5706d905714\"\n    ],\n    \"objects\": [\n      {\n        \"id\": \"OBJECT:CH_GormHouse_Clean_v001\",\n        \"name\": \"CH_GormHouse_Clean_v001\",\n        \"type\": \"MESH\",\n        \"data_name\": \"CH_GormHouse_Clean_v001_Mesh\",\n        \"location\": [\n          0.0,\n          0.0,\n          0.0\n        ],\n        \"rotation_degrees\": [\n          0.0,\n          0.0,\n          0.0\n        ],\n        \"scale\": [\n          1.0,\n          1.0,\n          1.0\n        ],\n        \"dimensions\": [\n          0.9878687262535095,\n          1.0,\n          0.9482496380805969\n        ],\n        \"parent\": null,\n        \"collections\": [\n          \"Collection\"\n        ],\n        \"hidden\": false,\n        \"selected\": false,\n        \"fingerprint\": \"ae3b650af36075d56e7dbe5f2617ed9d4b5854fa7a558b32e4dff207f2775f27\"\n      },\n      {\n        \"id\": \"OBJECT:CH_GormHouse_Game_v001\",\n        \"name\": \"CH_GormHouse_Game_v001\",\n        \"type\": \"MESH\",\n        \"data_name\": \"CH_GormHouse_Game_v001_Mesh\",\n        \"location\": [\n          0.0,\n          0.0,\n          0.0\n        ],\n        \"rotation_degrees\": [\n          0.0,\n          0.0,\n          0.0\n        ],\n        \"scale\": [\n          1.0,\n          1.0,\n          1.0\n        ],\n        \"dimensions\": [\n          3.1500000953674316,\n          2.700000047683716,\n          2.700000047683716\n        ],\n        \"parent\": null,\n        \"collections\": [\n          \"Collection\"\n        ],\n        \"hidden\": false,\n        \"selected\": false,\n        \"fingerprint\": \"d29ddc05ce106f2fbb76cf3a757da3399755f09be4033bfa577374aa8e7e9371\"\n      },\n      {\n        \"id\": \"OBJECT:CH_GormHouse_REF__tripo_node_1000c101-304e-4bf3-87a0-f5706d905714\",\n        \"name\": \"CH_GormHouse_REF__tripo_node_1000c101-304e-4bf3-87a0-f5706d905714\",\n        \"type\": \"MESH\",\n        \"data_name\": \"CH_GormHouse_REF__tripo_node_1000c101-304e-4bf3-87a0-f5706d905714_Mesh\",\n        \"location\": [\n          0.0,\n          0.0,\n          0.0\n        ],\n        \"rotation_degrees\": [\n          0.0,\n          0.0,\n          0.0\n        ],\n        \"scale\": [\n          1.0,\n          1.0,\n          1.0\n        ],\n        \"dimensions\": [\n          0.9878687262535095,\n          1.0,\n          0.9482496380805969\n        ],\n        \"parent\": null,\n        \"collections\": [\n          \"Collection\"\n        ],\n        \"hidden\": false,\n        \"selected\": false,\n        \"fingerprint\": \"c12e90fd176f70015aeb355d6c7322ca6dc40c086f93ab7992eba26c4315f1e2\"\n      }\n    ]\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "scene": "Scene",
+        "active_object": "CH_GormHouse_REF__tripo_node_1000c101-304e-4bf3-87a0-f5706d905714",
+        "object_count": 3,
+        "returned_object_count": 3,
+        "truncated": false,
+        "collections": [
+          "Collection"
+        ],
+        "materials": [
+          "Dots Stroke",
+          "Material",
+          "tripo_material_1000c101-304e-4bf3-87a0-f5706d905714"
+        ],
+        "objects": [
+          {
+            "id": "OBJECT:CH_GormHouse_Clean_v001",
+            "name": "CH_GormHouse_Clean_v001",
+            "type": "MESH",
+            "data_name": "CH_GormHouse_Clean_v001_Mesh",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_degrees": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "dimensions": [
+              0.9878687262535095,
+              1.0,
+              0.9482496380805969
+            ],
+            "parent": null,
+            "collections": [
+              "Collection"
+            ],
+            "hidden": false,
+            "selected": false,
+            "fingerprint": "ae3b650af36075d56e7dbe5f2617ed9d4b5854fa7a558b32e4dff207f2775f27"
+          },
+          {
+            "id": "OBJECT:CH_GormHouse_Game_v001",
+            "name": "CH_GormHouse_Game_v001",
+            "type": "MESH",
+            "data_name": "CH_GormHouse_Game_v001_Mesh",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_degrees": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "dimensions": [
+              3.1500000953674316,
+              2.700000047683716,
+              2.700000047683716
+            ],
+            "parent": null,
+            "collections": [
+              "Collection"
+            ],
+            "hidden": false,
+            "selected": false,
+            "fingerprint": "d29ddc05ce106f2fbb76cf3a757da3399755f09be4033bfa577374aa8e7e9371"
+          },
+          {
+            "id": "OBJECT:CH_GormHouse_REF__tripo_node_1000c101-304e-4bf3-87a0-f5706d905714",
+            "name": "CH_GormHouse_REF__tripo_node_1000c101-304e-4bf3-87a0-f5706d905714",
+            "type": "MESH",
+            "data_name": "CH_GormHouse_REF__tripo_node_1000c101-304e-4bf3-87a0-f5706d905714_Mesh",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_degrees": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "dimensions": [
+              0.9878687262535095,
+              1.0,
+              0.9482496380805969
+            ],
+            "parent": null,
+            "collections": [
+              "Collection"
+            ],
+            "hidden": false,
+            "selected": false,
+            "fingerprint": "c12e90fd176f70015aeb355d6c7322ca6dc40c086f93ab7992eba26c4315f1e2"
+          }
+        ]
+      }
+    },
+    "isError": false
+  }
+]

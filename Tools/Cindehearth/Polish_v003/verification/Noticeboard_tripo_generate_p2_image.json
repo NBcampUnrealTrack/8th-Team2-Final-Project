@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"asset_name\": \"CH_Polish_Noticeboard_P2_v003\",\n  \"request_id\": \"CH_Polish_Noticeboard_P2_20260905_v003\",\n  \"kind\": \"p2_image\",\n  \"api_version\": \"v3\",\n  \"parameters\": {\n    \"image_path\": \"C:\\\\Users\\\\Ndus_072\\\\RevDevTool\\\\RevStudio-ProjectM\\\\Tools\\\\Cindehearth\\\\Polish_v003\\\\reference\\\\Noticeboard.png\",\n    \"model\": \"P2-20260801\",\n    \"face_limit\": 650,\n    \"quad\": true,\n    \"texture\": true,\n    \"pbr\": true,\n    \"texture_quality\": \"standard\",\n    \"auto_size\": false,\n    \"export_uv\": true\n  },\n  \"status\": \"submitted\",\n  \"submitted_parameters\": {\n    \"model\": \"P2-20260801\",\n    \"face_limit\": 650,\n    \"quad\": true,\n    \"texture\": true,\n    \"pbr\": true,\n    \"texture_quality\": \"standard\",\n    \"auto_size\": false,\n    \"export_uv\": true,\n    \"input\": \"file_849f3b91-71b4-467b-9ffb-20ca5d4ff00b\"\n  },\n  \"task_id\": \"e1abc989-846e-423b-acd8-50b744577d59\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

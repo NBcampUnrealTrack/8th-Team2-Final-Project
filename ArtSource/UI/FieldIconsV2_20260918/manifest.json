@@ -1,0 +1,146 @@
+{
+  "tool": "native image_gen",
+  "image_model": "not exposed",
+  "images": [
+    {
+      "key": "Quest",
+      "prompt": "Use case: style-transfer. Asset: one production raster UI icon, RGBA transparent PNG, square. Image 1 is the existing icon to refine. Preserve its function and recognizable subject, but simplify its small internal cutouts and remove ragged fringes. Modern flat fantasy HUD icon intended to be readable at only 40 pixels tall inside an existing navy circle. DO NOT DRAW THE CIRCLE OR BACKPLATE. Main opaque warm ivory #F1E9D5, one small muted champagne #C7AC75 diamond accent, otherwise flat uniform color. Clean bold silhouette, consistent broad negative-space cuts, no hairline strokes, interior gaps at least 4% canvas width. One centered isolated emblem occupying 74% of canvas height with balanced margin. Transparent alpha=0 everywhere outside the emblem and in cutouts, solid opaque alpha=255 within shape. No texture grain, specks, distressed edges, outline shadow, glow, bevel, gradient, 3D rendering, text, labels, surrounding symbols, border, frame, backdrop, checkerboard pattern. This is a subtle refinement of an existing six-icon family, not a new logo. Closed adventure journal with one bookmark at top; keep slight three-quarter book silhouette, clean single spine division, one small champagne diamond on cover. Remove decorative corner flourishes and extra cover slots.",
+      "referenced_image_paths": [
+        "D:/UnrealEngine/ProjectM/ArtSource/UI/FieldHUDTheme_20260917/T_FHUD_Quest.png"
+      ],
+      "native_source": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-653b985c-20b4-44df-86fa-3ff32d5a13f9.png",
+      "attempt": 1,
+      "source_file": "ArtSource/UI/FieldIconsV2_20260918/T_FHUD_V2_Quest.png",
+      "asset_path": "/Game/Developers/MinkiCho/Art/FieldHUD/IconsV2/T_FHUD_V2_Quest",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "88e116fbf570cd9619845ab817905d5461d7a9a3adc2a45b8eb01b6d9d1f4967",
+      "opaque_bbox": [
+        298,
+        180,
+        961,
+        1096
+      ]
+    },
+    {
+      "key": "Character",
+      "prompt": "Use case: style-transfer. Asset: one production raster UI icon, RGBA transparent PNG, square. Image 1 is the existing icon to refine. Preserve its function and recognizable subject, but simplify its small internal cutouts and remove ragged fringes. Modern flat fantasy HUD icon intended to be readable at only 40 pixels tall inside an existing navy circle. DO NOT DRAW THE CIRCLE OR BACKPLATE. Main opaque warm ivory #F1E9D5, one small muted champagne #C7AC75 diamond accent, otherwise flat uniform color. Clean bold silhouette, consistent broad negative-space cuts, no hairline strokes, interior gaps at least 4% canvas width. One centered isolated emblem occupying 74% of canvas height with balanced margin. Transparent alpha=0 everywhere outside the emblem and in cutouts, solid opaque alpha=255 within shape. No texture grain, specks, distressed edges, outline shadow, glow, bevel, gradient, 3D rendering, text, labels, surrounding symbols, border, frame, backdrop, checkerboard pattern. This is a subtle refinement of an existing six-icon family, not a new logo. Front-facing youthful adventurer head and shoulders, short swept hair simplified into THREE broad locks, featureless face silhouette, plain collar; no eyes, no face lines, no intricate layered clothing, one small champagne diamond clasp.",
+      "referenced_image_paths": [
+        "D:/UnrealEngine/ProjectM/ArtSource/UI/FieldHUDTheme_20260917/T_FHUD_Character.png"
+      ],
+      "native_source": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-75447a6e-f84b-4df1-8ddd-c7908a98d7a6.png",
+      "attempt": 1,
+      "source_file": "ArtSource/UI/FieldIconsV2_20260918/T_FHUD_V2_Character.png",
+      "asset_path": "/Game/Developers/MinkiCho/Art/FieldHUD/IconsV2/T_FHUD_V2_Character",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "7fe6bf707ea632fe1868ba66210ee8ff53d8ddf3d1b50dce6d30f8f0d0b90730",
+      "opaque_bbox": [
+        122,
+        89,
+        1132,
+        1197
+      ]
+    },
+    {
+      "key": "Growth",
+      "prompt": "Use case: style-transfer. Asset: one production raster UI icon, RGBA transparent PNG, square. Image 1 is the existing icon to refine. Preserve its function and recognizable subject, but simplify its small internal cutouts and remove ragged fringes. Modern flat fantasy HUD icon intended to be readable at only 40 pixels tall inside an existing navy circle. DO NOT DRAW THE CIRCLE OR BACKPLATE. Main opaque warm ivory #F1E9D5, one small muted champagne #C7AC75 diamond accent, otherwise flat uniform color. Clean bold silhouette, consistent broad negative-space cuts, no hairline strokes, interior gaps at least 4% canvas width. One centered isolated emblem occupying 74% of canvas height with balanced margin. Transparent alpha=0 everywhere outside the emblem and in cutouts, solid opaque alpha=255 within shape. No texture grain, specks, distressed edges, outline shadow, glow, bevel, gradient, 3D rendering, text, labels, surrounding symbols, border, frame, backdrop, checkerboard pattern. This is a subtle refinement of an existing six-icon family, not a new logo. Symmetric growth tree with exactly FIVE simple leaves, one top leaf and two pairs on a branching stem. Broad trunk forks into only two simple root ends. Remove thin leaf veins, make generous gaps. Small champagne diamond at the central branch junction.",
+      "referenced_image_paths": [
+        "D:/UnrealEngine/ProjectM/ArtSource/UI/FieldHUDTheme_20260917/T_FHUD_Growth.png"
+      ],
+      "native_source": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-811df3f4-a462-42e7-b31d-fc8bb775ec66.png",
+      "attempt": 1,
+      "source_file": "ArtSource/UI/FieldIconsV2_20260918/T_FHUD_V2_Growth.png",
+      "asset_path": "/Game/Developers/MinkiCho/Art/FieldHUD/IconsV2/T_FHUD_V2_Growth",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "39f50da8ff44a8498f759f0751af83d9a53b46fb47776b23527d28fb58e10bac",
+      "opaque_bbox": [
+        253,
+        89,
+        1001,
+        1157
+      ]
+    },
+    {
+      "key": "Stats",
+      "prompt": "Use case: style-transfer. Asset: one production raster UI icon, RGBA transparent PNG, square. Image 1 is the existing icon to refine. Preserve its function and recognizable subject, but simplify its small internal cutouts and remove ragged fringes. Modern flat fantasy HUD icon intended to be readable at only 40 pixels tall inside an existing navy circle. DO NOT DRAW THE CIRCLE OR BACKPLATE. Main opaque warm ivory #F1E9D5, one small muted champagne #C7AC75 diamond accent, otherwise flat uniform color. Clean bold silhouette, consistent broad negative-space cuts, no hairline strokes, interior gaps at least 4% canvas width. One centered isolated emblem occupying 74% of canvas height with balanced margin. Transparent alpha=0 everywhere outside the emblem and in cutouts, solid opaque alpha=255 within shape. No texture grain, specks, distressed edges, outline shadow, glow, bevel, gradient, 3D rendering, text, labels, surrounding symbols, border, frame, backdrop, checkerboard pattern. This is a subtle refinement of an existing six-icon family, not a new logo. Upright sword centered in front of simple shield. Sword point down, short straight guard, generous clean transparent channels separating blade and shield. Small champagne diamond pommel; no heraldry, rivets or filigree.",
+      "referenced_image_paths": [
+        "D:/UnrealEngine/ProjectM/ArtSource/UI/FieldHUDTheme_20260917/T_FHUD_Stats.png"
+      ],
+      "native_source": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-43cc041f-4409-4294-a97b-00ceb5365be6.png",
+      "attempt": 1,
+      "source_file": "ArtSource/UI/FieldIconsV2_20260918/T_FHUD_V2_Stats.png",
+      "asset_path": "/Game/Developers/MinkiCho/Art/FieldHUD/IconsV2/T_FHUD_V2_Stats",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "26fd900fc0bc28b8caae7ec986f8d9bf7eaafb0b2e4ddfe755e37f39fd7e963a",
+      "opaque_bbox": [
+        308,
+        139,
+        946,
+        1115
+      ]
+    },
+    {
+      "key": "Inventory",
+      "prompt": "Use case: style-transfer. Asset: one production raster UI icon, RGBA transparent PNG, square. Image 1 is the existing icon to refine. Preserve its function and recognizable subject, but simplify its small internal cutouts and remove ragged fringes. Modern flat fantasy HUD icon intended to be readable at only 40 pixels tall inside an existing navy circle. DO NOT DRAW THE CIRCLE OR BACKPLATE. Main opaque warm ivory #F1E9D5, one small muted champagne #C7AC75 diamond accent, otherwise flat uniform color. Clean bold silhouette, consistent broad negative-space cuts, no hairline strokes, interior gaps at least 4% canvas width. One centered isolated emblem occupying 74% of canvas height with balanced margin. Transparent alpha=0 everywhere outside the emblem and in cutouts, solid opaque alpha=255 within shape. No texture grain, specks, distressed edges, outline shadow, glow, bevel, gradient, 3D rendering, text, labels, surrounding symbols, border, frame, backdrop, checkerboard pattern. This is a subtle refinement of an existing six-icon family, not a new logo. Simple front-facing adventurer backpack, loop handle, clean flap, ONE broad pocket, no side pouches or thin straps. Small champagne diamond clasp on flap. Clear strong compact silhouette.",
+      "referenced_image_paths": [
+        "D:/UnrealEngine/ProjectM/ArtSource/UI/FieldHUDTheme_20260917/T_FHUD_Inventory.png"
+      ],
+      "native_source": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-c788cc07-6ba1-40a9-a8c3-71a3808000d1.png",
+      "attempt": 1,
+      "source_file": "ArtSource/UI/FieldIconsV2_20260918/T_FHUD_V2_Inventory.png",
+      "asset_path": "/Game/Developers/MinkiCho/Art/FieldHUD/IconsV2/T_FHUD_V2_Inventory",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "82190473db239f168f533039e155fb00f9fa59227be2a1aa46ff8ccf8b9aeb1c",
+      "opaque_bbox": [
+        263,
+        159,
+        990,
+        1115
+      ]
+    },
+    {
+      "key": "Naia",
+      "prompt": "Use case: style-transfer. Asset: one production raster UI icon, RGBA transparent PNG, square. Image 1 is the existing icon to refine. Preserve its function and recognizable subject, but simplify its small internal cutouts and remove ragged fringes. Modern flat fantasy HUD icon intended to be readable at only 40 pixels tall inside an existing navy circle. DO NOT DRAW THE CIRCLE OR BACKPLATE. Main opaque warm ivory #F1E9D5, one small muted champagne #C7AC75 diamond accent, otherwise flat uniform color. Clean bold silhouette, consistent broad negative-space cuts, no hairline strokes, interior gaps at least 4% canvas width. One centered isolated emblem occupying 74% of canvas height with balanced margin. Transparent alpha=0 everywhere outside the emblem and in cutouts, solid opaque alpha=255 within shape. No texture grain, specks, distressed edges, outline shadow, glow, bevel, gradient, 3D rendering, text, labels, surrounding symbols, border, frame, backdrop, checkerboard pattern. This is a subtle refinement of an existing six-icon family, not a new logo. Friendly Naia spirit companion face, two large pointed leaf-shaped ears, compact rounded cheeks, two simple almond eye cutouts and tiny nose; remove smiling mouth detail, hair tufts and veins. One small champagne diamond forehead mark. Keep friendly sprite character, not fierce tribal mask.",
+      "referenced_image_paths": [
+        "D:/UnrealEngine/ProjectM/ArtSource/UI/FieldHUDTheme_20260917/T_FHUD_Naia.png"
+      ],
+      "native_source": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-fac0a782-ab46-4768-b7ad-4f76bf5aebff.png",
+      "attempt": 1,
+      "source_file": "ArtSource/UI/FieldIconsV2_20260918/T_FHUD_V2_Naia.png",
+      "asset_path": "/Game/Developers/MinkiCho/Art/FieldHUD/IconsV2/T_FHUD_V2_Naia",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "49cdcfb12ad4184f2e489b4559737d84b7695d2f96ebc6ee191458cdc2f0a9b2",
+      "opaque_bbox": [
+        71,
+        200,
+        1184,
+        1084
+      ]
+    }
+  ],
+  "source_pixels_unmodified": true,
+  "guide_sha256": "6ee4559f6ffe1d11a03652d40929f041721ace3afb9bb231f8a48c047a3c498d"
+}

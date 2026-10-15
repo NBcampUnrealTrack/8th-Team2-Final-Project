@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "output": "{'position': [540.0210859667282, -5403.141131028518, 997.6529220330137], 'rotation': [5.264030669829356e-15, -25.0, 90.0], 'fov': 32.0, 'arm_length': 2100.0, 'arm_rotation': [-1.7130840076359463e-15, -25.0, 3.797815949917893e-16], 'collision_test': False}",
+  "result": "None",
+  "warnings": [],
+  "execution_time_ms": 13.699498176574707
+}

@@ -1,0 +1,28 @@
+[
+ {
+  "shot": "res_preload",
+  "py": "qa_preload.py",
+  "wait": 12,
+  "frames": 120,
+  "noui": true
+ },
+ {
+  "shot": "res_battle",
+  "py": "qa_battle.py",
+  "wait": 11,
+  "frames": 200
+ },
+ {
+  "shot": "res_plate",
+  "py": "qa_result_plate.py",
+  "wait": 1.0,
+  "frames": 30,
+  "noui": true
+ },
+ {
+  "shot": "res_now",
+  "py": "qa_result_now.py",
+  "wait": 1.5,
+  "frames": 40
+ }
+]

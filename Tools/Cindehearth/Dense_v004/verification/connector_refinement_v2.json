@@ -1,0 +1,221 @@
+{
+  "reason": "Movement QA exposed connector scale assumed .45 instead of saved7.2/3.6/.135. Restored from baseline.",
+  "bounds": [
+    [
+      -2490.2999999999997,
+      361.8,
+      150.75
+    ],
+    [
+      266.4000000000001,
+      120.60000000000002,
+      6.75
+    ]
+  ],
+  "placements": [
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_S_00",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2267.8999999999996,
+        219.2,
+        148.5
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_S_01",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2363.8999999999996,
+        219.2,
+        148.5
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_S_02",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2459.8999999999996,
+        219.2,
+        148.5
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_Rubble_S",
+      "group": "Ashslope",
+      "mesh": "Ridge",
+      "center_bottom": [
+        -2567.8999999999996,
+        186.2,
+        141.5
+      ],
+      "size": [
+        110,
+        76,
+        56
+      ],
+      "yaw": -18,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_N_00",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2267.8999999999996,
+        504.40000000000003,
+        148.5
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_N_01",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2363.8999999999996,
+        504.40000000000003,
+        148.5
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_N_02",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2459.8999999999996,
+        504.40000000000003,
+        148.5
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_Rubble_N",
+      "group": "Ashslope",
+      "mesh": "Ridge",
+      "center_bottom": [
+        -2567.8999999999996,
+        537.4000000000001,
+        141.5
+      ],
+      "size": [
+        110,
+        76,
+        56
+      ],
+      "yaw": 18,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_OreCrate",
+      "group": "Ashslope",
+      "mesh": "Crate",
+      "center_bottom": [
+        -2301.8999999999996,
+        139.2,
+        157.5
+      ],
+      "size": [
+        60,
+        52,
+        48
+      ],
+      "yaw": -6,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_StackedCrate",
+      "group": "Ashslope",
+      "mesh": "Crate",
+      "center_bottom": [
+        -2301.8999999999996,
+        139.2,
+        203.5
+      ],
+      "size": [
+        40,
+        38,
+        34
+      ],
+      "yaw": 7,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_Barrel",
+      "group": "Ashslope",
+      "mesh": "Barrel",
+      "center_bottom": [
+        -2368.8999999999996,
+        143.2,
+        157.5
+      ],
+      "size": [
+        45,
+        45,
+        54
+      ],
+      "yaw": 23,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_DiscardedCrate",
+      "group": "Ashslope",
+      "mesh": "Crate",
+      "center_bottom": [
+        -2425.8999999999996,
+        152.2,
+        157.5
+      ],
+      "size": [
+        44,
+        40,
+        30
+      ],
+      "yaw": -19,
+      "collision": false
+    }
+  ]
+}

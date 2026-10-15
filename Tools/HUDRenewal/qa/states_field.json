@@ -1,0 +1,6 @@
+[
+ {"shot": "new_village", "py": "qa_village.py", "wait": 20, "frames": 240},
+ {"shot": "new_banner", "py": "qa_banner.py", "wait": 0.9, "frames": 30},
+ {"shot": "new_invite", "py": "qa_invite.py", "wait": 1.2, "frames": 40},
+ {"shot": "new_chat", "py": "qa_chat.py", "wait": 0.8, "frames": 30}
+]

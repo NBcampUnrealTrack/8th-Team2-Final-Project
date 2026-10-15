@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "output": "ASSET AUDIT {\"missing_or_empty\": [], \"mesh_count\": 157}",
+  "result": "None",
+  "warnings": [],
+  "execution_time_ms": 18.368698120117188
+}

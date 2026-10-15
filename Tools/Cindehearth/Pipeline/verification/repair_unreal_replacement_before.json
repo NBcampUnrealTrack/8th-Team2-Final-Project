@@ -1,0 +1,26 @@
+{
+  "actor": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_1336",
+  "mesh": "/Game/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/StaticMeshes/CH_GormP2_Game_v001.CH_GormP2_Game_v001",
+  "materials": [
+    "/Game/Cindehearth/Tripo/GormHouse_P2_v001/MI_CH_GormP2_Pixel.MI_CH_GormP2_Pixel"
+  ],
+  "location": [
+    -1125.0,
+    -1620.0,
+    0.0
+  ],
+  "rotation": [
+    -0.0,
+    0.0,
+    180.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "tags": [
+    "CH.P2SmartMesh",
+    "CH.GormHouse"
+  ]
+}

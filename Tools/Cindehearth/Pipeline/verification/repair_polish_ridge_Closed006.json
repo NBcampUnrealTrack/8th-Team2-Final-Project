@@ -1,0 +1,23 @@
+[
+  {
+    "job_id": "polish_ridge_Closed006",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_ridge_Closed006",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_ridge_Closed006"
+  },
+  {
+    "job_id": "polish_ridge_Closed006",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_ridge_Closed006"
+  },
+  {
+    "job_id": "polish_ridge_Closed006",
+    "state": "failed",
+    "success": false,
+    "error": "('non_manifold_edges', {'vertices': 1132, 'edges': 2415, 'polygons': 1422, 'triangles': 2018, 'ngons': 0, 'loose_vertices': 0, 'loose_edges': 0, 'zero_length_edges': 0, 'boundary_edges': 0, 'wire_edges': 0, 'non_manifold_edges': 16, 'degenerate_faces': 0, 'invalid_face_normals': 0, 'non_finite_vertices': 0})",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 282, in <module>\n    result=run(json.loads(req.read_text(encoding='utf-8')))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 265, in run\n    assert after['geometry'][name]<=before['geometry'][name],(name,after['geometry'])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('non_manifold_edges', {'vertices': 1132, 'edges': 2415, 'polygons': 1422, 'triangles': 2018, 'ngons': 0, 'loose_vertices': 0, 'loose_edges': 0, 'zero_length_edges': 0, 'boundary_edges': 0, 'wire_edges': 0, 'non_manifold_edges': 16, 'degenerate_faces': 0, 'invalid_face_normals': 0, 'non_finite_vertices': 0})\n"
+  }
+]

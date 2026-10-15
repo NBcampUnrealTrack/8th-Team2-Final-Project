@@ -1,0 +1,230 @@
+[
+  {
+    "tool": "blender_mesh_edit",
+    "arguments": {
+      "source_object_name": "CH_Polish_Laundry_REF___tripo_node_4b6b3464",
+      "output_object_name": "CH_Polish_Laundry_Game_v003",
+      "operations": [
+        {
+          "type": "transform_object",
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "transform_vertices",
+          "scale": [
+            3.001465559355154,
+            3.001465559355154,
+            3.001465559355154
+          ],
+          "translation": [
+            -0.0,
+            -0.0,
+            0.8492916463116756
+          ]
+        },
+        {
+          "type": "delete_loose"
+        }
+      ]
+    },
+    "request_id": 76490481088430
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"76490481088430\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "76490481088430",
+        "command": "mesh.edit",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"76490481088430\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"finished\",\n    \"created_at\": 1788595465.1663182,\n    \"finished_at\": 1788595465.2630029,\n    \"result\": {\n      \"source_object_name\": \"CH_Polish_Laundry_REF___tripo_node_4b6b3464\",\n      \"source_fingerprint\": \"b43ac3cefaa89c3b174847bb2bd3c5ef7795bc2d72988f0c0ec36e211a27fbb8\",\n      \"output_object_name\": \"CH_Polish_Laundry_Game_v003\",\n      \"operations\": [\n        {\n          \"type\": \"transform_object\"\n        },\n        {\n          \"type\": \"transform_vertices\"\n        },\n        {\n          \"type\": \"delete_loose\"\n        }\n      ],\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_Polish_Laundry_Game_v003\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Polish_Laundry_Game_v003_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            0.6785539984703064,\n            3.0,\n            1.6985832452774048\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"f6a65ab09d183508944d9aa8d429ec35a8f60474a1e2c34361820b9edfaea969\",\n        \"geometry\": {\n          \"vertices\": 755,\n          \"edges\": 1443,\n          \"polygons\": 735,\n          \"triangles\": 1232,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 184,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 0,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            -0.3392769992351532,\n            -1.5,\n            0.0\n          ],\n          \"local_max\": [\n            0.3392769992351532,\n            1.5,\n            1.6985832452774048\n          ],\n          \"world_min\": [\n            -0.3392769992351532,\n            -1.5,\n            0.0\n          ],\n          \"world_max\": [\n            0.3392769992351532,\n            1.5,\n            1.6985832452774048\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"tripo_mat_4b6b3464\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"tripo_4b6b3464_8c0c_4af5_84c4_29f820384ff0_NewUVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 2702,\n            \"bounds_min\": [\n              0.0006690844311378896,\n              0.0006690607406198978\n            ],\n            \"bounds_max\": [\n              0.9993309378623962,\n              0.9968388080596924\n            ],\n            \"out_of_zero_one_range\": 0,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 0\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 94,\n          \"blockers\": [],\n          \"warnings\": [\n            {\n              \"code\": \"non_manifold_geometry\",\n              \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n            }\n          ],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "76490481088430",
+        "command": "mesh.edit",
+        "state": "finished",
+        "created_at": 1788595465.1663182,
+        "finished_at": 1788595465.2630029,
+        "result": {
+          "source_object_name": "CH_Polish_Laundry_REF___tripo_node_4b6b3464",
+          "source_fingerprint": "b43ac3cefaa89c3b174847bb2bd3c5ef7795bc2d72988f0c0ec36e211a27fbb8",
+          "output_object_name": "CH_Polish_Laundry_Game_v003",
+          "operations": [
+            {
+              "type": "transform_object"
+            },
+            {
+              "type": "transform_vertices"
+            },
+            {
+              "type": "delete_loose"
+            }
+          ],
+          "output": {
+            "object": {
+              "name": "CH_Polish_Laundry_Game_v003",
+              "type": "MESH",
+              "data_name": "CH_Polish_Laundry_Game_v003_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                0.6785539984703064,
+                3.0,
+                1.6985832452774048
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "f6a65ab09d183508944d9aa8d429ec35a8f60474a1e2c34361820b9edfaea969",
+            "geometry": {
+              "vertices": 755,
+              "edges": 1443,
+              "polygons": 735,
+              "triangles": 1232,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 184,
+              "wire_edges": 0,
+              "non_manifold_edges": 0,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -0.3392769992351532,
+                -1.5,
+                0.0
+              ],
+              "local_max": [
+                0.3392769992351532,
+                1.5,
+                1.6985832452774048
+              ],
+              "world_min": [
+                -0.3392769992351532,
+                -1.5,
+                0.0
+              ],
+              "world_max": [
+                0.3392769992351532,
+                1.5,
+                1.6985832452774048
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_mat_4b6b3464"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "tripo_4b6b3464_8c0c_4af5_84c4_29f820384ff0_NewUVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 2702,
+                "bounds_min": [
+                  0.0006690844311378896,
+                  0.0006690607406198978
+                ],
+                "bounds_max": [
+                  0.9993309378623962,
+                  0.9968388080596924
+                ],
+                "out_of_zero_one_range": 0,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 94,
+              "blockers": [],
+              "warnings": [
+                {
+                  "code": "non_manifold_geometry",
+                  "message": "Mesh contains boundary, wire, or non-manifold edges."
+                }
+              ],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

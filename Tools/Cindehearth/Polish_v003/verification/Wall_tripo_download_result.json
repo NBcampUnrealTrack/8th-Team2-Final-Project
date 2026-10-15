@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"downloaded\": true,\n  \"task_id\": \"56d1db8c-4e0c-43cd-b154-3bb24b008bb1\",\n  \"asset_name\": \"CH_Polish_Wall_P2_v003\",\n  \"files\": {\n    \"model\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Wall_P2_v003\\\\56d1db8c-4e0c-43cd-b154-3bb24b008bb1\\\\56d1db8c-4e0c-43cd-b154-3bb24b008bb1_model.fbx\",\n    \"rendered_image\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Wall_P2_v003\\\\56d1db8c-4e0c-43cd-b154-3bb24b008bb1\\\\56d1db8c-4e0c-43cd-b154-3bb24b008bb1_rendered.webp\"\n  },\n  \"output_directory\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Wall_P2_v003\\\\56d1db8c-4e0c-43cd-b154-3bb24b008bb1\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

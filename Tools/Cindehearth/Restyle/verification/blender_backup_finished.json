@@ -1,0 +1,27 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"30526816685137\",\n    \"command\": \"file.save_copy\",\n    \"state\": \"finished\",\n    \"created_at\": 1788590826.0821047,\n    \"finished_at\": 1788590826.170151,\n    \"result\": {\n      \"path\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Restyle\\\\Session_before_v001.blend\",\n      \"bytes\": 5019634,\n      \"copy\": true\n    }\n  }\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "result": {
+      "job_id": "30526816685137",
+      "command": "file.save_copy",
+      "state": "finished",
+      "created_at": 1788590826.0821047,
+      "finished_at": 1788590826.170151,
+      "result": {
+        "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\Session_before_v001.blend",
+        "bytes": 5019634,
+        "copy": true
+      }
+    }
+  },
+  "isError": false
+}

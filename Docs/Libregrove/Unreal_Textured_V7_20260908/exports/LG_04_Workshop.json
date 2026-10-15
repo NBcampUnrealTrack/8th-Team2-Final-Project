@@ -1,0 +1,158 @@
+{
+  "id": "LG_04_Workshop",
+  "name_ko": "목공·직공 작업소",
+  "source_name": "LG_04_Workshop.fbx",
+  "output_name": "SM_LG_04_Workshop_V7",
+  "source_fingerprint": "1826c6f7c8992a74d654af7980b56ef42565fc6f7377a77a836867beb44aaf6c",
+  "output_report": {
+    "object": {
+      "name": "SM_LG_04_Workshop_V7",
+      "type": "MESH",
+      "data_name": "SM_LG_04_Workshop_V7_Mesh",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.427934408187866,
+        2.3993873596191406,
+        2.51990008354187
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "collections": [
+        "Collection"
+      ]
+    },
+    "fingerprint": "cb8204a9a51d436fc069c003e93e79d41c6a0f17aadb214dd89b8a80c9c29a68",
+    "geometry": {
+      "vertices": 8370,
+      "edges": 20590,
+      "polygons": 12452,
+      "triangles": 12452,
+      "ngons": 0,
+      "loose_vertices": 0,
+      "loose_edges": 0,
+      "zero_length_edges": 0,
+      "boundary_edges": 3872,
+      "wire_edges": 0,
+      "non_manifold_edges": 48,
+      "degenerate_faces": 1,
+      "invalid_face_normals": 0,
+      "non_finite_vertices": 0
+    },
+    "bounds": {
+      "local_min": [
+        -1.713967204093933,
+        -1.1996936798095703,
+        0.0
+      ],
+      "local_max": [
+        1.713967204093933,
+        1.1996936798095703,
+        2.51990008354187
+      ],
+      "world_min": [
+        -1.713967204093933,
+        -1.1996936798095703,
+        0.0
+      ],
+      "world_max": [
+        1.713967204093933,
+        1.1996936798095703,
+        2.51990008354187
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "tripo_mat_317b1c2b"
+      }
+    ],
+    "uv_layers": [
+      {
+        "name": "UVMap",
+        "active": true,
+        "active_render": true,
+        "loop_count": 37356,
+        "bounds_min": [
+          0.001953125,
+          0.001953125
+        ],
+        "bounds_max": [
+          0.989501953125,
+          0.994140625
+        ],
+        "out_of_zero_one_range": 0,
+        "non_finite": 0,
+        "degenerate_faces": 151
+      }
+    ],
+    "modifiers": [],
+    "quality": {
+      "passed": false,
+      "score": 69,
+      "blockers": [
+        {
+          "code": "degenerate_faces",
+          "message": "Mesh contains zero-area faces."
+        }
+      ],
+      "warnings": [
+        {
+          "code": "non_manifold_geometry",
+          "message": "Mesh contains boundary, wire, or non-manifold edges."
+        }
+      ],
+      "requirements": {}
+    }
+  },
+  "scale_factor": 3.427934373962139,
+  "dimensions_cm": [
+    342.7934408187866,
+    239.93873596191406,
+    251.990008354187
+  ],
+  "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_04_Workshop_V7.glb",
+  "sha256": "020ea03cdf2108cc3dfa502d69646a84623bfbbd9ee6c3c92b12a3580b4a82c1",
+  "recommended_vertex_max": 3200,
+  "initial_triangle_budget": 5000,
+  "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop",
+  "geometry_uv_unchanged_except_uniform_scale": true
+}

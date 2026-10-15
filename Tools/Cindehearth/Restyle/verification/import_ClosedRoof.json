@@ -1,0 +1,15 @@
+{
+  "status": "finished",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_ClosedRoof_v001.glb",
+  "assets": [
+    "/Game/Cindehearth/HD2D_v002/Models/ClosedRoof/CH_ClosedRoof_v001/Textures/CH_GormRoof_Color_v002.CH_GormRoof_Color_v002",
+    "/Game/Cindehearth/HD2D_v002/Models/ClosedRoof/CH_ClosedRoof_v001/Materials/CH_GormP2_Repaired_v002_RoofMaterial.CH_GormP2_Repaired_v002_RoofMaterial",
+    "/Game/Cindehearth/HD2D_v002/Models/ClosedRoof/CH_ClosedRoof_v001/StaticMeshes/CH_ClosedRoof_v001.CH_ClosedRoof_v001"
+  ],
+  "meshes": [
+    {
+      "path": "/Game/Cindehearth/HD2D_v002/Models/ClosedRoof/CH_ClosedRoof_v001/StaticMeshes/CH_ClosedRoof_v001.CH_ClosedRoof_v001",
+      "triangles": 20
+    }
+  ]
+}

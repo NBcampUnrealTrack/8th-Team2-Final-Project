@@ -1,0 +1,215 @@
+{
+  "prior": {
+    "type": "perspective",
+    "location": [
+      206.50281671924418,
+      567.3618259898999,
+      335.17801404102477
+    ],
+    "rotation": [
+      0.0,
+      -18.0,
+      -110.0
+    ],
+    "fov": 60.0,
+    "realtime": false,
+    "game_view": false
+  },
+  "framing": {
+    "actor_center": [
+      0.0,
+      0.0,
+      139.0
+    ],
+    "actor_extent": [
+      152.62559509277344,
+      113.25818634033203,
+      139.5
+    ],
+    "distance": 634.8453891276645
+  },
+  "scene": {
+    "success": true,
+    "camera": {
+      "location": [
+        -206.50281671924427,
+        -567.3618259898998,
+        335.17801404102477
+      ],
+      "rotation": [
+        -18,
+        70,
+        0
+      ],
+      "fov": 60
+    },
+    "viewport": [
+      1543,
+      615
+    ],
+    "actor_count": 8,
+    "total_matching": 8,
+    "actors": [
+      {
+        "name": "DirectionalLight_0",
+        "label": "DirectionalLight",
+        "class": "DirectionalLight",
+        "pos_cm": [
+          0,
+          0,
+          400
+        ],
+        "extent_cm": [
+          175.82205561136266,
+          128,
+          189.16763074012482
+        ],
+        "dist_cm": 607.2435629689628,
+        "screen_px": [
+          771,
+          -291
+        ]
+      },
+      {
+        "name": "PlayerStart_0",
+        "label": "PlayerStart",
+        "class": "PlayerStart",
+        "pos_cm": [
+          0,
+          0,
+          92
+        ],
+        "extent_cm": [
+          184,
+          128,
+          128
+        ],
+        "dist_cm": 650.9058314506883,
+        "screen_px": [
+          771,
+          399
+        ]
+      },
+      {
+        "name": "StaticMeshActor_0",
+        "label": "SM_SkySphere",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          0
+        ],
+        "extent_cm": [
+          1638400,
+          1638400,
+          1638400
+        ],
+        "dist_cm": 690.5701673255662,
+        "screen_px": [
+          771,
+          568
+        ]
+      },
+      {
+        "name": "Floor_0",
+        "label": "Floor",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          4000.00146484375,
+          4000,
+          200.0001220703125
+        ],
+        "dist_cm": 690.8129877283009,
+        "screen_px": [
+          771,
+          569
+        ]
+      },
+      {
+        "name": "StaticMeshActor_5",
+        "label": "LGV7_LG_05_WatermillHouse",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          152.62559509277344,
+          113.25818634033203,
+          139.5
+        ],
+        "dist_cm": 690.8129877283009,
+        "screen_px": [
+          771,
+          569
+        ]
+      },
+      {
+        "name": "Brush_1",
+        "label": "Brush1",
+        "class": "Brush",
+        "pos_cm": [
+          -90,
+          110,
+          20
+        ],
+        "extent_cm": [
+          1000,
+          1000,
+          100
+        ],
+        "dist_cm": 756.1277207897707,
+        "screen_px": [
+          992,
+          471
+        ]
+      },
+      {
+        "name": "StaticMeshActor_8",
+        "label": "LGV7_LG_08_BroadleafTree",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          850,
+          -0.5
+        ],
+        "extent_cm": [
+          249.99325561523438,
+          245.50729370117188,
+          225
+        ],
+        "dist_cm": 1471.1348300536329,
+        "screen_px": [
+          1042,
+          201
+        ]
+      },
+      {
+        "name": "StaticMeshActor_9",
+        "label": "LGV7_LG_09_MarketStall",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          850,
+          850,
+          -0.5
+        ],
+        "extent_cm": [
+          100.64171600341797,
+          80.08831024169922,
+          85.5
+        ],
+        "dist_cm": 1799.3866945766956,
+        "screen_px": [
+          375,
+          148
+        ]
+      }
+    ]
+  }
+}

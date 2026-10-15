@@ -1,0 +1,3 @@
+[
+ {"shot": "res_select", "py": "game_select_dummies.py", "wait": 25}
+]

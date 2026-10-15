@@ -1,0 +1,3 @@
+﻿{
+    "code":  "import unreal\nfor s in unreal.WidgetService.get_widget_snapshot(\u0027/Game/Developers/dbals/UI/WBP_ConfirmDialog\u0027):print(s.widget_name,s.widget_class,s.parent_widget)"
+}

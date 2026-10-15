@@ -1,0 +1,435 @@
+[
+  {
+    "job_id": "gorm_closed_roof_001",
+    "state": "running"
+  },
+  {
+    "job_id": "gorm_closed_roof_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\gorm_closed_roof_001"
+  },
+  {
+    "job_id": "gorm_closed_roof_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\gorm_closed_roof_001"
+  },
+  {
+    "job_id": "gorm_closed_roof_001",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "0ac5998dfcc28f21fe97f942fb7213fe2fae9e227863bc1cf50afe1c55cc091f",
+      "source": {
+        "object": {
+          "name": "CH_GormP2_Game_v001",
+          "type": "MESH",
+          "data_name": "CH_GormP2_Game_v001_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            3.1500000953674316,
+            2.700000047683716,
+            2.5999999046325684
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "18c220125260c20be6db8054d3f2b0d573457432472428bebac52d8949825b7a",
+        "geometry": {
+          "vertices": 2129,
+          "edges": 3984,
+          "polygons": 1907,
+          "triangles": 3363,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 803,
+          "wire_edges": 0,
+          "non_manifold_edges": 12,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.5750000476837158,
+            -1.350000023841858,
+            -1.1920928955078125e-07
+          ],
+          "local_max": [
+            1.5749999284744263,
+            1.350000023841858,
+            2.5999999046325684
+          ],
+          "world_min": [
+            -1.5750000476837158,
+            -1.350000023841858,
+            -1.1920928955078125e-07
+          ],
+          "world_max": [
+            1.5749999284744263,
+            1.350000023841858,
+            2.5999999046325684
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_f79424fa"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "f79424fa_dbd0_4137_95c2_3e7a2ff0a14f_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 7177,
+            "bounds_min": [
+              0.0010820861207321286,
+              0.0010808086954057217
+            ],
+            "bounds_max": [
+              0.9989191293716431,
+              0.9896203875541687
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_GormP2_Repaired_v002",
+          "type": "MESH",
+          "data_name": "CH_GormP2_Repaired_v002_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            3.0900001525878906,
+            2.700000047683716,
+            2.5999999046325684
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "2e4a787dc322bcb7b796b84c7d9f386d02c843a8f7bad920ba28309669e78c87",
+        "geometry": {
+          "vertices": 1461,
+          "edges": 2522,
+          "polygons": 1123,
+          "triangles": 2114,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 684,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.5134999752044678,
+            -1.350000023841858,
+            -1.1920928955078125e-07
+          ],
+          "local_max": [
+            1.5765000581741333,
+            1.350000023841858,
+            2.5999999046325684
+          ],
+          "world_min": [
+            -1.5134999752044678,
+            -1.350000023841858,
+            -1.1920928955078125e-07
+          ],
+          "world_max": [
+            1.5765000581741333,
+            1.350000023841858,
+            2.5999999046325684
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_f79424fa"
+          },
+          {
+            "slot": 1,
+            "name": "CH_GormP2_Repaired_v002_RoofMaterial"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "f79424fa_dbd0_4137_95c2_3e7a2ff0a14f_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 4360,
+            "bounds_min": [
+              0.0010820861207321286,
+              0.0010808086954057217
+            ],
+            "bounds_max": [
+              0.9989191293716431,
+              0.9896203875541687
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "roof": {
+          "object": {
+            "name": "CH_GormP2_Repaired_v002_Roof",
+            "type": "MESH",
+            "data_name": "CH_GormP2_Repaired_v002_RoofMesh",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_degrees": [
+              0.0,
+              -0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "dimensions": [
+              3.0900001525878906,
+              2.439000129699707,
+              1.540000081062317
+            ],
+            "matrix_world": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "parent": null,
+            "collections": [
+              "Scene Collection"
+            ]
+          },
+          "fingerprint": "1fe10051b5d063aa4cb7a5aff13bf1616bf2a1056134bb24ccbe916784aba1cd",
+          "geometry": {
+            "vertices": 12,
+            "edges": 20,
+            "polygons": 10,
+            "triangles": 20,
+            "ngons": 0,
+            "loose_vertices": 0,
+            "loose_edges": 0,
+            "zero_length_edges": 0,
+            "boundary_edges": 0,
+            "wire_edges": 0,
+            "non_manifold_edges": 0,
+            "degenerate_faces": 0,
+            "invalid_face_normals": 0,
+            "non_finite_vertices": 0
+          },
+          "bounds": {
+            "local_min": [
+              -1.5134999752044678,
+              -1.1230000257492065,
+              0.8999999761581421
+            ],
+            "local_max": [
+              1.5765000581741333,
+              1.315999984741211,
+              2.440000057220459
+            ],
+            "world_min": [
+              -1.5134999752044678,
+              -1.1230000257492065,
+              0.8999999761581421
+            ],
+            "world_max": [
+              1.5765000581741333,
+              1.315999984741211,
+              2.440000057220459
+            ]
+          },
+          "materials": [
+            {
+              "slot": 0,
+              "name": "CH_GormP2_Repaired_v002_RoofMaterial"
+            }
+          ],
+          "uv_layers": [
+            {
+              "name": "f79424fa_dbd0_4137_95c2_3e7a2ff0a14f_NewUVMap",
+              "active": true,
+              "active_render": true,
+              "loop_count": 40,
+              "bounds_min": [
+                0.019999999552965164,
+                0.029999999329447746
+              ],
+              "bounds_max": [
+                0.9800000190734863,
+                0.9800000190734863
+              ],
+              "out_of_zero_one_range": 0,
+              "non_finite": 0,
+              "degenerate_faces": 0
+            }
+          ],
+          "modifiers": [],
+          "quality": {
+            "passed": true,
+            "score": 100,
+            "blockers": [],
+            "warnings": [],
+            "requirements": {
+              "require_manifold": true
+            }
+          }
+        },
+        "deleted_roof_faces": 788,
+        "deleted_stray_faces": 6,
+        "texture_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Repair\\CH_GormRoof_Color_v002.png",
+        "texture_size": 1024
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Repair\\CH_GormP2_Repaired_v002.blend"
+    }
+  }
+]

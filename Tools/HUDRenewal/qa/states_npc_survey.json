@@ -1,0 +1,4 @@
+[
+ {"shot": "ns_idle", "py": "qa_village.py", "wait": 20, "frames": 240},
+ {"shot": "ns_info", "py": "qa_npc_survey.py", "wait": 0.2, "frames": 4}
+]

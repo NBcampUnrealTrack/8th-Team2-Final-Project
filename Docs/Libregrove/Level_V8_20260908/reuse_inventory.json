@@ -1,0 +1,4752 @@
+[
+  {
+    "path": "/Game/Village/Meshes/SM_Fountain_Water",
+    "type": "StaticMesh",
+    "origin": [
+      0.19485092163085938,
+      -0.8402500152587891,
+      14.800000190734863
+    ],
+    "extent": [
+      39.14759063720703,
+      38.44788932800293,
+      0.0
+    ],
+    "materials": [
+      "/Game/Village/Materials/MI_HD2D_Water.MI_HD2D_Water"
+    ]
+  },
+  {
+    "path": "/Game/Village/Materials/MI_HD2D_Water",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/M_HD2D_Water",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Tree_B",
+    "type": "StaticMesh",
+    "origin": [
+      -0.44435882568359375,
+      1.1653289794921875,
+      243.15951538085938
+    ],
+    "extent": [
+      180.73346710205078,
+      158.9983367919922,
+      243.15951538085938
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Bark.MI_Prop_Bark",
+      "/Game/Village/Materials/Props/MI_Prop_Leaf.MI_Prop_Leaf"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Tree_A",
+    "type": "StaticMesh",
+    "origin": [
+      -2.9796371459960938,
+      -20.387420654296875,
+      365.15087890625
+    ],
+    "extent": [
+      249.9969711303711,
+      243.0689697265625,
+      365.15087890625
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Bark.MI_Prop_Bark",
+      "/Game/Village/Materials/Props/MI_Prop_Leaf.MI_Prop_Leaf"
+    ]
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Bark",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Rock_B",
+    "type": "StaticMesh",
+    "origin": [
+      0.5755863189697266,
+      4.763385772705078,
+      31.793106079101562
+    ],
+    "extent": [
+      48.45433235168457,
+      39.525962829589844,
+      31.793106079101562
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Rock.MI_Prop_Rock"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Rock_A",
+    "type": "StaticMesh",
+    "origin": [
+      0.34496307373046875,
+      -0.3924217224121094,
+      50.24330520629883
+    ],
+    "extent": [
+      79.6297378540039,
+      61.66721725463867,
+      50.24330520629883
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Rock.MI_Prop_Rock"
+    ]
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Rock",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Lantern_Post",
+    "type": "StaticMesh",
+    "origin": [
+      -5.7220458984375e-06,
+      -30.25000286102295,
+      154.0
+    ],
+    "extent": [
+      18.500001907348633,
+      48.25000476837158,
+      154.0
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone",
+      "/Game/Village/Materials/Props/MI_Prop_Timber.MI_Prop_Timber",
+      "/Game/Village/Materials/Props/MI_Prop_Metal.MI_Prop_Metal",
+      "/Game/Village/Materials/Props/MI_Prop_Glow.MI_Prop_Glow"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_House_C",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -10.999969482421875,
+      463.5000305175781
+    ],
+    "extent": [
+      652.0,
+      479.0,
+      463.5000305175781
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Wall.MI_Prop_Wall",
+      "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone",
+      "/Game/Village/Materials/Props/MI_Prop_Timber.MI_Prop_Timber",
+      "/Game/Village/Materials/Props/MI_Prop_Wood.MI_Prop_Wood",
+      "/Game/Village/Materials/Props/MI_Prop_Metal.MI_Prop_Metal",
+      "/Game/Village/Materials/Props/MI_Prop_Glow.MI_Prop_Glow",
+      "/Game/Village/Materials/Props/MI_Prop_Roof.MI_Prop_Roof"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_House_B",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -21.957138061523438,
+      433.285888671875
+    ],
+    "extent": [
+      409.9081115722656,
+      368.95713806152344,
+      433.285888671875
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Wall.MI_Prop_Wall",
+      "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone",
+      "/Game/Village/Materials/Props/MI_Prop_Timber.MI_Prop_Timber",
+      "/Game/Village/Materials/Props/MI_Prop_Wood.MI_Prop_Wood",
+      "/Game/Village/Materials/Props/MI_Prop_Metal.MI_Prop_Metal",
+      "/Game/Village/Materials/Props/MI_Prop_Roof.MI_Prop_Roof",
+      "/Game/Village/Materials/Props/MI_Prop_Glow.MI_Prop_Glow"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_House_A",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      313.0508117675781
+    ],
+    "extent": [
+      347.0,
+      311.5157470703125,
+      313.0508117675781
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Wall.MI_Prop_Wall",
+      "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone",
+      "/Game/Village/Materials/Props/MI_Prop_Timber.MI_Prop_Timber",
+      "/Game/Village/Materials/Props/MI_Prop_Wood.MI_Prop_Wood",
+      "/Game/Village/Materials/Props/MI_Prop_Metal.MI_Prop_Metal",
+      "/Game/Village/Materials/Props/MI_Prop_Glow.MI_Prop_Glow",
+      "/Game/Village/Materials/Props/MI_Prop_Roof.MI_Prop_Roof"
+    ]
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Wall",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Glow",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Fountain",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      27.6123046875
+    ],
+    "extent": [
+      49.8779296875,
+      49.9755859375,
+      27.6123046875
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_FountainStone.MI_Prop_FountainStone"
+    ]
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_FountainStone",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Cliff_Block",
+    "type": "StaticMesh",
+    "origin": [
+      -5.03802490234375,
+      -1.757843017578125,
+      250.0
+    ],
+    "extent": [
+      219.41665649414062,
+      168.7228240966797,
+      250.0
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Cliff.MI_Prop_Cliff"
+    ]
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Cliff",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Hedge",
+    "type": "StaticMesh",
+    "origin": [
+      -1.7818832397460938,
+      -0.31618309020996094,
+      49.98909378051758
+    ],
+    "extent": [
+      101.43045043945312,
+      45.8376522064209,
+      49.98909378051758
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Leaf.MI_Prop_Leaf"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_GardenPlot",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      37.434993743896484
+    ],
+    "extent": [
+      202.00001525878906,
+      152.00003051757812,
+      37.434993743896484
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Soil.MI_Prop_Soil",
+      "/Game/Village/Materials/Props/MI_Prop_Wood.MI_Prop_Wood",
+      "/Game/Village/Materials/Props/MI_Prop_Leaf.MI_Prop_Leaf"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Bush",
+    "type": "StaticMesh",
+    "origin": [
+      -0.7837638854980469,
+      -0.07289886474609375,
+      49.78227615356445
+    ],
+    "extent": [
+      63.023345947265625,
+      66.34546661376953,
+      49.78227615356445
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Leaf.MI_Prop_Leaf"
+    ]
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Leaf",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Fence_Seg",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      59.000003814697266
+    ],
+    "extent": [
+      100.0,
+      7.500009059906006,
+      59.000003814697266
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Wood.MI_Prop_Wood"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Signpost",
+    "type": "StaticMesh",
+    "origin": [
+      2.106781005859375,
+      2.86102294921875e-06,
+      113.5
+    ],
+    "extent": [
+      67.8643569946289,
+      30.457531929016113,
+      113.5
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Timber.MI_Prop_Timber",
+      "/Game/Village/Materials/Props/MI_Prop_Wood.MI_Prop_Wood"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Crate",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      40.0
+    ],
+    "extent": [
+      40.000003814697266,
+      40.000003814697266,
+      40.0
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Wood.MI_Prop_Wood",
+      "/Game/Village/Materials/Props/MI_Prop_Timber.MI_Prop_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_StoneWall_Seg",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      45.0
+    ],
+    "extent": [
+      100.0,
+      29.00000762939453,
+      45.0
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Gate_Pillar",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      210.5
+    ],
+    "extent": [
+      65.0,
+      65.0,
+      210.5
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Well",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      163.39614868164062
+    ],
+    "extent": [
+      152.0,
+      110.0,
+      163.39614868164062
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone",
+      "/Game/Village/Materials/Props/MI_Prop_Soil.MI_Prop_Soil",
+      "/Game/Village/Materials/Props/MI_Prop_Timber.MI_Prop_Timber",
+      "/Game/Village/Materials/Props/MI_Prop_Wood.MI_Prop_Wood",
+      "/Game/Village/Materials/Props/MI_Prop_Metal.MI_Prop_Metal",
+      "/Game/Village/Materials/Props/MI_Prop_Roof.MI_Prop_Roof"
+    ]
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Soil",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_House_D",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -8.999992370605469,
+      214.96124267578125
+    ],
+    "extent": [
+      299.7720642089844,
+      251.00000762939453,
+      214.96124267578125
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Wood.MI_Prop_Wood",
+      "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone",
+      "/Game/Village/Materials/Props/MI_Prop_Timber.MI_Prop_Timber",
+      "/Game/Village/Materials/Props/MI_Prop_Metal.MI_Prop_Metal",
+      "/Game/Village/Materials/Props/MI_Prop_Roof.MI_Prop_Roof"
+    ]
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Roof",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Barrel",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      45.0
+    ],
+    "extent": [
+      42.0,
+      42.0,
+      45.0
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Wood.MI_Prop_Wood",
+      "/Game/Village/Materials/Props/MI_Prop_Metal.MI_Prop_Metal"
+    ]
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Wood",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Banner_Post",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      260.5
+    ],
+    "extent": [
+      70.0,
+      20.000001907348633,
+      260.5
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone",
+      "/Game/Village/Materials/Props/MI_Prop_Timber.MI_Prop_Timber",
+      "/Game/Village/Materials/Props/MI_Prop_Metal.MI_Prop_Metal",
+      "/Game/Village/Materials/Props/MI_Prop_Cloth.MI_Prop_Cloth"
+    ]
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Timber",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Stone",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Metal",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Cloth",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/M_PixelPropWA2",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Village/Materials/MI_VillagePixelLandscape2",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/M_VillagePixelLandscape2",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Village/Materials/MI_HD2D_Sky",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/M_PixelSprite_Lit",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Village/Materials/MI_PixelSprite_Lit",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/M_HD2D_Sky",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Village/Materials/MI_CliffRock",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/MI_HD2D_BlobShadow",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/MI_VillageLandscape",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/MI_VillagePixelLandscape",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/M_CliffRock",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Village/Materials/M_HD2D_BlobShadow",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Village/Materials/M_PixelProp",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Village/Materials/M_PixelProp_WorldAligned",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Village/Materials/M_ProbeWA",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Village/Materials/M_Probe_Delete",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Village/Materials/M_VillageLandscape",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Village/Materials/M_VillagePixelLandscape",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Cobble",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_RoofMoss",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_StoneSmooth",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_AxisTest",
+    "type": "StaticMesh",
+    "origin": [
+      27.4999942779541,
+      -99.99999934432913,
+      15.000000953674316
+    ],
+    "extent": [
+      67.5000057220459,
+      100.00000065567087,
+      15.000000953674316
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone",
+      "/Game/Village/Materials/Props/MI_Prop_Glow.MI_Prop_Glow"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Cliff_Corner",
+    "type": "StaticMesh",
+    "origin": [
+      3.6934585571289062,
+      -0.09848785400390625,
+      250.0
+    ],
+    "extent": [
+      217.19171905517578,
+      216.37653350830078,
+      250.0
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Cliff.MI_Prop_Cliff"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Statue",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      210.5
+    ],
+    "extent": [
+      147.8207244873047,
+      147.8207244873047,
+      210.5
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_StoneSmooth.MI_Prop_StoneSmooth"
+    ]
+  },
+  {
+    "path": "/Game/Village/Meshes/SM_Steps_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      27.000001907348633
+    ],
+    "extent": [
+      100.00000762939453,
+      45.0000114440918,
+      27.000001907348633
+    ],
+    "materials": [
+      "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Materials/MI_CH_Smithy",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Materials/MI_CH_Tavern",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/Smithy/CH_Dense_Smithy_RoofCorner014/Materials/tripo_mat_dda91e9f",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/Smithy/CH_Dense_Smithy_RoofCorner014/StaticMeshes/CH_Dense_Smithy_RoofCorner014",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      124.93892669677734
+    ],
+    "extent": [
+      111.01612091064453,
+      150.0,
+      124.93892669677734
+    ],
+    "materials": [
+      "/Game/Cindehearth/Dense_v004/Models/Smithy/CH_Dense_Smithy_RoofCorner014/Materials/tripo_mat_dda91e9f.tripo_mat_dda91e9f"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/SmithyRoof/CH_Dense_SmithyRoof_RearFar023/Materials/tripo_mat_dda91e9f",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/SmithyRoof/CH_Dense_SmithyRoof_RearFar023/StaticMeshes/CH_Dense_SmithyRoof_RearFar023",
+    "type": "StaticMesh",
+    "origin": [
+      -0.5862236022949219,
+      0.0,
+      182.68196487426758
+    ],
+    "extent": [
+      110.42989730834961,
+      150.0,
+      67.19588851928711
+    ],
+    "materials": [
+      "/Game/Cindehearth/Dense_v004/Models/SmithyRoof/CH_Dense_SmithyRoof_RearFar023/Materials/tripo_mat_dda91e9f.tripo_mat_dda91e9f"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/Materials/tripo_mat_dda91e9f",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/StaticMeshes/CH_Dense_SmithyStructure_Final018",
+    "type": "StaticMesh",
+    "origin": [
+      0.3663902282714844,
+      0.6595001220703125,
+      66.68294525146484
+    ],
+    "extent": [
+      110.64973068237305,
+      149.3404998779297,
+      66.68294525146484
+    ],
+    "materials": [
+      "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/Materials/tripo_mat_dda91e9f.tripo_mat_dda91e9f"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/SmithyWalls/CH_Dense_SmithyWalls_Final016/Materials/CH_Dense_SmithyWalls_Stone",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/SmithyWalls/CH_Dense_SmithyWalls_Final016/StaticMeshes/CH_Dense_SmithyWalls_Final016",
+    "type": "StaticMesh",
+    "origin": [
+      -0.6445770263671875,
+      0.42372894287109375,
+      59.22851885855198
+    ],
+    "extent": [
+      108.89515686035156,
+      143.11698150634766,
+      58.84862957894802
+    ],
+    "materials": [
+      "/Game/Cindehearth/Dense_v004/Models/SmithyWalls/CH_Dense_SmithyWalls_Final016/Materials/CH_Dense_SmithyWalls_Stone.CH_Dense_SmithyWalls_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/Materials/tripo_mat_4caa7db6",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/StaticMeshes/CH_Dense_Tavern_Foundation014",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      132.19451904296875
+    ],
+    "extent": [
+      125.31172180175781,
+      150.0,
+      132.19451904296875
+    ],
+    "materials": [
+      "/Game/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/Materials/tripo_mat_4caa7db6.tripo_mat_4caa7db6"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/TavernWalls/CH_Dense_TavernWalls_Final016/Materials/CH_Dense_TavernWalls_Stone",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/TavernWalls/CH_Dense_TavernWalls_Final016/StaticMeshes/CH_Dense_TavernWalls_Final016",
+    "type": "StaticMesh",
+    "origin": [
+      -24.67584991455078,
+      38.235084533691406,
+      63.075934410095215
+    ],
+    "extent": [
+      92.03387451171875,
+      107.82654571533203,
+      38.19101047515869
+    ],
+    "materials": [
+      "/Game/Cindehearth/Dense_v004/Models/TavernWalls/CH_Dense_TavernWalls_Final016/Materials/CH_Dense_TavernWalls_Stone.CH_Dense_TavernWalls_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/TavernWallsFrame/CH_Dense_TavernWallsFrame_025/Materials/CH_Dense_TavernWalls_Stone",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/TavernWallsFrame/CH_Dense_TavernWallsFrame_025/StaticMeshes/CH_Dense_TavernWallsFrame_025",
+    "type": "StaticMesh",
+    "origin": [
+      -25.545413970947266,
+      38.235084533691406,
+      63.075934410095215
+    ],
+    "extent": [
+      91.16431045532227,
+      107.82654571533203,
+      38.19101047515869
+    ],
+    "materials": [
+      "/Game/Cindehearth/Dense_v004/Models/TavernWallsFrame/CH_Dense_TavernWallsFrame_025/Materials/CH_Dense_TavernWalls_Stone.CH_Dense_TavernWalls_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/TavernWallsInset/CH_Dense_TavernWallsInset_Weld027/Materials/CH_Dense_TavernWalls_Stone_001",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Dense_v004/Models/TavernWallsInset/CH_Dense_TavernWallsInset_Weld027/StaticMeshes/CH_Dense_TavernWallsInset_Weld027",
+    "type": "StaticMesh",
+    "origin": [
+      49.514944076538086,
+      38.22389221191406,
+      63.06052207946777
+    ],
+    "extent": [
+      3.843080520629883,
+      106.09481811523438,
+      38.022958755493164
+    ],
+    "materials": [
+      "/Game/Cindehearth/Dense_v004/Models/TavernWallsInset/CH_Dense_TavernWallsInset_Weld027/Materials/CH_Dense_TavernWalls_Stone_001.CH_Dense_TavernWalls_Stone_001"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Forge",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Hearth",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Fire_v005/Materials/M_CH_FrontFire",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Ash",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Brass",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_BurrowHouse",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Cloth",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Iron",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_P2_Cart",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_P2_Pine",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_P2_PineVolume",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_P2_Rock",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Paper",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Pine",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_PixelFire0",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_PixelFire1",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_PixelFire2",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_PixelFire3",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_PixelSmoke0",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_PixelSmoke1",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_PixelSmoke2",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_PixelSmoke3",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Rock",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Roof",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_RoofPatch",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_RowHouse",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Sky_Day",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Sky_Night",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_SlopeHouse",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Soil",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Stone",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_StoneLight",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Wood",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/M_CH_AtlasWorld",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelFire",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelSmoke",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/Materials/tripo_mat_30895201",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/StaticMeshes/CH_Cart_Manifold_v004",
+    "type": "StaticMesh",
+    "origin": [
+      16.631657600402832,
+      0.0,
+      82.80898857116699
+    ],
+    "extent": [
+      38.314608573913574,
+      40.70591354370117,
+      27.191011428833008
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/Materials/tripo_mat_30895201.tripo_mat_30895201"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Models/ClosedRoof/CH_ClosedRoof_v001/Materials/CH_GormP2_Repaired_v002_RoofMaterial",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Models/ClosedRoof/CH_ClosedRoof_v001/StaticMeshes/CH_ClosedRoof_v001",
+    "type": "StaticMesh",
+    "origin": [
+      3.1500091552734375,
+      -9.650001525878906,
+      167.0
+    ],
+    "extent": [
+      154.5,
+      121.95000457763672,
+      77.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Models/ClosedRoof/CH_ClosedRoof_v001/Materials/CH_GormP2_Repaired_v002_RoofMaterial.CH_GormP2_Repaired_v002_RoofMaterial"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/Materials/tripo_mat_e7b0faa4",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      135.00000667572021
+    ],
+    "extent": [
+      107.96046447753906,
+      31.45824432373047,
+      135.00005435943604
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/Materials/tripo_mat_e7b0faa4.tripo_mat_e7b0faa4"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/Materials/tripo_mat_798ff027",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/StaticMeshes/CH_PineVolume_Closed_v005",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      135.0
+    ],
+    "extent": [
+      103.73961639404297,
+      108.22422790527344,
+      135.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/Materials/tripo_mat_798ff027.tripo_mat_798ff027"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Materials/tripo_mat_b18f59b5",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      50.78163146972656
+    ],
+    "extent": [
+      90.0,
+      81.11870574951172,
+      50.78163146972656
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Materials/tripo_mat_b18f59b5.tripo_mat_b18f59b5"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Ash",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Brass",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Cloth",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Dark",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Ember",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Flame",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Iron",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_LetterPaper",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_NaiaGlow",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Paper",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Path",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Pine",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Rock",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Roof",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_RoofPatch",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Seal",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Sky",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Sky_Night",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Soil",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Stone",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_StoneLight",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Timber",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Vein",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/MI_CH_Window",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/M_CH_ChimneySmoke",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Cindehearth/Materials/M_CH_Solid",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Anvil_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      12.5,
+      0.0,
+      107.25
+    ],
+    "extent": [
+      97.5,
+      30.0,
+      19.75
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Anvil_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      45.0
+    ],
+    "extent": [
+      50.0,
+      40.0,
+      45.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_AshNaia_Ash",
+    "type": "StaticMesh",
+    "origin": [
+      -0.41184234619140625,
+      0.16843414306640625,
+      35.5
+    ],
+    "extent": [
+      47.93301773071289,
+      40.375797271728516,
+      27.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Ash.MI_CH_Ash"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_AshNaia_NaiaGlow",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -30.0,
+      44.0
+    ],
+    "extent": [
+      15.412247657775879,
+      2.781635284423828,
+      3.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_NaiaGlow.MI_CH_NaiaGlow"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_AshslopeRamps_Path",
+    "type": "StaticMesh",
+    "origin": [
+      -14650.00048828125,
+      1100.0,
+      850.0
+    ],
+    "extent": [
+      4253.63818359375,
+      2200.0,
+      514.5521240234375
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_AssayDesk_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      140.0
+    ],
+    "extent": [
+      90.0,
+      25.0,
+      40.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_AssayDesk_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      85.0
+    ],
+    "extent": [
+      105.0,
+      40.0,
+      85.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_AssayDesk_Paper",
+    "type": "StaticMesh",
+    "origin": [
+      80.0,
+      -25.0,
+      103.0
+    ],
+    "extent": [
+      30.0,
+      22.5,
+      2.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Paper.MI_CH_Paper"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_AssayDesk_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      90.0
+    ],
+    "extent": [
+      125.0,
+      60.0,
+      10.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Assay_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      48.0,
+      -294.0,
+      120.0
+    ],
+    "extent": [
+      3.3286972045898438,
+      15.5,
+      15.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Assay_Dark",
+    "type": "StaticMesh",
+    "origin": [
+      240.0,
+      120.0,
+      699.0
+    ],
+    "extent": [
+      35.0,
+      39.0,
+      2.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Dark.MI_CH_Dark"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Assay_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      378.0
+    ],
+    "extent": [
+      69.0,
+      343.0,
+      343.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Assay_Roof",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      526.0
+    ],
+    "extent": [
+      449.13616943359375,
+      340.5,
+      185.13616943359375
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Roof.MI_CH_Roof"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Assay_RoofPatch",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      526.0
+    ],
+    "extent": [
+      449.13616943359375,
+      340.5,
+      185.13616943359375
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_RoofPatch.MI_CH_RoofPatch"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Assay_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      340.0
+    ],
+    "extent": [
+      400.0,
+      300.0,
+      340.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Assay_StoneLight",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -10.5,
+      356.0
+    ],
+    "extent": [
+      432.0,
+      322.5,
+      342.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_StoneLight.MI_CH_StoneLight"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Assay_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -271.0,
+      126.0
+    ],
+    "extent": [
+      73.0,
+      7.0,
+      126.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Barricade_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -11.25,
+      140.0
+    ],
+    "extent": [
+      305.0,
+      23.75,
+      140.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Bed_Cloth",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      80.0
+    ],
+    "extent": [
+      61.0,
+      106.0,
+      10.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Cloth.MI_CH_Cloth"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Bed_Paper",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      72.0,
+      94.0
+    ],
+    "extent": [
+      45.0,
+      25.0,
+      9.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Paper.MI_CH_Paper"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Bed_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      45.0
+    ],
+    "extent": [
+      65.0,
+      110.0,
+      30.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Block_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "extent": [
+      50.0,
+      50.0,
+      50.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_BurrowHouse_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      48.0,
+      -269.0,
+      120.0
+    ],
+    "extent": [
+      3.3286972045898438,
+      15.5,
+      15.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_BurrowHouse_Dark",
+    "type": "StaticMesh",
+    "origin": [
+      225.0,
+      110.0,
+      674.0
+    ],
+    "extent": [
+      35.0,
+      39.0,
+      2.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Dark.MI_CH_Dark"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_BurrowHouse_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      299.4750061035156
+    ],
+    "extent": [
+      275.0,
+      318.0,
+      264.4750061035156
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_BurrowHouse_Roof",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      434.97499084472656
+    ],
+    "extent": [
+      423.7871398925781,
+      315.5,
+      118.76213073730469
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Roof.MI_CH_Roof"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_BurrowHouse_RoofPatch",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      434.97499084472656
+    ],
+    "extent": [
+      423.7871398925781,
+      315.5,
+      118.76213073730469
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_RoofPatch.MI_CH_RoofPatch"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_BurrowHouse_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      327.5
+    ],
+    "extent": [
+      375.0,
+      275.0,
+      327.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_BurrowHouse_StoneLight",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -10.5,
+      343.5
+    ],
+    "extent": [
+      407.0,
+      297.5,
+      329.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_StoneLight.MI_CH_StoneLight"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_BurrowHouse_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -246.0,
+      126.0
+    ],
+    "extent": [
+      73.0,
+      7.0,
+      126.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_BurrowHouse_Window",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -288.0,
+      190.0
+    ],
+    "extent": [
+      262.0,
+      2.0,
+      45.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Window.MI_CH_Window"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_CemeteryTrail_Path",
+    "type": "StaticMesh",
+    "origin": [
+      8000.000244140625,
+      5600.0,
+      1050.0000305175781
+    ],
+    "extent": [
+      1502.450927734375,
+      975.490234375,
+      367.1017761230469
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Clinic_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      48.0,
+      -244.0,
+      120.0
+    ],
+    "extent": [
+      3.3286972045898438,
+      15.5,
+      15.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Clinic_Dark",
+    "type": "StaticMesh",
+    "origin": [
+      180.0,
+      100.0,
+      679.0
+    ],
+    "extent": [
+      35.0,
+      39.0,
+      2.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Dark.MI_CH_Dark"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Clinic_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      328.0
+    ],
+    "extent": [
+      230.0,
+      293.0,
+      293.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Clinic_Roof",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      466.0
+    ],
+    "extent": [
+      349.13616943359375,
+      290.5,
+      145.13616943359375
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Roof.MI_CH_Roof"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Clinic_RoofPatch",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      466.0
+    ],
+    "extent": [
+      349.13616943359375,
+      290.5,
+      145.13616943359375
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_RoofPatch.MI_CH_RoofPatch"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Clinic_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      330.0
+    ],
+    "extent": [
+      300.0,
+      250.0,
+      330.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Clinic_StoneLight",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -10.5,
+      346.0
+    ],
+    "extent": [
+      332.0,
+      272.5,
+      332.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_StoneLight.MI_CH_StoneLight"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Clinic_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -221.0,
+      126.0
+    ],
+    "extent": [
+      73.0,
+      7.0,
+      126.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Clinic_Window",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -263.0,
+      190.0
+    ],
+    "extent": [
+      217.0,
+      2.0,
+      45.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Window.MI_CH_Window"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_DeepveinChamber_Rock",
+    "type": "StaticMesh",
+    "origin": [
+      1200.0000305175781,
+      20750.9111328125,
+      185.0
+    ],
+    "extent": [
+      1415.9884948730469,
+      1353.1396484375,
+      345.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Rock.MI_CH_Rock"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_DeepveinChamber_Vein",
+    "type": "StaticMesh",
+    "origin": [
+      1199.9999675750732,
+      20746.8701171875,
+      150.0
+    ],
+    "extent": [
+      1173.6489582061768,
+      1124.0029296875,
+      100.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Vein.MI_CH_Vein"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_DeepveinTunnel_Path",
+    "type": "StaticMesh",
+    "origin": [
+      1200.0,
+      14100.0,
+      280.0
+    ],
+    "extent": [
+      350.0,
+      5200.0,
+      420.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_DeepveinTunnel_Rock",
+    "type": "StaticMesh",
+    "origin": [
+      1200.0,
+      14100.0,
+      520.0
+    ],
+    "extent": [
+      470.0,
+      5200.0,
+      650.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Rock.MI_CH_Rock"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Earth_Soil",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "extent": [
+      50.0,
+      50.0,
+      50.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Soil.MI_CH_Soil"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Fire_Ember",
+    "type": "StaticMesh",
+    "origin": [
+      18.912227630615234,
+      50.00107192993164,
+      80.0
+    ],
+    "extent": [
+      96.73715591430664,
+      83.38068771362305,
+      166.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Ember.MI_CH_Ember"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Fire_Flame",
+    "type": "StaticMesh",
+    "origin": [
+      -10.192184448242188,
+      4.203239440917969,
+      128.0
+    ],
+    "extent": [
+      86.85043334960938,
+      149.41629791259766,
+      182.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Flame.MI_CH_Flame"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Forge_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      270.0,
+      40.0,
+      59.99999952316284
+    ],
+    "extent": [
+      60.0,
+      45.0,
+      45.00000047683716
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Forge_Dark",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -50.0,
+      130.0
+    ],
+    "extent": [
+      95.0,
+      50.0,
+      20.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Dark.MI_CH_Dark"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Forge_Flame",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -38.000001430511475,
+      135.0
+    ],
+    "extent": [
+      87.74351501464844,
+      44.506155490875244,
+      45.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Flame.MI_CH_Flame"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Forge_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      180.0,
+      0.0,
+      75.0
+    ],
+    "extent": [
+      75.0,
+      50.0,
+      25.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Forge_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      237.5
+    ],
+    "extent": [
+      120.0,
+      85.0,
+      237.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_FreedLights_Vein",
+    "type": "StaticMesh",
+    "origin": [
+      28.272506713867188,
+      31.12420654296875,
+      362.5
+    ],
+    "extent": [
+      390.7778778076172,
+      360.8700256347656,
+      277.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Vein.MI_CH_Vein"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Grave_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -29.500000953674316,
+      35.0
+    ],
+    "extent": [
+      27.218732833862305,
+      10.430659294128418,
+      5.996463775634766
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Grave_Rock",
+    "type": "StaticMesh",
+    "origin": [
+      0.41342926025390625,
+      -1.296539306640625,
+      41.06120681762695
+    ],
+    "extent": [
+      104.28282165527344,
+      132.51966857910156,
+      50.06120681762695
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Rock.MI_CH_Rock"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Hatch_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      11.676584720611572
+    ],
+    "extent": [
+      95.0,
+      120.0,
+      4.176584720611572
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Hatch_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "extent": [
+      110.0,
+      130.0,
+      8.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Hearth_Dark",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      15.0
+    ],
+    "extent": [
+      465.0,
+      465.0,
+      15.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Dark.MI_CH_Dark"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Hearth_Ember",
+    "type": "StaticMesh",
+    "origin": [
+      -26.470932006835938,
+      33.56681823730469,
+      45.0
+    ],
+    "extent": [
+      243.68382263183594,
+      184.52467346191406,
+      22.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Ember.MI_CH_Ember"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Hearth_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      8.578460693359375,
+      0.0,
+      36.0
+    ],
+    "extent": [
+      491.4215393066406,
+      499.00250244140625,
+      35.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Hearth_StoneLight",
+    "type": "StaticMesh",
+    "origin": [
+      -0.498748779296875,
+      0.0,
+      36.0
+    ],
+    "extent": [
+      499.5012512207031,
+      500.0,
+      35.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_StoneLight.MI_CH_StoneLight"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Hearth_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      -17.107757568359375,
+      36.620018005371094,
+      47.999999046325684
+    ],
+    "extent": [
+      275.3275146484375,
+      260.5057144165039,
+      19.000000953674316
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Hollowcore_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.8525772094726562,
+      -1.5809860229492188,
+      288.7500023841858
+    ],
+    "extent": [
+      215.70482635498047,
+      215.69184112548828,
+      296.80755376815796
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Hollowcore_Vein",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      280.0
+    ],
+    "extent": [
+      116.99134826660156,
+      111.26538848876953,
+      240.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Vein.MI_CH_Vein"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Laundry_Cloth",
+    "type": "StaticMesh",
+    "origin": [
+      -20.0,
+      2.384185791015625e-07,
+      185.00000381469727
+    ],
+    "extent": [
+      172.5,
+      4.354497671127319,
+      67.52868270874023
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Cloth.MI_CH_Cloth"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Laundry_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      254.98434448242188
+    ],
+    "extent": [
+      400.2792053222656,
+      1.25,
+      26.23406982421875
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Laundry_Paper",
+    "type": "StaticMesh",
+    "origin": [
+      -20.0,
+      0.0,
+      185.00000381469727
+    ],
+    "extent": [
+      302.5,
+      6.703690052032471,
+      67.52868270874023
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Paper.MI_CH_Paper"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Laundry_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      140.0
+    ],
+    "extent": [
+      408.0,
+      8.0,
+      140.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_LedgerShelf_Cloth",
+    "type": "StaticMesh",
+    "origin": [
+      -4.0,
+      0.0,
+      109.99999809265137
+    ],
+    "extent": [
+      184.5,
+      25.3790225982666,
+      72.55571174621582
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Cloth.MI_CH_Cloth"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_LedgerShelf_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      120.0
+    ],
+    "extent": [
+      196.0,
+      32.5,
+      120.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_LedgerShelf_Paper",
+    "type": "StaticMesh",
+    "origin": [
+      -4.0,
+      0.0,
+      109.99999809265137
+    ],
+    "extent": [
+      184.5,
+      25.3790225982666,
+      72.55571174621582
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Paper.MI_CH_Paper"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_LedgerShelf_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      120.0
+    ],
+    "extent": [
+      200.0,
+      32.5,
+      97.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Letter_Paper",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "extent": [
+      22.5,
+      1.75,
+      16.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Paper.MI_CH_Paper"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Letter_Seal",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -3.0,
+      0.0
+    ],
+    "extent": [
+      1.25,
+      6.5,
+      6.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Seal.MI_CH_Seal"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Minecart_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      33.0
+    ],
+    "extent": [
+      118.32869720458984,
+      143.5,
+      33.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Minecart_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      92.5
+    ],
+    "extent": [
+      126.0,
+      170.0,
+      97.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Minecart_Rock",
+    "type": "StaticMesh",
+    "origin": [
+      9.042617797851562,
+      27.428688049316406,
+      96.97983169555664
+    ],
+    "extent": [
+      118.62564086914062,
+      113.79509735107422,
+      60.81977462768555
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Rock.MI_CH_Rock"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_MinePortal_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      110.0
+    ],
+    "extent": [
+      380.0,
+      60.0,
+      110.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_MinePortal_StoneLight",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      282.39105224609375
+    ],
+    "extent": [
+      367.1922302246094,
+      68.23503875732422,
+      176.24383544921875
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_StoneLight.MI_CH_StoneLight"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_MinePortal_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -28.0,
+      200.0
+    ],
+    "extent": [
+      313.1499938964844,
+      20.0,
+      200.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Notice_Paper",
+    "type": "StaticMesh",
+    "origin": [
+      -5.0,
+      -10.5,
+      210.0
+    ],
+    "extent": [
+      131.5,
+      3.0821685791015625,
+      57.556640625
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Paper.MI_CH_Paper"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Notice_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      150.0
+    ],
+    "extent": [
+      160.0,
+      14.0,
+      150.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Office_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      48.0,
+      -194.0,
+      120.0
+    ],
+    "extent": [
+      3.3286972045898438,
+      15.5,
+      15.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Office_Dark",
+    "type": "StaticMesh",
+    "origin": [
+      150.0,
+      80.0,
+      669.0
+    ],
+    "extent": [
+      35.0,
+      39.0,
+      2.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Dark.MI_CH_Dark"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Office_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      303.0
+    ],
+    "extent": [
+      200.0,
+      243.0,
+      268.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Office_Roof",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      436.0
+    ],
+    "extent": [
+      299.13616943359375,
+      240.5,
+      125.13616943359375
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Roof.MI_CH_Roof"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Office_RoofPatch",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      436.0
+    ],
+    "extent": [
+      299.13616943359375,
+      240.5,
+      125.13616943359375
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_RoofPatch.MI_CH_RoofPatch"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Office_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      325.0
+    ],
+    "extent": [
+      250.0,
+      200.0,
+      325.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Office_StoneLight",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -10.5,
+      341.0
+    ],
+    "extent": [
+      282.0,
+      222.5,
+      327.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_StoneLight.MI_CH_StoneLight"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Office_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -171.0,
+      126.0
+    ],
+    "extent": [
+      73.0,
+      7.0,
+      126.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Office_Window",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -213.0,
+      190.0
+    ],
+    "extent": [
+      187.0,
+      2.0,
+      45.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Window.MI_CH_Window"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_OrganicVeins_Vein",
+    "type": "StaticMesh",
+    "origin": [
+      1200.0,
+      17034.99951171875,
+      200.00000762939453
+    ],
+    "extent": [
+      345.7764892578125,
+      1540.34814453125,
+      102.27129364013672
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Vein.MI_CH_Vein"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Path_Path",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "extent": [
+      50.0,
+      50.0,
+      50.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Pine_Pine",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      530.0
+    ],
+    "extent": [
+      214.48414611816406,
+      203.98654174804688,
+      375.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Pine.MI_CH_Pine"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Pine_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      200.0
+    ],
+    "extent": [
+      28.0,
+      28.0,
+      200.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_PlazaPavers_StoneLight",
+    "type": "StaticMesh",
+    "origin": [
+      -597.4664916992188,
+      -48.56756591796875,
+      366.0
+    ],
+    "extent": [
+      1244.6632690429688,
+      1075.0441284179688,
+      2.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_StoneLight.MI_CH_StoneLight"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Pulley_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      450.0
+    ],
+    "extent": [
+      9.510564804077148,
+      65.0,
+      65.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Pulley_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      274.25
+    ],
+    "extent": [
+      240.0,
+      45.0,
+      243.25
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Pulley_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      250.0
+    ],
+    "extent": [
+      216.0,
+      18.0,
+      250.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Rail4_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      22.5
+    ],
+    "extent": [
+      113.0,
+      200.0,
+      1.25
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Rail4_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      15.75
+    ],
+    "extent": [
+      120.0,
+      200.0,
+      6.25
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Rail4_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      5.5
+    ],
+    "extent": [
+      150.0,
+      172.5,
+      5.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Railbed_Path",
+    "type": "StaticMesh",
+    "origin": [
+      1350.0,
+      300.0,
+      336.0
+    ],
+    "extent": [
+      500.0,
+      9300.0,
+      364.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_RetainingWalls_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      345.0
+    ],
+    "extent": [
+      7500.0,
+      3042.5,
+      345.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_RetainingWalls_StoneLight",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -18.0,
+      353.5
+    ],
+    "extent": [
+      7500.0,
+      3067.0,
+      353.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_StoneLight.MI_CH_StoneLight"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_RingPile_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      -5.95098876953125,
+      -11.19512939453125,
+      97.75632095336914
+    ],
+    "extent": [
+      329.4273986816406,
+      316.1540832519531,
+      107.32355880737305
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_RoofSlab_Roof",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "extent": [
+      50.0,
+      50.0,
+      50.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Roof.MI_CH_Roof"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      48.0,
+      -294.0,
+      120.0
+    ],
+    "extent": [
+      3.3286972045898438,
+      15.5,
+      15.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_Dark",
+    "type": "StaticMesh",
+    "origin": [
+      210.0,
+      120.0,
+      699.0
+    ],
+    "extent": [
+      35.0,
+      39.0,
+      2.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Dark.MI_CH_Dark"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      358.0
+    ],
+    "extent": [
+      260.0,
+      343.0,
+      323.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_Roof",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      506.0
+    ],
+    "extent": [
+      399.13616943359375,
+      340.5,
+      165.13616943359375
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Roof.MI_CH_Roof"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_RoofPatch",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      506.0
+    ],
+    "extent": [
+      399.13616943359375,
+      340.5,
+      165.13616943359375
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_RoofPatch.MI_CH_RoofPatch"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      340.0
+    ],
+    "extent": [
+      350.0,
+      300.0,
+      340.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_StoneLight",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -10.5,
+      356.0
+    ],
+    "extent": [
+      382.0,
+      322.5,
+      342.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_StoneLight.MI_CH_StoneLight"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -271.0,
+      126.0
+    ],
+    "extent": [
+      73.0,
+      7.0,
+      126.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_Window",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -313.0,
+      190.0
+    ],
+    "extent": [
+      247.0,
+      2.0,
+      45.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Window.MI_CH_Window"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_ShiftBell_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      453.0
+    ],
+    "extent": [
+      55.0,
+      55.0,
+      53.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_ShiftBell_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      276.0
+    ],
+    "extent": [
+      209.0,
+      12.0,
+      276.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_SlopeHouse_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      48.0,
+      -344.0,
+      120.0
+    ],
+    "extent": [
+      3.3286972045898438,
+      15.5,
+      15.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_SlopeHouse_Dark",
+    "type": "StaticMesh",
+    "origin": [
+      180.0,
+      140.0,
+      749.0
+    ],
+    "extent": [
+      35.0,
+      39.0,
+      2.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Dark.MI_CH_Dark"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_SlopeHouse_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      317.1000061035156
+    ],
+    "extent": [
+      230.0,
+      393.0,
+      282.1000061035156
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_SlopeHouse_Roof",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      490.09999084472656
+    ],
+    "extent": [
+      348.7871398925781,
+      390.5,
+      98.88713073730469
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Roof.MI_CH_Roof"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_SlopeHouse_RoofPatch",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      490.09999084472656
+    ],
+    "extent": [
+      348.7871398925781,
+      390.5,
+      98.88713073730469
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_RoofPatch.MI_CH_RoofPatch"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_SlopeHouse_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      365.0
+    ],
+    "extent": [
+      300.0,
+      350.0,
+      365.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_SlopeHouse_StoneLight",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -10.5,
+      381.0
+    ],
+    "extent": [
+      332.0,
+      372.5,
+      367.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_StoneLight.MI_CH_StoneLight"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_SlopeHouse_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -321.0,
+      126.0
+    ],
+    "extent": [
+      73.0,
+      7.0,
+      126.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_SlopeHouse_Window",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -363.0,
+      190.0
+    ],
+    "extent": [
+      217.0,
+      2.0,
+      45.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Window.MI_CH_Window"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Smithy_Dark",
+    "type": "StaticMesh",
+    "origin": [
+      360.0,
+      180.0,
+      769.0
+    ],
+    "extent": [
+      35.0,
+      39.0,
+      2.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Dark.MI_CH_Dark"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Smithy_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      942.0
+    ],
+    "extent": [
+      9.0,
+      493.0,
+      9.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Smithy_Roof",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      676.0
+    ],
+    "extent": [
+      649.1361694335938,
+      490.5,
+      265.13616943359375
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Roof.MI_CH_Roof"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Smithy_RoofPatch",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      676.0
+    ],
+    "extent": [
+      649.1361694335938,
+      490.5,
+      265.13616943359375
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_RoofPatch.MI_CH_RoofPatch"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Smithy_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      450.0
+    ],
+    "extent": [
+      600.0,
+      450.0,
+      450.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Smithy_StoneLight",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -10.5,
+      391.0
+    ],
+    "extent": [
+      632.0,
+      472.5,
+      377.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_StoneLight.MI_CH_StoneLight"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Stairs35_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      418.0,
+      175.0
+    ],
+    "extent": [
+      200.0,
+      418.0,
+      175.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_StoneNaia_NaiaGlow",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -51.5,
+      72.0
+    ],
+    "extent": [
+      19.362104415893555,
+      2.781635284423828,
+      6.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_NaiaGlow.MI_CH_NaiaGlow"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_StoneNaia_Rock",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      40.0
+    ],
+    "extent": [
+      58.49567413330078,
+      46.36057662963867,
+      46.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Rock.MI_CH_Rock"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_StoneNaia_StoneLight",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -23.999999403953552,
+      67.0
+    ],
+    "extent": [
+      34.12247848510742,
+      27.816345810890198,
+      30.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_StoneLight.MI_CH_StoneLight"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Table_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      18.0,
+      98.0
+    ],
+    "extent": [
+      140.0,
+      10.0,
+      8.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Table_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      44.0
+    ],
+    "extent": [
+      187.0,
+      32.5,
+      41.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Table_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      21.0
+    ],
+    "extent": [
+      195.0,
+      132.5,
+      21.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Table_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      66.0
+    ],
+    "extent": [
+      250.0,
+      137.5,
+      27.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Tavern_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      48.0,
+      -494.0,
+      120.0
+    ],
+    "extent": [
+      3.3286972045898438,
+      15.5,
+      15.5
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Tavern_Dark",
+    "type": "StaticMesh",
+    "origin": [
+      420.0,
+      200.0,
+      1009.0
+    ],
+    "extent": [
+      35.0,
+      39.0,
+      2.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Dark.MI_CH_Dark"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Tavern_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      653.0
+    ],
+    "extent": [
+      470.0,
+      543.0,
+      618.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Tavern_Roof",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      955.9999694824219
+    ],
+    "extent": [
+      749.1361694335938,
+      540.5,
+      305.1361389160156
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Roof.MI_CH_Roof"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Tavern_RoofPatch",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      955.9999694824219
+    ],
+    "extent": [
+      749.1361694335938,
+      540.5,
+      305.1361389160156
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_RoofPatch.MI_CH_RoofPatch"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Tavern_Stone",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      610.0
+    ],
+    "extent": [
+      700.0,
+      500.0,
+      610.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Tavern_StoneLight",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -10.5,
+      511.0
+    ],
+    "extent": [
+      732.0,
+      522.5,
+      497.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_StoneLight.MI_CH_StoneLight"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Tavern_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -471.0,
+      126.0
+    ],
+    "extent": [
+      73.0,
+      7.0,
+      126.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Tavern_Window",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -513.0,
+      370.0
+    ],
+    "extent": [
+      457.0,
+      2.0,
+      225.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Window.MI_CH_Window"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Terrace0_Soil",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      -6000.0,
+      -40.0
+    ],
+    "extent": [
+      7500.0,
+      3000.0,
+      40.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Soil.MI_CH_Soil"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Terrace1_Soil",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      310.0
+    ],
+    "extent": [
+      7500.0,
+      3000.0,
+      40.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Soil.MI_CH_Soil"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_Terrace2_Soil",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      6000.0,
+      660.0
+    ],
+    "extent": [
+      7500.0,
+      3000.0,
+      40.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Soil.MI_CH_Soil"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_ToolSign_Brass",
+    "type": "StaticMesh",
+    "origin": [
+      10.0,
+      0.0,
+      148.0
+    ],
+    "extent": [
+      3.8042259216308594,
+      19.0,
+      19.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_ToolSign_Iron",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      229.0
+    ],
+    "extent": [
+      59.49066925048828,
+      8.0,
+      18.859893798828125
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Meshes/SM_CH_ToolSign_Timber",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      119.99999997414305
+    ],
+    "extent": [
+      4.25,
+      4.25,
+      120.00000002585693
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Anvil",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_AshNaia",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Barrel",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Barricade",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Bed",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Bell",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Crate",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Desk",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Forge",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Grave",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Hearth",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Hollowcore",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Laundry",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Noticeboard",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Portal",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Pulley",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Ridge",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_RingLinks",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Shelf",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_ShelfOpen",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_StoneNaia",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Table",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_ToolRack",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Wall",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Materials/tripo_mat_f36ec94d",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/StaticMeshes/CH_Polish_Anvil_Caps005",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      95.92086029052734
+    ],
+    "extent": [
+      123.47337341308594,
+      150.0,
+      95.92086029052734
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Materials/tripo_mat_f36ec94d.tripo_mat_f36ec94d"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/AshNaia/CH_Polish_AshNaia_Game_v003/Materials/tripo_mat_d2cc7162",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/AshNaia/CH_Polish_AshNaia_Game_v003/StaticMeshes/CH_Polish_AshNaia_Game_v003",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      99.43820190429688
+    ],
+    "extent": [
+      131.3874053955078,
+      150.0,
+      99.43820190429688
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/AshNaia/CH_Polish_AshNaia_Game_v003/Materials/tripo_mat_d2cc7162.tripo_mat_d2cc7162"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Materials/tripo_mat_2439e2fa",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/StaticMeshes/CH_Polish_Barrel_Closed004",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      150.0
+    ],
+    "extent": [
+      141.93942260742188,
+      140.62042236328125,
+      150.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Materials/tripo_mat_2439e2fa.tripo_mat_2439e2fa"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Barricade/CH_Polish_Barricade_Caps005/Materials/tripo_mat_d5254c03",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Barricade/CH_Polish_Barricade_Caps005/StaticMeshes/CH_Polish_Barricade_Caps005",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      150.0
+    ],
+    "extent": [
+      105.74010467529297,
+      148.2413330078125,
+      150.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Barricade/CH_Polish_Barricade_Caps005/Materials/tripo_mat_d5254c03.tripo_mat_d5254c03"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Bed/CH_Polish_Bed_Closed004/Materials/tripo_mat_cf6facc2",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Bed/CH_Polish_Bed_Closed004/StaticMeshes/CH_Polish_Bed_Closed004",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      64.11822509765625
+    ],
+    "extent": [
+      150.0,
+      99.43820190429688,
+      64.11822509765625
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Bed/CH_Polish_Bed_Closed004/Materials/tripo_mat_cf6facc2.tripo_mat_cf6facc2"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/Materials/tripo_mat_898ef2ed",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/StaticMeshes/CH_Polish_Bell_Closed004",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      139.7410888671875
+    ],
+    "extent": [
+      67.489013671875,
+      150.0,
+      139.7410888671875
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/Materials/tripo_mat_898ef2ed.tripo_mat_898ef2ed"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Materials/tripo_mat_eaa7130b",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      138.12896728515625
+    ],
+    "extent": [
+      148.68099975585938,
+      150.0,
+      138.12896728515625
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Materials/tripo_mat_eaa7130b.tripo_mat_eaa7130b"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Desk/CH_Polish_Desk_Caps004/Materials/tripo_mat_b57c255e",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Desk/CH_Polish_Desk_Caps004/StaticMeshes/CH_Polish_Desk_Caps004",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      122.15436553955078
+    ],
+    "extent": [
+      89.91207122802734,
+      150.0,
+      122.15436553955078
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Desk/CH_Polish_Desk_Caps004/Materials/tripo_mat_b57c255e.tripo_mat_b57c255e"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Forge/CH_Polish_Forge_Caps008/Materials/tripo_mat_c1bd81e3",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Forge/CH_Polish_Forge_Caps008/StaticMeshes/CH_Polish_Forge_Caps008",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      132.99951171875
+    ],
+    "extent": [
+      115.26624298095703,
+      150.0,
+      132.99951171875
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Forge/CH_Polish_Forge_Caps008/Materials/tripo_mat_c1bd81e3.tripo_mat_c1bd81e3"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Grave/CH_Polish_Grave_Closed004/Materials/tripo_mat_dd13efbf",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Grave/CH_Polish_Grave_Closed004/StaticMeshes/CH_Polish_Grave_Closed004",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      54.73863983154297
+    ],
+    "extent": [
+      150.0,
+      106.32633209228516,
+      54.73863983154297
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Grave/CH_Polish_Grave_Closed004/Materials/tripo_mat_dd13efbf.tripo_mat_dd13efbf"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Hearth/CH_Polish_Hearth_Closed005/Materials/tripo_mat_acf82c22",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Hearth/CH_Polish_Hearth_Closed005/StaticMeshes/CH_Polish_Hearth_Closed005",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      25.574010848999023
+    ],
+    "extent": [
+      150.0,
+      150.0,
+      25.574010848999023
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Hearth/CH_Polish_Hearth_Closed005/Materials/tripo_mat_acf82c22.tripo_mat_acf82c22"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Hollowcore/CH_Polish_Hollowcore_Caps006/Materials/tripo_mat_130c5fb9",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Hollowcore/CH_Polish_Hollowcore_Caps006/StaticMeshes/CH_Polish_Hollowcore_Caps006",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      150.0
+    ],
+    "extent": [
+      107.498779296875,
+      108.52466583251953,
+      150.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Hollowcore/CH_Polish_Hollowcore_Caps006/Materials/tripo_mat_130c5fb9.tripo_mat_130c5fb9"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/Materials/tripo_mat_4b6b3464",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/StaticMeshes/CH_Polish_Laundry_Caps004",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      84.92916107177734
+    ],
+    "extent": [
+      33.92770004272461,
+      150.0,
+      84.92916107177734
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/Materials/tripo_mat_4b6b3464.tripo_mat_4b6b3464"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/Materials/tripo_mat_e1abc989",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/StaticMeshes/CH_Polish_Noticeboard_Caps004",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      127.13728332519531
+    ],
+    "extent": [
+      37.298484802246094,
+      150.0,
+      127.13728332519531
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/Materials/tripo_mat_e1abc989.tripo_mat_e1abc989"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Materials/tripo_mat_dbac5f18",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/StaticMeshes/CH_Polish_Portal_Caps004",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      119.66291809082031
+    ],
+    "extent": [
+      47.41084671020508,
+      150.0,
+      119.66291809082031
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Materials/tripo_mat_dbac5f18.tripo_mat_dbac5f18"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Pulley/CH_Polish_Pulley_Caps006/Materials/tripo_mat_c78a117a",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Pulley/CH_Polish_Pulley_Caps006/StaticMeshes/CH_Polish_Pulley_Caps006",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      147.06887817382812
+    ],
+    "extent": [
+      145.45677185058594,
+      150.0,
+      147.06887817382812
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Pulley/CH_Polish_Pulley_Caps006/Materials/tripo_mat_c78a117a.tripo_mat_c78a117a"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/Materials/tripo_mat_b1ec04a3",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/StaticMeshes/CH_Polish_Ridge_BaseCaps008",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      64.11822509765625
+    ],
+    "extent": [
+      150.0,
+      123.32681274414062,
+      64.11822509765625
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/Materials/tripo_mat_b1ec04a3.tripo_mat_b1ec04a3"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/RingLinks/CH_Polish_RingLinks_Caps005/Materials/tripo_mat_b1eede47",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/RingLinks/CH_Polish_RingLinks_Caps005/StaticMeshes/CH_Polish_RingLinks_Caps005",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      95.77430725097656
+    ],
+    "extent": [
+      145.31021118164062,
+      150.0,
+      95.77430725097656
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/RingLinks/CH_Polish_RingLinks_Caps005/Materials/tripo_mat_b1eede47.tripo_mat_b1eede47"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Shelf/CH_Polish_Shelf_Caps005/Materials/tripo_mat_4cb0fb0c",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Shelf/CH_Polish_Shelf_Caps005/StaticMeshes/CH_Polish_Shelf_Caps005",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      150.0
+    ],
+    "extent": [
+      59.72154235839844,
+      149.4137725830078,
+      150.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Shelf/CH_Polish_Shelf_Caps005/Materials/tripo_mat_4cb0fb0c.tripo_mat_4cb0fb0c"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/ShelfOpen/CH_Polish_Shelf_Open006/Materials/tripo_mat_4cb0fb0c",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/ShelfOpen/CH_Polish_Shelf_Open006/StaticMeshes/CH_Polish_Shelf_Open006",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      150.0
+    ],
+    "extent": [
+      59.72154235839844,
+      149.4137725830078,
+      150.0
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/ShelfOpen/CH_Polish_Shelf_Open006/Materials/tripo_mat_4cb0fb0c.tripo_mat_4cb0fb0c"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/StoneNaia/CH_Polish_StoneNaia_Closed005/Materials/tripo_mat_f281a5b2",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/StoneNaia/CH_Polish_StoneNaia_Closed005/StaticMeshes/CH_Polish_StoneNaia_Closed005",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      131.8270721435547
+    ],
+    "extent": [
+      82.14459991455078,
+      150.0,
+      131.8270721435547
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/StoneNaia/CH_Polish_StoneNaia_Closed005/Materials/tripo_mat_f281a5b2.tripo_mat_f281a5b2"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/Materials/tripo_mat_399e5018",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/StaticMeshes/CH_Polish_Table_Caps004",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      60.747432708740234
+    ],
+    "extent": [
+      150.0,
+      133.29263305664062,
+      60.747432708740234
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/Materials/tripo_mat_399e5018.tripo_mat_399e5018"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/Materials/tripo_mat_8d15cca3",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/StaticMeshes/CH_Polish_ToolRack_Caps004",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      132.03240966796875
+    ],
+    "extent": [
+      61.340206146240234,
+      150.0,
+      132.03240966796875
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/Materials/tripo_mat_8d15cca3.tripo_mat_8d15cca3"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/Materials/tripo_mat_56d1db8c",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      88.29995727539062
+    ],
+    "extent": [
+      41.98827362060547,
+      150.0,
+      88.29995727539062
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/Materials/tripo_mat_56d1db8c.tripo_mat_56d1db8c"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Signs/MI_CH_ArchiveClue",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Signs/MI_CH_Assay",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Signs/MI_CH_Clinic",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Signs/MI_CH_DorenSeal",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Signs/MI_CH_Gorm",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Signs/MI_CH_Rockfall",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Signs/MI_CH_ShiftBoard",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Signs/MI_CH_Smithy",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Signs/MI_CH_Tavern",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Signs/MI_CH_VillageName",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Signs/M_CH_Sign",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/MI_CH_RepairedRoof_Pixel",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/Materials/CH_GormP2_Repaired_v002_RoofMaterial",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/Materials/tripo_mat_f79424fa",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/StaticMeshes/CH_GormP2_Clean_v006",
+    "type": "StaticMesh",
+    "origin": [
+      3.1500091552734375,
+      0.0,
+      129.99999403953552
+    ],
+    "extent": [
+      154.5,
+      135.0,
+      130.00000596046448
+    ],
+    "materials": [
+      "/Game/Cindehearth/Tripo/GormHouse_P2_v001/MI_CH_GormP2_Pixel.MI_CH_GormP2_Pixel",
+      "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/MI_CH_RepairedRoof_Pixel.MI_CH_RepairedRoof_Pixel"
+    ]
+  },
+  {
+    "path": "/Game/Cindehearth/Tripo/GormHouse_P2_v001/MI_CH_GormP2_Pixel",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Tripo/GormHouse_P2_v001/M_CH_P2_Pixel",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/Materials/tripo_mat_f79424fa",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/StaticMeshes/CH_GormP2_Game_v001",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      129.99999403953552
+    ],
+    "extent": [
+      157.5,
+      135.0,
+      130.00000596046448
+    ],
+    "materials": [
+      "/Game/Cindehearth/Tripo/GormHouse_P2_v001/MI_CH_GormP2_Pixel.MI_CH_GormP2_Pixel"
+    ]
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Materials/tripo_mat_e34f3563",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/StaticMeshes/SM_LG_01_Cottage_A_V7",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      121.5
+    ],
+    "extent": [
+      145.18679809570312,
+      144.6196746826172,
+      121.5
+    ],
+    "materials": [
+      "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Materials/tripo_mat_e34f3563.tripo_mat_e34f3563"
+    ]
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/Materials/tripo_mat_f544a036",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/StaticMeshes/SM_LG_02_Inn_V7",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      180.0485076904297
+    ],
+    "extent": [
+      201.67604064941406,
+      118.92041015625,
+      180.0485076904297
+    ],
+    "materials": [
+      "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/Materials/tripo_mat_f544a036.tripo_mat_f544a036"
+    ]
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/Materials/tripo_mat_7a88dfe0",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/StaticMeshes/SM_LG_03_VillageHall_V7",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      157.5
+    ],
+    "extent": [
+      159.36761474609375,
+      152.20852661132812,
+      157.5
+    ],
+    "materials": [
+      "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/Materials/tripo_mat_7a88dfe0.tripo_mat_7a88dfe0"
+    ]
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/Materials/tripo_mat_317b1c2b",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/StaticMeshes/SM_LG_04_Workshop_V7",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      125.99500274658203
+    ],
+    "extent": [
+      171.39671325683594,
+      119.96936798095703,
+      125.99500274658203
+    ],
+    "materials": [
+      "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/Materials/tripo_mat_317b1c2b.tripo_mat_317b1c2b"
+    ]
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/Materials/tripo_mat_12da9820",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/StaticMeshes/SM_LG_05_WatermillHouse_V7",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      139.5
+    ],
+    "extent": [
+      152.62559509277344,
+      113.25818634033203,
+      139.5
+    ],
+    "materials": [
+      "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/Materials/tripo_mat_12da9820.tripo_mat_12da9820"
+    ]
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/Materials/tripo_mat_6029c87e",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/StaticMeshes/SM_LG_06_NaiaShelter_V7",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      112.5
+    ],
+    "extent": [
+      147.91751098632812,
+      141.03805541992188,
+      112.5
+    ],
+    "materials": [
+      "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/Materials/tripo_mat_6029c87e.tripo_mat_6029c87e"
+    ]
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Materials/tripo_mat_50ec2d11",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/StaticMeshes/SM_LG_07_Sanctuary_V7",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      180.0
+    ],
+    "extent": [
+      141.65773010253906,
+      141.67970275878906,
+      180.0
+    ],
+    "materials": [
+      "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Materials/tripo_mat_50ec2d11.tripo_mat_50ec2d11"
+    ]
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Materials/tripo_mat_dbfe09e0",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/StaticMeshes/SM_LG_08_BroadleafTree_V7",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      225.0
+    ],
+    "extent": [
+      249.99325561523438,
+      245.50729370117188,
+      225.0
+    ],
+    "materials": [
+      "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Materials/tripo_mat_dbfe09e0.tripo_mat_dbfe09e0"
+    ]
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Materials/tripo_mat_62cb0827",
+    "type": "Material"
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/StaticMeshes/SM_LG_09_MarketStall_V7",
+    "type": "StaticMesh",
+    "origin": [
+      0.0,
+      0.0,
+      85.5
+    ],
+    "extent": [
+      100.64171600341797,
+      80.08831024169922,
+      85.5
+    ],
+    "materials": [
+      "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Materials/tripo_mat_62cb0827.tripo_mat_62cb0827"
+    ]
+  }
+]

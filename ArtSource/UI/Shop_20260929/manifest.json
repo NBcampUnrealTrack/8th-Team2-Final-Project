@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-29",
+  "mode": "built-in image_gen",
+  "reference_asset": "/Game/Developers/MinkiCho/상점_페이지",
+  "output_file": "T_Shop_MerchantBanner.png",
+  "texture_asset": "/Game/Developers/MinkiCho/Art/Shop/Concept20260929/T_Shop_MerchantBanner",
+  "use": "WBP_ShopPage / MerchantBanner; UMG UV crop, no raster postprocessing",
+  "prompt": "Use case: stylized-concept. Asset type: a standalone wide merchant illustration banner for an Unreal Engine fantasy RPG shop UI. Use the attached image ONLY as a reference for the cozy cat merchant and shop environment visible in the narrow header of the central panel. Produce ONLY that shop illustration, without any interface. Wide landscape image approximately 4:1 aspect ratio, edge-to-edge painting. A friendly small gray tabby cat merchant, cream muzzle, gentle closed-mouth smile, brown patched floppy pointed traveler hat and brown merchant vest, behind a wooden shop counter. Position the merchant around 58% across the image, framed from torso upwards; whole hat and ears must fit. Left third: muted background of potion bottles, hanging vines and blue-gray plaster/wood, calm low-contrast area for a separate UI speech bubble to be overlaid later. Right third: warmly glowing antique lantern, wooden shelves, small crates, plants. Match the reference's understated painterly HD-2D fantasy game illustration: clear hand-painted edges, restrained detail, dusty navy/slate/cream palette with small warm amber light accents. The artwork will be displayed at approximately 770x155 pixels so ensure the merchant face is readable, not excessively small. No words, no text, no speech bubble, no borders, no buttons, no grids, no UI elements, no currency, no watermarks. Do not recreate the full screenshot. Only the wide cat merchant shop scene."
+}

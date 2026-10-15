@@ -1,0 +1,292 @@
+[
+  {
+    "job_id": "polish_bell_Closed004",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_bell_Closed004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_bell_Closed004"
+  },
+  {
+    "job_id": "polish_bell_Closed004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_bell_Closed004"
+  },
+  {
+    "job_id": "polish_bell_Closed004",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "ca75728d646e414573b2600c8e0fb990c0e07e79ce3b6e006db59e585f7ce702",
+      "source": {
+        "object": {
+          "name": "CH_Polish_Bell_Game_v003",
+          "type": "MESH",
+          "data_name": "CH_Polish_Bell_Game_v003_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            1.3497802019119263,
+            3.0,
+            2.7948217391967773
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "28cdb091f901ace80bd79cdba37cfea58ecfa86e2ab9f5b05f8310dda552bb89",
+        "geometry": {
+          "vertices": 655,
+          "edges": 1360,
+          "polygons": 713,
+          "triangles": 1206,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 88,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -0.6748901009559631,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            0.6748901009559631,
+            1.5,
+            2.7948217391967773
+          ],
+          "world_min": [
+            -0.6748901009559631,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            0.6748901009559631,
+            1.5,
+            2.7948217391967773
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_898ef2ed"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_898ef2ed_af4a_49b7_86d8_cc68a9ffab0e_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 2632,
+            "bounds_min": [
+              0.0005063388962298632,
+              0.0005063855205662549
+            ],
+            "bounds_max": [
+              0.9683982133865356,
+              0.9994935989379883
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Polish_Bell_Closed004",
+          "type": "MESH",
+          "data_name": "CH_Polish_Bell_Closed004_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            1.3497802019119263,
+            3.0,
+            2.7948217391967773
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "679dd91d19d70c4320b9c42bf14a7f0320510bd6ab3e576a9838f2d4934c5926",
+        "geometry": {
+          "vertices": 655,
+          "edges": 1416,
+          "polygons": 779,
+          "triangles": 1274,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 0,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -0.6748901009559631,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            0.6748901009559631,
+            1.5,
+            2.7948217391967773
+          ],
+          "world_min": [
+            -0.6748901009559631,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            0.6748901009559631,
+            1.5,
+            2.7948217391967773
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_898ef2ed"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_898ef2ed_af4a_49b7_86d8_cc68a9ffab0e_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 2832,
+            "bounds_min": [
+              0.0005063388962298632,
+              0.0005063855205662549
+            ],
+            "bounds_max": [
+              0.9683982133865356,
+              0.9994935989379883
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 100,
+          "blockers": [],
+          "warnings": [],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "added_faces": 66
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Bell_Closed004.blend"
+    }
+  }
+]

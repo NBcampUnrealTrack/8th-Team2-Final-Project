@@ -1,0 +1,129 @@
+{
+  "stage": "saved",
+  "level": "/Game/Libregrove/Textured_V7/Maps/L_Libregrove_AssetReview_V7.L_Libregrove_AssetReview_V7",
+  "actor_count": 17,
+  "model_count": 9,
+  "interchange_active": false,
+  "all_capture_tasks_done": true,
+  "models": [
+    {
+      "id": "LG_01_Cottage_A",
+      "dimensions_cm": [
+        290.37359619140625,
+        289.2393493652344,
+        243.0
+      ],
+      "triangles": 6574,
+      "render_vertices": 10006,
+      "texture": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Textures/LG_01_Cottage_A_fbx_basecolor.LG_01_Cottage_A_fbx_basecolor",
+      "actor": "/Game/Libregrove/Textured_V7/Maps/L_Libregrove_AssetReview_V7.L_Libregrove_AssetReview_V7:PersistentLevel.StaticMeshActor_1",
+      "passed": true
+    },
+    {
+      "id": "LG_02_Inn",
+      "dimensions_cm": [
+        403.3520812988281,
+        237.8408203125,
+        360.0970153808594
+      ],
+      "triangles": 12889,
+      "render_vertices": 19288,
+      "texture": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/Textures/LG_02_Inn_fbx_basecolor.LG_02_Inn_fbx_basecolor",
+      "actor": "/Game/Libregrove/Textured_V7/Maps/L_Libregrove_AssetReview_V7.L_Libregrove_AssetReview_V7:PersistentLevel.StaticMeshActor_2",
+      "passed": true
+    },
+    {
+      "id": "LG_03_VillageHall",
+      "dimensions_cm": [
+        318.7352294921875,
+        304.41705322265625,
+        315.0
+      ],
+      "triangles": 13450,
+      "render_vertices": 19875,
+      "texture": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/Textures/LG_03_VillageHall_fbx_basecolor.LG_03_VillageHall_fbx_basecolor",
+      "actor": "/Game/Libregrove/Textured_V7/Maps/L_Libregrove_AssetReview_V7.L_Libregrove_AssetReview_V7:PersistentLevel.StaticMeshActor_3",
+      "passed": true
+    },
+    {
+      "id": "LG_04_Workshop",
+      "dimensions_cm": [
+        342.7934265136719,
+        239.93873596191406,
+        251.99000549316406
+      ],
+      "triangles": 12452,
+      "render_vertices": 18435,
+      "texture": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/Textures/LG_04_Workshop_fbx_basecolor.LG_04_Workshop_fbx_basecolor",
+      "actor": "/Game/Libregrove/Textured_V7/Maps/L_Libregrove_AssetReview_V7.L_Libregrove_AssetReview_V7:PersistentLevel.StaticMeshActor_4",
+      "passed": true
+    },
+    {
+      "id": "LG_05_WatermillHouse",
+      "dimensions_cm": [
+        305.2511901855469,
+        226.51637268066406,
+        279.0
+      ],
+      "triangles": 14769,
+      "render_vertices": 22276,
+      "texture": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/Textures/LG_05_WatermillHouse_fbx_basecolor.LG_05_WatermillHouse_fbx_basecolor",
+      "actor": "/Game/Libregrove/Textured_V7/Maps/L_Libregrove_AssetReview_V7.L_Libregrove_AssetReview_V7:PersistentLevel.StaticMeshActor_5",
+      "passed": true
+    },
+    {
+      "id": "LG_06_NaiaShelter",
+      "dimensions_cm": [
+        295.83502197265625,
+        282.07611083984375,
+        225.0
+      ],
+      "triangles": 6251,
+      "render_vertices": 7889,
+      "texture": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/Textures/LG_06_NaiaShelter_fbx_basecolor.LG_06_NaiaShelter_fbx_basecolor",
+      "actor": "/Game/Libregrove/Textured_V7/Maps/L_Libregrove_AssetReview_V7.L_Libregrove_AssetReview_V7:PersistentLevel.StaticMeshActor_6",
+      "passed": true
+    },
+    {
+      "id": "LG_07_Sanctuary",
+      "dimensions_cm": [
+        283.3154602050781,
+        283.3594055175781,
+        360.0
+      ],
+      "triangles": 17726,
+      "render_vertices": 21318,
+      "texture": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Textures/LG_07_Sanctuary_fbx_basecolor.LG_07_Sanctuary_fbx_basecolor",
+      "actor": "/Game/Libregrove/Textured_V7/Maps/L_Libregrove_AssetReview_V7.L_Libregrove_AssetReview_V7:PersistentLevel.StaticMeshActor_7",
+      "passed": true
+    },
+    {
+      "id": "LG_08_BroadleafTree",
+      "dimensions_cm": [
+        499.98651123046875,
+        491.01458740234375,
+        450.0
+      ],
+      "triangles": 11303,
+      "render_vertices": 19295,
+      "texture": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Textures/LG_08_BroadleafTree_fbx_basecolor.LG_08_BroadleafTree_fbx_basecolor",
+      "actor": "/Game/Libregrove/Textured_V7/Maps/L_Libregrove_AssetReview_V7.L_Libregrove_AssetReview_V7:PersistentLevel.StaticMeshActor_8",
+      "passed": true
+    },
+    {
+      "id": "LG_09_MarketStall",
+      "dimensions_cm": [
+        201.28343200683594,
+        160.17662048339844,
+        171.0
+      ],
+      "triangles": 2505,
+      "render_vertices": 3004,
+      "texture": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Textures/LG_09_MarketStall_fbx_basecolor.LG_09_MarketStall_fbx_basecolor",
+      "actor": "/Game/Libregrove/Textured_V7/Maps/L_Libregrove_AssetReview_V7.L_Libregrove_AssetReview_V7:PersistentLevel.StaticMeshActor_9",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "Static mesh import, materials, source UV channel and game-scale dimensions. Not collision/interaction/LOD/cook/performance certification."
+}

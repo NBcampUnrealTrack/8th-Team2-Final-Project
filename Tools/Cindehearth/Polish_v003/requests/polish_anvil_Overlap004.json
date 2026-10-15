@@ -1,0 +1,21 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Anvil_Game_v003.blend",
+  "object_name": "CH_Polish_Anvil_Game_v003",
+  "expected_fingerprint": "f4106e0647dafb4a0062ff733a9a3f820feaf13c4783fa6da0bfafb31315b20f",
+  "output_object_name": "CH_Polish_Anvil_Overlap004",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Anvil_Overlap004.blend",
+  "operation": "delete_faces",
+  "selection_ids": [
+    17,
+    26,
+    27,
+    28,
+    29,
+    281,
+    282
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "polish_anvil_Overlap004"
+}

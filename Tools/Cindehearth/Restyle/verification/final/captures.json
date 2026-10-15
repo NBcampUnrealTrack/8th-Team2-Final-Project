@@ -1,0 +1,254 @@
+[
+  {
+    "name": "01_village_day",
+    "position": [
+      0,
+      -8300,
+      4300
+    ],
+    "target": [
+      0,
+      -200,
+      250
+    ],
+    "fov": 53,
+    "night": false,
+    "quest": 0,
+    "resolution": [
+      1440,
+      900
+    ],
+    "method": "SceneCapture2D / FinalColorLDR"
+  },
+  {
+    "name": "02_square_day",
+    "position": [
+      1250,
+      -1600,
+      1030
+    ],
+    "target": [
+      -270,
+      80,
+      220
+    ],
+    "fov": 45,
+    "night": false,
+    "quest": 0,
+    "resolution": [
+      1440,
+      900
+    ],
+    "method": "SceneCapture2D / FinalColorLDR"
+  },
+  {
+    "name": "03_homes_day",
+    "position": [
+      -900,
+      -4150,
+      1050
+    ],
+    "target": [
+      -900,
+      -2050,
+      120
+    ],
+    "fov": 43,
+    "night": false,
+    "quest": 0,
+    "resolution": [
+      1440,
+      900
+    ],
+    "method": "SceneCapture2D / FinalColorLDR"
+  },
+  {
+    "name": "04_mine_day",
+    "position": [
+      1850,
+      2000,
+      1080
+    ],
+    "target": [
+      450,
+      3470,
+      430
+    ],
+    "fov": 47,
+    "night": false,
+    "quest": 0,
+    "resolution": [
+      1440,
+      900
+    ],
+    "method": "SceneCapture2D / FinalColorLDR"
+  },
+  {
+    "name": "05_ashslope",
+    "position": [
+      -6250,
+      -1000,
+      1800
+    ],
+    "target": [
+      -6200,
+      2000,
+      480
+    ],
+    "fov": 49,
+    "night": false,
+    "quest": 0,
+    "resolution": [
+      1440,
+      900
+    ],
+    "method": "SceneCapture2D / FinalColorLDR"
+  },
+  {
+    "name": "06_pinehollow",
+    "position": [
+      1400,
+      -8400,
+      1250
+    ],
+    "target": [
+      200,
+      -6400,
+      30
+    ],
+    "fov": 48,
+    "night": false,
+    "quest": 0,
+    "resolution": [
+      1440,
+      900
+    ],
+    "method": "SceneCapture2D / FinalColorLDR"
+  },
+  {
+    "name": "07_sky",
+    "position": [
+      0,
+      -4700,
+      580
+    ],
+    "target": [
+      0,
+      5600,
+      2300
+    ],
+    "fov": 64,
+    "night": false,
+    "quest": 0,
+    "resolution": [
+      1440,
+      900
+    ],
+    "method": "SceneCapture2D / FinalColorLDR"
+  },
+  {
+    "name": "08_square_night",
+    "position": [
+      1250,
+      -1600,
+      1030
+    ],
+    "target": [
+      -270,
+      80,
+      220
+    ],
+    "fov": 45,
+    "night": true,
+    "quest": 0,
+    "resolution": [
+      1440,
+      900
+    ],
+    "method": "SceneCapture2D / FinalColorLDR"
+  },
+  {
+    "name": "09_square_hushed",
+    "position": [
+      1250,
+      -1600,
+      1030
+    ],
+    "target": [
+      -270,
+      80,
+      220
+    ],
+    "fov": 45,
+    "night": true,
+    "quest": 9,
+    "resolution": [
+      1440,
+      900
+    ],
+    "method": "SceneCapture2D / FinalColorLDR"
+  },
+  {
+    "name": "10_square_recovered",
+    "position": [
+      1250,
+      -1600,
+      1030
+    ],
+    "target": [
+      -270,
+      80,
+      220
+    ],
+    "fov": 45,
+    "night": true,
+    "quest": 12,
+    "resolution": [
+      1440,
+      900
+    ],
+    "method": "SceneCapture2D / FinalColorLDR"
+  },
+  {
+    "name": "11_homes_night",
+    "position": [
+      -900,
+      -4150,
+      1050
+    ],
+    "target": [
+      -900,
+      -2050,
+      120
+    ],
+    "fov": 43,
+    "night": true,
+    "quest": 12,
+    "resolution": [
+      1440,
+      900
+    ],
+    "method": "SceneCapture2D / FinalColorLDR"
+  },
+  {
+    "name": "12_fire_side",
+    "position": [
+      -270,
+      -950,
+      340
+    ],
+    "target": [
+      -270,
+      0,
+      270
+    ],
+    "fov": 42,
+    "night": false,
+    "quest": 0,
+    "resolution": [
+      1440,
+      900
+    ],
+    "method": "SceneCapture2D / FinalColorLDR"
+  }
+]

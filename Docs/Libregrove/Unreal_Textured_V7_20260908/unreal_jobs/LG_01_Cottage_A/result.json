@@ -1,0 +1,19 @@
+{
+  "status": "finished",
+  "id": "LG_01_Cottage_A",
+  "destination": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A",
+  "objects": [
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Textures/LG_01_Cottage_A_fbx_basecolor.LG_01_Cottage_A_fbx_basecolor",
+      "class": "Texture2D"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Materials/tripo_mat_e34f3563.tripo_mat_e34f3563",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/StaticMeshes/SM_LG_01_Cottage_A_V7.SM_LG_01_Cottage_A_V7",
+      "class": "StaticMesh"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "T_Boss2_HillCollapse_Impact_Dust",
+  "blend": "Translucent",
+  "frame_w": 512,
+  "frame_h": 416,
+  "cols": 5,
+  "rows": 5,
+  "frames": 24,
+  "fps": 24,
+  "loop": false,
+  "pivot_px": [
+    256,
+    300
+  ],
+  "pivot_uv": [
+    0.5,
+    0.7212
+  ],
+  "screen_scale_1080p": 2.3,
+  "note": "본 타격. 메인 바위 7프레임째 착지"
+}

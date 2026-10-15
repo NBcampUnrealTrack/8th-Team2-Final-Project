@@ -1,0 +1,9 @@
+[
+ {"shot": "sel2_idle", "py": "qa_village_solo.py", "wait": 20, "frames": 240},
+ {"shot": "sel2_near", "py": "qa_interact.py", "wait": 1.2, "frames": 30},
+ {"shot": "sel2_job", "py": "qa_sel_job.py", "wait": 4, "frames": 120},
+ {"shot": "sel2_job_pick", "py": "qa_sel_job_pick.py", "wait": 2, "frames": 60},
+ {"shot": "sel2_naia", "py": "qa_sel_naia.py", "wait": 4, "frames": 120},
+ {"shot": "sel2_naia_pick", "py": "qa_sel_naia_pick.py", "wait": 2, "frames": 60},
+ {"shot": "sel2_offer", "py": "qa_sel_offer.py", "wait": 3, "frames": 90}
+]

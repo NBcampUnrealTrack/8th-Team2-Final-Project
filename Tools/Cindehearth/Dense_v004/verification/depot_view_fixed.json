@@ -1,0 +1,51 @@
+{
+  "status": "applied_pending_visual_retake",
+  "camera_source": "verification/player_captures_all.json:depot",
+  "target_count": 2,
+  "placements": [
+    {
+      "label": "CH_MainMineRockBrow_P3",
+      "before": [
+        540.0,
+        2934.6000000000004,
+        535.0
+      ],
+      "after": [
+        540.0,
+        2934.6000000000004,
+        -215.0
+      ],
+      "old_bounds_top": 825.0,
+      "proposed_bounds_top": 75,
+      "collision_profile": "NoCollision",
+      "reason": "Foreground decorative ridge crosses depot camera line; place below walking surface"
+    },
+    {
+      "label": "CH_RidgeMass_15_HD2D_P3",
+      "before": [
+        173.7,
+        3176.2474040834863,
+        131.40969264729796
+      ],
+      "after": [
+        173.7,
+        3176.2474040834863,
+        -320.9544678044604
+      ],
+      "old_bounds_top": 527.3641604517584,
+      "proposed_bounds_top": 75,
+      "collision_profile": "NoCollision",
+      "reason": "Foreground decorative ridge crosses depot camera line; place below walking surface"
+    }
+  ],
+  "protected_labels": [
+    "CH_DeepveinTunnel_Path",
+    "CH_RingDepotFloor_Path",
+    "CH_P3_DepotFloor",
+    "CH_DeepveinTunnel_Rock",
+    "CH_RidgeMass_15",
+    "CH_RidgeMass_15_HD2D"
+  ],
+  "no_collision_floors_changed": true,
+  "no_hidden_source_reenabled": true
+}

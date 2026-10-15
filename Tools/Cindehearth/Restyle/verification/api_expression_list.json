@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "class_name": "MaterialNodeService",
+  "full_path": "unreal.MaterialNodeService",
+  "doc_string": "Material Node Service\r\n\r\n**C++ Source:**\r\n\r\n- **Plugin**: Revvy\r\n- **Module**: Revvy\r\n- **File**: UMaterialNodeService.h\r",
+  "base_classes": [
+    "Object",
+    "_ObjectBase",
+    "_WrapperBase",
+    "object"
+  ],
+  "methods": [],
+  "properties": []
+}

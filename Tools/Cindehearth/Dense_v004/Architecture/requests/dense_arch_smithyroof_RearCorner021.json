@@ -1,0 +1,18 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyRoof_Final018.blend",
+  "object_name": "CH_Dense_SmithyRoof_Final018",
+  "expected_fingerprint": "bafec8118f947f6bdbb335ca2a2352aa916a770c0ed5b2d5c8cfcc686c627772",
+  "output_object_name": "CH_Dense_SmithyRoof_RearCorner021",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyRoof_RearCorner021.blend",
+  "operation": "cap_polygon",
+  "selection_ids": [
+    168,
+    270,
+    267,
+    269
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "dense_arch_smithyroof_RearCorner021"
+}

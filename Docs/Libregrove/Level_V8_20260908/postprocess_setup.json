@@ -1,0 +1,40 @@
+{
+  "original": {
+    "auto_exposure_min_brightness": "1.0",
+    "auto_exposure_max_brightness": "1.0",
+    "auto_exposure_bias": "0.05000000074505806",
+    "bloom_intensity": "0.3199999928474426",
+    "bloom_threshold": "-1.0",
+    "vignette_intensity": "0.1599999964237213",
+    "motion_blur_amount": "0.5",
+    "scene_fringe_intensity": "0.0",
+    "film_grain_intensity": "0.0",
+    "depth_of_field_fstop": "16.0",
+    "depth_of_field_focal_distance": "0.0",
+    "color_saturation": "<Struct 'Vector4' (0x00000256B471E510) {x: 0.960000, y: 0.960000, z: 0.960000, w: 1.000000}>",
+    "ambient_occlusion_intensity": "0.5",
+    "ambient_occlusion_radius": "200.0"
+  },
+  "grade": {
+    "auto_exposure_min_brightness": "1.0",
+    "auto_exposure_max_brightness": "1.0",
+    "auto_exposure_bias": "0.3",
+    "bloom_intensity": "0.4",
+    "bloom_threshold": "1.1",
+    "vignette_intensity": "0.13",
+    "motion_blur_amount": "0.0",
+    "scene_fringe_intensity": "0.0",
+    "film_grain_intensity": "0.0",
+    "depth_of_field_fstop": "16.0",
+    "depth_of_field_focal_distance": "0.0",
+    "color_saturation": "<Struct 'Vector4' (0x0000025660414380) {x: 0.980000, y: 0.980000, z: 0.980000, w: 1.000000}>",
+    "ambient_occlusion_intensity": "0.35",
+    "ambient_occlusion_radius": "75.0"
+  },
+  "optional_dof": {
+    "depth_of_field_fstop": 2.8,
+    "depth_of_field_sensor_width": 72.0,
+    "depth_of_field_focal_distance": 1900.0
+  },
+  "mobile_switch": "Set LG8_PP_DOF_Optional_Windows BlendWeight to 0; platform qualification remains pending"
+}

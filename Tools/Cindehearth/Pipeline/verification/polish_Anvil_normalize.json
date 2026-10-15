@@ -1,0 +1,230 @@
+[
+  {
+    "tool": "blender_mesh_edit",
+    "arguments": {
+      "source_object_name": "CH_Polish_Anvil_REF___tripo_node_f36ec94d",
+      "output_object_name": "CH_Polish_Anvil_Game_v003",
+      "operations": [
+        {
+          "type": "transform_object",
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "transform_vertices",
+          "scale": [
+            3.001465559355154,
+            3.001465559355154,
+            3.001465559355154
+          ],
+          "translation": [
+            -0.0,
+            -0.0,
+            0.9592085979482169
+          ]
+        },
+        {
+          "type": "delete_loose"
+        }
+      ]
+    },
+    "request_id": 190425748389919
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"190425748389919\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "190425748389919",
+        "command": "mesh.edit",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"190425748389919\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"finished\",\n    \"created_at\": 1788595272.9479625,\n    \"finished_at\": 1788595273.0737908,\n    \"result\": {\n      \"source_object_name\": \"CH_Polish_Anvil_REF___tripo_node_f36ec94d\",\n      \"source_fingerprint\": \"777795580f1a64ac9baff556e2a4a762ec7f55699d3a17edafc47ce5ce153a57\",\n      \"output_object_name\": \"CH_Polish_Anvil_Game_v003\",\n      \"operations\": [\n        {\n          \"type\": \"transform_object\"\n        },\n        {\n          \"type\": \"transform_vertices\"\n        },\n        {\n          \"type\": \"delete_loose\"\n        }\n      ],\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_Polish_Anvil_Game_v003\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Polish_Anvil_Game_v003_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            2.4694674015045166,\n            3.0,\n            1.91841721534729\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"f4106e0647dafb4a0062ff733a9a3f820feaf13c4783fa6da0bfafb31315b20f\",\n        \"geometry\": {\n          \"vertices\": 476,\n          \"edges\": 1001,\n          \"polygons\": 525,\n          \"triangles\": 832,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 125,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 2,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            -1.2347337007522583,\n            -1.5,\n            0.0\n          ],\n          \"local_max\": [\n            1.2347337007522583,\n            1.5,\n            1.91841721534729\n          ],\n          \"world_min\": [\n            -1.2347337007522583,\n            -1.5,\n            0.0\n          ],\n          \"world_max\": [\n            1.2347337007522583,\n            1.5,\n            1.91841721534729\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"tripo_mat_f36ec94d\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"f36ec94d_a6c0_474b_beb5_786ce888d83e_NewUVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 1882,\n            \"bounds_min\": [\n              0.0007433996652252972,\n              0.0005411307211034\n            ],\n            \"bounds_max\": [\n              0.995142936706543,\n              0.9995267987251282\n            ],\n            \"out_of_zero_one_range\": 0,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 0\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 94,\n          \"blockers\": [],\n          \"warnings\": [\n            {\n              \"code\": \"non_manifold_geometry\",\n              \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n            }\n          ],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "190425748389919",
+        "command": "mesh.edit",
+        "state": "finished",
+        "created_at": 1788595272.9479625,
+        "finished_at": 1788595273.0737908,
+        "result": {
+          "source_object_name": "CH_Polish_Anvil_REF___tripo_node_f36ec94d",
+          "source_fingerprint": "777795580f1a64ac9baff556e2a4a762ec7f55699d3a17edafc47ce5ce153a57",
+          "output_object_name": "CH_Polish_Anvil_Game_v003",
+          "operations": [
+            {
+              "type": "transform_object"
+            },
+            {
+              "type": "transform_vertices"
+            },
+            {
+              "type": "delete_loose"
+            }
+          ],
+          "output": {
+            "object": {
+              "name": "CH_Polish_Anvil_Game_v003",
+              "type": "MESH",
+              "data_name": "CH_Polish_Anvil_Game_v003_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                2.4694674015045166,
+                3.0,
+                1.91841721534729
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "f4106e0647dafb4a0062ff733a9a3f820feaf13c4783fa6da0bfafb31315b20f",
+            "geometry": {
+              "vertices": 476,
+              "edges": 1001,
+              "polygons": 525,
+              "triangles": 832,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 125,
+              "wire_edges": 0,
+              "non_manifold_edges": 2,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -1.2347337007522583,
+                -1.5,
+                0.0
+              ],
+              "local_max": [
+                1.2347337007522583,
+                1.5,
+                1.91841721534729
+              ],
+              "world_min": [
+                -1.2347337007522583,
+                -1.5,
+                0.0
+              ],
+              "world_max": [
+                1.2347337007522583,
+                1.5,
+                1.91841721534729
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_mat_f36ec94d"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "f36ec94d_a6c0_474b_beb5_786ce888d83e_NewUVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 1882,
+                "bounds_min": [
+                  0.0007433996652252972,
+                  0.0005411307211034
+                ],
+                "bounds_max": [
+                  0.995142936706543,
+                  0.9995267987251282
+                ],
+                "out_of_zero_one_range": 0,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 94,
+              "blockers": [],
+              "warnings": [
+                {
+                  "code": "non_manifold_geometry",
+                  "message": "Mesh contains boundary, wire, or non-manifold edges."
+                }
+              ],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

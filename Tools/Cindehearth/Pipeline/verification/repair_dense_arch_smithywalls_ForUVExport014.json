@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "dense_arch_smithywalls_ForUVExport014",
+    "state": "running"
+  },
+  {
+    "job_id": "dense_arch_smithywalls_ForUVExport014",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithywalls_ForUVExport014"
+  },
+  {
+    "job_id": "dense_arch_smithywalls_ForUVExport014",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithywalls_ForUVExport014"
+  },
+  {
+    "job_id": "dense_arch_smithywalls_ForUVExport014",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Smithy_Walls013_ForUV.glb",
+      "format": "glb",
+      "bytes": 4283268,
+      "object_names": [
+        "CH_Dense_Smithy_Walls013"
+      ],
+      "fingerprints": {
+        "CH_Dense_Smithy_Walls013": "7566871d336fc167cdbd60023c353e3c7b65b05586a91825afc14193a48a86d9"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "name": "Barrel",
+  "geometry": {
+    "vertices": 397,
+    "edges": 823,
+    "polygons": 428,
+    "triangles": 765,
+    "ngons": 0,
+    "loose_vertices": 0,
+    "loose_edges": 0,
+    "zero_length_edges": 0,
+    "boundary_edges": 25,
+    "wire_edges": 0,
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "invalid_face_normals": 0,
+    "non_finite_vertices": 0
+  },
+  "dimensions": [
+    2.8387885093688965,
+    2.812408447265625,
+    3.0
+  ],
+  "components": [
+    {
+      "id": 0,
+      "faces": 413,
+      "diameter": 4.9968
+    },
+    {
+      "id": 1,
+      "faces": 5,
+      "diameter": 0.2254
+    },
+    {
+      "id": 2,
+      "faces": 5,
+      "diameter": 0.225
+    },
+    {
+      "id": 3,
+      "faces": 5,
+      "diameter": 0.2232
+    }
+  ],
+  "loops": [
+    {
+      "id": 0,
+      "edges": 5,
+      "simple": true,
+      "diameter": 0.4967,
+      "center": [
+        0.6880801022052765,
+        0.6345871984958649,
+        2.9633610248565674
+      ]
+    },
+    {
+      "id": 1,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.2126,
+      "center": [
+        0.7767464518547058,
+        -0.9489496946334839,
+        0.3041035532951355
+      ]
+    },
+    {
+      "id": 2,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.2121,
+      "center": [
+        0.9152418076992035,
+        -1.0764533281326294,
+        1.5476306676864624
+      ]
+    },
+    {
+      "id": 3,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.2136,
+      "center": [
+        0.8163165748119354,
+        -0.9643380641937256,
+        2.6431362628936768
+      ]
+    },
+    {
+      "id": 4,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.3629,
+      "center": [
+        -1.3834880590438843,
+        -0.08500244095921516,
+        1.771128535270691
+      ]
+    },
+    {
+      "id": 5,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.6949,
+      "center": [
+        1.1489985585212708,
+        0.6265266388654709,
+        1.7381534576416016
+      ]
+    }
+  ]
+}

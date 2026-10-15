@@ -1,0 +1,354 @@
+{
+  "status": "proposal_only",
+  "trail": {
+    "start": [
+      2338.2000000000003,
+      1447.2,
+      315
+    ],
+    "end": [
+      3270.6,
+      1929.6000000000001,
+      630
+    ],
+    "pitch": 16.702252190457727,
+    "yaw": 27.35589361215711,
+    "horizontal_run_cm": 1049.7997523337483
+  },
+  "platform": {
+    "center": [
+      3969.9,
+      2110.5,
+      612.0
+    ],
+    "bounds": [
+      3220.65,
+      4719.15,
+      1507.5,
+      2713.5
+    ],
+    "top": 630.0
+  },
+  "placements": [
+    {
+      "label": "CH_D4_CemeteryBank_BuriedTrailCore",
+      "kind": "Core",
+      "ceiling_center": [
+        2804.4,
+        1688.4,
+        436.5
+      ],
+      "size": [
+        1136.040382467726,
+        90,
+        1000
+      ],
+      "yaw": 27.35589361215711,
+      "pitch": 16.702252190457727,
+      "collision": false,
+      "purpose": "Buried spine below the sloping path; never the visible outer silhouette"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_Trail_00_L",
+      "kind": "Rock",
+      "ceiling_center": [
+        2527.6041992967166,
+        1461.8754655384369,
+        357.5
+      ],
+      "size": [
+        512,
+        316,
+        665.580023494842
+      ],
+      "yaw": 27.35589361215711,
+      "pitch": 16.702252190457727,
+      "collision": false,
+      "purpose": "Overlapping sloped bedrock from below the basin floor to just beneath the trail"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_Trail_00_R",
+      "kind": "Rock",
+      "ceiling_center": [
+        2459.595800703284,
+        1593.3245344615634,
+        357.5
+      ],
+      "size": [
+        512,
+        316,
+        665.580023494842
+      ],
+      "yaw": 27.35589361215711,
+      "pitch": 16.702252190457727,
+      "collision": false,
+      "purpose": "Overlapping sloped bedrock from below the basin floor to just beneath the trail"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_Trail_01_L",
+      "kind": "Rock",
+      "ceiling_center": [
+        2838.4041992967163,
+        1622.6754655384368,
+        462.5
+      ],
+      "size": [
+        500,
+        316,
+        775.2049685410511
+      ],
+      "yaw": 27.35589361215711,
+      "pitch": 16.702252190457727,
+      "collision": false,
+      "purpose": "Overlapping sloped bedrock from below the basin floor to just beneath the trail"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_Trail_01_R",
+      "kind": "Rock",
+      "ceiling_center": [
+        2770.395800703284,
+        1754.1245344615634,
+        462.5
+      ],
+      "size": [
+        500,
+        316,
+        775.2049685410511
+      ],
+      "yaw": 27.35589361215711,
+      "pitch": 16.702252190457727,
+      "collision": false,
+      "purpose": "Overlapping sloped bedrock from below the basin floor to just beneath the trail"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_Trail_02_L",
+      "kind": "Rock",
+      "ceiling_center": [
+        3149.204199296716,
+        1783.475465538437,
+        567.5
+      ],
+      "size": [
+        512,
+        316,
+        884.8299135872604
+      ],
+      "yaw": 27.35589361215711,
+      "pitch": 16.702252190457727,
+      "collision": false,
+      "purpose": "Overlapping sloped bedrock from below the basin floor to just beneath the trail"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_Trail_02_R",
+      "kind": "Rock",
+      "ceiling_center": [
+        3081.1958007032836,
+        1914.9245344615636,
+        567.5
+      ],
+      "size": [
+        512,
+        316,
+        884.8299135872604
+      ],
+      "yaw": 27.35589361215711,
+      "pitch": 16.702252190457727,
+      "collision": false,
+      "purpose": "Overlapping sloped bedrock from below the basin floor to just beneath the trail"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_BuriedPlateauCore",
+      "kind": "Core",
+      "ceiling_center": [
+        3969.9,
+        2110.5,
+        604.0
+      ],
+      "size": [
+        1288.5,
+        996.0,
+        900
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "collision": false,
+      "purpose": "Inner volume buried behind perimeter rocks; independent of the unchanged cemetery floor"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_WestFace_00",
+      "kind": "Rock",
+      "ceiling_center": [
+        3245.65,
+        1702.5,
+        627.0
+      ],
+      "size": [
+        470,
+        570,
+        830
+      ],
+      "yaw": 3,
+      "pitch": 0,
+      "collision": false,
+      "purpose": "Support the visible western lip and conceal the elevated rectangular slab edge"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_WestFace_01",
+      "kind": "Rock",
+      "ceiling_center": [
+        3245.65,
+        2110.5,
+        623.0
+      ],
+      "size": [
+        470,
+        570,
+        830
+      ],
+      "yaw": -4,
+      "pitch": 0,
+      "collision": false,
+      "purpose": "Support the visible western lip and conceal the elevated rectangular slab edge"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_WestFace_02",
+      "kind": "Rock",
+      "ceiling_center": [
+        3245.65,
+        2518.5,
+        627.0
+      ],
+      "size": [
+        470,
+        570,
+        830
+      ],
+      "yaw": 3,
+      "pitch": 0,
+      "collision": false,
+      "purpose": "Support the visible western lip and conceal the elevated rectangular slab edge"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_SouthFace_00",
+      "kind": "Rock",
+      "ceiling_center": [
+        3450.65,
+        1532.5,
+        627.0
+      ],
+      "size": [
+        650,
+        480,
+        830
+      ],
+      "yaw": -2,
+      "pitch": 0,
+      "collision": false,
+      "purpose": "Irregular southern bank below the cemetery graves and village vista"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_SouthFace_01",
+      "kind": "Rock",
+      "ceiling_center": [
+        3969.9,
+        1532.5,
+        624.0
+      ],
+      "size": [
+        650,
+        480,
+        830
+      ],
+      "yaw": 3,
+      "pitch": 0,
+      "collision": false,
+      "purpose": "Irregular southern bank below the cemetery graves and village vista"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_SouthFace_02",
+      "kind": "Rock",
+      "ceiling_center": [
+        4489.15,
+        1532.5,
+        627.0
+      ],
+      "size": [
+        650,
+        480,
+        830
+      ],
+      "yaw": -2,
+      "pitch": 0,
+      "collision": false,
+      "purpose": "Irregular southern bank below the cemetery graves and village vista"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_NorthButtress",
+      "kind": "Rock",
+      "ceiling_center": [
+        3969.9,
+        2688.5,
+        624.0
+      ],
+      "size": [
+        1668.5,
+        480,
+        830
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "collision": false,
+      "purpose": "Conceal the northern inner-core face below the cemetery edge"
+    },
+    {
+      "label": "CH_D4_CemeteryBank_EastButtress",
+      "kind": "Rock",
+      "ceiling_center": [
+        4694.15,
+        2110.5,
+        624.0
+      ],
+      "size": [
+        480,
+        1376.0,
+        830
+      ],
+      "yaw": 0,
+      "pitch": 0,
+      "collision": false,
+      "purpose": "Conceal the eastern inner-core face below the cemetery edge"
+    }
+  ],
+  "count": 16,
+  "collision": false,
+  "notes": [
+    "No terrain, path, grave, vista, gate or source collider is moved.",
+    "Rock ceilings stay 10cm below the trail centre-plane, or at least3cm below the plateau top.",
+    "Existing thin trail/slab remain the walking surfaces. New meshes only provide visual support.",
+    "Runtime and player-camera acceptance remain for the coordinator."
+  ],
+  "real_path_bounds": [
+    [
+      2804.4000812988284,
+      1688.4000000000003,
+      472.5000137329102
+    ],
+    [
+      500.3161589355468,
+      294.1103056640625,
+      165.19579925537113
+    ]
+  ],
+  "real_platform_bounds": [
+    [
+      3969.8999999999996,
+      2110.5,
+      612.0
+    ],
+    [
+      749.2499999999998,
+      603.0,
+      18.0
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "material": "/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelFire",
+    "compiled": true,
+    "geometry": "crossed quads",
+    "particle_system": null
+  },
+  {
+    "material": "/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelSmoke",
+    "compiled": true,
+    "geometry": "crossed quads",
+    "particle_system": null
+  }
+]

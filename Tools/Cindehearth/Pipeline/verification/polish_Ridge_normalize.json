@@ -1,0 +1,230 @@
+[
+  {
+    "tool": "blender_mesh_edit",
+    "arguments": {
+      "source_object_name": "CH_Polish_Ridge_REF___tripo_node_b1ec04a3",
+      "output_object_name": "CH_Polish_Ridge_Game_v003",
+      "operations": [
+        {
+          "type": "transform_object",
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "transform_vertices",
+          "scale": [
+            3.001465559355154,
+            3.001465559355154,
+            3.001465559355154
+          ],
+          "translation": [
+            -0.0,
+            -0.0,
+            0.6411822178798241
+          ]
+        },
+        {
+          "type": "delete_loose"
+        }
+      ]
+    },
+    "request_id": 187039062000490
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"187039062000490\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "187039062000490",
+        "command": "mesh.edit",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"187039062000490\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"finished\",\n    \"created_at\": 1788594956.0993273,\n    \"finished_at\": 1788594956.175599,\n    \"result\": {\n      \"source_object_name\": \"CH_Polish_Ridge_REF___tripo_node_b1ec04a3\",\n      \"source_fingerprint\": \"87777528cdd71db71f23b7e1ab37ba764653449bea909959111c8150d44ee8fe\",\n      \"output_object_name\": \"CH_Polish_Ridge_Game_v003\",\n      \"operations\": [\n        {\n          \"type\": \"transform_object\"\n        },\n        {\n          \"type\": \"transform_vertices\"\n        },\n        {\n          \"type\": \"delete_loose\"\n        }\n      ],\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_Polish_Ridge_Game_v003\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Polish_Ridge_Game_v003_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            3.0,\n            2.466536283493042,\n            1.2823644876480103\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"c493e89f5c5812000583e410d20ee7508bb54f472382034693c63c042fc2c74c\",\n        \"geometry\": {\n          \"vertices\": 1136,\n          \"edges\": 2018,\n          \"polygons\": 941,\n          \"triangles\": 1538,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 617,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 1,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            -1.5,\n            -1.233268141746521,\n            0.0\n          ],\n          \"local_max\": [\n            1.5,\n            1.233268141746521,\n            1.2823644876480103\n          ],\n          \"world_min\": [\n            -1.5,\n            -1.233268141746521,\n            0.0\n          ],\n          \"world_max\": [\n            1.5,\n            1.233268141746521,\n            1.2823644876480103\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"tripo_mat_b1ec04a3\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"b1ec04a3_92a0_47e6_917c_587dd251a387_NewUVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 3420,\n            \"bounds_min\": [\n              0.0006716805510222912,\n              0.0006716452771797776\n            ],\n            \"bounds_max\": [\n              0.9966984391212463,\n              0.9993283748626709\n            ],\n            \"out_of_zero_one_range\": 0,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 0\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 94,\n          \"blockers\": [],\n          \"warnings\": [\n            {\n              \"code\": \"non_manifold_geometry\",\n              \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n            }\n          ],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "187039062000490",
+        "command": "mesh.edit",
+        "state": "finished",
+        "created_at": 1788594956.0993273,
+        "finished_at": 1788594956.175599,
+        "result": {
+          "source_object_name": "CH_Polish_Ridge_REF___tripo_node_b1ec04a3",
+          "source_fingerprint": "87777528cdd71db71f23b7e1ab37ba764653449bea909959111c8150d44ee8fe",
+          "output_object_name": "CH_Polish_Ridge_Game_v003",
+          "operations": [
+            {
+              "type": "transform_object"
+            },
+            {
+              "type": "transform_vertices"
+            },
+            {
+              "type": "delete_loose"
+            }
+          ],
+          "output": {
+            "object": {
+              "name": "CH_Polish_Ridge_Game_v003",
+              "type": "MESH",
+              "data_name": "CH_Polish_Ridge_Game_v003_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                3.0,
+                2.466536283493042,
+                1.2823644876480103
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "c493e89f5c5812000583e410d20ee7508bb54f472382034693c63c042fc2c74c",
+            "geometry": {
+              "vertices": 1136,
+              "edges": 2018,
+              "polygons": 941,
+              "triangles": 1538,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 617,
+              "wire_edges": 0,
+              "non_manifold_edges": 1,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -1.5,
+                -1.233268141746521,
+                0.0
+              ],
+              "local_max": [
+                1.5,
+                1.233268141746521,
+                1.2823644876480103
+              ],
+              "world_min": [
+                -1.5,
+                -1.233268141746521,
+                0.0
+              ],
+              "world_max": [
+                1.5,
+                1.233268141746521,
+                1.2823644876480103
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_mat_b1ec04a3"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "b1ec04a3_92a0_47e6_917c_587dd251a387_NewUVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 3420,
+                "bounds_min": [
+                  0.0006716805510222912,
+                  0.0006716452771797776
+                ],
+                "bounds_max": [
+                  0.9966984391212463,
+                  0.9993283748626709
+                ],
+                "out_of_zero_one_range": 0,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 94,
+              "blockers": [],
+              "warnings": [
+                {
+                  "code": "non_manifold_geometry",
+                  "message": "Mesh contains boundary, wire, or non-manifold edges."
+                }
+              ],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

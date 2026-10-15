@@ -1,0 +1,98 @@
+[
+  {
+    "label": "CH_GormHouse_Stone",
+    "hidden": false,
+    "editor_hidden": false,
+    "visible": true,
+    "component_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_Timber",
+    "hidden": false,
+    "editor_hidden": false,
+    "visible": true,
+    "component_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_Iron",
+    "hidden": false,
+    "editor_hidden": false,
+    "visible": true,
+    "component_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_Brass",
+    "hidden": false,
+    "editor_hidden": false,
+    "visible": true,
+    "component_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_StoneLight",
+    "hidden": false,
+    "editor_hidden": false,
+    "visible": true,
+    "component_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_RoofPatch",
+    "hidden": false,
+    "editor_hidden": false,
+    "visible": true,
+    "component_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_Roof",
+    "hidden": false,
+    "editor_hidden": false,
+    "visible": true,
+    "component_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_Window",
+    "hidden": true,
+    "editor_hidden": true,
+    "visible": true,
+    "component_hidden": false,
+    "collision": false
+  },
+  {
+    "label": "CH_GormHouse_Dark",
+    "hidden": false,
+    "editor_hidden": false,
+    "visible": true,
+    "component_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_ToolSign_Timber",
+    "hidden": false,
+    "editor_hidden": false,
+    "visible": true,
+    "component_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_ToolSign_Iron",
+    "hidden": false,
+    "editor_hidden": false,
+    "visible": true,
+    "component_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_ToolSign_Brass",
+    "hidden": false,
+    "editor_hidden": false,
+    "visible": true,
+    "component_hidden": false,
+    "collision": true
+  }
+]

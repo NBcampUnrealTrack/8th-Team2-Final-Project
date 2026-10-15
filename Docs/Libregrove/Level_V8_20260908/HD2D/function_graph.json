@@ -1,0 +1,348 @@
+{
+  "function": {
+    "path": "/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color",
+    "description": "Shared gamma-aware HD-2D palette; non-destructive global control",
+    "expose_to_library": true,
+    "library_categories": "\uae30\ud0c0"
+  },
+  "expressions": [
+    {
+      "id": "MaterialExpressionFunctionInput_00000257705C6900",
+      "class": "FunctionInput",
+      "class_full": "MaterialExpressionFunctionInput",
+      "pos_x": -650,
+      "pos_y": 0,
+      "properties": {
+        "InputName": "SourceColor",
+        "InputType": "FunctionInput_Vector3",
+        "PreviewValue": "(X=0.000000,Y=0.000000,Z=0.000000,W=1.000000)",
+        "bUsePreviewValueAsDefault": "False",
+        "SortPriority": "0",
+        "BlendInputRelevance": "General"
+      },
+      "is_function_input": true,
+      "input_name": "SourceColor",
+      "description": "",
+      "input_type": 2,
+      "input_type_name": "Vector3",
+      "sort_priority": 0,
+      "use_preview_value_as_default": false,
+      "inputs": [
+        "Preview"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionFunctionInput_00000257705CF480",
+      "class": "FunctionInput",
+      "class_full": "MaterialExpressionFunctionInput",
+      "pos_x": -650,
+      "pos_y": 140,
+      "properties": {
+        "InputName": "Saturation",
+        "InputType": "FunctionInput_Scalar",
+        "PreviewValue": "(X=0.000000,Y=0.000000,Z=0.000000,W=1.000000)",
+        "bUsePreviewValueAsDefault": "False",
+        "SortPriority": "1",
+        "BlendInputRelevance": "General"
+      },
+      "is_function_input": true,
+      "input_name": "Saturation",
+      "description": "",
+      "input_type": 0,
+      "input_type_name": "Scalar",
+      "sort_priority": 1,
+      "use_preview_value_as_default": false,
+      "inputs": [
+        "Preview"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionFunctionInput_00000257705C5280",
+      "class": "FunctionInput",
+      "class_full": "MaterialExpressionFunctionInput",
+      "pos_x": -650,
+      "pos_y": 280,
+      "properties": {
+        "InputName": "Contrast",
+        "InputType": "FunctionInput_Scalar",
+        "PreviewValue": "(X=0.000000,Y=0.000000,Z=0.000000,W=1.000000)",
+        "bUsePreviewValueAsDefault": "False",
+        "SortPriority": "2",
+        "BlendInputRelevance": "General"
+      },
+      "is_function_input": true,
+      "input_name": "Contrast",
+      "description": "",
+      "input_type": 0,
+      "input_type_name": "Scalar",
+      "sort_priority": 2,
+      "use_preview_value_as_default": false,
+      "inputs": [
+        "Preview"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionFunctionInput_00000257705CC000",
+      "class": "FunctionInput",
+      "class_full": "MaterialExpressionFunctionInput",
+      "pos_x": -650,
+      "pos_y": 420,
+      "properties": {
+        "InputName": "PaletteSteps",
+        "InputType": "FunctionInput_Scalar",
+        "PreviewValue": "(X=0.000000,Y=0.000000,Z=0.000000,W=1.000000)",
+        "bUsePreviewValueAsDefault": "False",
+        "SortPriority": "3",
+        "BlendInputRelevance": "General"
+      },
+      "is_function_input": true,
+      "input_name": "PaletteSteps",
+      "description": "",
+      "input_type": 0,
+      "input_type_name": "Scalar",
+      "sort_priority": 3,
+      "use_preview_value_as_default": false,
+      "inputs": [
+        "Preview"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionFunctionInput_00000257705CAB00",
+      "class": "FunctionInput",
+      "class_full": "MaterialExpressionFunctionInput",
+      "pos_x": -650,
+      "pos_y": 560,
+      "properties": {
+        "InputName": "PosterizeStrength",
+        "InputType": "FunctionInput_Scalar",
+        "PreviewValue": "(X=0.000000,Y=0.000000,Z=0.000000,W=1.000000)",
+        "bUsePreviewValueAsDefault": "False",
+        "SortPriority": "4",
+        "BlendInputRelevance": "General"
+      },
+      "is_function_input": true,
+      "input_name": "PosterizeStrength",
+      "description": "",
+      "input_type": 0,
+      "input_type_name": "Scalar",
+      "sort_priority": 4,
+      "use_preview_value_as_default": false,
+      "inputs": [
+        "Preview"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionFunctionInput_00000257705C5A00",
+      "class": "FunctionInput",
+      "class_full": "MaterialExpressionFunctionInput",
+      "pos_x": -650,
+      "pos_y": 700,
+      "properties": {
+        "InputName": "ShadowLift",
+        "InputType": "FunctionInput_Scalar",
+        "PreviewValue": "(X=0.000000,Y=0.000000,Z=0.000000,W=1.000000)",
+        "bUsePreviewValueAsDefault": "False",
+        "SortPriority": "5",
+        "BlendInputRelevance": "General"
+      },
+      "is_function_input": true,
+      "input_name": "ShadowLift",
+      "description": "",
+      "input_type": 0,
+      "input_type_name": "Scalar",
+      "sort_priority": 5,
+      "use_preview_value_as_default": false,
+      "inputs": [
+        "Preview"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionFunctionInput_00000257705C5400",
+      "class": "FunctionInput",
+      "class_full": "MaterialExpressionFunctionInput",
+      "pos_x": -650,
+      "pos_y": 840,
+      "properties": {
+        "InputName": "GlobalTint",
+        "InputType": "FunctionInput_Vector3",
+        "PreviewValue": "(X=0.000000,Y=0.000000,Z=0.000000,W=1.000000)",
+        "bUsePreviewValueAsDefault": "False",
+        "SortPriority": "6",
+        "BlendInputRelevance": "General"
+      },
+      "is_function_input": true,
+      "input_name": "GlobalTint",
+      "description": "",
+      "input_type": 2,
+      "input_type_name": "Vector3",
+      "sort_priority": 6,
+      "use_preview_value_as_default": false,
+      "inputs": [
+        "Preview"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionFunctionInput_00000257705C3900",
+      "class": "FunctionInput",
+      "class_full": "MaterialExpressionFunctionInput",
+      "pos_x": -650,
+      "pos_y": 980,
+      "properties": {
+        "InputName": "Strength",
+        "InputType": "FunctionInput_Scalar",
+        "PreviewValue": "(X=0.000000,Y=0.000000,Z=0.000000,W=1.000000)",
+        "bUsePreviewValueAsDefault": "False",
+        "SortPriority": "7",
+        "BlendInputRelevance": "General"
+      },
+      "is_function_input": true,
+      "input_name": "Strength",
+      "description": "",
+      "input_type": 0,
+      "input_type_name": "Scalar",
+      "sort_priority": 7,
+      "use_preview_value_as_default": false,
+      "inputs": [
+        "Preview"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_00000257A8C43700",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -150,
+      "pos_y": 0,
+      "properties": {
+        "Code": "\nfloat peak=max(1.0,max(SourceColor.r,max(SourceColor.g,SourceColor.b)));\nfloat3 c=pow(saturate(SourceColor/peak),1.0/2.2);\nfloat lum=dot(c,float3(.2126,.7152,.0722));\nc=lerp(lum.xxx,c,max(0.,Saturation));\nc=saturate((c-.5)*max(.1,Contrast)+.5+ShadowLift);\nfloat levels=max(4.0,PaletteSteps);\nc=lerp(c,floor(c*levels+.5)/levels,saturate(PosterizeStrength));\nc=pow(saturate(c),2.2)*GlobalTint*peak;\nreturn lerp(SourceColor,c,saturate(Strength));\n",
+        "OutputType": "CMOT_Float3",
+        "Description": "Custom",
+        "Inputs": "((InputName=\"SourceColor\",Input=(Expression=\"/Script/Engine.MaterialExpressionFunctionInput'/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color:MaterialExpressionFunctionInput_0'\")),(InputName=\"Saturation\",Input=(Expression=\"/Script/Engine.MaterialExpressionFunctionInput'/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color:MaterialExpressionFunctionInput_1'\")),(InputName=\"Contrast\",Input=(Expression=\"/Script/Engine.MaterialExpressionFunctionInput'/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color:MaterialExpressionFunctionInput_2'\")),(InputName=\"PaletteSteps\",Input=(Expression=\"/Script/Engine.MaterialExpressionFunctionInput'/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color:MaterialExpressionFunctionInput_3'\")),(InputName=\"PosterizeStrength\",Input=(Expression=\"/Script/Engine.MaterialExpressionFunctionInput'/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color:MaterialExpressionFunctionInput_4'\")),(InputName=\"ShadowLift\",Input=(Expression=\"/Script/Engine.MaterialExpressionFunctionInput'/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color:MaterialExpressionFunctionInput_5'\")),(InputName=\"GlobalTint\",Input=(Expression=\"/Script/Engine.MaterialExpressionFunctionInput'/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color:MaterialExpressionFunctionInput_6'\")),(InputName=\"Strength\",Input=(Expression=\"/Script/Engine.MaterialExpressionFunctionInput'/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color:MaterialExpressionFunctionInput_7'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "inputs": [
+        "SourceColor",
+        "Saturation",
+        "Contrast",
+        "PaletteSteps",
+        "PosterizeStrength",
+        "ShadowLift",
+        "GlobalTint",
+        "Strength"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionFunctionOutput_00000257A8C444C0",
+      "class": "FunctionOutput",
+      "class_full": "MaterialExpressionFunctionOutput",
+      "pos_x": 300,
+      "pos_y": 0,
+      "properties": {
+        "OutputName": "StyledColor",
+        "SortPriority": "0"
+      },
+      "is_function_output": true,
+      "output_name": "StyledColor",
+      "description": "",
+      "sort_priority": 0,
+      "inputs": [
+        "Input_0"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_id": "MaterialExpressionFunctionInput_00000257705C6900",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257A8C43700",
+      "target_input": "SourceColor"
+    },
+    {
+      "source_id": "MaterialExpressionFunctionInput_00000257705CF480",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257A8C43700",
+      "target_input": "Saturation"
+    },
+    {
+      "source_id": "MaterialExpressionFunctionInput_00000257705C5280",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257A8C43700",
+      "target_input": "Contrast"
+    },
+    {
+      "source_id": "MaterialExpressionFunctionInput_00000257705CC000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257A8C43700",
+      "target_input": "PaletteSteps"
+    },
+    {
+      "source_id": "MaterialExpressionFunctionInput_00000257705CAB00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257A8C43700",
+      "target_input": "PosterizeStrength"
+    },
+    {
+      "source_id": "MaterialExpressionFunctionInput_00000257705C5A00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257A8C43700",
+      "target_input": "ShadowLift"
+    },
+    {
+      "source_id": "MaterialExpressionFunctionInput_00000257705C5400",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257A8C43700",
+      "target_input": "GlobalTint"
+    },
+    {
+      "source_id": "MaterialExpressionFunctionInput_00000257705C3900",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257A8C43700",
+      "target_input": "Strength"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000257A8C43700",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionFunctionOutput_00000257A8C444C0",
+      "target_input": "Input_0"
+    }
+  ]
+}

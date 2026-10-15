@@ -1,0 +1,122 @@
+[
+  {
+    "id": "LG_01_Cottage_A",
+    "angle": "Front",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_01_Cottage_A_FrontFinal.png",
+    "sha256": "68a7d16571f2ef387b676a427392635b634fc4bd8e19d55349842a471a5f7399"
+  },
+  {
+    "id": "LG_01_Cottage_A",
+    "angle": "Back",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_01_Cottage_A_BackFinal.png",
+    "sha256": "0fb09f6e1ea49b928dfacd9e211ff7cb82fbe13ed6405099f37200446912800b"
+  },
+  {
+    "id": "LG_02_Inn",
+    "angle": "Front",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_02_Inn_FrontFinal.png",
+    "sha256": "9f1bbc630385a4d07d0316b3c4ad354a8a0c76da3452af04c38363b9af6e2049"
+  },
+  {
+    "id": "LG_02_Inn",
+    "angle": "Back",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_02_Inn_BackFinal.png",
+    "sha256": "762c09fe123753a96ef6a42ec4824796999bc3ec6e6e73c8a45bbabb1c5e8d49"
+  },
+  {
+    "id": "LG_03_VillageHall",
+    "angle": "Front",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_03_VillageHall_FrontFinal.png",
+    "sha256": "a90327e9b2ff6cb74412ef5f9d5358a45b46cfc1445bd77e3f7f90eb6cf0e266"
+  },
+  {
+    "id": "LG_03_VillageHall",
+    "angle": "Back",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_03_VillageHall_BackFinal.png",
+    "sha256": "230cd080920e4ee1c4373c7f552fe51e4b7084ca618e4aafc08451e5c23e515a"
+  },
+  {
+    "id": "LG_04_Workshop",
+    "angle": "Front",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_04_Workshop_FrontFinal.png",
+    "sha256": "498d0467fb321a52ce07082616a65e5d1452ae11eee197d126c635f79b0274c2"
+  },
+  {
+    "id": "LG_04_Workshop",
+    "angle": "Back",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_04_Workshop_BackFinal.png",
+    "sha256": "ecbffec0bd60f67f9b4ee1d558b4d0c03ed8b5fb2fb9566072e2701bf86de137"
+  },
+  {
+    "id": "LG_05_WatermillHouse",
+    "angle": "Front",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_05_WatermillHouse_FrontReview.png",
+    "sha256": "d8cd3280376f081da79851f8288185cf73215986fdfdf1281e09900d5b547772"
+  },
+  {
+    "id": "LG_05_WatermillHouse",
+    "angle": "Back",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_05_WatermillHouse_BackReview.png",
+    "sha256": "933e2a8630ddf1e289359194493b49f26c93a16932f6bece8296c21fb17250d1"
+  },
+  {
+    "id": "LG_06_NaiaShelter",
+    "angle": "Front",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_06_NaiaShelter_FrontReview.png",
+    "sha256": "2391d4ed64cedb44428abaef16cfae5e68ffdcf7d005d56c6780f1a7a94fac48"
+  },
+  {
+    "id": "LG_06_NaiaShelter",
+    "angle": "Back",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_06_NaiaShelter_BackReview.png",
+    "sha256": "8a141d5c45d7a6225a9955d6848ebb8740b70de660913c793d84b670eaefc6bf"
+  },
+  {
+    "id": "LG_07_Sanctuary",
+    "angle": "Front",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_07_Sanctuary_FrontReview.png",
+    "sha256": "c273568db55203546f118d16a2af2ea3cd958d278682bbec3628f7c1cd056ba7"
+  },
+  {
+    "id": "LG_07_Sanctuary",
+    "angle": "Back",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_07_Sanctuary_BackReview.png",
+    "sha256": "21425bf7f14c2d2174940b92b5e376447caa45abfe69fbe3388265736ec31a23"
+  },
+  {
+    "id": "LG_08_BroadleafTree",
+    "angle": "Front",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_08_BroadleafTree_FrontReview.png",
+    "sha256": "e14af41bfe8e01bc207bc0a4454c00689f5ae6339e87e8a913d3443d2fe9ddef"
+  },
+  {
+    "id": "LG_08_BroadleafTree",
+    "angle": "Back",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_08_BroadleafTree_BackReview.png",
+    "sha256": "106b4b6a9882539e8402ecaa60a915d8a996130ca5bde00cbaeb0ff506de7add"
+  },
+  {
+    "id": "LG_09_MarketStall",
+    "angle": "Front",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_09_MarketStall_FrontReview.png",
+    "sha256": "135185ad4c8d4fb1134c90dfe1aa02a086ba730997a5c85e040565057bcb266c"
+  },
+  {
+    "id": "LG_09_MarketStall",
+    "angle": "Back",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\LG_09_MarketStall_BackReview.png",
+    "sha256": "bb52d6f38ceeba424720466e9af18b9c4417dd257f09650b25e6112642c31ebc"
+  },
+  {
+    "id": "Overview",
+    "angle": "Top",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\Overview_Top.png",
+    "sha256": "45fa4df33c4cd2d78c401ea512b981d8b0a9fe54179a3fabf0fcfcff7364efbd"
+  },
+  {
+    "id": "Overview",
+    "angle": "Oblique",
+    "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Preview\\Overview_Oblique.png",
+    "sha256": "c33bfa81950c71e47bc8e4d9bb769eec3a6751cb543e152da4474d3f5183b6fc"
+  }
+]

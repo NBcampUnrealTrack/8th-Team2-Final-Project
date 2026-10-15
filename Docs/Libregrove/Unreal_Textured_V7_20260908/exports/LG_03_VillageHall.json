@@ -1,0 +1,153 @@
+{
+  "id": "LG_03_VillageHall",
+  "name_ko": "마을 회관·성역 회당 공용",
+  "source_name": "LG_03_VillageHall.fbx",
+  "output_name": "SM_LG_03_VillageHall_V7",
+  "source_fingerprint": "0a4d76abcb675b57a2869876728d0f8e3004fd24362472c348b8d68f621be8fe",
+  "output_report": {
+    "object": {
+      "name": "SM_LG_03_VillageHall_V7",
+      "type": "MESH",
+      "data_name": "SM_LG_03_VillageHall_V7_Mesh",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.187352418899536,
+        3.044170379638672,
+        3.1499998569488525
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "collections": [
+        "Collection"
+      ]
+    },
+    "fingerprint": "bb3c66c85e5994faebf7f2cf61e61bd953530025ede6670325a4b35877601291",
+    "geometry": {
+      "vertices": 9171,
+      "edges": 22264,
+      "polygons": 13450,
+      "triangles": 13450,
+      "ngons": 0,
+      "loose_vertices": 0,
+      "loose_edges": 0,
+      "zero_length_edges": 0,
+      "boundary_edges": 4178,
+      "wire_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "invalid_face_normals": 0,
+      "non_finite_vertices": 0
+    },
+    "bounds": {
+      "local_min": [
+        -1.593676209449768,
+        -1.522085189819336,
+        0.0
+      ],
+      "local_max": [
+        1.593676209449768,
+        1.522085189819336,
+        3.1499998569488525
+      ],
+      "world_min": [
+        -1.593676209449768,
+        -1.522085189819336,
+        0.0
+      ],
+      "world_max": [
+        1.593676209449768,
+        1.522085189819336,
+        3.1499998569488525
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "tripo_mat_7a88dfe0"
+      }
+    ],
+    "uv_layers": [
+      {
+        "name": "UVMap",
+        "active": true,
+        "active_render": true,
+        "loop_count": 40350,
+        "bounds_min": [
+          0.001953125,
+          0.001953125
+        ],
+        "bounds_max": [
+          0.998046875,
+          0.99365234375
+        ],
+        "out_of_zero_one_range": 0,
+        "non_finite": 0,
+        "degenerate_faces": 12
+      }
+    ],
+    "modifiers": [],
+    "quality": {
+      "passed": true,
+      "score": 94,
+      "blockers": [],
+      "warnings": [
+        {
+          "code": "non_manifold_geometry",
+          "message": "Mesh contains boundary, wire, or non-manifold edges."
+        }
+      ],
+      "requirements": {}
+    }
+  },
+  "scale_factor": 3.1873517786561263,
+  "dimensions_cm": [
+    318.7352418899536,
+    304.4170379638672,
+    314.99998569488525
+  ],
+  "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_03_VillageHall_V7.glb",
+  "sha256": "de26753fa7a6c8c0c7116acaa36c9c2e4d4a57ebf7ab5712174b3363a3ca2c3f",
+  "recommended_vertex_max": 4200,
+  "initial_triangle_budget": 7000,
+  "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall",
+  "geometry_uv_unchanged_except_uniform_scale": true
+}

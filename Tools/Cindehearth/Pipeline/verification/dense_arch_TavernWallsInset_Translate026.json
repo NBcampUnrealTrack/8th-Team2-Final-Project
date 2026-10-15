@@ -1,0 +1,208 @@
+[
+  {
+    "tool": "blender_mesh_edit",
+    "arguments": {
+      "source_object_name": "CH_Dense_TavernWallsInset_REF___CH_Dense_TavernWallsFront_025",
+      "output_object_name": "CH_Dense_TavernWallsInset_Final026",
+      "operations": [
+        {
+          "type": "transform_vertices",
+          "translation": [
+            -0.14,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "request_id": 72305933286892
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"72305933286892\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "72305933286892",
+        "command": "mesh.edit",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"72305933286892\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"finished\",\n    \"created_at\": 1788601630.267324,\n    \"finished_at\": 1788601630.3423452,\n    \"result\": {\n      \"source_object_name\": \"CH_Dense_TavernWallsInset_REF___CH_Dense_TavernWallsFront_025\",\n      \"source_fingerprint\": \"e425fa5c956b8dcfc73568080fcc873c0eb2149e5ad99e00f587e29ec046c78b\",\n      \"output_object_name\": \"CH_Dense_TavernWallsInset_Final026\",\n      \"operations\": [\n        {\n          \"type\": \"transform_vertices\"\n        }\n      ],\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_Dense_TavernWallsInset_Final026\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Dense_TavernWallsInset_Final026_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            0.07686161994934082,\n            2.121896266937256,\n            0.7604591846466064\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"1e872fd08a76d0c9e1acaea60990b7d7bb36ed349ccb1ff7eb11419427dd56b2\",\n        \"geometry\": {\n          \"vertices\": 24,\n          \"edges\": 30,\n          \"polygons\": 12,\n          \"triangles\": 12,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 24,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 0,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            0.4567186236381531,\n            -1.4431871175765991,\n            0.2503756284713745\n          ],\n          \"local_max\": [\n            0.5335802435874939,\n            0.6787092685699463,\n            1.010834813117981\n          ],\n          \"world_min\": [\n            0.4567186236381531,\n            -1.4431871175765991,\n            0.2503756284713745\n          ],\n          \"world_max\": [\n            0.5335802435874939,\n            0.6787092685699463,\n            1.010834813117981\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"CH_Dense_TavernWalls_Stone.001\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"UVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 36,\n            \"bounds_min\": [\n              -1.4287933111190796,\n              -1.4287934303283691\n            ],\n            \"bounds_max\": [\n              2.4292001724243164,\n              2.4292001724243164\n            ],\n            \"out_of_zero_one_range\": 36,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 0\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 94,\n          \"blockers\": [],\n          \"warnings\": [\n            {\n              \"code\": \"non_manifold_geometry\",\n              \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n            }\n          ],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "72305933286892",
+        "command": "mesh.edit",
+        "state": "finished",
+        "created_at": 1788601630.267324,
+        "finished_at": 1788601630.3423452,
+        "result": {
+          "source_object_name": "CH_Dense_TavernWallsInset_REF___CH_Dense_TavernWallsFront_025",
+          "source_fingerprint": "e425fa5c956b8dcfc73568080fcc873c0eb2149e5ad99e00f587e29ec046c78b",
+          "output_object_name": "CH_Dense_TavernWallsInset_Final026",
+          "operations": [
+            {
+              "type": "transform_vertices"
+            }
+          ],
+          "output": {
+            "object": {
+              "name": "CH_Dense_TavernWallsInset_Final026",
+              "type": "MESH",
+              "data_name": "CH_Dense_TavernWallsInset_Final026_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                0.07686161994934082,
+                2.121896266937256,
+                0.7604591846466064
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "1e872fd08a76d0c9e1acaea60990b7d7bb36ed349ccb1ff7eb11419427dd56b2",
+            "geometry": {
+              "vertices": 24,
+              "edges": 30,
+              "polygons": 12,
+              "triangles": 12,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 24,
+              "wire_edges": 0,
+              "non_manifold_edges": 0,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                0.4567186236381531,
+                -1.4431871175765991,
+                0.2503756284713745
+              ],
+              "local_max": [
+                0.5335802435874939,
+                0.6787092685699463,
+                1.010834813117981
+              ],
+              "world_min": [
+                0.4567186236381531,
+                -1.4431871175765991,
+                0.2503756284713745
+              ],
+              "world_max": [
+                0.5335802435874939,
+                0.6787092685699463,
+                1.010834813117981
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "CH_Dense_TavernWalls_Stone.001"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "UVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 36,
+                "bounds_min": [
+                  -1.4287933111190796,
+                  -1.4287934303283691
+                ],
+                "bounds_max": [
+                  2.4292001724243164,
+                  2.4292001724243164
+                ],
+                "out_of_zero_one_range": 36,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 94,
+              "blockers": [],
+              "warnings": [
+                {
+                  "code": "non_manifold_geometry",
+                  "message": "Mesh contains boundary, wire, or non-manifold edges."
+                }
+              ],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

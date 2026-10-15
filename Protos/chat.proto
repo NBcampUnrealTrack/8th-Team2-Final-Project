@@ -1,0 +1,98 @@
+syntax = "proto3";
+package rev.chat;
+option csharp_namespace = "RevMMOChatServer.Protos";
+
+// 채팅 서버 계약. 게임 서버(game.proto)와 별도 프로세스 · 별도 스트림.
+// 사용법은 Docs/gRPC_help.md §11. 근접 채팅은 game.proto 의 FieldChat(50).
+// oneof 번호 재사용 금지. 새 oneof 는 맨 끝에 추가. repeated/optional 안 쓴다.
+
+service ChatService {
+  rpc Chat(stream ChatMessage) returns (stream ChatMessage);
+}
+
+// 봉투. GameMessage 와 같은 모양이다.
+message ChatMessage {
+  string user_id = 1;                  // INOUT 계정 id (응답에 echo)
+  optional string message = 2;         // INOUT 부가 메시지
+  int64 timestamp = 3;                 // INOUT UnixTime 초 (응답에 echo)
+  optional string token = 4;           // IN  세션 토큰 (게임에서 쓰던 그 값)
+  optional int32 result_code = 5;      // OUT ResultCode (Success = 200)
+  optional string result_message = 6;  // OUT 결과 메시지
+  optional string response_data = 7;   // OUT JSON 응답 데이터
+
+  oneof message_type {
+    // ---- 접속 / 채널 (10-19) ----   ※ 13-19 예약
+    ChatLogin    chat_login    = 10;
+    JoinChannel  join_channel  = 11;
+    LeaveChannel leave_channel = 12;
+
+    // ---- 발화 (20-29) ----   ※ 22-29 예약
+    ChatSend    chat_send    = 20;
+    ChatWhisper chat_whisper = 21;
+
+    // ---- 서버 -> 클라 푸시 (30-39) ----   ※ 33-39 예약
+    SVR_Chat_Message svr_chat_message = 30;
+    SVR_Chat_Whisper svr_chat_whisper = 31;
+    SVR_Chat_Kick    svr_chat_kick    = 32;
+
+    ChatPing ping = 999;
+  }
+  // ★ 새 oneof 는 여기 아래에
+}
+
+// 첫 패킷. 캐릭터 선택까지 마친 뒤에 보낸다 (봉투의 user_id/token 으로 검증).
+// 다시 보내면 신원 갱신 (캐릭터 교체 시).
+message ChatLogin {
+  uint64 player_id = 1;    // OUT 게임의 player_id 와 같은 값
+  string player_name = 2;  // OUT 내 캐릭터 이름
+}
+
+// channel_id : "world" / "guild:123" / "party:456" (32자 이내, 세션당 8개)
+message JoinChannel {
+  string channel_id = 1;   // IN
+  int32  member_count = 2; // OUT 입장 후 인원
+}
+
+message LeaveChannel {
+  string channel_id = 1;   // IN
+}
+
+message ChatSend {
+  string channel_id = 1;   // IN  들어가 있는 채널
+  string text = 2;         // IN  1~100자
+  // OUT : result_code 만. 본문은 SVR_Chat_Message 로 온다
+}
+
+message ChatWhisper {
+  string target_name = 1;  // IN  대상 캐릭터 이름 (target_idx 가 0일 때만 쓴다)
+  string text = 2;         // IN  1~100자
+  uint64 target_idx = 3;   // IN  대상 캐릭터 idx. 0이 아니면 이걸 쓴다
+}
+
+// 내가 한 말도 나에게 온다 (근접 채팅과 반대).
+message SVR_Chat_Message {
+  string channel_id  = 1;  // OUT
+  uint64 player_id   = 2;  // OUT 발화자
+  string player_name = 3;  // OUT 발화자 이름 (안 보이는 사람도 있어서 싣는다)
+  string text        = 4;  // OUT 정제된 본문
+}
+
+// 보낸 쪽·받은 쪽 둘 다 받는다. player_id/name 은 항상 상대방.
+message SVR_Chat_Whisper {
+  uint64 player_id     = 1;  // OUT 상대방
+  string player_name   = 2;  // OUT 상대방 이름
+  string text          = 3;  // OUT
+  bool   is_outgoing   = 4;  // OUT true = 내가 보낸 것의 echo
+  uint64 character_idx = 5;  // OUT 상대방 캐릭터 idx (답장에 그대로 쓴다)
+}
+
+// 채팅 세션 강제 종료. 직후 스트림이 닫힌다.
+message SVR_Chat_Kick {
+  int32 reason = 1;        // OUT 401 사칭 / 488 게임 세션 종료 / 1554 중복 접속
+}
+
+// 채팅 스트림 하트비트 (30초). 게임 세션 생존 재확인도 겸한다.
+message ChatPing {
+  int64 client_time = 1;   // IN  UnixTime ms
+  int64 server_time = 2;   // OUT UnixTime ms
+}

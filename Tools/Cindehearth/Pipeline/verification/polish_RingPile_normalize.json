@@ -1,0 +1,230 @@
+[
+  {
+    "tool": "blender_mesh_edit",
+    "arguments": {
+      "source_object_name": "CH_Polish_RingPile_REF___tripo_node_833f7769",
+      "output_object_name": "CH_Polish_RingPile_Game_v003",
+      "operations": [
+        {
+          "type": "transform_object",
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "transform_vertices",
+          "scale": [
+            3.001465559355154,
+            3.001465559355154,
+            3.001465559355154
+          ],
+          "translation": [
+            -0.0,
+            -0.0,
+            0.5210063507572057
+          ]
+        },
+        {
+          "type": "delete_loose"
+        }
+      ]
+    },
+    "request_id": 107090077526982
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"107090077526982\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "107090077526982",
+        "command": "mesh.edit",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"107090077526982\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"finished\",\n    \"created_at\": 1788595767.6114678,\n    \"finished_at\": 1788595767.8386915,\n    \"result\": {\n      \"source_object_name\": \"CH_Polish_RingPile_REF___tripo_node_833f7769\",\n      \"source_fingerprint\": \"a9d86baebc4af167242985b3939f76e30a949f22863936cec6edbcc57511a6e2\",\n      \"output_object_name\": \"CH_Polish_RingPile_Game_v003\",\n      \"operations\": [\n        {\n          \"type\": \"transform_object\"\n        },\n        {\n          \"type\": \"transform_vertices\"\n        },\n        {\n          \"type\": \"delete_loose\"\n        }\n      ],\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_Polish_RingPile_Game_v003\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Polish_RingPile_Game_v003_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            2.2525646686553955,\n            3.0,\n            1.0420126914978027\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"68eafb70cca6dfc0e87817c902dbd2820bc10ee12920b38eccba43fa85a7d18d\",\n        \"geometry\": {\n          \"vertices\": 1146,\n          \"edges\": 2186,\n          \"polygons\": 1081,\n          \"triangles\": 1624,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 599,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 12,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            -1.1262823343276978,\n            -1.5,\n            0.0\n          ],\n          \"local_max\": [\n            1.1262823343276978,\n            1.5,\n            1.0420126914978027\n          ],\n          \"world_min\": [\n            -1.1262823343276978,\n            -1.5,\n            0.0\n          ],\n          \"world_max\": [\n            1.1262823343276978,\n            1.5,\n            1.0420126914978027\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"tripo_mat_833f7769\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"tripo_833f7769_9212_487f_b072_5d49c3f919ca_NewUVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 3786,\n            \"bounds_min\": [\n              0.0008149946224875748,\n              0.0008150684298016131\n            ],\n            \"bounds_max\": [\n              0.9978753328323364,\n              0.9991850256919861\n            ],\n            \"out_of_zero_one_range\": 0,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 0\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 94,\n          \"blockers\": [],\n          \"warnings\": [\n            {\n              \"code\": \"non_manifold_geometry\",\n              \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n            }\n          ],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "107090077526982",
+        "command": "mesh.edit",
+        "state": "finished",
+        "created_at": 1788595767.6114678,
+        "finished_at": 1788595767.8386915,
+        "result": {
+          "source_object_name": "CH_Polish_RingPile_REF___tripo_node_833f7769",
+          "source_fingerprint": "a9d86baebc4af167242985b3939f76e30a949f22863936cec6edbcc57511a6e2",
+          "output_object_name": "CH_Polish_RingPile_Game_v003",
+          "operations": [
+            {
+              "type": "transform_object"
+            },
+            {
+              "type": "transform_vertices"
+            },
+            {
+              "type": "delete_loose"
+            }
+          ],
+          "output": {
+            "object": {
+              "name": "CH_Polish_RingPile_Game_v003",
+              "type": "MESH",
+              "data_name": "CH_Polish_RingPile_Game_v003_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                2.2525646686553955,
+                3.0,
+                1.0420126914978027
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "68eafb70cca6dfc0e87817c902dbd2820bc10ee12920b38eccba43fa85a7d18d",
+            "geometry": {
+              "vertices": 1146,
+              "edges": 2186,
+              "polygons": 1081,
+              "triangles": 1624,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 599,
+              "wire_edges": 0,
+              "non_manifold_edges": 12,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -1.1262823343276978,
+                -1.5,
+                0.0
+              ],
+              "local_max": [
+                1.1262823343276978,
+                1.5,
+                1.0420126914978027
+              ],
+              "world_min": [
+                -1.1262823343276978,
+                -1.5,
+                0.0
+              ],
+              "world_max": [
+                1.1262823343276978,
+                1.5,
+                1.0420126914978027
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_mat_833f7769"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "tripo_833f7769_9212_487f_b072_5d49c3f919ca_NewUVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 3786,
+                "bounds_min": [
+                  0.0008149946224875748,
+                  0.0008150684298016131
+                ],
+                "bounds_max": [
+                  0.9978753328323364,
+                  0.9991850256919861
+                ],
+                "out_of_zero_one_range": 0,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 94,
+              "blockers": [],
+              "warnings": [
+                {
+                  "code": "non_manifold_geometry",
+                  "message": "Mesh contains boundary, wire, or non-manifold edges."
+                }
+              ],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

@@ -1,0 +1,215 @@
+{
+  "success": true,
+  "classes": [
+    {
+      "success": true,
+      "class_name": "MaterialService",
+      "full_path": "unreal.MaterialService",
+      "doc_string": "Material service exposed directly to Python.\n\nProvides 26 material management actions:\n\nLifecycle:\n- create: Create a new material asset\n- create_instance: Create a material instance from a parent\n- save: Save material to disk\n- compile: Compile/rebuild material shaders\n- refresh_editor: Refresh open Material Editor\n- open: Open material in editor\n\nInformation:\n- get_info: Get comprehensive material information\n- summarize: Get AI-friendly material summary\n- list_properties: List all editable properties\n- get_property: Get a property value\n- get_property_info: Get detailed property metadata\n\nProperty Management:\n- set_property: Set a single property value\n- set_properties: Set multiple properties at once\n\nParameter Management:\n- list_parameters: List all material parameters\n- get_parameter: Get a parameter's value and info\n- set_parameter_default: Set a parameter's default value\n\nInstance Information:\n- get_instance_info: Get material instance information\n- list_instance_properties: List instance editable properties\n- get_instance_property: Get an instance property value\n- set_instance_property: Set an instance property value\n\nInstance Parameters:\n- list_instance_parameters: List instance parameter overrides\n- set_instance_scalar_parameter: Set scalar parameter override\n- set_instance_vector_parameter: Set vector/color parameter override\n- set_instance_texture_parameter: Set texture parameter override\n- clear_instance_parameter_override: Clear parameter override\n- save_instance: Save material instance to disk\n\nPython Usage:\n  import unreal\n\n  # Create a material\n  result = unreal.MaterialService.create_material(\"M_NewMaterial\", \"/Game/Materials\")\n\n  # Create material instance\n  result = unreal.MaterialService.create_instance(\"/Game/Materials/M_Base\", \"MI_Red\", \"/Game/Materials\")\n\n  # Set instance parameter\n  unreal.MaterialService.set_instance_vector_parameter(\"/Game/MI_Red\", \"BaseColor\", 1.0, 0.0, 0.0, 1.0)\r\nnote: This replaces the JSON-based manage_material MCP tool\r\n\r\n**C++ Source:**\r\n\r\n- **Plugin**: Revvy\r\n- **Module**: Revvy\r\n- **File**: UMaterialService.h\r",
+      "base_classes": [
+        "Object",
+        "_ObjectBase",
+        "_WrapperBase",
+        "object"
+      ],
+      "methods": [
+        {
+          "name": "set_property",
+          "signature": "(material_path, property_name, property_value) -> bool",
+          "docstring": "X.set_property(material_path, property_name, property_value) -> bool\r\nSet a material property value.\nMaps to action=\"set_property\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    property_name (str): Name of the property\r\n    property_value (str): New value as string\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_properties",
+          "signature": "(material_path, properties) -> int32",
+          "docstring": "X.set_properties(material_path, properties) -> int32\r\nSet multiple material properties at once.\nMaps to action=\"set_properties\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    properties (Map[str, str]): Map of property names to values\r\n\r\nReturns:\r\n    int32: Number of properties successfully set"
+        },
+        {
+          "name": "set_parameter_default",
+          "signature": "(material_path, parameter_name, default_value) -> bool",
+          "docstring": "X.set_parameter_default(material_path, parameter_name, default_value) -> bool\r\nSet a parameter's default value.\nMaps to action=\"set_parameter_default\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    parameter_name (str): Name of the parameter\r\n    default_value (str): New default value as string\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_instance_vector_parameter",
+          "signature": "(instance_path, parameter_name, r, g, b, a=1.000000) -> bool",
+          "docstring": "X.set_instance_vector_parameter(instance_path, parameter_name, r, g, b, a=1.000000) -> bool\r\nSet a vector/color parameter override on a material instance.\nMaps to action=\"set_instance_vector_parameter\"\r\n\r\nArgs:\r\n    instance_path (str): Full path to the material instance\r\n    parameter_name (str): Name of the parameter\r\n    r (float): Red component (0.0-1.0)\r\n    g (float): Green component (0.0-1.0)\r\n    b (float): Blue component (0.0-1.0)\r\n    a (float): Alpha component (0.0-1.0)\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_instance_texture_parameter",
+          "signature": "(instance_path, parameter_name, texture_path) -> bool",
+          "docstring": "X.set_instance_texture_parameter(instance_path, parameter_name, texture_path) -> bool\r\nSet a texture parameter override on a material instance.\nMaps to action=\"set_instance_texture_parameter\"\r\n\r\nArgs:\r\n    instance_path (str): Full path to the material instance\r\n    parameter_name (str): Name of the parameter\r\n    texture_path (str): Path to the texture asset (empty to clear)\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_instance_scalar_parameter",
+          "signature": "(instance_path, parameter_name, value) -> bool",
+          "docstring": "X.set_instance_scalar_parameter(instance_path, parameter_name, value) -> bool\r\nSet a scalar parameter override on a material instance.\nMaps to action=\"set_instance_scalar_parameter\"\r\n\r\nArgs:\r\n    instance_path (str): Full path to the material instance\r\n    parameter_name (str): Name of the parameter\r\n    value (float): New scalar value\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_instance_property",
+          "signature": "(instance_path, property_name, property_value) -> bool",
+          "docstring": "X.set_instance_property(instance_path, property_name, property_value) -> bool\r\nSet a material instance property value.\nMaps to action=\"set_instance_property\"\r\n\r\nArgs:\r\n    instance_path (str): Full path to the material instance\r\n    property_name (str): Name of the property\r\n    property_value (str): New value as string\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_instance_parameters_bulk",
+          "signature": "(instance_path, names, types, values) -> int32",
+          "docstring": "X.set_instance_parameters_bulk(instance_path, names, types, values) -> int32\r\nSet multiple parameters on a material instance in one call.\nMaps to action=\"set_instance_parameters_bulk\"\n\nSupports Scalar, Vector, Texture, and StaticSwitch parameter types.\nMuch more efficient than calling individual set methods for instances\nwith many parameters (e.g., Real_Landscape master materials with 50+ params).\r\n\r\nArgs:\r\n    instance_path (str): Full path to the material instance\r\n    names (Array[str]): Array of parameter names\r\n    types (Array[str]): Array of parameter types (\"Scalar\", \"Vector\", \"Texture\", \"StaticSwitch\")\r\n    values (Array[str]): Array of values as strings. For Scalar: \"0.5\". For Vector: \"(R=1,G=0,B=0,A=1)\". For Texture: \"/Game/Textures/T_Tex\". For StaticSwitch: \"true\"/\"false\".\r\n\r\nReturns:\r\n    int32: Number of parameters successfully set Example: count = unreal.MaterialService.set_instance_parameters_bulk( \"/Game/Materials/MI_Landscape\", [\"Tiling\", \"BaseColor\", \"DiffuseTexture\", \"UseSnow\"], [\"Scalar\", \"Vector\", \"Texture\", \"StaticSwitch\"], [\"0.01\", \"(R=0.2,G=0.5,B=0.1,A=1)\", \"/Game/T_Grass_BC\", \"true\"]"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "success": true,
+      "class_name": "MaterialNodeService",
+      "full_path": "unreal.MaterialNodeService",
+      "doc_string": "Material Node Service\r\n\r\n**C++ Source:**\r\n\r\n- **Plugin**: Revvy\r\n- **Module**: Revvy\r\n- **File**: UMaterialNodeService.h\r",
+      "base_classes": [
+        "Object",
+        "_ObjectBase",
+        "_WrapperBase",
+        "object"
+      ],
+      "methods": [
+        {
+          "name": "set_parameter_metadata",
+          "signature": "(material_path, expression_id, group_name, sort_priority=0) -> bool",
+          "docstring": "X.set_parameter_metadata(material_path, expression_id, group_name, sort_priority=0) -> bool\r\nSet parameter metadata (group, sort priority).\nMaps to action=\"set_parameter_metadata\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    expression_id (str): Parameter expression ID\r\n    group_name (str): New group name\r\n    sort_priority (int32): Sort priority within group\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_function_expression_property",
+          "signature": "(function_path, expression_id, property_name, property_value) -> bool",
+          "docstring": "X.set_function_expression_property(function_path, expression_id, property_name, property_value) -> bool\r\nSet a property on an expression inside a Material Function's graph.\nMaps to action=\"set_function_expression_property\"\n\nLike SetExpressionProperty but operates on a UMaterialFunction.\r\n\r\nArgs:\r\n    function_path (str): Full asset path to the UMaterialFunction\r\n    expression_id (str): Expression ID\r\n    property_name (str): Property name\r\n    property_value (str): Value as string\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_expression_property",
+          "signature": "(material_path, expression_id, property_name, property_value) -> bool",
+          "docstring": "X.set_expression_property(material_path, expression_id, property_name, property_value) -> bool\r\nSet a property value on an expression.\nMaps to action=\"set_property\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    expression_id (str): ID of expression\r\n    property_name (str): Property name\r\n    property_value (str): Value as string\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "batch_set_properties",
+          "signature": "(material_path, expression_ids, property_names, property_values) -> int32",
+          "docstring": "X.batch_set_properties(material_path, expression_ids, property_names, property_values) -> int32\r\nBatch-set properties on multiple expressions in one call.\nMaps to action=\"batch_set_properties\"\n\nAll property changes are made in a single transaction with one graph refresh.\nThe arrays must all be the same length (each index is one set operation).\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    expression_ids (Array[str]): Array of expression IDs\r\n    property_names (Array[str]): Array of property names\r\n    property_values (Array[str]): Array of property values as strings\r\n\r\nReturns:\r\n    int32: Number of successful property sets Example: count = unreal.MaterialNodeService.batch_set_properties(\"/Game/M_Test\", [n1.id, n1.id, n2.id], [\"R\", \"G\", \"Bias\"], [\"True\", \"False\", \"0.5\"])"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "success": true,
+      "class_name": "ViewportService",
+      "full_path": "unreal.ViewportService",
+      "doc_string": "Viewport Service - Python API for controlling the Unreal Editor level viewport.\n\nProvides access to all viewport camera options from the perspective dropdown menu:\n- View type switching (Perspective, Top, Bottom, Left, Right, Front, Back)\n- Field of View, Near/Far Clip Plane configuration\n- Exposure settings (Game Settings / fixed EV100)\n- Game View toggle, Cinematic Control, Camera Shakes\n- Viewport layout switching (single pane, quad view 2x2, etc.)\n- Camera location/rotation control\n- Realtime rendering toggle\n\nPython Usage:\n  import unreal\n\n  # Get current viewport state\n  info = unreal.ViewportService.get_viewport_info()\n  print(f\"Type: {info.viewport_type}, FOV: {info.fov}\")\n\n  # Switch to orthographic views\n  unreal.ViewportService.set_viewport_type(\"top\")\n  unreal.ViewportService.set_viewport_type(\"perspective\")\n\n  # Adjust camera properties\n  unreal.ViewportService.set_fov(75.0)\n  unreal.ViewportService.set_near_clip_plane(10.0)\n  unreal.ViewportService.set_far_clip_plane(50000.0)\n\n  # Exposure control\n  unreal.ViewportService.set_exposure(True, 1.0)\n  unreal.ViewportService.set_exposure_game_settings()\n\n  # Game View and cinematic\n  unreal.ViewportService.set_game_view(True)\n  unreal.ViewportService.set_allow_cinematic_control(True)\n\n  # Viewport layout (single vs quad)\n  unreal.ViewportService.set_viewport_layout(\"FourPanes2x2\")\n  unreal.ViewportService.set_viewport_layout(\"OnePane\")\n\n  # Camera position/rotation\n  unreal.ViewportService.set_camera_location(unreal.Vector(0, 0, 500))\n  unreal.ViewportService.set_camera_rotation(unreal.Rotator(-45, 0, 0))\r\nnote: All 19 viewport operations available via Python\r\n\r\n**C++ Source:**\r\n\r\n- **Plugin**: Revvy\r\n- **Module**: Revvy\r\n- **File**: UViewportService.h\r",
+      "base_classes": [
+        "Object",
+        "_ObjectBase",
+        "_WrapperBase",
+        "object"
+      ],
+      "methods": [
+        {
+          "name": "set_viewport_type",
+          "signature": "(view_type) -> bool",
+          "docstring": "X.set_viewport_type(view_type) -> bool\r\nSet the viewport view type.\r\n\r\nArgs:\r\n    view_type (str): One of: \"perspective\", \"top\", \"bottom\", \"left\", \"right\", \"front\", \"back\"\r\n\r\nReturns:\r\n    bool: True if the view type was changed successfully"
+        },
+        {
+          "name": "set_viewport_layout",
+          "signature": "(layout_name) -> bool",
+          "docstring": "X.set_viewport_layout(layout_name) -> bool\r\nSet the viewport layout configuration (single pane, quad view, etc.).\n\nValid layout names:\n- \"OnePane\"           - Single viewport (default)\n- \"TwoPanesHoriz\"     - Two viewports side by side\n- \"TwoPanesVert\"      - Two viewports stacked\n- \"ThreePanesLeft\"    - Three panes, large left\n- \"ThreePanesRight\"   - Three panes, large right\n- \"ThreePanesTop\"     - Three panes, large top\n- \"ThreePanesBottom\"  - Three panes, large bottom\n- \"FourPanesLeft\"     - Four panes, large left\n- \"FourPanesRight\"    - Four panes, large right\n- \"FourPanesTop\"      - Four panes, large top\n- \"FourPanesBottom\"   - Four panes, large bottom\n- \"FourPanes2x2\"      - Quad view (2x2 grid)\r\n\r\nArgs:\r\n    layout_name (str): Layout configuration name\r\n\r\nReturns:\r\n    bool: True if layout was changed successfully"
+        },
+        {
+          "name": "set_view_mode",
+          "signature": "(view_mode) -> bool",
+          "docstring": "X.set_view_mode(view_mode) -> bool\r\nSet the viewport rendering mode (Lit, Wireframe, Unlit, etc.).\nCorresponds to the \"Lit\" dropdown in the viewport toolbar.\r\n\r\nArgs:\r\n    view_mode (str): One of: \"lit\", \"unlit\", \"wireframe\", \"detaillighting\", \"lightingonly\", \"lightcomplexity\", \"shadercomplexity\", \"pathtracing\", \"clay\"\r\n\r\nReturns:\r\n    bool: True if the view mode was changed successfully"
+        },
+        {
+          "name": "set_realtime",
+          "signature": "(realtime) -> bool",
+          "docstring": "X.set_realtime(realtime) -> bool\r\nSet whether the viewport renders in realtime.\r\n\r\nArgs:\r\n    realtime (bool): True for realtime rendering, false for on-demand\r\n\r\nReturns:\r\n    bool: True if set successfully"
+        },
+        {
+          "name": "set_near_clip_plane",
+          "signature": "(distance) -> bool",
+          "docstring": "X.set_near_clip_plane(distance) -> bool\r\nSet the near clipping plane distance.\r\n\r\nArgs:\r\n    distance (float): Near clip distance in Unreal units. Use -1 to reset to engine default (GNearClippingPlane).\r\n\r\nReturns:\r\n    bool: True if set successfully"
+        },
+        {
+          "name": "set_game_view",
+          "signature": "(enable) -> bool",
+          "docstring": "X.set_game_view(enable) -> bool\r\nToggle Game View mode on/off.\nGame View hides all editor visualizations (wireframes, icons, etc.)\nshowing only what the player would see in-game.\r\n\r\nArgs:\r\n    enable (bool): True to enable Game View, false to disable\r\n\r\nReturns:\r\n    bool: True if set successfully"
+        },
+        {
+          "name": "set_fov",
+          "signature": "(fov_degrees) -> bool",
+          "docstring": "X.set_fov(fov_degrees) -> bool\r\nSet the viewport horizontal field of view (perspective mode only).\r\n\r\nArgs:\r\n    fov_degrees (float): Field of view in degrees (typically 60-120, default 90)\r\n\r\nReturns:\r\n    bool: True if FOV was set successfully"
+        },
+        {
+          "name": "set_far_clip_plane",
+          "signature": "(distance) -> bool",
+          "docstring": "X.set_far_clip_plane(distance) -> bool\r\nSet the far clipping plane distance.\r\n\r\nArgs:\r\n    distance (float): Far clip distance in Unreal units. Use 0 for infinity (default).\r\n\r\nReturns:\r\n    bool: True if set successfully"
+        },
+        {
+          "name": "set_exposure_game_settings",
+          "signature": "() -> bool",
+          "docstring": "X.set_exposure_game_settings() -> bool\r\nSet exposure to use game settings (auto eye adaptation).\nThis is the \"Game Settings\" checkbox in the viewport menu.\r\n\r\nReturns:\r\n    bool: True if set successfully"
+        },
+        {
+          "name": "set_exposure",
+          "signature": "(fixed, ev100=1.000000) -> bool",
+          "docstring": "X.set_exposure(fixed, ev100=1.000000) -> bool\r\nSet fixed exposure mode with a specific EV100 value.\r\n\r\nArgs:\r\n    fixed (bool): True for fixed exposure, false for auto eye adaptation\r\n    ev100 (float): EV100 exposure compensation value (default 1.0)\r\n\r\nReturns:\r\n    bool: True if set successfully"
+        },
+        {
+          "name": "set_camera_speed",
+          "signature": "(speed_setting) -> bool",
+          "docstring": "X.set_camera_speed(speed_setting) -> bool\r\nSet the camera movement speed index.\r\n\r\nArgs:\r\n    speed_setting (int32): Speed index from 1 (slowest) to 8 (fastest)\r\n\r\nReturns:\r\n    bool: True if set successfully"
+        },
+        {
+          "name": "set_camera_rotation",
+          "signature": "(new_rotation) -> bool",
+          "docstring": "X.set_camera_rotation(new_rotation) -> bool\r\nSet the viewport camera world rotation.\r\n\r\nArgs:\r\n    new_rotation (Rotator): World space rotation\r\n\r\nReturns:\r\n    bool: True if set successfully"
+        },
+        {
+          "name": "set_camera_location",
+          "signature": "(new_location) -> bool",
+          "docstring": "X.set_camera_location(new_location) -> bool\r\nSet the viewport camera world location.\r\n\r\nArgs:\r\n    new_location (Vector): World space location\r\n\r\nReturns:\r\n    bool: True if set successfully"
+        },
+        {
+          "name": "set_allow_cinematic_control",
+          "signature": "(allow) -> bool",
+          "docstring": "X.set_allow_cinematic_control(allow) -> bool\r\nSet whether the viewport allows cinematic control.\nWhen enabled, Sequencer cinematics can take over the viewport camera.\r\n\r\nArgs:\r\n    allow (bool): True to allow cinematic control\r\n\r\nReturns:\r\n    bool: True if set successfully"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "success": true,
+      "class_name": "EditorLoadingAndSavingUtils",
+      "full_path": "unreal.EditorLoadingAndSavingUtils",
+      "doc_string": "This class is a wrapper for editor loading and saving functionality\nIt is meant to contain only functions that can be executed in script (but are also allowed in C++).\nIt is separated from FEditorFileUtils to ensure new easier to use methods can be created without breaking FEditorFileUtils backwards compatibility\nHowever this should be used in place of FEditorFileUtils wherever possible as the goal is to deprecate FEditorFileUtils eventually\r\n\r\n**C++ Source:**\r\n\r\n- **Module**: UnrealEd\r\n- **File**: FileHelpers.h\r",
+      "base_classes": [
+        "Object",
+        "_ObjectBase",
+        "_WrapperBase",
+        "object"
+      ],
+      "methods": [
+        {
+          "name": "save_packages_with_dialog",
+          "signature": "(packages_to_save, only_dirty) -> bool",
+          "docstring": "X.save_packages_with_dialog(packages_to_save, only_dirty) -> bool\r\nSave all packages. Optionally prompting the user to select which packages to save.\nPrompt the user to select which dirty packages to save and check them out from source control (if enabled).\r\n\r\nArgs:\r\n    packages_to_save (Array[Package]): The list of packages to save.  Both map and content packages are supported\r\n    only_dirty (bool): \r\n\r\nReturns:\r\n    bool: true on success, false on fail."
+        },
+        {
+          "name": "save_packages",
+          "signature": "(packages_to_save, only_dirty) -> bool",
+          "docstring": "X.save_packages(packages_to_save, only_dirty) -> bool\r\nSave all packages.\nAssume all dirty packages should be saved and check out from source control (if enabled).\r\n\r\nArgs:\r\n    packages_to_save (Array[Package]): The list of packages to save.  Both map and content packages are supported\r\n    only_dirty (bool): \r\n\r\nReturns:\r\n    bool: true on success, false on fail."
+        },
+        {
+          "name": "get_dirty_map_packages",
+          "signature": "() -> Array[Package]",
+          "docstring": "X.get_dirty_map_packages() -> Array[Package]\r\nAppends array with all currently dirty map packages.\r\n\r\nReturns:\r\n    Array[Package]: \r\n\r\n    out_dirty_packages (Array[Package]): Array to append dirty packages to."
+        },
+        {
+          "name": "get_dirty_content_packages",
+          "signature": "() -> Array[Package]",
+          "docstring": "X.get_dirty_content_packages() -> Array[Package]\r\nAppends array with all currently dirty content packages.\r\n\r\nReturns:\r\n    Array[Package]: \r\n\r\n    out_dirty_packages (Array[Package]): Array to append dirty packages to."
+        }
+      ],
+      "properties": []
+    }
+  ]
+}

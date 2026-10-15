@@ -1,0 +1,297 @@
+[
+  {
+    "job_id": "polish_table_Caps004",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_table_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_table_Caps004"
+  },
+  {
+    "job_id": "polish_table_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_table_Caps004"
+  },
+  {
+    "job_id": "polish_table_Caps004",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "b02c68eaa992c4d9031c664e93a571257465c4ee7a7560172de7a0d59b3fb5c6",
+      "source": {
+        "object": {
+          "name": "CH_Polish_Table_Game_v003",
+          "type": "MESH",
+          "data_name": "CH_Polish_Table_Game_v003_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            3.0,
+            2.6658525466918945,
+            1.2149486541748047
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "3fb482ea4de78621e85d4585729ef4101e1debdf4798f75c7a98d00a22da82d8",
+        "geometry": {
+          "vertices": 703,
+          "edges": 1257,
+          "polygons": 596,
+          "triangles": 1069,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 253,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.5,
+            -1.3329262733459473,
+            0.0
+          ],
+          "local_max": [
+            1.5,
+            1.3329262733459473,
+            1.2149486541748047
+          ],
+          "world_min": [
+            -1.5,
+            -1.3329262733459473,
+            0.0
+          ],
+          "world_max": [
+            1.5,
+            1.3329262733459473,
+            1.2149486541748047
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_399e5018"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_399e5018_b11b_4589_a62a_f2d7de9f8e7f_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 2261,
+            "bounds_min": [
+              0.0005276856245473027,
+              0.0005276909214444458
+            ],
+            "bounds_max": [
+              0.9698598980903625,
+              0.9994722604751587
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Polish_Table_Caps004",
+          "type": "MESH",
+          "data_name": "CH_Polish_Table_Caps004_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            3.0,
+            2.6658525466918945,
+            1.2149486541748047
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "d920e86802a587918775a04817cf0d9e61fd524669f1edffdab0ae64bf2930ee",
+        "geometry": {
+          "vertices": 703,
+          "edges": 1361,
+          "polygons": 739,
+          "triangles": 1224,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 20,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.5,
+            -1.3329262733459473,
+            0.0
+          ],
+          "local_max": [
+            1.5,
+            1.3329262733459473,
+            1.2149486541748047
+          ],
+          "world_min": [
+            -1.5,
+            -1.3329262733459473,
+            0.0
+          ],
+          "world_max": [
+            1.5,
+            1.3329262733459473,
+            1.2149486541748047
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_399e5018"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_399e5018_b11b_4589_a62a_f2d7de9f8e7f_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 2702,
+            "bounds_min": [
+              0.0005276856245473027,
+              0.0005276909214444458
+            ],
+            "bounds_max": [
+              0.9698598980903625,
+              0.9994722604751587
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "added_faces": 143
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Table_Caps004.blend"
+    }
+  }
+]

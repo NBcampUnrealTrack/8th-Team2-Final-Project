@@ -1,0 +1,198 @@
+{
+  "date": "2026-09-05",
+  "status": "APPLIED_AND_VERIFIED",
+  "level": "/Game/Maps/L_Cindehearth",
+  "scope": "Whole-level HD2D art pass plus volumetric pine correction",
+  "user_visual_approval": false,
+  "positive_exemplar_registered": false,
+  "pine": {
+    "task": "798ff027-dfd5-4573-ad28-beb8ef759351",
+    "model": "P2-20260801",
+    "quad": true,
+    "geometry": {
+      "vertices": 1656,
+      "edges": 3561,
+      "polygons": 1921,
+      "triangles": 3280,
+      "ngons": 0,
+      "loose_vertices": 0,
+      "loose_edges": 0,
+      "zero_length_edges": 0,
+      "boundary_edges": 0,
+      "wire_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "invalid_face_normals": 0,
+      "non_finite_vertices": 0
+    },
+    "dimensions_m": [
+      2.0747923851013184,
+      2.1644845008850098,
+      2.700000047683716
+    ],
+    "native_quad_faces": 1359,
+    "count": 95,
+    "uniform_scale": true,
+    "removed_disconnected_components": 1,
+    "closed_boundary_loops": 13,
+    "front_back_top_blender_review": true,
+    "front_side_unreal_review": true,
+    "gameplay_capture": "verification/pine_player.png",
+    "rejected_version": "CH_Pine_Closed_v002"
+  },
+  "applied": {
+    "level": "/Game/Maps/L_Cindehearth",
+    "pie": false,
+    "chapter": 0,
+    "night": false,
+    "loaded_materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/M_CH_AtlasWorld.M_CH_AtlasWorld",
+      "/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelFire.M_CH_PixelFire",
+      "/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelSmoke.M_CH_PixelSmoke"
+    ],
+    "compilation_evidence": "Earlier creation-time receipts; no forced recompilation during reload audit",
+    "models": [
+      {
+        "name": "ClosedRoof",
+        "path": "/Game/Cindehearth/HD2D_v002/Models/ClosedRoof/CH_ClosedRoof_v001/StaticMeshes/CH_ClosedRoof_v001.CH_ClosedRoof_v001",
+        "triangles": 20,
+        "nanite": false
+      },
+      {
+        "name": "Rock",
+        "path": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+        "triangles": 1812,
+        "nanite": false
+      },
+      {
+        "name": "Cart",
+        "path": "/Game/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/StaticMeshes/CH_Cart_Manifold_v004.CH_Cart_Manifold_v004",
+        "triangles": 1926,
+        "nanite": false
+      },
+      {
+        "name": "PineVolume",
+        "path": "/Game/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/StaticMeshes/CH_PineVolume_Closed_v005.CH_PineVolume_Closed_v005",
+        "triangles": 3280,
+        "nanite": false
+      }
+    ],
+    "volumetric_tree_count": 95,
+    "old_flat_tree_count": 0,
+    "uniform_scale": true,
+    "fire_planes": 5,
+    "smoke_planes": 56,
+    "temporary_capture_actors": 0,
+    "saved": true
+  },
+  "walk_checks": {
+    "rail": {
+      "passed": true,
+      "route": "rail",
+      "waypoints_reached": 6,
+      "total_waypoints": 6,
+      "final_pos": [
+        697.5,
+        3731.96009124066,
+        365.15000436431535
+      ]
+    },
+    "cemetery": {
+      "passed": true,
+      "route": "cemetery",
+      "waypoints_reached": 4,
+      "total_waypoints": 4,
+      "final_pos": [
+        4641.198497739448,
+        2924.6397612566884,
+        680.149997749414
+      ]
+    },
+    "ashslope": {
+      "passed": true,
+      "route": "ashslope",
+      "waypoints_reached": 10,
+      "total_waypoints": 10,
+      "final_pos": [
+        -8607.385730345497,
+        -360.94517003485305,
+        657.6500002904501
+      ]
+    },
+    "deepvein": {
+      "passed": true,
+      "route": "deepvein",
+      "waypoints_reached": 6,
+      "total_waypoints": 6,
+      "final_pos": [
+        540.0,
+        8932.120043598212,
+        5.1500003393406
+      ]
+    },
+    "pinehollow": {
+      "passed": true,
+      "route": "pinehollow",
+      "waypoints_reached": 5,
+      "total_waypoints": 5,
+      "final_pos": [
+        540.0,
+        -8504.821893509721,
+        52.399999141693115
+      ]
+    },
+    "gorm": {
+      "passed": true,
+      "reached": 8,
+      "total": 8,
+      "final_position": [
+        -810.0183162199069,
+        -1213.3817704895425,
+        207.65000583280062
+      ]
+    }
+  },
+  "state_qa": "verification/state_qa.json",
+  "runtime_evidence": "verification/epilogue_archive_evidence.json",
+  "camera": "verification/player_camera.json",
+  "captures": "verification/final_viewport_captures.json",
+  "source_files": [
+    {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_PineVolume_Closed_v005.blend",
+      "sha256": "5703b63955423498ae6e538cd7ee61da7458bf69c55fb462c3b3b9d5a01c06f9"
+    },
+    {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_PineVolume_Closed_v005.glb",
+      "sha256": "123907566272b2c0831affcaf5d257356c3f107dc81dc7a31fd58aafe0453375"
+    },
+    {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_PineVolume_Closed_v005.fbx",
+      "sha256": "58c00f9a2663314f1d876628f07e5996589acef608afa8fc534925c29c68d1f9"
+    }
+  ],
+  "tripo_credits": {
+    "this_art_pass": 440,
+    "tree_correction": 110,
+    "balance": 4420,
+    "frozen": 0
+  },
+  "editor": {
+    "restarted_after_renderer_crash": true,
+    "saved_map_reloaded": true,
+    "root_cause_fixed": false,
+    "crashes": 2,
+    "probable_trigger": "Revvy GetMaterialDiagnostics forces recompilation; omitted from final reload audit",
+    "stability_evidence": "verification/editor_stability.json",
+    "observed_without_recurrence_seconds": 100.0,
+    "crash_logs": [
+      "verification/editor_render_crash_0735.log",
+      "verification/editor_diagnostics_crash_0737.log"
+    ]
+  },
+  "limitations": [
+    "House body and cart retain documented open surfaces; they are not certified globally watertight.",
+    "New pine crowns are separate closed volumes that overlap supporting branches, not one welded solid.",
+    "No shipping GPU performance certification; this is an applied level art pass.",
+    "Q7/Q8/Q9/Q11/Q12 local Director behavior is verified; external quest-ID wiring is unchanged."
+  ]
+}

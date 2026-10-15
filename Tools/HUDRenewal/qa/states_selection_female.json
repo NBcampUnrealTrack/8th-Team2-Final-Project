@@ -1,0 +1,5 @@
+[
+ {"shot": "sel3_idle", "py": "qa_village_solo.py", "wait": 20, "frames": 240},
+ {"shot": "sel3_job_female", "py": "qa_sel_job_female.py", "wait": 3, "frames": 90},
+ {"shot": "sel3_job_female_druid", "py": "qa_sel_job_pick.py", "wait": 2, "frames": 60}
+]

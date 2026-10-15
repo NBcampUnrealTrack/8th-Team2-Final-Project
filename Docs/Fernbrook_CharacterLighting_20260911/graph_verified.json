@@ -1,0 +1,1028 @@
+{
+  "nodes": [
+    {
+      "id": "D7BD0EF348ED500523315AB8C1159672",
+      "title": "BeginPlay \uc774\ubca4\ud2b8",
+      "fn": "",
+      "pins": [
+        {
+          "name": "OutputDelegate",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "22A6DE5A4CCC744300EC95BFED384B2A",
+      "title": "ActorBeginOverlap \uc774\ubca4\ud2b8",
+      "fn": "",
+      "pins": [
+        {
+          "name": "OutputDelegate",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "OtherActor",
+          "input": false,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "E19A6BB4428BB96D4D44A9920E69665C",
+      "title": "Tick \uc774\ubca4\ud2b8",
+      "fn": "",
+      "pins": [
+        {
+          "name": "OutputDelegate",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "DeltaSeconds",
+          "input": false,
+          "default": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "B71924BF4F3FBF47C715CE95B219BE16",
+      "title": "PrintString",
+      "fn": "PrintString",
+      "pins": [
+        {
+          "name": "execute",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "WorldContextObject",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "InString",
+          "input": true,
+          "default": "Damaged!"
+        },
+        {
+          "name": "bPrintToScreen",
+          "input": true,
+          "default": "true"
+        },
+        {
+          "name": "bPrintToLog",
+          "input": true,
+          "default": "true"
+        },
+        {
+          "name": "TextColor",
+          "input": true,
+          "default": "(R=0.000000,G=0.660000,B=1.000000,A=1.000000)"
+        },
+        {
+          "name": "Duration",
+          "input": true,
+          "default": "2.000000"
+        },
+        {
+          "name": "Key",
+          "input": true,
+          "default": "None"
+        }
+      ]
+    },
+    {
+      "id": "CC51D28C4D01FBB2CA1276B51370128C",
+      "title": "Get SpringArm",
+      "fn": "",
+      "pins": [
+        {
+          "name": "SpringArm",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "E4FA1936438A89B36829F1AC5601A843",
+      "title": "SetAbsolute",
+      "fn": "SetAbsolute",
+      "pins": [
+        {
+          "name": "execute",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "bNewAbsoluteLocation",
+          "input": true,
+          "default": "false"
+        },
+        {
+          "name": "bNewAbsoluteRotation",
+          "input": true,
+          "default": "true"
+        },
+        {
+          "name": "bNewAbsoluteScale",
+          "input": true,
+          "default": "false"
+        }
+      ]
+    },
+    {
+      "id": "D1CD51CC4CDB160FA3B11FB0EBD26F14",
+      "title": "Set Relative Rotation",
+      "fn": "K2_SetRelativeRotation",
+      "pins": [
+        {
+          "name": "execute",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "NewRotation",
+          "input": true,
+          "default": "0, 0, 0"
+        },
+        {
+          "name": "bSweep",
+          "input": true,
+          "default": "false"
+        },
+        {
+          "name": "SweepHitResult",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "bTeleport",
+          "input": true,
+          "default": "false"
+        }
+      ]
+    },
+    {
+      "id": "65864F0940D34BCF369DB2BAAA4F5852",
+      "title": "Get LG_CameraRotation",
+      "fn": "",
+      "pins": [
+        {
+          "name": "LG_CameraRotation",
+          "input": false,
+          "default": "0, 0, 0"
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "EAEBE3C346E049B2E6A67CBAD08CCD6A",
+      "title": "SetDoublePropertyByName",
+      "fn": "SetDoublePropertyByName",
+      "pins": [
+        {
+          "name": "execute",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "Object",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "PropertyName",
+          "input": true,
+          "default": "TargetArmLength"
+        },
+        {
+          "name": "Value",
+          "input": true,
+          "default": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "46D45C124BDC4B9FB2ADCDBE3A458761",
+      "title": "Get LG_CameraDistance",
+      "fn": "",
+      "pins": [
+        {
+          "name": "LG_CameraDistance",
+          "input": false,
+          "default": "0.0"
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "35C2315A422B7AC6F57C5BBD616E43F7",
+      "title": "SetBoolPropertyByName",
+      "fn": "SetBoolPropertyByName",
+      "pins": [
+        {
+          "name": "execute",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "Object",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "PropertyName",
+          "input": true,
+          "default": "bEnableCameraLag"
+        },
+        {
+          "name": "Value",
+          "input": true,
+          "default": "false"
+        }
+      ]
+    },
+    {
+      "id": "F00CEDE44CD3765D8518A39DB09AE50C",
+      "title": "Get Camera",
+      "fn": "",
+      "pins": [
+        {
+          "name": "Camera",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "A0F363A2425FC78EC5580FB1AE94B21D",
+      "title": "SetFieldOfView",
+      "fn": "SetFieldOfView",
+      "pins": [
+        {
+          "name": "execute",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "InFieldOfView",
+          "input": true,
+          "default": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "61FFE7D348BA6AF023467788E2442514",
+      "title": "Get LG_CameraFOV",
+      "fn": "",
+      "pins": [
+        {
+          "name": "LG_CameraFOV",
+          "input": false,
+          "default": "0.0"
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "94BFE60349FAC8E323FE65BC719CEA96",
+      "title": "\ucf54\uba58\ud2b8",
+      "fn": "",
+      "pins": []
+    },
+    {
+      "id": "C3BF79BD45C30F6663FEA5A6919187DA",
+      "title": "Get Sprite",
+      "fn": "",
+      "pins": [
+        {
+          "name": "Sprite",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "EAB3F8C2460183FC69E7409CD4833AA1",
+      "title": "SetMaterial",
+      "fn": "SetMaterial",
+      "pins": [
+        {
+          "name": "execute",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "ElementIndex",
+          "input": true,
+          "default": "0"
+        },
+        {
+          "name": "Material",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "7FD31B584F13DCE0ACA0219C71CF44DA",
+      "title": "Get EquipSprite",
+      "fn": "",
+      "pins": [
+        {
+          "name": "EquipSprite",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "77CA01F84F8EBE3328FA1FB32B6366C5",
+      "title": "SetMaterial",
+      "fn": "SetMaterial",
+      "pins": [
+        {
+          "name": "execute",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "ElementIndex",
+          "input": true,
+          "default": "0"
+        },
+        {
+          "name": "Material",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "2653672143CD3D87259F87A9E9597A7C",
+      "title": "Get EquipSpriteGloves",
+      "fn": "",
+      "pins": [
+        {
+          "name": "EquipSpriteGloves",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "BAB0AB7A4DF82DE491B6BEBBE3A5C0A5",
+      "title": "SetMaterial",
+      "fn": "SetMaterial",
+      "pins": [
+        {
+          "name": "execute",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "ElementIndex",
+          "input": true,
+          "default": "0"
+        },
+        {
+          "name": "Material",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "B235F0034D54FD2D6BF8309EBC1C932F",
+      "title": "Get EquipSpriteBoots",
+      "fn": "",
+      "pins": [
+        {
+          "name": "EquipSpriteBoots",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "C9543A9941738C215F08D7AF8BE3FC03",
+      "title": "SetMaterial",
+      "fn": "SetMaterial",
+      "pins": [
+        {
+          "name": "execute",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "ElementIndex",
+          "input": true,
+          "default": "0"
+        },
+        {
+          "name": "Material",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "739970904C215DB170ED0C92287825F2",
+      "title": "Get EquipSpriteLegs",
+      "fn": "",
+      "pins": [
+        {
+          "name": "EquipSpriteLegs",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "DE80520A401ED37EC5CF3DB3F7DD3313",
+      "title": "SetMaterial",
+      "fn": "SetMaterial",
+      "pins": [
+        {
+          "name": "execute",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "ElementIndex",
+          "input": true,
+          "default": "0"
+        },
+        {
+          "name": "Material",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "58E8EB404F09408520290EBF1311E463",
+      "title": "Get EquipSpriteShoulder",
+      "fn": "",
+      "pins": [
+        {
+          "name": "EquipSpriteShoulder",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "74A3473C40508B30A157AFAE3EE7D8C1",
+      "title": "SetMaterial",
+      "fn": "SetMaterial",
+      "pins": [
+        {
+          "name": "execute",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "ElementIndex",
+          "input": true,
+          "default": "0"
+        },
+        {
+          "name": "Material",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "00F7913B4EE6D2DB2BC2E986D2A447E5",
+      "title": "Get HairSprite",
+      "fn": "",
+      "pins": [
+        {
+          "name": "HairSprite",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "FB5B5E834172A8DD9D7BBE8FDC340B54",
+      "title": "SetMaterial",
+      "fn": "SetMaterial",
+      "pins": [
+        {
+          "name": "execute",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "ElementIndex",
+          "input": true,
+          "default": "0"
+        },
+        {
+          "name": "Material",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "2D1A87194088DDB7E2CAE0A880A29097",
+      "title": "Get FaceSprite",
+      "fn": "",
+      "pins": [
+        {
+          "name": "FaceSprite",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "D774AAE84FD169966F0CA593393F188F",
+      "title": "SetMaterial",
+      "fn": "SetMaterial",
+      "pins": [
+        {
+          "name": "execute",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "then",
+          "input": false,
+          "default": ""
+        },
+        {
+          "name": "self",
+          "input": true,
+          "default": ""
+        },
+        {
+          "name": "ElementIndex",
+          "input": true,
+          "default": "0"
+        },
+        {
+          "name": "Material",
+          "input": true,
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": "D31234F94CD66C75FC05BBA505536B72",
+      "title": "\ucf54\uba58\ud2b8",
+      "fn": "",
+      "pins": []
+    }
+  ],
+  "edges": [
+    {
+      "src": "D7BD0EF348ED500523315AB8C1159672",
+      "src_title": "BeginPlay \uc774\ubca4\ud2b8",
+      "out": "then",
+      "dst": "E4FA1936438A89B36829F1AC5601A843",
+      "dst_title": "SetAbsolute",
+      "in": "execute"
+    },
+    {
+      "src": "CC51D28C4D01FBB2CA1276B51370128C",
+      "src_title": "Get SpringArm",
+      "out": "SpringArm",
+      "dst": "E4FA1936438A89B36829F1AC5601A843",
+      "dst_title": "SetAbsolute",
+      "in": "self"
+    },
+    {
+      "src": "CC51D28C4D01FBB2CA1276B51370128C",
+      "src_title": "Get SpringArm",
+      "out": "SpringArm",
+      "dst": "D1CD51CC4CDB160FA3B11FB0EBD26F14",
+      "dst_title": "Set Relative Rotation",
+      "in": "self"
+    },
+    {
+      "src": "CC51D28C4D01FBB2CA1276B51370128C",
+      "src_title": "Get SpringArm",
+      "out": "SpringArm",
+      "dst": "EAEBE3C346E049B2E6A67CBAD08CCD6A",
+      "dst_title": "SetDoublePropertyByName",
+      "in": "Object"
+    },
+    {
+      "src": "CC51D28C4D01FBB2CA1276B51370128C",
+      "src_title": "Get SpringArm",
+      "out": "SpringArm",
+      "dst": "35C2315A422B7AC6F57C5BBD616E43F7",
+      "dst_title": "SetBoolPropertyByName",
+      "in": "Object"
+    },
+    {
+      "src": "E4FA1936438A89B36829F1AC5601A843",
+      "src_title": "SetAbsolute",
+      "out": "then",
+      "dst": "D1CD51CC4CDB160FA3B11FB0EBD26F14",
+      "dst_title": "Set Relative Rotation",
+      "in": "execute"
+    },
+    {
+      "src": "D1CD51CC4CDB160FA3B11FB0EBD26F14",
+      "src_title": "Set Relative Rotation",
+      "out": "then",
+      "dst": "EAEBE3C346E049B2E6A67CBAD08CCD6A",
+      "dst_title": "SetDoublePropertyByName",
+      "in": "execute"
+    },
+    {
+      "src": "65864F0940D34BCF369DB2BAAA4F5852",
+      "src_title": "Get LG_CameraRotation",
+      "out": "LG_CameraRotation",
+      "dst": "D1CD51CC4CDB160FA3B11FB0EBD26F14",
+      "dst_title": "Set Relative Rotation",
+      "in": "NewRotation"
+    },
+    {
+      "src": "EAEBE3C346E049B2E6A67CBAD08CCD6A",
+      "src_title": "SetDoublePropertyByName",
+      "out": "then",
+      "dst": "35C2315A422B7AC6F57C5BBD616E43F7",
+      "dst_title": "SetBoolPropertyByName",
+      "in": "execute"
+    },
+    {
+      "src": "46D45C124BDC4B9FB2ADCDBE3A458761",
+      "src_title": "Get LG_CameraDistance",
+      "out": "LG_CameraDistance",
+      "dst": "EAEBE3C346E049B2E6A67CBAD08CCD6A",
+      "dst_title": "SetDoublePropertyByName",
+      "in": "Value"
+    },
+    {
+      "src": "35C2315A422B7AC6F57C5BBD616E43F7",
+      "src_title": "SetBoolPropertyByName",
+      "out": "then",
+      "dst": "A0F363A2425FC78EC5580FB1AE94B21D",
+      "dst_title": "SetFieldOfView",
+      "in": "execute"
+    },
+    {
+      "src": "F00CEDE44CD3765D8518A39DB09AE50C",
+      "src_title": "Get Camera",
+      "out": "Camera",
+      "dst": "A0F363A2425FC78EC5580FB1AE94B21D",
+      "dst_title": "SetFieldOfView",
+      "in": "self"
+    },
+    {
+      "src": "A0F363A2425FC78EC5580FB1AE94B21D",
+      "src_title": "SetFieldOfView",
+      "out": "then",
+      "dst": "EAB3F8C2460183FC69E7409CD4833AA1",
+      "dst_title": "SetMaterial",
+      "in": "execute"
+    },
+    {
+      "src": "61FFE7D348BA6AF023467788E2442514",
+      "src_title": "Get LG_CameraFOV",
+      "out": "LG_CameraFOV",
+      "dst": "A0F363A2425FC78EC5580FB1AE94B21D",
+      "dst_title": "SetFieldOfView",
+      "in": "InFieldOfView"
+    },
+    {
+      "src": "C3BF79BD45C30F6663FEA5A6919187DA",
+      "src_title": "Get Sprite",
+      "out": "Sprite",
+      "dst": "EAB3F8C2460183FC69E7409CD4833AA1",
+      "dst_title": "SetMaterial",
+      "in": "self"
+    },
+    {
+      "src": "EAB3F8C2460183FC69E7409CD4833AA1",
+      "src_title": "SetMaterial",
+      "out": "then",
+      "dst": "77CA01F84F8EBE3328FA1FB32B6366C5",
+      "dst_title": "SetMaterial",
+      "in": "execute"
+    },
+    {
+      "src": "7FD31B584F13DCE0ACA0219C71CF44DA",
+      "src_title": "Get EquipSprite",
+      "out": "EquipSprite",
+      "dst": "77CA01F84F8EBE3328FA1FB32B6366C5",
+      "dst_title": "SetMaterial",
+      "in": "self"
+    },
+    {
+      "src": "77CA01F84F8EBE3328FA1FB32B6366C5",
+      "src_title": "SetMaterial",
+      "out": "then",
+      "dst": "BAB0AB7A4DF82DE491B6BEBBE3A5C0A5",
+      "dst_title": "SetMaterial",
+      "in": "execute"
+    },
+    {
+      "src": "2653672143CD3D87259F87A9E9597A7C",
+      "src_title": "Get EquipSpriteGloves",
+      "out": "EquipSpriteGloves",
+      "dst": "BAB0AB7A4DF82DE491B6BEBBE3A5C0A5",
+      "dst_title": "SetMaterial",
+      "in": "self"
+    },
+    {
+      "src": "BAB0AB7A4DF82DE491B6BEBBE3A5C0A5",
+      "src_title": "SetMaterial",
+      "out": "then",
+      "dst": "C9543A9941738C215F08D7AF8BE3FC03",
+      "dst_title": "SetMaterial",
+      "in": "execute"
+    },
+    {
+      "src": "B235F0034D54FD2D6BF8309EBC1C932F",
+      "src_title": "Get EquipSpriteBoots",
+      "out": "EquipSpriteBoots",
+      "dst": "C9543A9941738C215F08D7AF8BE3FC03",
+      "dst_title": "SetMaterial",
+      "in": "self"
+    },
+    {
+      "src": "C9543A9941738C215F08D7AF8BE3FC03",
+      "src_title": "SetMaterial",
+      "out": "then",
+      "dst": "DE80520A401ED37EC5CF3DB3F7DD3313",
+      "dst_title": "SetMaterial",
+      "in": "execute"
+    },
+    {
+      "src": "739970904C215DB170ED0C92287825F2",
+      "src_title": "Get EquipSpriteLegs",
+      "out": "EquipSpriteLegs",
+      "dst": "DE80520A401ED37EC5CF3DB3F7DD3313",
+      "dst_title": "SetMaterial",
+      "in": "self"
+    },
+    {
+      "src": "DE80520A401ED37EC5CF3DB3F7DD3313",
+      "src_title": "SetMaterial",
+      "out": "then",
+      "dst": "74A3473C40508B30A157AFAE3EE7D8C1",
+      "dst_title": "SetMaterial",
+      "in": "execute"
+    },
+    {
+      "src": "58E8EB404F09408520290EBF1311E463",
+      "src_title": "Get EquipSpriteShoulder",
+      "out": "EquipSpriteShoulder",
+      "dst": "74A3473C40508B30A157AFAE3EE7D8C1",
+      "dst_title": "SetMaterial",
+      "in": "self"
+    },
+    {
+      "src": "74A3473C40508B30A157AFAE3EE7D8C1",
+      "src_title": "SetMaterial",
+      "out": "then",
+      "dst": "FB5B5E834172A8DD9D7BBE8FDC340B54",
+      "dst_title": "SetMaterial",
+      "in": "execute"
+    },
+    {
+      "src": "00F7913B4EE6D2DB2BC2E986D2A447E5",
+      "src_title": "Get HairSprite",
+      "out": "HairSprite",
+      "dst": "FB5B5E834172A8DD9D7BBE8FDC340B54",
+      "dst_title": "SetMaterial",
+      "in": "self"
+    },
+    {
+      "src": "FB5B5E834172A8DD9D7BBE8FDC340B54",
+      "src_title": "SetMaterial",
+      "out": "then",
+      "dst": "D774AAE84FD169966F0CA593393F188F",
+      "dst_title": "SetMaterial",
+      "in": "execute"
+    },
+    {
+      "src": "2D1A87194088DDB7E2CAE0A880A29097",
+      "src_title": "Get FaceSprite",
+      "out": "FaceSprite",
+      "dst": "D774AAE84FD169966F0CA593393F188F",
+      "dst_title": "SetMaterial",
+      "in": "self"
+    }
+  ],
+  "compiled": true,
+  "errors": [],
+  "warnings": []
+}

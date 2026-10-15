@@ -1,0 +1,198 @@
+{
+  "map": "/Game/Fernbrook/Entrance_V1/Maps/L_Fernbrook_Entrance.L_Fernbrook_Entrance",
+  "actors": 241,
+  "foliage": [
+    {
+      "path": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Canopy.FT_FB1_Canopy",
+      "count": 513,
+      "mesh": "/Game/Fernbrook/Polish_V5/Models/FB12/StaticMeshes/SM_FB12_Broadleaf_Asymmetric_V5.SM_FB12_Broadleaf_Asymmetric_V5",
+      "transforms_exact": true,
+      "render_component_matches": true
+    },
+    {
+      "path": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Sapling.FT_FB1_Sapling",
+      "count": 311,
+      "mesh": "/Game/Fernbrook/Polish_V5/Models/FB13/StaticMeshes/SM_FB13_Slender_OpenCanopy_V5.SM_FB13_Slender_OpenCanopy_V5",
+      "transforms_exact": true,
+      "render_component_matches": true
+    },
+    {
+      "path": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Bush.FT_FB1_Bush",
+      "count": 973,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Reuse/SM_FB1_Bush.SM_FB1_Bush",
+      "transforms_exact": true,
+      "render_component_matches": true
+    },
+    {
+      "path": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Rock.FT_FB1_Rock",
+      "count": 172,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Reuse/SM_FB1_Rock_A.SM_FB1_Rock_A",
+      "transforms_exact": true,
+      "render_component_matches": true
+    },
+    {
+      "path": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Fern.FT_FB1_Fern",
+      "count": 1467,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Auxiliary/Fern/StaticMeshes/SM_FB1_Fern_V1.SM_FB1_Fern_V1",
+      "transforms_exact": true,
+      "render_component_matches": true
+    },
+    {
+      "path": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Grass.FT_FB1_Grass",
+      "count": 2218,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Auxiliary/Grass/StaticMeshes/SM_FB1_Grass_V1.SM_FB1_Grass_V1",
+      "transforms_exact": true,
+      "render_component_matches": true
+    },
+    {
+      "path": "/Game/Fernbrook/Polish_V2/Foliage/FT_FB2_TrailGrass.FT_FB2_TrailGrass",
+      "count": 1250,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Auxiliary/Grass/StaticMeshes/SM_FB1_Grass_V1.SM_FB1_Grass_V1",
+      "transforms_exact": true,
+      "render_component_matches": true
+    },
+    {
+      "path": "/Game/Fernbrook/Polish_V2/Foliage/FT_FB2_DryGrass.FT_FB2_DryGrass",
+      "count": 117,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Auxiliary/Grass/StaticMeshes/SM_FB1_Grass_V1.SM_FB1_Grass_V1",
+      "transforms_exact": true,
+      "render_component_matches": true
+    },
+    {
+      "path": "/Game/Fernbrook/Polish_V2/Foliage/FT_FB2_ShadeFern.FT_FB2_ShadeFern",
+      "count": 1099,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Auxiliary/Fern/StaticMeshes/SM_FB1_Fern_V1.SM_FB1_Fern_V1",
+      "transforms_exact": true,
+      "render_component_matches": true
+    },
+    {
+      "path": "/Game/Fernbrook/Polish_V2/Foliage/FT_FB2_BankGrass.FT_FB2_BankGrass",
+      "count": 360,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Auxiliary/Grass/StaticMeshes/SM_FB1_Grass_V1.SM_FB1_Grass_V1",
+      "transforms_exact": true,
+      "render_component_matches": true
+    },
+    {
+      "path": "/Game/Fernbrook/Polish_V5/Foliage/FT_FB07_Textured_V5.FT_FB07_Textured_V5",
+      "count": 143,
+      "mesh": "/Game/Fernbrook/Polish_V5/Models/FB07/StaticMeshes/SM_FB07_Wildflower_White_A_V5.SM_FB07_Wildflower_White_A_V5",
+      "transforms_exact": true,
+      "render_component_matches": true
+    },
+    {
+      "path": "/Game/Fernbrook/Polish_V5/Foliage/FT_FB08_Textured_V5.FT_FB08_Textured_V5",
+      "count": 55,
+      "mesh": "/Game/Fernbrook/Polish_V5/Models/FB08/StaticMeshes/SM_FB08_Wildflower_Cream_B_V5.SM_FB08_Wildflower_Cream_B_V5",
+      "transforms_exact": true,
+      "render_component_matches": true
+    },
+    {
+      "path": "/Game/Fernbrook/Polish_V5/Foliage/FT_FB09_Textured_V5.FT_FB09_Textured_V5",
+      "count": 197,
+      "mesh": "/Game/Fernbrook/Polish_V5/Models/FB09/StaticMeshes/SM_FB09_Broadleaf_Weed_A_V5.SM_FB09_Broadleaf_Weed_A_V5",
+      "transforms_exact": true,
+      "render_component_matches": true
+    },
+    {
+      "path": "/Game/Fernbrook/Polish_V5/Foliage/FT_FB10_Textured_V5.FT_FB10_Textured_V5",
+      "count": 106,
+      "mesh": "/Game/Fernbrook/Polish_V5/Models/FB10/StaticMeshes/SM_FB10_Broadleaf_Weed_B_V5.SM_FB10_Broadleaf_Weed_B_V5",
+      "transforms_exact": true,
+      "render_component_matches": true
+    }
+  ],
+  "total_foliage": 8981,
+  "new_groundcover": 501,
+  "legacy_bridge_hidden_preserved": 81,
+  "bridge_deck_z": 124,
+  "bridge_landings": 10,
+  "meshes": [
+    {
+      "id": "FB07",
+      "size_cm": [
+        25.69993782043457,
+        10.659133911132812,
+        20.0
+      ],
+      "render_vertices": 1571,
+      "triangles": 1141,
+      "LOD0_geometry_UV_normals_exact": true,
+      "lod_count": 1
+    },
+    {
+      "id": "FB08",
+      "size_cm": [
+        23.412311553955078,
+        9.611627578735352,
+        25.0
+      ],
+      "render_vertices": 1219,
+      "triangles": 811,
+      "LOD0_geometry_UV_normals_exact": true,
+      "lod_count": 1
+    },
+    {
+      "id": "FB09",
+      "size_cm": [
+        28.584949493408203,
+        15.235065460205078,
+        18.0
+      ],
+      "render_vertices": 1035,
+      "triangles": 926,
+      "LOD0_geometry_UV_normals_exact": true,
+      "lod_count": 1
+    },
+    {
+      "id": "FB10",
+      "size_cm": [
+        47.96318054199219,
+        25.46945571899414,
+        28.0
+      ],
+      "render_vertices": 1317,
+      "triangles": 1045,
+      "LOD0_geometry_UV_normals_exact": true,
+      "lod_count": 1
+    },
+    {
+      "id": "FB11",
+      "size_cm": [
+        682.0,
+        177.5798797607422,
+        65.63458633422852
+      ],
+      "render_vertices": 1400,
+      "triangles": 836,
+      "LOD0_geometry_UV_normals_exact": true,
+      "lod_count": 1
+    },
+    {
+      "id": "FB12",
+      "size_cm": [
+        347.4938659667969,
+        316.5963439941406,
+        419.9999694824219
+      ],
+      "render_vertices": 2062,
+      "triangles": 1826,
+      "LOD0_geometry_UV_normals_exact": true,
+      "lod_count": 1
+    },
+    {
+      "id": "FB13",
+      "size_cm": [
+        178.36834716796875,
+        194.31362915039062,
+        320.0
+      ],
+      "render_vertices": 1877,
+      "triangles": 1440,
+      "LOD0_geometry_UV_normals_exact": true,
+      "lod_count": 1
+    }
+  ],
+  "naia_preserved": true,
+  "dirty_content": 0,
+  "dirty_maps": 0
+}

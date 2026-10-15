@@ -1,0 +1,5 @@
+Create ONE clean model reference image for a 3D modeling service (image-to-3D).
+Subject: "PR01 Spirit Root Gate" - a natural archway formed by the giant roots of two ancient trees that rise from both sides and cross over each other at the top. Asymmetric: the left root is thicker and taller. Walkable opening in the middle (opening about 180 wide x 230 high while the whole prop is about 380 wide x 330 high). Chunky simple stylized shapes with thick bark grooves, 3-4 large moss patches, two small mushroom clusters on the upper root knots. No leaves, no thin twigs, no vines.
+View: exact BACK orthographic view (180 degrees from the front, looking through the opening from behind; the thicker root is now on the RIGHT), whole object centred, nothing cropped, fills about 80% of the frame.
+Render style: plain light-grey clay material, no colour, soft even studio lighting, very subtle ambient occlusion, pure white background, no ground plane, no shadow on background.
+No text, labels, arrows, dimensions, logos, borders, multiple views or extra objects. Square image.

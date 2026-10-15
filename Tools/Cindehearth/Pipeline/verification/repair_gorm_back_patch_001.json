@@ -1,0 +1,18 @@
+[
+  {
+    "job_id": "gorm_back_patch_001",
+    "state": "running"
+  },
+  {
+    "job_id": "gorm_back_patch_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\gorm_back_patch_001"
+  },
+  {
+    "job_id": "gorm_back_patch_001",
+    "state": "failed",
+    "success": false,
+    "error": "('non_manifold_edges', {'vertices': 1365, 'edges': 2377, 'polygons': 1063, 'triangles': 1996, 'ngons': 0, 'loose_vertices': 0, 'loose_edges': 0, 'zero_length_edges': 0, 'boundary_edges': 635, 'wire_edges': 0, 'non_manifold_edges': 3, 'degenerate_faces': 0, 'invalid_face_normals': 0, 'non_finite_vertices': 0})",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 272, in <module>\n    result=run(json.loads(req.read_text(encoding='utf-8')))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 255, in run\n    assert after['geometry'][name]<=before['geometry'][name],(name,after['geometry'])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('non_manifold_edges', {'vertices': 1365, 'edges': 2377, 'polygons': 1063, 'triangles': 1996, 'ngons': 0, 'loose_vertices': 0, 'loose_edges': 0, 'zero_length_edges': 0, 'boundary_edges': 635, 'wire_edges': 0, 'non_manifold_edges': 3, 'degenerate_faces': 0, 'invalid_face_normals': 0, 'non_finite_vertices': 0})\n"
+  }
+]

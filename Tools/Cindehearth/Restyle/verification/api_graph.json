@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "class_name": "MaterialNodeService",
+  "full_path": "unreal.MaterialNodeService",
+  "doc_string": "Material Node Service\r\n\r\n**C++ Source:**\r\n\r\n- **Plugin**: Revvy\r\n- **Module**: Revvy\r\n- **File**: UMaterialNodeService.h\r",
+  "base_classes": [
+    "Object",
+    "_ObjectBase",
+    "_WrapperBase",
+    "object"
+  ],
+  "methods": [
+    {
+      "name": "export_material_graph_summary",
+      "signature": "(material_path) -> str",
+      "docstring": "X.export_material_graph_summary(material_path) -> str\r\nExport a lightweight summary of a material graph (counts, types, parameters).\nMaps to action=\"export_material_graph_summary\"\n\nReturns a JSON object with:\n- expression_count: total expressions\n- class_counts: {class_name: count} frequency map\n- connection_count: total connections\n- material_output_count: connected material outputs\n- parameter_count: number of scalar/vector/texture/static parameters\n- parameters: [{name, type}] list\n\nMuch lighter than ExportMaterialGraph — useful for verification and comparison.\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n\r\nReturns:\r\n    str: JSON string summary, or empty string on failure Example: summary = unreal.MaterialNodeService.export_material_graph_summary(\"/Game/M_Mat\")"
+    },
+    {
+      "name": "export_material_graph",
+      "signature": "(material_path) -> str",
+      "docstring": "X.export_material_graph(material_path) -> str\r\nExport the complete material graph as a JSON string for analysis or recreation.\nMaps to action=\"export_graph\"\n\nReturns material settings, all expressions (type, position, properties),\nall connections, and material output connections — everything needed to\nrecreate the material from scratch.\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n\r\nReturns:\r\n    str: JSON string of complete graph, or empty string on failure Example: json_str = unreal.MaterialNodeService.export_material_graph(\"/Game/M_Landscape\")"
+    },
+    {
+      "name": "export_function_graph",
+      "signature": "(function_path) -> str",
+      "docstring": "X.export_function_graph(function_path) -> str\r\nExport a Material Function's node graph as JSON.\nMaps to action=\"export_function_graph\"\n\nWorks like export_graph but for UMaterialFunction assets.\nReturns all expressions, connections, function inputs/outputs,\nand properties — everything needed to recreate the function.\r\n\r\nArgs:\r\n    function_path (str): Full asset path to the UMaterialFunction\r\n\r\nReturns:\r\n    str: JSON string of the complete function graph, or empty string on failure Example: json_str = unreal.MaterialNodeService.export_function_graph(\"/Game/Real_Landscape/Core/Materials/Functions/MF_AutoLayer_01\")"
+    },
+    {
+      "name": "compare_material_graphs",
+      "signature": "(material_path_a, material_path_b) -> str",
+      "docstring": "X.compare_material_graphs(material_path_a, material_path_b) -> str\r\nCompare two material graphs and return a JSON diff report.\nMaps to action=\"compare_material_graphs\"\n\nCompares expression counts by class, connection counts, parameter lists,\nand material output assignments. Returns JSON with:\n- match: true/false overall\n- expression_count_match, connection_count_match, parameter_match, output_match\n- expression_count_a, expression_count_b\n- class_diff: [{class_name, count_a, count_b}] for mismatches\n- missing_parameters_in_b, extra_parameters_in_b: [{name, type}]\r\n\r\nArgs:\r\n    material_path_a (str): Full path to first material (reference)\r\n    material_path_b (str): Full path to second material (recreation)\r\n\r\nReturns:\r\n    str: JSON diff string, or empty string on failure Example: diff = unreal.MaterialNodeService.compare_material_graphs(\"/Game/M_Original\", \"/Game/M_Copy\")"
+    }
+  ],
+  "properties": []
+}

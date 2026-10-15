@@ -1,0 +1,132 @@
+{
+  "prior": {
+    "type": "perspective",
+    "location": [
+      193.27932604193106,
+      -318.9694160523867,
+      363.1641839339403
+    ],
+    "rotation": [
+      0.0,
+      -18.0,
+      -110.0
+    ],
+    "fov": 60.0,
+    "realtime": false,
+    "game_view": false
+  },
+  "framing": {
+    "actor_center": [
+      850.0,
+      -850.0,
+      157.0
+    ],
+    "actor_extent": [
+      159.36761474609375,
+      152.20852661132812,
+      157.5
+    ],
+    "distance": 500.0
+  },
+  "scene": {
+    "success": true,
+    "camera": {
+      "location": [
+        1012.6402430070398,
+        -403.1496048435456,
+        311.5084971874737
+      ],
+      "rotation": [
+        -18,
+        -110,
+        0
+      ],
+      "fov": 60
+    },
+    "viewport": [
+      1543,
+      615
+    ],
+    "actor_count": 4,
+    "total_matching": 4,
+    "actors": [
+      {
+        "name": "StaticMeshActor_3",
+        "label": "LGV7_LG_03_VillageHall",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          850,
+          -850,
+          -0.5
+        ],
+        "extent_cm": [
+          159.36761474609375,
+          152.20852661132812,
+          157.5
+        ],
+        "dist_cm": 568.7498805398153,
+        "screen_px": [
+          772,
+          672
+        ]
+      },
+      {
+        "name": "StaticMeshActor_0",
+        "label": "SM_SkySphere",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          0
+        ],
+        "extent_cm": [
+          1638400,
+          1638400,
+          1638400
+        ],
+        "dist_cm": 1133.581673044718,
+        "screen_px": [
+          -21503,
+          6570
+        ]
+      },
+      {
+        "name": "Floor_0",
+        "label": "Floor",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          4000.00146484375,
+          4000,
+          200.0001220703125
+        ],
+        "dist_cm": 1133.7191750870447,
+        "screen_px": [
+          -21450,
+          6565
+        ]
+      },
+      {
+        "name": "Brush_1",
+        "label": "Brush1",
+        "class": "Brush",
+        "pos_cm": [
+          -90,
+          110,
+          20
+        ],
+        "extent_cm": [
+          1000,
+          1000,
+          100
+        ],
+        "dist_cm": 1250.6459236659312,
+        "screen_px": null
+      }
+    ]
+  }
+}

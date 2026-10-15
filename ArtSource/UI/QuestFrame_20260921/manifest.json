@@ -1,0 +1,105 @@
+{
+  "tool": "image_gen.imagegen",
+  "image_model": "not exposed by tool",
+  "reference": "/Game/Developers/MinkiCho/Art/퀘스트창_시안3",
+  "reference_copy": "Saved/UIQuestPolish/reference.png",
+  "assets": [
+    {
+      "name": "T_QuestFrame_Navy",
+      "source": "ArtSource/UI/QuestFrame_20260921/T_QuestFrame_Navy.png",
+      "generated_path": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0c154-2f2a-7810-a889-b12a111666d9\\exec-cdd416b3-7a7d-420f-b30d-725f98543687.png",
+      "dimensions": [
+        971,
+        1619
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bbox_above_20": [
+        20,
+        13,
+        952,
+        1605
+      ],
+      "center_rgba": [
+        9,
+        44,
+        75,
+        253
+      ],
+      "sha256": "082bf04f6dad60a7c66d9d6910d1e0c8086f2b5e56ef4a3a62de04ad27a6facd",
+      "pixels_modified": false,
+      "attempts": 1,
+      "prompt": "Use case: stylized-concept. Asset type: ONE empty portrait navy background panel for a production Unreal UMG quest index. Attached screenshot is style reference; reproduce ONLY the solid LEFT NAVY SURFACE's subtle material and vertical gold boundary treatment, with ALL existing UI and artwork removed. Portrait canvas about 3:5, very high resolution. One clean rectangular panel occupies 94 percent of canvas width and height, with narrow truly transparent RGBA outer margin. Opaque rich blue navy surface, visibly blue not black, approximately #132f49, subtly brighter in center #1b3c56. Extremely low contrast geometric/cartographic angular tonal pattern confined to the outer corners, center quiet and uninterrupted for runtime widgets. Right edge has TWO closely spaced straight, fine champagne-gold vertical lines, one slightly brighter, from top to bottom; left edge has ONE much fainter straight warm gold hairline. No horizontal gold border at top or bottom. Exact straight vertical edges, sharp rectangular silhouette and square corners. Panel alpha fully opaque to every edge, antialiasing only at the boundary; transparent outside. No fuzzy feathering, NO soft edge fade, NO haze, NO fog, no bloom or glow, no shadow block. No compass, no diamonds, no timeline, no horizontal internal lines, no text, no icons, no buttons, no list items, no foliage, no screenshot or environment. Independent empty background texture only.\n",
+      "unreal_asset": "/Game/Developers/MinkiCho/Art/Quest/FrameV3/Textures/T_QuestFrame_Navy"
+    },
+    {
+      "name": "T_QuestFrame_Reading",
+      "source": "ArtSource/UI/QuestFrame_20260921/T_QuestFrame_Reading.png",
+      "generated_path": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0c154-2f2a-7810-a889-b12a111666d9\\exec-770b63fd-fbf9-4e8e-aa7c-416b32661493.png",
+      "dimensions": [
+        1469,
+        1071
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bbox_above_20": [
+        26,
+        53,
+        1443,
+        1014
+      ],
+      "center_rgba": [
+        233,
+        229,
+        223,
+        253
+      ],
+      "sha256": "9d7153241fbbb74e9dde6a166289c97abc71587c4a0811d9e11059e6ebbabbde",
+      "pixels_modified": false,
+      "attempts": 1,
+      "prompt": "Use case: stylized-concept. Asset type: ONE production Unreal UMG background panel, isolated and empty, not a mockup. Attached image is STYLE AND MATERIAL REFERENCE: faithfully reproduce the RIGHT large cream reading panel's surface and crisp perimeter, with all UI content removed. Make a high resolution landscape 4:3 canvas. A single centered rectangular panel of approximately 1.37:1 aspect fills 94% of canvas, a narrow genuinely transparent RGBA margin surrounds it. The panel interior is fully opaque, pale warm ivory / very light cream (#e8e5db approximate), subtly cooler blue-gray toward edges, very fine matte paper grain and near-invisible corner geometric cartographic pattern. Center 85% quiet and clean for runtime text. Its outer silhouette is sharply cut with small precise clipped corners. A continuous visible fine ivory/champagne perimeter and ONE thin inset pale warm gray-gold line, shallow layered 2D edge thickness, tiny restrained corner line ticks. Match the reference's refined light border, not a thick gold metal frame. Crisp anti-aliased boundary on all four sides: NO blurred edges, NO feathering, NO fading, NO fog, NO translucent interior, NO large shadows. No rolled parchment, no curls, no stains, no brown aging. No text, no letters, no numbers, no labels, no icons, no compass, no illustrations, no buttons, no internal dividers, no tabs, no complete UI, no background scene. Straight frontal flat UI art. Actual alpha transparency only outside the solid panel; do not paint a checkerboard.\n",
+      "unreal_asset": "/Game/Developers/MinkiCho/Art/Quest/FrameV3/Textures/T_QuestFrame_Reading"
+    },
+    {
+      "name": "T_QuestFrame_TabLine",
+      "source": "ArtSource/UI/QuestFrame_20260921/T_QuestFrame_TabLine.png",
+      "generated_path": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0c154-2f2a-7810-a889-b12a111666d9\\exec-8a6f403f-b4d6-4513-a85b-378f4dba55d7.png",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha_bbox_above_20": [
+        161,
+        528,
+        1994,
+        587
+      ],
+      "center_rgba": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "e2d6319a3c1e516e07feb64903111ceb5672eb68e943f9994fac5924b18b36e3",
+      "pixels_modified": false,
+      "attempts": 1,
+      "prompt": "Production transparent Unreal UI texture, ONE thin gold category selection underline inspired by the category underline beneath '전체' in the reference screenshot. Reference is for style only. Wide 3:1 transparent RGBA canvas. The only visible mark is one perfectly straight fine champagne gold horizontal line, spanning x=8% to x=92%, at y=78% of canvas, with a small hollow diamond centered on that line and tiny solid diamond endpoints. Very refined flat 2D crisp metallic ivory-gold linework; continuous line 0.6 percent canvas height, central hollow diamond total height 10 percent canvas height. The top 68% of the canvas must remain truly transparent because runtime category label sits there separately. No label, no lettering, no background fill, no panel, no frame, no curved lines, no starburst, no glow, no shadows, no haze. Actual alpha transparency, never a painted checkerboard. Clean isolated single underline, exact straight front view.\n",
+      "unreal_asset": "/Game/Developers/MinkiCho/Art/Quest/FrameV3/Textures/T_QuestFrame_TabLine"
+    }
+  ],
+  "qa": "All source pixels preserved; alpha checked; crisp boundaries and frame continuity visually checked in Unreal at final scale, in bright and dark scenes. Panel center alpha 251-254/255 is perceptually opaque. External low-alpha specks are invisible in final UMG; UV sampling excludes outer safe margins."
+}

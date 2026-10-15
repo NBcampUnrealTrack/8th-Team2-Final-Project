@@ -1,0 +1,5 @@
+[
+ {"shot": "fem_create", "py": "game_type_name.py", "wait": 25},
+ {"shot": "fem_create_blue", "py": "game_female_hair.py", "wait": 2},
+ {"shot": "fem_create_red", "py": "game_female_hair_red.py", "wait": 2}
+]

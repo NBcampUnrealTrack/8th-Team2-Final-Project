@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Tavern",
+    "faces": 1800,
+    "use": "Complete two-storey tavern"
+  },
+  {
+    "name": "Smithy",
+    "faces": 1600,
+    "use": "Complete open-front smithy"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "source": "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Stone_aae7b.MI_HD2D_Prop_Stone_aae7b",
+  "kind": "WorldProps",
+  "scalars": {
+    "CameraFadeAmount": 0.0,
+    "TileCm": 90.0,
+    "RoughnessMul": 1.0,
+    "EmissiveStrength": 0.0
+  },
+  "vectors": {
+    "Tint": [
+      0.36000001430511475,
+      0.3799999952316284,
+      0.4000000059604645,
+      1.0
+    ],
+    "Emissive": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "textures": {
+    "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_BC.T_Prop_StoneBrick_Pixel_BC",
+    "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_N.T_Prop_StoneBrick_Pixel_N",
+    "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_ORM.T_Prop_StoneBrick_Pixel_ORM"
+  }
+}

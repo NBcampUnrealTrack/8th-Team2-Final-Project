@@ -1,0 +1,68 @@
+[
+  {
+    "name": "square",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Polish_v003/verification/player_square.png",
+    "actual_game_view": true,
+    "position": [
+      0.2565817068548313,
+      -2254.4418947802324,
+      1157.789414722243
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "square_night",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Polish_v003/verification/player_square_night.png",
+    "actual_game_view": true,
+    "position": [
+      0.0,
+      -2253.246352776965,
+      1157.8483457454047
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "homes",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Polish_v003/verification/player_homes.png",
+    "actual_game_view": true,
+    "position": [
+      -1029.6211431417019,
+      -3802.6762283785547,
+      997.7072734346204
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "logging",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Polish_v003/verification/player_logging.png",
+    "actual_game_view": true,
+    "position": [
+      -900.0478168254917,
+      -8591.484486668465,
+      997.6483483203253
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "depot",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Polish_v003/verification/player_depot.png",
+    "actual_game_view": true,
+    "position": [
+      539.4707392281912,
+      4332.001326542834,
+      1132.5987382262203
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "cocoon",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Polish_v003/verification/player_cocoon.png",
+    "actual_game_view": true,
+    "position": [
+      539.9999962662505,
+      7245.683252449532,
+      952.7145563621489
+    ],
+    "fov": 32.0
+  }
+]

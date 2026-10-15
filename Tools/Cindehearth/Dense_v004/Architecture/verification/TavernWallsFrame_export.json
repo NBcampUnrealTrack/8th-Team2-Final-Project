@@ -1,0 +1,22 @@
+{
+  "name": "TavernWallsFrame",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWallsFrame_025.glb",
+  "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWallsFrame_025.blend",
+  "object": "CH_Dense_TavernWallsFrame_025",
+  "geometry": {
+    "vertices": 24,
+    "edges": 42,
+    "polygons": 24,
+    "triangles": 36,
+    "ngons": 0,
+    "loose_vertices": 0,
+    "loose_edges": 0,
+    "zero_length_edges": 0,
+    "boundary_edges": 0,
+    "wire_edges": 0,
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "invalid_face_normals": 0,
+    "non_finite_vertices": 0
+  }
+}

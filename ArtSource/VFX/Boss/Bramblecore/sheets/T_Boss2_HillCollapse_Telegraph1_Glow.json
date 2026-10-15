@@ -1,0 +1,21 @@
+{
+  "name": "T_Boss2_HillCollapse_Telegraph1_Glow",
+  "blend": "Additive",
+  "frame_w": 512,
+  "frame_h": 224,
+  "cols": 4,
+  "rows": 4,
+  "frames": 16,
+  "fps": 24,
+  "loop": true,
+  "pivot_px": [
+    256,
+    150
+  ],
+  "pivot_uv": [
+    0.5,
+    0.6696
+  ],
+  "screen_scale_1080p": 1.9,
+  "note": "예비 1턴차: 균열·진동 (Glow+Dust 동시 재생)"
+}

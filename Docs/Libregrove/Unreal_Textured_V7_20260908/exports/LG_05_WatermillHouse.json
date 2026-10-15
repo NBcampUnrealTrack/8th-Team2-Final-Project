@@ -1,0 +1,153 @@
+{
+  "id": "LG_05_WatermillHouse",
+  "name_ko": "물레방앗간 본체",
+  "source_name": "LG_05_WatermillHouse.fbx",
+  "output_name": "SM_LG_05_WatermillHouse_V7",
+  "source_fingerprint": "7dc1c746e38a131378c2fb55d75f0de7738ea2e66d8a99690db6ec9977d6fa91",
+  "output_report": {
+    "object": {
+      "name": "SM_LG_05_WatermillHouse_V7",
+      "type": "MESH",
+      "data_name": "SM_LG_05_WatermillHouse_V7_Mesh",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.0525119304656982,
+        2.2651636600494385,
+        2.7899999618530273
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "collections": [
+        "Collection"
+      ]
+    },
+    "fingerprint": "c5ebca33b39ee98199592971bb020e9e828222036990aadb6e0dd8c90a5ed361",
+    "geometry": {
+      "vertices": 9895,
+      "edges": 24128,
+      "polygons": 14769,
+      "triangles": 14769,
+      "ngons": 0,
+      "loose_vertices": 0,
+      "loose_edges": 0,
+      "zero_length_edges": 0,
+      "boundary_edges": 3950,
+      "wire_edges": 0,
+      "non_manifold_edges": 1,
+      "degenerate_faces": 0,
+      "invalid_face_normals": 0,
+      "non_finite_vertices": 0
+    },
+    "bounds": {
+      "local_min": [
+        -1.5262559652328491,
+        -1.1325818300247192,
+        0.0
+      ],
+      "local_max": [
+        1.5262559652328491,
+        1.1325818300247192,
+        2.7899999618530273
+      ],
+      "world_min": [
+        -1.5262559652328491,
+        -1.1325818300247192,
+        0.0
+      ],
+      "world_max": [
+        1.5262559652328491,
+        1.1325818300247192,
+        2.7899999618530273
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "tripo_mat_12da9820"
+      }
+    ],
+    "uv_layers": [
+      {
+        "name": "UVMap",
+        "active": true,
+        "active_render": true,
+        "loop_count": 44307,
+        "bounds_min": [
+          0.001953125,
+          0.001953125
+        ],
+        "bounds_max": [
+          0.998046875,
+          0.993896484375
+        ],
+        "out_of_zero_one_range": 0,
+        "non_finite": 0,
+        "degenerate_faces": 91
+      }
+    ],
+    "modifiers": [],
+    "quality": {
+      "passed": true,
+      "score": 94,
+      "blockers": [],
+      "warnings": [
+        {
+          "code": "non_manifold_geometry",
+          "message": "Mesh contains boundary, wire, or non-manifold edges."
+        }
+      ],
+      "requirements": {}
+    }
+  },
+  "scale_factor": 3.0525115191986645,
+  "dimensions_cm": [
+    305.2511930465698,
+    226.51636600494385,
+    278.99999618530273
+  ],
+  "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_05_WatermillHouse_V7.glb",
+  "sha256": "5b0c01a4c9ad45e0fe7415ace4b3678839f2f601e413d8eb0c71e9a761061103",
+  "recommended_vertex_max": 3500,
+  "initial_triangle_budget": 6000,
+  "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse",
+  "geometry_uv_unchanged_except_uniform_scale": true
+}

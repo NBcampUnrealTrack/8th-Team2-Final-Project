@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "output": "QUEUED ['Tavern', 'TavernWalls', 'Smithy', 'SmithyWalls', 'SmithyStructure', 'SmithyRoof']",
+  "result": "None",
+  "warnings": [],
+  "execution_time_ms": 26.441198348999023
+}

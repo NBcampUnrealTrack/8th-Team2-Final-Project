@@ -1,0 +1,98 @@
+{
+  "name": "Anvil",
+  "geometry": {
+    "vertices": 476,
+    "edges": 1001,
+    "polygons": 525,
+    "triangles": 832,
+    "ngons": 0,
+    "loose_vertices": 0,
+    "loose_edges": 0,
+    "zero_length_edges": 0,
+    "boundary_edges": 125,
+    "wire_edges": 0,
+    "non_manifold_edges": 2,
+    "degenerate_faces": 0,
+    "invalid_face_normals": 0,
+    "non_finite_vertices": 0
+  },
+  "dimensions": [
+    2.4694674015045166,
+    3.0,
+    1.91841721534729
+  ],
+  "components": [
+    {
+      "id": 0,
+      "faces": 250,
+      "diameter": 3.5963
+    },
+    {
+      "id": 1,
+      "faces": 237,
+      "diameter": 3.3131
+    },
+    {
+      "id": 2,
+      "faces": 38,
+      "diameter": 3.4595
+    }
+  ],
+  "loops": [
+    {
+      "id": 0,
+      "edges": 56,
+      "simple": true,
+      "diameter": 3.4965,
+      "center": [
+        0.0,
+        -0.2623351216316223,
+        0.0
+      ]
+    },
+    {
+      "id": 1,
+      "edges": 3,
+      "simple": false,
+      "diameter": 1.2148,
+      "center": [
+        0.4110893942415714,
+        0.2088422179222107,
+        0.7892037332057953
+      ]
+    },
+    {
+      "id": 2,
+      "edges": 19,
+      "simple": true,
+      "diameter": 3.4561,
+      "center": [
+        -0.002198338508605957,
+        -0.2623351216316223,
+        0.37957990169525146
+      ]
+    },
+    {
+      "id": 3,
+      "edges": 19,
+      "simple": true,
+      "diameter": 3.3981,
+      "center": [
+        -0.002198338508605957,
+        -0.2623351216316223,
+        0.5334635972976685
+      ]
+    },
+    {
+      "id": 4,
+      "edges": 28,
+      "simple": true,
+      "diameter": 1.9792,
+      "center": [
+        0.023448944091796875,
+        -0.2689301371574402,
+        0.7723497748374939
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+﻿Name,PortalId,PortalKey,DisplayName,SourceAreaId,SourceLocationId,SourceEntryPointId,DestinationAreaId,DestinationLocationId,DestinationEntryPointId,PortalType,ActivationMode,bTwoWay,bLoadingScreen,RequiredLevel,UnlockQuestId,RequiredItemId,bEnabledByDefault,Description
+16001,16001,ST_PORTAL_16001,선할로우 가는 길,11001,12001,EP_12001_SouthGate,11002,12020,EP_12020_Trailhead,AreaTransition,Overlap,TRUE,TRUE,7,10007,0,FALSE,마을 경계 남쪽 길머리 기둥. 풀 속성 조우지.
+16002,16002,ST_PORTAL_16002,루트스테어 가는 길,11001,12001,EP_12001_SouthWest,11003,12021,EP_12021_Trailhead,AreaTransition,Overlap,TRUE,TRUE,7,10007,0,FALSE,마을 경계 남서쪽 길머리 기둥. 땅 속성 조우지.
+16003,16003,ST_PORTAL_16003,미스트웰 가는 길,11001,12007,EP_12007_West,11004,12022,EP_12022_Trailhead,AreaTransition,Overlap,TRUE,TRUE,7,10007,0,FALSE,물가 구역 서쪽 길머리 기둥. 물 속성 조우지.
+16004,16004,ST_PORTAL_16004,엠버킬른 가는 길,11001,12004,EP_12004_SouthEast,11005,12023,EP_12023_Trailhead,AreaTransition,Overlap,TRUE,TRUE,7,10007,0,FALSE,큰 길 동쪽 끝 길머리 기둥. 불 속성 조우지.
+16005,16005,ST_PORTAL_16005,보우리지 가는 길,11001,12011,EP_12011_NorthEast,11006,12024,EP_12024_Trailhead,AreaTransition,Overlap,TRUE,TRUE,8,10007,0,FALSE,공방 구역 북동쪽 길머리 기둥. 바람 속성 조우지.
+16006,16006,ST_PORTAL_16006,리븐우드 가는 길,11001,12018,EP_12018_NorthTrail,11007,12025,EP_12025_Trailhead,AreaTransition,Overlap,TRUE,TRUE,8,10007,0,FALSE,성역 북쪽 길머리 기둥. 번개 속성 조우지.
+16007,16007,ST_PORTAL_16007,펀브룩 초입 가는 길,11001,12011,EP_12011_CartTrail,11009,12027,EP_12027_Trail,AreaTransition,Overlap,TRUE,TRUE,10,0,0,TRUE,"공방 구역 동쪽 담장 끝, 정비공 공방 뒤편 폭 3m 수레길. 표식 없이 바큇자국으로만 길임을 알 수 있다."
+16008,16008,ST_PORTAL_16008,펀브룩 심부 가는 길,11009,12029,EP_12029_Brook,11010,12031,EP_12031_Deepwood,AreaTransition,Overlap,TRUE,TRUE,10,0,0,TRUE,개울이 땅속으로 스며들어 사라지는 지점을 지나면 나무가 굵고 촘촘해지며 심부로 넘어간다.
+16009,16009,ST_PORTAL_16009,나이아 안식처 입구,11001,12007,EP_12007_HavenGate,11001,12009,EP_12009_Entrance,InnerTransition,Interact,TRUE,FALSE,5,10006,0,FALSE,"크레이들풀 동쪽, 에코크라운 가지가 건너와 다시 뿌리내린 터널 입구. 신발을 벗고 들어간다. Q10006 이전에는 릴리가 잠가 둔다."
+16010,16010,ST_PORTAL_16010,여관 입구,11001,12001,EP_12001_InnDoor,11001,12002,EP_12002_Entrance,InnerTransition,Interact,TRUE,FALSE,1,0,0,TRUE,16×10m 2층 목조 건물. 1층 카운터에서 보관함과 유료 회복을 이용한다.
+16011,16011,ST_PORTAL_16011,마을 회관 입구,11001,12005,EP_12005_HallDoor,11001,12006,EP_12006_Entrance,InnerTransition,Interact,TRUE,FALSE,3,0,0,TRUE,사각 광장 북면. 촌장 대리 루간이 상주하며 의뢰 게시판이 정면에 걸린다.
+16012,16012,ST_PORTAL_16012,장로회 회당 입구,11001,12018,EP_12018_HallDoor,11001,12019,EP_12019_Entrance,InnerTransition,Interact,TRUE,TRUE,9,10015,0,FALSE,에코크라운 뿌리 아래로 파고든 굴. 뿌리 두 개가 만든 높이 2m 삼각 아치이며 증표를 받기 전에는 들어갈 수 없다.
+16013,16013,ST_PORTAL_16013,물레방아 입구,11001,12007,EP_12007_MillDoor,11001,12010,EP_12010_Entrance,InnerTransition,Interact,TRUE,FALSE,1,0,0,TRUE,크레이들풀 물줄기를 받아 도는 물레방아. 토르벤이 관리한다.
+16014,16014,ST_PORTAL_16014,그레이베인 산길 입구,11001,12001,EP_12001_SouthGate,11021,12101,EP_12101_Ridge,AreaTransition,Overlap,TRUE,TRUE,11,10017,0,FALSE,남쪽 진입로에서 산맥 방면으로 이어지는 길. Q10017 챕터 종결 후 개방.
+16015,16015,ST_PORTAL_16015,신데하스 마을 입구,11021,12101,EP_12101_Ridge,11022,12108,EP_12108_LowerGate,AreaTransition,Overlap,TRUE,TRUE,11,10101,0,FALSE,마지막 능선을 넘으면 계단식 분지가 펼쳐진다. 아래 단으로 진입.
+16016,16016,ST_PORTAL_16016,대장간 입구,11022,12104,EP_12104_SmithDoor,11022,12105,EP_12105_Entrance,InnerTransition,Interact,TRUE,FALSE,11,10101,0,TRUE,도리크가 상주하는 대장간. 장비 판매와 제작을 겸한다.
+16017,16017,ST_PORTAL_16017,감정소 입구,11022,12104,EP_12104_AssayDoor,11022,12106,EP_12106_Entrance,InnerTransition,Interact,TRUE,FALSE,11,10101,0,TRUE,홀트가 원석 등급을 매기는 감정소. 바닥 나무 뚜껑 아래로 지하 장부고가 이어진다.
+16018,16018,ST_PORTAL_16018,주막 입구,11022,12108,EP_12108_TavernDoor,11022,12109,EP_12109_Entrance,InnerTransition,Interact,TRUE,FALSE,11,10101,0,TRUE,"프레이가 운영하는 14×10m 2층 주막. 1층 식당, 2층 공용 숙소."
+16019,16019,ST_PORTAL_16019,의무소 입구,11022,12108,EP_12108_InfirmaryDoor,11022,12111,EP_12111_Entrance,InnerTransition,Interact,TRUE,FALSE,11,10101,0,TRUE,마렌이 상주하는 6×5m 석조 의무소. 처음 방문하는 순간 신데하스의 새 부활 지점으로 등록된다.
+16020,16020,ST_PORTAL_16020,고름의 집 입구,11022,12108,EP_12108_GoromDoor,11022,12110,EP_12110_Entrance,InnerTransition,Interact,TRUE,FALSE,11,10101,0,TRUE,채굴 감독관 고름의 집. 챕터 에필로그 무대.
+16021,16021,ST_PORTAL_16021,애쉬슬로프 진입로,11022,12108,EP_12108_WestGate,11023,12113,EP_12113_Gate,AreaTransition,Overlap,TRUE,TRUE,13,10104,0,FALSE,"마을 서쪽, 노천 폐광 비탈로 내려가는 길."
+16022,16022,ST_PORTAL_16022,파인할로우 진입로,11022,12108,EP_12108_SouthGate,11024,12117,EP_12117_Camp,AreaTransition,Overlap,TRUE,TRUE,14,10108,0,FALSE,"마을 남쪽 기슭, 갱목을 베어 나르는 소나무 숲."
+16023,16023,ST_PORTAL_16023,봉쇄 통로 바리케이드,11022,12102,EP_12102_Barricade,11025,12121,EP_12121_Entry,AreaTransition,Interact,TRUE,TRUE,19,10113,0,FALSE,위 단 서쪽 끝 [낙반 위험 구역] 팻말과 나무 바리케이드. Q10113 이후 통과 가능.
+16024,16024,ST_PORTAL_16024,초원 갈림길,11023,12113,EP_12113_Gate,11041,12201,EP_12201_Fork,AreaTransition,Overlap,TRUE,TRUE,21,10201,0,FALSE,애쉬슬로프 인근 갈림길. 케스트라와 재회하는 지점이며 반건조 초원으로 이어진다.
+16025,16025,ST_PORTAL_16025,파스트라이드 야영지 입구,11041,12201,EP_12201_Fork,11042,12207,EP_12207_Yard,AreaTransition,Overlap,TRUE,TRUE,21,10201,0,FALSE,말굽형 메사의 트인 앞쪽 마당으로 진입로가 곧장 들어온다.
+16026,16026,ST_PORTAL_16026,나르의 천막,11042,12203,EP_12203_NarTent,11042,12204,EP_12204_Entrance,InnerTransition,Interact,TRUE,FALSE,21,10201,0,TRUE,중간 띠 동쪽 팔 바깥쪽 끝. 열린 앞마당과 감시 언덕에 바로 이어진다.
+16027,16027,ST_PORTAL_16027,의식 물품 천막,11042,12205,EP_12205_RiteTent,11042,12206,EP_12206_Entrance,InnerTransition,Interact,TRUE,FALSE,28,10212,0,FALSE,성인식 사냥 도구와 표식을 보관하는 작은 별도 천막. Q10212 에서 처음 열린다.
+16028,16028,ST_PORTAL_16028,앰버리치 초지,11042,12207,EP_12207_WestGate,11043,12209,EP_12209_Flats,AreaTransition,Overlap,TRUE,TRUE,21,10202,0,FALSE,야영지에서 걸어서 가까운 반건조 초지.
+16029,16029,ST_PORTAL_16029,본크래그 능선길,11042,12207,EP_12207_EastGate,11044,12211,EP_12211_Ridge,AreaTransition,Overlap,TRUE,TRUE,25,10206,0,FALSE,"야영지에서 반나절 거리, 바위 협곡의 능선 초입."
+16030,16030,ST_PORTAL_16030,초지-협곡 지름길,11043,12210,EP_12210_Rise,11044,12211,EP_12211_Ridge,AreaTransition,Overlap,TRUE,TRUE,25,10206,0,FALSE,침식 구릉을 넘어 협곡 능선으로 바로 이어지는 길.
+16031,16031,ST_PORTAL_16031,본크래그 굴 입구,11044,12217,EP_12217_DenMouth,11045,12218,EP_12218_Entry,AreaTransition,Interact,TRUE,TRUE,28,0,0,TRUE,"능선길 서쪽 끝, 하운드런 반대편 협곡 벽의 좁은 굴. 통과하는 순간 개인·파티별 인스턴스가 생성된다."
+16032,16032,ST_PORTAL_16032,습지 계곡 진입로,11042,12207,EP_12207_SouthGate,11046,12309,EP_12309_Marsh,AreaTransition,Overlap,TRUE,TRUE,31,0,0,FALSE,파스트라이드 방면에서 안개가 짙어지는 습지 초입으로 들어선다.
+16033,16033,ST_PORTAL_16033,미스트킵 파수구,11046,12309,EP_12309_Overlook,11061,12302,EP_12302_Breach,AreaTransition,Overlap,TRUE,TRUE,31,0,0,FALSE,무너진 성벽 구간으로 곧장 이어진다. 카메라 방향과 진입 방향이 일치한다.
+16034,16034,ST_PORTAL_16034,셀바의 진료소,11061,12304,EP_12304_ClinicDoor,11061,12306,EP_12306_Entrance,InnerTransition,Interact,TRUE,FALSE,31,0,0,TRUE,거주 회랑 초입의 작은 진료소. 섀도우베일 도착과 함께 새 부활 지점으로 등록된다.
+16035,16035,ST_PORTAL_16035,바렌의 방,11061,12303,EP_12303_VarenDoor,11061,12307,EP_12307_Entrance,InnerTransition,Interact,TRUE,FALSE,31,0,0,TRUE,서쪽 익랑. 물자 분배와 인원 수용을 정하는 관리자의 자리.
+16036,16036,ST_PORTAL_16036,에스라의 기록보관소,11061,12303,EP_12303_EsraDoor,11061,12308,EP_12308_Entrance,InnerTransition,Interact,TRUE,FALSE,31,0,0,TRUE,동쪽 익랑. 서가를 주제별이 아니라 발견된 위치별로 유지한다.
+16037,16037,ST_PORTAL_16037,뒷숲 바위틈,11001,12008,EP_12008_Crack,11008,12026,EP_12026_Passage,AreaTransition,Overlap,TRUE,TRUE,9,10015,0,FALSE,허시베일 폭포 물줄기 뒤 폭 1.5m 바위 틈. 뒷숲 뿌리터로 이어진다.

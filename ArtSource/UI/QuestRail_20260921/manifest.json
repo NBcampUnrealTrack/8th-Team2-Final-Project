@@ -1,0 +1,95 @@
+{
+  "tool": "image_gen__imagegen",
+  "prompt": "Create a production UI icon texture atlas for an elegant Korean fantasy RPG quest journal. One transparent RGBA PNG, very wide horizontal canvas, five equal-width cells in ONE ROW. Exactly FIVE separate icons, perfectly centered at normalized x .10, .30, .50, .70, .90 and y .50, with equal visual size and generous completely transparent spacing. From left to right: 1 front-facing OPEN BOOK with a small four-point star on its pages (All quests); 2 EXCLAMATION MARK inside a fine diamond outline (Main quests); 3 simple HERALDIC SHIELD with small diamond cutout (Side quests); 4 EIGHT-POINT COMPASS STAR with a fine circular ring (Daily quests); 5 QUILL PEN diagonally upward with a short baseline (Tutorial quests). Cohesive warm ivory silhouettes and crisp restrained champagne gold accent details, minimal refined geometric design, clean antialiased edges, medium bold stroke for excellent readability at 36px. The book must be open, the shield unmistakable, the compass geometric and the quill simple. Each symbol fits within its own cell with at least 20 percent transparent padding all around. Identical ivory color and line weight across all five. Flat UI glyph art, very subtle metal highlight only. NO button backgrounds, NO tiles, NO frames enclosing the cells, NO external shadows, NO glow, NO blur, NO backdrop, NO text, NO letters, NO captions, NO watermark. Do not connect icons. Entire space between and outside icons is true transparent alpha. This is a single reusable five-cell icon atlas asset, not a screenshot or a mockup.\n",
+  "original_generated_path": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0c154-2f2a-7810-a889-b12a111666d9\\exec-766f4bd0-caa1-4e4e-8732-bb9a6d706097.png",
+  "source": "D:\\UnrealEngine\\ProjectM\\ArtSource\\UI\\QuestRail_20260921\\T_QuestRail_Icons.png",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "RGBA",
+  "sha256": "c25420197efb7d907d5df6c45115fc93cb608237468022ce08924d897a1a0d2d",
+  "original_sha256": "c25420197efb7d907d5df6c45115fc93cb608237468022ce08924d897a1a0d2d",
+  "attempts": 1,
+  "pixel_changes": false,
+  "purpose": "Five separate UI glyphs sampled by Slate UV regions from one unchanged transparent atlas.",
+  "cells": [
+    {
+      "key": "All",
+      "alpha_bounds": [
+        74,
+        223,
+        404,
+        498
+      ],
+      "uv": [
+        0.03406998158379374,
+        0.3080110497237569,
+        0.1860036832412523,
+        0.6878453038674033
+      ]
+    },
+    {
+      "key": "Main",
+      "alpha_bounds": [
+        489,
+        172,
+        834,
+        515
+      ],
+      "uv": [
+        0.22513812154696133,
+        0.23756906077348067,
+        0.3839779005524862,
+        0.7113259668508287
+      ]
+    },
+    {
+      "key": "Side",
+      "alpha_bounds": [
+        945,
+        176,
+        1222,
+        515
+      ],
+      "uv": [
+        0.4350828729281768,
+        0.2430939226519337,
+        0.5626151012891344,
+        0.7113259668508287
+      ]
+    },
+    {
+      "key": "Daily",
+      "alpha_bounds": [
+        1322,
+        166,
+        1688,
+        527
+      ],
+      "uv": [
+        0.6086556169429097,
+        0.2292817679558011,
+        0.7771639042357275,
+        0.7279005524861878
+      ]
+    },
+    {
+      "key": "Tutorial",
+      "alpha_bounds": [
+        1804,
+        172,
+        2100,
+        509
+      ],
+      "uv": [
+        0.8305709023941068,
+        0.23756906077348067,
+        0.9668508287292817,
+        0.7030386740331491
+      ]
+    }
+  ],
+  "unreal_asset": "/Game/Developers/MinkiCho/Art/Quest/CategoryRail/T_QuestRail_Icons",
+  "qa": "Five distinct uncropped glyphs, true alpha, consistent ivory/gold colors. Native widget state applies desaturation tint and opacity."
+}

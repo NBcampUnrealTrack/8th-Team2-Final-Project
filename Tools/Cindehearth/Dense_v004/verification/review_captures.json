@@ -1,0 +1,68 @@
+[
+  {
+    "name": "village",
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Dense_review_village.png",
+      "width": 1850,
+      "height": 823,
+      "camera": {
+        "location": [
+          140.4,
+          -6128,
+          3247
+        ],
+        "rotation": [
+          -26.56505117707799,
+          90,
+          3.1178524834738926e-07
+        ],
+        "fov": 53
+      }
+    }
+  },
+  {
+    "name": "square",
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Dense_review_square.png",
+      "width": 1850,
+      "height": 823,
+      "camera": {
+        "location": [
+          1760.6,
+          -1500,
+          930
+        ],
+        "rotation": [
+          -17.91593392516447,
+          140.96448710125313,
+          3.3591089380175634e-07
+        ],
+        "fov": 43
+      }
+    }
+  },
+  {
+    "name": "homes",
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Dense_review_homes.png",
+      "width": 1850,
+      "height": 823,
+      "camera": {
+        "location": [
+          -525.6,
+          -2927.5,
+          808.2
+        ],
+        "rotation": [
+          -23.886499921634748,
+          90,
+          2.8230358846328237e-07
+        ],
+        "fov": 43
+      }
+    }
+  }
+]

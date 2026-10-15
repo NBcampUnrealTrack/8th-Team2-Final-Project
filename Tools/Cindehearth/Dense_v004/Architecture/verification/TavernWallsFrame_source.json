@@ -1,0 +1,138 @@
+{
+  "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWallsFrame_025.blend",
+  "object": "CH_Dense_TavernWallsFrame_025",
+  "fingerprint": "5fb012fccb286acd28671b6d06ff2898fea0a629aaa85add7f62d1c0eaf520d6",
+  "report": {
+    "object": {
+      "name": "CH_Dense_TavernWallsFrame_025",
+      "type": "MESH",
+      "data_name": "CH_Dense_TavernWallsFrame_025_Mesh",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.8232861757278442,
+        2.1565308570861816,
+        0.7638201713562012
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "collections": [
+        "Collection"
+      ]
+    },
+    "fingerprint": "5fb012fccb286acd28671b6d06ff2898fea0a629aaa85add7f62d1c0eaf520d6",
+    "geometry": {
+      "vertices": 24,
+      "edges": 42,
+      "polygons": 24,
+      "triangles": 36,
+      "ngons": 0,
+      "loose_vertices": 0,
+      "loose_edges": 0,
+      "zero_length_edges": 0,
+      "boundary_edges": 0,
+      "wire_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "invalid_face_normals": 0,
+      "non_finite_vertices": 0
+    },
+    "bounds": {
+      "local_min": [
+        -1.1670972108840942,
+        -1.4606163501739502,
+        0.24884924292564392
+      ],
+      "local_max": [
+        0.65618896484375,
+        0.695914626121521,
+        1.0126694440841675
+      ],
+      "world_min": [
+        -1.1670972108840942,
+        -1.4606163501739502,
+        0.24884924292564392
+      ],
+      "world_max": [
+        0.65618896484375,
+        0.695914626121521,
+        1.0126694440841675
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "tripo_mat_4caa7db6.001"
+      },
+      {
+        "slot": 1,
+        "name": "CH_Dense_TavernWalls_Stone"
+      }
+    ],
+    "uv_layers": [
+      {
+        "name": "UVMap",
+        "active": true,
+        "active_render": true,
+        "loop_count": 84,
+        "bounds_min": [
+          -1.4604825973510742,
+          -1.4604825973510742
+        ],
+        "bounds_max": [
+          2.460482597351074,
+          2.460482597351074
+        ],
+        "out_of_zero_one_range": 84,
+        "non_finite": 0,
+        "degenerate_faces": 0
+      }
+    ],
+    "modifiers": [],
+    "quality": {
+      "passed": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": [],
+      "requirements": {}
+    }
+  }
+}

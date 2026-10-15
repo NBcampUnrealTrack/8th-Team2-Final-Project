@@ -1,0 +1,30 @@
+{
+  "source_object_name": "CH_Polish_Forge_REF___tripo_node_c1bd81e3",
+  "output_object_name": "CH_Polish_Forge_Game_v003",
+  "operations": [
+    {
+      "type": "transform_object",
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "transform_vertices",
+      "scale": [
+        3.001465559355154,
+        3.001465559355154,
+        3.001465559355154
+      ],
+      "translation": [
+        -0.0,
+        -0.0,
+        1.3299951148021494
+      ]
+    },
+    {
+      "type": "delete_loose"
+    }
+  ]
+}

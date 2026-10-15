@@ -1,0 +1,728 @@
+{
+ "MCh_Gambler_Body_Idle_Front": {
+  "source": "04_front_idle",
+  "offsets": [
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   -1,
+   0
+  ],
+  "closed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "narrowed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "MCh_Gambler_Body_Walk_Front": {
+  "source": "05_front_walk",
+  "offsets": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "closed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "narrowed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "MCh_Gambler_Body_Idle_Side": {
+  "source": "01_side_walk",
+  "offsets": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "closed": [
+   0,
+   0,
+   1,
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  "narrowed": [
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0
+  ]
+ },
+ "MCh_Gambler_Body_Walk_Side": {
+  "source": "side_walk_png_frames",
+  "offsets": [
+   1,
+   2,
+   0,
+   1,
+   2,
+   0,
+   0,
+   1
+  ],
+  "closed": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "narrowed": [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "MCh_Gambler_Body_Walk_Back": {
+  "source": "gambler_back_walk8_4layers",
+  "offsets": [
+   -1,
+   -1,
+   -1,
+   -1,
+   -1,
+   -1,
+   -1,
+   -1
+  ],
+  "closed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "narrowed": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ]
+ },
+ "MCh_Tracker_Body_Idle_Front": {
+  "source": "05_front_idle",
+  "offsets": [
+   0,
+   0,
+   1,
+   1,
+   0,
+   -1,
+   -1,
+   0
+  ],
+  "closed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "narrowed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "MCh_Tracker_Body_Walk_Front": {
+  "source": "04_front_walk",
+  "offsets": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "closed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "narrowed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "MCh_Tracker_Body_Idle_Side": {
+  "source": "02_side_walk#even",
+  "offsets": [
+   1,
+   1,
+   0,
+   1,
+   1,
+   1,
+   0,
+   1
+  ],
+  "closed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "narrowed": [
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0
+  ]
+ },
+ "MCh_Tracker_Body_Idle_Back": {
+  "source": "03_back_idle",
+  "offsets": [
+   -1,
+   -1,
+   -1,
+   -1,
+   -1,
+   -1,
+   -1,
+   -1
+  ],
+  "closed": [
+   5,
+   5,
+   5,
+   5,
+   7,
+   9,
+   9,
+   5
+  ],
+  "narrowed": [
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   3,
+   3
+  ]
+ },
+ "MCh_Tracker_Body_Walk_Back": {
+  "source": "01_back_walk",
+  "offsets": [
+   -2,
+   -1,
+   -1,
+   -2,
+   -1,
+   -1,
+   -2,
+   -3
+  ],
+  "closed": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "narrowed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "MCh_Druid_Body_Idle_Front": {
+  "source": "02_druid_front_idle",
+  "offsets": [
+   0,
+   0,
+   1,
+   1,
+   0,
+   -1,
+   -1,
+   0
+  ],
+  "closed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "narrowed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "MCh_Druid_Body_Walk_Front": {
+  "source": "01_druid_front_walk",
+  "offsets": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "closed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "narrowed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "MCh_Druid_Body_Idle_Side": {
+  "source": "07_druid_side_idle",
+  "offsets": [
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "closed": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "narrowed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "MCh_Druid_Body_Walk_Side": {
+  "source": "05_druid_side_walk",
+  "offsets": [
+   0,
+   2,
+   0,
+   -1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "closed": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "narrowed": [
+   0,
+   0,
+   1,
+   0,
+   1,
+   1,
+   0,
+   1
+  ]
+ },
+ "MCh_Druid_Body_Idle_Back": {
+  "source": "06_druid_back_idle",
+  "offsets": [
+   -1,
+   -1,
+   -1,
+   -1,
+   -1,
+   -1,
+   -1,
+   -1
+  ],
+  "closed": [
+   8,
+   8,
+   8,
+   8,
+   11,
+   13,
+   13,
+   8
+  ],
+  "narrowed": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   2,
+   2,
+   1
+  ]
+ },
+ "MCh_Druid_Body_Walk_Back": {
+  "source": "druid_back_walk8_4layers",
+  "offsets": [
+   -1,
+   -1,
+   -2,
+   -3,
+   -1,
+   -1,
+   -2,
+   -3
+  ],
+  "closed": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "narrowed": [
+   1,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0
+  ]
+ },
+ "MCh_NaiaKnight_Body_Idle_Front": {
+  "source": "06_front_idle",
+  "offsets": [
+   0,
+   0,
+   1,
+   1,
+   0,
+   -1,
+   -1,
+   0
+  ],
+  "closed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "narrowed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "MCh_NaiaKnight_Body_Walk_Front": {
+  "source": "05_front_walk",
+  "offsets": [
+   -2,
+   0,
+   -1,
+   -1,
+   -2,
+   0,
+   -1,
+   -1
+  ],
+  "closed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "narrowed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "MCh_NaiaKnight_Body_Idle_Side": {
+  "source": "01_side_idle",
+  "offsets": [
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   1
+  ],
+  "closed": [
+   8,
+   2,
+   0,
+   2,
+   2,
+   2,
+   2,
+   8
+  ],
+  "narrowed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "MCh_NaiaKnight_Body_Walk_Side": {
+  "source": "02_side_walk",
+  "offsets": [
+   1,
+   2,
+   1,
+   0,
+   2,
+   1,
+   1,
+   0
+  ],
+  "closed": [
+   10,
+   3,
+   4,
+   9,
+   7,
+   7,
+   9,
+   9
+  ],
+  "narrowed": [
+   0,
+   0,
+   1,
+   0,
+   1,
+   1,
+   0,
+   1
+  ]
+ },
+ "MCh_NaiaKnight_Body_Idle_Back": {
+  "source": "04_back_idle",
+  "offsets": [
+   1,
+   1,
+   2,
+   1,
+   1,
+   -1,
+   0,
+   1
+  ],
+  "closed": [
+   2,
+   2,
+   2,
+   2,
+   5,
+   7,
+   7,
+   2
+  ],
+  "narrowed": [
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4
+  ]
+ },
+ "MCh_NaiaKnight_Body_Walk_Back": {
+  "source": "03_back_walk",
+  "offsets": [
+   -1,
+   -1,
+   -1,
+   -1,
+   -1,
+   -1,
+   -1,
+   -1
+  ],
+  "closed": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "narrowed": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ]
+ }
+}

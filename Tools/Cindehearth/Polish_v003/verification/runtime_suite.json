@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "routes": [
+    {
+      "route": "rail",
+      "passed": true
+    },
+    {
+      "route": "cemetery",
+      "passed": true
+    },
+    {
+      "route": "ashslope",
+      "passed": true
+    },
+    {
+      "route": "deepvein",
+      "passed": true
+    },
+    {
+      "route": "pinehollow",
+      "passed": true
+    },
+    {
+      "route": "gorm",
+      "passed": true
+    }
+  ],
+  "archive": true,
+  "epilogue": true,
+  "camera": true
+}

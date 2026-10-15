@@ -1,0 +1,30 @@
+{
+  "source_object_name": "CH_Polish_ToolRack_REF___tripo_node_8d15cca3",
+  "output_object_name": "CH_Polish_ToolRack_Game_v003",
+  "operations": [
+    {
+      "type": "transform_object",
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "transform_vertices",
+      "scale": [
+        3.01620029455081,
+        3.01620029455081,
+        3.01620029455081
+      ],
+      "translation": [
+        -0.0,
+        -0.005891016200294551,
+        1.3203240058910162
+      ]
+    },
+    {
+      "type": "delete_loose"
+    }
+  ]
+}

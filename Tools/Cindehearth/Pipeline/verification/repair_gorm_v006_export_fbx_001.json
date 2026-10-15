@@ -1,0 +1,28 @@
+[
+  {
+    "job_id": "gorm_v006_export_fbx_001",
+    "state": "running"
+  },
+  {
+    "job_id": "gorm_v006_export_fbx_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\gorm_v006_export_fbx_001"
+  },
+  {
+    "job_id": "gorm_v006_export_fbx_001",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Export\\CH_GormP2_Clean_v006.fbx",
+      "format": "fbx",
+      "bytes": 103964,
+      "object_names": [
+        "CH_GormP2_Clean_v006"
+      ],
+      "fingerprints": {
+        "CH_GormP2_Clean_v006": "dc842c992dee0b6753e11a11103b6dd0c32a3e4a4e6636726ac2911b4e11c9b0"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

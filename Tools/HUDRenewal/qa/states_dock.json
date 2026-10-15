@@ -1,0 +1,5 @@
+[
+ {"shot": "dock_idle", "py": "qa_village.py", "wait": 20, "frames": 240},
+ {"shot": "dock_hover", "py": "qa_dock_hover.py", "wait": 0.6, "frames": 20},
+ {"shot": "dock_hidden", "py": "qa_hud_hide.py", "wait": 1.2, "frames": 30}
+]

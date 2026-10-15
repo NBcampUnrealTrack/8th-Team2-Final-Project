@@ -1,0 +1,4 @@
+[
+ {"shot": "hud_forest_ui", "wait": 25},
+ {"shot": "hud_forest_clean", "wait": 0.5, "noui": true}
+]

@@ -1,0 +1,27 @@
+{
+  "status": "finished",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyStructure_Final018.glb",
+  "assets": [
+    "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/Textures/Normal.Normal",
+    "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/Textures/Color.Color",
+    "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/Textures/tripo_image_dda91e9f_2-tripo_image_dda91e9f_1.tripo_image_dda91e9f_2-tripo_image_dda91e9f_1",
+    "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/Materials/tripo_mat_dda91e9f.tripo_mat_dda91e9f",
+    "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/StaticMeshes/CH_Dense_SmithyStructure_Final018.CH_Dense_SmithyStructure_Final018"
+  ],
+  "meshes": [
+    {
+      "path": "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/StaticMeshes/CH_Dense_SmithyStructure_Final018.CH_Dense_SmithyStructure_Final018",
+      "triangles": 1966,
+      "min": [
+        -110.28334045410156,
+        -148.68099975585938,
+        0.0
+      ],
+      "max": [
+        111.01612091064453,
+        150.0,
+        133.3658905029297
+      ]
+    }
+  ]
+}

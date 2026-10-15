@@ -1,0 +1,27 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_ToolRack_Game_v003.blend",
+  "object_name": "CH_Polish_ToolRack_Game_v003",
+  "expected_fingerprint": "e63846141f2829dd01a5cd9557172658177bb6823da31a9db32336e40e60e579",
+  "output_object_name": "CH_Polish_ToolRack_Caps004",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_ToolRack_Caps004.blend",
+  "operation": "fill_loops",
+  "selection_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "polish_toolrack_Caps004"
+}

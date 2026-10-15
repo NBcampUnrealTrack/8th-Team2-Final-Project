@@ -1,0 +1,55 @@
+﻿ObjectiveId,QuestId,Description,ObjectiveType,TargetId,RequiredCount,bOptional,PrerequisiteObjectiveId,bHideInObjectiveList
+1000101,10001,통로를 빠져나가 아랫마을에 들어서기,NU.Quest.Objective.ReachLocation,12001,1,False,0,False
+1000201,10002,노아와 대화하기,NU.Quest.Objective.Talk,4001,1,False,0,False
+1000202,10002,장작 패기,NU.Quest.Objective.UseObject,900100001,5,False,0,False
+1000203,10002,창가 침상 확인하기,NU.Quest.Objective.UseObject,900100002,1,False,0,False
+1000301,10003,공방 심부름 처리하기,NU.Quest.Objective.Talk,4003,1,False,0,False
+1000303,10003,화덕 앞에서 기본 공격 연습하기,NU.Quest.Objective.TutorialAction,1999,1,False,1000301,False
+1000304,10003,개조된 무기 수령하기,NU.Quest.Objective.Talk,4003,1,False,1000303,False
+1000401,10004,루간과 대화하기,NU.Quest.Objective.Talk,4005,1,False,0,False
+1000402,10004,의뢰 게시판 확인하기,NU.Quest.Objective.UseObject,12015,1,False,1000401,False
+1000512,10005,루디의 심부름,NU.Quest.Objective.Talk,4003,1,False,0,True
+1000501,10005,루디의 심부름 — 가렛에게서 숯 받아 오기,NU.Quest.Objective.Talk,4015,1,False,1000512,False
+1000502,10005,루디의 심부름 — 받아 온 숯 전달하기,NU.Quest.Objective.Talk,4003,1,False,1000501,False
+1000509,10005,브란의 심부름,NU.Quest.Objective.Talk,4012,1,False,1000502,True
+1000503,10005,브란의 심부름 — 목재 옮기기,NU.Quest.Objective.UseObject,900100005,1,False,1000509,False
+1000510,10005,엘라라의 심부름,NU.Quest.Objective.Talk,4006,1,False,1000503,True
+1000504,10005,엘라라의 심부름 — 튀는 시약 거품 쳐내기 (패링 연습),NU.Quest.Objective.TutorialAction,1010,1,False,1000510,False
+1000511,10005,메리스의 심부름,NU.Quest.Objective.Talk,4008,1,False,1000504,True
+1000505,10005,메리스의 심부름 — 천을 헝클어뜨리는 나이아 피하기 (회피 연습),NU.Quest.Objective.TutorialAction,1016,1,False,1000511,False
+1000508,10005,카알라의 심부름,NU.Quest.Objective.Talk,4014,1,False,1000505,True
+1000506,10005,카알라의 심부름 — 케란에게 수프 배달하기,NU.Quest.Objective.Talk,4009,1,False,1000508,False
+1000507,10005,카알라의 심부름 — 화덕에 장작 넣기,NU.Quest.Objective.UseObject,900100009,1,False,1000508,False
+1000601,10006,안식처의 릴리와 대화하기,NU.Quest.Objective.Talk,4004,1,False,0,False
+1000701,10007,닫힌 성역 확인하기,NU.Quest.Objective.ReachLocation,12018,1,False,0,False
+1000702,10007,루간에게 여섯 조우지 안내받기,NU.Quest.Objective.Talk,4005,1,False,1000701,False
+1000801,10008,티온의 돗자리 되찾기,NU.Quest.Objective.UseObject,900100010,1,False,0,False
+1000802,10008,티온의 물병 되찾기,NU.Quest.Objective.UseObject,900100011,1,False,1000801,False
+1000803,10008,선할로우의 풀 나이아 진정시키기,NU.Quest.Objective.NaiaCalmed,12020,1,False,1000802,False
+1000902,10009,루트스테어의 땅 나이아 진정시키기,NU.Quest.Objective.NaiaCalmed,12021,1,False,0,False
+1001001,10010,미스트웰의 물 나이아 진정시키기,NU.Quest.Objective.NaiaCalmed,12022,1,False,0,False
+1001101,10011,엠버킬른의 불 나이아 진정시키기,NU.Quest.Objective.NaiaCalmed,12023,1,False,0,False
+1001201,10012,보우리지의 바람 나이아 진정시키기,NU.Quest.Objective.NaiaCalmed,12024,1,False,0,False
+1001301,10013,리븐우드의 전기 나이아 진정시키기,NU.Quest.Objective.NaiaCalmed,12025,1,False,0,False
+1001401,10014,루간에게 여섯의 인정 받기,NU.Quest.Objective.Talk,4005,1,False,0,False
+1001402,10014,성역 전직 단상으로 이동하기,NU.Quest.Objective.ReachLocation,12018,1,False,1001401,False
+1001403,10014,엘라던과 대화하기,NU.Quest.Objective.Talk,4017,1,False,1001402,False
+1001404,10014,직업 선택 확정하기,NU.Quest.Objective.JobSelected,0,1,False,1001403,False
+1001405,10014,시작 나이아 계약 확정하기,NU.Quest.Objective.StarterContracted,0,1,False,1001404,False
+1001501,10015,엘라던에게 회당 개방과 마지막 시험 안내받기,NU.Quest.Objective.Talk,4017,1,False,0,False
+1001601,10016,펀브룩에 도착하기,NU.Quest.Objective.ReachLocation,12027,1,False,0,False
+1001602,10016,브램블코어와 대련 완료하기,NU.Quest.Objective.BattleWon,1701,1,False,1001601,False
+1001701,10017,엘라던에게 증표 받기,NU.Quest.Objective.Talk,4017,1,False,0,False
+1001702,10017,노아에게 나무패 받기,NU.Quest.Objective.Talk,4001,1,False,1001701,False
+1001703,10017,여관 1층 창가에 나무패 걸기,NU.Quest.Objective.UseObject,900100017,1,False,1001702,False
+1005101,10051,루간과 대화하기,NU.Quest.Objective.Talk,4005,1,False,0,False
+1005102,10051,공방 마당에서 스승 고르기,NU.Quest.Objective.Talk,4900,1,False,1005101,False
+1099901,10999,엘라던과 대화해 레벨 20 성장 상태와 초기 자금을 받는다.,NU.Quest.Objective.Talk,4017,1,False,0,False
+1090101,10901,루간의 부탁을 받고 티온과 대화한 뒤 티온에게 완료 보고한다.,NU.Quest.Objective.Talk,4011,1,False,0,False
+1090001,10900,티온이 잃어버린 팽이를 마을에서 찾아 돌려준다.,NU.Quest.Objective.CollectItem,900100018,1,False,0,False
+1090201,10902,시안에게 의뢰를 받고 아이템을 한 번 구매한 뒤 다시 시안에게 보고한다.,NU.Quest.Objective.PurchaseItem,4002,1,False,0,False
+1090301,10903,노아에게 의뢰를 받고 창고를 한 번 이용한 뒤 다시 노아에게 보고한다.,NU.Quest.Objective.UseStorage,4001,1,False,0,False
+1090401,10904,리베르그로브 훈련장에 도착한 뒤 루간에게 보고한다.,NU.Quest.Objective.ReachLocation,900100019,1,False,0,False
+1090501,10905,교감석으로 나이아 한 마리와 교감한다.,NU.Quest.Objective.GrowNaia,0,1,False,0,False
+1090601,10906,전투에서 적 한 마리를 처치한다.,NU.Quest.Objective.EnemyDefeated,0,1,False,0,False
+1090701,10907,전투에서 승리한 뒤 루간에게 보고한다.,NU.Quest.Objective.BattleWon,0,1,False,0,False

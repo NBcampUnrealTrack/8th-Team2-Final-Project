@@ -1,0 +1,42 @@
+[
+  {
+    "name": "DirectionalLight_0",
+    "label": "DirectionalLight",
+    "class": "DirectionalLight"
+  },
+  {
+    "name": "SkyAtmosphere_0",
+    "label": "SkyAtmosphere",
+    "class": "SkyAtmosphere"
+  },
+  {
+    "name": "SkyLight_0",
+    "label": "SkyLight",
+    "class": "SkyLight"
+  },
+  {
+    "name": "ExponentialHeightFog_0",
+    "label": "ExponentialHeightFog",
+    "class": "ExponentialHeightFog"
+  },
+  {
+    "name": "VolumetricCloud_0",
+    "label": "VolumetricCloud",
+    "class": "VolumetricCloud"
+  },
+  {
+    "name": "PlayerStart_0",
+    "label": "PlayerStart",
+    "class": "PlayerStart"
+  },
+  {
+    "name": "StaticMeshActor_0",
+    "label": "SM_SkySphere",
+    "class": "StaticMeshActor"
+  },
+  {
+    "name": "Floor_0",
+    "label": "Floor",
+    "class": "StaticMeshActor"
+  }
+]

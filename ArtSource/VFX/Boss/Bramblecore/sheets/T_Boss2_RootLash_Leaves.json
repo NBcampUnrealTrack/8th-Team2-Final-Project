@@ -1,0 +1,21 @@
+{
+  "name": "T_Boss2_RootLash_Leaves",
+  "blend": "Translucent",
+  "frame_w": 768,
+  "frame_h": 288,
+  "cols": 4,
+  "rows": 4,
+  "frames": 16,
+  "fps": 30,
+  "loop": false,
+  "pivot_px": [
+    384,
+    4
+  ],
+  "pivot_uv": [
+    0.5,
+    0.0139
+  ],
+  "screen_scale_1080p": 2.0,
+  "note": "Swing과 같은 위치·타이밍 (반투명 잎/꽃)"
+}

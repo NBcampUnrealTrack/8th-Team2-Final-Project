@@ -1,0 +1,497 @@
+{
+  "material": {
+    "blend_mode": "BLEND_Translucent",
+    "shading_model": "MSM_Unlit",
+    "two_sided": true
+  },
+  "expressions": [
+    {
+      "id": "MaterialExpressionTextureCoordinate_0000025756D87A80",
+      "class": "TextureCoordinate",
+      "class_full": "MaterialExpressionTextureCoordinate",
+      "pos_x": -800,
+      "pos_y": -100,
+      "properties": {
+        "CoordinateIndex": "0",
+        "UTiling": "1.000000",
+        "VTiling": "1.000000",
+        "UnMirrorU": "False",
+        "UnMirrorV": "False"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTime_0000025756D89300",
+      "class": "Time",
+      "class_full": "MaterialExpressionTime",
+      "pos_x": -800,
+      "pos_y": 100,
+      "properties": {
+        "bIgnorePause": "False",
+        "bOverride_Period": "False",
+        "Period": "0.000000"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureObjectParameter_0000025831E8D980",
+      "class": "TextureObjectParameter",
+      "class_full": "MaterialExpressionTextureObjectParameter",
+      "pos_x": -800,
+      "pos_y": 300,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_None",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Water_Ripple.T_Water_Ripple'",
+        "SamplerType": "SAMPLERTYPE_LinearColor",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "FlowNoise",
+      "group": "None",
+      "inputs": [
+        "Coordinates",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_000002575E013900",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -400,
+      "pos_y": 0,
+      "properties": {
+        "Code": "\nfloat2 q = float2(UV.x*3.0, UV.y*1.8-Time*.50);\nfloat a = Texture2DSample(NoiseTex,NoiseTexSampler,q).r;\nfloat b = Texture2DSample(NoiseTex,NoiseTexSampler,q*float2(2.8,.7)+float2(.17,-Time*.20)).r;\nfloat ribbons = pow(saturate(sin(UV.x*73.0 + a*1.4)*.5+.5),5.0);\nfloat edge = smoothstep(0.,.12,UV.x)*smoothstep(0.,.12,1.-UV.x);\nfloat value = saturate(a*.55 + b*.35+ribbons*.35);\nfloat3 color = lerp(float3(.075,.33,.40),float3(.65,.88,.94),value);\nreturn float4(color,edge*saturate(.48+value*.45));\n",
+        "OutputType": "CMOT_Float4",
+        "Description": "Custom",
+        "Inputs": "((InputName=\"UV\",Input=(Expression=\"/Script/Engine.MaterialExpressionTextureCoordinate'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Waterfall.M_LG8_HD2D_Waterfall:MaterialExpressionTextureCoordinate_0'\")),(InputName=\"Time\",Input=(Expression=\"/Script/Engine.MaterialExpressionTime'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Waterfall.M_LG8_HD2D_Waterfall:MaterialExpressionTime_0'\")),(InputName=\"NoiseTex\",Input=(Expression=\"/Script/Engine.MaterialExpressionTextureObjectParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Waterfall.M_LG8_HD2D_Waterfall:MaterialExpressionTextureObjectParameter_0'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "\nfloat2 q = float2(UV.x*3.0, UV.y*1.8-Time*.50);\nfloat a = Texture2DSample(NoiseTex,NoiseTexSampler,q).r;\nfloat b = Texture2DSample(NoiseTex,NoiseTexSampler,q*float2(2.8,.7)+float2(.17,-Time*.20)).r;\nfloat ribbons = pow(saturate(sin(UV.x*73.0 + a*1.4)*.5+.5),5.0);\nfloat edge = smoothstep(0.,.12,UV.x)*smoothstep(0.,.12,1.-UV.x);\nfloat value = saturate(a*.55 + b*.35+ribbons*.35);\nfloat3 color = lerp(float3(.075,.33,.40),float3(.65,.88,.94),value);\nreturn float4(color,edge*saturate(.48+value*.45));\n",
+      "output_type": "CMOT_Float4",
+      "custom_input_names": "UV,Time,NoiseTex",
+      "inputs": [
+        "UV",
+        "Time",
+        "NoiseTex"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionComponentMask_000002585537D100",
+      "class": "ComponentMask",
+      "class_full": "MaterialExpressionComponentMask",
+      "pos_x": -120,
+      "pos_y": -70,
+      "properties": {
+        "R": "True",
+        "G": "True",
+        "B": "True",
+        "A": "False"
+      },
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionComponentMask_0000025855372800",
+      "class": "ComponentMask",
+      "class_full": "MaterialExpressionComponentMask",
+      "pos_x": -120,
+      "pos_y": 150,
+      "properties": {
+        "R": "False",
+        "G": "False",
+        "B": "False",
+        "A": "True"
+      },
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000255CA2B0000",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": 800,
+      "pos_y": -250,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionConstant_0000025756D87FC0",
+      "class": "Constant",
+      "class_full": "MaterialExpressionConstant",
+      "pos_x": 650,
+      "pos_y": -450,
+      "properties": {
+        "R": "1.000000"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMaterialFunctionCall_00000255BBFCE100",
+      "class": "MaterialFunctionCall",
+      "class_full": "MaterialExpressionMaterialFunctionCall",
+      "pos_x": 1350,
+      "pos_y": -200,
+      "properties": {
+        "MaterialFunction": "/Script/Engine.MaterialFunction'/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color'"
+      },
+      "function_path": "/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color",
+      "inputs": [
+        "SourceColor (V3)",
+        "Saturation (S)",
+        "Contrast (S)",
+        "PaletteSteps (S)",
+        "PosterizeStrength (S)",
+        "ShadowLift (S)",
+        "GlobalTint (V3)",
+        "Strength (S)"
+      ],
+      "outputs": [
+        "StyledColor"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_000002575E1530C0",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 50,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "Saturation",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000255CB6D0500",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 170,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "Contrast",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000256809A67C0",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 290,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "PaletteSteps",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000256809A6A40",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 410,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "PosterizeStrength",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000256809ABA40",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 530,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "ShadowLift",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000256809A7A80",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 650,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "GlobalTint",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000256809A5B40",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 450,
+      "pos_y": -400,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "StyleStrength",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809A9240",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": 450,
+      "pos_y": -540,
+      "properties": {
+        "DefaultValue": "0.650000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "StyleInfluence",
+      "group": "Per Material",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_00000256809ABB80",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": 1000,
+      "pos_y": -380,
+      "properties": {
+        "Code": "return saturate(Global*Local);",
+        "OutputType": "CMOT_Float1",
+        "Description": "Custom",
+        "Inputs": "((InputName=\"Global\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Waterfall.M_LG8_HD2D_Waterfall:MaterialExpressionCollectionParameter_6'\")),(InputName=\"Local\",Input=(Expression=\"/Script/Engine.MaterialExpressionScalarParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Waterfall.M_LG8_HD2D_Waterfall:MaterialExpressionScalarParameter_0'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "return saturate(Global*Local);",
+      "output_type": "CMOT_Float1",
+      "custom_input_names": "Global,Local",
+      "inputs": [
+        "Global",
+        "Local"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_id": "MaterialExpressionTextureCoordinate_0000025756D87A80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_000002575E013900",
+      "target_input": "UV"
+    },
+    {
+      "source_id": "MaterialExpressionTime_0000025756D89300",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_000002575E013900",
+      "target_input": "Time"
+    },
+    {
+      "source_id": "MaterialExpressionTextureObjectParameter_0000025831E8D980",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_000002575E013900",
+      "target_input": "NoiseTex"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_000002575E013900",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionComponentMask_000002585537D100",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_000002575E013900",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionComponentMask_0000025855372800",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionComponentMask_000002585537D100",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000255CA2B0000",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionConstant_0000025756D87FC0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000255CA2B0000",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000255CA2B0000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000255BBFCE100",
+      "target_input": "SourceColor (V3)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_000002575E1530C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000255BBFCE100",
+      "target_input": "Saturation (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000255CB6D0500",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000255BBFCE100",
+      "target_input": "Contrast (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A67C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000255BBFCE100",
+      "target_input": "PaletteSteps (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A6A40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000255BBFCE100",
+      "target_input": "PosterizeStrength (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809ABA40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000255BBFCE100",
+      "target_input": "ShadowLift (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A7A80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000255BBFCE100",
+      "target_input": "GlobalTint (V3)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000256809ABB80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000255BBFCE100",
+      "target_input": "Strength (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A5B40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000256809ABB80",
+      "target_input": "Global"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A9240",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000256809ABB80",
+      "target_input": "Local"
+    }
+  ],
+  "output_connections": [
+    {
+      "property": "EmissiveColor",
+      "expression_id": "MaterialExpressionMaterialFunctionCall_00000255BBFCE100",
+      "output_index": 0,
+      "output_name": "StyledColor"
+    },
+    {
+      "property": "Opacity",
+      "expression_id": "MaterialExpressionComponentMask_0000025855372800",
+      "output_index": 0,
+      "output_name": ""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "job_id": "polish_shelf_Final_Open006_back_left",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_shelf_Final_Open006_back_left",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_shelf_Final_Open006_back_left"
+  },
+  {
+    "job_id": "polish_shelf_Final_Open006_back_left",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_shelf_Final_Open006_back_left"
+  },
+  {
+    "job_id": "polish_shelf_Final_Open006_back_left",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_shelf_Final_Open006_back_left"
+  },
+  {
+    "job_id": "polish_shelf_Final_Open006_back_left",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\Review\\Shelf_Open006_back_left.png",
+      "bytes": 641888,
+      "view": "back_left",
+      "mode": "textured"
+    }
+  }
+]

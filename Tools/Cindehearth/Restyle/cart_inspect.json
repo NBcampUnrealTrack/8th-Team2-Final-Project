@@ -1,0 +1,8 @@
+{
+  "object_name": "CH_Cart_Game_v001",
+  "requirements": {
+    "require_uv": true,
+    "require_material": true,
+    "max_triangles": 4000
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "tool": "image_gen (built-in)",
+  "atlas": {
+    "file": "T_QuestObjects.png",
+    "prompt": "Create ONE production-ready game sprite atlas texture for a Korean fantasy RPG quest testing scene. Exactly 6 columns by 4 rows, evenly spaced square cells, 1536x1024 landscape. Each cell contains one complete isolated object centered with 15% padding, consistent charming hand-painted HD-2D game icon style, readable silhouette, soft warm lighting, no ground plane, no lettering, no numerals, no borders. Genuine transparent background outside the objects, no checkerboard. Row1 left to right: axe embedded in chopping stump with firewood; simple wooden single bed with blue blanket; blacksmith hammer and tongs tool bundle; wooden practice dummy with sword; village notice board with parchment; stack of timber planks. Row2: round practice shield; pair of leather boots with a swoosh representing dodge; warm soup bowl; little stone cooking hearth with burning logs; rolled woven picnic mat; corked water flask. Row3: friendly small green leaf forest spirit; friendly small ochre stone spirit; pile of round heavy stones; friendly small blue water spirit; wooden bucket full of spring water; friendly small orange fire spirit. Row4: pile of black charcoal; friendly small mint wind spirit; cloth tied to a short wooden wind marker; friendly small violet lightning spirit; old red ribbon tied in a bow; friendly larger wooden root golem. This is a single aligned sprite sheet, not a collage. Strict identical cell dimensions and grid placement, objects do not cross cell boundaries.",
+    "columns": 6,
+    "rows": 4
+  },
+  "plaque": {
+    "file": "T_Quest_1001703.png",
+    "prompt": "A single isolated fantasy RPG quest prop: a small blank wooden name plaque hanging from a simple loop of twine, carved leaf motif in two corners, honey brown wood, no writing, no letters, no numbers. Hand-painted HD-2D game sprite matching warm village quest props, readable silhouette, front three-quarter view, soft warm shading, centered with generous padding. Genuine transparent alpha background, no scene, no floor, no cast shadow outside the object. Square 512x512 game asset."
+  }
+}

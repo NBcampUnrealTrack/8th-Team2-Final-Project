@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"asset_name\": \"CH_Polish_StoneNaia_P2_v003\",\n  \"request_id\": \"CH_Polish_StoneNaia_P2_20260905_v003\",\n  \"kind\": \"p2_image\",\n  \"api_version\": \"v3\",\n  \"parameters\": {\n    \"image_path\": \"C:\\\\Users\\\\Ndus_072\\\\RevDevTool\\\\RevStudio-ProjectM\\\\Tools\\\\Cindehearth\\\\Polish_v003\\\\reference\\\\StoneNaia.png\",\n    \"model\": \"P2-20260801\",\n    \"face_limit\": 800,\n    \"quad\": true,\n    \"texture\": true,\n    \"pbr\": true,\n    \"texture_quality\": \"standard\",\n    \"auto_size\": false,\n    \"export_uv\": true\n  },\n  \"status\": \"submitted\",\n  \"submitted_parameters\": {\n    \"model\": \"P2-20260801\",\n    \"face_limit\": 800,\n    \"quad\": true,\n    \"texture\": true,\n    \"pbr\": true,\n    \"texture_quality\": \"standard\",\n    \"auto_size\": false,\n    \"export_uv\": true,\n    \"input\": \"file_f218620f-2799-4e0a-8fec-ff45cc7574c2\"\n  },\n  \"task_id\": \"f281a5b2-27f0-4bee-932f-a8826e8011cf\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

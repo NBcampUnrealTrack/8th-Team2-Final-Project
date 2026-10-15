@@ -1,0 +1,78 @@
+[
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps007"
+  },
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps007"
+  },
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps007"
+  },
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps007"
+  },
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps007"
+  },
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps007"
+  },
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps007"
+  },
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps007"
+  },
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps007"
+  },
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps007"
+  },
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps007"
+  },
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps007"
+  },
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps007"
+  },
+  {
+    "job_id": "polish_forge_Caps007",
+    "state": "failed",
+    "success": false,
+    "error": "",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 282, in <module>\n    result=run(json.loads(req.read_text(encoding='utf-8')))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 266, in run\n    assert all(layer['degenerate_faces']==0 and layer['non_finite']==0 for layer in after['uv_layers'])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  }
+]

@@ -1,0 +1,8 @@
+[
+ {"shot": "sel_idle", "py": "qa_village_solo.py", "wait": 20, "frames": 240},
+ {"shot": "sel_near", "py": "qa_interact.py", "wait": 1.2, "frames": 30},
+ {"shot": "sel_plate", "py": "", "wait": 0.4, "frames": 10, "noui": true},
+ {"shot": "sel_job", "py": "qa_jobsel_now.py", "wait": 3, "frames": 90},
+ {"shot": "sel_naia", "py": "qa_naiasel_now.py", "wait": 3.5, "frames": 90},
+ {"shot": "sel_offer", "py": "qa_offer_now.py", "wait": 2.5, "frames": 60}
+]

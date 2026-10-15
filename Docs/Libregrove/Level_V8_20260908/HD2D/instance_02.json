@@ -1,0 +1,40 @@
+{
+  "source": "/Game/Libregrove/Level_V8/Materials/MI_LG8_Terrain.MI_LG8_Terrain",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Terrain_5574e.MI_HD2D_LG8_Terrain_5574e",
+  "kind": "Landscape",
+  "scalars": {
+    "TileCm_Grass": 180.0,
+    "TileCm_Dirt": 180.0,
+    "TileCm_Cobblestone": 180.0,
+    "TileCm_Moss": 210.0,
+    "TileCm_Cliff": 240.0,
+    "TileCm_Macro": 1850.0,
+    "TileCm_EdgeNoise": 100.0,
+    "EdgeNoise_Amount": 0.23000000417232513,
+    "MacroVariation_Amount": 0.2199999988079071,
+    "CliffSlopeStart": 0.3400000035762787,
+    "CliffSlopeEnd": 0.6600000262260437,
+    "RoughnessMul": 1.0
+  },
+  "vectors": {},
+  "textures": {
+    "Tex_Grass_BC": "/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_BC.T_Grass_Meadow_Pixel_BC",
+    "Tex_Grass_N": "/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_N.T_Grass_Meadow_Pixel_N",
+    "Tex_Grass_ORM": "/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_ORM.T_Grass_Meadow_Pixel_ORM",
+    "Tex_Dirt_BC": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_BC.T_Dirt_Path_Pixel_BC",
+    "Tex_Dirt_N": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_N.T_Dirt_Path_Pixel_N",
+    "Tex_Dirt_ORM": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_ORM.T_Dirt_Path_Pixel_ORM",
+    "Tex_Dirt_H": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_H.T_Dirt_Path_Pixel_H",
+    "Tex_Cobblestone_BC": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_BC.T_Cobblestone_Pixel_BC",
+    "Tex_Cobblestone_N": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_N.T_Cobblestone_Pixel_N",
+    "Tex_Cobblestone_ORM": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_ORM.T_Cobblestone_Pixel_ORM",
+    "Tex_Cobblestone_H": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_H.T_Cobblestone_Pixel_H",
+    "Tex_Moss_BC": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_BC.T_Moss_ForestFloor_Pixel_BC",
+    "Tex_Moss_N": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_N.T_Moss_ForestFloor_Pixel_N",
+    "Tex_Moss_ORM": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_ORM.T_Moss_ForestFloor_Pixel_ORM",
+    "Tex_Moss_H": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_H.T_Moss_ForestFloor_Pixel_H",
+    "Tex_Cliff_BC": "/Game/Village/Textures/Pixel/T_Cliff_Rock_Pixel_BC.T_Cliff_Rock_Pixel_BC",
+    "Tex_Macro": "/Game/Village/Textures/Pixel/T_Macro_Variation_Gray_Pixel_BC.T_Macro_Variation_Gray_Pixel_BC",
+    "Tex_EdgeNoise": "/Game/Village/Textures/Pixel/T_PathEdge_Noise_Gray_Pixel_BC.T_PathEdge_Noise_Gray_Pixel_BC"
+  }
+}

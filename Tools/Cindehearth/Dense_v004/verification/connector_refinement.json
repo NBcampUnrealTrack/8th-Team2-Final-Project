@@ -1,0 +1,220 @@
+{
+  "bridge_bounds": [
+    [
+      -2490.2999999999997,
+      361.8,
+      150.75
+    ],
+    [
+      16.65000000000009,
+      15.074999999999989,
+      22.5
+    ]
+  ],
+  "placements": [
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_S_00",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2517.6499999999996,
+        324.725,
+        164.25
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_S_01",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2613.6499999999996,
+        324.725,
+        164.25
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_S_02",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2709.6499999999996,
+        324.725,
+        164.25
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_Rubble_S",
+      "group": "Ashslope",
+      "mesh": "Ridge",
+      "center_bottom": [
+        -2817.6499999999996,
+        291.725,
+        157.25
+      ],
+      "size": [
+        110,
+        76,
+        56
+      ],
+      "yaw": -18,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_N_00",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2517.6499999999996,
+        398.875,
+        164.25
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_N_01",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2613.6499999999996,
+        398.875,
+        164.25
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_N_02",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2709.6499999999996,
+        398.875,
+        164.25
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_Rubble_N",
+      "group": "Ashslope",
+      "mesh": "Ridge",
+      "center_bottom": [
+        -2817.6499999999996,
+        431.875,
+        157.25
+      ],
+      "size": [
+        110,
+        76,
+        56
+      ],
+      "yaw": 18,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_OreCrate",
+      "group": "Ashslope",
+      "mesh": "Crate",
+      "center_bottom": [
+        -2551.6499999999996,
+        244.72500000000002,
+        173.25
+      ],
+      "size": [
+        60,
+        52,
+        48
+      ],
+      "yaw": -6,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_StackedCrate",
+      "group": "Ashslope",
+      "mesh": "Crate",
+      "center_bottom": [
+        -2551.6499999999996,
+        244.72500000000002,
+        219.25
+      ],
+      "size": [
+        40,
+        38,
+        34
+      ],
+      "yaw": 7,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_Barrel",
+      "group": "Ashslope",
+      "mesh": "Barrel",
+      "center_bottom": [
+        -2618.6499999999996,
+        248.72500000000002,
+        173.25
+      ],
+      "size": [
+        45,
+        45,
+        54
+      ],
+      "yaw": 23,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_DiscardedCrate",
+      "group": "Ashslope",
+      "mesh": "Crate",
+      "center_bottom": [
+        -2675.6499999999996,
+        257.725,
+        173.25
+      ],
+      "size": [
+        44,
+        40,
+        30
+      ],
+      "yaw": -19,
+      "collision": false
+    }
+  ]
+}

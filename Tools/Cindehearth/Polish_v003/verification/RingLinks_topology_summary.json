@@ -1,0 +1,151 @@
+{
+  "name": "RingLinks",
+  "geometry": {
+    "vertices": 1611,
+    "edges": 3419,
+    "polygons": 1802,
+    "triangles": 3220,
+    "ngons": 0,
+    "loose_vertices": 0,
+    "loose_edges": 0,
+    "zero_length_edges": 0,
+    "boundary_edges": 23,
+    "wire_edges": 0,
+    "non_manifold_edges": 9,
+    "degenerate_faces": 0,
+    "invalid_face_normals": 0,
+    "non_finite_vertices": 0
+  },
+  "dimensions": [
+    2.9062042236328125,
+    3.0,
+    1.9154860973358154
+  ],
+  "components": [
+    {
+      "id": 0,
+      "faces": 264,
+      "diameter": 1.8642
+    },
+    {
+      "id": 1,
+      "faces": 261,
+      "diameter": 1.8854
+    },
+    {
+      "id": 2,
+      "faces": 243,
+      "diameter": 1.9012
+    },
+    {
+      "id": 3,
+      "faces": 243,
+      "diameter": 2.0944
+    },
+    {
+      "id": 4,
+      "faces": 264,
+      "diameter": 1.8752
+    },
+    {
+      "id": 5,
+      "faces": 276,
+      "diameter": 2.0208
+    },
+    {
+      "id": 6,
+      "faces": 251,
+      "diameter": 1.8533
+    }
+  ],
+  "loops": [
+    {
+      "id": 0,
+      "edges": 4,
+      "simple": false,
+      "diameter": 0.1743,
+      "center": [
+        0.7166585326194763,
+        0.10625305585563183,
+        0.08426967263221741
+      ]
+    },
+    {
+      "id": 1,
+      "edges": 6,
+      "simple": false,
+      "diameter": 0.4033,
+      "center": [
+        -0.15534929186105728,
+        -0.28505129739642143,
+        0.5664386749267578
+      ]
+    },
+    {
+      "id": 2,
+      "edges": 3,
+      "simple": true,
+      "diameter": 0.3344,
+      "center": [
+        -0.018319491297006607,
+        0.028578411787748337,
+        0.5459208488464355
+      ]
+    },
+    {
+      "id": 3,
+      "edges": 1,
+      "simple": false,
+      "diameter": 0.3155,
+      "center": [
+        -0.033707864669850096,
+        0.027112849056720734,
+        0.5429897308349609
+      ]
+    },
+    {
+      "id": 4,
+      "edges": 1,
+      "simple": false,
+      "diameter": 0.4125,
+      "center": [
+        -0.7115290760993958,
+        -0.7899364829063416,
+        1.014167070388794
+      ]
+    },
+    {
+      "id": 5,
+      "edges": 3,
+      "simple": false,
+      "diameter": 0.3545,
+      "center": [
+        0.9152418076992035,
+        0.16560820490121841,
+        1.1350756883621216
+      ]
+    },
+    {
+      "id": 6,
+      "edges": 1,
+      "simple": false,
+      "diameter": 0.3479,
+      "center": [
+        0.9101123511791229,
+        0.17000488936901093,
+        1.1431362628936768
+      ]
+    },
+    {
+      "id": 7,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.166,
+      "center": [
+        0.34807033836841583,
+        0.31069858372211456,
+        1.0823155641555786
+      ]
+    }
+  ]
+}

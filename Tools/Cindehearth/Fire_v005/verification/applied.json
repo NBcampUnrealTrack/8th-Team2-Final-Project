@@ -1,0 +1,75 @@
+{
+  "status": "applied_pending_visual_review",
+  "hidden": [
+    "CH_HD2D_HearthFire0",
+    "CH_HD2D_HearthFire1",
+    "CH_HD2D_HearthFire2",
+    "CH_HD2D_ForgeFire0",
+    "CH_HD2D_ForgeFire1"
+  ],
+  "new": [
+    {
+      "label": "CH_F5_FrontFire_Hearth",
+      "plan": {
+        "name": "Hearth",
+        "center": [
+          -59.4,
+          30.43,
+          249.25
+        ],
+        "scale": [
+          1.9,
+          1.6,
+          1
+        ],
+        "roll": -115
+      },
+      "material": "/Game/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Hearth.MI_CH_FrontFire_Hearth",
+      "bounds": [
+        [
+          -59.400000000000006,
+          30.43,
+          249.25
+        ],
+        [
+          95.0,
+          33.80946093925597,
+          72.50462296293199
+        ]
+      ]
+    },
+    {
+      "label": "CH_F5_FrontFire_Forge",
+      "plan": {
+        "name": "Forge",
+        "center": [
+          -137.7,
+          733,
+          213
+        ],
+        "scale": [
+          0.75,
+          0.52,
+          1
+        ],
+        "roll": -90
+      },
+      "material": "/Game/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Forge.MI_CH_FrontFire_Forge",
+      "bounds": [
+        [
+          -137.7,
+          733.0,
+          213.0
+        ],
+        [
+          37.5,
+          0.0,
+          26.0
+        ]
+      ]
+    }
+  ],
+  "camera_unchanged": true,
+  "light_unchanged": true,
+  "source_assets_unchanged": true
+}

@@ -1,0 +1,68 @@
+[
+{
+"shot": "s00_play",
+"py": "play.py",
+"wait": 1.5,
+"frames": 10
+},
+{
+"shot": "s01",
+"py": "seek.py",
+"wait": 0.45,
+"frames": 6
+},
+{
+"shot": "s02",
+"py": "seek.py",
+"wait": 0.45,
+"frames": 6
+},
+{
+"shot": "s03",
+"py": "seek.py",
+"wait": 0.45,
+"frames": 6
+},
+{
+"shot": "s04",
+"py": "seek.py",
+"wait": 0.45,
+"frames": 6
+},
+{
+"shot": "s05",
+"py": "seek.py",
+"wait": 0.45,
+"frames": 6
+},
+{
+"shot": "s06",
+"py": "seek.py",
+"wait": 0.45,
+"frames": 6
+},
+{
+"shot": "s07",
+"py": "seek.py",
+"wait": 0.45,
+"frames": 6
+},
+{
+"shot": "s08",
+"py": "seek.py",
+"wait": 0.45,
+"frames": 6
+},
+{
+"shot": "s09",
+"py": "seek.py",
+"wait": 0.45,
+"frames": 6
+},
+{
+"shot": "s10",
+"py": "seek.py",
+"wait": 0.45,
+"frames": 6
+}
+]

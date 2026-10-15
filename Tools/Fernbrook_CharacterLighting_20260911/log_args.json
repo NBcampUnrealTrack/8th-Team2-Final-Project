@@ -1,0 +1,1 @@
+{"action":"filter","file":"main","pattern":"Blueprint Runtime Error|Accessed None|Failed to compile Material|BP_FB_FieldCharacter.*Error|BP_FB_GameMode.*Error","max_matches":15}

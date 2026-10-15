@@ -1,0 +1,193 @@
+{
+  "material": {
+    "blend_mode": "BLEND_Masked",
+    "shading_model": "MSM_Unlit",
+    "two_sided": true
+  },
+  "expressions": [
+    {
+      "id": "MaterialExpressionTextureCoordinate_000001E9D5C63800",
+      "class": "TextureCoordinate",
+      "class_full": "MaterialExpressionTextureCoordinate",
+      "pos_x": -900,
+      "pos_y": 0,
+      "properties": {
+        "CoordinateIndex": "0",
+        "UTiling": "1.000000",
+        "VTiling": "1.000000",
+        "UnMirrorU": "False",
+        "UnMirrorV": "False"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTime_000001E9D5C2EE00",
+      "class": "Time",
+      "class_full": "MaterialExpressionTime",
+      "pos_x": -900,
+      "pos_y": 160,
+      "properties": {
+        "bIgnorePause": "False",
+        "bOverride_Period": "False",
+        "Period": "0.000000"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_000001E9DAEDB680",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -900,
+      "pos_y": 320,
+      "properties": {
+        "DefaultValue": "0.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "Phase",
+      "group": "Motion",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_000001E9DAEDBB80",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -400,
+      "pos_y": 0,
+      "properties": {
+        "Code": "\nfloat2 q=(floor(UV*float2(44,52))+.5)/float2(44,52);\nfloat t=floor(Time*10.0)/10.0+Phase*7.0;\nfloat h=1.0-q.y;\nfloat sway=sin(h*8.0-t*2.5)*.07*h+sin(h*19.0-t*3.3)*.024;\nfloat x=abs(q.x-.5-sway);\nfloat width=.34*pow(saturate(1.0-h),.75);\nfloat scallop=sin(h*27.0-t*4.1)*.027+sin(q.x*47.0+h*13.0+t*3.0)*.018;\nfloat mask=step(x,width+scallop)*step(.018,h)*step(h,.97);\nfloat core=saturate(1.0-x/max(width,.01))*saturate((.8-h)*1.8);\nfloat3 c=lerp(float3(1.65,.14,.008),float3(3.0,1.14,.10),floor(core*4.0)/4.0);\nreturn float4(c,mask);\n",
+        "OutputType": "CMOT_Float4",
+        "Description": "Cindehearth pixel Fire",
+        "Inputs": "((InputName=\"UV\",Input=(Expression=\"/Script/Engine.MaterialExpressionTextureCoordinate'/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelFire.M_CH_PixelFire:MaterialExpressionTextureCoordinate_0'\")),(InputName=\"Time\",Input=(Expression=\"/Script/Engine.MaterialExpressionTime'/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelFire.M_CH_PixelFire:MaterialExpressionTime_0'\")),(InputName=\"Phase\",Input=(Expression=\"/Script/Engine.MaterialExpressionScalarParameter'/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelFire.M_CH_PixelFire:MaterialExpressionScalarParameter_0'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "\nfloat2 q=(floor(UV*float2(44,52))+.5)/float2(44,52);\nfloat t=floor(Time*10.0)/10.0+Phase*7.0;\nfloat h=1.0-q.y;\nfloat sway=sin(h*8.0-t*2.5)*.07*h+sin(h*19.0-t*3.3)*.024;\nfloat x=abs(q.x-.5-sway);\nfloat width=.34*pow(saturate(1.0-h),.75);\nfloat scallop=sin(h*27.0-t*4.1)*.027+sin(q.x*47.0+h*13.0+t*3.0)*.018;\nfloat mask=step(x,width+scallop)*step(.018,h)*step(h,.97);\nfloat core=saturate(1.0-x/max(width,.01))*saturate((.8-h)*1.8);\nfloat3 c=lerp(float3(1.65,.14,.008),float3(3.0,1.14,.10),floor(core*4.0)/4.0);\nreturn float4(c,mask);\n",
+      "output_type": "CMOT_Float4",
+      "custom_input_names": "UV,Time,Phase",
+      "inputs": [
+        "UV",
+        "Time",
+        "Phase"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_000001E9DAEDD700",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -100,
+      "pos_y": -80,
+      "properties": {
+        "Code": "return Shape.rgb;",
+        "OutputType": "CMOT_Float3",
+        "Description": "Color",
+        "Inputs": "((InputName=\"Shape\",Input=(Expression=\"/Script/Engine.MaterialExpressionCustom'/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelFire.M_CH_PixelFire:MaterialExpressionCustom_0'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "return Shape.rgb;",
+      "output_type": "CMOT_Float3",
+      "custom_input_names": "Shape",
+      "inputs": [
+        "Shape"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_000001E9DAEDE9C0",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -100,
+      "pos_y": 80,
+      "properties": {
+        "Code": "return Shape.a;",
+        "OutputType": "CMOT_Float1",
+        "Description": "Cutout / fade",
+        "Inputs": "((InputName=\"Shape\",Input=(Expression=\"/Script/Engine.MaterialExpressionCustom'/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelFire.M_CH_PixelFire:MaterialExpressionCustom_0'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "return Shape.a;",
+      "output_type": "CMOT_Float1",
+      "custom_input_names": "Shape",
+      "inputs": [
+        "Shape"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_id": "MaterialExpressionTextureCoordinate_000001E9D5C63800",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_000001E9DAEDBB80",
+      "target_input": "UV"
+    },
+    {
+      "source_id": "MaterialExpressionTime_000001E9D5C2EE00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_000001E9DAEDBB80",
+      "target_input": "Time"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_000001E9DAEDB680",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_000001E9DAEDBB80",
+      "target_input": "Phase"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_000001E9DAEDBB80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_000001E9DAEDD700",
+      "target_input": "Shape"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_000001E9DAEDBB80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_000001E9DAEDE9C0",
+      "target_input": "Shape"
+    }
+  ],
+  "output_connections": [
+    {
+      "property": "EmissiveColor",
+      "expression_id": "MaterialExpressionCustom_000001E9DAEDD700",
+      "output_index": 0,
+      "output_name": ""
+    },
+    {
+      "property": "OpacityMask",
+      "expression_id": "MaterialExpressionCustom_000001E9DAEDE9C0",
+      "output_index": 0,
+      "output_name": ""
+    }
+  ]
+}

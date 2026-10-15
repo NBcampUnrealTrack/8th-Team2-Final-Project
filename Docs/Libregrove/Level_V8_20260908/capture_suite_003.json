@@ -1,0 +1,99 @@
+{
+  "rows": [
+    {
+      "name": "Waterfront",
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Level_V8_20260908\\Preview\\Game_Waterfront_Final_003.png",
+      "pawn": [
+        1710.0,
+        1350.0,
+        89.35704612731934
+      ],
+      "camera": [
+        1710.0000000000016,
+        -295.4482671904357,
+        1099.3570461273205
+      ],
+      "rotation": [
+        1.4690353290379085e-14,
+        -30.0,
+        90.0
+      ],
+      "fov": 38.0,
+      "night": false,
+      "style_overrides": {},
+      "actual_game_view": true
+    },
+    {
+      "name": "CentralBridge",
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Level_V8_20260908\\Preview\\Game_CentralBridge_Final_003.png",
+      "pawn": [
+        0.0,
+        -720.0,
+        125.0
+      ],
+      "camera": [
+        1.3642420526593924e-12,
+        -2365.448267190435,
+        1135.0000000000011
+      ],
+      "rotation": [
+        1.4690353290379085e-14,
+        -30.0,
+        90.0
+      ],
+      "fov": 38.0,
+      "night": false,
+      "style_overrides": {},
+      "actual_game_view": true
+    },
+    {
+      "name": "SquareNight",
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Level_V8_20260908\\Preview\\Game_SquareNight_Final_003.png",
+      "pawn": [
+        0.0,
+        350.0,
+        80.22660446166992
+      ],
+      "camera": [
+        1.5916157281026244e-12,
+        -1295.4482671904357,
+        1090.226604461671
+      ],
+      "rotation": [
+        1.4690353290379085e-14,
+        -30.0,
+        90.0
+      ],
+      "fov": 38.0,
+      "night": true,
+      "style_overrides": {},
+      "actual_game_view": true
+    },
+    {
+      "name": "Watermill",
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Level_V8_20260908\\Preview\\Game_Watermill_Final_003.png",
+      "pawn": [
+        1700.0,
+        -200.0,
+        90.0
+      ],
+      "camera": [
+        1700.0000000000014,
+        -1845.4482671904354,
+        1100.0000000000011
+      ],
+      "rotation": [
+        1.4690353290379085e-14,
+        -30.0,
+        90.0
+      ],
+      "fov": 38.0,
+      "night": false,
+      "style_overrides": {},
+      "actual_game_view": true
+    }
+  ],
+  "error": null,
+  "mpc_defaults_unchanged": true,
+  "runtime_restored": true
+}

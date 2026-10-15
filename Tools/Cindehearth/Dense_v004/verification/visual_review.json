@@ -1,0 +1,83 @@
+{
+  "reviewed": true,
+  "method": "Root visual inspection of actual UE captures; editor PNG R/B decode only, no art retouching.",
+  "findings": [
+    "Tavern door is revealed by inset wall; warm entrance is visible at night.",
+    "Smithy assembled roof/walls have no visible sky-through gaps in reviewed views; roof hides for interior camera.",
+    "Cemetery path now has continuous support underneath, with clear player silhouette.",
+    "Ash/Pine connection gaps filled; original walking floors retained.",
+    "Mine/depot player view clear after foreground ridge recess; logging approach clear of pulley frame."
+  ],
+  "images": [
+    {
+      "file": "verification\\final_village.png",
+      "sha256": "f39a3b713e3d2a8f0ef7c5565a08279a2f78c48500ed00dc6ea2cbf6ab9e7cab",
+      "actual_player_camera": false
+    },
+    {
+      "file": "verification\\final_square.png",
+      "sha256": "4b795d9f3c3796890917316c9f327f8b11a105b7fda0d4779e9e894a085d8049",
+      "actual_player_camera": false
+    },
+    {
+      "file": "verification\\final_homes.png",
+      "sha256": "d933ff53e16c4f27540f3df1b20b122f6cff03e57c8891ea7c905f9978bdfd96",
+      "actual_player_camera": false
+    },
+    {
+      "file": "verification\\player_tavern.png",
+      "sha256": "4d9a0553c9fa146ede15147e4adf3a29f2171704df7dd129e2d39c120e0e2c19",
+      "actual_player_camera": true
+    },
+    {
+      "file": "verification\\player_tavern_night.png",
+      "sha256": "195be9b2f205e1c9dab2377b85e14587b980fec15dabb0d4913a7f12eb1829d1",
+      "actual_player_camera": true
+    },
+    {
+      "file": "verification\\player_smithy.png",
+      "sha256": "3b27bf4ab025bcb5e2f4117a56ca817c4d31ff41020b53750b02f873c457550b",
+      "actual_player_camera": true
+    },
+    {
+      "file": "verification\\player_smithy_inside.png",
+      "sha256": "2ef0bf0c70a6c24257f5d3a3c19d56bacde6f929f549488bcbb823d297c90def",
+      "actual_player_camera": true
+    },
+    {
+      "file": "verification\\player_ash_entry.png",
+      "sha256": "43c4abeb0efdec37a7b1dcb1430d5b0ec4a6e7594b2d9bff01bb8b73303a40bd",
+      "actual_player_camera": true
+    },
+    {
+      "file": "verification\\player_pine_entry.png",
+      "sha256": "2127df4c80a3bc57fd1e38fc89c2bd8c27b6b58b5af2ac435ccd42779a8b3ec8",
+      "actual_player_camera": true
+    },
+    {
+      "file": "verification\\player_cemetery.png",
+      "sha256": "e78e8e73d3a4cbb74e19679008e182790a7f17c7065c45e623509cd200e0ac9a",
+      "actual_player_camera": true
+    },
+    {
+      "file": "verification\\player_mine.png",
+      "sha256": "74d7a8e6420c1d6134757deccc7f9d5c4c1ba7826765faaaff7c144a4bb87a78",
+      "actual_player_camera": true
+    },
+    {
+      "file": "verification\\player_logging.png",
+      "sha256": "6a2430cdfd097ba3b332c41f17d0eea6f5cc87b056a687c14e64c20ee99e8742",
+      "actual_player_camera": true
+    },
+    {
+      "file": "verification\\player_depot.png",
+      "sha256": "eb8704d8223fc82c0c85bb8cb1fa5dd6e5f4bfe4706ef11d6e1f0e3f2f91997b",
+      "actual_player_camera": true
+    },
+    {
+      "file": "verification\\player_cocoon.png",
+      "sha256": "16c0d3e1f7d8cc824d9ea88f30fce02921fcfddc2d6bae38667802407f5a9790",
+      "actual_player_camera": true
+    }
+  ]
+}

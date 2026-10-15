@@ -1,0 +1,34 @@
+[
+  {
+    "label": "CH_GormHouse_Firewood0",
+    "location": [
+      -1215.0,
+      -1777.5,
+      9.9
+    ]
+  },
+  {
+    "label": "CH_GormHouse_Firewood1",
+    "location": [
+      -1196.1,
+      -1777.5,
+      9.9
+    ]
+  },
+  {
+    "label": "CH_GormHouse_Firewood2",
+    "location": [
+      -1177.2,
+      -1777.5,
+      9.9
+    ]
+  },
+  {
+    "label": "CH_Lettering_Gorm",
+    "location": [
+      -1048.5,
+      -1760.3999999999999,
+      58.5
+    ]
+  }
+]

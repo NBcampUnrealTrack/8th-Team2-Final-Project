@@ -1,0 +1,37 @@
+[
+ {
+  "shot": "bubn_village",
+  "py": "qa_village.py",
+  "wait": 20,
+  "frames": 240
+ },
+ {
+  "shot": "bubn_pop",
+  "py": "qa_bubble_long.py",
+  "wait": 0.08,
+  "frames": 2
+ },
+ {
+  "shot": "bubn_long",
+  "wait": 1.0,
+  "frames": 30
+ },
+ {
+  "shot": "bubn_short",
+  "py": "qa_bubble_short.py",
+  "wait": 1.0,
+  "frames": 30
+ },
+ {
+  "shot": "bubn_party",
+  "py": "qa_bubble_party.py",
+  "wait": 1.0,
+  "frames": 30
+ },
+ {
+  "shot": "bubn_world",
+  "py": "qa_bubble_world.py",
+  "wait": 1.0,
+  "frames": 30
+ }
+]

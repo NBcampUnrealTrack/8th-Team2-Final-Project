@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "dense_arch_smithystructure_CH_Dense_SmithyStructure_Final018_export",
+    "state": "running"
+  },
+  {
+    "job_id": "dense_arch_smithystructure_CH_Dense_SmithyStructure_Final018_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithystructure_CH_Dense_SmithyStructure_Final018_export"
+  },
+  {
+    "job_id": "dense_arch_smithystructure_CH_Dense_SmithyStructure_Final018_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithystructure_CH_Dense_SmithyStructure_Final018_export"
+  },
+  {
+    "job_id": "dense_arch_smithystructure_CH_Dense_SmithyStructure_Final018_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyStructure_Final018.glb",
+      "format": "glb",
+      "bytes": 4391604,
+      "object_names": [
+        "CH_Dense_SmithyStructure_Final018"
+      ],
+      "fingerprints": {
+        "CH_Dense_SmithyStructure_Final018": "3c07e625f796bcc601fbab03ab4b213b949739934d32acd5328c525895a234d8"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

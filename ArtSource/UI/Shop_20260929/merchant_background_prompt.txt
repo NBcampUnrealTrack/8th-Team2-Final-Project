@@ -1,0 +1,5 @@
+Tool: built-in image_gen (transparent_background=true)
+Edit source: T_Shop_MerchantStallV2.png
+Output: T_Shop_MerchantBackground.png
+
+Use case: precise-object-edit. Edit target: the attached fantasy shop banner. Remove ONLY the blond human merchant in the left-center, including head, body, hands and every trace of the character. Inpaint the vacated space with the existing dark wooden stall wall and unobtrusive empty interior consistent with its surroundings. Preserve the exact wide banner composition, navy masonry center, counter front and top, awning, lanterns, foliage, crates, bottles, books and hanging blank fabric at right; same hand-painted game art style, colors, lighting, camera and proportions. No people, no characters, no animals, no new text or logos. This is a clean background plate for a real game NPC to be rendered on top later. Preserve existing transparent exterior as real alpha; do not draw a checkerboard pattern. Match source 2048x683 wide aspect.

@@ -1,0 +1,38 @@
+[
+ {
+  "shot": "b_preload",
+  "py": "qa_preload.py",
+  "wait": 12,
+  "frames": 120,
+  "noui": true
+ },
+ {
+  "shot": "b_root",
+  "py": "qa_battle4.py",
+  "wait": 11,
+  "frames": 200
+ },
+ {
+  "shot": "b_target",
+  "py": "qa_attack.py",
+  "wait": 0.6,
+  "frames": 20
+ },
+ {
+  "shot": "b_target2",
+  "py": "qa_target2.py",
+  "wait": 0.6,
+  "frames": 20
+ },
+ {
+  "shot": "b_target3",
+  "py": "qa_target2.py",
+  "wait": 0.08,
+  "frames": 2
+ },
+ {
+  "shot": "b_target3b",
+  "wait": 0.6,
+  "frames": 20
+ }
+]

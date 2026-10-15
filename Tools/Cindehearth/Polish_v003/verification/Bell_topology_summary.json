@@ -1,0 +1,188 @@
+{
+  "name": "Bell",
+  "geometry": {
+    "vertices": 655,
+    "edges": 1360,
+    "polygons": 713,
+    "triangles": 1206,
+    "ngons": 0,
+    "loose_vertices": 0,
+    "loose_edges": 0,
+    "zero_length_edges": 0,
+    "boundary_edges": 88,
+    "wire_edges": 0,
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "invalid_face_normals": 0,
+    "non_finite_vertices": 0
+  },
+  "dimensions": [
+    1.3497802019119263,
+    3.0,
+    2.7948217391967773
+  ],
+  "components": [
+    {
+      "id": 0,
+      "faces": 73,
+      "diameter": 1.6375
+    },
+    {
+      "id": 1,
+      "faces": 104,
+      "diameter": 3.1408
+    },
+    {
+      "id": 2,
+      "faces": 249,
+      "diameter": 2.1618
+    },
+    {
+      "id": 3,
+      "faces": 40,
+      "diameter": 0.7834
+    },
+    {
+      "id": 4,
+      "faces": 14,
+      "diameter": 0.6986
+    },
+    {
+      "id": 5,
+      "faces": 46,
+      "diameter": 0.5642
+    },
+    {
+      "id": 6,
+      "faces": 48,
+      "diameter": 0.4513
+    },
+    {
+      "id": 7,
+      "faces": 28,
+      "diameter": 0.7166
+    },
+    {
+      "id": 8,
+      "faces": 38,
+      "diameter": 0.7947
+    },
+    {
+      "id": 9,
+      "faces": 73,
+      "diameter": 1.6377
+    }
+  ],
+  "loops": [
+    {
+      "id": 0,
+      "edges": 16,
+      "simple": true,
+      "diameter": 1.4892,
+      "center": [
+        0.0,
+        -0.0036638975143432617,
+        1.2083537578582764
+      ]
+    },
+    {
+      "id": 1,
+      "edges": 8,
+      "simple": true,
+      "diameter": 1.3681,
+      "center": [
+        -0.04469954967498779,
+        -1.0610649585723877,
+        0.04689788818359375
+      ]
+    },
+    {
+      "id": 2,
+      "edges": 8,
+      "simple": true,
+      "diameter": 0.5777,
+      "center": [
+        -0.013922818005084991,
+        -1.064728856086731,
+        0.9306302070617676
+      ]
+    },
+    {
+      "id": 3,
+      "edges": 8,
+      "simple": true,
+      "diameter": 0.1109,
+      "center": [
+        0.0,
+        -0.005129458382725716,
+        1.7725940942764282
+      ]
+    },
+    {
+      "id": 4,
+      "edges": 8,
+      "simple": true,
+      "diameter": 0.6912,
+      "center": [
+        0.0,
+        -0.005129456520080566,
+        1.8641915321350098
+      ]
+    },
+    {
+      "id": 5,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.1879,
+      "center": [
+        -0.0043966807425022125,
+        -0.15241817012429237,
+        1.9594528675079346
+      ]
+    },
+    {
+      "id": 6,
+      "edges": 16,
+      "simple": true,
+      "diameter": 0.4342,
+      "center": [
+        0.0,
+        -0.005129463970661163,
+        1.9404006004333496
+      ]
+    },
+    {
+      "id": 7,
+      "edges": 8,
+      "simple": true,
+      "diameter": 1.3693,
+      "center": [
+        -0.02491450309753418,
+        1.0610649585723877,
+        0.0
+      ]
+    },
+    {
+      "id": 8,
+      "edges": 8,
+      "simple": true,
+      "diameter": 0.5777,
+      "center": [
+        -0.013922818005084991,
+        1.0574010610580444,
+        0.8646800518035889
+      ]
+    },
+    {
+      "id": 9,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.1888,
+      "center": [
+        -0.0043966807425022125,
+        0.1428920365869999,
+        1.95652174949646
+      ]
+    }
+  ]
+}

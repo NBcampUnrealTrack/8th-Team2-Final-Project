@@ -1,0 +1,297 @@
+[
+  {
+    "job_id": "dense_arch_smithyroof_FrontFar022",
+    "state": "running"
+  },
+  {
+    "job_id": "dense_arch_smithyroof_FrontFar022",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithyroof_FrontFar022"
+  },
+  {
+    "job_id": "dense_arch_smithyroof_FrontFar022",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithyroof_FrontFar022"
+  },
+  {
+    "job_id": "dense_arch_smithyroof_FrontFar022",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "3af1f208a0d39df0d03df15e03009ff51459c6a90cb5dc8dc1961afd40a64aba",
+      "source": {
+        "object": {
+          "name": "CH_Dense_SmithyRoof_RearCorner021",
+          "type": "MESH",
+          "data_name": "CH_Dense_SmithyRoof_RearCorner021_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.2085978984832764,
+            3.0,
+            1.3439178466796875
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "5cd75a7ae515d234e1f8e8bbf051290dbaff362c36c710d9b69f6f4c39f028ca",
+        "geometry": {
+          "vertices": 670,
+          "edges": 1402,
+          "polygons": 724,
+          "triangles": 1232,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 124,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.1101611852645874,
+            -1.5,
+            1.1548607349395752
+          ],
+          "local_max": [
+            1.098436713218689,
+            1.5,
+            2.4987785816192627
+          ],
+          "world_min": [
+            -1.1101611852645874,
+            -1.5,
+            1.1548607349395752
+          ],
+          "world_max": [
+            1.098436713218689,
+            1.5,
+            2.4987785816192627
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_dda91e9f"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "dda91e9f_07fe_4fb0_b1fa_683ddbfe6b0a_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 2680,
+            "bounds_min": [
+              0.0009624365484341979,
+              0.0010830300161615014
+            ],
+            "bounds_max": [
+              0.9902400970458984,
+              0.9992015361785889
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Dense_SmithyRoof_FrontFar022",
+          "type": "MESH",
+          "data_name": "CH_Dense_SmithyRoof_FrontFar022_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.2085978984832764,
+            3.0,
+            1.3439178466796875
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "6e883839a793e746063544b2d3b0bd25d835a6d26d3e77f6439ba5de92c83369",
+        "geometry": {
+          "vertices": 670,
+          "edges": 1404,
+          "polygons": 725,
+          "triangles": 1234,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 124,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.1101611852645874,
+            -1.5,
+            1.1548607349395752
+          ],
+          "local_max": [
+            1.098436713218689,
+            1.5,
+            2.4987785816192627
+          ],
+          "world_min": [
+            -1.1101611852645874,
+            -1.5,
+            1.1548607349395752
+          ],
+          "world_max": [
+            1.098436713218689,
+            1.5,
+            2.4987785816192627
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_dda91e9f"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "dda91e9f_07fe_4fb0_b1fa_683ddbfe6b0a_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 2684,
+            "bounds_min": [
+              0.0009624365484341979,
+              0.0010830300161615014
+            ],
+            "bounds_max": [
+              0.9902400970458984,
+              0.9992015361785889
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "added_faces": 1
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyRoof_FrontFar022.blend"
+    }
+  }
+]

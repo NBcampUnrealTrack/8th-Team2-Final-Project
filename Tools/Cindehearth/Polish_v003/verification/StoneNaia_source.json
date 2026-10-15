@@ -1,0 +1,134 @@
+{
+  "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_StoneNaia_Closed005.blend",
+  "object": "CH_Polish_StoneNaia_Closed005",
+  "fingerprint": "6c2908359ba2a20d512385f834d62180741cc5434ce090bdbec7acc7e8178672",
+  "report": {
+    "object": {
+      "name": "CH_Polish_StoneNaia_Closed005",
+      "type": "MESH",
+      "data_name": "CH_Polish_StoneNaia_Closed005_Mesh",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.6428920030593872,
+        3.0,
+        2.6365413665771484
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "collections": [
+        "Collection"
+      ]
+    },
+    "fingerprint": "6c2908359ba2a20d512385f834d62180741cc5434ce090bdbec7acc7e8178672",
+    "geometry": {
+      "vertices": 882,
+      "edges": 1947,
+      "polygons": 1067,
+      "triangles": 1760,
+      "ngons": 0,
+      "loose_vertices": 0,
+      "loose_edges": 0,
+      "zero_length_edges": 0,
+      "boundary_edges": 0,
+      "wire_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "invalid_face_normals": 0,
+      "non_finite_vertices": 0
+    },
+    "bounds": {
+      "local_min": [
+        -0.8214460015296936,
+        -1.5,
+        0.0
+      ],
+      "local_max": [
+        0.8214460015296936,
+        1.5,
+        2.6365413665771484
+      ],
+      "world_min": [
+        -0.8214460015296936,
+        -1.5,
+        0.0
+      ],
+      "world_max": [
+        0.8214460015296936,
+        1.5,
+        2.6365413665771484
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "tripo_mat_f281a5b2"
+      }
+    ],
+    "uv_layers": [
+      {
+        "name": "f281a5b2_27f0_4bee_932f_a8826e8011cf_NewUVMap",
+        "active": true,
+        "active_render": true,
+        "loop_count": 3894,
+        "bounds_min": [
+          0.0007005806546658278,
+          0.0007005965453572571
+        ],
+        "bounds_max": [
+          0.9968502521514893,
+          0.9992994666099548
+        ],
+        "out_of_zero_one_range": 0,
+        "non_finite": 0,
+        "degenerate_faces": 0
+      }
+    ],
+    "modifiers": [],
+    "quality": {
+      "passed": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": [],
+      "requirements": {}
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "finished",
+  "id": "LG_02_Inn",
+  "destination": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn",
+  "objects": [
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/Textures/LG_02_Inn_fbx_basecolor.LG_02_Inn_fbx_basecolor",
+      "class": "Texture2D"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/Materials/tripo_mat_f544a036.tripo_mat_f544a036",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/StaticMeshes/SM_LG_02_Inn_V7.SM_LG_02_Inn_V7",
+      "class": "StaticMesh"
+    }
+  ]
+}

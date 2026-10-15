@@ -1,0 +1,469 @@
+[
+  {
+    "kind": "hearth",
+    "created": [
+      "CH_CommunalHearth_10m_P3"
+    ],
+    "hidden": [
+      "CH_CommunalHearth_10m_Dark",
+      "CH_CommunalHearth_10m_Stone",
+      "CH_CommunalHearth_10m_StoneLight",
+      "CH_CommunalHearth_10m_Timber"
+    ]
+  },
+  {
+    "kind": "shell",
+    "source": "CH_DorikSmithy",
+    "created": [
+      "CH_DorikSmithy_P3Wall_0",
+      "CH_DorikSmithy_P3Wall_1",
+      "CH_DorikSmithy_P3Wall_2",
+      "CH_DorikSmithy_P3Wall_3",
+      "CH_DorikSmithy_P3Wall_4",
+      "CH_DorikSmithy_P3Wall_5",
+      "CH_DorikSmithy_P3Wall_6",
+      "CH_DorikSmithy_P3Wall_7",
+      "CH_DorikSmithy_P3Wall_8",
+      "CH_DorikSmithy_P3Wall_9",
+      "CH_DorikSmithy_P3Wall_10",
+      "CH_DorikSmithy_P3Wall_11",
+      "CH_DorikSmithy_P3Wall_12",
+      "CH_DorikSmithy_P3Wall_13",
+      "CH_DorikSmithy_P3Wall_14",
+      "CH_DorikSmithy_P3Wall_15",
+      "CH_DorikSmithy_P3Wall_16",
+      "CH_DorikSmithy_P3Wall_17",
+      "CH_DorikSmithy_P3Wall_18",
+      "CH_DorikSmithy_P3Wall_19",
+      "CH_DorikSmithy_P3Wall_20",
+      "CH_DorikSmithy_P3Wall_21",
+      "CH_DorikSmithy_P3Wall_22",
+      "CH_DorikSmithy_P3Wall_23",
+      "CH_DorikSmithy_P3Wall_24",
+      "CH_DorikSmithy_P3Wall_25",
+      "CH_DorikSmithy_P3Wall_26",
+      "CH_DorikSmithy_P3Wall_27",
+      "CH_DorikSmithy_P3Wall_28",
+      "CH_DorikSmithy_P3Wall_29",
+      "CH_DorikSmithy_P3Wall_30",
+      "CH_DorikSmithy_P3Wall_31",
+      "CH_DorikSmithy_P3Wall_32",
+      "CH_DorikSmithy_P3Wall_33",
+      "CH_DorikSmithy_P3Wall_34",
+      "CH_DorikSmithy_P3Wall_35",
+      "CH_DorikSmithy_P3Wall_36",
+      "CH_DorikSmithy_P3Wall_37",
+      "CH_DorikSmithy_P3Wall_38",
+      "CH_DorikSmithy_P3Wall_39",
+      "CH_DorikSmithy_P3Wall_40",
+      "CH_DorikSmithy_P3Wall_41",
+      "CH_DorikSmithy_P3Wall_42",
+      "CH_DorikSmithy_P3Wall_43",
+      "CH_DorikSmithy_P3Wall_44",
+      "CH_DorikSmithy_P3Wall_45",
+      "CH_DorikSmithy_P3Wall_46",
+      "CH_DorikSmithy_P3Wall_47",
+      "CH_DorikSmithy_P3Wall_48",
+      "CH_DorikSmithy_P3Wall_49"
+    ],
+    "hidden": [
+      "CH_DorikSmithy_Stone",
+      "CH_DorikSmithy_StoneLight",
+      "CH_DorikSmithy_Iron"
+    ]
+  },
+  {
+    "kind": "shell",
+    "source": "CH_AssayOffice",
+    "created": [
+      "CH_AssayOffice_P3Wall_0",
+      "CH_AssayOffice_P3Wall_1",
+      "CH_AssayOffice_P3Wall_2",
+      "CH_AssayOffice_P3Wall_3",
+      "CH_AssayOffice_P3Wall_4",
+      "CH_AssayOffice_P3Wall_5",
+      "CH_AssayOffice_P3Wall_6",
+      "CH_AssayOffice_P3Wall_7",
+      "CH_AssayOffice_P3Wall_8",
+      "CH_AssayOffice_P3Wall_9",
+      "CH_AssayOffice_P3Wall_10",
+      "CH_AssayOffice_P3Wall_11",
+      "CH_AssayOffice_P3Wall_12",
+      "CH_AssayOffice_P3Wall_13",
+      "CH_AssayOffice_P3Wall_14",
+      "CH_AssayOffice_P3Wall_15",
+      "CH_AssayOffice_P3Wall_16",
+      "CH_AssayOffice_P3Wall_17",
+      "CH_AssayOffice_P3Wall_18",
+      "CH_AssayOffice_P3Wall_19",
+      "CH_AssayOffice_P3Wall_20",
+      "CH_AssayOffice_P3Wall_21",
+      "CH_AssayOffice_P3Wall_22",
+      "CH_AssayOffice_P3Wall_23",
+      "CH_AssayOffice_P3Wall_24",
+      "CH_AssayOffice_P3Wall_25",
+      "CH_AssayOffice_P3Wall_26",
+      "CH_AssayOffice_P3Wall_27",
+      "CH_AssayOffice_P3Wall_28",
+      "CH_AssayOffice_P3Wall_29",
+      "CH_AssayOffice_P3Wall_30",
+      "CH_AssayOffice_P3Wall_31",
+      "CH_AssayOffice_P3Wall_32",
+      "CH_AssayOffice_P3Wall_33",
+      "CH_AssayOffice_P3Wall_34",
+      "CH_AssayOffice_P3Wall_35",
+      "CH_AssayOffice_P3Wall_36",
+      "CH_AssayOffice_P3Wall_37",
+      "CH_AssayOffice_P3Wall_38"
+    ],
+    "hidden": [
+      "CH_AssayOffice_Stone",
+      "CH_AssayOffice_StoneLight",
+      "CH_AssayOffice_Iron"
+    ]
+  },
+  {
+    "kind": "shell",
+    "source": "CH_FreyaTavern",
+    "created": [
+      "CH_FreyaTavern_P3Wall_0",
+      "CH_FreyaTavern_P3Wall_1",
+      "CH_FreyaTavern_P3Wall_2",
+      "CH_FreyaTavern_P3Wall_3",
+      "CH_FreyaTavern_P3Wall_4",
+      "CH_FreyaTavern_P3Wall_5",
+      "CH_FreyaTavern_P3Wall_6",
+      "CH_FreyaTavern_P3Wall_7",
+      "CH_FreyaTavern_P3Wall_8",
+      "CH_FreyaTavern_P3Wall_9",
+      "CH_FreyaTavern_P3Wall_10",
+      "CH_FreyaTavern_P3Wall_11",
+      "CH_FreyaTavern_P3Wall_12",
+      "CH_FreyaTavern_P3Wall_13",
+      "CH_FreyaTavern_P3Wall_14",
+      "CH_FreyaTavern_P3Wall_15",
+      "CH_FreyaTavern_P3Wall_16",
+      "CH_FreyaTavern_P3Wall_17",
+      "CH_FreyaTavern_P3Wall_18",
+      "CH_FreyaTavern_P3Wall_19",
+      "CH_FreyaTavern_P3Wall_20",
+      "CH_FreyaTavern_P3Wall_21",
+      "CH_FreyaTavern_P3Wall_22",
+      "CH_FreyaTavern_P3Wall_23",
+      "CH_FreyaTavern_P3Wall_24",
+      "CH_FreyaTavern_P3Wall_25",
+      "CH_FreyaTavern_P3Wall_26",
+      "CH_FreyaTavern_P3Wall_27",
+      "CH_FreyaTavern_P3Wall_28",
+      "CH_FreyaTavern_P3Wall_29",
+      "CH_FreyaTavern_P3Wall_30",
+      "CH_FreyaTavern_P3Wall_31",
+      "CH_FreyaTavern_P3Wall_32",
+      "CH_FreyaTavern_P3Wall_33",
+      "CH_FreyaTavern_P3Wall_34",
+      "CH_FreyaTavern_P3Wall_35",
+      "CH_FreyaTavern_P3Wall_36",
+      "CH_FreyaTavern_P3Wall_37",
+      "CH_FreyaTavern_P3Wall_38",
+      "CH_FreyaTavern_P3Wall_39",
+      "CH_FreyaTavern_P3Wall_40",
+      "CH_FreyaTavern_P3Wall_41",
+      "CH_FreyaTavern_P3Wall_42",
+      "CH_FreyaTavern_P3Wall_43",
+      "CH_FreyaTavern_P3Wall_44",
+      "CH_FreyaTavern_P3Wall_45",
+      "CH_FreyaTavern_P3Wall_46",
+      "CH_FreyaTavern_P3Wall_47",
+      "CH_FreyaTavern_P3Wall_48",
+      "CH_FreyaTavern_P3Wall_49",
+      "CH_FreyaTavern_P3Wall_50",
+      "CH_FreyaTavern_P3Wall_51",
+      "CH_FreyaTavern_P3Wall_52",
+      "CH_FreyaTavern_P3Wall_53",
+      "CH_FreyaTavern_P3Wall_54",
+      "CH_FreyaTavern_P3Wall_55",
+      "CH_FreyaTavern_P3Wall_56",
+      "CH_FreyaTavern_P3Wall_57",
+      "CH_FreyaTavern_P3Wall_58",
+      "CH_FreyaTavern_P3Wall_59",
+      "CH_FreyaTavern_P3Wall_60",
+      "CH_FreyaTavern_P3Wall_61",
+      "CH_FreyaTavern_P3Wall_62",
+      "CH_FreyaTavern_P3Wall_63",
+      "CH_FreyaTavern_P3Wall_64",
+      "CH_FreyaTavern_P3Wall_65",
+      "CH_FreyaTavern_P3Wall_66",
+      "CH_FreyaTavern_P3Wall_67",
+      "CH_FreyaTavern_P3Wall_68",
+      "CH_FreyaTavern_P3Wall_69",
+      "CH_FreyaTavern_P3Wall_70",
+      "CH_FreyaTavern_P3Wall_71",
+      "CH_FreyaTavern_P3Wall_72",
+      "CH_FreyaTavern_P3Wall_73",
+      "CH_FreyaTavern_P3Wall_74",
+      "CH_FreyaTavern_P3Wall_75",
+      "CH_FreyaTavern_P3Wall_76"
+    ],
+    "hidden": [
+      "CH_FreyaTavern_Stone",
+      "CH_FreyaTavern_StoneLight",
+      "CH_FreyaTavern_Iron"
+    ]
+  },
+  {
+    "kind": "shell",
+    "source": "CH_MarenClinic",
+    "created": [
+      "CH_MarenClinic_P3Wall_0",
+      "CH_MarenClinic_P3Wall_1",
+      "CH_MarenClinic_P3Wall_2",
+      "CH_MarenClinic_P3Wall_3",
+      "CH_MarenClinic_P3Wall_4",
+      "CH_MarenClinic_P3Wall_5",
+      "CH_MarenClinic_P3Wall_6",
+      "CH_MarenClinic_P3Wall_7",
+      "CH_MarenClinic_P3Wall_8",
+      "CH_MarenClinic_P3Wall_9",
+      "CH_MarenClinic_P3Wall_10",
+      "CH_MarenClinic_P3Wall_11",
+      "CH_MarenClinic_P3Wall_12",
+      "CH_MarenClinic_P3Wall_13",
+      "CH_MarenClinic_P3Wall_14",
+      "CH_MarenClinic_P3Wall_15",
+      "CH_MarenClinic_P3Wall_16",
+      "CH_MarenClinic_P3Wall_17",
+      "CH_MarenClinic_P3Wall_18",
+      "CH_MarenClinic_P3Wall_19",
+      "CH_MarenClinic_P3Wall_20",
+      "CH_MarenClinic_P3Wall_21",
+      "CH_MarenClinic_P3Wall_22",
+      "CH_MarenClinic_P3Wall_23",
+      "CH_MarenClinic_P3Wall_24",
+      "CH_MarenClinic_P3Wall_25",
+      "CH_MarenClinic_P3Wall_26",
+      "CH_MarenClinic_P3Wall_27",
+      "CH_MarenClinic_P3Wall_28",
+      "CH_MarenClinic_P3Wall_29",
+      "CH_MarenClinic_P3Wall_30",
+      "CH_MarenClinic_P3Wall_31",
+      "CH_MarenClinic_P3Wall_32",
+      "CH_MarenClinic_P3Wall_33",
+      "CH_MarenClinic_P3Wall_34",
+      "CH_MarenClinic_P3Wall_35",
+      "CH_MarenClinic_P3Wall_36"
+    ],
+    "hidden": [
+      "CH_MarenClinic_Stone",
+      "CH_MarenClinic_StoneLight",
+      "CH_MarenClinic_Iron"
+    ]
+  },
+  {
+    "kind": "shell",
+    "source": "CH_MineManagement",
+    "created": [
+      "CH_MineManagement_P3Wall_0",
+      "CH_MineManagement_P3Wall_1",
+      "CH_MineManagement_P3Wall_2",
+      "CH_MineManagement_P3Wall_3",
+      "CH_MineManagement_P3Wall_4",
+      "CH_MineManagement_P3Wall_5",
+      "CH_MineManagement_P3Wall_6",
+      "CH_MineManagement_P3Wall_7",
+      "CH_MineManagement_P3Wall_8",
+      "CH_MineManagement_P3Wall_9",
+      "CH_MineManagement_P3Wall_10",
+      "CH_MineManagement_P3Wall_11",
+      "CH_MineManagement_P3Wall_12",
+      "CH_MineManagement_P3Wall_13",
+      "CH_MineManagement_P3Wall_14",
+      "CH_MineManagement_P3Wall_15",
+      "CH_MineManagement_P3Wall_16",
+      "CH_MineManagement_P3Wall_17",
+      "CH_MineManagement_P3Wall_18",
+      "CH_MineManagement_P3Wall_19",
+      "CH_MineManagement_P3Wall_20",
+      "CH_MineManagement_P3Wall_21",
+      "CH_MineManagement_P3Wall_22",
+      "CH_MineManagement_P3Wall_23",
+      "CH_MineManagement_P3Wall_24",
+      "CH_MineManagement_P3Wall_25",
+      "CH_MineManagement_P3Wall_26",
+      "CH_MineManagement_P3Wall_27",
+      "CH_MineManagement_P3Wall_28",
+      "CH_MineManagement_P3Wall_29",
+      "CH_MineManagement_P3Wall_30",
+      "CH_MineManagement_P3Wall_31",
+      "CH_MineManagement_P3Wall_32",
+      "CH_MineManagement_P3Wall_33",
+      "CH_MineManagement_P3Wall_34",
+      "CH_MineManagement_P3Wall_35",
+      "CH_MineManagement_P3Wall_36"
+    ],
+    "hidden": [
+      "CH_MineManagement_Stone",
+      "CH_MineManagement_StoneLight",
+      "CH_MineManagement_Iron"
+    ]
+  },
+  {
+    "kind": "portal",
+    "created": [
+      "CH_MineEntrance_6x4_P3"
+    ],
+    "hidden": [
+      "CH_MineEntrance_6x4_Stone",
+      "CH_MineEntrance_6x4_StoneLight",
+      "CH_MineEntrance_6x4_Timber"
+    ]
+  },
+  {
+    "kind": "shell",
+    "source": "CH_UnloadingShelter",
+    "created": [
+      "CH_UnloadingShelter_P3Wall_0",
+      "CH_UnloadingShelter_P3Wall_1",
+      "CH_UnloadingShelter_P3Wall_2",
+      "CH_UnloadingShelter_P3Wall_3",
+      "CH_UnloadingShelter_P3Wall_4",
+      "CH_UnloadingShelter_P3Wall_5",
+      "CH_UnloadingShelter_P3Wall_6",
+      "CH_UnloadingShelter_P3Wall_7",
+      "CH_UnloadingShelter_P3Wall_8",
+      "CH_UnloadingShelter_P3Wall_9",
+      "CH_UnloadingShelter_P3Wall_10",
+      "CH_UnloadingShelter_P3Wall_11",
+      "CH_UnloadingShelter_P3Wall_12",
+      "CH_UnloadingShelter_P3Wall_13",
+      "CH_UnloadingShelter_P3Wall_14",
+      "CH_UnloadingShelter_P3Wall_15",
+      "CH_UnloadingShelter_P3Wall_16",
+      "CH_UnloadingShelter_P3Wall_17",
+      "CH_UnloadingShelter_P3Wall_18",
+      "CH_UnloadingShelter_P3Wall_19",
+      "CH_UnloadingShelter_P3Wall_20",
+      "CH_UnloadingShelter_P3Wall_21",
+      "CH_UnloadingShelter_P3Wall_22",
+      "CH_UnloadingShelter_P3Wall_23",
+      "CH_UnloadingShelter_P3Wall_24",
+      "CH_UnloadingShelter_P3Wall_25",
+      "CH_UnloadingShelter_P3Wall_26",
+      "CH_UnloadingShelter_P3Wall_27",
+      "CH_UnloadingShelter_P3Wall_28",
+      "CH_UnloadingShelter_P3Wall_29",
+      "CH_UnloadingShelter_P3Wall_30",
+      "CH_UnloadingShelter_P3Wall_31",
+      "CH_UnloadingShelter_P3Wall_32",
+      "CH_UnloadingShelter_P3Wall_33",
+      "CH_UnloadingShelter_P3Wall_34",
+      "CH_UnloadingShelter_P3Wall_35",
+      "CH_UnloadingShelter_P3Wall_36",
+      "CH_UnloadingShelter_P3Wall_37",
+      "CH_UnloadingShelter_P3Wall_38",
+      "CH_UnloadingShelter_P3Wall_39",
+      "CH_UnloadingShelter_P3Wall_40",
+      "CH_UnloadingShelter_P3Wall_41",
+      "CH_UnloadingShelter_P3Wall_42",
+      "CH_UnloadingShelter_P3Wall_43",
+      "CH_UnloadingShelter_P3Wall_44",
+      "CH_UnloadingShelter_P3Wall_45",
+      "CH_UnloadingShelter_P3Wall_46",
+      "CH_UnloadingShelter_P3Wall_47",
+      "CH_UnloadingShelter_P3Wall_48",
+      "CH_UnloadingShelter_P3Wall_49"
+    ],
+    "hidden": [
+      "CH_UnloadingShelter_Stone",
+      "CH_UnloadingShelter_StoneLight",
+      "CH_UnloadingShelter_Iron"
+    ]
+  },
+  {
+    "kind": "portal",
+    "created": [
+      "CH_BearDen_P3"
+    ],
+    "hidden": [
+      "CH_BearDen_Stone",
+      "CH_BearDen_StoneLight",
+      "CH_BearDen_Timber"
+    ]
+  },
+  {
+    "kind": "portal",
+    "created": [
+      "CH_MineTimber_0_P3"
+    ],
+    "hidden": [
+      "CH_MineTimber_0_Stone",
+      "CH_MineTimber_0_StoneLight",
+      "CH_MineTimber_0_Timber"
+    ]
+  },
+  {
+    "kind": "portal",
+    "created": [
+      "CH_MineTimber_1_P3"
+    ],
+    "hidden": [
+      "CH_MineTimber_1_Stone",
+      "CH_MineTimber_1_StoneLight",
+      "CH_MineTimber_1_Timber"
+    ]
+  },
+  {
+    "kind": "portal",
+    "created": [
+      "CH_MineTimber_2_P3"
+    ],
+    "hidden": [
+      "CH_MineTimber_2_Stone",
+      "CH_MineTimber_2_StoneLight",
+      "CH_MineTimber_2_Timber"
+    ]
+  },
+  {
+    "kind": "portal",
+    "created": [
+      "CH_MineTimber_3_P3"
+    ],
+    "hidden": [
+      "CH_MineTimber_3_Stone",
+      "CH_MineTimber_3_StoneLight",
+      "CH_MineTimber_3_Timber"
+    ]
+  },
+  {
+    "kind": "portal",
+    "created": [
+      "CH_MineTimber_4_P3"
+    ],
+    "hidden": [
+      "CH_MineTimber_4_Stone",
+      "CH_MineTimber_4_StoneLight",
+      "CH_MineTimber_4_Timber"
+    ]
+  },
+  {
+    "kind": "portal",
+    "created": [
+      "CH_MineTimber_5_P3"
+    ],
+    "hidden": [
+      "CH_MineTimber_5_Stone",
+      "CH_MineTimber_5_StoneLight",
+      "CH_MineTimber_5_Timber"
+    ]
+  },
+  {
+    "kind": "portal",
+    "created": [
+      "CH_MineTimber_6_P3"
+    ],
+    "hidden": [
+      "CH_MineTimber_6_Stone",
+      "CH_MineTimber_6_StoneLight",
+      "CH_MineTimber_6_Timber"
+    ]
+  }
+]

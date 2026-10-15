@@ -1,0 +1,41 @@
+﻿Name,PassiveId,PassiveKey,KoreanName,EnglishName,AcquireElement,Grade,Description
+2801,2801,ST_PSV_2801,점액,Slime,,1,피격 시 낮은 확률로 공격자의 속도를 5% 감소.
+2802,2802,ST_PSV_2802,포자 살포,Spore Burst,NU.Element.Grass,3,전투 불능 시 랜덤 적 하나에게 [중독] 부여.
+2803,2803,ST_PSV_2803,잔열,Lingering Heat,NU.Element.Fire,1,[화상] 상태 적에게 주는 피해 +5%.
+2804,2804,ST_PSV_2804,튼튼한 몸,Sturdy Body,,1,방어력(DEF) 5% 상승.
+2805,2805,ST_PSV_2805,폭탄광,Bomber,NU.Element.Fire,1,공격 시 낮은 확률(10%)로 [폭발 1스택] 부여.
+2806,2806,ST_PSV_2806,흡혈,Lifesteal,,3,피해를 주면 피해량 일부(10%)를 흡수해 HP 회복.
+2807,2807,ST_PSV_2807,날렵,Nimble,,2,속도(Speed)가 10% 상승.
+2808,2808,ST_PSV_2808,강건,Brawn,,3,"ATK +20%, MATK -20%."
+2809,2809,ST_PSV_2809,영명,Sagacity,,3,"MATK +20%, ATK -20%."
+2810,2810,ST_PSV_2810,예리한 감각,Keen Sense,,2,치명타 확률(CritRate) +10%.
+2811,2811,ST_PSV_2811,열혈,Fervor,,3,[화상] 상태에 걸리지 않는다.
+2812,2812,ST_PSV_2812,질주본능,Dash Instinct,,3,[둔화] 상태에 걸리지 않는다.
+2813,2813,ST_PSV_2813,맑은 혈액,Clean Blood,,3,[중독] 상태에 걸리지 않는다.
+2814,2814,ST_PSV_2814,맑은 정신,Clear Mind,,3,[환각] 상태에 걸리지 않는다.
+2815,2815,ST_PSV_2815,특이체질,Odd Constitution,,3,[마비] 상태에 걸리지 않는다.
+2816,2816,ST_PSV_2816,투지,Fighting Spirit,,3,[기절] 상태에 걸리지 않는다.
+2817,2817,ST_PSV_2817,견고,Solidity,,3,[균열] 상태에 걸리지 않는다.
+2818,2818,ST_PSV_2818,명안,Clear Sight,,3,[실명] 상태에 걸리지 않는다.
+2819,2819,ST_PSV_2819,발놀림,Footwork,,2,매우 낮은 확률(5%)로 상대의 공격을 1번 회피.
+2820,2820,ST_PSV_2820,잔향,Resonance,,3,상대에게 상태이상을 부여하면 지속 턴을 1턴 더 늘린다.
+2821,2821,ST_PSV_2821,불꽃의 의지,Will of Flame,NU.Element.Fire,2,HP 40% 아래면 불 속성 스킬 위력 +30%.
+2822,2822,ST_PSV_2822,물결의 의지,Will of Tide,NU.Element.Water,2,HP 40% 아래면 물 속성 스킬 위력 +30%.
+2823,2823,ST_PSV_2823,초목의 의지,Will of Grove,NU.Element.Grass,2,HP 40% 아래면 풀 속성 스킬 위력 +30%.
+2824,2824,ST_PSV_2824,암반의 의지,Will of Bedrock,NU.Element.Earth,2,HP 40% 아래면 땅 속성 스킬 위력 +30%.
+2825,2825,ST_PSV_2825,번개의 의지,Will of Bolt,NU.Element.Lightning,2,HP 40% 아래면 번개 속성 스킬 위력 +30%.
+2826,2826,ST_PSV_2826,바람의 의지,Will of Gale,NU.Element.Wind,2,HP 40% 아래면 바람 속성 스킬 위력 +30%.
+2827,2827,ST_PSV_2827,고난의 갑주,Armor of Trials,,2,상태이상 상태일 때 방어력이 20% 상승.
+2828,2828,ST_PSV_2828,생명력,Vitality,,2,HP가 10% 상승.
+2829,2829,ST_PSV_2829,정신집중,Concentration,,2,SP가 10% 상승.
+2830,2830,ST_PSV_2830,육체전환,Body Shift,,3,"HP +20%, SP -20%."
+2831,2831,ST_PSV_2831,정신전환,Mind Shift,,3,"SP +20%, HP -20%."
+2832,2832,ST_PSV_2832,전이,Transfer,,3,상태이상에 걸리면 상대에게도 똑같이 상태이상을 부여.
+2833,2833,ST_PSV_2833,동기화,Synchronize,,3,상대와 같은 패시브를 가진다.(여러 명일 때는 랜덤)
+2834,2834,ST_PSV_2834,에너지 순환,Energy Cycle,,3,적 처치 시 소모한 SP의 50%를 다음 턴에 추가 획득.
+2835,2835,ST_PSV_2835,마지막 기회,Last Chance,,4,HP 80% 이상일 때 치명적인 피해를 입어도 HP 1로 견딘다.(전투당 1번)
+2836,2836,ST_PSV_2836,최후의 일격,Final Blow,,4,HP 5% 미만일 때 스킬로 공격하면 데미지 2배.(전투당 1번)
+2837,2837,ST_PSV_2837,선제공격,First Strike,,4,전투 시작 후 첫 번째 턴에 가장 먼저 행동한다.(전투당 1번)
+2838,2838,ST_PSV_2838,민첩한 대응,Agile Response,,2,공격 받을 때 상대 속도가 자신보다 낮으면 받는 피해 10% 감소.
+2839,2839,ST_PSV_2839,사냥본능,Hunter Instinct,,2,적 처치 시 최대 HP의 20% 회복.
+2840,2840,ST_PSV_2840,생명의 숨결,Breath of Life,NU.Element.Grass,2,매 턴 시작 시 최대 HP의 3% 회복.

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "tavern",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_tavern.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      -126.0,
+      -2110.0,
+      54.87499761581421
+    ],
+    "camera_position": [
+      -125.71215944753885,
+      -4013.3574355791416,
+      1002.3716093041614
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "tavern_night",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_tavern_night.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      -126.0,
+      -2110.0,
+      54.87499761581421
+    ],
+    "camera_position": [
+      -126.0,
+      -4013.2463527769623,
+      1002.3733472712834
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "smithy",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_smithy.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      -92.7,
+      510.0,
+      212.37499809265137
+    ],
+    "camera_position": [
+      -92.71225197371832,
+      -1394.2103218803188,
+      1159.815399223602
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "smithy_inside",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_smithy_inside.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      -92.7,
+      690.0,
+      220.11868715286255
+    ],
+    "camera_position": [
+      -92.7,
+      -1213.246352838973,
+      1167.6170368056642
+    ],
+    "fov": 32.0
+  }
+]

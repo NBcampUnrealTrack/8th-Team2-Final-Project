@@ -1,0 +1,50 @@
+[
+  {
+    "building": "CH_DorikSmithy",
+    "roof_yaw": 0.0,
+    "hidden_course_range": [
+      30,
+      45
+    ]
+  },
+  {
+    "building": "CH_AssayOffice",
+    "roof_yaw": -90.00000000000001,
+    "hidden_course_range": [
+      19,
+      34
+    ]
+  },
+  {
+    "building": "CH_FreyaTavern",
+    "roof_yaw": 0.0,
+    "hidden_course_range": [
+      57,
+      72
+    ]
+  },
+  {
+    "building": "CH_MarenClinic",
+    "roof_yaw": 0.0,
+    "hidden_course_range": [
+      17,
+      32
+    ]
+  },
+  {
+    "building": "CH_MineManagement",
+    "roof_yaw": 0.0,
+    "hidden_course_range": [
+      17,
+      32
+    ]
+  },
+  {
+    "building": "CH_UnloadingShelter",
+    "roof_yaw": 0.0,
+    "hidden_course_range": [
+      30,
+      45
+    ]
+  }
+]

@@ -1,0 +1,287 @@
+[
+  {
+    "job_id": "pine_volume_cap_005",
+    "state": "running"
+  },
+  {
+    "job_id": "pine_volume_cap_005",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\pine_volume_cap_005"
+  },
+  {
+    "job_id": "pine_volume_cap_005",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "17404ce84f56b104502c75417905c975da01066e776e7a42b322577a71e3240c",
+      "source": {
+        "object": {
+          "name": "CH_PineVolume_Clean_v004",
+          "type": "MESH",
+          "data_name": "CH_PineVolume_Clean_v004_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.0747923851013184,
+            2.1644845008850098,
+            2.700000047683716
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "10ac676d9991cfcfa61d7a611991a61def4f889cd0413e59a472b93483dc38e2",
+        "geometry": {
+          "vertices": 1656,
+          "edges": 3454,
+          "polygons": 1801,
+          "triangles": 3160,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 146,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.0373961925506592,
+            -1.0822422504425049,
+            0.0
+          ],
+          "local_max": [
+            1.0373961925506592,
+            1.0822422504425049,
+            2.700000047683716
+          ],
+          "world_min": [
+            -1.0373961925506592,
+            -1.0822422504425049,
+            0.0
+          ],
+          "world_max": [
+            1.0373961925506592,
+            1.0822422504425049,
+            2.700000047683716
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_798ff027"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_798ff027_dfd5_4573_ad28_beb8ef759351_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 6762,
+            "bounds_min": [
+              0.0006856767577119172,
+              0.0007687687175348401
+            ],
+            "bounds_max": [
+              0.9918583035469055,
+              0.9993158578872681
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_PineVolume_Closed_v005",
+          "type": "MESH",
+          "data_name": "CH_PineVolume_Closed_v005_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.0747923851013184,
+            2.1644845008850098,
+            2.700000047683716
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "21b61f5d5334cac3d433e30b41767c2723639a266acf752e97f14216582da98f",
+        "geometry": {
+          "vertices": 1656,
+          "edges": 3561,
+          "polygons": 1921,
+          "triangles": 3280,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 0,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.0373961925506592,
+            -1.0822422504425049,
+            0.0
+          ],
+          "local_max": [
+            1.0373961925506592,
+            1.0822422504425049,
+            2.700000047683716
+          ],
+          "world_min": [
+            -1.0373961925506592,
+            -1.0822422504425049,
+            0.0
+          ],
+          "world_max": [
+            1.0373961925506592,
+            1.0822422504425049,
+            2.700000047683716
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_798ff027"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_798ff027_dfd5_4573_ad28_beb8ef759351_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 7122,
+            "bounds_min": [
+              0.0006856767577119172,
+              0.0007687687175348401
+            ],
+            "bounds_max": [
+              0.9918583035469055,
+              0.9993158578872681
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 100,
+          "blockers": [],
+          "warnings": [],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "added_faces": 120
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_PineVolume_Closed_v005.blend"
+    }
+  }
+]

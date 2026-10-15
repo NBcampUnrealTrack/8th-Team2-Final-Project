@@ -1,0 +1,22 @@
+{
+  "source": "/Game/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Materials/tripo_mat_f36ec94d.tripo_mat_f36ec94d",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Anvil_c33d9.MI_HD2D_Anvil_c33d9",
+  "kind": "Surface",
+  "scalars": {
+    "PixelGrid": 128.0,
+    "Roughness": 0.67,
+    "Metallic": 0.25
+  },
+  "vectors": {
+    "MaterialTint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "textures": {
+    "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Textures/Color.Color",
+    "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Textures/Normal.Normal"
+  }
+}

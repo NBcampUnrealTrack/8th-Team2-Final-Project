@@ -1,0 +1,119 @@
+{
+ "_comment": "프롤로그 마지막 마을 컷(L_Libregrove 광장, 분수 0,675). rot = [pitch, yaw, roll]. 스프라이트는 시퀀스 스폰(끝나면 사라짐), 레벨은 건드리지 않는다.",
+ "focal_length": 35.0,
+ "keys": [
+  {
+   "t": 46.6,
+   "loc": [
+    200,
+    -700,
+    490
+   ],
+   "rot": [
+    -20,
+    90,
+    0
+   ]
+  },
+  {
+   "t": 65.5,
+   "loc": [
+    40,
+    -420,
+    385
+   ],
+   "rot": [
+    -20,
+    90,
+    0
+   ]
+  }
+ ],
+ "sprites": [
+  {
+   "name": "Villager_4005",
+   "flipbook": "/Game/Art/Sprites/NPC/Libergrove/Flipbooks/FB_NPC_4005_Idle",
+   "loc": [
+    -220,
+    470,
+    32
+   ],
+   "scale": 1.0
+  },
+  {
+   "name": "Naia_Aqupong",
+   "flipbook": "/Game/Art/Sprites/Naia/1010_Aqupong/Frames/1010_Aqupong_Idle",
+   "material": "/Game/Art/Materials/M_NUCharacterSprite",
+   "loc": [
+    -150,
+    410,
+    32
+   ],
+   "scale": 0.85
+  },
+  {
+   "name": "Villager_4010",
+   "flipbook": "/Game/Art/Sprites/NPC/Libergrove/Flipbooks/FB_NPC_4010_Idle",
+   "loc": [
+    210,
+    430,
+    32
+   ],
+   "scale": 1.0
+  },
+  {
+   "name": "Naia_Bolto",
+   "flipbook": "/Game/Art/Sprites/Naia/1001_Bolto/Frames/1001_Bolto_Idle",
+   "material": "/Game/Art/Materials/M_NUCharacterSprite",
+   "loc": [
+    278,
+    395,
+    32
+   ],
+   "scale": 0.85
+  },
+  {
+   "name": "Villager_4011",
+   "flipbook": "/Game/Art/Sprites/NPC/Libergrove/Flipbooks/FB_NPC_4011_Idle",
+   "loc": [
+    20,
+    330,
+    32
+   ],
+   "scale": 1.0
+  },
+  {
+   "name": "Naia_Puruna",
+   "flipbook": "/Game/Art/Sprites/Naia/1004_Puruna/Frames/1004_Puruna_Idle",
+   "material": "/Game/Art/Materials/M_NUCharacterSprite",
+   "loc": [
+    -55,
+    305,
+    32
+   ],
+   "scale": 0.85
+  },
+  {
+   "name": "Naia_Hwiry",
+   "flipbook": "/Game/Art/Sprites/Naia/1016_Hwiry/Frames/1016_Hwiry_Idle",
+   "material": "/Game/Art/Materials/M_NUCharacterSprite",
+   "loc": [
+    120,
+    560,
+    32
+   ],
+   "scale": 0.85
+  },
+  {
+   "name": "Naia_Bulcoi",
+   "flipbook": "/Game/Art/Sprites/Naia/1007_Bulcoi/Frames/1007_Bulcoi_Idle",
+   "material": "/Game/Art/Materials/M_NUCharacterSprite",
+   "loc": [
+    -330,
+    560,
+    32
+   ],
+   "scale": 0.85
+  }
+ ]
+}

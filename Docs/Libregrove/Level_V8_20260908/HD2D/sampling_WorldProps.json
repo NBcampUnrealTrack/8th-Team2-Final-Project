@@ -1,0 +1,15 @@
+{
+  "samples": [
+    "MaterialExpressionTextureSample_27",
+    "MaterialExpressionTextureSample_28",
+    "MaterialExpressionTextureSample_29",
+    "MaterialExpressionTextureSample_30",
+    "MaterialExpressionTextureSample_31",
+    "MaterialExpressionTextureSample_32",
+    "MaterialExpressionTextureSample_33",
+    "MaterialExpressionTextureSample_34",
+    "MaterialExpressionTextureSample_35"
+  ],
+  "unique_uvs": 3,
+  "original_derivatives": true
+}

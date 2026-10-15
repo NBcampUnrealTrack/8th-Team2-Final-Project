@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "polish_barrel_CH_Polish_Barrel_Closed004_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_barrel_CH_Polish_Barrel_Closed004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_barrel_CH_Polish_Barrel_Closed004_export"
+  },
+  {
+    "job_id": "polish_barrel_CH_Polish_Barrel_Closed004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_barrel_CH_Polish_Barrel_Closed004_export"
+  },
+  {
+    "job_id": "polish_barrel_CH_Polish_Barrel_Closed004_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Barrel_Closed004.glb",
+      "format": "glb",
+      "bytes": 1839952,
+      "object_names": [
+        "CH_Polish_Barrel_Closed004"
+      ],
+      "fingerprints": {
+        "CH_Polish_Barrel_Closed004": "f53bee60201a8fc0d6c80f351e8f39e004b3810ff713d840fa92fc66e3493b53"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

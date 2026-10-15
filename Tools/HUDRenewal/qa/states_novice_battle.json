@@ -1,0 +1,15 @@
+[
+ {
+  "shot": "nov_pre",
+  "py": "qa_preload.py",
+  "wait": 12,
+  "frames": 120,
+  "noui": true
+ },
+ {
+  "shot": "nov_battle",
+  "py": "qa_battle4.py",
+  "wait": 11,
+  "frames": 200
+ }
+]

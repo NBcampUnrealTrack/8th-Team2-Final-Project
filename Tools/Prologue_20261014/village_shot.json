@@ -1,0 +1,29 @@
+{
+  "_comment": "마을 컷(L_Libregrove 광장, 분수 0,675). shots 마다 카메라 하나, 곡 프레이즈에서 컷. rot = [pitch, yaw, roll]. 스프라이트는 시퀀스 스폰(끝나면 사라짐), 레벨은 건드리지 않는다.",
+  "focal_length": 35.0,
+  "_warmup": "시작 검은 화면(BackdropOpacity 1, 0~30.45초) 아래에서 마을 컷 카메라로 잠깐씩 미리 찍는다 - 텍스처 스트리밍·셰이더(PSO)·그림자·조명을 데워 38.2초 마을 컷에서 멈칫하지 않게. 그다음 내 캐릭터 카메라로 돌아와 걸어 나오는 장면도 데운다. 화면에는 보이지 않는다.",
+  "warmup": [
+    {"shot": "Village_Wide", "start": 0.5, "end": 5.5},
+    {"shot": "Village_Close", "start": 5.5, "end": 10.5},
+    {"shot": "Village_Title", "start": 10.5, "end": 15.5}
+  ],
+  "shots": [
+    {"name": "Village_Wide", "start": 38.2, "end": 46.02,
+     "keys": [{"t": 38.2, "loc": [320, -980, 700], "rot": [-26, 90, 0]}, {"t": 46.02, "loc": [170, -760, 600], "rot": [-24, 90, 0]}]},
+    {"name": "Village_Close", "start": 46.02, "end": 56.45,
+     "keys": [{"t": 46.02, "loc": [-70, -190, 250], "rot": [-18, 90, 0]}, {"t": 56.45, "loc": [40, -70, 230], "rot": [-20, 90, 0]}]},
+    {"name": "Village_Title", "start": 56.45, "end": 63.6,
+     "keys": [{"t": 56.45, "loc": [0, -380, 420], "rot": [-21, 90, 0]}, {"t": 63.6, "loc": [0, -760, 640], "rot": [-25, 90, 0]}]}
+  ],
+  "sprites": [
+    {"name": "Villager_4005", "flipbook": "/Game/Art/Sprites/NPC/Libergrove/Flipbooks/FB_NPC_4005_Idle", "loc": [-220, 470, 32], "scale": 1.0},
+    {"name": "Naia_Aqupong", "flipbook": "/Game/Art/Sprites/Naia/1010_Aqupong/Frames/1010_Aqupong_Idle", "material": "/Game/Art/Materials/M_NUCharacterSprite", "loc": [-150, 410, 32], "scale": 0.85},
+    {"name": "Villager_4010", "flipbook": "/Game/Art/Sprites/NPC/Libergrove/Flipbooks/FB_NPC_4010_Idle", "loc": [210, 430, 32], "scale": 1.0},
+    {"name": "Naia_Bolto", "flipbook": "/Game/Art/Sprites/Naia/1001_Bolto/Frames/1001_Bolto_Idle", "material": "/Game/Art/Materials/M_NUCharacterSprite", "loc": [278, 395, 32], "scale": 0.85},
+    {"name": "Villager_4011", "flipbook": "/Game/Art/Sprites/NPC/Libergrove/Flipbooks/FB_NPC_4011_Idle", "loc": [20, 330, 32], "scale": 1.0},
+    {"name": "Naia_Puruna", "flipbook": "/Game/Art/Sprites/Naia/1004_Puruna/Frames/1004_Puruna_Idle", "material": "/Game/Art/Materials/M_NUCharacterSprite", "loc": [-55, 305, 32], "scale": 0.85},
+    {"name": "Naia_Hwiry", "flipbook": "/Game/Art/Sprites/Naia/1016_Hwiry/Frames/1016_Hwiry_Idle", "material": "/Game/Art/Materials/M_NUCharacterSprite", "loc": [120, 560, 32], "scale": 0.85},
+    {"name": "Naia_Bulcoi", "flipbook": "/Game/Art/Sprites/Naia/1007_Bulcoi/Frames/1007_Bulcoi_Idle", "material": "/Game/Art/Materials/M_NUCharacterSprite", "loc": [-330, 560, 32], "scale": 0.85},
+    {"name": "Naia_Togra", "flipbook": "/Game/Art/Sprites/Naia/1013_Togra/Frames/1013_Togra_Idle", "material": "/Game/Art/Materials/M_NUCharacterSprite", "loc": [330, 520, 32], "scale": 0.85}
+  ]
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_Caps004"
+  },
+  {
+    "job_id": "polish_portal_Caps004",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "bf97466050911ebdf71578d9cbe4f1cefb7cb98ecc06c45a1542a869bdd05a9a",
+      "source": {
+        "object": {
+          "name": "CH_Polish_Portal_Game_v003",
+          "type": "MESH",
+          "data_name": "CH_Polish_Portal_Game_v003_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            0.9482169151306152,
+            3.0,
+            2.3932583332061768
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "33280eb693649cd2ce11571f620e5ee5a820706784658578d65dea8ac318255f",
+        "geometry": {
+          "vertices": 1282,
+          "edges": 2526,
+          "polygons": 1292,
+          "triangles": 2358,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 110,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -0.4741084575653076,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            0.4741084575653076,
+            1.5,
+            2.3932583332061768
+          ],
+          "world_min": [
+            -0.4741084575653076,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            0.4741084575653076,
+            1.5,
+            2.3932583332061768
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_dbac5f18"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "dbac5f18_0bce_4382_93bc_0e290132c3ce_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 4942,
+            "bounds_min": [
+              0.0008236951543949544,
+              0.0008277941378764808
+            ],
+            "bounds_max": [
+              0.993966817855835,
+              0.9992052316665649
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Polish_Portal_Caps004",
+          "type": "MESH",
+          "data_name": "CH_Polish_Portal_Caps004_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            0.9482169151306152,
+            3.0,
+            2.3932583332061768
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "b3a1d209196c97c73ce0741573dd5f449ba6c580c3c80bc2a200a44f1c8bc7b3",
+        "geometry": {
+          "vertices": 1282,
+          "edges": 2544,
+          "polygons": 1334,
+          "triangles": 2420,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 0,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -0.4741084575653076,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            0.4741084575653076,
+            1.5,
+            2.3932583332061768
+          ],
+          "world_min": [
+            -0.4741084575653076,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            0.4741084575653076,
+            1.5,
+            2.3932583332061768
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_dbac5f18"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "dbac5f18_0bce_4382_93bc_0e290132c3ce_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 5088,
+            "bounds_min": [
+              0.0008236951543949544,
+              0.0008277941378764808
+            ],
+            "bounds_max": [
+              0.993966817855835,
+              0.9992052316665649
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 100,
+          "blockers": [],
+          "warnings": [],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "added_faces": 42
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Portal_Caps004.blend"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "original_geometry_transform_fingerprints_preserved": 9,
+  "live_mesh_objects": 18,
+  "ui_differences": {
+    "LG_01_Cottage_A.fbx": {
+      "hidden": [
+        false,
+        true
+      ],
+      "selected": [
+        true,
+        false
+      ]
+    },
+    "LG_02_Inn.fbx": {},
+    "LG_03_VillageHall.fbx": {},
+    "LG_04_Workshop.fbx": {},
+    "LG_05_WatermillHouse.fbx": {},
+    "LG_06_NaiaShelter.fbx": {},
+    "LG_07_Sanctuary.fbx": {},
+    "LG_08_BroadleafTree.fbx": {},
+    "LG_09_MarketStall.fbx": {}
+  },
+  "active_object": [
+    "LG_01_Cottage_A.fbx",
+    "SM_LG_09_MarketStall_V7"
+  ],
+  "passed": true,
+  "note": "Visibility/selection is not identical. No typed restoration operation was available; source mesh data was not changed."
+}

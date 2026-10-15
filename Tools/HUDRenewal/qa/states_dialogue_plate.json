@@ -1,0 +1,5 @@
+[
+ {"shot": "dlg_idle2", "py": "qa_village.py", "wait": 20, "frames": 240},
+ {"shot": "dlg_near2", "py": "qa_interact.py", "wait": 1.2, "frames": 30},
+ {"shot": "dlg_plate", "py": "", "wait": 0.4, "frames": 10, "noui": true}
+]

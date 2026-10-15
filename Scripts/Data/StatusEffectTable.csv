@@ -1,0 +1,13 @@
+﻿Name,StatusEffectId,StatusEffectKey,KoreanName,EnglishName,StatusEffectTag,StatusCategory,DurationTurns,MaxStack,TickTiming,DamagePerTick,SplashRate,DamageAmp,bForceWeakness,ActionFailRate,bActionBlock,bBlockActiveSkill,bForceLastAction,SPCostRate,CaptureBonus,ImmuneElement,Description
+5001,5001,ST_BURN,화상,Burn,NU.State.Ailment.Burn,DamageOverTime,5,1,TurnEnd,0.0667,0,0,FALSE,0,FALSE,FALSE,FALSE,0,1.5,NU.Element.Fire,5턴 동안 턴 종료 시 최대 HP의 1/15 피해
+5002,5002,ST_EXPLOSION,폭발,Explosion,NU.State.Ailment.Explosion,Stack,0,5,OnStackFull,0.2,0,0,FALSE,0,FALSE,FALSE,FALSE,0,1,,폭발 스택 5 충족 시 최대 HP의 1/5 피해 후 스택 소멸
+5003,5003,ST_SLOW,둔화,Slow,NU.State.Ailment.Slow,ActionControl,3,1,TurnStart,0,0,0,FALSE,0,FALSE,FALSE,TRUE,0,1.2,,3턴 동안 자신의 행동을 가장 마지막에 실행
+5004,5004,ST_WETNESS,젖음,Wetness,NU.State.Ailment.Wetness,ResourceDrain,3,1,OnSkillUse,0,0,0,FALSE,0,FALSE,FALSE,FALSE,0.3,1,NU.Element.Water,3턴 동안 SP 소모량이 30% 증가
+5005,5005,ST_POISON,중독,Poison,NU.State.Ailment.Poison,DamageOverTime,4,1,TurnEnd,0.125,0,0,FALSE,0,FALSE,FALSE,FALSE,0,1.5,NU.Element.Grass,4턴 동안 턴 종료 시 최대 HP의 1/8 피해
+5006,5006,ST_HALLUCINATION,환각,Hallucination,NU.State.Ailment.Hallucination,ActionControl,3,1,OnAction,0,0,0,FALSE,0.3,FALSE,FALSE,FALSE,0,1.2,,3턴 동안 공격 or 스킬 사용 시 30% 확률로 취소되고 자신 또는 아군 1명을 공격
+5007,5007,ST_ELECTROCUTION,감전,Electrocution,NU.State.Ailment.Electrocution,Stack,0,4,OnStackFull,0.1667,0.4,0,FALSE,0,FALSE,FALSE,FALSE,0,1,NU.Element.Lightning,감전 스택 4 충족 시 최대 HP의 1/6 피해. 아군 전체도 그 피해의 40%를 받음
+5008,5008,ST_PARALYSIS,마비,Paralysis,NU.State.Ailment.Paralysis,ActionControl,5,1,OnAction,0,0,0,FALSE,0.4,FALSE,FALSE,FALSE,0,1.2,,5턴 동안 40% 확률로 행동 실패
+5009,5009,ST_STUN,기절,Stun,NU.State.Ailment.Stun,ActionControl,1,1,Immediate,0,0,0,FALSE,0,TRUE,FALSE,FALSE,0,2,,1턴 동안 행동 불가
+5010,5010,ST_FRACTURE,균열,Fracture,NU.State.Ailment.Fracture,DamageAmplify,3,1,OnHit,0,0,0.5,FALSE,0,FALSE,FALSE,FALSE,0,1,NU.Element.Earth,3턴 동안 피해를 받으면 그 피해의 50%를 추가로 받음
+5011,5011,ST_BLIND,실명,Blind,NU.State.Ailment.Blind,ActionControl,2,1,OnSkillUse,0,0,0,FALSE,0,FALSE,TRUE,FALSE,0,1.2,NU.Element.Wind,2턴 동안 액티브 스킬 사용 불가
+5012,5012,ST_FATAL,치명,Fatal,NU.State.Ailment.Fatal,DamageAmplify,1,1,OnHit,0,0,0,TRUE,0,FALSE,FALSE,FALSE,0,1,,1턴 동안 모든 속성이 약점 상태가 됨 (받는 피해 ×2)

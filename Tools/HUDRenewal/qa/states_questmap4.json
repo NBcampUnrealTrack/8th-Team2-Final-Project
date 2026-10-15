@@ -1,0 +1,4 @@
+[
+ {"shot": "q4_idle", "py": "qa_qm_idle.py", "wait": 20, "frames": 240},
+ {"shot": "q3_edge", "py": "qa_qm_edge.py", "wait": 1.5, "frames": 60}
+]

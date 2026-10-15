@@ -1,0 +1,21 @@
+{
+  "source": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Materials/tripo_mat_e34f3563.tripo_mat_e34f3563",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_01_Cottage_A_53c2b.MI_HD2D_LG_01_Cottage_A_53c2b",
+  "kind": "Surface",
+  "scalars": {
+    "PixelGrid": 256.0,
+    "Roughness": 0.87,
+    "Metallic": 0.0
+  },
+  "vectors": {
+    "MaterialTint": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "textures": {
+    "BaseColorTexture": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Textures/LG_01_Cottage_A_fbx_basecolor"
+  }
+}

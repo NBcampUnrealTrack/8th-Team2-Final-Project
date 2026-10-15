@@ -1,0 +1,1 @@
+ok exit=0 thread=01a13781-52a5-7c00-9961-436c8a2eaae9 src=/c/Users/Ndus_072/AppData/Roaming/reddy-ide/codex-accounts/cacda7a4-2af9-47be-bcac-0b2de17a8f8e/home/generated_images/01a13781-52a5-7c00-9961-436c8a2eaae9/exec-4b447095-721a-4956-8349-630629e2131b.png out=/c/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/ArtSource/Prologue_20261014/gen/p2_child.png

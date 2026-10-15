@@ -1,0 +1,9 @@
+[
+ {"shot": "dc_idle", "py": "qa_village.py", "wait": 20, "frames": 240},
+ {"shot": "dc_near", "py": "qa_interact.py", "wait": 1.0, "frames": 30},
+ {"shot": "dc_open_t", "py": "qa_open_dialogue.py", "wait": 0.12, "frames": 4},
+ {"shot": "dc_open", "py": "qa_dialogue_info.py", "wait": 2.6, "frames": 60},
+ {"shot": "dc_line2", "py": "qa_dialogue_next.py", "wait": 3.0, "frames": 60},
+ {"shot": "dc_line3", "py": "qa_dialogue_next.py", "wait": 3.0, "frames": 60},
+ {"shot": "dc_closed", "py": "qa_dialogue_close.py", "wait": 1.6, "frames": 40}
+]

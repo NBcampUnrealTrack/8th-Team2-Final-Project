@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"downloaded\": true,\n  \"task_id\": \"1000c101-304e-4bf3-87a0-f5706d905714\",\n  \"asset_name\": \"CH_GormHouse_Tripo_v001\",\n  \"files\": {\n    \"pbr_model\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_GormHouse_Tripo_v001\\\\1000c101-304e-4bf3-87a0-f5706d905714\\\\1000c101-304e-4bf3-87a0-f5706d905714_pbr.glb\",\n    \"rendered_image\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_GormHouse_Tripo_v001\\\\1000c101-304e-4bf3-87a0-f5706d905714\\\\1000c101-304e-4bf3-87a0-f5706d905714_rendered.webp\"\n  },\n  \"output_directory\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_GormHouse_Tripo_v001\\\\1000c101-304e-4bf3-87a0-f5706d905714\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

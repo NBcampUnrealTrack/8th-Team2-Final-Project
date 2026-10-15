@@ -1,0 +1,6 @@
+{
+  "source_object_name": "CH_Dense_TavernWalls_Solid014",
+  "output_object_name": "CH_Dense_TavernWalls_UV015",
+  "operation": "cube_project",
+  "cube_size": 0.55
+}

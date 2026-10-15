@@ -1,0 +1,48 @@
+[
+  {
+    "path": "/Game/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/Materials/tripo_mat_f79424fa.tripo_mat_f79424fa",
+    "type": "MaterialInstanceConstant"
+  },
+  {
+    "path": "/Game/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/StaticMeshes/CH_GormP2_Game_v001.CH_GormP2_Game_v001",
+    "type": "StaticMesh",
+    "center": [
+      0.0,
+      0.0,
+      129.99999403953552
+    ],
+    "extent": [
+      157.5,
+      135.0,
+      130.00000596046448
+    ],
+    "materials": [
+      "/Game/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/Materials/tripo_mat_f79424fa.tripo_mat_f79424fa"
+    ],
+    "collision": 0
+  },
+  {
+    "path": "/Game/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/Textures/Color.Color",
+    "type": "Texture2D",
+    "srgb": true,
+    "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+    "filter": "<TextureFilter.TF_TRILINEAR: 2>",
+    "flip_green": false
+  },
+  {
+    "path": "/Game/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/Textures/Normal.Normal",
+    "type": "Texture2D",
+    "srgb": false,
+    "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+    "filter": "<TextureFilter.TF_TRILINEAR: 2>",
+    "flip_green": true
+  },
+  {
+    "path": "/Game/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/Textures/tripo_image_f79424fa_2-tripo_image_f79424fa_1.tripo_image_f79424fa_2-tripo_image_f79424fa_1",
+    "type": "Texture2D",
+    "srgb": false,
+    "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+    "filter": "<TextureFilter.TF_TRILINEAR: 2>",
+    "flip_green": false
+  }
+]

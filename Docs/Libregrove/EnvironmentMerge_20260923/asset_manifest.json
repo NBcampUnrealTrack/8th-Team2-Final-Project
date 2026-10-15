@@ -1,0 +1,415 @@
+{
+  "base": "7ab204d9122dde07447f96618bba995dcbe99737",
+  "upstream": "c2f952c4a79640c8ca9b5cffbc2dfbbf4988a598",
+  "map": "Content/Libregrove/Level_V8/Maps/L_Libregrove.umap",
+  "map_sha256": "962e1e99263d0e2f59af4b8719e9736c345f9df9742042c0a579b40d4095a3f0",
+  "new_assets": [
+    {
+      "path": "Content/Libregrove/Polish_20260921/Foliage/Forest036/FT_LG22_Bush036.uasset",
+      "bytes": 9388,
+      "sha256": "73eae48fa3eb6bbe4eb92ce5b34bc3e59b0d7cfefc19a6c360e4b007c8114e4c"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Foliage/Forest036/FT_LG22_Canopy036.uasset",
+      "bytes": 9102,
+      "sha256": "c01d0fd302c819f6f4157ffd4f7585aa42f9a1ab70b10c3f7800e7bdeeb498bb"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Foliage/Forest036/FT_LG22_Saplings036.uasset",
+      "bytes": 9232,
+      "sha256": "fba64451e42581b5e53fb24f8bbd4205c8d55083d93557d107f4d682678a5382"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Art026/MI_LG21_Cottage_Clarity026.uasset",
+      "bytes": 14113,
+      "sha256": "52e050990c1e87c572596468315f551f23da533d5db1857786d494177595373b"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Art026/MI_LG21_WellRoof026.uasset",
+      "bytes": 11897,
+      "sha256": "b399223ab650d7b39ac879ea63d4b0e6664015d9edc8abc75225651a11886c69"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Art026/M_LG21_WellRoof026.uasset",
+      "bytes": 66507,
+      "sha256": "81ed83d42bd3cd90182c01ca31b2a969580f73c3a653e1c9ee11d4463e4e8de3"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Crystal035/MI_LG22_Crystal035.uasset",
+      "bytes": 11565,
+      "sha256": "d6fa63fdb0c0720c9eefe5d68a01fe266683ba73b92de9702b81812fe3c56b3e"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Crystal035/M_LG22_Crystal035.uasset",
+      "bytes": 46799,
+      "sha256": "fb1d893c3c8e6812710149b873fab3bd0a8f229def358031d9b5489493151ee3"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Forest031/MI_LG22_ForestBush031.uasset",
+      "bytes": 16275,
+      "sha256": "8fec3250e822f29746299573ce3b56f38279bbe7f57bcf63753d6be654e5c563"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Forest031/MPC_LG22_Forest031.uasset",
+      "bytes": 5448,
+      "sha256": "d2ae8d525fb38e609394cc7cdff7cfd46a4ef68afe861b7ade1c1523be57cc55"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Forest031/M_LG22_ForestBush031.uasset",
+      "bytes": 72739,
+      "sha256": "f013ba4199e39056860b9cc90b28573e383655a21f4a5ca600bddfc9c1338558"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Forest036/MI_LG22_Bark036.uasset",
+      "bytes": 13772,
+      "sha256": "04bf14185e2ebbe6416c6ed23bc960979367efc6fab3723253bf1a6615ea6ea0"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Forest036/MI_LG22_Canopy036.uasset",
+      "bytes": 12231,
+      "sha256": "b661322a14327fffa4e7f7ccd1b6a2bb36da2ddd14ff5365ce68439fe0cdc259"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Ground033/MI_LG22_Ground033.uasset",
+      "bytes": 24861,
+      "sha256": "cc4546fba332b41e19a35547889507c344b2a3a99e67ca69db36bfed8a50d06f"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Ground033/M_LG22_Ground033.uasset",
+      "bytes": 89687,
+      "sha256": "cc251e6e827f424c7149f8688dec56e8f7cde1ec0530460bce27b7dd86d35683"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/MI_LG21_BankMoss_006.uasset",
+      "bytes": 16618,
+      "sha256": "a8413c44caf96369502f62790fa32b61ec57bd8a0bb06931f046415731cb5770"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/MI_LG21_BankStone_006.uasset",
+      "bytes": 16588,
+      "sha256": "d81068eb9841a9707559cfff5f088cf8bab717e494915402e455b2911d4cf9f9"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/MI_LG21_FB07.uasset",
+      "bytes": 13499,
+      "sha256": "1844d78edecf2a17fd26685752013384c85af282bd6f8e9c49397d3ed94fb495"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/MI_LG21_FB08.uasset",
+      "bytes": 13230,
+      "sha256": "c12932fc0b86a314e3acd5023e80f7e7c2e519ebb95df244c10aace5555c20b3"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/MI_LG21_FB09.uasset",
+      "bytes": 11540,
+      "sha256": "85bb5f81ac4d161596b75bd5e763cd212c7ff2de9a1eae2794fc112af824f02d"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/MI_LG21_FB10.uasset",
+      "bytes": 11262,
+      "sha256": "fdd94cb82e873542b8a8f0b3615f2f7e52f278d2c0c56e1f92c3a52fb495f1ff"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/MI_LG21_PlazaPaving.uasset",
+      "bytes": 16255,
+      "sha256": "a247bbba3f75a7fad6122b7eacf042b933f2b92b276cb5034f07d87f03fb3c44"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/MI_LG21_Watermill_009.uasset",
+      "bytes": 13387,
+      "sha256": "14df92ce0a7abbb154d526a768fcd7829beb8078f3eaf7d65791714a9f58db7b"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/MI_LG21_WoodRack.uasset",
+      "bytes": 10362,
+      "sha256": "cd4c85e7ae2ac7fea09b6b3c9a666c41c9ceb40a04173453fdae36558700d045"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/M_LG21_Falls_006.uasset",
+      "bytes": 20223,
+      "sha256": "71e10cc1466d1521093bd71314475145f09bcede6a95b027aefc7cbaf768bd36"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/M_LG21_Foam_006.uasset",
+      "bytes": 12158,
+      "sha256": "0fe9250d183c95f6733fc86a2490f7733649d42a7f6791565afd6377329e6392"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Market030/MI_LG22_ClothOchre030.uasset",
+      "bytes": 7830,
+      "sha256": "e1090a97eb9b5da4a859e911e363779a1dfbbd2321f2cb356a2ed642906a2396"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Market030/MI_LG22_ClothSage030.uasset",
+      "bytes": 7824,
+      "sha256": "286157410ee46028d014dca967bc2e1dfb188e40fc3b0bbda32e5d3ecf2c2823"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Market030/MI_LG22_ClothSlate030.uasset",
+      "bytes": 7830,
+      "sha256": "2d170fe10d8f248df53ff62ac5aa257fb95b28de41eb5d61730f1fa9ce9855d0"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Market030/MI_LG22_Market030.uasset",
+      "bytes": 7048,
+      "sha256": "e60a5410a75b125b01aa5ab2d5ae416dc719b581487d2ea1c41a6299a523357d"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Market030/M_LG22_Cloth030.uasset",
+      "bytes": 15467,
+      "sha256": "b9d96537d93752a9641af42dbd166796b511a1a2442aad9152bc3142499346e0"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Market030/M_LG22_Market030.uasset",
+      "bytes": 15428,
+      "sha256": "044ba779fae1eaf9a2607cdf68411358498700b3462b346668a7182cabcdf7b2"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/PropTone040/MI_LG22_Barrel040.uasset",
+      "bytes": 16343,
+      "sha256": "efab38383ece18eff421bd2ba8ceac2ae1b05af10b01c83707afa71db3b38632"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/PropTone040/MI_LG22_Crate040.uasset",
+      "bytes": 17916,
+      "sha256": "0f2cb28226b262c0259cc8eb9cf0418c3489f84889cf9b8b5c6a8f14d13ef18c"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/PropTone040/MI_LG22_Laundry040.uasset",
+      "bytes": 14262,
+      "sha256": "376c94a454052a3694c32c342bd78e26f810e1e8d7712579b257fcae6aa0593b"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/PropTone040/MI_LG22_Table040.uasset",
+      "bytes": 15655,
+      "sha256": "e0a8df84604fccaed95e033418fabef5c2cf8775783b5a5edae847eeaebb0e2a"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/PropTone040/MI_LG22_ToolRack040.uasset",
+      "bytes": 16627,
+      "sha256": "867510e821571366e111120dc17c31a2510bc55ab7514485f811766484ea9026"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/PropTone040/M_LG22_PropTone040.uasset",
+      "bytes": 40524,
+      "sha256": "64c12e80d24c883627e375902b3dbe742c604fb330e5dd70326cc49658c20ce7"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Roof027/MI_LG21_Slate027.uasset",
+      "bytes": 10453,
+      "sha256": "a3419e790c5183943a5bb70c7d80822b62dd2460d806a31061a005e1b50c63b6"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Roof027/M_LG21_Slate027.uasset",
+      "bytes": 40196,
+      "sha256": "f72769e8fd3019cbad57b0b7e081e857760ab536e01d66dc8cee9da931364b15"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Water029/MI_LG22_RiverContact029.uasset",
+      "bytes": 20314,
+      "sha256": "9b36557ffcf99a18ecb71d8d6c53ec7558b7216c92ebd70d1a23ce724fdb2e53"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Materials/Water029/M_LG22_RiverContact029.uasset",
+      "bytes": 53923,
+      "sha256": "69a9f8a36073b58b64ae00c7320eba0fa5a77c1f72d9b98bf9f3a34212d5a692"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Broadleaf037/StaticMeshes/SM_LG22_Broadleaf037.uasset",
+      "bytes": 68529,
+      "sha256": "4da758c08ac76f25bb756e7539539b7f9678b847417a149c4b779523a4f24f94"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Canopy038/StaticMeshes/SM_LG22_Canopy038.uasset",
+      "bytes": 127527,
+      "sha256": "59b655a5620e11901ad69378548e65ca2ee76310de7968208705d66aa6c5672c"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Cottage027C/StaticMeshes/SM_LG21_Cottage_Slate027.uasset",
+      "bytes": 238215,
+      "sha256": "78cccbab68759c99b3bbf5106ebd6ee75d7396a7fe89b75118237676f35f3459"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Market030/BreadTray/Materials/Market030_VertexPaint.uasset",
+      "bytes": 53493,
+      "sha256": "1b9a5739ae81395098e04f103a6d9069d35069dbe953deefc90e47f79a92be0e"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Market030/BreadTray/StaticMeshes/SM_LG22_BreadTray030.uasset",
+      "bytes": 53165,
+      "sha256": "2f5c53764694e357b4dfa43a5f6b2ae21d846b6589190391744612fd805a8b51"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Market030/CounterBoard/Materials/Market030_VertexPaint.uasset",
+      "bytes": 53579,
+      "sha256": "f3793155a1489e26607c2cfaef2ca01b4f9f4c20ca11dc6ee0d475dfe01814e8"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Market030/CounterBoard/StaticMeshes/SM_LG22_CounterBoard030.uasset",
+      "bytes": 37151,
+      "sha256": "b74d04b988d428557522c2fc051740f106a94a2814ccf1efe14579cb5d690aa1"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Market030/FlowerTrough/Materials/Market030_VertexPaint.uasset",
+      "bytes": 53577,
+      "sha256": "96eae91f270fb8621064da3b28d7f3fe629c1aa4a76d27edd2b0719b9e277e9e"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Market030/FlowerTrough/StaticMeshes/SM_LG22_FlowerTrough030.uasset",
+      "bytes": 77469,
+      "sha256": "c1cc8623d5bb2ba7e86b05df38c0ab6551b46806f5d0a7de0927a5377da1d7f8"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Market030/HerbTray/Materials/Market030_VertexPaint.uasset",
+      "bytes": 53469,
+      "sha256": "de298d72d08efb648c221663dd0a3129caa4c07307c1eb0376d65a30a4e9e863"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Market030/HerbTray/StaticMeshes/SM_LG22_HerbTray030.uasset",
+      "bytes": 57106,
+      "sha256": "5ab1c912010065b4e647441d9f250a22f0d45a8ab6cc1bcb609bda73878a4631"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Market030/MarketValance/Materials/Market030_VertexPaint.uasset",
+      "bytes": 53606,
+      "sha256": "1117cecf2ff6abadb9e2e13545f7f1dcdd4394cb9218259e11255b6b41a4ac73"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Market030/MarketValance/StaticMeshes/SM_LG22_MarketValance030.uasset",
+      "bytes": 39682,
+      "sha256": "a36bce2e2f6d67f769919663066cdbaa1d9758ba814257dddf56af64640ec0cd"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Market030/PotteryTray/Materials/Market030_VertexPaint.uasset",
+      "bytes": 53550,
+      "sha256": "bff62cdcaba40ea57d2f66f3dbd682c4b28167023b09093cde5d150472e60811"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Market030/PotteryTray/StaticMeshes/SM_LG22_PotteryTray030.uasset",
+      "bytes": 54026,
+      "sha256": "365c896cb0ea265667f9a2e83ccc709abd299233f422540659ff337eb9700f17"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Market030/ProduceTray/Materials/Market030_VertexPaint.uasset",
+      "bytes": 53547,
+      "sha256": "af08f47fa6d0aa07c5c7b6505d1130e731b8187f6b77d107ea8818a1d9489a5d"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Market030/ProduceTray/StaticMeshes/SM_LG22_ProduceTray030.uasset",
+      "bytes": 61222,
+      "sha256": "5de3e5d726e8bac2a585b09fe6127e18a9dd4282924a0795ac0f5d7d92fcaa78"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Sapling038/StaticMeshes/SM_LG22_Sapling038.uasset",
+      "bytes": 109103,
+      "sha256": "fa45528f63b66f1ba2ac24b42a180ad0e9c1793daf5bce2a57fc7d8f98648fba"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Terrace028/EastFront/StaticMeshes/SM_LG22_Terrace_EastFront028.uasset",
+      "bytes": 40541,
+      "sha256": "e10e4113a0b7b330f5e9075937607968e5afd352195eb4e92966011e1fa4d878"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Terrace028/WestFront/StaticMeshes/SM_LG22_Terrace_WestFront028.uasset",
+      "bytes": 39033,
+      "sha256": "8f0c709102605ee10bcba020921377c77472af27938857632fc73b3e7605a4bd"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Terrace028/WestReturn/StaticMeshes/SM_LG22_Terrace_WestReturn028.uasset",
+      "bytes": 39916,
+      "sha256": "fc1284bd6a0a263949b53d0b28b43c90b90bcdd92697ea6fab3c7556efba1231"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Waterfront006/StaticMeshes/SM_LG21_Falls_Foam.uasset",
+      "bytes": 33009,
+      "sha256": "cc68aeb2eb63f382381c57675a924ba7048367a81f540e71d22daaedce247225"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Waterfront006/StaticMeshes/SM_LG21_Falls_Left.uasset",
+      "bytes": 35399,
+      "sha256": "e7c13462241409fc14313e53c338e416390cdd223d377744addde922deefb9a4"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Waterfront006/StaticMeshes/SM_LG21_Falls_Main.uasset",
+      "bytes": 42057,
+      "sha256": "9d3fe576ddfdf4ae0024fc9833ed050efa8b2370b5a7b22bd6edc3fb91d2af82"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Waterfront006/StaticMeshes/SM_LG21_Falls_Right.uasset",
+      "bytes": 35367,
+      "sha256": "6cfe80efcbf38706b701a70ba7c5c0cb0ed11e87a12d03096b4770b2e921caed"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Waterfront006/StaticMeshes/SM_LG21_Naia_Doorstep.uasset",
+      "bytes": 32881,
+      "sha256": "80ec612c9e00d4f8d43f5204c766da1fd9c7f111f37bb6e45569c042b8af0f5d"
+    },
+    {
+      "path": "Content/Libregrove/Polish_20260921/Models/Waterfront006/StaticMeshes/SM_LG21_Naia_RootBank.uasset",
+      "bytes": 47517,
+      "sha256": "c386af274dba71cf3ac9e8e9ef67b38add10e12c4e506a7dc6926b8e93cbd873"
+    },
+    {
+      "path": "Content/Village/HD2D_20260920/Materials/ArtTone029/MI_FB07_029.uasset",
+      "bytes": 11877,
+      "sha256": "5414564fc37e47f8bcadfa63983bd6ac630e06b0c5085c4dbf5267c18c8fa016"
+    },
+    {
+      "path": "Content/Village/HD2D_20260920/Materials/ArtTone029/MI_FB08_029.uasset",
+      "bytes": 11877,
+      "sha256": "0b3db7ffc54ce2e74939f4938d0c24aed99e6d32a690ab99d539f25b8857a222"
+    },
+    {
+      "path": "Content/Village/HD2D_20260920/Materials/ArtTone029/MI_FB09_029.uasset",
+      "bytes": 11877,
+      "sha256": "f711db75dfe818cfda109047365933c5e147c5d422482abdd9f9f022f364784f"
+    },
+    {
+      "path": "Content/Village/HD2D_20260920/Materials/ArtTone029/MI_FB10_029.uasset",
+      "bytes": 11877,
+      "sha256": "768056493d6c34de8c423a09168299446c3636716d09071f96c6d45f5cebea5d"
+    },
+    {
+      "path": "Content/Village/HD2D_20260920/Materials/ArtTone029/M_Undergrowth_029.uasset",
+      "bytes": 16685,
+      "sha256": "c380b692574676eaf3fdc2065916032642452858781d66e4cac45221646f4a42"
+    },
+    {
+      "path": "Content/Village/HD2D_20260920/Materials/Detail030/MI_FallenLog_030.uasset",
+      "bytes": 11333,
+      "sha256": "5699d76d1370cfde53cdeeaefff96b7992ffa00aee7cc3541f7979ec000b608e"
+    },
+    {
+      "path": "Content/Village/HD2D_20260920/Materials/Props/MI_VH08_WarmWood_009.uasset",
+      "bytes": 11027,
+      "sha256": "9445c77ccf1f731d5f05f511021742238b355ca69dd6fffb1271c93f6f0fc6c3"
+    },
+    {
+      "path": "Content/Village/HD2D_20260920/Materials/Props/M_VH20_TripoProps_009.uasset",
+      "bytes": 16346,
+      "sha256": "f2f06ea1c8271e604047a5590fae52169483ed2a8847374f0f96f1ab5dad6cfc"
+    },
+    {
+      "path": "Content/Village/HD2D_20260920/Models/VH03/Textures/tripo_rgb_8c9e6a3c-f4e1-43a7-91c2-96374ea655a5.uasset",
+      "bytes": 4598930,
+      "sha256": "a0eb61600c6c8fc9425028e1c53ab6b7159b11264731f90a15f84fae3f6ac962"
+    },
+    {
+      "path": "Content/Village/HD2D_20260920/Models/VH08/Materials/MAT_VH08_WoodRack_Tripo.uasset",
+      "bytes": 57924,
+      "sha256": "e02f8909abd9af43c1a2d95b634f9bc9b0a59a09417223960c6441fd87b3d346"
+    },
+    {
+      "path": "Content/Village/HD2D_20260920/Models/VH08/Textures/tripo_rgb_bae8c546-433a-401a-8c00-4e31a15f169c.uasset",
+      "bytes": 3205353,
+      "sha256": "72dda1788550e6b498a0680e4e21671a0cbef58f7bf72bf2849b5aa4ce2206fc"
+    },
+    {
+      "path": "Content/Village/HD2D_20260920/Models/VH08_Gameplay/SM_VH08_WoodRack_Collision_008.uasset",
+      "bytes": 63803,
+      "sha256": "00ad3f320e64cdfdd3a0ffd4701f284dd384ac24a23cb767727e575a7aabb3c9"
+    }
+  ],
+  "new_asset_bytes": 10549023,
+  "excluded": "Unreferenced experiments, recovery maps, VFX, character demos, local settings and plugin changes remain local."
+}

@@ -1,0 +1,19 @@
+{
+  "status": "finished",
+  "id": "LG_07_Sanctuary",
+  "destination": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary",
+  "objects": [
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Textures/LG_07_Sanctuary_fbx_basecolor.LG_07_Sanctuary_fbx_basecolor",
+      "class": "Texture2D"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Materials/tripo_mat_50ec2d11.tripo_mat_50ec2d11",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/StaticMeshes/SM_LG_07_Sanctuary_V7.SM_LG_07_Sanctuary_V7",
+      "class": "StaticMesh"
+    }
+  ]
+}

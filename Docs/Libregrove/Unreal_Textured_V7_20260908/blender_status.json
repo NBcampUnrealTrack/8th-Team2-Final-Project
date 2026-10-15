@@ -1,0 +1,123 @@
+{
+  "bridge": {
+    "name": "Revvy Blender Bridge",
+    "version": "1.2.0",
+    "host": "127.0.0.1",
+    "port": 9876,
+    "exchange_root": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange",
+    "arbitrary_code_execution": false,
+    "supported_commands": [
+      "animation.adjust",
+      "animation.export_fbx",
+      "animation.import_fbx",
+      "animation.inspect",
+      "animation.motion_inspect",
+      "collection.create",
+      "file.save_copy",
+      "job.status",
+      "material.assign",
+      "mesh.edit",
+      "mesh.inspect",
+      "model.export",
+      "model.import",
+      "modifier.apply",
+      "object.duplicate",
+      "primitive.create",
+      "scene.inspect",
+      "scene.measure",
+      "status",
+      "uv.edit",
+      "uv.inspect",
+      "viewport.capture"
+    ],
+    "contract": {
+      "id": "revvy.blender.typed-bridge.v1",
+      "schema_version": 1,
+      "bridge_version": "1.2.0",
+      "command_manifest_sha256": "40cb3c40712e9edfc1f1a51973250a6c8eba1e6652dcdf68a2be998b241f9d6f",
+      "tool_count": 22,
+      "command_count": 22,
+      "blender": {
+        "minimum_version": "5.0.0",
+        "production_baseline": "5.2 LTS",
+        "production_patch": "5.2.1"
+      }
+    }
+  },
+  "blender": {
+    "version": "5.0.0",
+    "minimum_supported_version": "5.0.0",
+    "runtime_supported": true,
+    "background": false,
+    "file": null,
+    "scene": "Scene",
+    "frame_start": 1,
+    "frame_end": 250,
+    "fps": 24.0,
+    "fps_base": 1.0,
+    "effective_fps": 24.0
+  },
+  "armatures": [],
+  "mesh_objects": [
+    "LG_01_Cottage_A.fbx",
+    "LG_02_Inn.fbx",
+    "LG_03_VillageHall.fbx",
+    "LG_04_Workshop.fbx",
+    "LG_05_WatermillHouse.fbx",
+    "LG_06_NaiaShelter.fbx",
+    "LG_07_Sanctuary.fbx",
+    "LG_08_BroadleafTree.fbx",
+    "LG_09_MarketStall.fbx"
+  ],
+  "materials": [
+    "Dots Stroke",
+    "Material",
+    "tripo_mat_12da9820",
+    "tripo_mat_317b1c2b",
+    "tripo_mat_50ec2d11",
+    "tripo_mat_6029c87e",
+    "tripo_mat_62cb0827",
+    "tripo_mat_7a88dfe0",
+    "tripo_mat_dbfe09e0",
+    "tripo_mat_e34f3563",
+    "tripo_mat_f544a036"
+  ],
+  "actions": [],
+  "mcp": {
+    "id": "revvy.blender.typed-bridge.v1",
+    "server_version": "1.2.0",
+    "tool_count": 22,
+    "tool_names": [
+      "blender_animation_adjust",
+      "blender_animation_export_fbx",
+      "blender_animation_import_fbx",
+      "blender_animation_inspect",
+      "blender_animation_motion_inspect",
+      "blender_bridge_status",
+      "blender_collection_create",
+      "blender_job_status",
+      "blender_material_assign",
+      "blender_mesh_edit",
+      "blender_mesh_inspect",
+      "blender_model_export",
+      "blender_model_import",
+      "blender_modifier_apply",
+      "blender_object_duplicate",
+      "blender_primitive_create",
+      "blender_save_copy",
+      "blender_scene_inspect",
+      "blender_scene_measure",
+      "blender_uv_edit",
+      "blender_uv_inspect",
+      "blender_viewport_capture"
+    ],
+    "tool_schema_sha256": "ea534d82185bc0449a5c6d6e8f326c4e9808bda155749abe226ba6c14a256d2c",
+    "command_manifest_sha256": "40cb3c40712e9edfc1f1a51973250a6c8eba1e6652dcdf68a2be998b241f9d6f",
+    "bridge_compatibility": {
+      "compatible": true,
+      "remote_contract_id": "revvy.blender.typed-bridge.v1",
+      "missing_commands": [],
+      "extra_commands": []
+    }
+  }
+}

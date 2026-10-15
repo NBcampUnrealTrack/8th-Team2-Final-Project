@@ -1,0 +1,195 @@
+{
+  "prior": {
+    "type": "perspective",
+    "location": [
+      1087.258793457453,
+      -198.1368224085993,
+      382.3962423066323
+    ],
+    "rotation": [
+      0.0,
+      -18.0,
+      -110.0
+    ],
+    "fov": 60.0,
+    "realtime": false,
+    "game_view": false
+  },
+  "framing": {
+    "actor_center": [
+      850.0,
+      -850.0,
+      157.0
+    ],
+    "actor_extent": [
+      159.36761474609375,
+      152.20852661132812,
+      157.5
+    ],
+    "distance": 729.3975619772763
+  },
+  "scene": {
+    "success": true,
+    "camera": {
+      "location": [
+        612.7412065425467,
+        -1501.8631775914005,
+        382.3962423066323
+      ],
+      "rotation": [
+        -18,
+        70,
+        0
+      ],
+      "fov": 60
+    },
+    "viewport": [
+      1543,
+      615
+    ],
+    "actor_count": 7,
+    "total_matching": 7,
+    "actors": [
+      {
+        "name": "StaticMeshActor_3",
+        "label": "LGV7_LG_03_VillageHall",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          850,
+          -850,
+          -0.5
+        ],
+        "extent_cm": [
+          159.36761474609375,
+          152.20852661132812,
+          157.5
+        ],
+        "dist_cm": 792.355267380096,
+        "screen_px": [
+          771,
+          565
+        ]
+      },
+      {
+        "name": "StaticMeshActor_6",
+        "label": "LGV7_LG_06_NaiaShelter",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          850,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          147.91751098632812,
+          141.03805541992188,
+          112.5
+        ],
+        "dist_cm": 1567.9586319958714,
+        "screen_px": [
+          1024,
+          223
+        ]
+      },
+      {
+        "name": "StaticMeshActor_0",
+        "label": "SM_SkySphere",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          0
+        ],
+        "extent_cm": [
+          1638400,
+          1638400,
+          1638400
+        ],
+        "dist_cm": 1666.5148293760806,
+        "screen_px": [
+          1926,
+          299
+        ]
+      },
+      {
+        "name": "Floor_0",
+        "label": "Floor",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          4000.00146484375,
+          4000,
+          200.0001220703125
+        ],
+        "dist_cm": 1666.6296297536217,
+        "screen_px": [
+          1926,
+          300
+        ]
+      },
+      {
+        "name": "Brush_1",
+        "label": "Brush1",
+        "class": "Brush",
+        "pos_cm": [
+          -90,
+          110,
+          20
+        ],
+        "extent_cm": [
+          1000,
+          1000,
+          100
+        ],
+        "dist_cm": 1795.3493094899077,
+        "screen_px": [
+          1994,
+          258
+        ]
+      },
+      {
+        "name": "StaticMeshActor_9",
+        "label": "LGV7_LG_09_MarketStall",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          850,
+          850,
+          -0.5
+        ],
+        "extent_cm": [
+          100.64171600341797,
+          80.08831024169922,
+          85.5
+        ],
+        "dist_cm": 2394.6109649702485,
+        "screen_px": [
+          1110,
+          107
+        ]
+      },
+      {
+        "name": "StaticMeshActor_8",
+        "label": "LGV7_LG_08_BroadleafTree",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          850,
+          -0.5
+        ],
+        "extent_cm": [
+          249.99325561523438,
+          245.50729370117188,
+          225
+        ],
+        "dist_cm": 2460.349919153386,
+        "screen_px": [
+          1684,
+          140
+        ]
+      }
+    ]
+  }
+}

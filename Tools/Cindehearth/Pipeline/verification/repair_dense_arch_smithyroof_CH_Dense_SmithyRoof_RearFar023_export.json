@@ -1,0 +1,43 @@
+[
+  {
+    "job_id": "dense_arch_smithyroof_CH_Dense_SmithyRoof_RearFar023_export",
+    "state": "running"
+  },
+  {
+    "job_id": "dense_arch_smithyroof_CH_Dense_SmithyRoof_RearFar023_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithyroof_CH_Dense_SmithyRoof_RearFar023_export"
+  },
+  {
+    "job_id": "dense_arch_smithyroof_CH_Dense_SmithyRoof_RearFar023_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithyroof_CH_Dense_SmithyRoof_RearFar023_export"
+  },
+  {
+    "job_id": "dense_arch_smithyroof_CH_Dense_SmithyRoof_RearFar023_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithyroof_CH_Dense_SmithyRoof_RearFar023_export"
+  },
+  {
+    "job_id": "dense_arch_smithyroof_CH_Dense_SmithyRoof_RearFar023_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithyroof_CH_Dense_SmithyRoof_RearFar023_export"
+  },
+  {
+    "job_id": "dense_arch_smithyroof_CH_Dense_SmithyRoof_RearFar023_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyRoof_RearFar023.glb",
+      "format": "glb",
+      "bytes": 4345840,
+      "object_names": [
+        "CH_Dense_SmithyRoof_RearFar023"
+      ],
+      "fingerprints": {
+        "CH_Dense_SmithyRoof_RearFar023": "f4d68deb7ee9d66edebe4c3d3652f279ada61107ed8912c3124c8ab4b71d14dd"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

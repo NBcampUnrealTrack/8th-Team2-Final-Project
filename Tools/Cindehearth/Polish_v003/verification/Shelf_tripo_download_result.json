@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"downloaded\": true,\n  \"task_id\": \"4cb0fb0c-4a9d-481b-8c84-12117c2e7640\",\n  \"asset_name\": \"CH_Polish_Shelf_P2_v003\",\n  \"files\": {\n    \"model\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Shelf_P2_v003\\\\4cb0fb0c-4a9d-481b-8c84-12117c2e7640\\\\4cb0fb0c-4a9d-481b-8c84-12117c2e7640_model.fbx\",\n    \"rendered_image\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Shelf_P2_v003\\\\4cb0fb0c-4a9d-481b-8c84-12117c2e7640\\\\4cb0fb0c-4a9d-481b-8c84-12117c2e7640_rendered.webp\"\n  },\n  \"output_directory\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Shelf_P2_v003\\\\4cb0fb0c-4a9d-481b-8c84-12117c2e7640\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

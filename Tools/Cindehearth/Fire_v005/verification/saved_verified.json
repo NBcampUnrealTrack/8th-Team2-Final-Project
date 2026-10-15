@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "pie": false,
+  "fire_cards": [
+    {
+      "label": "CH_F5_FrontFire_Hearth",
+      "location": [
+        -59.4,
+        -24.57,
+        237.25
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -115.0
+      ],
+      "scale": [
+        1.9,
+        1.6,
+        1.0
+      ],
+      "material": "/Game/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Hearth.MI_CH_FrontFire_Hearth",
+      "bounds": [
+        [
+          -59.400000000000006,
+          -24.57,
+          237.25
+        ],
+        [
+          95.0,
+          33.80946093925597,
+          72.50462296293199
+        ]
+      ]
+    },
+    {
+      "label": "CH_F5_FrontFire_Forge",
+      "location": [
+        -91.7,
+        733.0,
+        282.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -90.00000000000001
+      ],
+      "scale": [
+        0.62,
+        0.33,
+        1.0
+      ],
+      "material": "/Game/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Forge.MI_CH_FrontFire_Forge",
+      "bounds": [
+        [
+          -91.7,
+          733.0,
+          282.0
+        ],
+        [
+          31.0,
+          0.0,
+          16.5
+        ]
+      ]
+    }
+  ],
+  "hidden_crossed_cards": [
+    "CH_HD2D_HearthFire0",
+    "CH_HD2D_HearthFire1",
+    "CH_HD2D_HearthFire2",
+    "CH_HD2D_ForgeFire0",
+    "CH_HD2D_ForgeFire1"
+  ],
+  "camera": [
+    -25,
+    90,
+    32,
+    2100
+  ],
+  "states": [],
+  "source_material_unchanged": true
+}

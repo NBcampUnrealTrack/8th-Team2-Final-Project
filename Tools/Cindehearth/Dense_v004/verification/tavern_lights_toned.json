@@ -1,0 +1,14 @@
+[
+  {
+    "label": "CH_D4_TavernDayBounce",
+    "intensity": 90
+  },
+  {
+    "label": "CH_D4_TavernDoorWarm",
+    "intensity": 45
+  },
+  {
+    "label": "CH_D4_TavernLoftWarm",
+    "intensity": 18
+  }
+]

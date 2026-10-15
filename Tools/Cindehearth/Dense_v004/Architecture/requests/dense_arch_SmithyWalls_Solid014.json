@@ -1,0 +1,9 @@
+{
+  "source_object_name": "CH_Dense_SmithyWalls_UVREF___CH_Dense_Smithy_Walls013",
+  "output_object_name": "CH_Dense_SmithyWalls_Solid014",
+  "modifier": {
+    "type": "solidify",
+    "thickness": 0.035,
+    "offset": 0
+  }
+}

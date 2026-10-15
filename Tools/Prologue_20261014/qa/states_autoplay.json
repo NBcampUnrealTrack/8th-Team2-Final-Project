@@ -1,0 +1,6 @@
+[{"shot": "a0_select", "py": "create_select.py", "wait": 1.0, "frames": 10},
+ {"shot": "a1_field_22s", "py": "stamp.py", "wait": 22.0, "frames": 60},
+ {"shot": "a2_field_32s", "py": "stamp.py", "wait": 10.0, "frames": 10},
+ {"shot": "a3_field_62s", "py": "stamp.py", "wait": 30.0, "frames": 10},
+ {"shot": "a4_field_92s", "py": "stamp.py", "wait": 30.0, "frames": 10},
+ {"shot": "a5_field_100s", "py": "stamp.py", "wait": 8.0, "frames": 10}]

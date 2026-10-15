@@ -1,0 +1,297 @@
+[
+  {
+    "job_id": "polish_shelf_Overlap004",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_shelf_Overlap004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_shelf_Overlap004"
+  },
+  {
+    "job_id": "polish_shelf_Overlap004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_shelf_Overlap004"
+  },
+  {
+    "job_id": "polish_shelf_Overlap004",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "9cdaa0bacfe9289f9926dc8005f6f78bb41c04cf43ebefa4727fbd87eb43c377",
+      "source": {
+        "object": {
+          "name": "CH_Polish_Shelf_Game_v003",
+          "type": "MESH",
+          "data_name": "CH_Polish_Shelf_Game_v003_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            1.1944308280944824,
+            2.9882755279541016,
+            3.0
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "a593d0ce6e64f5a6f9273ce4899b6b8eafe23d835428102961fad46a55ff5cf3",
+        "geometry": {
+          "vertices": 933,
+          "edges": 1588,
+          "polygons": 701,
+          "triangles": 1251,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 529,
+          "wire_edges": 0,
+          "non_manifold_edges": 6,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -0.5972154140472412,
+            -1.4941377639770508,
+            0.0
+          ],
+          "local_max": [
+            0.5972154140472412,
+            1.4941377639770508,
+            3.0
+          ],
+          "world_min": [
+            -0.5972154140472412,
+            -1.4941377639770508,
+            0.0
+          ],
+          "world_max": [
+            0.5972154140472412,
+            1.4941377639770508,
+            3.0
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_4cb0fb0c"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_4cb0fb0c_4a9d_481b_8c84_12117c2e7640_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 2653,
+            "bounds_min": [
+              0.0007276025717146695,
+              0.0007276474498212337
+            ],
+            "bounds_max": [
+              0.9979504942893982,
+              0.999272346496582
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Polish_Shelf_Overlap004",
+          "type": "MESH",
+          "data_name": "CH_Polish_Shelf_Overlap004_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            1.1944308280944824,
+            2.9882755279541016,
+            3.0
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "63d93083d235c4a176709a385a467e345dcf4d2e2ef356e333473467aca426f0",
+        "geometry": {
+          "vertices": 932,
+          "edges": 1583,
+          "polygons": 695,
+          "triangles": 1243,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 533,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -0.5972154140472412,
+            -1.4941377639770508,
+            0.0
+          ],
+          "local_max": [
+            0.5972154140472412,
+            1.4941377639770508,
+            3.0
+          ],
+          "world_min": [
+            -0.5972154140472412,
+            -1.4941377639770508,
+            0.0
+          ],
+          "world_max": [
+            0.5972154140472412,
+            1.4941377639770508,
+            3.0
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_4cb0fb0c"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_4cb0fb0c_4a9d_481b_8c84_12117c2e7640_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 2633,
+            "bounds_min": [
+              0.0007276025717146695,
+              0.0007276474498212337
+            ],
+            "bounds_max": [
+              0.9979504942893982,
+              0.999272346496582
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "deleted_faces": 6
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Shelf_Overlap004.blend"
+    }
+  }
+]

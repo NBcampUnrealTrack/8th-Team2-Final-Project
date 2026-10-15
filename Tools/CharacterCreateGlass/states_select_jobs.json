@@ -1,0 +1,4 @@
+[
+ {"shot": "jobs_empty", "wait": 25},
+ {"shot": "jobs_roster", "py": "game_select_jobs.py", "wait": 6}
+]

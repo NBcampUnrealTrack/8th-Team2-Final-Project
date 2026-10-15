@@ -1,0 +1,197 @@
+{
+  "passed": true,
+  "route": "cemetery",
+  "waypoints_reached": 4,
+  "total_waypoints": 4,
+  "route_floor_points": [
+    [
+      2304.9,
+      1447.2,
+      315
+    ],
+    [
+      2737.8,
+      1658.25,
+      458.99999999999994
+    ],
+    [
+      3303.9,
+      1959.7500000000002,
+      630
+    ],
+    [
+      3570.3,
+      1959.7500000000002,
+      630
+    ]
+  ],
+  "reached": [
+    {
+      "seconds": 0.94,
+      "waypoint": 0,
+      "position": [
+        2304.9,
+        1447.2,
+        365.1500086784363
+      ],
+      "distance": 0.0,
+      "floor_error_cm": 2.15,
+      "walkable_floor": true,
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 2.61,
+      "waypoint": 1,
+      "position": [
+        2704.7943043088917,
+        1642.1588656142085,
+        498.97315661221575
+      ],
+      "distance": 36.72,
+      "floor_error_cm": -8.03,
+      "walkable_floor": true,
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 4.94,
+      "waypoint": 2,
+      "position": [
+        3305.349033370215,
+        1960.518284357815,
+        680.1499976527441
+      ],
+      "distance": 1.64,
+      "floor_error_cm": 2.15,
+      "walkable_floor": true,
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 5.94,
+      "waypoint": 3,
+      "position": [
+        3518.224518074405,
+        1960.040562431367,
+        680.1499976527441
+      ],
+      "distance": 52.08,
+      "floor_error_cm": 2.15,
+      "walkable_floor": true,
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    }
+  ],
+  "final_position": [
+    3518.224518074405,
+    1960.040562431367,
+    680.1499976527441
+  ],
+  "reason": null,
+  "samples": [
+    {
+      "seconds": 0.94,
+      "waypoint": 0,
+      "position": [
+        2304.9,
+        1447.2,
+        365.1500086784363
+      ],
+      "distance": 0.0,
+      "floor_error_cm": 2.15,
+      "walkable_floor": true,
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 1.61,
+      "waypoint": 1,
+      "position": [
+        2390.1905639933416,
+        1488.7813664375024,
+        394.1974686817493
+      ],
+      "distance": 386.72,
+      "floor_error_cm": -112.8,
+      "walkable_floor": true,
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 2.26,
+      "waypoint": 1,
+      "position": [
+        2599.926347116101,
+        1591.033011223962,
+        464.0479126943059
+      ],
+      "distance": 153.39,
+      "floor_error_cm": -42.95,
+      "walkable_floor": true,
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 2.94,
+      "waypoint": 2,
+      "position": [
+        2706.1426049731967,
+        1642.8161972270557,
+        499.4221949155095
+      ],
+      "distance": 676.58,
+      "floor_error_cm": -178.58,
+      "walkable_floor": true,
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 3.61,
+      "waypoint": 2,
+      "position": [
+        2893.0497631635126,
+        1741.9152579891297,
+        562.9519614020362
+      ],
+      "distance": 465.03,
+      "floor_error_cm": -115.05,
+      "walkable_floor": true,
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 4.26,
+      "waypoint": 2,
+      "position": [
+        3099.199379605268,
+        1851.2167612790063,
+        633.0222420669745
+      ],
+      "distance": 231.69,
+      "floor_error_cm": -44.98,
+      "walkable_floor": true,
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 4.94,
+      "waypoint": 2,
+      "position": [
+        3305.349033370215,
+        1960.518284357815,
+        680.1499976527441
+      ],
+      "distance": 1.64,
+      "floor_error_cm": 2.15,
+      "walkable_floor": true,
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 5.61,
+      "waypoint": 3,
+      "position": [
+        3401.559568764282,
+        1960.69151082538,
+        680.1499976527441
+      ],
+      "distance": 168.74,
+      "floor_error_cm": 2.15,
+      "walkable_floor": true,
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    }
+  ],
+  "movement": "add_movement_input; only initial placement teleports",
+  "horizontal_tolerance_cm": 58,
+  "floor_tolerance_cm": 40
+}

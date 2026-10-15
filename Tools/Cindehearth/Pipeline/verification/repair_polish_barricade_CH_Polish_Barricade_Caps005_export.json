@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "polish_barricade_CH_Polish_Barricade_Caps005_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_barricade_CH_Polish_Barricade_Caps005_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_barricade_CH_Polish_Barricade_Caps005_export"
+  },
+  {
+    "job_id": "polish_barricade_CH_Polish_Barricade_Caps005_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_barricade_CH_Polish_Barricade_Caps005_export"
+  },
+  {
+    "job_id": "polish_barricade_CH_Polish_Barricade_Caps005_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Barricade_Caps005.glb",
+      "format": "glb",
+      "bytes": 3630628,
+      "object_names": [
+        "CH_Polish_Barricade_Caps005"
+      ],
+      "fingerprints": {
+        "CH_Polish_Barricade_Caps005": "27967f4be712fadd9810ec91cb9eac66ab21d7fecba11ca469fea45fd7e0f038"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

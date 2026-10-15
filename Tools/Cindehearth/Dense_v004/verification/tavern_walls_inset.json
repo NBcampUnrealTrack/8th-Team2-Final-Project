@@ -1,0 +1,15 @@
+{
+  "hidden": "CH_D4_FreyaTavern_Walls",
+  "parts": [
+    {
+      "label": "CH_D4_FreyaTavern_TavernWallsInset",
+      "mesh": "/Game/Cindehearth/Dense_v004/Models/TavernWallsInset/CH_Dense_TavernWallsInset_Weld027/StaticMeshes/CH_Dense_TavernWallsInset_Weld027.CH_Dense_TavernWallsInset_Weld027"
+    },
+    {
+      "label": "CH_D4_FreyaTavern_TavernWallsFrame",
+      "mesh": "/Game/Cindehearth/Dense_v004/Models/TavernWallsFrame/CH_Dense_TavernWallsFrame_025/StaticMeshes/CH_Dense_TavernWallsFrame_025.CH_Dense_TavernWallsFrame_025"
+    }
+  ],
+  "local_front_inset_m": 0.14,
+  "reason": "Reveal original wooden door and first-floor frames"
+}

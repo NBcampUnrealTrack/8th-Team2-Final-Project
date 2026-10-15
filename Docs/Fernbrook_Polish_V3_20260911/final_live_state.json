@@ -1,0 +1,177 @@
+{
+  "world": "/Game/Fernbrook/Entrance_V1/Maps/L_Fernbrook_Entrance.L_Fernbrook_Entrance",
+  "pie": false,
+  "actors": 230,
+  "foliage": [
+    {
+      "path": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Canopy.FT_FB1_Canopy",
+      "count": 513
+    },
+    {
+      "path": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Sapling.FT_FB1_Sapling",
+      "count": 311
+    },
+    {
+      "path": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Bush.FT_FB1_Bush",
+      "count": 973
+    },
+    {
+      "path": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Rock.FT_FB1_Rock",
+      "count": 172
+    },
+    {
+      "path": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Fern.FT_FB1_Fern",
+      "count": 1467
+    },
+    {
+      "path": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Grass.FT_FB1_Grass",
+      "count": 2218
+    },
+    {
+      "path": "/Game/Fernbrook/Polish_V2/Foliage/FT_FB2_TrailGrass.FT_FB2_TrailGrass",
+      "count": 1250
+    },
+    {
+      "path": "/Game/Fernbrook/Polish_V2/Foliage/FT_FB2_DryGrass.FT_FB2_DryGrass",
+      "count": 117
+    },
+    {
+      "path": "/Game/Fernbrook/Polish_V2/Foliage/FT_FB2_ShadeFern.FT_FB2_ShadeFern",
+      "count": 1099
+    },
+    {
+      "path": "/Game/Fernbrook/Polish_V2/Foliage/FT_FB2_BankGrass.FT_FB2_BankGrass",
+      "count": 360
+    }
+  ],
+  "trees": {
+    "Canopy": {
+      "PixelGrid": 512.0,
+      "PixelInfluence": 1.1200000047683716,
+      "StyleInfluence": 0.0,
+      "Roughness": 0.9700000286102295,
+      "Metallic": 0.0,
+      "EmissiveGain": 0.0,
+      "TreePaletteSteps": 9.0,
+      "TreePaletteBlend": 0.0,
+      "TreeVariation": 0.30000001192092896
+    },
+    "Sapling": {
+      "PixelGrid": 384.0,
+      "PixelInfluence": 1.1200000047683716,
+      "StyleInfluence": 0.0,
+      "Roughness": 0.9700000286102295,
+      "Metallic": 0.0,
+      "EmissiveGain": 0.0,
+      "TreePaletteSteps": 9.0,
+      "TreePaletteBlend": 0.0,
+      "TreeVariation": 0.30000001192092896
+    }
+  },
+  "pp": {
+    "FB1_PP_ArtGrade": {
+      "weight": 1.0,
+      "settings": {
+        "color_saturation": "<Struct 'Vector4' (0x000001C0130DBB10) {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.860000}>",
+        "color_contrast": "<Struct 'Vector4' (0x000001C0130DBB30) {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.055000}>",
+        "color_gain_highlights": "<Struct 'Vector4' (0x000001C0130DBD50) {x: 1.025000, y: 1.005000, z: 0.960000, w: 1.000000}>",
+        "color_offset_shadows": "<Struct 'Vector4' (0x000001C0130DBC30) {x: -0.003000, y: 0.003000, z: 0.008000, w: 0.000000}>",
+        "bloom_intensity": "0.3799999952316284",
+        "vignette_intensity": "0.2199999988079071",
+        "auto_exposure_bias": "0.20000000298023224",
+        "depth_of_field_fstop": "4.0",
+        "depth_of_field_sensor_width": "24.576000213623047",
+        "depth_of_field_focal_distance": "0.0"
+      }
+    },
+    "FB1_PP_DOF_Optional_Windows": {
+      "weight": 1.0,
+      "settings": {
+        "color_saturation": "<Struct 'Vector4' (0x000001C0130D0510) {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}>",
+        "color_contrast": "<Struct 'Vector4' (0x000001C0130D0530) {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}>",
+        "color_gain_highlights": "<Struct 'Vector4' (0x000001C0130D0750) {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}>",
+        "color_offset_shadows": "<Struct 'Vector4' (0x000001C0130D0630) {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}>",
+        "bloom_intensity": "0.675000011920929",
+        "vignette_intensity": "0.4000000059604645",
+        "auto_exposure_bias": "1.0",
+        "depth_of_field_fstop": "2.799999952316284",
+        "depth_of_field_sensor_width": "105.0",
+        "depth_of_field_focal_distance": "1900.0"
+      }
+    }
+  },
+  "water": {
+    "material": "/Game/Fernbrook/Polish_V3/Materials/MI_FB3_ClearCreek_Windows.MI_FB3_ClearCreek_Windows",
+    "location": [
+      0.0,
+      500.0,
+      -8.0
+    ],
+    "scale": [
+      46.0,
+      97.0,
+      1.0
+    ],
+    "bounds": [
+      [
+        0.0,
+        500.0,
+        -8.0
+      ],
+      [
+        2300.0,
+        4850.0,
+        8.43769498715119e-15
+      ]
+    ],
+    "scalars": {
+      "FlowSpeedCm": 12.0,
+      "WaveLengthCm": 100.0,
+      "NormalStrength": 0.04800000041723251,
+      "DetailNormalStrength": 0.023000000044703484,
+      "PixelSizeCm": 2.0,
+      "PixelBlend": 0.10000000149011612,
+      "FoamWidthCm": 5.0,
+      "FoamStrength": 0.4000000059604645,
+      "CausticStrength": 0.18000000715255737,
+      "SurfaceOpacity": 0.03999999910593033,
+      "Roughness": 0.25999999046325684,
+      "Specular": 0.5,
+      "PhaseG": 0.15000000596046448
+    },
+    "vectors": {
+      "FlowDirection": [
+        -0.07999999821186066,
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "Scattering": [
+        0.0020000000949949026,
+        0.005499999970197678,
+        0.006000000052154064,
+        1.0
+      ],
+      "Absorption": [
+        0.02500000037252903,
+        0.00800000037997961,
+        0.004999999888241291,
+        1.0
+      ],
+      "SurfaceColor": [
+        0.02500000037252903,
+        0.10000000149011612,
+        0.11500000208616257,
+        1.0
+      ],
+      "FoamColor": [
+        0.550000011920929,
+        0.7200000286102295,
+        0.6399999856948853,
+        1.0
+      ]
+    }
+  },
+  "walk": "[{'route': 'entry_bridge_deep', 'passed': True, 'reason': '', 'reached': 24, 'total': 24}, {'route': 'deep_bridge_return', 'passed': True, 'reason': '', 'reached': 24, 'total': 24}, {'route': 'naia_glade', 'passed': True, 'reason': '', 'reached': 5, 'total': 5}]",
+  "walk_done": true
+}

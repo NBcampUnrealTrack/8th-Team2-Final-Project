@@ -1,0 +1,39 @@
+[
+ {
+  "shot": "sh_idle",
+  "py": "qa_village.py",
+  "wait": 20,
+  "frames": 240
+ },
+ {
+  "shot": "sh_near",
+  "py": "qa_shop_go.py",
+  "wait": 1.2,
+  "frames": 30
+ },
+ {
+  "shot": "sh_talk",
+  "py": "qa_shop_talk.py",
+  "wait": 2.6,
+  "frames": 60
+ },
+ {
+  "shot": "sh_shop",
+  "py": "qa_shop_pick.py",
+  "wait": 2.5,
+  "frames": 60
+ },
+ {
+  "shot": "sh_shop_clean",
+  "py": "",
+  "wait": 0.5,
+  "frames": 10,
+  "noui": true
+ },
+ {
+  "shot": "sh_page",
+  "py": "qa_shop_preview.py",
+  "wait": 2.5,
+  "frames": 60
+ }
+]

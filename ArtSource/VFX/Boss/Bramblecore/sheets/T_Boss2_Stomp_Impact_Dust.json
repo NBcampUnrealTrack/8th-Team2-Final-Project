@@ -1,0 +1,21 @@
+{
+  "name": "T_Boss2_Stomp_Impact_Dust",
+  "blend": "Translucent",
+  "frame_w": 512,
+  "frame_h": 320,
+  "cols": 5,
+  "rows": 5,
+  "frames": 24,
+  "fps": 30,
+  "loop": false,
+  "pivot_px": [
+    256,
+    236
+  ],
+  "pivot_uv": [
+    0.5,
+    0.7375
+  ],
+  "screen_scale_1080p": 1.9,
+  "note": "Glow와 같은 프레임에 재생. 흙먼지·파편·잎·균열"
+}

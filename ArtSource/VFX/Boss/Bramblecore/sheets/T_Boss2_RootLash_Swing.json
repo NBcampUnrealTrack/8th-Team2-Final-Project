@@ -1,0 +1,21 @@
+{
+  "name": "T_Boss2_RootLash_Swing",
+  "blend": "Additive",
+  "frame_w": 768,
+  "frame_h": 224,
+  "cols": 4,
+  "rows": 4,
+  "frames": 16,
+  "fps": 30,
+  "loop": false,
+  "pivot_px": [
+    384,
+    4
+  ],
+  "pivot_uv": [
+    0.5,
+    0.0179
+  ],
+  "screen_scale_1080p": 2.0,
+  "note": "피벗=보스 발밑 앞(프레임 상단 중앙). 오른쪽→파티 앞→왼쪽으로 원근 호를 그리며 휩쓸기"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "route": "central_shrine",
+    "passed": false,
+    "reason": "no_progress_or_wrong_floor_12s",
+    "reached": 2,
+    "total": 19
+  },
+  {
+    "route": "west_bridge_mill",
+    "passed": false,
+    "reason": "no_progress_or_wrong_floor_12s",
+    "reached": 4,
+    "total": 13
+  },
+  {
+    "route": "east_bridge_workshop",
+    "passed": false,
+    "reason": "no_progress_or_wrong_floor_12s",
+    "reached": 3,
+    "total": 12
+  },
+  {
+    "route": "lower_loop",
+    "passed": true,
+    "reason": "",
+    "reached": 8,
+    "total": 8
+  },
+  {
+    "route": "west_exit",
+    "passed": false,
+    "reason": "no_progress_or_wrong_floor_12s",
+    "reached": 1,
+    "total": 4
+  },
+  {
+    "route": "southeast_exit",
+    "passed": true,
+    "reason": "",
+    "reached": 4,
+    "total": 4
+  }
+]

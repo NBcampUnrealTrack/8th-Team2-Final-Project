@@ -1,0 +1,188 @@
+{
+  "material": {
+    "blend_mode": "BLEND_Translucent",
+    "shading_model": "MSM_Unlit",
+    "two_sided": true
+  },
+  "expressions": [
+    {
+      "id": "MaterialExpressionTextureCoordinate_000002575EB23480",
+      "class": "TextureCoordinate",
+      "class_full": "MaterialExpressionTextureCoordinate",
+      "pos_x": -800,
+      "pos_y": -100,
+      "properties": {
+        "CoordinateIndex": "0",
+        "UTiling": "1.000000",
+        "VTiling": "1.000000",
+        "UnMirrorU": "False",
+        "UnMirrorV": "False"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTime_000002575EB27540",
+      "class": "Time",
+      "class_full": "MaterialExpressionTime",
+      "pos_x": -800,
+      "pos_y": 100,
+      "properties": {
+        "bIgnorePause": "False",
+        "bOverride_Period": "False",
+        "Period": "0.000000"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureObjectParameter_000002573F4E0500",
+      "class": "TextureObjectParameter",
+      "class_full": "MaterialExpressionTextureObjectParameter",
+      "pos_x": -800,
+      "pos_y": 300,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_None",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Water_Ripple.T_Water_Ripple'",
+        "SamplerType": "SAMPLERTYPE_LinearColor",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "FlowNoise",
+      "group": "None",
+      "inputs": [
+        "Coordinates",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_000002585389A780",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -400,
+      "pos_y": 0,
+      "properties": {
+        "Code": "\nfloat2 q = float2(UV.x*3.0, UV.y*1.8-Time*.50);\nfloat a = Texture2DSample(NoiseTex,NoiseTexSampler,q).r;\nfloat b = Texture2DSample(NoiseTex,NoiseTexSampler,q*float2(2.8,.7)+float2(.17,-Time*.20)).r;\nfloat ribbons = pow(saturate(sin(UV.x*73.0 + a*1.4)*.5+.5),5.0);\nfloat edge = smoothstep(0.,.12,UV.x)*smoothstep(0.,.12,1.-UV.x);\nfloat value = saturate(a*.55 + b*.35+ribbons*.35);\nfloat3 color = lerp(float3(.075,.33,.40),float3(.65,.88,.94),value);\nreturn float4(color,edge*saturate(.48+value*.45));\n",
+        "OutputType": "CMOT_Float4",
+        "Description": "Custom",
+        "Inputs": "((InputName=\"UV\",Input=(Expression=\"/Script/Engine.MaterialExpressionTextureCoordinate'/Game/Libregrove/Level_V8/Materials/M_LG8_Waterfall.M_LG8_Waterfall:MaterialExpressionTextureCoordinate_0'\")),(InputName=\"Time\",Input=(Expression=\"/Script/Engine.MaterialExpressionTime'/Game/Libregrove/Level_V8/Materials/M_LG8_Waterfall.M_LG8_Waterfall:MaterialExpressionTime_0'\")),(InputName=\"NoiseTex\",Input=(Expression=\"/Script/Engine.MaterialExpressionTextureObjectParameter'/Game/Libregrove/Level_V8/Materials/M_LG8_Waterfall.M_LG8_Waterfall:MaterialExpressionTextureObjectParameter_0'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "\nfloat2 q = float2(UV.x*3.0, UV.y*1.8-Time*.50);\nfloat a = Texture2DSample(NoiseTex,NoiseTexSampler,q).r;\nfloat b = Texture2DSample(NoiseTex,NoiseTexSampler,q*float2(2.8,.7)+float2(.17,-Time*.20)).r;\nfloat ribbons = pow(saturate(sin(UV.x*73.0 + a*1.4)*.5+.5),5.0);\nfloat edge = smoothstep(0.,.12,UV.x)*smoothstep(0.,.12,1.-UV.x);\nfloat value = saturate(a*.55 + b*.35+ribbons*.35);\nfloat3 color = lerp(float3(.075,.33,.40),float3(.65,.88,.94),value);\nreturn float4(color,edge*saturate(.48+value*.45));\n",
+      "output_type": "CMOT_Float4",
+      "custom_input_names": "UV,Time,NoiseTex",
+      "inputs": [
+        "UV",
+        "Time",
+        "NoiseTex"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionComponentMask_00000257A8ADCA00",
+      "class": "ComponentMask",
+      "class_full": "MaterialExpressionComponentMask",
+      "pos_x": -120,
+      "pos_y": -70,
+      "properties": {
+        "R": "True",
+        "G": "True",
+        "B": "True",
+        "A": "False"
+      },
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionComponentMask_00000257A8ADFC00",
+      "class": "ComponentMask",
+      "class_full": "MaterialExpressionComponentMask",
+      "pos_x": -120,
+      "pos_y": 150,
+      "properties": {
+        "R": "False",
+        "G": "False",
+        "B": "False",
+        "A": "True"
+      },
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_id": "MaterialExpressionTextureCoordinate_000002575EB23480",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_000002585389A780",
+      "target_input": "UV"
+    },
+    {
+      "source_id": "MaterialExpressionTime_000002575EB27540",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_000002585389A780",
+      "target_input": "Time"
+    },
+    {
+      "source_id": "MaterialExpressionTextureObjectParameter_000002573F4E0500",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_000002585389A780",
+      "target_input": "NoiseTex"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_000002585389A780",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionComponentMask_00000257A8ADCA00",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_000002585389A780",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionComponentMask_00000257A8ADFC00",
+      "target_input": "Input"
+    }
+  ],
+  "output_connections": [
+    {
+      "property": "EmissiveColor",
+      "expression_id": "MaterialExpressionComponentMask_00000257A8ADCA00",
+      "output_index": 0,
+      "output_name": ""
+    },
+    {
+      "property": "Opacity",
+      "expression_id": "MaterialExpressionComponentMask_00000257A8ADFC00",
+      "output_index": 0,
+      "output_name": ""
+    }
+  ]
+}

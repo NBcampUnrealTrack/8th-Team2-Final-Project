@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "turboLink": {
+    "repository": "https://github.com/thejinchao/turbolink.git",
+    "tag": "v1.3.1",
+    "commit": "ffac652f944d293aec29ab55f37ae8455ab7a0a4",
+    "codeGeneratorSha256": "EDC548671B73F4EE3115688F65AD609D87457359AF09EB5376EFF64FB18390E2"
+  },
+  "libraries": {
+    "repository": "https://github.com/thejinchao/turbolink-libraries",
+    "release": "v1.3.1",
+    "asset": "turbolink-libraries.ue54.zip",
+    "url": "https://github.com/thejinchao/turbolink-libraries/releases/download/v1.3.1/turbolink-libraries.ue54.zip",
+    "sizeBytes": 911848866,
+    "sha256": "CC4D847B1D28DF5CD9B220329DBAD8B01A9DC07BEBF801580C69A4155E9B0379",
+    "protocSha256": "D264E406E7FEA7143A5C9B473C3044407FC1A45DE42D4CCFB987F79E6006D787",
+    "grpcCppPluginSha256": "766E3EC8C748D8B01A3D922B059ABE5FF6DDA5FE66F27A7160FE17744FBE42B1",
+    "versions": {
+      "protobuf": "4.23.4",
+      "grpc": "1.57.0",
+      "abseil": "20230125.3",
+      "re2": "2022-06-01"
+    }
+  }
+}

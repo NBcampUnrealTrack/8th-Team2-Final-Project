@@ -1,0 +1,1101 @@
+syntax = "proto3";
+package rev.game;
+option csharp_namespace = "RevMMOServer.Protos";
+
+// 사용법은 Docs/gRPC_help.md.
+// oneof 번호 재사용 금지. 새 oneof 는 맨 끝에 추가. repeated/optional 안 쓴다.
+
+service GameService {
+  rpc Game(stream GameMessage) returns (stream GameMessage);
+}
+
+message GameMessage {
+  string user_id = 1;                  // INOUT 유저 식별자 (응답에 echo)
+  optional string message = 2;         // INOUT 부가 메시지
+  int64 timestamp = 3;                 // INOUT UnixTime 초 (응답에 echo)
+  optional string token = 4;           // IN  세션 토큰
+  optional int32 result_code = 5;      // OUT ResultCode (Success = 200)
+  optional string result_message = 6;  // OUT 결과 메시지
+  optional string response_data = 7;   // OUT JSON 응답 데이터
+
+  oneof message_type {
+    // ---- 인증 / 로그인 (10-19) ----
+    LoginUser  login_user  = 10;
+    AuthUser   auth_user   = 11;
+    CreateUser create_user = 12;
+    Kick       kick        = 13;  // 서버 -> 클라 전용
+
+    // ---- 필드: 클라 -> 서버 (20-29) ----   ※ 25-29 예약
+    FieldEnter    field_enter    = 20;
+    FieldMove     field_move     = 21;  // 고빈도 · 정상 처리 시 응답 없음
+    FieldLeave    field_leave    = 22;
+    FieldActivity field_activity = 23;
+    FieldSpirit   field_spirit   = 24;
+
+    // ---- 필드: 서버 -> 클라 푸시 (30-39) ----   ※ 34(SVR_Field_Correct) · 36-39 예약
+    SVR_Field_Appeared    svr_field_appeared    = 30;
+    SVR_Field_Disappeared svr_field_disappeared = 31;
+    SVR_Field_Moved       svr_field_moved       = 32;
+    SVR_Field_Activity    svr_field_activity    = 33;
+    SVR_Field_Spirit      svr_field_spirit      = 35;
+
+    // ---- 40-49 전투 예약 ----
+
+    Ping ping = 999;
+
+    // ★ 새 oneof 는 여기 아래에
+
+    // ---- 캐릭터 (14-17) ----   ※ 18-19 예약
+    CharacterList   character_list   = 14;
+    CharacterCreate character_create = 15;
+    CharacterSelect character_select = 16;
+
+    // ---- 인벤토리 / 아이템 (요청 60-69 · 푸시 70-79) ----   ※ 62-69 · 71-79 예약
+    InventoryList inventory_list = 60;
+    ItemMove      item_move      = 61;
+    SVR_Item_Slot svr_item_slot  = 70;
+
+    // ---- 근접 채팅 (50 / 51) ----   ※ 52-59 예약. 필드 기능이지만 번호는 채팅으로 잡았던 걸 유지
+    FieldChat      field_chat     = 50;
+    SVR_Field_Chat svr_field_chat = 51;
+
+    // ---- 파티 (요청 80-89 · 푸시 90-99) ----   ※ 87-89 · 94-99 예약
+    PartyInvite  party_invite  = 80;
+    PartyApply   party_apply   = 81;
+    PartyRespond party_respond = 82;
+    PartyLeave   party_leave   = 83;
+    PartyKick    party_kick    = 84;
+    PartyList    party_list    = 85;
+    PartyMemberList party_member_list = 86;
+
+    SVR_Party_Invited  svr_party_invited  = 90;
+    SVR_Party_Applied  svr_party_applied  = 91;
+    SVR_Party_Updated  svr_party_updated  = 92;
+    SVR_Party_Rejected svr_party_rejected = 93;
+
+    CharacterDelete character_delete = 17;  // 캐릭터 삭제 (선언은 맨 끝 — enum 서수 유지)
+
+    // 퀘스트 (100번대). 선언은 항상 맨 끝에 붙인다 — enum 서수가 밀리면 클라가 통째로 어긋난다.
+    QuestList      quest_list      = 100;  // 진행 정보 전체 조회
+    QuestAccept    quest_accept    = 101;  // 수락
+    QuestObjective quest_objective = 102;  // 목표 진행량 저장
+    QuestComplete  quest_complete  = 103;  // 완료
+
+    // 1:1 거래 (120번대). 선언은 항상 맨 끝에 붙인다 — enum 서수가 밀리면 클라가 통째로 어긋난다.
+    TradeRequest   trade_request   = 120;  // 거래 신청
+    TradeRespond   trade_respond   = 121;  // 신청에 수락/거절
+    TradeSetItem   trade_set_item  = 122;  // 거래 칸에 올리기/내리기
+    TradeLock      trade_lock      = 123;  // 내 제안 잠금/해제
+    TradeConfirm   trade_confirm   = 124;  // 최종 확정
+    TradeCancel    trade_cancel    = 125;  // 취소
+
+    SVR_Trade_Requested svr_trade_requested = 130;  // 거래 신청을 받음
+    SVR_Trade_Started   svr_trade_started   = 131;  // 거래 시작 (양쪽)
+    SVR_Trade_Updated   svr_trade_updated   = 132;  // 제안·잠금 변경 (양쪽 전체)
+    SVR_Trade_Ended     svr_trade_ended     = 133;  // 거래 종료 (완료/취소 구분)
+
+    // 장착 / 해제 (아이템 요청 대역 62-63). 선언은 항상 맨 끝 — enum 서수 유지.
+    ItemEquip   item_equip   = 62;  // 인벤 → 장비 부위
+    ItemUnequip item_unequip = 63;  // 장비 부위 → 인벤 (목적지는 서버가 고른다)
+    ItemSort  item_sort  = 64;  // 저장소 일괄 재배치 (정렬·압축·합치기)
+    ItemSplit item_split = 65;  // 스택 나누기
+    CharacterStat       character_stat        = 18;  // 스탯 + 파생 능력치 조회
+    CharacterStatAssign character_stat_assign = 19;  // 스탯 분배 (최종 배분을 통째로)
+    BattleStart  battle_start  = 40;  // 전투 시작
+    BattleAction battle_action = 41;  // 턴 행동 (공격/도망)
+
+    // ---- 캐릭터 확장 (140-149) ----   ※ 14-19 가 꽉 차서 새 대역을 연다
+    CharacterNameCheck   character_name_check   = 140;  // 이름 사용 가능 여부만 확인 (생성 안 함)
+    CharacterDeleteCancel character_delete_cancel = 141;  // 삭제 예약 취소
+
+    ItemDiscard item_discard = 66;  // 버리기 (되돌릴 수 없다)
+
+    // ---- 전투 (요청 40·42-46 / 푸시 110-117) ----
+    // 41 은 옛 BattleAction. 폐기됐고 번호를 재사용하지 않는다.
+    BattleCommand  battle_command   = 42;  // 명령 제출 (다시 보내면 덮어쓴다)
+    BattleReaction battle_reaction  = 43;  // 패링·회피 입력
+    BattleNaiaSwap battle_naia_swap = 44;  // 나이아 교체 (턴 소모 없음)
+    BattleSync     battle_sync      = 45;  // 재동기화 (전체 스냅샷)
+    BattleLeave    battle_leave     = 46;  // 전투 이탈
+
+    SVR_Battle_Started  svr_battle_started   = 110;  // 전투 시작 (참가자 전원에게)
+    SVR_Battle_TurnBegin svr_battle_turn_begin = 111;  // 턴 시작 — 제한 시간·명령 낼 전투원
+    SVR_Battle_Submit   svr_battle_submit    = 112;  // 제출 현황
+    SVR_Battle_Order    svr_battle_order     = 113;  // 실행 순서 확정
+    SVR_Battle_Reaction svr_battle_reaction  = 114;  // 반응 창 열림 (패링·회피)
+    SVR_Battle_Action   svr_battle_action    = 115;  // 행동 하나의 이벤트들
+    SVR_Battle_TurnEnd  svr_battle_turn_end  = 116;  // 턴 종료 (도트·만료)
+    SVR_Battle_End      svr_battle_end       = 117;  // 전투 종료
+
+    // ---- 소유 나이아 / 로스터 (요청 150-159 · 푸시 160-169) ----
+    NaiaList naia_list = 150;  // 파티 + 보관함 전체 조회
+    NaiaMove naia_move = 151;  // 칸 이동 (파티 ↔ 보관함, 같은 저장소 안)
+
+    SVR_Naia_Updated svr_naia_updated = 160;  // 로스터 변경 (이동·포획·전투 종료)
+
+    CharacterProfile character_profile = 142;  // 남의 캐릭터 정보창
+
+    // ---- 캐릭터 성장 (원형 노드) ----
+    CharacterProgression  character_progression   = 170;  // 성장 상태 조회
+    CharacterJobSelect    character_job_select    = 171;  // 최초 직업 선택
+    CharacterNodeAcquire  character_node_acquire  = 172;  // 노드 획득 · 2차 전직
+
+    NaiaStarterSelect naia_starter_select = 152;  // 스타팅 나이아 계약 (직업 선택 후 1회)
+
+    // ---- 상점 (180-189 예약) ----
+    ShopBuy  shop_buy  = 180;  // 구매
+    ShopSell shop_sell = 181;  // 판매
+
+    BattleActionAck battle_action_ack = 47;  // 행동 연출 완료 보고 — 이후 명령 제한 시간 시작
+
+    // ---- NPC 상호작용 (요청 190-194 · 푸시 195-199) ----
+    NpcHeal npc_heal = 190;  // 즉시 회복 (여관)
+    NpcRest npc_rest = 191;  // 무료 회복 시작 (시간 기반)
+    RecoveryStatus recovery_status = 192;  // 회복·부활 상태 조회 (재접속 동기화)
+    SVR_Respawn_Result svr_respawn_result = 195;  // 사망 부활 결과 (패배 시 자동)
+
+    // ---- 공간 이동 (요청 200-204) ----
+    PortalMove      portal_move      = 200;  // 포탈 사용 (1단계 — 승인)
+    PortalArrive    portal_arrive    = 201;  // 목적지 준비 결과 (2단계 — 확정)
+    LocationMove    location_move    = 202;  // 건물 출입 · 방 이동
+    LocationRestore location_restore = 203;  // 마지막 확정 위치 조회 (재접속)
+
+    SVR_Quest_Updated svr_quest_updated = 104;  // 서버 처리 결과로 퀘스트 목표가 올랐다 (본인에게만)
+
+    RecoveryPointRegister recovery_point_register = 193;  // 부활 거점 등록 (휴식 지점에서)
+
+    QuestCalmStart  quest_calm_start  = 105;  // 진정 도전 시작 승인 (클라 판정 방식)
+    QuestCalmResult quest_calm_result = 106;  // 진정 결과 접수
+  }
+}
+
+// ── 인증 / 로그인 ───────────────────────────────────────────────────────────
+
+message AuthUser {
+  int32 platform_type = 1;              // IN  PlatformType
+  string auth_key = 2;                  // IN  현재는 Def.AUTH_KEY_TEMP 만 승인
+  optional string ret_pass_key = 3;     // OUT 세션 토큰 재료 (32자)
+  optional string ret_sub_pass_key = 4; // OUT 세션 토큰 재료 IV (16자)
+
+  // 5-11 : 서버가 아직 안 쓴다
+  string app_version = 5;   // IN
+  string device_id = 6;     // IN
+  string client_ip = 7;     // IN
+  int32 language_id = 8;    // IN
+  int32 time_zone = 9;      // IN
+  string national = 10;     // IN
+  string client_option = 11; // IN
+}
+
+// 본문 없음. OUT : UserInfo (response_data JSON)
+message CreateUser {
+}
+
+message LoginUser {
+  int32 login_type = 1;  // IN  LoginType
+  // OUT : LoginUserResponse (response_data JSON)
+}
+
+// 서버 -> 클라 전용. result_code 에 사유, 직후 스트림이 닫힌다.
+message Kick {
+}
+
+message Ping {
+  int64 client_time = 1;  // IN  UnixTime **밀리초**
+  int64 server_time = 2;  // OUT UnixTime 밀리초
+  int32 rtt_ms      = 3;  // IN  클라가 잰 왕복 시간(최근 평균). 패링 지연 보정용
+}
+
+// ── 캐릭터 ──────────────────────────────────────────────────────────────────
+
+// 본문 없음. OUT : {"Characters":[...],"MaxCount":N}
+message CharacterList {
+}
+
+message CharacterCreate {
+  string name      = 1;  // IN  글자/숫자만. 길이 제한은 기획 시트(공용 상수)에서 온다
+  int32  job_id    = 2;  // IN  더미 (서버는 저장·에코만)
+  int32  race_id   = 3;  // IN  종족. 생성 후 변경 불가 (서버는 저장·에코만)
+  int32  gender    = 4;  // IN  성별 (서버는 저장·에코만)
+  int32  hair_id   = 5;  // IN  머리 (서버는 저장·에코만)
+  int32  face_id   = 6;  // IN  외모 (서버는 저장·에코만)
+  int32  hair_color = 7; // IN  머리 색 번호. 0 = 원래 색 (서버는 저장·에코만, 2026-10-14)
+  // OUT : CharacterInfo (response_data JSON)
+}
+
+// 즉시 삭제가 아니라 24시간 뒤 삭제 예약이다. 필드에 있으면 411.
+message CharacterDelete {
+  uint64 character_idx = 1;  // IN
+  // OUT : 예약 후 목록 (CharacterList 와 같은 형식 — DeleteRemainSec 로 남은 시간이 온다)
+}
+
+// 예약이 없으면 1213.
+message CharacterDeleteCancel {
+  uint64 character_idx = 1;  // IN
+  // OUT : 취소 후 목록 (CharacterList 와 같은 형식)
+}
+
+// 생성창 [중복확인] 버튼 · 랜덤 이름 생성이 쓴다. 캐릭터를 만들지 않는다.
+message CharacterNameCheck {
+  string name = 1;  // IN  확인할 이름
+  // OUT : result_code 로만 답한다 (200 = 쓸 수 있음)
+}
+
+// 필드 진입 전 1회 (필드에 있는 동안은 411).
+message CharacterSelect {
+  uint64 character_idx = 1;  // INOUT  내 계정 소유가 아니면 1200
+  optional int32 level = 2;                         // OUT 서버 확정 현재 레벨
+  optional int64 total_experience = 3;              // OUT 누적 총경험치
+  optional int64 experience_into_level = 4;         // OUT 현재 레벨에서 획득한 경험치
+  optional int64 required_experience_to_next = 5;   // OUT 다음 레벨까지 필요한 총 경험치
+  optional int32 max_level = 6;                     // OUT 경험치 표 최대 레벨
+  // OUT : 기존 클라이언트 호환 CharacterInfo (response_data JSON)
+}
+
+// ── 필드 위치 동기화 ────────────────────────────────────────────────────────
+
+// 강제 재동기화. 주변 목록은 SVR_Field_Appeared 로 따로 온다.
+message FieldEnter {
+  int32 zone_id = 1;  // IN  쓰지 않는다 (공간은 location_id 가 정한다)
+  float pos_x   = 2;  // IN  UE 월드 좌표 cm (GetActorLocation = 캡슐 중심)
+  float pos_y   = 3;  // IN
+  float pos_z   = 4;  // IN
+  int32 facing  = 5;  // IN  FieldFacing
+  int32 location_id = 6;  // INOUT 들어가는 장소. IN 이 0 이면 서버가 마지막 확정 장소를 쓴다
+  optional int32 area_id   = 7;  // OUT 서버가 확정한 지역
+  optional bool  is_indoor = 8;  // OUT 실내 여부
+}
+
+// 이동 시작/facing 전환/정지/막힘/안전망(200ms) 때만. 정상 처리 시 응답 없음.
+message FieldMove {
+  float pos_x  = 1;  // IN  이벤트 발생 시점의 정확한 좌표
+  float pos_y  = 2;  // IN
+  float pos_z  = 3;  // IN
+  int32 facing = 4;  // IN  FieldFacing (이동 벡터가 아니라 보이는 스프라이트)
+  int32 reason = 5;  // IN  FieldMoveReason (진단 전용 — 서버는 안 읽는다)
+}
+
+message FieldLeave {
+}
+
+// 값이 바뀔 때만. 클라는 Idle(0)/Battle(2) 만 보낸다.
+message FieldActivity {
+  int32 activity = 1;  // IN  FieldActivity
+}
+
+// 값이 바뀔 때만. 정령 위치는 안 보낸다 (주인을 따라다닌다).
+message FieldSpirit {
+  int32 spirit_id = 1;  // IN  res_naiatable.`Index` (1001~), 0 = 없음
+}
+
+// ── 서버 -> 클라 푸시 ───────────────────────────────────────────────────────
+// 엔벨로프는 비우고 result_code 만 200.
+
+// AoI 진입. 그 플레이어의 전체 상태 1인분.
+message SVR_Field_Appeared {
+  uint64 player_id     = 1;  // OUT UserInfo.Idx — **식별 키**
+  float  pos_x         = 2;  // OUT
+  float  pos_y         = 3;  // OUT
+  float  pos_z         = 4;  // OUT
+  int32  facing        = 5;  // OUT FieldFacing (정지 중인 방향은 여기서만 온다)
+  int32  activity      = 6;  // OUT FieldActivity
+  bool   is_join       = 7;  // OUT 현재 항상 false
+  int32  spirit_id     = 8;  // OUT 0 = 없음
+  uint64 character_idx  = 9;  // OUT character_info.Idx — 표시용, 0 = 미선택
+  string character_name = 10; // OUT 캐릭터 이름 (이름 표시의 정본). 미선택이면 빈 문자열
+  int32  race_id        = 11; // OUT 외형. CharacterList 의 값 그대로. 미선택이면 전부 0
+  int32  gender         = 12; // OUT
+  int32  hair_id        = 13; // OUT
+  int32  face_id        = 14; // OUT
+  int32  job_id         = 15; // OUT 직업 (CharacterJobSelect 로 저장된 값). 0 = 미선택
+  int32  area_id        = 16; // OUT 그 사람이 있는 지역
+  int32  location_id    = 17; // OUT 장소. 같은 지역이라도 사람마다 다를 수 있다
+  bool   is_indoor      = 18; // OUT 실내 여부 — 이동속도·크기를 남에게도 똑같이 적용하는 근거
+  int32  hair_color     = 19; // OUT 머리 색 번호. CharacterList 의 HairColor 그대로 (2026-10-14)
+}
+
+message SVR_Field_Disappeared {
+  uint64 player_id = 1;  // OUT
+  bool   is_leave  = 2;  // OUT 현재 항상 false
+}
+
+// 클라는 이 좌표를 목표 지점으로 삼아 350cm/s 로 걸어간다.
+message SVR_Field_Moved {
+  uint64 player_id = 1;  // OUT
+  float  pos_x     = 2;  // OUT
+  float  pos_y     = 3;  // OUT
+  float  pos_z     = 4;  // OUT
+  int32  facing    = 5;  // OUT
+}
+
+message SVR_Field_Activity {
+  uint64 player_id = 1;  // OUT
+  int32  activity  = 2;  // OUT
+}
+
+message SVR_Field_Spirit {
+  uint64 player_id = 1;  // OUT
+  int32  spirit_id = 2;  // OUT 0 = 없음
+}
+
+// ── 인벤토리 / 창고 ─────────────────────────────────────────────────────────
+// 칸 단위 저장. container = ItemContainer (1=인벤 2=캐릭터창고 3=계정창고).
+
+message InventoryList {
+  int32 container = 1;  // IN  ItemContainer
+  // OUT : {"Container":1,"SlotCount":40,"Slots":[...]} — 빈 칸은 Slots 에 없다
+}
+
+// 목적지가 비었으면 이동, 같은 아이템이면 합치기(상한까지), 그 외에는 교환.
+message ItemMove {
+  int32 from_container = 1;  // IN  ItemContainer
+  int32 from_slot      = 2;  // IN
+  int32 to_container   = 3;  // IN  ItemContainer
+  int32 to_slot        = 4;  // IN
+  // OUT : result_code 만. 결과는 SVR_Item_Slot 으로 칸마다 온다.
+}
+
+// 이동 1회에 보통 2발 (출발 칸/도착 칸).
+message SVR_Item_Slot {
+  int32 container  = 1;  // OUT ItemContainer
+  int32 slot_no    = 2;  // OUT
+  int32 item_id    = 3;  // OUT 0 = 빈 칸
+  int32 item_count = 4;  // OUT
+}
+
+// ── 근접 채팅 ───────────────────────────────────────────────────────────────
+// AoI 에 종속된 필드 기능이라 Field* 계열이다. 전체·귓속말·길드/파티는 chat.proto (채팅 서버).
+// 대상 = 내게 보이는 사람들. 필드에 있어야 한다. 히스토리 저장 안 함.
+
+message FieldChat {
+  string text = 1;  // INOUT 1~100자. OUT 은 정제된 본문 — 내 말풍선은 이걸로 그린다
+}
+
+// 남의 말만 온다 (내 말은 FieldChat 응답의 text).
+// 이름은 SVR_Field_Appeared.character_name 으로 붙인다.
+message SVR_Field_Chat {
+  uint64 player_id = 1;  // OUT 말한 사람
+  string text      = 2;  // OUT 정제된 본문
+  // 3-9 예약
+}
+
+// ── 파티 ────────────────────────────────────────────────────────────────────
+// 사용법은 Docs/gRPC_help.md §12. 최대 4명, 식별은 character_idx.
+// 파티 채팅은 chat.proto 의 channel_id "party:{party_id}".
+
+// 대상에게 SVR_Party_Invited. 내 파티가 없으면 이때 생긴다(내가 리더).
+message PartyInvite {
+  uint64 target_idx = 1;  // IN  캐릭터 idx (SVR_Field_Appeared 로 받아둔 값)
+}
+
+// 그 파티의 리더에게 SVR_Party_Applied.
+message PartyApply {
+  uint64 target_idx = 1;  // IN  파티원 아무나의 캐릭터 idx
+}
+
+message PartyRespond {
+  uint64 target_idx = 1;  // IN  초대면 초대한 사람, 신청이면 신청한 사람
+  bool   accept               = 2;  // IN  false = 거절
+  // OUT : 수락이면 response_data 에 파티원 목록
+}
+
+message PartyLeave {
+}
+
+// 리더만.
+message PartyKick {
+  uint64 target_idx = 1;  // IN
+}
+
+// 파티 찾기 (모집 중인 남의 파티들). 내 파티원은 PartyMemberList.
+message PartyList {
+  int32 limit = 1;  // IN  0 = 기본 30, 상한 50
+  // OUT : {"TotalCount":N,"Parties":[{PartyId,LeaderIdx,LeaderName,MemberCount,MaxCount}]}
+}
+
+// 내 파티원 목록. 본문 없음.
+message PartyMemberList {
+  // OUT : {"PartyId":N,"LeaderIdx":N,"MaxCount":4,
+  //        "Members":[{Idx,Name,IsLeader}]}   파티가 없으면 PartyId = 0
+}
+
+message SVR_Party_Invited {
+  uint64 from_idx = 1;  // OUT 초대한 사람
+  string from_name          = 2;  // OUT
+  int32  expire_sec         = 3;  // OUT 이 안에 PartyRespond
+}
+
+message SVR_Party_Applied {
+  uint64 from_idx = 1;  // OUT 신청한 사람
+  string from_name          = 2;  // OUT
+  int32  expire_sec         = 3;  // OUT
+}
+
+// 파티원 전원에게. response_data 에 PartyMemberList 와 같은 목록.
+message SVR_Party_Updated {
+  uint64 party_id      = 1;  // OUT 0 = 내 파티가 없어짐
+  int32  reason        = 2;  // OUT PartyUpdateReason
+  uint64 target_idx    = 3;  // OUT 변화의 대상
+}
+
+message SVR_Party_Rejected {
+  uint64 from_idx = 1;  // OUT 거절한 사람
+  string from_name          = 2;  // OUT
+  bool   was_invite         = 3;  // OUT true = 내 초대가 거절됨
+}
+
+// ── 퀘스트 ────────────────────────────────────────────────────────────────
+// quest_id / objective_id 는 클라의 FName 문자열 그대로다 (예: Q_MAIN_001 / CollectHerb).
+// 영문·숫자·_·- 만, 64자 이내. 응답은 response_data 에 JSON 으로 온다.
+
+// 선택된 캐릭터의 퀘스트 진행 전부.
+message QuestList {
+  // OUT : {"Quests":[QuestProgressInfo, ...]}
+}
+
+message QuestAccept {
+  int32 quest_id = 1;  // IN  Quest_ID (10001~)
+  string mutation_id = 2;  // IN  재전송 멱등키 (UUID). 비우면 멱등 보장 없음
+  // OUT : QuestProgressInfo
+}
+
+// current_count 는 증가량이 아니라 **최종 진행량**이다.
+message QuestObjective {
+  int32  quest_id     = 1;  // IN  Quest_ID
+  int32  objective_id = 2;  // IN  그 퀘스트의 목표 id (Quest_ID×100+순번). quest_id 와 같은 값은 첫 목표로 본다(옛 규칙)
+  int32  current_count = 3; // IN  최종 누적값 (증가량 아님). 0 이상
+  string mutation_id  = 4;  // IN  재전송 멱등키 (UUID)
+  // OUT : QuestProgressInfo (목표 전부)
+}
+
+message QuestComplete {
+  int32 quest_id = 1;  // IN  Quest_ID
+  int32 npc_id   = 2;  // IN  보고한 NPC (NPC수령 퀘스트). 0 이면 검사하지 않는다
+  string mutation_id = 3;  // IN  재전송 멱등키 (UUID) — 같은 값은 보상을 다시 주지 않고 기록을 돌려준다
+  // OUT : {Progress, Reward}
+}
+
+// ── 장착 / 해제 ─────────────────────────────────────────────────────────────
+//
+// 장비는 ItemContainer.Equipment(4) 저장소에 들어간다 — 칸 번호 = 부위(EquipSlot).
+// 접속 후 복원은 InventoryList(container = 4) 하나면 된다.
+
+message ItemEquip {
+  int32 inv_slot   = 1;  // IN  인벤 칸
+  int32 equip_slot = 2;  // IN  EquipSlot. 그 장비의 부위와 달라도 안 된다
+  // OUT : result_code 만. 바뀐 칸은 SVR_Item_Slot 으로 온다
+}
+
+// 벗은 장비가 들어갈 인벤 칸은 **서버가 고른다** (빈 칸 중 가장 앞).
+message ItemUnequip {
+  int32 equip_slot = 1;  // IN  EquipSlot
+  // OUT : result_code 만. 바뀐 칸은 SVR_Item_Slot 으로 온다
+}
+
+// ── 전투 (1:1) ──────────────────────────────────────────────────────────────
+//
+// 턴제다. 클라가 행동을 보내면 서버가 **그 턴 전체**(내 행동 + 몬스터 행동)를 처리해서
+// 결과를 한 번에 돌려준다. 푸시가 없다 — 몬스터가 스스로 움직이는 시점이 없어서다.
+// 전투 상태(HP/SP/턴)는 서버가 들고 있고, 클라는 응답으로 받은 값을 그대로 그린다.
+
+message BattleStart {
+  int32 naia_id = 1;  // IN  상대 나이아 id (res_naiatable)
+  int32 quest_id     = 2;  // IN  퀘스트 전투면 퀘스트 id (0 = 일반 전투)
+  int32 objective_id = 3;  // IN  그 퀘스트의 목표 id
+  int32 battle_mode  = 4;  // IN  QuestBattleMode (1 기본공격 연습 · 2 패링 연습 · 3 회피 연습 · 4 진정 · 5 대련)
+  int32 encounter_kind = 5;  // IN  0 일반 · 1 심볼(보스) — 1 이면 같은 공간의 파티원이 같이 들어간다
+  int64 symbol_id      = 6;  // IN  닿은 심볼 (클라 월드 고유 값). 서버는 되돌려주기만 한다
+  // OUT : response_data 에 전투 시작 상태 (battle_id · 양쪽 능력치 · HP/SP)
+}
+
+// 한 턴. 응답에 그 턴에 일어난 일이 순서대로 담긴다.
+message BattleAction {
+  int32 action = 1;  // IN  0 공격 · 2 도망 (1 은 옛 '방어' — 기획에서 삭제, 보내면 1903)
+  // OUT : response_data 에 턴 결과 (이벤트 목록 · 종료 사유 · 보상)
+}
+
+// ── 캐릭터 스탯 ─────────────────────────────────────────────────────────────
+//
+// 스탯은 원형 노드로 찍는다. 서버는 **찍은 결과값**만 들고 있고, 전투 능력치는 거기서 파생시킨다.
+// STR 과 INT 는 격자의 같은 자리라 동시에 0 이 아닐 수 없다.
+
+message CharacterStat {
+  // IN  : 없음 (고른 캐릭터 기준)
+  // OUT : response_data 에 스탯 + 남은 포인트 + 파생 능력치가 온다
+}
+
+// 최종 배분을 통째로 보낸다 (증분이 아니다). 서버가 도달 가능한 배분인지 검증한다.
+message CharacterStatAssign {
+  int32 str = 1;  // IN
+  int32 dex = 2;  // IN
+  int32 int_ = 3; // IN  (int 는 예약어라 뒤에 _)
+  int32 luk = 4;  // IN
+  int32 vit = 5;  // IN
+  // OUT : CharacterStat 과 같은 모양이 response_data 로 온다
+}
+
+// ── 재배치 / 나누기 ─────────────────────────────────────────────────────────
+
+// 저장소 하나를 원하는 배치로 통째로 다시 깐다 (정렬·앞으로 당기기·합치기를 한 번에).
+// **배치는 클라가 정한다** — 정렬 기준(종류·등급·이름)은 클라 DataTable 에만 있다.
+// 서버는 아이템별 총 개수가 그대로인지와 칸마다 스택 상한을 넘지 않는지만 본다.
+message ItemSort {
+  int32 container = 1;              // IN  ItemContainer
+  repeated ItemSlotEntry slots = 2; // IN  재배치 후 배치. **빈 칸은 넣지 않는다**
+  // OUT : result_code 만. 바뀐 칸은 SVR_Item_Slot 으로 온다 (안 바뀐 칸은 안 온다)
+}
+
+message ItemSlotEntry {
+  int32 slot_no    = 1;  // IN
+  int32 item_id    = 2;  // IN
+  int32 item_count = 3;  // IN  1 이상, 스택 상한 이하
+}
+
+// 한 칸에서 count 개를 떼어 빈 칸으로 옮긴다. 같은 아이템 위에 떨구는 건 ItemMove(합치기)다.
+message ItemSplit {
+  int32 container = 1;  // IN  ItemContainer
+  int32 from_slot = 2;  // IN
+  int32 to_slot   = 3;  // IN  -1 이면 서버가 빈 칸 중 가장 앞을 고른다
+  int32 count     = 4;  // IN  1 이상, 그 칸의 개수 미만
+  // OUT : result_code 만. 바뀐 칸은 SVR_Item_Slot 으로 온다
+}
+
+// 되돌릴 수 없다. 장비 저장소(4)는 대상이 아니다 — 벗은 뒤 버린다.
+message ItemDiscard {
+  int32 container = 1;  // IN  ItemContainer (1 인벤 · 2 캐릭터창고 · 3 계정창고)
+  int32 slot_no   = 2;  // IN
+  int32 count     = 3;  // IN  가진 것보다 많으면 있는 만큼만 버린다
+}
+
+// ── 1:1 거래 ────────────────────────────────────────────────────────────────
+//
+// 흐름: 신청 → 수락 → 아이템 올리기 → 양쪽 잠금 → 양쪽 확정 → 교환
+// 확정 전까지 아이템은 움직이지 않는다. 아이템을 바꾸거나 내리면 양쪽 잠금이 풀린다
+// (추가는 잠금 유지, 확정만 풀림 — gRPC_help.md §14.4).
+
+// 거래 칸 하나. 비어 있으면 item_id = 0.
+message TradeSlot {
+  int32 trade_slot = 1;  // OUT 0 ~ 5
+  int32 item_id    = 2;  // OUT 0 = 빈 칸
+  int32 item_count = 3;  // OUT
+  int32 inv_slot_no = 4; // OUT 올린 사람 인벤 칸 (상대에게도 보인다 — 표시용)
+}
+
+// 한 사람의 제안 전체.
+message TradeSide {
+  uint64 character_idx = 1;  // OUT
+  string character_name = 2; // OUT
+  repeated TradeSlot slots = 3;  // OUT 올린 칸만
+  bool locked  = 4;  // OUT
+  bool confirmed = 5; // OUT
+}
+
+message TradeRequest {
+  uint64 target_idx = 1;  // IN  대상 캐릭터 idx
+}
+
+message TradeRespond {
+  bool accept = 1;      // IN
+  uint64 from_idx = 2;  // IN  신청한 캐릭터 idx (SVR_Trade_Requested.from_idx)
+}
+
+// inv_slot_no = -1 이면 그 거래 칸을 비운다.
+message TradeSetItem {
+  int32 trade_slot  = 1;  // IN  0 ~ 5
+  int32 inv_slot_no = 2;  // IN  -1 = 내리기
+}
+
+message TradeLock {
+  bool lock = 1;  // IN
+}
+
+message TradeConfirm {
+  int32 offer_ver = 1;  // IN  마지막으로 받은 SVR_Trade_Updated.offer_ver
+}
+
+message TradeCancel {
+}
+
+// ── 서버 -> 클라 푸시 ──
+
+message SVR_Trade_Requested {
+  uint64 from_idx  = 1;  // OUT 신청한 캐릭터
+  string from_name = 2;  // OUT
+  int32  expire_sec = 3; // OUT 이 안에 답해야 한다
+}
+
+message SVR_Trade_Started {
+  uint64 trade_id = 1;   // OUT
+  TradeSide me    = 2;   // OUT
+  TradeSide other = 3;   // OUT
+}
+
+// 어느 쪽이든 제안·잠금이 바뀌면 양쪽에 온다. **양측 전체가 실려 온다.**
+message SVR_Trade_Updated {
+  uint64 trade_id = 1;   // OUT
+  TradeSide me    = 2;   // OUT
+  TradeSide other = 3;   // OUT
+  int32  offer_ver = 4;  // OUT 제안이 바뀔 때마다 증가. 확정은 이 값이 같아야 성립한다
+}
+
+message SVR_Trade_Ended {
+  uint64 trade_id = 1;  // OUT
+  int32  reason   = 2;  // OUT TradeEndReason
+}
+
+// ── 전투 ────────────────────────────────────────────────────────────────────
+// 규칙과 값은 Docs/gRPC_Battle_help.md 참조. 여기는 주고받는 모양만 적는다.
+
+// 전투원 하나의 스냅샷. combatant_id 는 **전투 안에서만 유효**하다 (전투마다 0부터).
+message BattleCombatant {
+  int32  combatant_id = 1;   // OUT
+  int32  side  = 2;          // OUT 0 아군 · 1 적
+  int32  kind  = 3;          // OUT 0 캐릭터 · 1 나이아 · 2 적
+  int64  owner_character_idx = 4;  // OUT 조종하는 캐릭터. 적이면 0
+  int64  naia_instance_id = 5;     // OUT 소유 나이아면 영속 id. 아니면 0
+  int32  naia_id = 6;        // OUT 나이아·적이면 res_naiatable.Naia_ID
+  string name    = 7;        // OUT 표시용
+  int32  level   = 8;        // OUT
+  int32  hp      = 9;        // OUT
+  int32  max_hp  = 10;       // OUT
+  int32  sp      = 11;       // OUT
+  int32  max_sp  = 12;       // OUT
+  double speed   = 13;       // OUT 행동 순서 표시용
+  repeated string elements = 14;          // OUT 속성 이름 (`불`, `풀`)
+  repeated BattleStatus statuses = 15;    // OUT 걸려 있는 상태이상
+  repeated int32 active_skill_ids  = 16;  // OUT 쓸 수 있는 액티브 스킬 (나이아 = 로스터 · 캐릭터 = 성장 노드 보상)
+  repeated int32 passive_skill_ids = 17;  // OUT 패시브 (캐릭터 = 성장 노드 보상 · 나이아 = 개체 패시브)
+  repeated BattleResource resources  = 18;  // OUT 직업 자원 칸 (적의 마크·약점·문양 포함)
+  repeated BattleJobState job_states = 19;  // OUT 직업 상태 (번아웃 · 지맥 붕괴)
+  int32  race_id = 20;   // OUT 캐릭터(kind 0) 외형 — SVR_Field_Appeared 와 같은 값. 아니면 0
+  int32  gender  = 21;   // OUT
+  int32  hair_id = 22;   // OUT
+  int32  face_id = 23;   // OUT
+  int32  job_id  = 24;   // OUT
+  int32  card    = 25;   // OUT 갬블러 점괘 카드 (0 없음 · 1 흉 · 2 길 · 3 대길)
+  int32  sp_cost_percent = 26;  // OUT 이번 턴 스킬 SP 비용 배율 % (100 = 그대로 · 대길 60 · 흉 130)
+  bool   conceded = 27;  // OUT 인정했다 (보스 — HP 하한에 닿아 더는 행동하지 않는다. 쓰러뜨린 것과 같이 센다)
+  int32  hair_color = 28;  // OUT 캐릭터(kind 0) 머리 색 번호. 아니면 0 (2026-10-14)
+}
+
+message BattleStatus {
+  int32 status_id       = 1;  // OUT
+  int32 stacks          = 2;  // OUT
+  int32 remaining_turns = 3;  // OUT **0 은 전투 끝까지**
+}
+
+// 전투 이벤트 하나. type 으로 갈라 읽는다 (BattleEventType).
+// 쓰지 않는 필드는 0 이다 — 종류마다 채우는 칸이 다르다.
+message BattleEvent {
+  int32  type      = 1;   // OUT BattleEventType
+  int32  actor_id  = 2;   // OUT 행동한 전투원
+  int32  target_id = 3;   // OUT 대상. 없으면 -1
+  int32  amount    = 4;   // OUT 피해·회복·SP 변화량
+  bool   is_critical = 5; // OUT
+  double element_multiplier = 6;  // OUT 2.0 유리 / 0.5 불리 / 1.0
+  int32  status_id = 7;   // OUT 상태이상 계열
+  int32  stacks    = 8;   // OUT 상태이상 스택
+  int32  skill_id  = 9;   // OUT 쓴 스킬. 0 이면 기본 공격
+  int32  item_id   = 10;  // OUT 쓴 아이템
+  int32  hp_after  = 11;  // OUT 대상의 남은 HP
+  int32  sp_after  = 12;  // OUT 행동자의 남은 SP
+  bool   success   = 13;  // OUT 패링·회피·포획 성공 여부
+  repeated bool shakes = 14;  // OUT 포획 흔들림 3회 (연출용)
+  int32  remaining_turns = 15;  // OUT 상태이상 남은 턴. **0 은 전투 끝까지** (17 이면 자원 남은 턴)
+  int32  resource_id  = 16;  // OUT 직업 자원 (17 ResourceChanged · 문양 지속 피해 Damage)
+  int32  resource_max = 17;  // OUT 그 자원의 상한 (17)
+  string state_name   = 18;  // OUT 직업 상태 이름 (18 JobStateChanged)
+  int32  start_turn   = 19;  // OUT 상태 시작 턴 (18)
+  int32  end_turn     = 20;  // OUT 상태 끝 턴 (18)
+}
+
+// ── 요청 ──
+
+message BattleCommand {
+  int64 battle_id    = 1;  // IN
+  int32 combatant_id = 2;  // IN  내가 조종하는 전투원
+  int32 action       = 3;  // IN  0 공격 · 2 도망 · 3 포획 · 4 아이템 사용 (1 은 폐기된 '방어')
+  int32 skill_id     = 4;  // IN  0 이면 기본 공격, 아니면 액티브 스킬
+  int32 target_id    = 5;  // IN  -1 이면 서버가 고른다. 아이템은 아군 대상 (기본 = 자신, 부활은 죽은 아군)
+  int32 invest_sp    = 6;  // IN  기본 공격에 투입할 SP. 타격 횟수를 정한다 (스킬·아이템은 무시)
+  int32 item_id      = 7;  // IN  포획이면 교감석 id · 아이템 사용이면 그 아이템 id
+  // OUT : response_data 에 확정된 명령 (차감 SP · 타격 횟수)
+}
+
+message BattleReaction {
+  int64 battle_id     = 1;  // IN
+  int32 combatant_id  = 2;  // IN  반응한 전투원 (창의 defender)
+  int32 press_time_ms = 3;  // IN  창이 열린 시점부터의 경과 ms. **-1 = 입력 없음** (보고 필수 창)
+  int32 reaction_id   = 4;  // IN  응답할 창. 지난 창의 입력은 버려진다
+  bool  success       = 5;  // IN  클라 판정 결과 — 서버는 이 값을 믿는다 (시간은 기록용)
+  optional int32 practice_count = 6;  // OUT 연습 모드면 이 보고까지의 성공 수
+}
+
+message BattleNaiaSwap {
+  int64 battle_id  = 1;  // IN
+  int32 party_slot = 2;  // IN  1~3. 파티 0번(전투 참여)과 맞바꾼다
+  // OUT : BattleNaiaSwapResponse (response_data JSON). 상세는 스냅샷 푸시로
+}
+
+message BattleSync {
+  int64 battle_id = 1;  // IN  0 이면 내가 하는 전투를 찾는다
+  // OUT : response_data 에 전체 스냅샷
+}
+
+message BattleLeave {
+  int64 battle_id = 1;  // IN
+}
+
+// ── 푸시 ──
+
+message SVR_Battle_Started {
+  int64 battle_id = 1;  // OUT
+  int32 turn      = 2;  // OUT
+  repeated BattleCombatant combatants = 3;  // OUT
+  int32 phase           = 4;  // OUT 0 명령 수집 · 1 행동 실행
+  int32 last_action_seq = 5;  // OUT 이 턴에서 마지막으로 보낸 행동 번호. 재개 지점
+  int32 quest_id          = 6;  // OUT 퀘스트 전투면 퀘스트 id (0 = 일반)
+  int32 objective_id      = 7;  // OUT
+  int32 battle_mode       = 8;  // OUT QuestBattleMode
+  int32 practice_count    = 9;  // OUT 지금까지 센 연습 성공 (연습 모드만)
+  int32 practice_required = 10; // OUT 연습 완료에 필요한 성공 수 (기본공격 1 · 패링 3 · 회피 3)
+  int64 initiator_character_idx = 11;  // OUT 시작한 캐릭터
+  int32 encounter_kind = 12;  // OUT 0 일반 · 1 심볼(보스)
+  int64 symbol_id      = 13;  // OUT BattleStart 의 값 그대로
+}
+
+message SVR_Battle_TurnBegin {
+  int64 battle_id  = 1;  // OUT
+  int32 turn       = 2;  // OUT
+  int32 timeout_ms = 3;  // OUT 이 시간을 넘기면 자동 기본 공격이 들어간다
+  repeated int32 pending_combatant_ids = 4;  // OUT 명령을 내야 하는 전투원
+}
+
+message SVR_Battle_Submit {
+  int64 battle_id = 1;  // OUT
+  repeated int32 submitted_combatant_ids = 2;  // OUT
+  repeated int32 pending_combatant_ids   = 3;  // OUT 비면 곧 턴이 굴러간다
+}
+
+message SVR_Battle_Order {
+  int64 battle_id = 1;  // OUT
+  int32 turn      = 2;  // OUT
+  repeated int32 combatant_ids = 3;  // OUT 실행 순서
+}
+
+message SVR_Battle_Reaction {
+  int64 battle_id   = 1;  // OUT
+  int32 attacker_id = 2;  // OUT
+  int32 defender_id = 3;  // OUT 반응할 전투원
+  bool  parryable   = 4;  // OUT false 면 회피로 받는다
+  int32 challenge_duration_ms = 5;  // OUT 창이 열려 있는 시간
+  int32 success_start_ms      = 6;  // OUT 성공 구간 시작
+  int32 success_end_ms        = 7;  // OUT 성공 구간 끝
+  int32 sp_cost               = 8;  // OUT 젖음 보정까지 반영된 값
+  int32 reaction_id           = 9;  // OUT 이 창의 번호. 응답에 그대로 실어 보낸다
+  int32 action_seq            = 10; // OUT 어느 행동의 창인지 (SVR_Battle_Action 매칭)
+  int32 skill_id              = 11; // OUT 그 공격의 스킬. 0 이면 기본 공격
+  int32 hit_index             = 12; // OUT 그 행동의 몇 번째 타격인지 (0부터)
+  bool  must_report           = 13; // OUT **참이면 입력이 없어도 43 을 보내야 한다** (서버가 대기 중)
+}
+
+// 행동 하나. **행동자마다 따로 온다** — 한 턴에 여러 번 온다.
+message SVR_Battle_Action {
+  int64 battle_id = 1;  // OUT
+  int32 actor_id  = 2;  // OUT
+  repeated BattleEvent events = 3;  // OUT 연출 순서대로
+  int32 action_seq = 4;  // OUT 턴 안에서 1부터. 재개·중복 판단용
+}
+
+message SVR_Battle_TurnEnd {
+  int64 battle_id = 1;  // OUT
+  int32 turn      = 2;  // OUT
+  repeated BattleEvent events = 3;  // OUT 도트·만료
+  int32 practice_count = 4;  // OUT 이 턴까지의 연습 성공 수 (연습 모드만. 아니면 0)
+}
+
+message SVR_Battle_End {
+  int64 battle_id = 1;  // OUT
+  int32 reason    = 2;  // OUT BattleEndReason (1 승리 · 2 패배 · 3 도주)
+  repeated BattleCombatant combatants = 3;  // OUT 마지막 상태
+  int32 quest_id      = 4;  // OUT 퀘스트 전투였으면 퀘스트 id
+  int32 objective_id  = 5;  // OUT
+  int32 battle_mode   = 6;  // OUT QuestBattleMode
+  bool  quest_success = 7;  // OUT 목표가 올랐는가 (연습 완료 · 진정 · 대련 승리)
+  int64 symbol_id      = 8;  // OUT BattleStart 의 값 그대로 (심볼 정리용)
+  int32 encounter_kind = 9;  // OUT 0 일반 · 1 심볼(보스)
+  // OUT : response_data 에 보상 (승리일 때만). reason 4 = 연습 완료 (보상 없음)
+}
+
+// ── 소유 나이아 / 로스터 ────────────────────────────────────────────────────
+// container = NaiaContainer (1=파티 2=보관함).
+// 파티는 조밀하다 — 빼면 뒤가 당겨온다. 보관함은 희소해서 빈 칸이 남는다.
+
+message NaiaInstance {
+  int64 naia_instance_id = 1;  // OUT 개체 영속 id
+  int32 naia_id          = 2;  // OUT res_naiatable.Naia_ID (종 정의)
+  int32 level            = 3;  // OUT
+  double health_ratio    = 4;  // OUT 0.0~1.0. 절대값이 아니다
+  int32 affection        = 5;  // OUT 애정도 누적 포인트 (0.1 단위 정수 — 1253 = 125.3)
+  int32 passive_skill_id = 6;  // OUT 0 = 없음
+  repeated int32 active_skill_ids = 7;  // OUT
+  int32 exp              = 8;  // OUT 현재 레벨에서 모은 경험치 (누적 아님)
+}
+
+// 칸 하나. instance 가 없으면 빈 칸이다.
+message NaiaSlot {
+  int32 container = 1;  // OUT NaiaContainer
+  int32 slot_no   = 2;  // OUT
+  NaiaInstance instance = 3;  // OUT
+}
+
+message NaiaList {
+  // IN  : 없음 — 파티·보관함을 한 번에 받는다
+  repeated NaiaSlot slots  = 1;  // OUT 빈 칸은 들어있지 않다
+  int32 party_slot_count   = 2;  // OUT
+  int32 storage_slot_count = 3;  // OUT
+  int64 starter_naia_instance_id = 4;  // OUT 계약한 스타팅 개체 id. 미계약이면 0
+}
+
+// 목적지가 비었으면 이동, 차 있으면 교환.
+message NaiaMove {
+  int32 from_container = 1;  // IN  NaiaContainer
+  int32 from_slot      = 2;  // IN
+  int32 to_container   = 3;  // IN
+  int32 to_slot        = 4;  // IN
+  // OUT : result_code 만. 결과는 SVR_Naia_Updated 로 온다
+}
+
+message SVR_Naia_Updated {
+  int32 reason = 1;  // OUT NaiaUpdateReason
+  repeated NaiaSlot slots = 2;  // OUT 바뀐 칸. 파티가 걸리면 파티 전부가 온다
+}
+
+// ── 남의 캐릭터 정보창 ──────────────────────────────────────────────────────
+
+// 내 캐릭터도 조회된다 (소유 검사 없음).
+message CharacterProfile {
+  uint64 character_idx = 1;  // IN  없거나 지워졌으면 1200
+  // OUT : CharacterProfileResponse (response_data JSON)
+}
+
+// ── 캐릭터 성장 (원형 노드) ─────────────────────────────────────────────────
+
+// 성장 상태 조회. 캐릭터 선택 성공 후 · 재접속 · 재동기화가 필요할 때.
+message CharacterProgression {
+  int32 graph_version = 1;  // IN  클라 그래프 버전. 서버와 다르면 2101
+  // OUT : CharacterProgressionResponse (response_data JSON)
+}
+
+// 최초 직업 선택. 되돌릴 수 없다.
+message CharacterJobSelect {
+  int32 job_id           = 1;  // IN  고른 직업
+  int32 graph_version    = 2;  // IN
+  int64 expected_revision = 3; // IN  마지막으로 받은 progression_revision
+  string mutation_id     = 4;  // IN  요청마다 새로 만드는 UUID (재전송 판별)
+  // OUT : CharacterProgressionResponse (response_data JSON)
+}
+
+// 노드 획득. 스탯·스킬·메인·최종·2차 전직을 하나로 처리한다.
+message CharacterNodeAcquire {
+  int32 node_id                = 1;  // IN  획득할 노드
+  int32 choice_advancement_id  = 2;  // IN  전직 노드에서 고른 분기. 다른 노드는 0
+  int32 graph_version          = 3;  // IN
+  int64 expected_revision      = 4;  // IN
+  string mutation_id           = 5;  // IN
+  // OUT : CharacterProgressionResponse (response_data JSON)
+}
+
+// 스타팅 나이아 계약. 직업 선택 후 캐릭터당 1회 — 성공 결과는 SVR_Naia_Updated(reason 4)로도 온다.
+message NaiaStarterSelect {
+  int32 naia_id      = 1;  // IN  res_naiatable.Naia_ID (스타팅 1단계 6종만)
+  string mutation_id = 2;  // IN  요청마다 새로 만드는 UUID (재전송 판별)
+  int64 starter_naia_instance_id = 3;  // OUT 생성(재전송이면 기존) 개체 영속 id
+}
+
+// ── 상점 ────────────────────────────────────────────────────────────────────
+// 서버가 품목표(ShopItemTable)로 가격을 계산·검증한다. 클라 총액과 다르면 2208.
+
+// 구매. 총액 = 품목표 Price × count. 골드가 모자라면 2204 로 실패한다.
+message ShopBuy {
+  int32 shop_id     = 1;  // IN  상점 구분
+  int32 item_id     = 2;  // IN
+  int32 count       = 3;  // IN  1 이상
+  int32 total_price = 4;  // IN  클라가 계산한 총액 — 서버 계산과 다르면 2208
+  // OUT : ShopResponse (response_data JSON — Gold). 지급된 칸은 SVR_Item_Slot(70)
+}
+
+// 판매. 인벤 칸에서 정확히 count 개를 빼고 골드를 더한다 — 모자라면 2202.
+// 개당 가격 = 품목표 기준 행 Price × 상점 BuybackRate (소수점 버림).
+message ShopSell {
+  int32 slot_no    = 1;  // IN  인벤 칸
+  int32 count      = 2;  // IN  1 이상
+  int32 total_gain = 3;  // IN  클라가 계산한 매각 총액 — 서버 계산과 다르면 2208
+  int32 shop_id    = 4;  // IN  어느 상점에서 파는가 (BuybackRate 근거)
+  // OUT : ShopResponse (response_data JSON — Gold). 빈/줄어든 칸은 SVR_Item_Slot(70)
+}
+
+// 행동 연출 완료 보고. SVR_Battle_TurnEnd 까지 재생을 마치면 보낸다.
+// 이때부터 명령 제한 시간이 돌고, 이어서 SVR_Battle_TurnBegin 이 온다.
+message BattleActionAck {
+  int32 turn = 1;  // IN  방금 받은 SVR_Battle_TurnEnd 의 turn
+  // OUT : result_code 만
+}
+
+// ── NPC 상호작용 ────────────────────────────────────────────────────────────
+
+// 즉시 회복 (여관 노아). 비용·회복량은 서버가 확정한다.
+// 성공 시 캐릭터와 나이아(파티+보관함) 전부 만피 — 죽은 나이아도 살아난다.
+message NpcHeal {
+  int32  npc_id      = 1;  // IN
+  string mutation_id = 2;  // IN  재전송 멱등키 (UUID) — 같은 id 는 골드를 다시 깎지 않는다
+  // OUT : NpcHealResponse (response_data JSON). 나이아는 SVR_Naia_Updated(reason 5)
+}
+
+// 무료 회복 시작 (여관 노아). 시간 기반 — 0%→100% 에 3600초, 오프라인에도 이어진다.
+// 이미 회복 중이면 기존 상태를 그대로 돌려준다 (시작 시각을 초기화하지 않는다).
+message NpcRest {
+  int32  npc_id      = 1;  // IN
+  string mutation_id = 2;  // IN  재전송 멱등키 (UUID)
+  // OUT : NpcRestResponse (response_data JSON)
+}
+
+// 회복·부활 상태 조회. 캐릭터 선택 후·재접속·응답 유실 시 부른다.
+// 조회가 미접속 기간의 무료 회복 정산을 겸한다 — 나이아 변경은 SVR_Naia_Updated(5) 로.
+message RecoveryStatus {
+  // 본문 없음 — 세션의 현재 캐릭터를 조회한다
+  // OUT : RecoveryStatusResponse (response_data JSON)
+}
+
+// 사망 부활 결과 (서버 -> 클라). 전투 패배로 사망이 확정되면 SVR_Battle_End 뒤에 온다.
+// 같은 death_id 는 한 번만 처리된다 — 골드는 음수(부채)가 될 수 있다.
+message SVR_Respawn_Result {
+  int64 battle_id         = 1;  // OUT 관련 전투
+  int64 death_id          = 2;  // OUT 사망 사건 id
+  int64 charged_gold      = 3;  // OUT 실제 잃은 골드 (면제면 0)
+  int64 gold              = 4;  // OUT 처리 후 잔액. 음수 가능
+  int32 player_hp         = 5;  // OUT 부활 후 HP (= 최대)
+  int32 player_max_hp     = 6;  // OUT
+  int64 recovery_point_id = 7;  // OUT 부활 거점 (미등록이면 기본 거점). 좌표 해석은 클라 데이터
+  int64 server_time       = 8;  // OUT 확정 시각 (UnixTime 밀리초)
+}
+
+// ── 공간 이동 (포탈 · 건물 출입 · 방 이동) ──────────────────────────────────
+
+// 포탈 사용 — 1단계. 서버가 이동 가능 여부를 판정하고 전환을 연다.
+// 승인만 하고 위치는 아직 안 바꾼다 — 클라가 목적지를 준비한 뒤 PortalArrive 로 확정한다.
+// 같은 mutation_id 가 다시 오면 열려 있던 전환을 그대로 돌려준다.
+message PortalMove {
+  int32  portal_id      = 1;  // IN  포탈 id (PortalTable 16001~)
+  int32  source_side    = 2;  // IN  양방향 포탈의 출발 쪽 (0 = A, 1 = B)
+  string mutation_id    = 3;  // IN  재전송 멱등키 (UUID)
+  int32  to_location_id = 4;  // INOUT 목적 장소. IN 은 클라 제안, OUT 은 서버 확정
+  int32  to_area_id     = 5;  // INOUT 목적 지역 (IN 은 무시 — 장소에서 파생시킨다)
+  string entry_point_id = 6;  // INOUT 목적 레벨의 도착 지점. 서버는 해석하지 않고 되돌려준다
+  optional string transition_id    = 7;  // OUT 2단계에서 쓸 전환 id
+  optional int32  transition_state = 8;  // OUT TransitionState (1 = 준비 중)
+  optional bool   is_indoor        = 9;  // OUT 목적 장소의 실내 여부
+}
+
+// 포탈 사용 — 2단계. 목적지 준비 결과를 보고하고 서버가 최종 위치·공간을 확정한다.
+// success=false 면 전환을 취소하고 출발 위치를 그대로 둔다.
+message PortalArrive {
+  string transition_id = 1;  // IN  1단계가 준 값
+  bool   success       = 2;  // IN  목적지 준비 성공 여부
+  int32  failure       = 3;  // IN  실패 사유 (클라 진단값 — 서버는 로그만 남긴다)
+  float  pos_x  = 4;  // INOUT 도착 좌표. IN 은 클라가 EntryPoint 에서 잡은 값, OUT 은 서버 확정
+  float  pos_y  = 5;  // INOUT
+  float  pos_z  = 6;  // INOUT
+  int32  facing = 7;  // INOUT FieldFacing
+  optional int32 transition_state = 8;   // OUT TransitionState (2 = 완료, 3 = 취소)
+  optional int32 area_id     = 9;   // OUT 확정 지역
+  optional int32 location_id = 10;  // OUT 확정 장소
+  optional bool  is_indoor   = 11;  // OUT 확정 실내 여부
+}
+
+// 건물 실내외 출입 · 방 이동. 레벨 로딩이 없어 한 번에 확정한다.
+// 문이 열린 것만으로는 보내지 않는다 — 실제로 출입이 일어났을 때만.
+message LocationMove {
+  int32  from_location_id = 1;  // IN  출발 장소 (서버가 아는 현재 장소와 달라야 한다면 거부)
+  int32  to_location_id   = 2;  // IN  도착 장소
+  int32  gate_id          = 3;  // IN  사용한 문·출입 경로 (0 = 미지정, 로그용)
+  string mutation_id      = 4;  // IN  재전송 멱등키 (UUID)
+  float  pos_x  = 5;  // INOUT 도착 좌표
+  float  pos_y  = 6;  // INOUT
+  float  pos_z  = 7;  // INOUT
+  int32  facing = 8;  // INOUT FieldFacing
+  optional int32 area_id     = 9;   // OUT 확정 지역
+  optional int32 location_id = 10;  // OUT 확정 장소
+  optional bool  is_indoor   = 11;  // OUT 확정 실내 여부
+}
+
+// 마지막 확정 위치 조회 (재접속 복원). 아무것도 바꾸지 않는다.
+// 열려 있던 전환이 만료됐으면 여기서 취소로 확정하고 그 사실을 함께 돌려준다.
+message LocationRestore {
+  string transition_id = 1;  // INOUT 확인할 전환 (없으면 빈 문자열). OUT 은 서버가 아는 전환
+  optional uint64 character_idx = 2;  // OUT 대상 캐릭터
+  optional int32  area_id       = 3;  // OUT 마지막 확정 지역
+  optional int32  location_id   = 4;  // OUT 마지막 확정 장소
+  optional float  pos_x         = 5;  // OUT
+  optional float  pos_y         = 6;  // OUT
+  optional float  pos_z         = 7;  // OUT
+  optional int32  facing        = 8;  // OUT FieldFacing
+  optional bool   is_indoor     = 9;  // OUT
+  optional int32  transition_state = 10;  // OUT TransitionState (0 = 없음, 3 = 취소됨)
+}
+
+// ── 퀘스트 푸시 ─────────────────────────────────────────────────────────────
+
+// 서버가 결과를 아는 사건(전투 종료·구매·창고·포획·직업·계약)으로 목표가 올랐을 때 본인에게만 온다.
+// response_data 에 그 퀘스트의 QuestProgressInfo 전체(목표 전부)가 실린다 — 일부 갱신은 없다.
+// Revision 이 응답·푸시 어디서든 단조 증가하므로 늦게 온 것은 버리면 된다.
+message SVR_Quest_Updated {
+  int32 quest_id = 1;  // OUT
+  int32 reason   = 2;  // OUT QuestUpdateReason (1 진행 · 2 완료 조건 충족 — 103 을 보내면 된다)
+}
+
+// ── 부활 거점 ───────────────────────────────────────────────────────────────
+
+// 부활 거점 등록. 휴식 지점(장소표 bRestPoint)에 서서 보낸다 — 서버가 장소·해금 퀘스트·위치를 검사한다.
+// 응답 response_data 는 RecoveryStatus(192)와 같은 RecoveryStatusResponse 다.
+message RecoveryPointRegister {
+  int32  location_id = 1;  // IN  등록할 장소 id (res_locationtable · bRestPoint). 기본 거점 9004002 도 받는다
+  string mutation_id = 2;  // IN  멱등 키 — 재전송이면 같은 값 (다시 쓰지 않고 현재 상태만 돌려준다)
+}
+
+// ── 직업 자원 (전투 스냅샷) ──────────────────────────────────────────────────
+
+// 전투원의 직업 자원 칸 하나. 자원 정의는 res_jobresourcetable (Resource_ID).
+message BattleResource {
+  int32 resource_id     = 1;  // OUT
+  int32 value           = 2;  // OUT 수치 (대상 자원은 중첩 수)
+  int32 max             = 3;  // OUT 상한 (0 = 없음). 문양은 3 + INT÷10 · 템포는 속도÷2
+  int32 remaining_turns = 4;  // OUT 약점 = 가장 먼저 사라질 중첩의 남은 턴 · 마크 = 3 − 안 쌓인 턴 · 그 밖 0
+}
+
+// 직업 상태 하나 (번아웃 · 지맥 붕괴). 시작 턴 ≤ 지금 턴 ≤ 끝 턴 이면 켜져 있다.
+message BattleJobState {
+  string name        = 1;  // OUT
+  int32  start_turn  = 2;  // OUT
+  int32  end_turn    = 3;  // OUT
+  int32  resource_id = 4;  // OUT 이 상태를 건 자원
+}
+
+// ── 진정 도전 (클라 판정 접수 — 서버 요청 4 (a), 2026-10-01) ────────────────
+
+// 진정 도전 시작 승인. 조우 장소에 서서 보낸다 — 서버가 퀘스트·목표·선행·장소를 검사하고 도전 id 를 준다.
+// 전투는 서버에 열리지 않는다 (클라가 진정을 로컬로 돈다). 다시 보내면 새 도전으로 덮는다 (10분 유효).
+message QuestCalmStart {
+  int32 quest_id     = 1;  // IN
+  int32 objective_id = 2;  // IN  NaiaCalmed 목표
+  optional string attempt_id = 3;  // OUT 도전 id — 결과 접수 때 그대로 보낸다
+}
+
+// 진정 결과 접수. success 면 그 목표가 오르고 SVR_Quest_Updated(104) 가 먼저 온다. 같은 도전은 한 번만.
+// 응답 response_data 는 QuestProgressInfo (104 와 같은 본문).
+message QuestCalmResult {
+  int32  quest_id     = 1;  // IN
+  int32  objective_id = 2;  // IN
+  string attempt_id   = 3;  // IN  QuestCalmStart 가 준 값
+  bool   success      = 4;  // IN  클라 판정 결과 (서버는 믿는다)
+}

@@ -1,0 +1,42 @@
+{
+  "name": "AshNaia",
+  "geometry": {
+    "vertices": 506,
+    "edges": 1041,
+    "polygons": 541,
+    "triangles": 1000,
+    "ngons": 0,
+    "loose_vertices": 0,
+    "loose_edges": 0,
+    "zero_length_edges": 0,
+    "boundary_edges": 0,
+    "wire_edges": 0,
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "invalid_face_normals": 0,
+    "non_finite_vertices": 0
+  },
+  "dimensions": [
+    2.6277480125427246,
+    3.0,
+    1.9887640476226807
+  ],
+  "components": [
+    {
+      "id": 0,
+      "faces": 87,
+      "diameter": 0.9534
+    },
+    {
+      "id": 1,
+      "faces": 368,
+      "diameter": 4.435
+    },
+    {
+      "id": 2,
+      "faces": 86,
+      "diameter": 0.9534
+    }
+  ],
+  "loops": []
+}

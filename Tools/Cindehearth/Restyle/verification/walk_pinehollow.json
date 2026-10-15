@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "route": "pinehollow",
+  "waypoints_reached": 5,
+  "total_waypoints": 5,
+  "final_pos": [
+    540.0,
+    -8504.821893509721,
+    52.399999141693115
+  ],
+  "samples": [
+    {
+      "seconds": 0.95,
+      "pos": [
+        540.0,
+        -4590.0,
+        52.4
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 3.3,
+      "pos": [
+        540.0,
+        -5384.9,
+        52.4
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 5.62,
+      "pos": [
+        540.0,
+        -6080.6,
+        52.4
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 7.95,
+      "pos": [
+        540.0,
+        -6754.8,
+        52.4
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 10.3,
+      "pos": [
+        540.0,
+        -7571.5,
+        52.4
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 12.62,
+      "pos": [
+        540.0,
+        -8388.2,
+        52.4
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    }
+  ]
+}

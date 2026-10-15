@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "output": "ARCHIVE FLOOR <Struct 'Vector' (0x000002C8A0B2B7B0) {x: 1395.000000, y: 350.000000, z: 29.000000}> <Struct 'FindFloorResult' (0x000002C9C22B9088) {blocking_hit: True, walkable_floor: True, line_trace: True, floor_dist: 4.550001, line_dist: -24.000000, hit_result: {}}>\nARCHIVE EXIT <Struct 'Vector' (0x000002C8A0B2B7B0) {x: 1300.000000, y: 292.500000, z: 215.000000}>",
+  "result": "None",
+  "warnings": [],
+  "execution_time_ms": 14.66150188446045
+}

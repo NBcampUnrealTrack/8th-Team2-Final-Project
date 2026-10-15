@@ -1,0 +1,2 @@
+[{"shot": "t00_fernbrook", "py": "to_fernbrook.py", "wait": 30.0, "frames": 120},
+ {"shot": "t01_end", "py": "trace.py", "wait": 72.0, "frames": 60}]

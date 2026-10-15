@@ -1,0 +1,24 @@
+{
+  "status": "finished",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWallsInset_Weld027.glb",
+  "assets": [
+    "/Game/Cindehearth/Dense_v004/Models/TavernWallsInset/CH_Dense_TavernWallsInset_Weld027/Materials/CH_Dense_TavernWalls_Stone_001.CH_Dense_TavernWalls_Stone_001",
+    "/Game/Cindehearth/Dense_v004/Models/TavernWallsInset/CH_Dense_TavernWallsInset_Weld027/StaticMeshes/CH_Dense_TavernWallsInset_Weld027.CH_Dense_TavernWallsInset_Weld027"
+  ],
+  "meshes": [
+    {
+      "path": "/Game/Cindehearth/Dense_v004/Models/TavernWallsInset/CH_Dense_TavernWallsInset_Weld027/StaticMeshes/CH_Dense_TavernWallsInset_Weld027.CH_Dense_TavernWallsInset_Weld027",
+      "triangles": 12,
+      "min": [
+        45.6718635559082,
+        -67.87092590332031,
+        25.03756332397461
+      ],
+      "max": [
+        53.35802459716797,
+        144.31871032714844,
+        101.08348083496094
+      ]
+    }
+  ]
+}

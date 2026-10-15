@@ -1,0 +1,977 @@
+{
+  "_units": "meters, world origin = landscape center, +X east (right in reference image), +Y north (up in reference image). Ground z ~ 1.0 m. Convert to cm (x100) for Unreal.",
+  "plateau": {
+    "half_size": 63.0,
+    "flat_half_size": 57.0,
+    "edge_blend": 3.0,
+    "drop_m": 9.0,
+    "corner_round": 10.0
+  },
+  "roads": [
+    {
+      "id": "main_street",
+      "layer": "Cobblestone",
+      "type": "line",
+      "from": [
+        0,
+        -62
+      ],
+      "to": [
+        0,
+        54
+      ],
+      "width": 4.4,
+      "verge_layer": "Dirt",
+      "verge_width": 5.9
+    },
+    {
+      "id": "plaza",
+      "layer": "Cobblestone",
+      "type": "circle",
+      "center": [
+        0,
+        36
+      ],
+      "radius": 7.0,
+      "verge_layer": "Dirt",
+      "verge_radius": 8.4
+    },
+    {
+      "id": "ew_north",
+      "layer": "Cobblestone",
+      "type": "line",
+      "from": [
+        -32,
+        36
+      ],
+      "to": [
+        34,
+        36
+      ],
+      "width": 3.6,
+      "verge_layer": "Dirt",
+      "verge_width": 5.1
+    },
+    {
+      "id": "ew_mid",
+      "layer": "Cobblestone",
+      "type": "line",
+      "from": [
+        -48,
+        9
+      ],
+      "to": [
+        50,
+        9
+      ],
+      "width": 3.6,
+      "verge_layer": "Dirt",
+      "verge_width": 5.1
+    },
+    {
+      "id": "ew_south",
+      "layer": "Dirt",
+      "type": "line",
+      "from": [
+        -46,
+        -18
+      ],
+      "to": [
+        48,
+        -18
+      ],
+      "width": 3.6
+    },
+    {
+      "id": "lane_west",
+      "layer": "Dirt",
+      "type": "line",
+      "from": [
+        -34,
+        9
+      ],
+      "to": [
+        -34,
+        40
+      ],
+      "width": 2.6
+    },
+    {
+      "id": "lane_east",
+      "layer": "Dirt",
+      "type": "line",
+      "from": [
+        38,
+        9
+      ],
+      "to": [
+        38,
+        40
+      ],
+      "width": 2.6
+    },
+    {
+      "id": "gate_apron",
+      "layer": "Cobblestone",
+      "type": "rect",
+      "min": [
+        -4.4,
+        -34
+      ],
+      "max": [
+        4.4,
+        -26
+      ],
+      "verge_layer": "Dirt",
+      "verge_margin": 1.0
+    }
+  ],
+  "houses": [
+    {
+      "id": "H_NW",
+      "mesh": "SM_House_B",
+      "center": [
+        -34,
+        44
+      ],
+      "facing": "S",
+      "scale": 1.3
+    },
+    {
+      "id": "H_N1",
+      "mesh": "SM_House_A",
+      "center": [
+        -11,
+        49
+      ],
+      "facing": "S",
+      "scale": 1.25
+    },
+    {
+      "id": "H_N2",
+      "mesh": "SM_House_A",
+      "center": [
+        16,
+        49
+      ],
+      "facing": "S",
+      "scale": 1.2
+    },
+    {
+      "id": "H_NE",
+      "mesh": "SM_House_B",
+      "center": [
+        38,
+        38
+      ],
+      "facing": "W",
+      "scale": 1.25
+    },
+    {
+      "id": "H_W",
+      "mesh": "SM_House_B",
+      "center": [
+        -43,
+        21
+      ],
+      "facing": "E",
+      "scale": 1.3
+    },
+    {
+      "id": "H_CW",
+      "mesh": "SM_House_A",
+      "center": [
+        -17,
+        21
+      ],
+      "facing": "S",
+      "scale": 1.25
+    },
+    {
+      "id": "H_INN",
+      "mesh": "SM_House_C",
+      "center": [
+        22,
+        19
+      ],
+      "facing": "S",
+      "scale": 1.25
+    },
+    {
+      "id": "H_E",
+      "mesh": "SM_House_A",
+      "center": [
+        43,
+        18
+      ],
+      "facing": "W",
+      "scale": 1.2
+    },
+    {
+      "id": "H_SW",
+      "mesh": "SM_House_B",
+      "center": [
+        -29,
+        1
+      ],
+      "facing": "N",
+      "scale": 1.25
+    },
+    {
+      "id": "H_SC",
+      "mesh": "SM_House_D",
+      "center": [
+        -15,
+        -2
+      ],
+      "facing": "N",
+      "scale": 1.3
+    },
+    {
+      "id": "H_SE",
+      "mesh": "SM_House_A",
+      "center": [
+        20,
+        -7
+      ],
+      "facing": "S",
+      "scale": 1.25
+    }
+  ],
+  "props": [
+    {
+      "id": "fountain",
+      "mesh": "SM_Fountain",
+      "pos": [
+        0,
+        36
+      ],
+      "yaw_facing": "S",
+      "scale": 4.2222,
+      "_actor_scale_world": 1.9
+    },
+    {
+      "id": "fountain_water",
+      "mesh": "SM_Fountain_Water",
+      "pos": [
+        0,
+        36
+      ],
+      "yaw_facing": "S",
+      "scale": 4.2222,
+      "_actor_scale_world": 1.9,
+      "_note": "must share the fountain transform exactly; material wired by the water stream"
+    },
+    {
+      "id": "well",
+      "mesh": "SM_Well",
+      "pos": [
+        48,
+        2
+      ],
+      "yaw_facing": "W",
+      "scale": 1.0
+    },
+    {
+      "id": "gate_L",
+      "mesh": "SM_Gate_Pillar",
+      "pos": [
+        -3.6,
+        -30
+      ],
+      "yaw_facing": "S",
+      "scale": 1.0
+    },
+    {
+      "id": "gate_R",
+      "mesh": "SM_Gate_Pillar",
+      "pos": [
+        3.6,
+        -30
+      ],
+      "yaw_facing": "S",
+      "scale": 1.0
+    },
+    {
+      "id": "banner_L",
+      "mesh": "SM_Banner_Post",
+      "pos": [
+        -6.0,
+        -31
+      ],
+      "yaw_facing": "S",
+      "scale": 1.0
+    },
+    {
+      "id": "banner_R",
+      "mesh": "SM_Banner_Post",
+      "pos": [
+        6.0,
+        -31
+      ],
+      "yaw_facing": "S",
+      "scale": 1.0
+    },
+    {
+      "id": "banner_plaza_L",
+      "mesh": "SM_Banner_Post",
+      "pos": [
+        -10,
+        31
+      ],
+      "yaw_facing": "S",
+      "scale": 0.9
+    },
+    {
+      "id": "banner_plaza_R",
+      "mesh": "SM_Banner_Post",
+      "pos": [
+        10,
+        31
+      ],
+      "yaw_facing": "S",
+      "scale": 0.9
+    },
+    {
+      "id": "signpost",
+      "mesh": "SM_Signpost",
+      "pos": [
+        4.2,
+        -22
+      ],
+      "yaw_facing": "S",
+      "scale": 1.0
+    },
+    {
+      "id": "garden_1",
+      "mesh": "SM_GardenPlot",
+      "pos": [
+        34,
+        -4
+      ],
+      "yaw_facing": "N",
+      "scale": 1.1
+    },
+    {
+      "id": "garden_2",
+      "mesh": "SM_GardenPlot",
+      "pos": [
+        40,
+        -4
+      ],
+      "yaw_facing": "N",
+      "scale": 1.1
+    },
+    {
+      "id": "garden_3",
+      "mesh": "SM_GardenPlot",
+      "pos": [
+        46,
+        -4
+      ],
+      "yaw_facing": "N",
+      "scale": 1.1
+    },
+    {
+      "id": "garden_4",
+      "mesh": "SM_GardenPlot",
+      "pos": [
+        37,
+        -9
+      ],
+      "yaw_facing": "N",
+      "scale": 1.1
+    },
+    {
+      "id": "garden_5",
+      "mesh": "SM_GardenPlot",
+      "pos": [
+        43,
+        -9
+      ],
+      "yaw_facing": "N",
+      "scale": 1.1
+    },
+    {
+      "id": "market_barrel_1",
+      "mesh": "SM_Barrel",
+      "pos": [
+        -29,
+        -11
+      ],
+      "yaw_facing": "S",
+      "scale": 1.0
+    },
+    {
+      "id": "market_barrel_2",
+      "mesh": "SM_Barrel",
+      "pos": [
+        -28.2,
+        -11.6
+      ],
+      "yaw_facing": "E",
+      "scale": 1.0
+    },
+    {
+      "id": "market_crate_1",
+      "mesh": "SM_Crate",
+      "pos": [
+        -30.5,
+        -11.8
+      ],
+      "yaw_facing": "S",
+      "scale": 1.0
+    },
+    {
+      "id": "market_crate_2",
+      "mesh": "SM_Crate",
+      "pos": [
+        -30.5,
+        -11.8
+      ],
+      "yaw_facing": "E",
+      "scale": 0.8,
+      "z_offset": 0.8
+    },
+    {
+      "id": "inn_barrel_1",
+      "mesh": "SM_Barrel",
+      "pos": [
+        30.5,
+        14.5
+      ],
+      "yaw_facing": "S",
+      "scale": 1.0
+    },
+    {
+      "id": "inn_barrel_2",
+      "mesh": "SM_Barrel",
+      "pos": [
+        31.3,
+        15.2
+      ],
+      "yaw_facing": "S",
+      "scale": 1.0
+    },
+    {
+      "id": "inn_crate",
+      "mesh": "SM_Crate",
+      "pos": [
+        29.5,
+        15.3
+      ],
+      "yaw_facing": "S",
+      "scale": 1.0
+    },
+    {
+      "id": "well_bucket_crate",
+      "mesh": "SM_Crate",
+      "pos": [
+        46,
+        4.2
+      ],
+      "yaw_facing": "S",
+      "scale": 0.8
+    }
+  ],
+  "lantern_posts": {
+    "main_street_x": [
+      -3.3,
+      3.3
+    ],
+    "main_street_y": [
+      -24,
+      -12,
+      0,
+      12,
+      24
+    ],
+    "plaza_ring": {
+      "center": [
+        0,
+        36
+      ],
+      "radius": 9.5,
+      "angles_deg": [
+        45,
+        135,
+        225,
+        315
+      ]
+    },
+    "extra": [
+      [
+        -34,
+        12
+      ],
+      [
+        38,
+        12
+      ],
+      [
+        -14,
+        38
+      ],
+      [
+        14,
+        38
+      ]
+    ]
+  },
+  "fences": [
+    {
+      "id": "garden_fence",
+      "type": "polyline",
+      "points": [
+        [
+          29,
+          -12
+        ],
+        [
+          51,
+          -12
+        ],
+        [
+          51,
+          3
+        ],
+        [
+          29,
+          3
+        ],
+        [
+          29,
+          -2
+        ]
+      ]
+    },
+    {
+      "id": "gate_fence_L",
+      "type": "polyline",
+      "points": [
+        [
+          -4.4,
+          -30
+        ],
+        [
+          -13,
+          -30
+        ]
+      ]
+    },
+    {
+      "id": "gate_fence_R",
+      "type": "polyline",
+      "points": [
+        [
+          4.4,
+          -30
+        ],
+        [
+          13,
+          -30
+        ]
+      ]
+    },
+    {
+      "id": "nw_yard",
+      "type": "polyline",
+      "points": [
+        [
+          -46,
+          38
+        ],
+        [
+          -46,
+          51
+        ],
+        [
+          -38,
+          51
+        ]
+      ]
+    },
+    {
+      "id": "n_yard",
+      "type": "polyline",
+      "points": [
+        [
+          -4,
+          45
+        ],
+        [
+          -4,
+          53
+        ],
+        [
+          8,
+          53
+        ]
+      ]
+    },
+    {
+      "id": "w_yard",
+      "type": "polyline",
+      "points": [
+        [
+          -49,
+          14
+        ],
+        [
+          -49,
+          28
+        ]
+      ]
+    },
+    {
+      "id": "inn_side",
+      "type": "polyline",
+      "points": [
+        [
+          31,
+          14
+        ],
+        [
+          31,
+          25
+        ]
+      ]
+    },
+    {
+      "id": "sw_yard",
+      "type": "polyline",
+      "points": [
+        [
+          -36,
+          -6
+        ],
+        [
+          -36,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "se_yard",
+      "type": "polyline",
+      "points": [
+        [
+          14,
+          -13
+        ],
+        [
+          27,
+          -13
+        ]
+      ]
+    }
+  ],
+  "stone_walls": [
+    {
+      "id": "wall_gate_L",
+      "type": "polyline",
+      "points": [
+        [
+          -3.6,
+          -28.5
+        ],
+        [
+          -3.6,
+          -12
+        ]
+      ]
+    },
+    {
+      "id": "wall_gate_R",
+      "type": "polyline",
+      "points": [
+        [
+          3.6,
+          -28.5
+        ],
+        [
+          3.6,
+          -12
+        ]
+      ]
+    },
+    {
+      "id": "wall_plaza_N",
+      "type": "polyline",
+      "points": [
+        [
+          -9,
+          44
+        ],
+        [
+          -3.5,
+          44
+        ]
+      ]
+    },
+    {
+      "id": "wall_plaza_N2",
+      "type": "polyline",
+      "points": [
+        [
+          3.5,
+          44
+        ],
+        [
+          9,
+          44
+        ]
+      ]
+    },
+    {
+      "id": "wall_west_lane",
+      "type": "polyline",
+      "points": [
+        [
+          -37,
+          12
+        ],
+        [
+          -37,
+          30
+        ]
+      ]
+    }
+  ],
+  "hedges": [
+    {
+      "id": "hedge_ne",
+      "type": "polyline",
+      "points": [
+        [
+          24,
+          41
+        ],
+        [
+          32,
+          41
+        ]
+      ]
+    },
+    {
+      "id": "hedge_nw",
+      "type": "polyline",
+      "points": [
+        [
+          -30,
+          39
+        ],
+        [
+          -22,
+          39
+        ]
+      ]
+    },
+    {
+      "id": "hedge_e",
+      "type": "polyline",
+      "points": [
+        [
+          36,
+          24
+        ],
+        [
+          36,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "hedge_s",
+      "type": "polyline",
+      "points": [
+        [
+          -12,
+          -15
+        ],
+        [
+          -6,
+          -15
+        ]
+      ]
+    },
+    {
+      "id": "hedge_s2",
+      "type": "polyline",
+      "points": [
+        [
+          6,
+          -15
+        ],
+        [
+          12,
+          -15
+        ]
+      ]
+    }
+  ],
+  "trees": {
+    "perimeter_zone": {
+      "outer_half": 56.0,
+      "inner_rect": [
+        -50,
+        -33,
+        52,
+        55
+      ],
+      "exclude_corridor_halfwidth": 7.0,
+      "spacing": 5.5,
+      "mix": {
+        "SM_Tree_A": 0.6,
+        "SM_Tree_B": 0.4
+      }
+    },
+    "interior_points": [
+      [
+        -24,
+        36,
+        "SM_Tree_A"
+      ],
+      [
+        5,
+        53,
+        "SM_Tree_B"
+      ],
+      [
+        30,
+        50,
+        "SM_Tree_A"
+      ],
+      [
+        -40,
+        8,
+        "SM_Tree_B"
+      ],
+      [
+        50,
+        28,
+        "SM_Tree_A"
+      ],
+      [
+        -8,
+        14,
+        "SM_Tree_B"
+      ],
+      [
+        12,
+        27,
+        "SM_Tree_B"
+      ],
+      [
+        -45,
+        -8,
+        "SM_Tree_A"
+      ],
+      [
+        48,
+        -14,
+        "SM_Tree_A"
+      ],
+      [
+        -22,
+        -24,
+        "SM_Tree_B"
+      ],
+      [
+        24,
+        -24,
+        "SM_Tree_B"
+      ],
+      [
+        -50,
+        44,
+        "SM_Tree_A"
+      ],
+      [
+        52,
+        46,
+        "SM_Tree_A"
+      ],
+      [
+        -3,
+        58,
+        "SM_Tree_B"
+      ],
+      [
+        40,
+        31,
+        "SM_Tree_B"
+      ]
+    ],
+    "bushes": {
+      "count": 90,
+      "spacing": 3.0
+    },
+    "rocks": {
+      "count": 40
+    }
+  },
+  "moss_zones": [
+    {
+      "type": "ring",
+      "inner_half": 46.0,
+      "outer_half": 63.0,
+      "weight": 0.9
+    },
+    {
+      "type": "rect",
+      "min": [
+        -50,
+        -33
+      ],
+      "max": [
+        52,
+        -20
+      ],
+      "weight": 0.55
+    }
+  ],
+  "cliff_rim": {
+    "half": 58.0,
+    "spacing": 3.0,
+    "corner_round": 10.0,
+    "rings": [
+      {
+        "z_offset_m": -4.2,
+        "half": 57.1,
+        "spacing": 2.6,
+        "scale": [
+          1.05,
+          1.25
+        ]
+      },
+      {
+        "z_offset_m": -4.4,
+        "half": 58.5,
+        "spacing": 2.9,
+        "scale": [
+          1.05,
+          1.35
+        ]
+      },
+      {
+        "z_offset_m": -8.6,
+        "half": 59.5,
+        "spacing": 3.2,
+        "scale": [
+          1.05,
+          1.4
+        ]
+      }
+    ],
+    "gaps": [
+      {
+        "axis": "south",
+        "half_width": 8.0,
+        "beyond": -50.0
+      }
+    ]
+  },
+  "world_scale": 0.45,
+  "_scale_note": "world_scale converts layout metres (human scale) to world size. Player sprite is 88 cm tall, so the village is authored at human scale and shrunk by this factor."
+}

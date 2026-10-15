@@ -1,0 +1,302 @@
+[
+  {
+    "job_id": "polish_forge_Overlap004",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_forge_Overlap004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Overlap004"
+  },
+  {
+    "job_id": "polish_forge_Overlap004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Overlap004"
+  },
+  {
+    "job_id": "polish_forge_Overlap004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Overlap004"
+  },
+  {
+    "job_id": "polish_forge_Overlap004",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "c68429e137bcafddfe695ab6aca6d2aa1585e93fcc2b97da9f26af042c8a2687",
+      "source": {
+        "object": {
+          "name": "CH_Polish_Forge_Game_v003",
+          "type": "MESH",
+          "data_name": "CH_Polish_Forge_Game_v003_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.3053247928619385,
+            3.0,
+            2.6599903106689453
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "c12ff4a016108acdb6dcbc00cdafe754dbfb19334a80fd5584972495389523d2",
+        "geometry": {
+          "vertices": 1132,
+          "edges": 2092,
+          "polygons": 1011,
+          "triangles": 1793,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 371,
+          "wire_edges": 0,
+          "non_manifold_edges": 2,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.1526623964309692,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            1.1526623964309692,
+            1.5,
+            2.6599903106689453
+          ],
+          "world_min": [
+            -1.1526623964309692,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            1.1526623964309692,
+            1.5,
+            2.6599903106689453
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_c1bd81e3"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "c1bd81e3_9972_4103_85ab_e9ad692cd3e3_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 3815,
+            "bounds_min": [
+              0.0005483595887199044,
+              0.0005437372019514441
+            ],
+            "bounds_max": [
+              0.9517611265182495,
+              0.9994627237319946
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Polish_Forge_Overlap004",
+          "type": "MESH",
+          "data_name": "CH_Polish_Forge_Overlap004_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.3053247928619385,
+            3.0,
+            2.6599903106689453
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "1f62644ec1d3fa46c65dbb1e940e2384cdf56d0cb0ad6c3373c2ce876277a8d1",
+        "geometry": {
+          "vertices": 1130,
+          "edges": 2088,
+          "polygons": 1009,
+          "triangles": 1791,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 367,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.1526623964309692,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            1.1526623964309692,
+            1.5,
+            2.6599903106689453
+          ],
+          "world_min": [
+            -1.1526623964309692,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            1.1526623964309692,
+            1.5,
+            2.6599903106689453
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_c1bd81e3"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "c1bd81e3_9972_4103_85ab_e9ad692cd3e3_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 3809,
+            "bounds_min": [
+              0.0005483595887199044,
+              0.0005437372019514441
+            ],
+            "bounds_max": [
+              0.9517611265182495,
+              0.9994627237319946
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "deleted_faces": 2
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Forge_Overlap004.blend"
+    }
+  }
+]

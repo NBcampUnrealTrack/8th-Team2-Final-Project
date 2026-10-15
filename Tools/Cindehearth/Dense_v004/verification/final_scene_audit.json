@@ -1,0 +1,186 @@
+{
+  "passed": true,
+  "actors": 3376,
+  "map": "/Game/Maps/L_Cindehearth",
+  "footprint_design_m": [
+    111,
+    120.6
+  ],
+  "physical_ue_m": [
+    49.95,
+    54.27
+  ],
+  "area_ratio": 0.4958,
+  "three_tier_z_cm": [
+    0,
+    157.5,
+    315
+  ],
+  "trees_3d_uniform": 95,
+  "connections": 106,
+  "cemetery_bank_parts": 16,
+  "tavern_inset_and_depot_recess_verified": true,
+  "new_visible_parts": 175,
+  "missing_materials": [],
+  "visible_p2_instances": {
+    "ClosedRoof": 3,
+    "Rock": 568,
+    "PineVolume": 95,
+    "Cart": 3,
+    "Hearth": 1,
+    "Wall": 199,
+    "Portal": 2,
+    "Table": 6,
+    "Noticeboard": 1,
+    "Bell": 1,
+    "Forge": 1,
+    "Anvil": 1,
+    "StoneNaia": 9,
+    "Desk": 3,
+    "Bed": 2,
+    "ToolRack": 26,
+    "Laundry": 4,
+    "AshNaia": 6,
+    "Barricade": 1,
+    "Grave": 30,
+    "ShelfOpen": 2,
+    "Crate": 95,
+    "Barrel": 25,
+    "Ridge": 169,
+    "Pulley": 1,
+    "RingLinks": 67,
+    "Hollowcore": 1,
+    "Tavern": 1,
+    "SmithyStructure": 5,
+    "SmithyRoof": 5,
+    "SmithyWalls": 5,
+    "TavernWallsInset": 1,
+    "TavernWallsFrame": 1
+  },
+  "blender_sources": [
+    {
+      "name": "Tavern",
+      "geometry": {
+        "vertices": 1943,
+        "edges": 3677,
+        "polygons": 1900,
+        "triangles": 3142,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 412,
+        "wire_edges": 0,
+        "non_manifold_edges": 0,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Tavern_Foundation014.glb"
+    },
+    {
+      "name": "TavernWallsInset",
+      "geometry": {
+        "vertices": 8,
+        "edges": 18,
+        "polygons": 12,
+        "triangles": 12,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 0,
+        "wire_edges": 0,
+        "non_manifold_edges": 0,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWallsInset_Weld027.glb"
+    },
+    {
+      "name": "TavernWallsFrame",
+      "geometry": {
+        "vertices": 24,
+        "edges": 42,
+        "polygons": 24,
+        "triangles": 36,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 0,
+        "wire_edges": 0,
+        "non_manifold_edges": 0,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWallsFrame_025.glb"
+    },
+    {
+      "name": "SmithyStructure",
+      "geometry": {
+        "vertices": 1105,
+        "edges": 2248,
+        "polygons": 1183,
+        "triangles": 1966,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 164,
+        "wire_edges": 0,
+        "non_manifold_edges": 0,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyStructure_Final018.glb"
+    },
+    {
+      "name": "SmithyRoof",
+      "geometry": {
+        "vertices": 670,
+        "edges": 1406,
+        "polygons": 726,
+        "triangles": 1236,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 124,
+        "wire_edges": 0,
+        "non_manifold_edges": 0,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyRoof_RearFar023.glb"
+    },
+    {
+      "name": "SmithyWalls",
+      "geometry": {
+        "vertices": 16,
+        "edges": 28,
+        "polygons": 16,
+        "triangles": 24,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 0,
+        "wire_edges": 0,
+        "non_manifold_edges": 0,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyWalls_Final016.glb"
+    }
+  ],
+  "pie": false,
+  "chapter": 0,
+  "night": false,
+  "material_check": "Loaded assets and creation receipts; no forced recompilation"
+}

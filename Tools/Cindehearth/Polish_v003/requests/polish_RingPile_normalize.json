@@ -1,0 +1,30 @@
+{
+  "source_object_name": "CH_Polish_RingPile_REF___tripo_node_833f7769",
+  "output_object_name": "CH_Polish_RingPile_Game_v003",
+  "operations": [
+    {
+      "type": "transform_object",
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "transform_vertices",
+      "scale": [
+        3.001465559355154,
+        3.001465559355154,
+        3.001465559355154
+      ],
+      "translation": [
+        -0.0,
+        -0.0,
+        0.5210063507572057
+      ]
+    },
+    {
+      "type": "delete_loose"
+    }
+  ]
+}

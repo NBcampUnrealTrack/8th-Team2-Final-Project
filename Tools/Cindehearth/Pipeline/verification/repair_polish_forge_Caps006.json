@@ -1,0 +1,28 @@
+[
+  {
+    "job_id": "polish_forge_Caps006",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_forge_Caps006",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps006"
+  },
+  {
+    "job_id": "polish_forge_Caps006",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps006"
+  },
+  {
+    "job_id": "polish_forge_Caps006",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_forge_Caps006"
+  },
+  {
+    "job_id": "polish_forge_Caps006",
+    "state": "failed",
+    "success": false,
+    "error": "No faces created",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 282, in <module>\n    result=run(json.loads(req.read_text(encoding='utf-8')))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 256, in run\n    changes['added_faces']=fill(bm,groups)\n                           ^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 77, in fill\n    assert fresh,'No faces created'\n           ^^^^^\nAssertionError: No faces created\n"
+  }
+]

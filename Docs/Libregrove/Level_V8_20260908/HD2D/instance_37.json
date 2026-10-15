@@ -1,0 +1,21 @@
+{
+  "source": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Materials/tripo_mat_dbfe09e0.tripo_mat_dbfe09e0",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_08_BroadleafTree_76350.MI_HD2D_LG_08_BroadleafTree_76350",
+  "kind": "Surface",
+  "scalars": {
+    "PixelGrid": 256.0,
+    "Roughness": 0.95,
+    "Metallic": 0.0
+  },
+  "vectors": {
+    "MaterialTint": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "textures": {
+    "BaseColorTexture": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Textures/LG_08_BroadleafTree_fbx_basecolor"
+  }
+}

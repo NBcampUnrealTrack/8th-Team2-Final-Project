@@ -1,0 +1,739 @@
+{
+  "status": "APPLIED_SAVED_RELOADED_WITH_REMAINING_ART_ITEMS",
+  "full_connection": "official Reddy project Full / signed probe confirmed",
+  "map": "/Game/Fernbrook/Entrance_V1/Maps/L_Fernbrook_Entrance.L_Fernbrook_Entrance",
+  "actor_count": 241,
+  "foliage_instances": 8981,
+  "original_instance_transforms_preserved": 8480,
+  "replaced_tree_instances": 824,
+  "added_groundcover_instances": 501,
+  "changed_existing_packages": [
+    "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Canopy.uasset",
+    "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Sapling.uasset",
+    "Content/Fernbrook/Entrance_V1/Maps/L_Fernbrook_Entrance.umap",
+    "Content/Fernbrook/Polish_V5/Models/FB07/StaticMeshes/SM_FB07_Wildflower_White_A_V5.uasset",
+    "Content/Fernbrook/Polish_V5/Models/FB08/StaticMeshes/SM_FB08_Wildflower_Cream_B_V5.uasset",
+    "Content/Fernbrook/Polish_V5/Models/FB09/StaticMeshes/SM_FB09_Broadleaf_Weed_A_V5.uasset",
+    "Content/Fernbrook/Polish_V5/Models/FB10/StaticMeshes/SM_FB10_Broadleaf_Weed_B_V5.uasset",
+    "Content/Fernbrook/Polish_V5/Models/FB11/StaticMeshes/SM_FB11_WoodBridge_V5.uasset",
+    "Content/Fernbrook/Polish_V5/Models/FB12/StaticMeshes/SM_FB12_Broadleaf_Asymmetric_V5.uasset",
+    "Content/Fernbrook/Polish_V5/Models/FB13/StaticMeshes/SM_FB13_Slender_OpenCanopy_V5.uasset"
+  ],
+  "new_packages": [
+    {
+      "path": "Content/Fernbrook/Polish_V5/Foliage/FT_FB07_Textured_V5.uasset",
+      "bytes": 11307,
+      "sha256": "350f00096a0ac6988f43acef3d5b4da7aa2761b980813333bf5945936ec4b811"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Foliage/FT_FB08_Textured_V5.uasset",
+      "bytes": 11188,
+      "sha256": "92089dab4e9eac3e90b7aa56aaf32f69f3eca62307f9145da73d1905beff16c4"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Foliage/FT_FB09_Textured_V5.uasset",
+      "bytes": 9162,
+      "sha256": "3b27e5c68aa4f69c8a01ad90113e0a1b9082bd8465facb8972a29a44c58db728"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Foliage/FT_FB10_Textured_V5.uasset",
+      "bytes": 9298,
+      "sha256": "dd5a0e4d6ffb44ef07c2f4cf98d6acd8e4b361e83db3b49d39cd055b06dcd88c"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB07_Textured_V5.uasset",
+      "bytes": 8882,
+      "sha256": "bfe600ce4d311833d01482f9ff04b5d2c9b92130d5bbfbd50b5ad5ccd779386d"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB08_Textured_V5.uasset",
+      "bytes": 8882,
+      "sha256": "dc353a4a05233ca0024fe86304eb99d9a4555dfcb65da7c13ea213d01280c66e"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB09_Textured_V5.uasset",
+      "bytes": 8882,
+      "sha256": "d3a009aa4122ac7609ce5040805611670b95b5f72b8072908243643a34fc9231"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB10_Textured_V5.uasset",
+      "bytes": 8882,
+      "sha256": "724392e215b27b7830e066428df8fd16305c181d07dd7a3757a6a6e3e5612cf1"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB11_Textured_V5.uasset",
+      "bytes": 8010,
+      "sha256": "27839ad112e101c3a9493aecbd3b258acb0db974396b044c43d54dca6a32a6ed"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB12_Textured_V5.uasset",
+      "bytes": 8157,
+      "sha256": "50e559c327994a05747a3c9ef8d63d6d36d8b9db6ae3f7492f16fac3e19f9861"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB13_Textured_V5.uasset",
+      "bytes": 8157,
+      "sha256": "a994a20bba0dcd7575de6ae6c561d00bfc86128dacc2eb7c87edbd2bcacac14c"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB5_BridgeStone.uasset",
+      "bytes": 14059,
+      "sha256": "57e39e6a6feb68cdad6823a32cb68ea98e1641da9c5f4782d4656eacce73c7b1"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB5_Vegetation_Controls.uasset",
+      "bytes": 11632,
+      "sha256": "719691219bfcfe0dc423bfef0b726937e30fd6c62e3f45daecc4e4f4892f563f"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB5_Wood_Controls.uasset",
+      "bytes": 10238,
+      "sha256": "f77cf78dac17d787874a04a48c872f78cf6b99c5f5db6ce2d38fd0fe4236b6a5"
+    }
+  ],
+  "protected_village_packages_unchanged": 709,
+  "source_backups_verified": 94,
+  "walk_results": {
+    "V5_Bridge_001": [
+      {
+        "route": "bridge_forward",
+        "passed": true,
+        "reason": "",
+        "reached": 17,
+        "total": 17
+      },
+      {
+        "route": "bridge_return",
+        "passed": true,
+        "reason": "",
+        "reached": 17,
+        "total": 17
+      },
+      {
+        "route": "entry_bridge_deep",
+        "passed": true,
+        "reason": "",
+        "reached": 24,
+        "total": 24
+      },
+      {
+        "route": "deep_bridge_return",
+        "passed": true,
+        "reason": "",
+        "reached": 24,
+        "total": 24
+      },
+      {
+        "route": "naia_glade",
+        "passed": true,
+        "reason": "",
+        "reached": 5,
+        "total": 5
+      }
+    ],
+    "V5_Final_002": [
+      {
+        "route": "bridge_forward",
+        "passed": true,
+        "reason": "",
+        "reached": 17,
+        "total": 17
+      },
+      {
+        "route": "bridge_return",
+        "passed": true,
+        "reason": "",
+        "reached": 17,
+        "total": 17
+      },
+      {
+        "route": "naia_glade",
+        "passed": true,
+        "reason": "",
+        "reached": 5,
+        "total": 5
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "path": "Preview/Game_Bridge_V5_Final_001.png",
+      "sha256": "8c97a88e0961940d2413cc60aa3e415bdb485905242a4e93ba756f3da947f6e5",
+      "native_unedited": true
+    },
+    {
+      "path": "Preview/Game_Entry_V5_Final_001.png",
+      "sha256": "e862d22ca472d65180c5ce247815e35b5da31a1401ef5148f2066c5b2d6b0812",
+      "native_unedited": true
+    },
+    {
+      "path": "Preview/Game_Naia_V5_Final_001.png",
+      "sha256": "8a84f671b650bc2efc710162322a13fee67cd48655daa59b98c264ee2d0de115",
+      "native_unedited": true
+    },
+    {
+      "path": "Preview/Bridge_East_Final_005.png",
+      "sha256": "8114587c263f68476eaa68dc1f545d88f26cd110e9261f8553f3c395e0fd8e75",
+      "native_unedited": true
+    },
+    {
+      "path": "Preview/Bridge_West_Final_005.png",
+      "sha256": "5368ae3826ba5c5f546b750cc40e7ceafebd350add9e40fa2c1d9f850e4957ec",
+      "native_unedited": true
+    },
+    {
+      "path": "Preview/Overview_V5_001.png",
+      "sha256": "ddfdae873d310b2953f0ee42b3b517f7069796c3ed100cbb61aae235cb557833",
+      "native_unedited": true
+    }
+  ],
+  "files": [
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Bush.uasset",
+      "bytes": 11491,
+      "sha256": "9791389b9d1f6ba3b803d08992bab530d1f5a18d00b3c8208f515ca67303a5b1"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Canopy.uasset",
+      "bytes": 9981,
+      "sha256": "eef73dbd9b786f2baea69ea0db75e79a3fead5382673015fdc61bf6056b6f21d"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Fern.uasset",
+      "bytes": 8138,
+      "sha256": "7042ed5c71ee29c783c617da09fdb39d09a55de30927a85d0efbd917b2770271"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Grass.uasset",
+      "bytes": 8294,
+      "sha256": "350b57a566332d2e04b1a9f6628cf5c21486585c0a1a368d9be7c5aab56004a7"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Rock.uasset",
+      "bytes": 10388,
+      "sha256": "3bf09aaec69d3a2dd721def455e6c688cc47e02655fa84d112919fe96a756500"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Sapling.uasset",
+      "bytes": 9365,
+      "sha256": "b40d92b58a156bb2a726cdd5ac1ad6cd11ad9e453af1b6fb4f9400f7ec320b11"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Landscape/LI_Cobblestone.uasset",
+      "bytes": 1662,
+      "sha256": "5c1a96f5e60cc845767921b82101867240e8004192151e83601f45200b08b69d"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Landscape/LI_Dirt.uasset",
+      "bytes": 1613,
+      "sha256": "6b562821f9ea9ab5ed8a09a11048286d9efd9b3ecc66b1c87d14219697a3144c"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Landscape/LI_Grass.uasset",
+      "bytes": 1620,
+      "sha256": "8f30b46b377e6332cabfa2d6a7fe3a75c4b2bbe8bb3b135d2dec47d67290670c"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Landscape/LI_Moss.uasset",
+      "bytes": 1613,
+      "sha256": "fd28e551ce06dc1acc548e24dba3636b98875558958155f234e1513231c1311e"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Maps/L_Fernbrook_Entrance.umap",
+      "bytes": 3756003,
+      "sha256": "45a100bba49b3f0a13b2f4c75ec06225baa95b21398b628f8ef2c255498a3e79"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB01_Textured.uasset",
+      "bytes": 12753,
+      "sha256": "961057a58ce74fa89b7cf595faf0ad7ae2f86a6c3a199a3e214d377c39ddf669"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB02_Textured.uasset",
+      "bytes": 11893,
+      "sha256": "33031909e664753ed1677d2e583eb64ef35d9923f73014f2f0fa23fb2f25e915"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB03_Textured.uasset",
+      "bytes": 11050,
+      "sha256": "e5c566705b033e96835e47928a99d17035fe77a4a05a2cf9d3e6728017beee13"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB04_Textured.uasset",
+      "bytes": 11035,
+      "sha256": "9035c117cabc9c3c8cb88cf71cb5432c57fdbfd89b77260d3376640dc44ee3c9"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB05_Textured.uasset",
+      "bytes": 11620,
+      "sha256": "4a91acad2e19ab5085b540c80fb1e382fd5b2b87447d85f104223d1e0fcfdfb0"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB06_Textured.uasset",
+      "bytes": 11326,
+      "sha256": "b6dec83f7a397363fb15da64650e053f2f0c6db509c8581a0141609875586632"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_Creek.uasset",
+      "bytes": 19074,
+      "sha256": "f99ffb34233bde3033f5170e523bd7ad6d9dfcdc1f54bf19baffd9958c84571c"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_ForestFloor.uasset",
+      "bytes": 24885,
+      "sha256": "a715cf3e8a4ce086243b8a18f2b21a6f567ba4250d575dbba1ecf474b6566aee"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_Leaf.uasset",
+      "bytes": 7698,
+      "sha256": "f5f8059c4bd2ba5093e1922656a68998a00a86c5dc4f3b54698d528ae8790bab"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_NaiaEyes.uasset",
+      "bytes": 12207,
+      "sha256": "45c2c2cb2426bfdcc6f9dbcd69fb7879956aac9ed9dda891a6b69163345d58e7"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_NaiaGlow.uasset",
+      "bytes": 12808,
+      "sha256": "d4278f8023dab5643f3904a08c8d158aa660100681ab8c7af234bd3b1451a813"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_Rock.uasset",
+      "bytes": 7704,
+      "sha256": "652e1a54ac3bfaaef28a0dddcea5e87388475d2af51d17ecb27d90b9ca208777"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_Sky.uasset",
+      "bytes": 11886,
+      "sha256": "b818c3103b6cc44fc0de16026f008d6d8348f07e6c361e3c7941762c94b06cae"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_Soil.uasset",
+      "bytes": 13577,
+      "sha256": "d86de24dd92910506388688d8b233c534bb63f462e91a13baa44fd92bd515ca9"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_Undergrowth.uasset",
+      "bytes": 13424,
+      "sha256": "b2f716afdd193cec3b5491fed4afa928d8613c2b99b2d19c4f8563d7147e2934"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_Wood.uasset",
+      "bytes": 15278,
+      "sha256": "f38f09a537b62e14c90e39c01a991e67bf1b1dc9c1d1d771358ada06189bff93"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/M_FB1_HD2D_Landscape_Stable.uasset",
+      "bytes": 85045,
+      "sha256": "b8893acaeb6085ed9529c02a0caf801d88bafcca4cea464101b82fe3a0f0edcf"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/M_FB1_HD2D_Sky.uasset",
+      "bytes": 32661,
+      "sha256": "ba0b8d101780b42ee76f287f46890585c83937c68614a5a8f7a93b5501bd84f6"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/M_FB1_HD2D_Surface.uasset",
+      "bytes": 32435,
+      "sha256": "2c600e0aaf626f9edca03db95f7646b37ae37c6331f56f0f53bd4e0f8bf76a74"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/M_FB1_HD2D_Water.uasset",
+      "bytes": 50602,
+      "sha256": "0e1312120b1fc826a8cbe0283729cc482bf3a2ef13e3d3154fdad006549c6d82"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/M_FB1_HD2D_WorldProps.uasset",
+      "bytes": 64450,
+      "sha256": "0d557ec4a61a0e611e2eee1d54c0df1c16ea8b663d68011b97b4fda122eb3392"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/MPC_FB1_HD2D.uasset",
+      "bytes": 3737,
+      "sha256": "a09879aaffc8a98ec64f639c305a3c9bcf8232fc1b5136b0f18132e5688056a7"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Auxiliary/Fern/Materials/M_FB1_Undergrowth_Preview.uasset",
+      "bytes": 53763,
+      "sha256": "30b3c754008691c07354ba04b0e47b08f45085fef4ff6ce01398c4016d5f7152"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Auxiliary/Fern/StaticMeshes/SM_FB1_Fern_V1.uasset",
+      "bytes": 44399,
+      "sha256": "00d09777c0663613129389ecb74397d3ae504da7898ea672e5b6cb861ab1e8bf"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Auxiliary/Grass/Materials/M_FB1_Undergrowth_Preview.uasset",
+      "bytes": 53782,
+      "sha256": "7c1b56385634c4e0a258da3a25cd6e2e8dc964bb89e1519684a7f8169a108643"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Auxiliary/Grass/StaticMeshes/SM_FB1_Grass_V1.uasset",
+      "bytes": 37586,
+      "sha256": "c6cc5297110b3a65e16e3b932ec053795c9fd91de7c4f5afe4a3861fe90bf727"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB01/Materials/tripo_mat_0a415c9b.uasset",
+      "bytes": 57987,
+      "sha256": "84ecfa7f1986be7905933c0af3a75d80f9f1411651136e336fe240ff27bef588"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB01/StaticMeshes/SM_FB01_TallBroadleafTree_V1.uasset",
+      "bytes": 214231,
+      "sha256": "4d0bef1babb01d8def35fd733565df6b9caa81c3eceeb5ea7799d7b77b9527ae"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB01/Textures/tripo_rgb_2fed9900-7493-42f9-a941-d330e64d801e.uasset",
+      "bytes": 3833898,
+      "sha256": "07962e9758202004d7a7a2e6a2046e10010f56b1f0c21c8d63e4f40a3d7bd10a"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB02/Materials/tripo_mat_8f88a159.uasset",
+      "bytes": 57394,
+      "sha256": "a6eb89fbc5732d3ee35a7bc92b517e751ed119d7ca3bbf4abfbfdcb6a2a89943"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB02/StaticMeshes/SM_FB02_HollowStump_V1.uasset",
+      "bytes": 98418,
+      "sha256": "d6d1455828e02017a5ebac87ded8049ebe89a6e57d159ee0a4a63cdda8acb7ba"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB02/Textures/tripo_rgb_410f3b54-728b-4b57-866e-6be4ce9cda7b.uasset",
+      "bytes": 2664341,
+      "sha256": "6571f2f0e32b1d5c002a34c25ba901bf980b826c0a697c529dc2fd854d565350"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB03/Materials/tripo_mat_dde091e8.uasset",
+      "bytes": 57405,
+      "sha256": "543f7cc0d96d8cc235db4dfc4d72f0d762ef48e59435d96d4b8c5bdeee36ff5c"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB03/StaticMeshes/SM_FB03_FallenLog_V1.uasset",
+      "bytes": 57617,
+      "sha256": "55603012edd156a308deab3fdc50c06a7092cd99e6679c11e45e87a868921965"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB03/Textures/tripo_rgb_029775d4-02ff-4ec5-9a7a-d1ce2bdffc07.uasset",
+      "bytes": 3183496,
+      "sha256": "adfc5be74220cb88f65bbbd29aafb733d0550407fc1987d7d01015dfd9c4076b"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB04/Materials/tripo_mat_c9816e88.uasset",
+      "bytes": 57466,
+      "sha256": "9d40339c127966564db17fd549af9c39daff05eb304691aa3f4edef732fe5528"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB04/StaticMeshes/SM_FB04_RootedBank_V1.uasset",
+      "bytes": 77375,
+      "sha256": "4321319b7ee66f54ffaad0ada046968c454d1b4f553596517cb23c17d7b31b24"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB04/Textures/tripo_rgb_dadd0eca-e047-4d58-a3fe-321ea119de72.uasset",
+      "bytes": 3385919,
+      "sha256": "8f588157ea1c36e31d2d6126b041aefddf9d304fb8fec4080335cc14fe4284eb"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB05/Materials/tripo_mat_e2fd79b2.uasset",
+      "bytes": 58003,
+      "sha256": "8a9e2727a478da1990f7fd82dae4cb351a2e40a515528696ddf46441a236969d"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB05/StaticMeshes/SM_FB05_WagonWheel_V1.uasset",
+      "bytes": 78262,
+      "sha256": "565aba4101331fe92791849548f182ac5ebf756871f285032885529b0310c0d9"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB05/Textures/tripo_rgb_ba7a4cfe-1a1a-40af-84b2-093c23f5023b.uasset",
+      "bytes": 2797158,
+      "sha256": "3ba37ac0e6ae8533c0ac7d5ae41646767a21db109c7b6d83b6d5d6ffd223c09f"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB06/Materials/tripo_mat_1a99507a.uasset",
+      "bytes": 57849,
+      "sha256": "bdcc6d1abaab651283372d0d9447983f1d415e34063e284c45daa7af138beac4"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB06/StaticMeshes/SM_FB06_ForestryAxe_V1.uasset",
+      "bytes": 76135,
+      "sha256": "2a9cd4f0d06b76d8d3aa4d41c7bd385857b9bf07a8b4211a4ea910c3320a362b"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB06/Textures/tripo_rgb_fbfeb13b-168b-440e-9d60-a2cdbd26154c.uasset",
+      "bytes": 2490436,
+      "sha256": "c69777e05ef50e7c176219caaa7870c23d755080d20bf4dacea7aa013c6dc58d"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Reuse/SM_FB1_Bush.uasset",
+      "bytes": 94594,
+      "sha256": "a0a8a624ae0e8a04bb74c0907294600fcec98d841c7904615f2790c88c43a43f"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Reuse/SM_FB1_Cliff_Block.uasset",
+      "bytes": 107688,
+      "sha256": "f6446780f42162fefc419fa225c17e53cca606948697bca526a4bd9d9ed87053"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Reuse/SM_FB1_Cliff_Corner.uasset",
+      "bytes": 110611,
+      "sha256": "cd8621a94ef351d9a0c78bf3bba784dca71fd60b39e3889e795f39e0e49dd8ee"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Reuse/SM_FB1_Rock_A.uasset",
+      "bytes": 84485,
+      "sha256": "136f9f73e942c6b392da2bd58a62db60c6cb8110b57784d92daaed13bea27fde"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Reuse/SM_FB1_Rock_B.uasset",
+      "bytes": 84192,
+      "sha256": "6bb3d35349a8644758ad1df6fb7b5d12c1b42d8a3214a8eb49097975d7732900"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Foliage/FT_FB2_BankGrass.uasset",
+      "bytes": 9273,
+      "sha256": "67d50c718882797c68cc9d0fa866f82122384ce071acef5a1d4034489601aeff"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Foliage/FT_FB2_DryGrass.uasset",
+      "bytes": 9281,
+      "sha256": "37f9b061fad62b820b3cf82277967e28d0a02d167c78996d638aa633069176a6"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Foliage/FT_FB2_ShadeFern.uasset",
+      "bytes": 9183,
+      "sha256": "aed3730fc45253a490cbad306fbfa227abcc000e8f2bd275a10078239c22f047"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Foliage/FT_FB2_TrailGrass.uasset",
+      "bytes": 9400,
+      "sha256": "43683e6df1c385b390aa9c419087325b733b1749ad78fffbf7f50e42826a7d1b"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Materials/M_FB2_HD2D_Tree.uasset",
+      "bytes": 35787,
+      "sha256": "7e331e3bc66546d564801b0413b9c85d115f9226da6cf01b183f8b0c8c6a5e29"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Materials/MI_FB2_BankGrass.uasset",
+      "bytes": 11590,
+      "sha256": "c713146e40ca1f7c32131e79ea44f76f7adefd8d88a96c1f4b16dda51e2f4500"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Materials/MI_FB2_DryGrass.uasset",
+      "bytes": 11584,
+      "sha256": "f7a881d320a1a0a3027a4c2dcea2663e5f5339a6aa6a7e8bd6890b6a503a853c"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Materials/MI_FB2_ShadeFern.uasset",
+      "bytes": 11590,
+      "sha256": "7662ba1de23d84c0c4e51e3d74ec0af9a08b1a910311a0081a46b1c1c0f94bda"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Materials/MI_FB2_TrailGrass.uasset",
+      "bytes": 11596,
+      "sha256": "4adea41e83c3e67e6a56e8acb45a3b9799bbc96093bf58cf8fe7812d65ea2eb2"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Materials/MI_FB2_Tree_Canopy.uasset",
+      "bytes": 13103,
+      "sha256": "cc06567772348da6e6fefae15b3014708409b317ad8648e58850e76e528aa927"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Materials/MI_FB2_Tree_Sapling.uasset",
+      "bytes": 13109,
+      "sha256": "4b643656ba7db73bffb2c839357207cb2698f0d934c32d32a44278a0a8ca3f9a"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V3/Materials/M_FB3_ClearCreek.uasset",
+      "bytes": 33556,
+      "sha256": "78d413d426b6aa15f696558bf5c3d803ebd7dd6a70e442cbb6a42b15f93f9fe5"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V3/Materials/MI_FB3_ClearCreek_Windows.uasset",
+      "bytes": 10389,
+      "sha256": "fca76f0057065cf27fe7de3eb6ec5fbc5a05b957f2bce9fe03a18c7306b99ed7"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Foliage/FT_FB07_Textured_V5.uasset",
+      "bytes": 11307,
+      "sha256": "350f00096a0ac6988f43acef3d5b4da7aa2761b980813333bf5945936ec4b811"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Foliage/FT_FB08_Textured_V5.uasset",
+      "bytes": 11188,
+      "sha256": "92089dab4e9eac3e90b7aa56aaf32f69f3eca62307f9145da73d1905beff16c4"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Foliage/FT_FB09_Textured_V5.uasset",
+      "bytes": 9162,
+      "sha256": "3b27e5c68aa4f69c8a01ad90113e0a1b9082bd8465facb8972a29a44c58db728"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Foliage/FT_FB10_Textured_V5.uasset",
+      "bytes": 9298,
+      "sha256": "dd5a0e4d6ffb44ef07c2f4cf98d6acd8e4b361e83db3b49d39cd055b06dcd88c"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB07_Textured_V5.uasset",
+      "bytes": 8882,
+      "sha256": "bfe600ce4d311833d01482f9ff04b5d2c9b92130d5bbfbd50b5ad5ccd779386d"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB08_Textured_V5.uasset",
+      "bytes": 8882,
+      "sha256": "dc353a4a05233ca0024fe86304eb99d9a4555dfcb65da7c13ea213d01280c66e"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB09_Textured_V5.uasset",
+      "bytes": 8882,
+      "sha256": "d3a009aa4122ac7609ce5040805611670b95b5f72b8072908243643a34fc9231"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB10_Textured_V5.uasset",
+      "bytes": 8882,
+      "sha256": "724392e215b27b7830e066428df8fd16305c181d07dd7a3757a6a6e3e5612cf1"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB11_Textured_V5.uasset",
+      "bytes": 8010,
+      "sha256": "27839ad112e101c3a9493aecbd3b258acb0db974396b044c43d54dca6a32a6ed"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB12_Textured_V5.uasset",
+      "bytes": 8157,
+      "sha256": "50e559c327994a05747a3c9ef8d63d6d36d8b9db6ae3f7492f16fac3e19f9861"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB13_Textured_V5.uasset",
+      "bytes": 8157,
+      "sha256": "a994a20bba0dcd7575de6ae6c561d00bfc86128dacc2eb7c87edbd2bcacac14c"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB5_BridgeStone.uasset",
+      "bytes": 14059,
+      "sha256": "57e39e6a6feb68cdad6823a32cb68ea98e1641da9c5f4782d4656eacce73c7b1"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB5_Vegetation_Controls.uasset",
+      "bytes": 11632,
+      "sha256": "719691219bfcfe0dc423bfef0b726937e30fd6c62e3f45daecc4e4f4892f563f"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB5_Wood_Controls.uasset",
+      "bytes": 10238,
+      "sha256": "f77cf78dac17d787874a04a48c872f78cf6b99c5f5db6ce2d38fd0fe4236b6a5"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB07/Materials/tripo_mat_dde72ec1.uasset",
+      "bytes": 59237,
+      "sha256": "026fcf02cb7edd96416facfc9fdd62d635e9f75e2c85860c348ea04ca0997f04"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB07/StaticMeshes/SM_FB07_Wildflower_White_A_V5.uasset",
+      "bytes": 88380,
+      "sha256": "f1c1ffc8c7982cd44129c119986e992361295b5d4dc15b0dbb0201de09e70e87"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB07/Textures/tripo_rgb_a5a448a9-0d00-4202-96e8-eafe0b59cb0a.uasset",
+      "bytes": 3287344,
+      "sha256": "518968351639b02fc39181ca74e97058099a6c67b8152f76f34a39b71e98d8d7"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB08/Materials/tripo_mat_01b034c2.uasset",
+      "bytes": 59163,
+      "sha256": "8c4babdbfac265ed707bf9cbf2a1cd1d59bace3d865e466bd6cc718ed2177be8"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB08/StaticMeshes/SM_FB08_Wildflower_Cream_B_V5.uasset",
+      "bytes": 78843,
+      "sha256": "49a725ab906a00b1c9020492f22e639b7b98c3d52e5ce094887d645c4e823b06"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB08/Textures/tripo_rgb_3e19aa52-6a07-4001-9043-18a42d1c584f.uasset",
+      "bytes": 3153392,
+      "sha256": "a29da861728945f6d8dc13eb4c15f1391fe8912d0994a03c85cd3a035b275983"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB09/Materials/tripo_mat_58de7363.uasset",
+      "bytes": 58459,
+      "sha256": "d0d2544f4dc8b6e61a2acca7b6baada3aad30260c99beeb244c518ac172eef9b"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB09/StaticMeshes/SM_FB09_Broadleaf_Weed_A_V5.uasset",
+      "bytes": 76259,
+      "sha256": "c0b9f2ac38dda4a1e93f59ae3c22d3e6378e22194cc1b927a135a8e1a195aaef"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB09/Textures/tripo_rgb_deebee7d-c62f-4f41-9ab7-aab3c20beb1b.uasset",
+      "bytes": 2643646,
+      "sha256": "14272647fdab9f885d2e3520919dcc7268b48129ce672dc26abe41ddffb76107"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB10/Materials/tripo_mat_4ccd1029.uasset",
+      "bytes": 58085,
+      "sha256": "b10e0f5fd88cff0511e985402fe9045152920cc153008a434bf8265bb043c047"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB10/StaticMeshes/SM_FB10_Broadleaf_Weed_B_V5.uasset",
+      "bytes": 80849,
+      "sha256": "36f2adb0c2eb1109bc083d5e8cbb98040296cf9f6d3f8a1d3fc72f38c69ba923"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB10/Textures/tripo_rgb_e03808b6-f95d-41e0-9003-6ea239af444e.uasset",
+      "bytes": 2778530,
+      "sha256": "6cc3d7103663b41b230c084a244076c98d733333888c77bc8c6b29bc43b52011"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB11/Materials/tripo_mat_573207f3.uasset",
+      "bytes": 57600,
+      "sha256": "1379ee3d290a5de4a2b8040ada45546ea6ef5a2b1ddd30f18e2481fbdca8fbf3"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB11/StaticMeshes/SM_FB11_WoodBridge_V5.uasset",
+      "bytes": 66440,
+      "sha256": "8036236209f59e87d2006f6482ceb23537952f9a9139e51be8cf86785c0635f9"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB11/Textures/tripo_rgb_8e392266-471e-4211-95d3-2c23da67ee8c.uasset",
+      "bytes": 2404362,
+      "sha256": "1bf04aac6554fec11e71c2ac26d0758650b2c6ab0a38276a7e36cfbbd1ced2a5"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB12/Materials/tripo_mat_c9ccb7b5.uasset",
+      "bytes": 58927,
+      "sha256": "59c5b44be7ff5055bc913d7f643c894d0c12896b948466591f302b343bda6499"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB12/StaticMeshes/SM_FB12_Broadleaf_Asymmetric_V5.uasset",
+      "bytes": 113028,
+      "sha256": "ca1229fb55e2f2d8747f30a452e054d67a11515a8c0bec841faeab9160f0d73f"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB12/Textures/tripo_rgb_6520990e-89f5-4cb5-b125-62df6765f97e.uasset",
+      "bytes": 4016002,
+      "sha256": "8fef0f1340232380a38bda8103a2a260ed7d1dcfa165ddcb70c859a05574d894"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB13/Materials/tripo_mat_31c88845.uasset",
+      "bytes": 58909,
+      "sha256": "732c926aa7940803141c851979a324ffea5c231b41e3fe222eaef9df48d3df2f"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB13/StaticMeshes/SM_FB13_Slender_OpenCanopy_V5.uasset",
+      "bytes": 99751,
+      "sha256": "9d22012baa950fd9529b410c8ed9b1731d332742fcd0b7b6866708ca83324eba"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB13/Textures/tripo_rgb_522c2565-6ceb-47f6-b1a4-a7f6bb5372fe.uasset",
+      "bytes": 4130706,
+      "sha256": "082324381833098f0cb9a40597266fc538f7baa056a2b70f52fd79113183aec6"
+    }
+  ],
+  "remaining": [
+    "Foreground trees occlude player/Naia at glade; not final art approval.",
+    "Only LOD0 retained; generated reduction LODs rejected for UV extrapolation.",
+    "Mobile cook, performance and packaged builds not tested.",
+    "No new gameplay/Naia interactions or runtime camera fade."
+  ],
+  "git_commit_or_push": false
+}

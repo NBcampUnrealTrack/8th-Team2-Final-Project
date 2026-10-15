@@ -1,0 +1,290 @@
+[
+  {
+    "job_id": "dense_arch_tavernwallsinset_Weld027",
+    "state": "running"
+  },
+  {
+    "job_id": "dense_arch_tavernwallsinset_Weld027",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_tavernwallsinset_Weld027"
+  },
+  {
+    "job_id": "dense_arch_tavernwallsinset_Weld027",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_tavernwallsinset_Weld027"
+  },
+  {
+    "job_id": "dense_arch_tavernwallsinset_Weld027",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "8c9bc8b69707755808fa284b3b1fe42c0d0a36a58b92f0181db2114589a4c09c",
+      "source": {
+        "object": {
+          "name": "CH_Dense_TavernWallsInset_Final026",
+          "type": "MESH",
+          "data_name": "CH_Dense_TavernWallsInset_Final026_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            0.07686161994934082,
+            2.121896266937256,
+            0.7604591846466064
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "1e872fd08a76d0c9e1acaea60990b7d7bb36ed349ccb1ff7eb11419427dd56b2",
+        "geometry": {
+          "vertices": 24,
+          "edges": 30,
+          "polygons": 12,
+          "triangles": 12,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 24,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            0.4567186236381531,
+            -1.4431871175765991,
+            0.2503756284713745
+          ],
+          "local_max": [
+            0.5335802435874939,
+            0.6787092685699463,
+            1.010834813117981
+          ],
+          "world_min": [
+            0.4567186236381531,
+            -1.4431871175765991,
+            0.2503756284713745
+          ],
+          "world_max": [
+            0.5335802435874939,
+            0.6787092685699463,
+            1.010834813117981
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "CH_Dense_TavernWalls_Stone.001"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 36,
+            "bounds_min": [
+              -1.4287933111190796,
+              -1.4287934303283691
+            ],
+            "bounds_max": [
+              2.4292001724243164,
+              2.4292001724243164
+            ],
+            "out_of_zero_one_range": 36,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Dense_TavernWallsInset_Weld027",
+          "type": "MESH",
+          "data_name": "CH_Dense_TavernWallsInset_Weld027_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            0.07686161994934082,
+            2.121896266937256,
+            0.7604591846466064
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "ec66623309e5ec267213a9848fdde20616455b58a7f0aa29533991473d4e93b4",
+        "geometry": {
+          "vertices": 8,
+          "edges": 18,
+          "polygons": 12,
+          "triangles": 12,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 0,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            0.4567186236381531,
+            -1.4431871175765991,
+            0.2503756284713745
+          ],
+          "local_max": [
+            0.5335802435874939,
+            0.6787092685699463,
+            1.010834813117981
+          ],
+          "world_min": [
+            0.4567186236381531,
+            -1.4431871175765991,
+            0.2503756284713745
+          ],
+          "world_max": [
+            0.5335802435874939,
+            0.6787092685699463,
+            1.010834813117981
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "CH_Dense_TavernWalls_Stone.001"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 36,
+            "bounds_min": [
+              -1.4287933111190796,
+              -1.4287934303283691
+            ],
+            "bounds_max": [
+              2.4292001724243164,
+              2.4292001724243164
+            ],
+            "out_of_zero_one_range": 36,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 100,
+          "blockers": [],
+          "warnings": [],
+          "requirements": {}
+        }
+      },
+      "changes": {},
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWallsInset_Weld027.blend"
+    }
+  }
+]

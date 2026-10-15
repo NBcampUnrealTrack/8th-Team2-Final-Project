@@ -1,0 +1,6 @@
+{
+  "old": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Terrain_5574e.MI_HD2D_LG8_Terrain_5574e",
+  "new": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Terrain_Stable.MI_HD2D_Terrain_Stable",
+  "master": "/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape_Stable",
+  "reason": "Inactive landscape layer blend can be scalar 0; float3 promotion fixes standalone shader permutations"
+}

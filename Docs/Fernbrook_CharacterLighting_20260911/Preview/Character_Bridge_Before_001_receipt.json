@@ -1,0 +1,12 @@
+{
+  "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Fernbrook_CharacterLighting_20260911\\Preview\\Character_Bridge_Before_001.png",
+  "sha256": "90082843a9e9f869a7a3ad3ee2561e32a3b0c9511b9f72c740f3305d5eaa43a5",
+  "live_camera": {
+    "success": true,
+    "output": "{\"camera\": [-1084.9999999999984, 46.55173280956433, 1184.149998664857], \"rotation\": [1.4690353290379085e-14, -30.0, 90.0], \"fov\": 38.0, \"pawn\": [-1085.0, 1692.0, 174.14999866485596], \"capsule_half_height\": 48.0, \"capsule_radius\": 24.0, \"grounded\": true, \"world\": \"/Game/Fernbrook/Entrance_V1/Maps/UEDPIE_0_L_Fernbrook_Entrance.L_Fernbrook_Entrance\"}",
+    "result": "None",
+    "warnings": [],
+    "execution_time_ms": 4.571300029754639
+  },
+  "method": "specific player controller HighResShot; actual game view"
+}

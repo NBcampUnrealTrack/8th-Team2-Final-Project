@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "route": "stairs",
+  "waypoints_reached": 3,
+  "total_waypoints": 3,
+  "samples": [
+    {
+      "seconds": 0.95,
+      "pos": [
+        -810.0,
+        -1890.0,
+        50.1
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    }
+  ]
+}

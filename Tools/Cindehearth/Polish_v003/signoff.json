@@ -1,0 +1,370 @@
+{
+  "status": "APPLIED_AND_VERIFIED",
+  "user_art_approval": false,
+  "date": "2026-09-05",
+  "map": "/Game/Maps/L_Cindehearth",
+  "pipeline": "Tripo P2 native quad / typed Blender cleanup and visual inspection / UE pixel material",
+  "generation_count": 24,
+  "accepted_bases": 23,
+  "rejected": [
+    "RingPile: cup-like sealed centers; replaced by RingLinks"
+  ],
+  "credits_consumed": 2640,
+  "remaining_credits": 1780.0,
+  "scene": {
+    "passed": true,
+    "map": "/Game/Maps/L_Cindehearth",
+    "actors": 3195,
+    "visible_polish_mesh_actors": 711,
+    "instances": {
+      "Hearth": 1,
+      "Wall": 248,
+      "Portal": 2,
+      "Table": 5,
+      "Noticeboard": 1,
+      "Bell": 1,
+      "Forge": 1,
+      "Anvil": 1,
+      "StoneNaia": 9,
+      "Desk": 3,
+      "Bed": 2,
+      "ToolRack": 17,
+      "Laundry": 4,
+      "AshNaia": 6,
+      "Barricade": 1,
+      "Grave": 30,
+      "ShelfOpen": 2,
+      "Crate": 81,
+      "Barrel": 14,
+      "Ridge": 161,
+      "Pulley": 1,
+      "RingLinks": 67,
+      "Hollowcore": 1,
+      "Rock_v002_reused": 49
+    },
+    "accepted_p2_bases": 23,
+    "trees_3d_uniform": 95,
+    "old_crate_barrel_visible": [],
+    "missing_materials": [],
+    "structural_ground": [
+      "CH_P3_BackgroundBedrock",
+      "CH_P3_DepotFloor",
+      "CH_P3_ChamberFloor"
+    ],
+    "chapter": 0,
+    "night": false,
+    "pie": false,
+    "compile_check": "Persisted asset load and creation receipts; no hot forced recompilation"
+  },
+  "gameplay": {
+    "passed": true,
+    "routes": [
+      {
+        "route": "rail",
+        "passed": true
+      },
+      {
+        "route": "cemetery",
+        "passed": true
+      },
+      {
+        "route": "ashslope",
+        "passed": true
+      },
+      {
+        "route": "deepvein",
+        "passed": true
+      },
+      {
+        "route": "pinehollow",
+        "passed": true
+      },
+      {
+        "route": "gorm",
+        "passed": true
+      }
+    ],
+    "archive": true,
+    "epilogue": true,
+    "camera": true
+  },
+  "states": {
+    "passed": true,
+    "states": [
+      {
+        "quest": 0,
+        "visible_barriers": 2,
+        "visible_cocoon_parts": 20,
+        "mood": "Lively"
+      },
+      {
+        "quest": 7,
+        "visible_barriers": 2,
+        "visible_cocoon_parts": 20,
+        "mood": "Lively"
+      },
+      {
+        "quest": 8,
+        "visible_barriers": 0,
+        "visible_cocoon_parts": 20,
+        "mood": "Lively"
+      },
+      {
+        "quest": 9,
+        "visible_barriers": 0,
+        "visible_cocoon_parts": 20,
+        "mood": "Hushed"
+      },
+      {
+        "quest": 11,
+        "visible_barriers": 0,
+        "visible_cocoon_parts": 0,
+        "mood": "Hushed"
+      },
+      {
+        "quest": 12,
+        "visible_barriers": 0,
+        "visible_cocoon_parts": 0,
+        "mood": "Recovered"
+      }
+    ],
+    "q7_unique_clue_actors": 5
+  },
+  "player_captures": [
+    {
+      "name": "square",
+      "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Polish_v003/verification/player_square.png",
+      "actual_game_view": true,
+      "position": [
+        0.2565817068548313,
+        -2254.4418947802324,
+        1157.789414722243
+      ],
+      "fov": 32.0
+    },
+    {
+      "name": "square_night",
+      "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Polish_v003/verification/player_square_night.png",
+      "actual_game_view": true,
+      "position": [
+        0.0,
+        -2253.246352776965,
+        1157.8483457454047
+      ],
+      "fov": 32.0
+    },
+    {
+      "name": "homes",
+      "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Polish_v003/verification/player_homes.png",
+      "actual_game_view": true,
+      "position": [
+        -1029.6211431417019,
+        -3802.6762283785547,
+        997.7072734346204
+      ],
+      "fov": 32.0
+    },
+    {
+      "name": "logging",
+      "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Polish_v003/verification/player_logging.png",
+      "actual_game_view": true,
+      "position": [
+        -900.0478168254917,
+        -8591.484486668465,
+        997.6483483203253
+      ],
+      "fov": 32.0
+    },
+    {
+      "name": "depot",
+      "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Polish_v003/verification/player_depot.png",
+      "actual_game_view": true,
+      "position": [
+        539.4707392281912,
+        4332.001326542834,
+        1132.5987382262203
+      ],
+      "fov": 32.0
+    },
+    {
+      "name": "cocoon",
+      "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Polish_v003/verification/player_cocoon.png",
+      "actual_game_view": true,
+      "position": [
+        539.9999962662505,
+        7245.683252449532,
+        952.7145563621489
+      ],
+      "fov": 32.0
+    }
+  ],
+  "models": [
+    {
+      "name": "Anvil",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Anvil_Caps005.blend",
+      "object": "CH_Polish_Anvil_Caps005",
+      "triangles": 937,
+      "open_boundary_edges": 19
+    },
+    {
+      "name": "AshNaia",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_AshNaia_Game_v003.blend",
+      "object": "CH_Polish_AshNaia_Game_v003",
+      "triangles": 1000,
+      "open_boundary_edges": 0
+    },
+    {
+      "name": "Barrel",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Barrel_Closed004.blend",
+      "object": "CH_Polish_Barrel_Closed004",
+      "triangles": 778,
+      "open_boundary_edges": 0
+    },
+    {
+      "name": "Barricade",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Barricade_Caps005.blend",
+      "object": "CH_Polish_Barricade_Caps005",
+      "triangles": 720,
+      "open_boundary_edges": 28
+    },
+    {
+      "name": "Bed",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Bed_Closed004.blend",
+      "object": "CH_Polish_Bed_Closed004",
+      "triangles": 1302,
+      "open_boundary_edges": 0
+    },
+    {
+      "name": "Bell",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Bell_Closed004.blend",
+      "object": "CH_Polish_Bell_Closed004",
+      "triangles": 1274,
+      "open_boundary_edges": 0
+    },
+    {
+      "name": "Crate",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Crate_Caps004.blend",
+      "object": "CH_Polish_Crate_Caps004",
+      "triangles": 431,
+      "open_boundary_edges": 43
+    },
+    {
+      "name": "Desk",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Desk_Caps004.blend",
+      "object": "CH_Polish_Desk_Caps004",
+      "triangles": 1600,
+      "open_boundary_edges": 54
+    },
+    {
+      "name": "Forge",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Forge_Caps008.blend",
+      "object": "CH_Polish_Forge_Caps008",
+      "triangles": 2002,
+      "open_boundary_edges": 76
+    },
+    {
+      "name": "Grave",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Grave_Closed004.blend",
+      "object": "CH_Polish_Grave_Closed004",
+      "triangles": 966,
+      "open_boundary_edges": 0
+    },
+    {
+      "name": "Hearth",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Hearth_Closed005.blend",
+      "object": "CH_Polish_Hearth_Closed005",
+      "triangles": 1974,
+      "open_boundary_edges": 0
+    },
+    {
+      "name": "Hollowcore",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Hollowcore_Caps006.blend",
+      "object": "CH_Polish_Hollowcore_Caps006",
+      "triangles": 2715,
+      "open_boundary_edges": 111
+    },
+    {
+      "name": "Laundry",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Laundry_Caps004.blend",
+      "object": "CH_Polish_Laundry_Caps004",
+      "triangles": 1328,
+      "open_boundary_edges": 26
+    },
+    {
+      "name": "Noticeboard",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Noticeboard_Caps004.blend",
+      "object": "CH_Polish_Noticeboard_Caps004",
+      "triangles": 1173,
+      "open_boundary_edges": 29
+    },
+    {
+      "name": "Portal",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Portal_Caps004.blend",
+      "object": "CH_Polish_Portal_Caps004",
+      "triangles": 2420,
+      "open_boundary_edges": 0
+    },
+    {
+      "name": "Pulley",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Pulley_Caps006.blend",
+      "object": "CH_Polish_Pulley_Caps006",
+      "triangles": 2155,
+      "open_boundary_edges": 245
+    },
+    {
+      "name": "Ridge",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Ridge_BaseCaps008.blend",
+      "object": "CH_Polish_Ridge_BaseCaps008",
+      "triangles": 1900,
+      "open_boundary_edges": 132
+    },
+    {
+      "name": "RingLinks",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_RingLinks_Caps005.blend",
+      "object": "CH_Polish_RingLinks_Caps005",
+      "triangles": 3218,
+      "open_boundary_edges": 12
+    },
+    {
+      "name": "Shelf",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Shelf_Open006.blend",
+      "object": "CH_Polish_Shelf_Open006",
+      "triangles": 1486,
+      "open_boundary_edges": 218
+    },
+    {
+      "name": "StoneNaia",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_StoneNaia_Closed005.blend",
+      "object": "CH_Polish_StoneNaia_Closed005",
+      "triangles": 1760,
+      "open_boundary_edges": 0
+    },
+    {
+      "name": "Table",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Table_Caps004.blend",
+      "object": "CH_Polish_Table_Caps004",
+      "triangles": 1224,
+      "open_boundary_edges": 20
+    },
+    {
+      "name": "ToolRack",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_ToolRack_Caps004.blend",
+      "object": "CH_Polish_ToolRack_Caps004",
+      "triangles": 992,
+      "open_boundary_edges": 4
+    },
+    {
+      "name": "Wall",
+      "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Wall_Closed004.blend",
+      "object": "CH_Polish_Wall_Closed004",
+      "triangles": 1458,
+      "open_boundary_edges": 0
+    }
+  ],
+  "limitations": [
+    "Open boundaries on overlapping decorative patches, intentionally open chimney/shelf structures and buried rock undersides remain; not a claim that every source is watertight.",
+    "Gameplay floors, rails, stairs and structural gable backing remain purpose-built geometry.",
+    "PC performance/cook/package and human art approval are not included in this pass."
+  ],
+  "backup": "Saved/CindehearthPolishBackup/20260905_v003/L_Cindehearth.umap"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "tool": "blender_save_copy",
+    "arguments": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Ridge_Game_v003.blend",
+      "overwrite": false
+    },
+    "request_id": 216936996400934
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"216936996400934\",\n    \"command\": \"file.save_copy\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "216936996400934",
+        "command": "file.save_copy",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"216936996400934\",\n    \"command\": \"file.save_copy\",\n    \"state\": \"finished\",\n    \"created_at\": 1788594959.4602706,\n    \"finished_at\": 1788594959.6165085,\n    \"result\": {\n      \"path\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Polish_v003\\\\CH_Polish_Ridge_Game_v003.blend\",\n      \"bytes\": 10125556,\n      \"copy\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "216936996400934",
+        "command": "file.save_copy",
+        "state": "finished",
+        "created_at": 1788594959.4602706,
+        "finished_at": 1788594959.6165085,
+        "result": {
+          "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Ridge_Game_v003.blend",
+          "bytes": 10125556,
+          "copy": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

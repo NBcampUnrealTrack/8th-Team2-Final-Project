@@ -1,0 +1,30 @@
+{
+  "source_object_name": "CH_PineVolume_REF___tripo_node_798ff027",
+  "output_object_name": "CH_PineVolume_Game_v003",
+  "operations": [
+    {
+      "type": "transform_object",
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "transform_vertices",
+      "scale": [
+        2.7013190034196386,
+        2.7013190034196386,
+        2.7013190034196386
+      ],
+      "translation": [
+        -0.0,
+        -0.0,
+        1.35
+      ]
+    },
+    {
+      "type": "delete_loose"
+    }
+  ]
+}

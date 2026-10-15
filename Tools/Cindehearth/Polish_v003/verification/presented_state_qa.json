@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "states": [
+    {
+      "quest": 0,
+      "visible_barriers": 2,
+      "visible_cocoon_parts": 20,
+      "mood": "Lively"
+    },
+    {
+      "quest": 7,
+      "visible_barriers": 2,
+      "visible_cocoon_parts": 20,
+      "mood": "Lively"
+    },
+    {
+      "quest": 8,
+      "visible_barriers": 0,
+      "visible_cocoon_parts": 20,
+      "mood": "Lively"
+    },
+    {
+      "quest": 9,
+      "visible_barriers": 0,
+      "visible_cocoon_parts": 20,
+      "mood": "Hushed"
+    },
+    {
+      "quest": 11,
+      "visible_barriers": 0,
+      "visible_cocoon_parts": 0,
+      "mood": "Hushed"
+    },
+    {
+      "quest": 12,
+      "visible_barriers": 0,
+      "visible_cocoon_parts": 0,
+      "mood": "Recovered"
+    }
+  ],
+  "q7_unique_clue_actors": 5
+}

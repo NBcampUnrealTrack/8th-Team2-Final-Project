@@ -1,0 +1,130 @@
+{
+  "date": "2026-09-27",
+  "tool": "built-in image_gen",
+  "consumer": "/Game/Developers/MinkiCho/UI/CharacterMenu/WBP_CharacterMenuBase:ProfileJobEmblemSwitcher",
+  "behavior": "Index 0 Novice fallback; current base JobKey chooses JobEmblem_<JobKey>; advancement keeps parent emblem. Original reference sheets unchanged.",
+  "emblems": [
+    {
+      "key": "Novice",
+      "source": "ArtSource/UI/JobEmblems_20260927/T_JobEmblem_Novice.png",
+      "asset": "/Game/Developers/MinkiCho/Art/CharacterMenu/JobEmblems/T_JobEmblem_Novice",
+      "reference": "/Game/Developers/MinkiCho/Art/추적자_시안",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "bounds": [
+        177,
+        234,
+        1077,
+        1018
+      ],
+      "sha256": "ce7af8bfa6a9eb8eea7082fa3700b4d07eac3382b2164e58c2d9e04347e9315f",
+      "prompt": "Create ONE production-ready transparent UI class EMBLEM, using the attached full character concept sheet only as a reference for the small crest described below. Do not reproduce the sheet. Create a NEW NOVICE adventurer emblem in the same fine fantasy heraldic style: a simple open book with two gracefully curved pages at bottom center, a small upright four-point guiding star above the book, and an incomplete thin circular arc suggesting an unexplored horizon. No trees, card suits, swords, magic fire or crescent moons. It should feel like an unassigned beginner embarking on an adventure, simpler than the specialized class crests. Output exactly one centered isolated emblem on a SQUARE canvas, artwork occupying about 76% of both axes, with generous equal transparent padding. Use a uniform flat warm ivory (#F0E6CC) silhouette/linework and a REAL transparent alpha background in an RGBA PNG. All spaces between strokes are fully transparent, not navy or white. Clean crisp polished fantasy game heraldry, balanced visual weight and medium-fine strokes robust at 112px display, with enough simplified detail to read clearly. No text, no letters, no words, no numbers, no class title, no NAIA UNBOUND caption, no motto, no labels, no separate frame, no gradients, no shadow, no glow, no character, no illustrated background, no checkerboard drawing. Preserve the recognizable reference crest while cleaning incidental distressed edges. This is an icon asset for Unreal UMG, not a mockup."
+    },
+    {
+      "key": "NaiaKnight",
+      "source": "ArtSource/UI/JobEmblems_20260927/T_JobEmblem_NaiaKnight.png",
+      "asset": "/Game/Developers/MinkiCho/Art/CharacterMenu/JobEmblems/T_JobEmblem_NaiaKnight",
+      "reference": "/Game/Developers/MinkiCho/Art/나이아나이트_시안",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "bounds": [
+        53,
+        227,
+        1201,
+        1053
+      ],
+      "sha256": "c781d4230b9d8f85fe9567081f01c2f6261f1c1e034e2b58aee39f26dcaf75d6",
+      "prompt": "Create ONE production-ready transparent UI class EMBLEM, using the attached full character concept sheet only as a reference for the small crest described below. Do not reproduce the sheet. Match the NAIA KNIGHT emblem in the BOTTOM RIGHT logo panel: a symmetrical elongated four-point guardian star with interlaced pointed leaf/knotwork around its center, a slender horizontal sword/guard flourish beneath and two small side stars. Keep the distinctive elegant guardian-star silhouette. Output exactly one centered isolated emblem on a SQUARE canvas, artwork occupying about 76% of both axes, with generous equal transparent padding. Use a uniform flat warm ivory (#F0E6CC) silhouette/linework and a REAL transparent alpha background in an RGBA PNG. All spaces between strokes are fully transparent, not navy or white. Clean crisp polished fantasy game heraldry, balanced visual weight and medium-fine strokes robust at 112px display, with enough simplified detail to read clearly. No text, no letters, no words, no numbers, no class title, no NAIA UNBOUND caption, no motto, no labels, no separate frame, no gradients, no shadow, no glow, no character, no illustrated background, no checkerboard drawing. Preserve the recognizable reference crest while cleaning incidental distressed edges. This is an icon asset for Unreal UMG, not a mockup."
+    },
+    {
+      "key": "Tracker",
+      "source": "ArtSource/UI/JobEmblems_20260927/T_JobEmblem_Tracker.png",
+      "asset": "/Game/Developers/MinkiCho/Art/CharacterMenu/JobEmblems/T_JobEmblem_Tracker",
+      "reference": "/Game/Developers/MinkiCho/Art/추적자_시안",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "bounds": [
+        48,
+        182,
+        1206,
+        999
+      ],
+      "sha256": "89b531b5885607aa93622db08a85bf123f05fbac4a75cd9349c490e3376afb89",
+      "prompt": "Create ONE production-ready transparent UI class EMBLEM, using the attached full character concept sheet only as a reference for the small crest described below. Do not reproduce the sheet. Match the TRACKER emblem in the BOTTOM RIGHT logo panel: five evergreen fir trees inside an open circular compass ring, a narrow pointed compass needle/star at top center and a small leafy branch on each lower side. Keep the trees legible and the circular forest-compass silhouette. Output exactly one centered isolated emblem on a SQUARE canvas, artwork occupying about 76% of both axes, with generous equal transparent padding. Use a uniform flat warm ivory (#F0E6CC) silhouette/linework and a REAL transparent alpha background in an RGBA PNG. All spaces between strokes are fully transparent, not navy or white. Clean crisp polished fantasy game heraldry, balanced visual weight and medium-fine strokes robust at 112px display, with enough simplified detail to read clearly. No text, no letters, no words, no numbers, no class title, no NAIA UNBOUND caption, no motto, no labels, no separate frame, no gradients, no shadow, no glow, no character, no illustrated background, no checkerboard drawing. Preserve the recognizable reference crest while cleaning incidental distressed edges. This is an icon asset for Unreal UMG, not a mockup."
+    },
+    {
+      "key": "Elementalist",
+      "source": "ArtSource/UI/JobEmblems_20260927/T_JobEmblem_Elementalist.png",
+      "asset": "/Game/Developers/MinkiCho/Art/CharacterMenu/JobEmblems/T_JobEmblem_Elementalist",
+      "reference": "/Game/Developers/MinkiCho/Art/엘ㄹ리멘탈리스트_시안",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "bounds": [
+        81,
+        139,
+        1173,
+        1106
+      ],
+      "sha256": "df95078b53f79a9ed92a809575e1eae1e8e75000250f14470ae86dfedf5b9d14",
+      "prompt": "Create ONE production-ready transparent UI class EMBLEM, using the attached full character concept sheet only as a reference for the small crest described below. Do not reproduce the sheet. Match the ELEMENTALIST emblem in the BOTTOM RIGHT logo panel: central eight-point magical star inside concentric broken magic circles, four fine cardinal spear points, an elegant flame curl at left and right. Convert the blue fire to the SAME flat ivory as all other lines; no glow, no blue gradient. Output exactly one centered isolated emblem on a SQUARE canvas, artwork occupying about 76% of both axes, with generous equal transparent padding. Use a uniform flat warm ivory (#F0E6CC) silhouette/linework and a REAL transparent alpha background in an RGBA PNG. All spaces between strokes are fully transparent, not navy or white. Clean crisp polished fantasy game heraldry, balanced visual weight and medium-fine strokes robust at 112px display, with enough simplified detail to read clearly. No text, no letters, no words, no numbers, no class title, no NAIA UNBOUND caption, no motto, no labels, no separate frame, no gradients, no shadow, no glow, no character, no illustrated background, no checkerboard drawing. Preserve the recognizable reference crest while cleaning incidental distressed edges. This is an icon asset for Unreal UMG, not a mockup."
+    },
+    {
+      "key": "Gambler",
+      "source": "ArtSource/UI/JobEmblems_20260927/T_JobEmblem_Gambler.png",
+      "asset": "/Game/Developers/MinkiCho/Art/CharacterMenu/JobEmblems/T_JobEmblem_Gambler",
+      "reference": "/Game/Developers/MinkiCho/Art/겜블러_시안",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "bounds": [
+        42,
+        138,
+        1214,
+        1101
+      ],
+      "sha256": "b4edc8e0d00c8e12c98116fad0dbfbff0f9d3e71ae9ac0eee43729bf3d4855fe",
+      "prompt": "Create ONE production-ready transparent UI class EMBLEM, using the attached full character concept sheet only as a reference for the small crest described below. Do not reproduce the sheet. Match the GAMBLER emblem in the BOTTOM RIGHT logo panel: a fan of three playing cards with readable small suit symbols, a central long diamond four-point star, fine symmetrical ornamental swirls on both sides and small star accents. Strong card fan silhouette. Output exactly one centered isolated emblem on a SQUARE canvas, artwork occupying about 76% of both axes, with generous equal transparent padding. Use a uniform flat warm ivory (#F0E6CC) silhouette/linework and a REAL transparent alpha background in an RGBA PNG. All spaces between strokes are fully transparent, not navy or white. Clean crisp polished fantasy game heraldry, balanced visual weight and medium-fine strokes robust at 112px display, with enough simplified detail to read clearly. No text, no letters, no words, no numbers, no class title, no NAIA UNBOUND caption, no motto, no labels, no separate frame, no gradients, no shadow, no glow, no character, no illustrated background, no checkerboard drawing. Preserve the recognizable reference crest while cleaning incidental distressed edges. This is an icon asset for Unreal UMG, not a mockup."
+    },
+    {
+      "key": "Druid",
+      "source": "ArtSource/UI/JobEmblems_20260927/T_JobEmblem_Druid.png",
+      "asset": "/Game/Developers/MinkiCho/Art/CharacterMenu/JobEmblems/T_JobEmblem_Druid",
+      "reference": "/Game/Developers/MinkiCho/Art/드루이드_시안",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "bounds": [
+        42,
+        168,
+        1213,
+        1081
+      ],
+      "sha256": "77dd66f13e0c11ce8985bd1802a8207bb7d4a2aadcec260f6c1e858ba90f2ab4",
+      "prompt": "Create ONE production-ready transparent UI class EMBLEM, using the attached full character concept sheet only as a reference for the small crest described below. Do not reproduce the sheet. Match the DRUID emblem in the BOTTOM RIGHT logo panel: a centered branching tree with paired pointed leaves, elegant intertwined loop roots below, enclosed in a fine nearly circular ring; an outward crescent moon on each side. Preserve the tree-of-life and paired crescent silhouette. Output exactly one centered isolated emblem on a SQUARE canvas, artwork occupying about 76% of both axes, with generous equal transparent padding. Use a uniform flat warm ivory (#F0E6CC) silhouette/linework and a REAL transparent alpha background in an RGBA PNG. All spaces between strokes are fully transparent, not navy or white. Clean crisp polished fantasy game heraldry, balanced visual weight and medium-fine strokes robust at 112px display, with enough simplified detail to read clearly. No text, no letters, no words, no numbers, no class title, no NAIA UNBOUND caption, no motto, no labels, no separate frame, no gradients, no shadow, no glow, no character, no illustrated background, no checkerboard drawing. Preserve the recognizable reference crest while cleaning incidental distressed edges. This is an icon asset for Unreal UMG, not a mockup."
+    }
+  ],
+  "texture_settings": {
+    "group": "UI",
+    "compression": "TC_EDITOR_ICON",
+    "max_texture_size": 512,
+    "srgb": true,
+    "address": "Clamp",
+    "mips": "NoMipmaps"
+  }
+}

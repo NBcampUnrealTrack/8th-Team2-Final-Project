@@ -1,0 +1,27 @@
+{
+  "status": "finished",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Tavern_Foundation014.glb",
+  "assets": [
+    "/Game/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/Textures/Normal.Normal",
+    "/Game/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/Textures/Color.Color",
+    "/Game/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/Textures/tripo_image_4caa7db6_2-tripo_image_4caa7db6_1.tripo_image_4caa7db6_2-tripo_image_4caa7db6_1",
+    "/Game/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/Materials/tripo_mat_4caa7db6.tripo_mat_4caa7db6",
+    "/Game/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/StaticMeshes/CH_Dense_Tavern_Foundation014.CH_Dense_Tavern_Foundation014"
+  ],
+  "meshes": [
+    {
+      "path": "/Game/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/StaticMeshes/CH_Dense_Tavern_Foundation014.CH_Dense_Tavern_Foundation014",
+      "triangles": 3142,
+      "min": [
+        -125.31172180175781,
+        -150.0,
+        0.0
+      ],
+      "max": [
+        125.31172180175781,
+        150.0,
+        264.3890380859375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "status": "complete",
+  "run_id": "final_refinements",
+  "started": "2026-09-05T18:58:33.125514",
+  "full_suite": false,
+  "routes": [
+    {
+      "route": "tavern_approach",
+      "passed": true,
+      "waypoints": 4
+    },
+    {
+      "route": "cemetery",
+      "passed": true,
+      "waypoints": 4
+    },
+    {
+      "route": "deepvein",
+      "passed": true,
+      "waypoints": 6
+    }
+  ],
+  "completed_stages": [],
+  "finished": "2026-09-05T18:59:02.217998"
+}

@@ -1,0 +1,36 @@
+{
+  "status": "STATIC_IMPORT_SAVED_AND_VERIFIED_WITH_SOURCE_QUALITY_WARNINGS",
+  "models": 9,
+  "materials": 9,
+  "basecolor_textures": 9,
+  "review_maps": 1,
+  "source_mesh_vertices": 63110,
+  "ue_render_vertices": 141386,
+  "triangles": 97919,
+  "above_initial_budget": 7,
+  "static_import_numeric_qa": true,
+  "original_mesh_data_preserved": true,
+  "original_blender_ui_preserved": false,
+  "original_village_level_unchanged": true,
+  "native_preview_files": 20,
+  "review_level": "/Game/Libregrove/Textured_V7/Maps/L_Libregrove_AssetReview_V7",
+  "scale_reference": "Project game cm, 88cm character. Not adult human architecture.",
+  "not_implemented": [
+    "Door articulation/interaction",
+    "Collision",
+    "LOD",
+    "Lightmap UV",
+    "Full village layout",
+    "Topology/UV repair or texture repainting",
+    "Cook/performance certification"
+  ],
+  "warnings": [
+    "Source boundaries/nonmanifold/degenerate UV remain; see CSV",
+    "Visible roof faceting/gaps/self-shadow roughness; not fully diagnosed or repaired",
+    "Some back textures have less detail than front, including Naia bark and cottage ghost-door pattern",
+    "Source9 are merged Tripo static meshes, not V6 hinged-door simplified buildings"
+  ],
+  "source_preservation_evidence": "final_source_preservation.json",
+  "save_evidence": "saved_content_manifest.json",
+  "engine_evidence": "final_engine_audit_saved.json"
+}

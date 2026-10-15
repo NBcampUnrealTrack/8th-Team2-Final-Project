@@ -1,0 +1,58 @@
+[
+  {
+    "tool": "blender_save_copy",
+    "arguments": {
+      "path": "Cindehearth/Blender/CH_GormHouse_Final_v001.blend",
+      "overwrite": false
+    },
+    "request_id": 165032886578330
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"165032886578330\",\n    \"command\": \"file.save_copy\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "165032886578330",
+        "command": "file.save_copy",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"165032886578330\",\n    \"command\": \"file.save_copy\",\n    \"state\": \"finished\",\n    \"created_at\": 1788587080.522957,\n    \"finished_at\": 1788587080.5747313,\n    \"result\": {\n      \"path\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Blender\\\\CH_GormHouse_Final_v001.blend\",\n      \"bytes\": 3615242,\n      \"copy\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "165032886578330",
+        "command": "file.save_copy",
+        "state": "finished",
+        "created_at": 1788587080.522957,
+        "finished_at": 1788587080.5747313,
+        "result": {
+          "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Blender\\CH_GormHouse_Final_v001.blend",
+          "bytes": 3615242,
+          "copy": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

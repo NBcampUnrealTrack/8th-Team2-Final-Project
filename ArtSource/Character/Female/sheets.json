@@ -1,0 +1,93 @@
+{
+ "canvas": [
+  60,
+  100
+ ],
+ "pivot": [
+  30,
+  96
+ ],
+ "sets": {
+  "WCh_Body": {
+   "Idle_Front": {
+    "source": "idle_front",
+    "offset": [
+     2,
+     2
+    ]
+   },
+   "Walk_Front": {
+    "source": "run_front",
+    "offset": [
+     2,
+     2
+    ]
+   },
+   "Idle_Side": {
+    "source": "idle_right",
+    "offset": [
+     -1,
+     2
+    ]
+   },
+   "Walk_Side": {
+    "source": "run_rightf",
+    "offset": [
+     -1,
+     2
+    ]
+   },
+   "Idle_Back": {
+    "source": "idle_back",
+    "offset": [
+     2,
+     2
+    ]
+   },
+   "Walk_Back": {
+    "source": "run_back",
+    "offset": [
+     2,
+     2
+    ]
+   }
+  },
+  "WCh_Mage_Body": {
+   "Idle_Front": {
+    "source": "idle_front",
+    "offset": [
+     2,
+     2
+    ]
+   },
+   "Walk_Front": {
+    "source": "run_front",
+    "offset": [
+     2,
+     2
+    ]
+   },
+   "Idle_Side": {
+    "source": "idle_right",
+    "offset": [
+     -1,
+     2
+    ]
+   },
+   "Idle_Back": {
+    "source": "idle_back",
+    "offset": [
+     2,
+     2
+    ]
+   },
+   "Walk_Back": {
+    "source": "run_back",
+    "offset": [
+     2,
+     2
+    ]
+   }
+  }
+ }
+}

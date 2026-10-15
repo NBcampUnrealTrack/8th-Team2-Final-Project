@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "polish_bell_CH_Polish_Bell_Closed004_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_bell_CH_Polish_Bell_Closed004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_bell_CH_Polish_Bell_Closed004_export"
+  },
+  {
+    "job_id": "polish_bell_CH_Polish_Bell_Closed004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_bell_CH_Polish_Bell_Closed004_export"
+  },
+  {
+    "job_id": "polish_bell_CH_Polish_Bell_Closed004_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Bell_Closed004.glb",
+      "format": "glb",
+      "bytes": 4377680,
+      "object_names": [
+        "CH_Polish_Bell_Closed004"
+      ],
+      "fingerprints": {
+        "CH_Polish_Bell_Closed004": "679dd91d19d70c4320b9c42bf14a7f0320510bd6ab3e576a9838f2d4934c5926"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

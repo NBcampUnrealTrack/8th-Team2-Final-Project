@@ -1,0 +1,121 @@
+{
+  "sets": [
+    {
+      "title": "노비스 기본 공격 - 주먹 파동",
+      "skill": 0,
+      "caster": "0",
+      "variants": [
+        {
+          "label": "지금",
+          "note": "NS_Novice_Attack_FistLens: 주먹 앞에 원판이 서서 소용돌이친 뒤 흩어짐 (10/14 1차)"
+        },
+        {
+          "label": "파동",
+          "cast": "/Game/VFX/Battle/Skill/Job/Novice/NS_Novice_Attack_FistWave.NS_Novice_Attack_FistWave",
+          "note": "중앙 섬광 -> 렌즈가 가운데부터 펼쳐지며 앞으로 밀려 나감 -> 안쪽이 먼저 사라지고 테두리만 남았다 사라짐, 앞쪽 작은 고리로 볼록렌즈 느낌"
+        },
+        {
+          "label": "파동 2겹",
+          "cast": "/Game/VFX/Battle/Skill/Job/Novice/NS_Novice_Attack_FistWave2.NS_Novice_Attack_FistWave2",
+          "note": "'파동' + 뒤따라 한 번 더 밀려 나가는 옅은 파동"
+        }
+      ]
+    },
+    {
+      "title": "물 임팩트 V2 - 아쿠아 볼",
+      "skill": 2101,
+      "caster": "n1010",
+      "variants": [
+        {
+          "label": "지금",
+          "note": "NS_Element_Impact_Water: 물줄기 솟구침 + 감속하며 번지는 물결 3겹 (10/14 1차)"
+        },
+        {
+          "label": "물 V2",
+          "impact": "/Game/VFX/Battle/Skill/Element/NS_Element_Impact_WaterV2.NS_Element_Impact_WaterV2",
+          "note": "1차 + 물보라 꽃잎(솟았다 막부터 찢어짐) · 물빛 반짝임 · 다시 떨어지는 물방울, 물결 고리가 거품 마디로 부서지며 사라짐"
+        }
+      ]
+    },
+    {
+      "title": "물 임팩트 V2 - 버블 캐논",
+      "skill": 2102,
+      "caster": "n1010",
+      "variants": [
+        {
+          "label": "지금",
+          "note": "NS_Element_Impact_Water: 물줄기 솟구침 + 감속하며 번지는 물결 3겹 (10/14 1차)"
+        },
+        {
+          "label": "물 V2",
+          "impact": "/Game/VFX/Battle/Skill/Element/NS_Element_Impact_WaterV2.NS_Element_Impact_WaterV2",
+          "note": "1차 + 물보라 꽃잎(솟았다 막부터 찢어짐) · 물빛 반짝임 · 다시 떨어지는 물방울, 물결 고리가 거품 마디로 부서지며 사라짐"
+        }
+      ]
+    },
+    {
+      "title": "물 임팩트 V2 - 해류 돌격",
+      "skill": 2103,
+      "caster": "n1010",
+      "variants": [
+        {
+          "label": "지금",
+          "note": "NS_Element_Impact_Water: 물줄기 솟구침 + 감속하며 번지는 물결 3겹 (10/14 1차)"
+        },
+        {
+          "label": "물 V2",
+          "impact": "/Game/VFX/Battle/Skill/Element/NS_Element_Impact_WaterV2.NS_Element_Impact_WaterV2",
+          "note": "1차 + 물보라 꽃잎(솟았다 막부터 찢어짐) · 물빛 반짝임 · 다시 떨어지는 물방울, 물결 고리가 거품 마디로 부서지며 사라짐"
+        }
+      ]
+    },
+    {
+      "title": "물 임팩트 V2 - 아쿠아 슬레이스",
+      "skill": 2107,
+      "caster": "n1010",
+      "variants": [
+        {
+          "label": "지금",
+          "note": "NS_Element_Impact_Water: 물줄기 솟구침 + 감속하며 번지는 물결 3겹 (10/14 1차)"
+        },
+        {
+          "label": "물 V2",
+          "impact": "/Game/VFX/Battle/Skill/Element/NS_Element_Impact_WaterV2.NS_Element_Impact_WaterV2",
+          "note": "1차 + 물보라 꽃잎(솟았다 막부터 찢어짐) · 물빛 반짝임 · 다시 떨어지는 물방울, 물결 고리가 거품 마디로 부서지며 사라짐"
+        }
+      ]
+    },
+    {
+      "title": "물 임팩트 V2 - 대해일",
+      "skill": 2108,
+      "caster": "n1010",
+      "variants": [
+        {
+          "label": "지금",
+          "note": "NS_Element_Impact_Water: 물줄기 솟구침 + 감속하며 번지는 물결 3겹 (10/14 1차)"
+        },
+        {
+          "label": "물 V2",
+          "impact": "/Game/VFX/Battle/Skill/Element/NS_Element_Impact_WaterV2.NS_Element_Impact_WaterV2",
+          "note": "1차 + 물보라 꽃잎(솟았다 막부터 찢어짐) · 물빛 반짝임 · 다시 떨어지는 물방울, 물결 고리가 거품 마디로 부서지며 사라짐"
+        }
+      ]
+    },
+    {
+      "title": "물 임팩트 V2 - 해류 가르기",
+      "skill": 2110,
+      "caster": "n1010",
+      "variants": [
+        {
+          "label": "지금",
+          "note": "NS_Element_Impact_Water: 물줄기 솟구침 + 감속하며 번지는 물결 3겹 (10/14 1차)"
+        },
+        {
+          "label": "물 V2",
+          "impact": "/Game/VFX/Battle/Skill/Element/NS_Element_Impact_WaterV2.NS_Element_Impact_WaterV2",
+          "note": "1차 + 물보라 꽃잎(솟았다 막부터 찢어짐) · 물빛 반짝임 · 다시 떨어지는 물방울, 물결 고리가 거품 마디로 부서지며 사라짐"
+        }
+      ]
+    }
+  ]
+}

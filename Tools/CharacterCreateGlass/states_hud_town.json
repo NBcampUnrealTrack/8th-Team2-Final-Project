@@ -1,0 +1,6 @@
+[
+ {"shot": "hud_town_ui", "py": "game_hud_town.py", "wait": 25},
+ {"shot": "hud_town_clean", "wait": 0.5, "noui": true},
+ {"shot": "hud_battle_ui", "py": "game_hud_battle.py", "wait": 18, "frames": 300},
+ {"shot": "hud_battle_clean", "wait": 0.5, "noui": true}
+]

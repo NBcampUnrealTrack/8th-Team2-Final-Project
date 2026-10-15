@@ -1,0 +1,230 @@
+[
+  {
+    "tool": "blender_mesh_edit",
+    "arguments": {
+      "source_object_name": "CH_Polish_Hollowcore_REF___tripo_node_130c5fb9",
+      "output_object_name": "CH_Polish_Hollowcore_Game_v003",
+      "operations": [
+        {
+          "type": "transform_object",
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "transform_vertices",
+          "scale": [
+            3.001465559355154,
+            3.001465559355154,
+            3.001465559355154
+          ],
+          "translation": [
+            -0.0,
+            -0.0,
+            1.5
+          ]
+        },
+        {
+          "type": "delete_loose"
+        }
+      ]
+    },
+    "request_id": 44857002646822
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"44857002646822\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "44857002646822",
+        "command": "mesh.edit",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"44857002646822\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"finished\",\n    \"created_at\": 1788595798.9032512,\n    \"finished_at\": 1788595799.1371465,\n    \"result\": {\n      \"source_object_name\": \"CH_Polish_Hollowcore_REF___tripo_node_130c5fb9\",\n      \"source_fingerprint\": \"c81f455d88d1e53c0b53cf6bca546f5ae86c689dcbf3602c6ae17a288310827c\",\n      \"output_object_name\": \"CH_Polish_Hollowcore_Game_v003\",\n      \"operations\": [\n        {\n          \"type\": \"transform_object\"\n        },\n        {\n          \"type\": \"transform_vertices\"\n        },\n        {\n          \"type\": \"delete_loose\"\n        }\n      ],\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_Polish_Hollowcore_Game_v003\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Polish_Hollowcore_Game_v003_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            2.149975538253784,\n            2.1704933643341064,\n            3.0\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"9fde94adfaeb3d7aa07a7aa83f676aea2769ec32580d396c003ff6ef741ed985\",\n        \"geometry\": {\n          \"vertices\": 1536,\n          \"edges\": 3126,\n          \"polygons\": 1662,\n          \"triangles\": 2568,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 380,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 19,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            -1.074987769126892,\n            -1.0852466821670532,\n            0.0\n          ],\n          \"local_max\": [\n            1.074987769126892,\n            1.0852466821670532,\n            3.0\n          ],\n          \"world_min\": [\n            -1.074987769126892,\n            -1.0852466821670532,\n            0.0\n          ],\n          \"world_max\": [\n            1.074987769126892,\n            1.0852466821670532,\n            3.0\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"tripo_mat_130c5fb9\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"tripo_130c5fb9_270d_465f_8b60_90ef158f543b_NewUVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 5892,\n            \"bounds_min\": [\n              0.001101513858884573,\n              0.0009849258931353688\n            ],\n            \"bounds_max\": [\n              0.9960094690322876,\n              0.9990231394767761\n            ],\n            \"out_of_zero_one_range\": 0,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 0\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 94,\n          \"blockers\": [],\n          \"warnings\": [\n            {\n              \"code\": \"non_manifold_geometry\",\n              \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n            }\n          ],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "44857002646822",
+        "command": "mesh.edit",
+        "state": "finished",
+        "created_at": 1788595798.9032512,
+        "finished_at": 1788595799.1371465,
+        "result": {
+          "source_object_name": "CH_Polish_Hollowcore_REF___tripo_node_130c5fb9",
+          "source_fingerprint": "c81f455d88d1e53c0b53cf6bca546f5ae86c689dcbf3602c6ae17a288310827c",
+          "output_object_name": "CH_Polish_Hollowcore_Game_v003",
+          "operations": [
+            {
+              "type": "transform_object"
+            },
+            {
+              "type": "transform_vertices"
+            },
+            {
+              "type": "delete_loose"
+            }
+          ],
+          "output": {
+            "object": {
+              "name": "CH_Polish_Hollowcore_Game_v003",
+              "type": "MESH",
+              "data_name": "CH_Polish_Hollowcore_Game_v003_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                2.149975538253784,
+                2.1704933643341064,
+                3.0
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "9fde94adfaeb3d7aa07a7aa83f676aea2769ec32580d396c003ff6ef741ed985",
+            "geometry": {
+              "vertices": 1536,
+              "edges": 3126,
+              "polygons": 1662,
+              "triangles": 2568,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 380,
+              "wire_edges": 0,
+              "non_manifold_edges": 19,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -1.074987769126892,
+                -1.0852466821670532,
+                0.0
+              ],
+              "local_max": [
+                1.074987769126892,
+                1.0852466821670532,
+                3.0
+              ],
+              "world_min": [
+                -1.074987769126892,
+                -1.0852466821670532,
+                0.0
+              ],
+              "world_max": [
+                1.074987769126892,
+                1.0852466821670532,
+                3.0
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_mat_130c5fb9"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "tripo_130c5fb9_270d_465f_8b60_90ef158f543b_NewUVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 5892,
+                "bounds_min": [
+                  0.001101513858884573,
+                  0.0009849258931353688
+                ],
+                "bounds_max": [
+                  0.9960094690322876,
+                  0.9990231394767761
+                ],
+                "out_of_zero_one_range": 0,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 94,
+              "blockers": [],
+              "warnings": [
+                {
+                  "code": "non_manifold_geometry",
+                  "message": "Mesh contains boundary, wire, or non-manifold edges."
+                }
+              ],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

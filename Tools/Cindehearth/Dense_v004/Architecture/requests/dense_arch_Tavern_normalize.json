@@ -1,0 +1,30 @@
+{
+  "source_object_name": "CH_Dense_Tavern_REF___tripo_node_4caa7db6",
+  "output_object_name": "CH_Dense_Tavern_Game_v004",
+  "operations": [
+    {
+      "type": "transform_object",
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "transform_vertices",
+      "scale": [
+        3.0643391521197008,
+        3.0643391521197008,
+        3.0643391521197008
+      ],
+      "translation": [
+        -0.047880299251870324,
+        -0.0,
+        1.3219451371571072
+      ]
+    },
+    {
+      "type": "delete_loose"
+    }
+  ]
+}

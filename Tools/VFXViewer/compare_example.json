@@ -1,0 +1,69 @@
+{
+  "sets": [
+    {
+      "title": "발현 - 후보 비교 샘플",
+      "skill": 3002,
+      "caster": "1001",
+      "variants": [
+        {
+          "label": "지금",
+          "note": "표 그대로: DownSlashV3 + DownCutV3, 색 (1, 0.25, 0.3)"
+        },
+        {
+          "label": "이전 판 V2",
+          "cast": "NS_NaiaKnight_Cast_DownSlashV2",
+          "impact": "NS_NaiaKnight_Impact_DownCutV2",
+          "note": "V3 폴리싱 전 모습 - 시전 · 임팩트 둘 다 V2"
+        },
+        {
+          "label": "충격파",
+          "impact": "NS_Job_Impact_ShockV3",
+          "note": "임팩트만 붕괴(3016)의 충격파로"
+        },
+        {
+          "label": "묵직하게",
+          "impact": "NS_Job_Impact_HeavyV3",
+          "note": "임팩트만 묵직한 타격으로"
+        },
+        {
+          "label": "금빛",
+          "color": [
+            1.0,
+            0.75,
+            0.3
+          ],
+          "note": "모양은 그대로, 색만 금빛 (세 칸 모두)"
+        }
+      ]
+    },
+    {
+      "title": "땅 투사체 색 (번개와 구분)",
+      "skill": 2301,
+      "caster": "n1013",
+      "variants": [
+        {
+          "label": "지금",
+          "note": "속성색 EarthElementColor (3, 1.5, 0.5)"
+        },
+        {
+          "label": "갈색",
+          "color": [
+            1.5,
+            0.6,
+            0.15
+          ],
+          "note": "채도를 낮춘 갈색 - 색은 세 칸 모두에 들어감(게임도 같은 색 하나)"
+        },
+        {
+          "label": "주황",
+          "color": [
+            2.5,
+            0.9,
+            0.2
+          ],
+          "note": "붉은 쪽으로 옮긴 주황"
+        }
+      ]
+    }
+  ]
+}

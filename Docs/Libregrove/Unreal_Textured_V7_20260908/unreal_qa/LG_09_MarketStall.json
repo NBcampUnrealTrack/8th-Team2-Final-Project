@@ -1,0 +1,288 @@
+{
+  "id": "LG_09_MarketStall",
+  "path": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/StaticMeshes/SM_LG_09_MarketStall_V7.SM_LG_09_MarketStall_V7",
+  "dimensions_cm_xyz": [
+    201.28343200683594,
+    160.17662048339844,
+    171.0
+  ],
+  "bounds_min": [
+    -100.64171600341797,
+    -80.08831024169922,
+    0.0
+  ],
+  "bounds_max": [
+    100.64171600341797,
+    80.08831024169922,
+    171.0
+  ],
+  "triangles": 2505,
+  "source_triangles": 2505,
+  "removed_degenerate_triangles": 0,
+  "render_vertices": 3004,
+  "uv_channels": 1,
+  "full_precision_uv": true,
+  "nanite": false,
+  "materials": [
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Materials/tripo_mat_62cb0827.tripo_mat_62cb0827",
+      "referenced_textures": [
+        "/InterchangeAssets/gltf/Textures/T_Generic_N.T_Generic_N",
+        "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+        "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Textures/LG_09_MarketStall_fbx_basecolor.LG_09_MarketStall_fbx_basecolor",
+        "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear"
+      ],
+      "graph": {
+        "material": {
+          "blend_mode": "BLEND_Opaque",
+          "shading_model": "MSM_DefaultLit",
+          "two_sided": true
+        },
+        "expressions": [
+          {
+            "id": "MaterialExpressionMaterialFunctionCall_00000256A659A140",
+            "class": "MaterialFunctionCall",
+            "class_full": "MaterialExpressionMaterialFunctionCall",
+            "pos_x": -260,
+            "pos_y": 0,
+            "properties": {
+              "MaterialFunction": "/Script/Engine.MaterialFunction'/InterchangeAssets/gltf/MaterialBodies/MF_Default_Body.MF_Default_Body'"
+            },
+            "function_path": "/InterchangeAssets/gltf/MaterialBodies/MF_Default_Body.MF_Default_Body",
+            "inputs": [
+              "BaseColorTexture (T2d)",
+              "BaseColorFactor_RGB (V3)",
+              "BaseColorFactor_A (S)",
+              "BaseColorTexture_Offset_X (S)",
+              "BaseColorTexture_Offset_Y (S)",
+              "BaseColorTexture_Scale_X (S)",
+              "BaseColorTexture_Scale_Y (S)",
+              "BaseColorTexture_Rotation (S)",
+              "BaseColorTexture_TexCoord (S)",
+              "BaseColorTexture_TilingMethod (V2)",
+              "AlphaCutoff (S)",
+              "MetallicRoughnessTexture (T2d)",
+              "MetallicFactor (S)",
+              "RoughnessFactor (S)",
+              "MetallicRoughnessTexture_Offset_X (S)",
+              "MetallicRoughnessTexture_Offset_Y (S)",
+              "MetallicRoughnessTexture_Scale_X (S)",
+              "MetallicRoughnessTexture_Scale_Y (S)",
+              "MetallicRoughnessTexture_Rotation (S)",
+              "MetallicRoughnessTexture_TexCoord (S)",
+              "MetallicRoughnessTexture_TilingMethod (V2)",
+              "EmissiveTexture (T2d)",
+              "EmissiveFactor (V3)",
+              "EmissiveStrength (S)",
+              "EmissiveTexture_Offset_X (S)",
+              "EmissiveTexture_Offset_Y (S)",
+              "EmissiveTexture_Scale_X (S)",
+              "EmissiveTexture_Scale_Y (S)",
+              "EmissiveTexture_Rotation (S)",
+              "EmissiveTexture_TexCoord (S)",
+              "EmissiveTexture_TilingMethod (V2)",
+              "NormalTexture (T2d)",
+              "NormalScale (S)",
+              "NormalTexture_Offset_X (S)",
+              "NormalTexture_Offset_Y (S)",
+              "NormalTexture_Scale_X (S)",
+              "NormalTexture_Scale_Y (S)",
+              "NormalTexture_Rotation (S)",
+              "NormalTexture_TexCoord (S)",
+              "NormalTexture_TilingMethod (V2)",
+              "OcclusionTexture (T2d)",
+              "OcclusionStrength (S)",
+              "OcclusionTexture_Offset_X (S)",
+              "OcclusionTexture_Offset_Y (S)",
+              "OcclusionTexture_Scale_X (S)",
+              "OcclusionTexture_Scale_Y (S)",
+              "OcclusionTexture_Rotation (S)",
+              "OcclusionTexture_TexCoord (S)",
+              "OcclusionTexture_TilingMethod (V2)",
+              "SpecularTexture (T2d)",
+              "SpecularFactor (S)",
+              "SpecularTexture_Offset_X (S)",
+              "SpecularTexture_Offset_Y (S)",
+              "SpecularTexture_Scale_X (S)",
+              "SpecularTexture_Scale_Y (S)",
+              "SpecularTexture_Rotation (S)",
+              "SpecularTexture_TexCoord (S)",
+              "SpecularTexture_TilingMethod (V2)",
+              "IOR (S)",
+              "IridescenceIOR (S)",
+              "IridescenceTexture (T2d)",
+              "IridescenceThicknessTexture (T2d)",
+              "IridescenceFactor (S)",
+              "IridescenceThicknessMinimum (S)",
+              "IridescenceThicknessMaximum (S)",
+              "IridescenceTexture_Offset_X (S)",
+              "IridescenceTexture_Offset_Y (S)",
+              "IridescenceTexture_Scale_X (S)",
+              "IridescenceTexture_Scale_Y (S)",
+              "IridescenceTexture_Rotation (S)",
+              "IridescenceTexture_TexCoord (S)",
+              "IridescenceTexture_TilingMethod (V2)",
+              "IridescenceThicknessTexture_Offset_X (S)",
+              "IridescenceThicknessTexture_Offset_Y (S)",
+              "IridescenceThicknessTexture_Scale_X (S)",
+              "IridescenceThicknessTexture_Scale_Y (S)",
+              "IridescenceThicknessTexture_Rotation (S)",
+              "IridescenceThicknessTexture_TexCoord (S)",
+              "IridescenceThicknessTexture_TilingMethod (V2)",
+              "AnisotropyTexture (T2d)",
+              "AnisotropyStrength (S)",
+              "AnisotropyRotation (S)",
+              "AnisotropyTexture_Offset_X (S)",
+              "AnisotropyTexture_Offset_Y (S)",
+              "AnisotropyTexture_Scale_X (S)",
+              "AnisotropyTexture_Scale_Y (S)",
+              "AnisotropyTexture_Rotation (S)",
+              "AnisotropyTexture_TexCoord (S)",
+              "AnisotropyTexture_TilingMethod (V2)"
+            ],
+            "outputs": [
+              "BaseColor",
+              "Metallic",
+              "Specular",
+              "Roughness",
+              "Anisotropy",
+              "EmissiveColor",
+              "Opacity",
+              "OpacityMask",
+              "Normal",
+              "Tangent",
+              "Occlusion",
+              "Refraction"
+            ]
+          },
+          {
+            "id": "MaterialExpressionTextureObject_00000256A63B1B20",
+            "class": "TextureObject",
+            "class_full": "MaterialExpressionTextureObject",
+            "pos_x": -520,
+            "pos_y": 0,
+            "properties": {
+              "Texture": "/Script/Engine.Texture2D'/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Textures/LG_09_MarketStall_fbx_basecolor.LG_09_MarketStall_fbx_basecolor'",
+              "SamplerType": "SAMPLERTYPE_Color",
+              "IsDefaultMeshpaintTexture": "False"
+            },
+            "inputs": [],
+            "outputs": [
+              "Output_0"
+            ]
+          },
+          {
+            "id": "MaterialExpressionConstant_00000256A63B1260",
+            "class": "Constant",
+            "class_full": "MaterialExpressionConstant",
+            "pos_x": -520,
+            "pos_y": 162,
+            "properties": {
+              "R": "0.000000"
+            },
+            "inputs": [],
+            "outputs": [
+              "Output_0"
+            ]
+          },
+          {
+            "id": "MaterialExpressionConstant_00000256A63B2060",
+            "class": "Constant",
+            "class_full": "MaterialExpressionConstant",
+            "pos_x": -520,
+            "pos_y": 324,
+            "properties": {
+              "R": "0.900000"
+            },
+            "inputs": [],
+            "outputs": [
+              "Output_0"
+            ]
+          }
+        ],
+        "connections": [
+          {
+            "source_id": "MaterialExpressionTextureObject_00000256A63B1B20",
+            "source_output_index": 0,
+            "source_output_name": "",
+            "target_id": "MaterialExpressionMaterialFunctionCall_00000256A659A140",
+            "target_input": "BaseColorTexture (T2d)"
+          },
+          {
+            "source_id": "MaterialExpressionConstant_00000256A63B1260",
+            "source_output_index": 0,
+            "source_output_name": "",
+            "target_id": "MaterialExpressionMaterialFunctionCall_00000256A659A140",
+            "target_input": "MetallicFactor (S)"
+          },
+          {
+            "source_id": "MaterialExpressionConstant_00000256A63B2060",
+            "source_output_index": 0,
+            "source_output_name": "",
+            "target_id": "MaterialExpressionMaterialFunctionCall_00000256A659A140",
+            "target_input": "RoughnessFactor (S)"
+          }
+        ],
+        "output_connections": [
+          {
+            "property": "BaseColor",
+            "expression_id": "MaterialExpressionMaterialFunctionCall_00000256A659A140",
+            "output_index": 0,
+            "output_name": "BaseColor"
+          },
+          {
+            "property": "Metallic",
+            "expression_id": "MaterialExpressionMaterialFunctionCall_00000256A659A140",
+            "output_index": 1,
+            "output_name": "Metallic"
+          },
+          {
+            "property": "Specular",
+            "expression_id": "MaterialExpressionMaterialFunctionCall_00000256A659A140",
+            "output_index": 2,
+            "output_name": "Specular"
+          },
+          {
+            "property": "Roughness",
+            "expression_id": "MaterialExpressionMaterialFunctionCall_00000256A659A140",
+            "output_index": 3,
+            "output_name": "Roughness"
+          },
+          {
+            "property": "EmissiveColor",
+            "expression_id": "MaterialExpressionMaterialFunctionCall_00000256A659A140",
+            "output_index": 5,
+            "output_name": "EmissiveColor"
+          },
+          {
+            "property": "Normal",
+            "expression_id": "MaterialExpressionMaterialFunctionCall_00000256A659A140",
+            "output_index": 8,
+            "output_name": "Normal"
+          },
+          {
+            "property": "AmbientOcclusion",
+            "expression_id": "MaterialExpressionMaterialFunctionCall_00000256A659A140",
+            "output_index": 10,
+            "output_name": "Occlusion"
+          }
+        ]
+      }
+    }
+  ],
+  "textures": [
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Textures/LG_09_MarketStall_fbx_basecolor.LG_09_MarketStall_fbx_basecolor",
+      "size": [
+        2048,
+        2048
+      ],
+      "srgb": true,
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "filter": "<TextureFilter.TF_TRILINEAR: 2>"
+    }
+  ],
+  "collision_shapes": 0,
+  "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+  "passed": true
+}

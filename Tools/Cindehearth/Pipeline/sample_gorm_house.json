@@ -1,0 +1,8 @@
+{
+  "asset_name": "CH_GormHouse_Tripo_v001",
+  "request_id": "CH_GormHouse_20260905_v001",
+  "prompt": "One isolated dwarf miner cottage exterior for a handcrafted HD-2D JRPG village. Broad squat rectangular house, 7m wide by 6m deep, 3.5m stone walls. Thick irregular soot-grey masonry and ochre mortar, heavy stone foundation. Steep gable roof built from uneven overlapping dark grey slate plates with a few tarnished brass repair strips, short broad stone chimney. Low recessed iron-banded closed door, two small square dark windows, one worn supervisor pickaxe hanging beside the door. Practical rugged mining architecture, chipped corners, soot under chimney, restrained muted charcoal taupe grey palette. Painterly low resolution textures with readable large clusters, crisp simple silhouette viewed from a raised three-quarter game camera. Fully modeled all sides, flat bottom, no surrounding terrain, no people, no plants, no text, no baked lighting or cast shadows. Stone and dark metal dominate, minimal structural wood, no ornate trim.",
+  "negative_prompt": "photorealism, shiny plastic, smooth toy, ornate carving, curved Asian eaves, timber frame facade, lush greenery, diorama base, terrain, people, letters, huge windows, orange roof, baked shadows",
+  "face_limit": 20000,
+  "model_version": "v3.1-20260211"
+}

@@ -1,0 +1,126 @@
+{
+  "prior": {
+    "type": "perspective",
+    "location": [
+      -687.3597569929602,
+      -403.1496048435456,
+      275.5084971874737
+    ],
+    "rotation": [
+      0.0,
+      -18.0,
+      -110.0
+    ],
+    "fov": 60.0,
+    "realtime": false,
+    "game_view": false
+  },
+  "framing": {
+    "actor_center": [
+      0.0,
+      -850.0,
+      179.5485076904297
+    ],
+    "actor_extent": [
+      201.67604064941406,
+      118.92041015625,
+      180.0485076904297
+    ],
+    "distance": 594.1928100585938
+  },
+  "scene": {
+    "success": true,
+    "camera": {
+      "location": [
+        193.27932604193106,
+        -318.9694160523867,
+        363.1641839339403
+      ],
+      "rotation": [
+        -18,
+        -110,
+        0
+      ],
+      "fov": 60
+    },
+    "viewport": [
+      1543,
+      615
+    ],
+    "actor_count": 4,
+    "total_matching": 4,
+    "actors": [
+      {
+        "name": "StaticMeshActor_0",
+        "label": "SM_SkySphere",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          0
+        ],
+        "extent_cm": [
+          1638400,
+          1638400,
+          1638400
+        ],
+        "dist_cm": 520.5637432096366,
+        "screen_px": null
+      },
+      {
+        "name": "Floor_0",
+        "label": "Floor",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          4000.00146484375,
+          4000,
+          200.0001220703125
+        ],
+        "dist_cm": 520.9126845531432,
+        "screen_px": null
+      },
+      {
+        "name": "Brush_1",
+        "label": "Brush1",
+        "class": "Brush",
+        "pos_cm": [
+          -90,
+          110,
+          20
+        ],
+        "extent_cm": [
+          1000,
+          1000,
+          100
+        ],
+        "dist_cm": 618.0805720989323,
+        "screen_px": null
+      },
+      {
+        "name": "StaticMeshActor_2",
+        "label": "LGV7_LG_02_Inn",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          -850,
+          -0.5
+        ],
+        "extent_cm": [
+          201.67604064941406,
+          118.92041015625,
+          180.0485076904297
+        ],
+        "dist_cm": 672.013405847908,
+        "screen_px": [
+          772,
+          660
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>프롤로그 스토리보드</title>
+<style>
+:root{--bg:#f4f1ea;--panel:#fffdf8;--ink:#1f2a33;--muted:#6b7680;--line:#ddd5c6;--gold:#b08d4a;--navy:#16293d;--code:#f0ebe0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11161b;--panel:#182029;--ink:#e9e4da;--muted:#9aa6b0;--line:#2b3742;--gold:#d1b47c;--navy:#0d1822;--code:#0f151b}}
+:root[data-theme="dark"]{--bg:#11161b;--panel:#182029;--ink:#e9e4da;--muted:#9aa6b0;--line:#2b3742;--gold:#d1b47c;--navy:#0d1822;--code:#0f151b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 "Pretendard","Malgun Gothic",system-ui,sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 16px 64px;overflow-wrap:anywhere}
+h1{font-size:28px;margin:0 0 4px}h2{font-size:20px;margin:36px 0 10px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.sub{color:var(--muted);margin:0 0 18px}
+.status{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);padding:12px 16px;border-radius:6px}
+.status li{margin:2px 0}
+.bar{position:relative;height:44px;background:var(--panel);border:1px solid var(--line);border-radius:6px;margin:14px 0 4px;overflow:hidden}
+.seg{position:absolute;top:0;bottom:0;border-right:1px solid var(--bg);display:flex;align-items:center;padding:0 6px;font-size:12px;color:#fff;white-space:nowrap;overflow:hidden}
+.s0,.s1,.s2,.s3{background:#41566a}.s4{background:#5c7a3f}.s5{background:#7b6a3a}.s6{background:#1d1d1d}
+.axis{display:flex;justify-content:space-between;color:var(--muted);font-size:12px}
+.beat{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:18px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;margin:14px 0}
+.shot img{width:100%;display:block;border-radius:4px;image-rendering:auto}
+.noimg{aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;background:var(--code);color:var(--muted);border-radius:4px}
+.txt h3{margin:0 0 6px;font-size:18px}.tc{display:inline-block;font-size:12px;color:var(--gold);margin-right:8px;font-weight:600}
+.txt ul{padding-left:18px;margin:8px 0}.muted{color:var(--muted)}
+.copy{margin:10px 0;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.copyhead{display:flex;justify-content:space-between;align-items:center;background:var(--code);padding:6px 10px;font-size:13px}
+.copyhead button{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:4px;padding:2px 10px;cursor:pointer}
+pre{margin:0;padding:10px;white-space:pre-wrap;word-break:break-word;font:12px/1.5 Consolas,monospace;max-height:220px;overflow:auto;background:var(--panel)}
+figure{margin:0}figure img{width:100%;display:block;border-radius:4px}figcaption{font-size:13px;color:var(--muted);margin-top:4px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+code{background:var(--code);padding:1px 5px;border-radius:3px;font-size:13px}
+table{border-collapse:collapse;width:100%;table-layout:fixed}th{width:7em}td,th{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+@media (max-width:760px){.beat{grid-template-columns:1fr}.seg span{display:none}}
+</style></head><body><main>
+<h1>게임 시작 프롤로그 — 정령이 키운 아이</h1>
+<p class="sub">새 캐릭터가 처음 필드에 들어올 때 한 번. 도트 그림책 4장 → 실제 게임 화면 → 마을 전경 → 타이틀 → 바로 조작. 총 63.6초.</p>
+<div class="status"><b>현재 상태 (2026-10-14)</b><ul>
+<li>엔진: 재생·실제 캐릭터 걷기·마을 컷·타이틀·게임 복귀까지 PIE로 확인. 자동 재생 조건 3종(새 캐릭터 재생 / 본 캐릭터 안 함 / 입장 실패 화면에선 안 함) 통과.</li><li>미검증: 서버 접속 상태의 실제 신규 캐릭터 흐름, 키보드·패드 실제 길게 누르기, 소리.</li>
+<li>그림 4장: <b>GPT로 생성해 반영</b> — 실제 게임 나이아 6종(아쿠퐁·볼토·푸루나·불코이·토그라·휘리)을 스프라이트 그대로 그림. P1을 화풍 기준으로 P2~P4 생성, 704×396 도트 격자. Tripo 참고 그림 4장도 생성.</li>
+<li>음악: <b>Suno 곡 'Nia Unbound'(64.9초) 연결</b> — 컷·자막·연출을 곡 구간(6.5 / 11.2 / 19.0 / 25.0 / 30.4 / 31.4 / 46.0 / 56.4초)에 맞춤.</li><li>연출: 그림 크로스페이드, 도트 반짝이 입자, 새벽빛 전환, 시네마 레터박스(자막은 띠 위), 마을 3컷 카메라, 클라이맥스 빛 번쩍임, 타이틀 축소 등장, 자막 페이드(살짝 떠오름).</li>
+<li>기존 zxcv1 님의 아르카디아/그리드폴 프롤로그 시안은 손대지 않음 — 정본 결정 필요.</li></ul></div>
+<h2>타임라인</h2>
+<div class="bar"><div class="seg s0" style="left:0.00%;width:17.61%" title="그림 P1 · 요람"><span>그림 P1 · 요람</span></div><div class="seg s1" style="left:17.61%;width:12.19%" title="그림 P2 · 술래잡기"><span>그림 P2 · 술래잡기</span></div><div class="seg s2" style="left:29.80%;width:9.43%" title="그림 P3 · 책"><span>그림 P3 · 책</span></div><div class="seg s3" style="left:39.23%;width:8.57%" title="그림 P4 · 문턱"><span>그림 P4 · 문턱</span></div><div class="seg s4" style="left:47.80%;width:12.26%" title="실제 게임 화면"><span>실제 게임 화면</span></div><div class="seg s5" style="left:60.06%;width:28.69%" title="마을 · 와이드 → 클로즈"><span>마을 · 와이드 → 클로즈</span></div><div class="seg s6" style="left:88.76%;width:11.24%" title="타이틀"><span>타이틀</span></div></div><div class="axis"><span>0초</span><span>63.6초</span></div>
+<h2>컷별 (사진은 PIE 실제 캡처)</h2>
+<section class="beat"><div class="shot"><img src="captures/beat0.jpg" alt="그림 P1 · 요람"></div><div class="txt"><h3><span class="tc">0.0 – 11.2초</span>그림 P1 · 요람</h3><p>밤, 고목 뿌리 사이 요람(아기 손만)과 낡은 책. 나이아 여섯(아쿠퐁·볼토·푸루나·불코이·토그라·휘리)이 아기를 지킨다. 오르골 도입에 맞춰 천천히 밝아지고 도트 반짝이가 떠오른다</p><ul><li><b>3.4초</b> 태어난 지 얼마 되지 않아 버려진 아이.</li><li><b>7.3초</b> 그런 당신을 키운 것은 정령들이었습니다.</li></ul><div class="copy"><div class="copyhead"><span>GPT 프롬프트 (공통 화풍 + 이 그림)</span><button data-t="c2712405574731977836">복사</button></div><pre id="c2712405574731977836">PROJECT: opening prologue of &quot;Naia Unbounds&quot;, a cozy fantasy creature-companion RPG rendered in HD-2D pixel art (pixel sprites in a softly lit diorama, like Octopath Traveler / Sea of Stars). The prologue is a 4-picture &quot;pixel storybook&quot; told in second person: an abandoned newborn is raised by spirit creatures called Naia in a forest where no humans live, grows up with them, and finally walks out into the human world.
+
+THE NAIA (most important): the spirits ARE the game&#x27;s real Naia creatures shown in the attached creature sheet. Draw them faithfully - same body shapes, colours, markings and cute chibi proportions - as living characters with personality, not as abstract lights. Give each a very soft faint glow at its outline so they read as spirits, but keep their designs fully clear and recognisable. Size: each Naia is about the size of a cat or small dog next to a human child.
+- AQUPONG: round white/pale-blue seal-like blob, a glossy deep-blue water-droplet cap on its head, big dark eyes, tiny pink heart nose, small light-blue fin tail.
+- BOLTO: round pale-yellow kitten face with big dark eyes and small ears marked with blue spark crosses, always sitting inside a swirling blue-grey storm cloud that it floats on.
+- PURUNA: lime-green leafy little creature with two small horns, ONE big round yellow eye, a white fluffy collar and white leaf-like arms, sitting on a dark-green striped seed bulb.
+- BULCOI: chunky orange boar-like creature with black fur on top, grey stone horns/plates, small orange flame tufts at its head and tail, one yellow eye.
+- TOGRA: dark-grey mole/seal-like lump with a brown speckled patch on its back, pink snout, small yellow eye.
+- HWIRY: pale-pink fluffy cat-like creature with a blue eye, a pointed ear, wispy fish-like fins and a long tail ending in a fin.
+
+STYLE (identical for every picture of the set):
+- High quality hand-crafted PIXEL ART illustration. Clean, consistent square pixels as if drawn on a 704x396 canvas and enlarged with nearest-neighbour; NO blurry gradients, NO painterly brush smears, NO photo texture, NO 3D render look.
+- Soft HD-2D lighting: light sources get a gentle pixel bloom halo, cool shadows, warm highlights. A few tiny floating light motes in the air.
+- Storybook memory mood: gentle vignette toward the corners, tender, warm, playful, never scary or grim.
+- Human figures are always seen from behind or side-back, faces never visible, gender-ambiguous, simple undyed linen clothes, short tousled pale-blond hair.
+- Canvas: landscape. Compose for a 16:9 frame; keep all important content inside the central 16:9 band. Keep the lowest ~20% of the frame calm and darker because white subtitle text will sit there.
+- STRICTLY NO text, letters, numbers, logos, signatures, watermarks, borders, frames, UI, speech bubbles.
+
+REFERENCES ATTACHED:
+1) An in-game screenshot of the human village (timber houses, slate roofs, cobblestone, warm lamps): only for the human-world architecture and the overall pixel density/lighting feel.
+2) The game&#x27;s Naia creature sheet (top row: Aqupong, Bolto, Puruna; bottom row: Bulcoi, Togra, Hwiry). Their designs must match.
+
+PICTURE 1 of 4 - &quot;Abandoned soon after birth, you were raised by the Naia.&quot;
+Night inside an ancient forest. Between the huge mossy roots of one enormous old tree (trunk rising out of the top of the frame) rests a small woven wicker basket lined with a cream cloth; only a tiny newborn hand peeks out (no face). Tucked beside the cloth: a small old leather-bound book with a worn clasp.
+The Naia have found the baby and gather around protectively: AQUPONG leans over the basket rim peering in curiously; HWIRY is curled up against the basket keeping it warm with its fluffy fins; BULCOI sits a little to one side and its flame tufts give the scene a warm firelight; BOLTO floats just above the basket on its storm cloud like a little canopy; PURUNA on its seed bulb and TOGRA peek out from between the roots. Their soft glows and Bulcoi&#x27;s flames light the basket; the rest of the forest falls into deep teal shadow.
+Basket slightly left of centre at about 55% height. Tender, hushed, protective, a little bit cute.
+</pre></div></div></section>
+<section class="beat"><div class="shot"><img src="captures/beat1.jpg" alt="그림 P2 · 술래잡기"></div><div class="txt"><h3><span class="tc">11.2 – 18.9초</span>그림 P2 · 술래잡기</h3><p>아침 숲 공터, 뒷모습의 아이가 나이아들과 술래잡기. 곡의 첫 프레이즈(11.2초)에서 P1 위로 녹아들 듯 크로스페이드</p><ul><li><b>12.4초</b> 사람 하나 없는 정령들의 세계에서 당신은 자랐죠.</li></ul><div class="copy"><div class="copyhead"><span>GPT 프롬프트 (공통 화풍 + 이 그림)</span><button data-t="c2712405574731977836">복사</button></div><pre id="c2712405574731977836">PROJECT: opening prologue of &quot;Naia Unbounds&quot;, a cozy fantasy creature-companion RPG rendered in HD-2D pixel art (pixel sprites in a softly lit diorama, like Octopath Traveler / Sea of Stars). The prologue is a 4-picture &quot;pixel storybook&quot; told in second person: an abandoned newborn is raised by spirit creatures called Naia in a forest where no humans live, grows up with them, and finally walks out into the human world.
+
+THE NAIA (most important): the spirits ARE the game&#x27;s real Naia creatures shown in the attached creature sheet. Draw them faithfully - same body shapes, colours, markings and cute chibi proportions - as living characters with personality, not as abstract lights. Give each a very soft faint glow at its outline so they read as spirits, but keep their designs fully clear and recognisable. Size: each Naia is about the size of a cat or small dog next to a human child.
+- AQUPONG: round white/pale-blue seal-like blob, a glossy deep-blue water-droplet cap on its head, big dark eyes, tiny pink heart nose, small light-blue fin tail.
+- BOLTO: round pale-yellow kitten face with big dark eyes and small ears marked with blue spark crosses, always sitting inside a swirling blue-grey storm cloud that it floats on.
+- PURUNA: lime-green leafy little creature with two small horns, ONE big round yellow eye, a white fluffy collar and white leaf-like arms, sitting on a dark-green striped seed bulb.
+- BULCOI: chunky orange boar-like creature with black fur on top, grey stone horns/plates, small orange flame tufts at its head and tail, one yellow eye.
+- TOGRA: dark-grey mole/seal-like lump with a brown speckled patch on its back, pink snout, small yellow eye.
+- HWIRY: pale-pink fluffy cat-like creature with a blue eye, a pointed ear, wispy fish-like fins and a long tail ending in a fin.
+
+STYLE (identical for every picture of the set):
+- High quality hand-crafted PIXEL ART illustration. Clean, consistent square pixels as if drawn on a 704x396 canvas and enlarged with nearest-neighbour; NO blurry gradients, NO painterly brush smears, NO photo texture, NO 3D render look.
+- Soft HD-2D lighting: light sources get a gentle pixel bloom halo, cool shadows, warm highlights. A few tiny floating light motes in the air.
+- Storybook memory mood: gentle vignette toward the corners, tender, warm, playful, never scary or grim.
+- Human figures are always seen from behind or side-back, faces never visible, gender-ambiguous, simple undyed linen clothes, short tousled pale-blond hair.
+- Canvas: landscape. Compose for a 16:9 frame; keep all important content inside the central 16:9 band. Keep the lowest ~20% of the frame calm and darker because white subtitle text will sit there.
+- STRICTLY NO text, letters, numbers, logos, signatures, watermarks, borders, frames, UI, speech bubbles.
+
+REFERENCES ATTACHED:
+1) An in-game screenshot of the human village (timber houses, slate roofs, cobblestone, warm lamps): only for the human-world architecture and the overall pixel density/lighting feel.
+2) The game&#x27;s Naia creature sheet (top row: Aqupong, Bolto, Puruna; bottom row: Bulcoi, Togra, Hwiry). Their designs must match.
+
+PICTURE 2 of 4 - &quot;You grew up in the world of the Naia, with no other person in it.&quot;
+Same forest on a bright morning, dappled green-gold light through the canopy. A wide mossy clearing with a small clear stream, giant roots, ferns and pale flowers. A small child (about five years old, short pale-blond tousled hair, plain linen tunic, barefoot), seen from behind / three-quarter back so the face is hidden, runs laughing with arms out, playing tag with the Naia: BOLTO zips ahead on its storm cloud, AQUPONG splashes and plays in the stream, PURUNA hops along on its seed bulb, HWIRY glides beside the child with its fins spread, TOGRA pops out of a burrow hole in the grass, BULCOI trots behind with its little flames flickering. No other people, no buildings: an untouched world of Naia.
+Child small in frame (about 1/6 of frame height), placed at the left third; the clearing opens toward the right. Joyful, free, bright but still storybook-soft.
+</pre></div></div></section>
+<section class="beat"><div class="shot"><img src="captures/beat2.jpg" alt="그림 P3 · 책"></div><div class="txt"><h3><span class="tc">18.9 – 24.9초</span>그림 P3 · 책</h3><p>늦은 오후, 열 살 아이가 요람의 그 책을 펼치고 나이아들이 둘러앉는다(불코이의 불이 등불)</p><ul><li><b>19.8초</b> 인간의 언어도 배웠습니다.</li></ul><div class="copy"><div class="copyhead"><span>GPT 프롬프트 (공통 화풍 + 이 그림)</span><button data-t="c2712405574731977836">복사</button></div><pre id="c2712405574731977836">PROJECT: opening prologue of &quot;Naia Unbounds&quot;, a cozy fantasy creature-companion RPG rendered in HD-2D pixel art (pixel sprites in a softly lit diorama, like Octopath Traveler / Sea of Stars). The prologue is a 4-picture &quot;pixel storybook&quot; told in second person: an abandoned newborn is raised by spirit creatures called Naia in a forest where no humans live, grows up with them, and finally walks out into the human world.
+
+THE NAIA (most important): the spirits ARE the game&#x27;s real Naia creatures shown in the attached creature sheet. Draw them faithfully - same body shapes, colours, markings and cute chibi proportions - as living characters with personality, not as abstract lights. Give each a very soft faint glow at its outline so they read as spirits, but keep their designs fully clear and recognisable. Size: each Naia is about the size of a cat or small dog next to a human child.
+- AQUPONG: round white/pale-blue seal-like blob, a glossy deep-blue water-droplet cap on its head, big dark eyes, tiny pink heart nose, small light-blue fin tail.
+- BOLTO: round pale-yellow kitten face with big dark eyes and small ears marked with blue spark crosses, always sitting inside a swirling blue-grey storm cloud that it floats on.
+- PURUNA: lime-green leafy little creature with two small horns, ONE big round yellow eye, a white fluffy collar and white leaf-like arms, sitting on a dark-green striped seed bulb.
+- BULCOI: chunky orange boar-like creature with black fur on top, grey stone horns/plates, small orange flame tufts at its head and tail, one yellow eye.
+- TOGRA: dark-grey mole/seal-like lump with a brown speckled patch on its back, pink snout, small yellow eye.
+- HWIRY: pale-pink fluffy cat-like creature with a blue eye, a pointed ear, wispy fish-like fins and a long tail ending in a fin.
+
+STYLE (identical for every picture of the set):
+- High quality hand-crafted PIXEL ART illustration. Clean, consistent square pixels as if drawn on a 704x396 canvas and enlarged with nearest-neighbour; NO blurry gradients, NO painterly brush smears, NO photo texture, NO 3D render look.
+- Soft HD-2D lighting: light sources get a gentle pixel bloom halo, cool shadows, warm highlights. A few tiny floating light motes in the air.
+- Storybook memory mood: gentle vignette toward the corners, tender, warm, playful, never scary or grim.
+- Human figures are always seen from behind or side-back, faces never visible, gender-ambiguous, simple undyed linen clothes, short tousled pale-blond hair.
+- Canvas: landscape. Compose for a 16:9 frame; keep all important content inside the central 16:9 band. Keep the lowest ~20% of the frame calm and darker because white subtitle text will sit there.
+- STRICTLY NO text, letters, numbers, logos, signatures, watermarks, borders, frames, UI, speech bubbles.
+
+REFERENCES ATTACHED:
+1) An in-game screenshot of the human village (timber houses, slate roofs, cobblestone, warm lamps): only for the human-world architecture and the overall pixel density/lighting feel.
+2) The game&#x27;s Naia creature sheet (top row: Aqupong, Bolto, Puruna; bottom row: Bulcoi, Togra, Hwiry). Their designs must match.
+
+PICTURE 3 of 4 - &quot;You even learned the language of humans.&quot;
+Same forest at golden late afternoon. On a broad moss-covered root sits an older child (about ten, same short pale-blond tousled hair, linen clothes with a simple woven sash), seen from the side-back so the face is hidden by hair. On their lap lies the same small old leather-bound book from the basket, opened; its pages show only tiny illegible marks and a simple drawing of a house (NOT readable text).
+The Naia gather to &quot;read&quot; together: BULCOI sits close and its flame tufts light the pages like a reading lamp; HWIRY is curled on the child&#x27;s shoulder; PURUNA leans in from the other side staring at the pages with its big eye; AQUPONG and TOGRA sit side by side in front, listening; BOLTO dozes on its cloud above. Beside the root: the faded cream cloth from the basket tied into a little bundle.
+Child slightly right of centre. Warm, quiet, curious, a sense of time passing.
+</pre></div></div></section>
+<section class="beat"><div class="shot"><img src="captures/beat3.jpg" alt="그림 P4 · 문턱"></div><div class="txt"><h3><span class="tc">24.9 – 30.4초</span>그림 P4 · 문턱</h3><p>새벽, 뿌리 아치 아래 두건 쓴 여행자. 나이아들이 배웅하고 휘리가 따라 나선다. 곡이 숨을 고르는 30.4초에 따뜻한 새벽빛이 화면을 덮는다</p><ul><li><b>25.7초</b> 그리고 어른이 된 당신은,</li></ul><div class="copy"><div class="copyhead"><span>GPT 프롬프트 (공통 화풍 + 이 그림)</span><button data-t="c2712405574731977836">복사</button></div><pre id="c2712405574731977836">PROJECT: opening prologue of &quot;Naia Unbounds&quot;, a cozy fantasy creature-companion RPG rendered in HD-2D pixel art (pixel sprites in a softly lit diorama, like Octopath Traveler / Sea of Stars). The prologue is a 4-picture &quot;pixel storybook&quot; told in second person: an abandoned newborn is raised by spirit creatures called Naia in a forest where no humans live, grows up with them, and finally walks out into the human world.
+
+THE NAIA (most important): the spirits ARE the game&#x27;s real Naia creatures shown in the attached creature sheet. Draw them faithfully - same body shapes, colours, markings and cute chibi proportions - as living characters with personality, not as abstract lights. Give each a very soft faint glow at its outline so they read as spirits, but keep their designs fully clear and recognisable. Size: each Naia is about the size of a cat or small dog next to a human child.
+- AQUPONG: round white/pale-blue seal-like blob, a glossy deep-blue water-droplet cap on its head, big dark eyes, tiny pink heart nose, small light-blue fin tail.
+- BOLTO: round pale-yellow kitten face with big dark eyes and small ears marked with blue spark crosses, always sitting inside a swirling blue-grey storm cloud that it floats on.
+- PURUNA: lime-green leafy little creature with two small horns, ONE big round yellow eye, a white fluffy collar and white leaf-like arms, sitting on a dark-green striped seed bulb.
+- BULCOI: chunky orange boar-like creature with black fur on top, grey stone horns/plates, small orange flame tufts at its head and tail, one yellow eye.
+- TOGRA: dark-grey mole/seal-like lump with a brown speckled patch on its back, pink snout, small yellow eye.
+- HWIRY: pale-pink fluffy cat-like creature with a blue eye, a pointed ear, wispy fish-like fins and a long tail ending in a fin.
+
+STYLE (identical for every picture of the set):
+- High quality hand-crafted PIXEL ART illustration. Clean, consistent square pixels as if drawn on a 704x396 canvas and enlarged with nearest-neighbour; NO blurry gradients, NO painterly brush smears, NO photo texture, NO 3D render look.
+- Soft HD-2D lighting: light sources get a gentle pixel bloom halo, cool shadows, warm highlights. A few tiny floating light motes in the air.
+- Storybook memory mood: gentle vignette toward the corners, tender, warm, playful, never scary or grim.
+- Human figures are always seen from behind or side-back, faces never visible, gender-ambiguous, simple undyed linen clothes, short tousled pale-blond hair.
+- Canvas: landscape. Compose for a 16:9 frame; keep all important content inside the central 16:9 band. Keep the lowest ~20% of the frame calm and darker because white subtitle text will sit there.
+- STRICTLY NO text, letters, numbers, logos, signatures, watermarks, borders, frames, UI, speech bubbles.
+
+REFERENCES ATTACHED:
+1) An in-game screenshot of the human village (timber houses, slate roofs, cobblestone, warm lamps): only for the human-world architecture and the overall pixel density/lighting feel.
+2) The game&#x27;s Naia creature sheet (top row: Aqupong, Bolto, Puruna; bottom row: Bulcoi, Togra, Hwiry). Their designs must match.
+
+PICTURE 4 of 4 - &quot;Grown up, you stepped into the world of people for the first time.&quot;
+Dawn at the very edge of the forest. In the foreground, two giant roots arch over to form a natural gateway framing the view. Under it stands a young adult traveller in a simple hooded cream cloak (hood up, seen from behind, gender-ambiguous), the old book in a satchel at the hip, one foot stepping forward out of the forest shade into the first warm sunlight.
+Beyond the gateway, down a gentle grassy slope and across a little river with a wooden bridge, lies a distant human village like the attached screenshot: timber-framed cottages with blue-grey slate roofs, chimney smoke, warm window lights, a church spire, fields. Morning mist in the valley.
+The Naia have come to see the traveller off: they gather on the roots and the mossy ground just inside the forest edge - AQUPONG, PURUNA, TOGRA and BULCOI sitting together, HWIRY gliding a little forward, BOLTO on its cloud hovering by the arch. Clear split: cool teal forest behind, warm golden human world ahead. Hopeful, bittersweet, the start of a journey. Traveller small, centred under the arch at about 60% height.
+</pre></div></div></section>
+<section class="beat"><div class="shot"><img src="captures/beat4.jpg" alt="실제 게임 화면"></div><div class="txt"><h3><span class="tc">30.4 – 38.2초</span>실제 게임 화면</h3><p>빛이 걷히며 지금 게임 화면이 나오고 위아래 레터박스가 내려온다. 큰 섹션이 시작되는 31.4초에 맞춰 내 캐릭터가 남문으로 걸어 들어간다. 자막은 검은 띠 위</p><ul><li><b>31.9초</b> 처음으로 사람의 세계로 나왔습니다.</li></ul></div></section>
+<section class="beat"><div class="shot"><img src="captures/beat5.jpg" alt="마을 · 와이드 → 클로즈"></div><div class="txt"><h3><span class="tc">38.2 – 56.5초</span>마을 · 와이드 → 클로즈</h3><p>38.2초 박자에 짧게 암전 컷. 광장 와이드(사람과 나이아) → 46초 2절에서 인물·나이아 클로즈</p><ul><li><b>39.8초</b> 사람들은 정령을 &#x27;나이아&#x27;라 불렀습니다.</li><li><b>47.2초</b> 이곳은 나이아와 사람이 함께 살아가는 세계.</li></ul></div></section>
+<section class="beat"><div class="shot"><img src="captures/beat6.jpg" alt="타이틀"></div><div class="txt"><h3><span class="tc">56.5 – 63.6초</span>타이틀</h3><p>56.45초 클라이맥스에 빛 번쩍임과 함께 위로 물러나는 카메라, 타이틀이 살짝 줄어들며 자리 잡고 반짝이가 올라온다 → 검게 닫힘 → 게임 화면이 밝아지며 조작 시작</p><ul><li class="muted">자막 없음</li></ul></div></section>
+<h2>전환·모션그래픽 (해당 시각에 멈춰 찍은 실제 화면)</h2><div class="grid"><figure><img src="captures/trans00.jpg" alt="도트 반짝이 입자"><figcaption><b>4.5초</b> 도트 반짝이 입자</figcaption></figure><figure><img src="captures/trans01.jpg" alt="그림 크로스페이드 P1→P2"><figcaption><b>11.6초</b> 그림 크로스페이드 P1→P2</figcaption></figure><figure><img src="captures/trans02.jpg" alt="크로스페이드 P2→P3"><figcaption><b>19.3초</b> 크로스페이드 P2→P3</figcaption></figure><figure><img src="captures/trans03.jpg" alt="크로스페이드 P3→P4"><figcaption><b>25.3초</b> 크로스페이드 P3→P4</figcaption></figure><figure><img src="captures/trans04.jpg" alt="새벽빛이 그림을 덮기 시작"><figcaption><b>30.0초</b> 새벽빛이 그림을 덮기 시작</figcaption></figure><figure><img src="captures/trans05.jpg" alt="빛이 화면 전체를 덮음"><figcaption><b>30.6초</b> 빛이 화면 전체를 덮음</figcaption></figure><figure><img src="captures/trans06.jpg" alt="빛이 걷히며 게임 화면 + 레터박스"><figcaption><b>31.4초</b> 빛이 걷히며 게임 화면 + 레터박스</figcaption></figure><figure><img src="captures/trans07.jpg" alt="박자에 맞춘 짧은 암전 컷"><figcaption><b>38.1초</b> 박자에 맞춘 짧은 암전 컷</figcaption></figure><figure><img src="captures/trans08.jpg" alt="클라이맥스 빛 번쩍임"><figcaption><b>56.5초</b> 클라이맥스 빛 번쩍임</figcaption></figure><figure><img src="captures/trans09.jpg" alt="타이틀 + 반짝이"><figcaption><b>58.5초</b> 타이틀 + 반짝이</figcaption></figure></div>
+<h2>재생 규칙</h2>
+<table>
+<tr><th>자동 재생</th><td>캐릭터 선택을 거쳐 필드에 들어왔고, 레벨 1 이하, 이 PC에서 그 캐릭터로 처음. 로딩 화면이 걷히고(온라인이면 필드 입장 확정 뒤) 0.4초 뒤.</td></tr>
+<tr><th>스킵</th><td>"길게 눌러 건너뛰기" 버튼 또는 Esc / 패드 B·메뉴를 1초. 끝까지 보거나 스킵하면 본 것으로 기록.</td></tr>
+<tr><th>끝</th><td>검은 화면 → 게임 화면이 1.2초 동안 밝아지고 입력·HUD 복귀. 재생 중 레벨 BGM은 꺼짐.</td></tr>
+<tr><th>콘솔</th><td><code>nu.Prologue.Play</code> 다시 보기 · <code>nu.Prologue.ResetSeen</code> 기록 지우기 · <code>nu.Prologue.Auto 0</code> 자동 재생 끄기</td></tr>
+</table>
+<h2>Suno — 프롤로그 BGM</h2><p>Instrumental 켬, 70초 안팎. 받은 파일은 <code>ArtSource/Prologue_20261014/audio/BGM_Prologue_Spirit.wav</code>.</p><div class="copy"><div class="copyhead"><span>Style of Music</span><button data-t="c8948698117377561237">복사</button></div><pre id="c8948698117377561237">instrumental, cozy fantasy JRPG prologue, storybook lullaby that grows into a warm hopeful theme, music box and celesta lullaby, playful pizzicato strings, ocarina and wooden flute, marimba water-drop accents, concert harp, soft solo piano, warm cello, gentle strings swell, light hand percussion and woodblock, glockenspiel bells, 76 BPM, D major, whimsical, tender, nostalgic, heartwarming, hand-drawn animation film score, intimate small orchestra, clean mix, no vocals</pre></div><div class="copy"><div class="copyhead"><span>Exclude Styles</span><button data-t="c4014914925499112812">복사</button></div><pre id="c4014914925499112812">vocals, choir, lyrics, rap, EDM, trap, dubstep, rock drums, electric guitar, distortion, heavy bass, synth lead, epic trailer, dark, horror, sad minor</pre></div><div class="copy"><div class="copyhead"><span>Lyrics 칸(구조 지시)</span><button data-t="c4389618617663178506">복사</button></div><pre id="c4389618617663178506">[Instrumental]
+
+[Intro - night forest lullaby: music box and celesta alone, a soft low cello hum like a small campfire, 0:00-0:14]
+
+[Verse - playful chase with little creatures: pizzicato strings, ocarina, marimba water drops, woodblock taps, bouncy and cheeky, 0:14-0:24]
+
+[Interlude - reading together at golden hour: harp and solo piano play the main lullaby melody, cello answers softly, 0:24-0:34]
+
+[Build - dawn, growing up: sustained strings rise slowly, flute holds a long note, 0:34-0:40]
+
+[Lift - first step into the human world: the lullaby melody opens up in warm strings and wooden flute, 0:40-0:46]
+
+[Chorus - a village where people and creatures live together: gentle folk orchestra plays the main theme, harp arpeggios, light hand drum, bright but restrained, 0:46-0:58]
+
+[Climax - title: glockenspiel and bell accent, held major chord, 0:58-1:04]
+
+[Outro - the last chord rings out with a music box echo of the lullaby, 1:04-1:08]
+
+[End]</pre></div><h2>Tripo — PR01 정령 숲의 뿌리 문 (선택)</h2><p>380×170×330 게임cm, 통로 180×230, Quad 1,500~2,500, 게임 삼각형 5,000 이하. 자세한 건 TRIPO_ROOT_GATE.md.</p><div class="copy"><div class="copyhead"><span>Tripo 프롬프트</span><button data-t="c1853625928037973050">복사</button></div><pre id="c1853625928037973050">A natural archway formed by the giant mossy roots of two ancient trees that rise from both sides and cross over each other at the top, stylized fantasy game prop, chunky simple shapes, thick bark grooves, a few large moss patches, two small mushroom clusters on the upper root knots, asymmetric (left root thicker and taller), walkable opening in the middle, closed watertight mesh, flat base, front view facing the camera, no leaves, no thin twigs, no vines, no text</pre></div><h2>Grok — 그림책 미세 움직임 (선택)</h2><p>기본안엔 필요 없음. 그림 확정 뒤 원하면.</p><div class="copy"><div class="copyhead"><span>공통 조건</span><button data-t="c7006454564938440280">복사</button></div><pre id="c7006454564938440280">Animate this pixel-art storybook illustration with very subtle ambient motion only. The camera must stay completely still: no zoom, no pan, no parallax, no cuts. Keep every shape, colour and the pixel-art look exactly as in the image; do not add or remove objects, do not change faces or figures. 6 seconds, seamless loop if possible.</pre></div>
+</main>
+<script>
+document.querySelectorAll('.copyhead button').forEach(function(b){b.addEventListener('click',function(){
+var t=document.getElementById(b.dataset.t).innerText;var done=function(){b.textContent='복사됨';setTimeout(function(){b.textContent='복사'},1200)};
+if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,function(){fallback(t);done()})}else{fallback(t);done()}})});
+function fallback(t){var a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy')}catch(e){}a.remove()}
+</script></body></html>

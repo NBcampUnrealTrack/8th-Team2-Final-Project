@@ -1,0 +1,385 @@
+{
+ "fps": 100,
+ "jobs": {
+  "Druid": {
+   "Combat_Idle": {
+    "source": "druid/2_combat_idle",
+    "cell": [
+     64,
+     96
+    ],
+    "pivot": [
+     32,
+     96
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "empty_frames": {},
+    "durations_ms": [
+     180,
+     140,
+     140,
+     180,
+     140,
+     140,
+     140,
+     140
+    ],
+    "frame_runs": [
+     18,
+     14,
+     14,
+     18,
+     14,
+     14,
+     14,
+     14
+    ],
+    "events": []
+   },
+   "Combat_Attack": {
+    "source": "druid/3_attack",
+    "cell": [
+     352,
+     256
+    ],
+    "pivot": [
+     196,
+     241
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "empty_frames": {
+     "Hair": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "FaceEye": [
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "durations_ms": [
+     180,
+     140,
+     120,
+     220,
+     60,
+     150,
+     160,
+     240
+    ],
+    "frame_runs": [
+     18,
+     14,
+     12,
+     22,
+     6,
+     15,
+     16,
+     24
+    ],
+    "events": [
+     {
+      "name": "transform",
+      "frame_index": 2,
+      "time_ms": 320
+     },
+     {
+      "name": "impact",
+      "frame_index": 4,
+      "time_ms": 660
+     },
+     {
+      "name": "transform_end",
+      "frame_index": 7,
+      "time_ms": 1030
+     }
+    ]
+   },
+   "idle_attack_first_frame_diff": 0
+  },
+  "Gambler": {
+   "Combat_Idle": {
+    "source": "gambler/2_combat_idle",
+    "cell": [
+     80,
+     112
+    ],
+    "pivot": [
+     39,
+     105
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "empty_frames": {},
+    "durations_ms": [
+     120,
+     120,
+     120,
+     120,
+     120,
+     120,
+     120,
+     120
+    ],
+    "frame_runs": [
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12
+    ],
+    "events": []
+   },
+   "Combat_Attack": {
+    "source": "gambler/3_attack",
+    "cell": [
+     80,
+     112
+    ],
+    "pivot": [
+     39,
+     105
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "empty_frames": {},
+    "durations_ms": [
+     200,
+     120,
+     120,
+     100,
+     60,
+     100,
+     120,
+     180
+    ],
+    "frame_runs": [
+     20,
+     12,
+     12,
+     10,
+     6,
+     10,
+     12,
+     18
+    ],
+    "events": [
+     {
+      "name": "card_release",
+      "frame_index": 5,
+      "time_ms": 600
+     }
+    ]
+   },
+   "idle_attack_first_frame_diff": 0
+  },
+  "Mage": {
+   "Combat_Idle": {
+    "source": "mage/2_combat_idle",
+    "cell": [
+     96,
+     112
+    ],
+    "pivot": [
+     39,
+     108
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "empty_frames": {},
+    "durations_ms": [
+     140,
+     140,
+     140,
+     140,
+     140,
+     140,
+     140,
+     140
+    ],
+    "frame_runs": [
+     14,
+     14,
+     14,
+     14,
+     14,
+     14,
+     14,
+     14
+    ],
+    "events": []
+   },
+   "Combat_Attack": {
+    "source": "mage/3_attack",
+    "cell": [
+     160,
+     112
+    ],
+    "pivot": [
+     39,
+     108
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "empty_frames": {},
+    "durations_ms": [
+     180,
+     120,
+     120,
+     200,
+     60,
+     100,
+     130,
+     180
+    ],
+    "frame_runs": [
+     18,
+     12,
+     12,
+     20,
+     6,
+     10,
+     13,
+     18
+    ],
+    "events": [
+     {
+      "name": "charge_start",
+      "frame_index": 2,
+      "time_ms": 300
+     },
+     {
+      "name": "spell_release",
+      "frame_index": 4,
+      "time_ms": 620
+     },
+     {
+      "name": "staff_tap",
+      "frame_index": 4,
+      "time_ms": 620
+     }
+    ]
+   },
+   "idle_attack_first_frame_diff": 10
+  },
+  "Tracker": {
+   "Combat_Idle": {
+    "source": "tracer/2_combat_idle",
+    "cell": [
+     128,
+     112
+    ],
+    "pivot": [
+     58,
+     108
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "empty_frames": {},
+    "durations_ms": [
+     150,
+     150,
+     150,
+     150,
+     150,
+     150,
+     150,
+     150
+    ],
+    "frame_runs": [
+     15,
+     15,
+     15,
+     15,
+     15,
+     15,
+     15,
+     15
+    ],
+    "events": []
+   },
+   "Combat_Attack": {
+    "source": "tracer/3_attack",
+    "cell": [
+     160,
+     112
+    ],
+    "pivot": [
+     58,
+     108
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "empty_frames": {
+     "FaceEye": [
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "durations_ms": [
+     180,
+     100,
+     110,
+     220,
+     60,
+     90,
+     130,
+     180
+    ],
+    "frame_runs": [
+     18,
+     10,
+     11,
+     22,
+     6,
+     9,
+     13,
+     18
+    ],
+    "events": [
+     {
+      "name": "arrow_release",
+      "frame_index": 4,
+      "time_ms": 610
+     }
+    ]
+   },
+   "idle_attack_first_frame_diff": 0
+  }
+ }
+}

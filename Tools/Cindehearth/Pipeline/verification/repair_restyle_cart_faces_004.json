@@ -1,0 +1,297 @@
+[
+  {
+    "job_id": "restyle_cart_faces_004",
+    "state": "running"
+  },
+  {
+    "job_id": "restyle_cart_faces_004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\restyle_cart_faces_004"
+  },
+  {
+    "job_id": "restyle_cart_faces_004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\restyle_cart_faces_004"
+  },
+  {
+    "job_id": "restyle_cart_faces_004",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "4d9717b27c094659549dd2d01c50a1694e3fc4c01e828f00242480ea4ca0fda0",
+      "source": {
+        "object": {
+          "name": "CH_Cart_Faces_v003",
+          "type": "MESH",
+          "data_name": "CH_Cart_Faces_v003_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            0.7662922143936157,
+            0.8141182661056519,
+            0.5438202619552612
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "741ca3355e95b4edc4c28fe69fe9fa8b9b7f3648fdab45288cbd2d9aaae9d8d2",
+        "geometry": {
+          "vertices": 1305,
+          "edges": 2390,
+          "polygons": 1113,
+          "triangles": 1932,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 625,
+          "wire_edges": 0,
+          "non_manifold_edges": 3,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -0.21682950854301453,
+            -0.4070591330528259,
+            0.5561797618865967
+          ],
+          "local_max": [
+            0.5494626760482788,
+            0.4070591330528259,
+            1.100000023841858
+          ],
+          "world_min": [
+            -0.21682950854301453,
+            -0.4070591330528259,
+            0.5561797618865967
+          ],
+          "world_max": [
+            0.5494626760482788,
+            0.4070591330528259,
+            1.100000023841858
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_30895201"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_30895201_3abe_4f4d_901d_1b9ccc349b62_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 4158,
+            "bounds_min": [
+              0.0007865109364502132,
+              0.000828687974717468
+            ],
+            "bounds_max": [
+              0.9952059984207153,
+              0.9992244243621826
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Cart_Manifold_v004",
+          "type": "MESH",
+          "data_name": "CH_Cart_Manifold_v004_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            0.7662922143936157,
+            0.8141182661056519,
+            0.5438202619552612
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "1c4e6f5baaa02b7501ff8e1b77d492f771c745d9a57cde5d1d07e29be9d2a077",
+        "geometry": {
+          "vertices": 1305,
+          "edges": 2385,
+          "polygons": 1110,
+          "triangles": 1926,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 624,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -0.21682950854301453,
+            -0.4070591330528259,
+            0.5561797618865967
+          ],
+          "local_max": [
+            0.5494626760482788,
+            0.4070591330528259,
+            1.100000023841858
+          ],
+          "world_min": [
+            -0.21682950854301453,
+            -0.4070591330528259,
+            0.5561797618865967
+          ],
+          "world_max": [
+            0.5494626760482788,
+            0.4070591330528259,
+            1.100000023841858
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_30895201"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_30895201_3abe_4f4d_901d_1b9ccc349b62_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 4146,
+            "bounds_min": [
+              0.0007865109364502132,
+              0.000828687974717468
+            ],
+            "bounds_max": [
+              0.9952059984207153,
+              0.9992244243621826
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "deleted_faces": 3
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_Cart_Manifold_v004.blend"
+    }
+  }
+]

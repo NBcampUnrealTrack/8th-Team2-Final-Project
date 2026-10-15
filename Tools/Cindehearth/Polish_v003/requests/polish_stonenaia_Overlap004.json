@@ -1,0 +1,16 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_StoneNaia_Game_v003.blend",
+  "object_name": "CH_Polish_StoneNaia_Game_v003",
+  "expected_fingerprint": "bf5cde9585d3a4274a5641766078ed26133ba710be0fb848a29b331e2f52f6bd",
+  "output_object_name": "CH_Polish_StoneNaia_Overlap004",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_StoneNaia_Overlap004.blend",
+  "operation": "delete_faces",
+  "selection_ids": [
+    168,
+    169
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "polish_stonenaia_Overlap004"
+}

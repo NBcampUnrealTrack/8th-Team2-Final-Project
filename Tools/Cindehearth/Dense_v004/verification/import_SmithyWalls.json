@@ -1,0 +1,24 @@
+{
+  "status": "finished",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyWalls_Final016.glb",
+  "assets": [
+    "/Game/Cindehearth/Dense_v004/Models/SmithyWalls/CH_Dense_SmithyWalls_Final016/Materials/CH_Dense_SmithyWalls_Stone.CH_Dense_SmithyWalls_Stone",
+    "/Game/Cindehearth/Dense_v004/Models/SmithyWalls/CH_Dense_SmithyWalls_Final016/StaticMeshes/CH_Dense_SmithyWalls_Final016.CH_Dense_SmithyWalls_Final016"
+  ],
+  "meshes": [
+    {
+      "path": "/Game/Cindehearth/Dense_v004/Models/SmithyWalls/CH_Dense_SmithyWalls_Final016/StaticMeshes/CH_Dense_SmithyWalls_Final016.CH_Dense_SmithyWalls_Final016",
+      "triangles": 24,
+      "min": [
+        -109.53973388671875,
+        -142.69325256347656,
+        0.37988927960395813
+      ],
+      "max": [
+        108.25057983398438,
+        143.54071044921875,
+        118.0771484375
+      ]
+    }
+  ]
+}

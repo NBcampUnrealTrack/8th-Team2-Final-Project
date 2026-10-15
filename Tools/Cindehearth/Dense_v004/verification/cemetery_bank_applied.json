@@ -1,0 +1,808 @@
+{
+  "status": "applied_pending_player_camera_review",
+  "count": 16,
+  "actors": [
+    {
+      "label": "CH_D4_CemeteryBank_BuriedTrailCore",
+      "origin": [
+        2932.0291278264967,
+        1754.4320584121645,
+        -42.40559924905898
+      ],
+      "scale": [
+        11.36040382467726,
+        0.9,
+        10.0
+      ],
+      "pitch": 16.702252190457727,
+      "yaw": 27.35589361215711,
+      "bounds": [
+        [
+          2932.0291278264967,
+          1754.4320584121645,
+          -42.40559924905892
+        ],
+        [
+          631.5213227873091,
+          356.0022790882706,
+          642.1535573625001
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_Trail_00_L",
+      "origin": [
+        2697.4989950914883,
+        1549.7747035171992,
+        -280.0
+      ],
+      "scale": [
+        2.8444444444444446,
+        1.9477628315211508,
+        6.553354079335035
+      ],
+      "pitch": 16.702252190457727,
+      "yaw": 27.35589361215711,
+      "bounds": [
+        [
+          2612.551601295796,
+          1505.825085754196,
+          38.75000126220243
+        ],
+        [
+          375.3297927321946,
+          296.9536029682347,
+          392.3239295072244
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_Trail_00_R",
+      "origin": [
+        2629.4905964980558,
+        1681.2237724403258,
+        -280.0
+      ],
+      "scale": [
+        2.8444444444444446,
+        1.9477628315211508,
+        6.553354079335035
+      ],
+      "pitch": 16.702252190457727,
+      "yaw": 27.35589361215711,
+      "bounds": [
+        [
+          2544.5432027023635,
+          1637.2741546773225,
+          38.75000126220243
+        ],
+        [
+          375.3297927321946,
+          296.9536029682347,
+          392.3239295072244
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_Trail_01_L",
+      "origin": [
+        3036.2816673400384,
+        1725.0522250666422,
+        -280.0
+      ],
+      "scale": [
+        2.7777777777777777,
+        1.9477628315211508,
+        7.632730045343158
+      ],
+      "pitch": 16.702252190457727,
+      "yaw": 27.35589361215711,
+      "bounds": [
+        [
+          2937.3429380956436,
+          1673.863846730909,
+          91.25000147009456
+        ],
+        [
+          384.21693668616217,
+          301.5515848759678,
+          443.0995407718738
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_Trail_01_R",
+      "origin": [
+        2968.273268746606,
+        1856.5012939897688,
+        -280.0
+      ],
+      "scale": [
+        2.7777777777777777,
+        1.9477628315211508,
+        7.632730045343158
+      ],
+      "pitch": 16.702252190457727,
+      "yaw": 27.35589361215711,
+      "bounds": [
+        [
+          2869.334539502211,
+          1805.3129156540354,
+          91.25000147009456
+        ],
+        [
+          384.21693668616217,
+          301.5515848759677,
+          443.0995407718738
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_Trail_02_L",
+      "origin": [
+        3375.064339588589,
+        1900.3297466160857,
+        -279.9999999999999
+      ],
+      "scale": [
+        2.8444444444444446,
+        1.9477628315211508,
+        8.712106011351281
+      ],
+      "pitch": 16.702252190457727,
+      "yaw": 27.35589361215711,
+      "bounds": [
+        [
+          3262.134274895492,
+          1841.9026077076226,
+          143.75000167798675
+        ],
+        [
+          403.3124636295993,
+          311.4311241136945,
+          497.3239299230086
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_Trail_02_R",
+      "origin": [
+        3307.0559409951566,
+        2031.7788155392122,
+        -279.9999999999999
+      ],
+      "scale": [
+        2.8444444444444446,
+        1.9477628315211508,
+        8.712106011351281
+      ],
+      "pitch": 16.702252190457727,
+      "yaw": 27.35589361215711,
+      "bounds": [
+        [
+          3194.1258763020596,
+          1973.3516766307491,
+          143.75000167798675
+        ],
+        [
+          403.3124636295993,
+          311.4311241136945,
+          497.3239299230086
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_BuriedPlateauCore",
+      "origin": [
+        3969.9,
+        2110.5,
+        154.0
+      ],
+      "scale": [
+        12.885,
+        9.96,
+        9.0
+      ],
+      "pitch": 0,
+      "yaw": 0,
+      "bounds": [
+        [
+          3969.8999999999996,
+          2110.5,
+          154.0
+        ],
+        [
+          644.2499999999998,
+          498.0,
+          450.0
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_WestFace_00",
+      "origin": [
+        3245.65,
+        1702.5,
+        -203.0
+      ],
+      "scale": [
+        2.611111111111111,
+        3.513369664452709,
+        8.172246302236312
+      ],
+      "pitch": 0,
+      "yaw": 3,
+      "bounds": [
+        [
+          3245.65,
+          1702.5,
+          212.0
+        ],
+        [
+          249.59368819656402,
+          296.90836712214536,
+          415.0
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_WestFace_01",
+      "origin": [
+        3245.65,
+        2110.5,
+        -207.0
+      ],
+      "scale": [
+        2.611111111111111,
+        3.513369664452709,
+        8.172246302236312
+      ],
+      "pitch": 0,
+      "yaw": -4,
+      "bounds": [
+        [
+          3245.65,
+          2110.5,
+          208.0
+        ],
+        [
+          254.30814682813434,
+          300.6985256539193,
+          415.0
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_WestFace_02",
+      "origin": [
+        3245.65,
+        2518.5,
+        -203.0
+      ],
+      "scale": [
+        2.611111111111111,
+        3.513369664452709,
+        8.172246302236312
+      ],
+      "pitch": 0,
+      "yaw": 3,
+      "bounds": [
+        [
+          3245.65,
+          2518.5,
+          212.0
+        ],
+        [
+          249.59368819656402,
+          296.90836712214514,
+          415.0
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_SouthFace_00",
+      "origin": [
+        3450.65,
+        1532.5,
+        -203.0
+      ],
+      "scale": [
+        3.611111111111111,
+        2.9586270858549124,
+        8.172246302236312
+      ],
+      "pitch": 0,
+      "yaw": -2,
+      "bounds": [
+        [
+          3450.65,
+          1532.5,
+          212.0
+        ],
+        [
+          333.1778979898063,
+          251.1961349128958,
+          415.0
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_SouthFace_01",
+      "origin": [
+        3969.9,
+        1532.5,
+        -206.0
+      ],
+      "scale": [
+        3.611111111111111,
+        2.9586270858549124,
+        8.172246302236312
+      ],
+      "pitch": 0,
+      "yaw": 3,
+      "bounds": [
+        [
+          3969.9,
+          1532.5,
+          209.0
+        ],
+        [
+          337.11522829354317,
+          256.6802741200545,
+          415.0
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_SouthFace_02",
+      "origin": [
+        4489.15,
+        1532.5,
+        -203.0
+      ],
+      "scale": [
+        3.611111111111111,
+        2.9586270858549124,
+        8.172246302236312
+      ],
+      "pitch": 0,
+      "yaw": -2,
+      "bounds": [
+        [
+          4489.15,
+          1532.5,
+          212.0
+        ],
+        [
+          333.1778979898063,
+          251.1961349128958,
+          415.0
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_NorthButtress",
+      "origin": [
+        3969.9,
+        2688.5,
+        -206.0
+      ],
+      "scale": [
+        9.269444444444444,
+        2.9586270858549124,
+        8.172246302236312
+      ],
+      "pitch": 0,
+      "yaw": 0,
+      "bounds": [
+        [
+          3969.8999999999996,
+          2688.5,
+          209.0
+        ],
+        [
+          834.2499999999998,
+          240.0,
+          415.0
+        ]
+      ],
+      "collision": false
+    },
+    {
+      "label": "CH_D4_CemeteryBank_EastButtress",
+      "origin": [
+        4694.15,
+        2110.5,
+        -206.0
+      ],
+      "scale": [
+        2.6666666666666665,
+        8.481397646117417,
+        8.172246302236312
+      ],
+      "pitch": 0,
+      "yaw": 0,
+      "bounds": [
+        [
+          4694.15,
+          2110.5,
+          209.0
+        ],
+        [
+          240.0,
+          688.0,
+          415.0
+        ]
+      ],
+      "collision": false
+    }
+  ],
+  "plan": {
+    "status": "proposal_only",
+    "trail": {
+      "start": [
+        2338.2000000000003,
+        1447.2,
+        315
+      ],
+      "end": [
+        3270.6,
+        1929.6000000000001,
+        630
+      ],
+      "pitch": 16.702252190457727,
+      "yaw": 27.35589361215711,
+      "horizontal_run_cm": 1049.7997523337483
+    },
+    "platform": {
+      "center": [
+        3969.9,
+        2110.5,
+        612.0
+      ],
+      "bounds": [
+        3220.65,
+        4719.15,
+        1507.5,
+        2713.5
+      ],
+      "top": 630.0
+    },
+    "placements": [
+      {
+        "label": "CH_D4_CemeteryBank_BuriedTrailCore",
+        "kind": "Core",
+        "ceiling_center": [
+          2804.4,
+          1688.4,
+          436.5
+        ],
+        "size": [
+          1136.040382467726,
+          90,
+          1000
+        ],
+        "yaw": 27.35589361215711,
+        "pitch": 16.702252190457727,
+        "collision": false,
+        "purpose": "Buried spine below the sloping path; never the visible outer silhouette"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_Trail_00_L",
+        "kind": "Rock",
+        "ceiling_center": [
+          2527.6041992967166,
+          1461.8754655384369,
+          357.5
+        ],
+        "size": [
+          512,
+          316,
+          665.580023494842
+        ],
+        "yaw": 27.35589361215711,
+        "pitch": 16.702252190457727,
+        "collision": false,
+        "purpose": "Overlapping sloped bedrock from below the basin floor to just beneath the trail"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_Trail_00_R",
+        "kind": "Rock",
+        "ceiling_center": [
+          2459.595800703284,
+          1593.3245344615634,
+          357.5
+        ],
+        "size": [
+          512,
+          316,
+          665.580023494842
+        ],
+        "yaw": 27.35589361215711,
+        "pitch": 16.702252190457727,
+        "collision": false,
+        "purpose": "Overlapping sloped bedrock from below the basin floor to just beneath the trail"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_Trail_01_L",
+        "kind": "Rock",
+        "ceiling_center": [
+          2838.4041992967163,
+          1622.6754655384368,
+          462.5
+        ],
+        "size": [
+          500,
+          316,
+          775.2049685410511
+        ],
+        "yaw": 27.35589361215711,
+        "pitch": 16.702252190457727,
+        "collision": false,
+        "purpose": "Overlapping sloped bedrock from below the basin floor to just beneath the trail"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_Trail_01_R",
+        "kind": "Rock",
+        "ceiling_center": [
+          2770.395800703284,
+          1754.1245344615634,
+          462.5
+        ],
+        "size": [
+          500,
+          316,
+          775.2049685410511
+        ],
+        "yaw": 27.35589361215711,
+        "pitch": 16.702252190457727,
+        "collision": false,
+        "purpose": "Overlapping sloped bedrock from below the basin floor to just beneath the trail"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_Trail_02_L",
+        "kind": "Rock",
+        "ceiling_center": [
+          3149.204199296716,
+          1783.475465538437,
+          567.5
+        ],
+        "size": [
+          512,
+          316,
+          884.8299135872604
+        ],
+        "yaw": 27.35589361215711,
+        "pitch": 16.702252190457727,
+        "collision": false,
+        "purpose": "Overlapping sloped bedrock from below the basin floor to just beneath the trail"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_Trail_02_R",
+        "kind": "Rock",
+        "ceiling_center": [
+          3081.1958007032836,
+          1914.9245344615636,
+          567.5
+        ],
+        "size": [
+          512,
+          316,
+          884.8299135872604
+        ],
+        "yaw": 27.35589361215711,
+        "pitch": 16.702252190457727,
+        "collision": false,
+        "purpose": "Overlapping sloped bedrock from below the basin floor to just beneath the trail"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_BuriedPlateauCore",
+        "kind": "Core",
+        "ceiling_center": [
+          3969.9,
+          2110.5,
+          604.0
+        ],
+        "size": [
+          1288.5,
+          996.0,
+          900
+        ],
+        "yaw": 0,
+        "pitch": 0,
+        "collision": false,
+        "purpose": "Inner volume buried behind perimeter rocks; independent of the unchanged cemetery floor"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_WestFace_00",
+        "kind": "Rock",
+        "ceiling_center": [
+          3245.65,
+          1702.5,
+          627.0
+        ],
+        "size": [
+          470,
+          570,
+          830
+        ],
+        "yaw": 3,
+        "pitch": 0,
+        "collision": false,
+        "purpose": "Support the visible western lip and conceal the elevated rectangular slab edge"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_WestFace_01",
+        "kind": "Rock",
+        "ceiling_center": [
+          3245.65,
+          2110.5,
+          623.0
+        ],
+        "size": [
+          470,
+          570,
+          830
+        ],
+        "yaw": -4,
+        "pitch": 0,
+        "collision": false,
+        "purpose": "Support the visible western lip and conceal the elevated rectangular slab edge"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_WestFace_02",
+        "kind": "Rock",
+        "ceiling_center": [
+          3245.65,
+          2518.5,
+          627.0
+        ],
+        "size": [
+          470,
+          570,
+          830
+        ],
+        "yaw": 3,
+        "pitch": 0,
+        "collision": false,
+        "purpose": "Support the visible western lip and conceal the elevated rectangular slab edge"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_SouthFace_00",
+        "kind": "Rock",
+        "ceiling_center": [
+          3450.65,
+          1532.5,
+          627.0
+        ],
+        "size": [
+          650,
+          480,
+          830
+        ],
+        "yaw": -2,
+        "pitch": 0,
+        "collision": false,
+        "purpose": "Irregular southern bank below the cemetery graves and village vista"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_SouthFace_01",
+        "kind": "Rock",
+        "ceiling_center": [
+          3969.9,
+          1532.5,
+          624.0
+        ],
+        "size": [
+          650,
+          480,
+          830
+        ],
+        "yaw": 3,
+        "pitch": 0,
+        "collision": false,
+        "purpose": "Irregular southern bank below the cemetery graves and village vista"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_SouthFace_02",
+        "kind": "Rock",
+        "ceiling_center": [
+          4489.15,
+          1532.5,
+          627.0
+        ],
+        "size": [
+          650,
+          480,
+          830
+        ],
+        "yaw": -2,
+        "pitch": 0,
+        "collision": false,
+        "purpose": "Irregular southern bank below the cemetery graves and village vista"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_NorthButtress",
+        "kind": "Rock",
+        "ceiling_center": [
+          3969.9,
+          2688.5,
+          624.0
+        ],
+        "size": [
+          1668.5,
+          480,
+          830
+        ],
+        "yaw": 0,
+        "pitch": 0,
+        "collision": false,
+        "purpose": "Conceal the northern inner-core face below the cemetery edge"
+      },
+      {
+        "label": "CH_D4_CemeteryBank_EastButtress",
+        "kind": "Rock",
+        "ceiling_center": [
+          4694.15,
+          2110.5,
+          624.0
+        ],
+        "size": [
+          480,
+          1376.0,
+          830
+        ],
+        "yaw": 0,
+        "pitch": 0,
+        "collision": false,
+        "purpose": "Conceal the eastern inner-core face below the cemetery edge"
+      }
+    ],
+    "count": 16,
+    "collision": false,
+    "notes": [
+      "No terrain, path, grave, vista, gate or source collider is moved.",
+      "Rock ceilings stay 10cm below the trail centre-plane, or at least3cm below the plateau top.",
+      "Existing thin trail/slab remain the walking surfaces. New meshes only provide visual support.",
+      "Runtime and player-camera acceptance remain for the coordinator."
+    ],
+    "real_path_bounds": [
+      [
+        2804.4000812988284,
+        1688.4000000000003,
+        472.5000137329102
+      ],
+      [
+        500.3161589355468,
+        294.1103056640625,
+        165.19579925537113
+      ]
+    ],
+    "real_platform_bounds": [
+      [
+        3969.8999999999996,
+        2110.5,
+        612.0
+      ],
+      [
+        749.2499999999998,
+        603.0,
+        18.0
+      ]
+    ]
+  }
+}

@@ -1,0 +1,574 @@
+{
+  "material": {
+    "blend_mode": "BLEND_Opaque",
+    "shading_model": "MSM_Unlit",
+    "two_sided": true
+  },
+  "expressions": [
+    {
+      "id": "MaterialExpressionCustom_0000025764D558C0",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": 0,
+      "pos_y": 0,
+      "properties": {
+        "Code": "\nfloat3 d = normalize(Dir);\nfloat h = d.z;\n\n// pastel vertical gradient: warm horizon -> pale mid -> soft blue zenith\nfloat t1 = saturate(h / 0.26);\nfloat3 sky = lerp(HorizonCol, MidCol, pow(t1, 0.85));\nfloat t2 = saturate((h - 0.26) / 0.74);\nsky = lerp(sky, ZenithCol, pow(t2, 0.75));\n\nfloat u = atan2(d.y, d.x) * 0.15915494 + 0.5;\nfloat v = 0.5 - asin(clamp(d.z, -1.0, 1.0)) * 0.31830989;\n\nfloat below = saturate((v - 0.5002) / 0.030);\nfloat deep = saturate((v - 0.505) / 0.10);\nsky = lerp(sky, lerp(GroundCol * 1.9, GroundCol * 0.55, deep), below);\n\n// painted clouds first, so the horizon haze can wash them out with distance\nfloat2 p = d.xy / max(h, 0.11);\nfloat2 uv1 = p * Tune.y + float2(Tune.z * Time, Tune.z * Time * 0.32);\nfloat2 uv2 = p * (Tune.y * 1.9) + float2(-Tune.z * Time * 1.6, Tune.z * Time * 0.5);\nfloat c1 = Texture2DSample(SkyTex, SkyTexSampler, uv1).r;\nfloat c2 = Texture2DSample(SkyTex, SkyTexSampler, uv2).g;\nfloat fade = smoothstep(0.16, 0.78, h);\nfloat a1 = saturate((c1 - Tune.x) * 3.0) * fade * 0.85;\nfloat a2 = saturate((c2 - Tune.x * 1.2) * 2.4) * fade * 0.38;\n// clouds pick up warm light on the side facing the sun\nfloat sunSide = saturate(dot(normalize(float3(SunDir.xy, 0.0)), normalize(float3(d.xy, 0.0)))) * 0.5 + 0.5;\nfloat3 litCloud = lerp(CloudCol, CloudCol * SunCol * 1.25, sunSide * 0.55);\nfloat3 cloudShaded = lerp(CloudShadow, litCloud, saturate((c1 - Tune.x) * 2.2));\nsky = lerp(sky, cloudShaded, a1);\nsky = lerp(sky, litCloud, a2);\n\n// three ranges from one crest profile, each washed further into the haze\nfloat tFar  = Texture2DSample(SkyTex, SkyTexSampler, float2(u, 0.5)).b;\nfloat tMid  = Texture2DSample(SkyTex, SkyTexSampler, float2(u * 1.9 + 0.31, 0.5)).b;\nfloat tNear = Texture2DSample(SkyTex, SkyTexSampler, float2(u * 3.3 + 0.63, 0.5)).b;\nfloat cFar  = 0.4972 - tFar  * 0.0235;\nfloat cMid  = 0.4986 - tMid  * 0.0140;\nfloat cNear = 0.4996 - tNear * 0.0078;\nfloat aa = 0.0006;\nfloat3 hazeCol = lerp(HorizonCol, MidCol, 0.35);\nsky = lerp(sky, lerp(hazeCol, RidgeFar, 0.30), smoothstep(cFar - aa, cFar + aa, v));\nsky = lerp(sky, lerp(RidgeFar, RidgeNear, 0.45), smoothstep(cMid - aa, cMid + aa, v));\nsky = lerp(sky, RidgeNear, smoothstep(cNear - aa, cNear + aa, v));\n\n// milky aerial-perspective band hugging the skyline, applied over everything distant\nfloat haze = exp(-max(h, 0.0) * 42.0) * step(0.0, h);\nsky = lerp(sky, hazeCol, haze * 0.30);\n\n// sun\nfloat sd = saturate(dot(d, normalize(SunDir)));\nsky += SunCol * pow(sd, 90.0) * 1.2;\nsky += SunCol * pow(sd, 5.0) * 0.16;\nsky = lerp(sky, SunCol * 2.4, smoothstep(0.99930, 0.99968, sd));\n\nreturn sky;\n",
+        "OutputType": "CMOT_Float3",
+        "Description": "HD2D Sky",
+        "Inputs": "((InputName=\"Dir\",Input=(Expression=\"/Script/Engine.MaterialExpressionMultiply'/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky:MaterialExpressionMultiply_0'\")),(InputName=\"Time\",Input=(Expression=\"/Script/Engine.MaterialExpressionTime'/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky:MaterialExpressionTime_0'\")),(InputName=\"SkyTex\",Input=(Expression=\"/Script/Engine.MaterialExpressionTextureObjectParameter'/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky:MaterialExpressionTextureObjectParameter_0'\")),(InputName=\"HorizonCol\",Input=(Expression=\"/Script/Engine.MaterialExpressionVectorParameter'/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky:MaterialExpressionVectorParameter_0'\",Mask=1,MaskR=1,MaskG=1,MaskB=1)),(InputName=\"MidCol\",Input=(Expression=\"/Script/Engine.MaterialExpressionVectorParameter'/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky:MaterialExpressionVectorParameter_1'\",Mask=1,MaskR=1,MaskG=1,MaskB=1)),(InputName=\"ZenithCol\",Input=(Expression=\"/Script/Engine.MaterialExpressionVectorParameter'/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky:MaterialExpressionVectorParameter_2'\",Mask=1,MaskR=1,MaskG=1,MaskB=1)),(InputName=\"GroundCol\",Input=(Expression=\"/Script/Engine.MaterialExpressionVectorParameter'/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky:MaterialExpressionVectorParameter_3'\",Mask=1,MaskR=1,MaskG=1,MaskB=1)),(InputName=\"CloudCol\",Input=(Expression=\"/Script/Engine.MaterialExpressionVectorParameter'/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky:MaterialExpressionVectorParameter_4'\",Mask=1,MaskR=1,MaskG=1,MaskB=1)),(InputName=\"CloudShadow\",Input=(Expression=\"/Script/Engine.MaterialExpressionVectorParameter'/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky:MaterialExpressionVectorParameter_5'\",Mask=1,MaskR=1,MaskG=1,MaskB=1)),(InputName=\"RidgeFar\",Input=(Expression=\"/Script/Engine.MaterialExpressionVectorParameter'/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky:MaterialExpressionVectorParameter_6'\",Mask=1,MaskR=1,MaskG=1,MaskB=1)),(InputName=\"RidgeNear\",Input=(Expression=\"/Script/Engine.MaterialExpressionVectorParameter'/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky:MaterialExpressionVectorParameter_7'\",Mask=1,MaskR=1,MaskG=1,MaskB=1)),(InputName=\"SunDir\",Input=(Expression=\"/Script/Engine.MaterialExpressionVectorParameter'/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky:MaterialExpressionVectorParameter_8'\",Mask=1,MaskR=1,MaskG=1,MaskB=1)),(InputName=\"SunCol\",Input=(Expression=\"/Script/Engine.MaterialExpressionVectorParameter'/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky:MaterialExpressionVectorParameter_9'\",Mask=1,MaskR=1,MaskG=1,MaskB=1)),(InputName=\"Tune\",Input=(Expression=\"/Script/Engine.MaterialExpressionVectorParameter'/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky:MaterialExpressionVectorParameter_10'\",Mask=1,MaskR=1,MaskG=1,MaskB=1)))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "\nfloat3 d = normalize(Dir);\nfloat h = d.z;\n\n// pastel vertical gradient: warm horizon -> pale mid -> soft blue zenith\nfloat t1 = saturate(h / 0.26);\nfloat3 sky = lerp(HorizonCol, MidCol, pow(t1, 0.85));\nfloat t2 = saturate((h - 0.26) / 0.74);\nsky = lerp(sky, ZenithCol, pow(t2, 0.75));\n\nfloat u = atan2(d.y, d.x) * 0.15915494 + 0.5;\nfloat v = 0.5 - asin(clamp(d.z, -1.0, 1.0)) * 0.31830989;\n\nfloat below = saturate((v - 0.5002) / 0.030);\nfloat deep = saturate((v - 0.505) / 0.10);\nsky = lerp(sky, lerp(GroundCol * 1.9, GroundCol * 0.55, deep), below);\n\n// painted clouds first, so the horizon haze can wash them out with distance\nfloat2 p = d.xy / max(h, 0.11);\nfloat2 uv1 = p * Tune.y + float2(Tune.z * Time, Tune.z * Time * 0.32);\nfloat2 uv2 = p * (Tune.y * 1.9) + float2(-Tune.z * Time * 1.6, Tune.z * Time * 0.5);\nfloat c1 = Texture2DSample(SkyTex, SkyTexSampler, uv1).r;\nfloat c2 = Texture2DSample(SkyTex, SkyTexSampler, uv2).g;\nfloat fade = smoothstep(0.16, 0.78, h);\nfloat a1 = saturate((c1 - Tune.x) * 3.0) * fade * 0.85;\nfloat a2 = saturate((c2 - Tune.x * 1.2) * 2.4) * fade * 0.38;\n// clouds pick up warm light on the side facing the sun\nfloat sunSide = saturate(dot(normalize(float3(SunDir.xy, 0.0)), normalize(float3(d.xy, 0.0)))) * 0.5 + 0.5;\nfloat3 litCloud = lerp(CloudCol, CloudCol * SunCol * 1.25, sunSide * 0.55);\nfloat3 cloudShaded = lerp(CloudShadow, litCloud, saturate((c1 - Tune.x) * 2.2));\nsky = lerp(sky, cloudShaded, a1);\nsky = lerp(sky, litCloud, a2);\n\n// three ranges from one crest profile, each washed further into the haze\nfloat tFar  = Texture2DSample(SkyTex, SkyTexSampler, float2(u, 0.5)).b;\nfloat tMid  = Texture2DSample(SkyTex, SkyTexSampler, float2(u * 1.9 + 0.31, 0.5)).b;\nfloat tNear = Texture2DSample(SkyTex, SkyTexSampler, float2(u * 3.3 + 0.63, 0.5)).b;\nfloat cFar  = 0.4972 - tFar  * 0.0235;\nfloat cMid  = 0.4986 - tMid  * 0.0140;\nfloat cNear = 0.4996 - tNear * 0.0078;\nfloat aa = 0.0006;\nfloat3 hazeCol = lerp(HorizonCol, MidCol, 0.35);\nsky = lerp(sky, lerp(hazeCol, RidgeFar, 0.30), smoothstep(cFar - aa, cFar + aa, v));\nsky = lerp(sky, lerp(RidgeFar, RidgeNear, 0.45), smoothstep(cMid - aa, cMid + aa, v));\nsky = lerp(sky, RidgeNear, smoothstep(cNear - aa, cNear + aa, v));\n\n// milky aerial-perspective band hugging the skyline, applied over everything distant\nfloat haze = exp(-max(h, 0.0) * 42.0) * step(0.0, h);\nsky = lerp(sky, hazeCol, haze * 0.30);\n\n// sun\nfloat sd = saturate(dot(d, normalize(SunDir)));\nsky += SunCol * pow(sd, 90.0) * 1.2;\nsky += SunCol * pow(sd, 5.0) * 0.16;\nsky = lerp(sky, SunCol * 2.4, smoothstep(0.99930, 0.99968, sd));\n\nreturn sky;\n",
+      "output_type": "CMOT_Float3",
+      "custom_input_names": "Dir,Time,SkyTex,HorizonCol,MidCol,ZenithCol,GroundCol,CloudCol,CloudShadow,RidgeFar,RidgeNear,SunDir,SunCol,Tune",
+      "inputs": [
+        "Dir",
+        "Time",
+        "SkyTex",
+        "HorizonCol",
+        "MidCol",
+        "ZenithCol",
+        "GroundCol",
+        "CloudCol",
+        "CloudShadow",
+        "RidgeFar",
+        "RidgeNear",
+        "SunDir",
+        "SunCol",
+        "Tune"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCameraVectorWS_000002573BD28700",
+      "class": "CameraVectorWS",
+      "class_full": "MaterialExpressionCameraVectorWS",
+      "pos_x": -640,
+      "pos_y": -85,
+      "properties": {},
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_0000025764D55500",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -320,
+      "pos_y": -1105,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionConstant_000002579367DC80",
+      "class": "Constant",
+      "class_full": "MaterialExpressionConstant",
+      "pos_x": -640,
+      "pos_y": 85,
+      "properties": {
+        "R": "-1.000000"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTime_000002579367D3C0",
+      "class": "Time",
+      "class_full": "MaterialExpressionTime",
+      "pos_x": -320,
+      "pos_y": -935,
+      "properties": {
+        "bIgnorePause": "False",
+        "bOverride_Period": "False",
+        "Period": "0.000000"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureObjectParameter_0000025756CAAC80",
+      "class": "TextureObjectParameter",
+      "class_full": "MaterialExpressionTextureObjectParameter",
+      "pos_x": -320,
+      "pos_y": -765,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_None",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Sky_Clouds.T_Sky_Clouds'",
+        "SamplerType": "SAMPLERTYPE_Color",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "SkyTex",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_00000257368A8880",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -320,
+      "pos_y": -595,
+      "properties": {
+        "DefaultValue": "(R=0.920000,G=0.740000,B=0.520000,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "HorizonCol",
+      "group": "Sky",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_00000257368A8A00",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -320,
+      "pos_y": -425,
+      "properties": {
+        "DefaultValue": "(R=0.460000,G=0.620000,B=0.820000,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "MidCol",
+      "group": "Sky",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_00000257368A8D00",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -320,
+      "pos_y": -255,
+      "properties": {
+        "DefaultValue": "(R=0.160000,G=0.320000,B=0.620000,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "ZenithCol",
+      "group": "Sky",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_00000257368A8580",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -320,
+      "pos_y": -85,
+      "properties": {
+        "DefaultValue": "(R=0.200000,G=0.240000,B=0.300000,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "GroundCol",
+      "group": "Sky",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_00000257368A8700",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -320,
+      "pos_y": 85,
+      "properties": {
+        "DefaultValue": "(R=1.050000,G=0.990000,B=0.920000,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "CloudCol",
+      "group": "Clouds",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_00000257368A7F80",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -320,
+      "pos_y": 255,
+      "properties": {
+        "DefaultValue": "(R=0.520000,G=0.560000,B=0.700000,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "CloudShadow",
+      "group": "Clouds",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_00000257368A8100",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -320,
+      "pos_y": 425,
+      "properties": {
+        "DefaultValue": "(R=0.500000,G=0.560000,B=0.700000,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "RidgeFar",
+      "group": "Ridge",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_00000257368A8280",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -320,
+      "pos_y": 595,
+      "properties": {
+        "DefaultValue": "(R=0.200000,G=0.260000,B=0.340000,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "RidgeNear",
+      "group": "Ridge",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_00000257368A8400",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -320,
+      "pos_y": 765,
+      "properties": {
+        "DefaultValue": "(R=0.500000,G=0.500000,B=0.707000,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "SunDir",
+      "group": "Sun",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_00000257368A7C80",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -320,
+      "pos_y": 935,
+      "properties": {
+        "DefaultValue": "(R=1.000000,G=0.860000,B=0.620000,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "SunCol",
+      "group": "Sun",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_00000257368A8B80",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -320,
+      "pos_y": 1105,
+      "properties": {
+        "DefaultValue": "(R=0.300000,G=0.055000,B=0.001600,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tune",
+      "group": "Clouds",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureObjectParameter_0000025756CAAF00",
+      "class": "TextureObjectParameter",
+      "class_full": "MaterialExpressionTextureObjectParameter",
+      "pos_x": -900,
+      "pos_y": -320,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_None",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Sky_Ridge.T_Sky_Ridge'",
+        "SamplerType": "SAMPLERTYPE_Color",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "RidgeTex",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_id": "MaterialExpressionMultiply_0000025764D55500",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_0000025764D558C0",
+      "target_input": "Dir"
+    },
+    {
+      "source_id": "MaterialExpressionTime_000002579367D3C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_0000025764D558C0",
+      "target_input": "Time"
+    },
+    {
+      "source_id": "MaterialExpressionTextureObjectParameter_0000025756CAAC80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_0000025764D558C0",
+      "target_input": "SkyTex"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_00000257368A8880",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionCustom_0000025764D558C0",
+      "target_input": "HorizonCol"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_00000257368A8A00",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionCustom_0000025764D558C0",
+      "target_input": "MidCol"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_00000257368A8D00",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionCustom_0000025764D558C0",
+      "target_input": "ZenithCol"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_00000257368A8580",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionCustom_0000025764D558C0",
+      "target_input": "GroundCol"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_00000257368A8700",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionCustom_0000025764D558C0",
+      "target_input": "CloudCol"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_00000257368A7F80",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionCustom_0000025764D558C0",
+      "target_input": "CloudShadow"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_00000257368A8100",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionCustom_0000025764D558C0",
+      "target_input": "RidgeFar"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_00000257368A8280",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionCustom_0000025764D558C0",
+      "target_input": "RidgeNear"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_00000257368A8400",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionCustom_0000025764D558C0",
+      "target_input": "SunDir"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_00000257368A7C80",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionCustom_0000025764D558C0",
+      "target_input": "SunCol"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_00000257368A8B80",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionCustom_0000025764D558C0",
+      "target_input": "Tune"
+    },
+    {
+      "source_id": "MaterialExpressionCameraVectorWS_000002573BD28700",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_0000025764D55500",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionConstant_000002579367DC80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_0000025764D55500",
+      "target_input": "B"
+    }
+  ],
+  "output_connections": [
+    {
+      "property": "EmissiveColor",
+      "expression_id": "MaterialExpressionCustom_0000025764D558C0",
+      "output_index": 0,
+      "output_name": ""
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Ridge",
+    "faces": 1000,
+    "use": "Distant mountains, large cliff silhouettes and deep cave rock backing"
+  },
+  {
+    "name": "Portal",
+    "faces": 1200,
+    "use": "Town mine entrance, Deepvein support portals and bear cave"
+  },
+  {
+    "name": "Hearth",
+    "faces": 1000,
+    "use": "Communal hearth stone ring and bowl"
+  },
+  {
+    "name": "Wall",
+    "faces": 700,
+    "use": "Building wall shells and town retaining wall facing"
+  },
+  {
+    "name": "Forge",
+    "faces": 1000,
+    "use": "Stone furnace and bellows workshop station"
+  },
+  {
+    "name": "Anvil",
+    "faces": 450,
+    "use": "Smithy anvil and stump"
+  },
+  {
+    "name": "Table",
+    "faces": 650,
+    "use": "Five communal tables and benches"
+  },
+  {
+    "name": "Crate",
+    "faces": 250,
+    "use": "81 existing supply crates and working yards"
+  },
+  {
+    "name": "Barrel",
+    "faces": 350,
+    "use": "14 tavern casks"
+  },
+  {
+    "name": "ToolRack",
+    "faces": 500,
+    "use": "17 household mining-tool identity marks"
+  },
+  {
+    "name": "Laundry",
+    "faces": 650,
+    "use": "4 inhabited residential clotheslines"
+  },
+  {
+    "name": "Bell",
+    "faces": 600,
+    "use": "Shift bell and supporting frame"
+  },
+  {
+    "name": "Desk",
+    "faces": 850,
+    "use": "Assay desk, clinic records and archive table"
+  },
+  {
+    "name": "Bed",
+    "faces": 650,
+    "use": "Clinic and lodging beds"
+  },
+  {
+    "name": "Shelf",
+    "faces": 850,
+    "use": "Archive ledger shelves; preserve Q7 document clue actors"
+  },
+  {
+    "name": "Pulley",
+    "faces": 1200,
+    "use": "Pinehollow logging saw/pulley equipment, no creature embedded"
+  },
+  {
+    "name": "Grave",
+    "faces": 500,
+    "use": "30 anonymous miners cairns"
+  },
+  {
+    "name": "Barricade",
+    "faces": 450,
+    "use": "Q8 barrier with retained gameplay blocker tags"
+  },
+  {
+    "name": "RingPile",
+    "faces": 1000,
+    "use": "Four Deepvein heaps of physical restraint rings, no duplicate Q7 documents"
+  },
+  {
+    "name": "Hollowcore",
+    "faces": 1400,
+    "use": "Q11 chained cocoon state; preserve freed-light state"
+  },
+  {
+    "name": "StoneNaia",
+    "faces": 800,
+    "use": "Existing noncombat and field stone Naia body silhouettes"
+  },
+  {
+    "name": "AshNaia",
+    "faces": 500,
+    "use": "Small warming ash/dust Naia bodies"
+  },
+  {
+    "name": "Noticeboard",
+    "faces": 650,
+    "use": "Gorm mining allocation notice board"
+  },
+  {
+    "name": "RingLinks",
+    "faces": 1600,
+    "use": "Replaces rejected filled-cup RingPile; six simple OPEN iron rings for repeated heaps and cocoon dressing"
+  }
+]

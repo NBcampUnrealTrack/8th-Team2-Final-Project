@@ -1,0 +1,20 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Barrel_Game_v003.blend",
+  "object_name": "CH_Polish_Barrel_Game_v003",
+  "expected_fingerprint": "add0cefcbe8022cd0419ef47c9076d9edd19f550ccbed51bf9bb88d880ed94a3",
+  "output_object_name": "CH_Polish_Barrel_Closed004",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Barrel_Closed004.blend",
+  "operation": "fill_loops",
+  "selection_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "polish_barrel_Closed004"
+}

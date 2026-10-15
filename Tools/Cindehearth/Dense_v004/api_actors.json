@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "classes": [
+    {
+      "success": true,
+      "class_name": "EditorActorSubsystem",
+      "full_path": "unreal.EditorActorSubsystem",
+      "doc_string": "UEditorActorUtilitiesSubsystem\nSubsystem for exposing actor related utilities to scripts,\r\n\r\n**C++ Source:**\r\n\r\n- **Module**: UnrealEd\r\n- **File**: EditorActorSubsystem.h\r\n\r\n**Editor Properties:** (see get_editor_property/set_editor_property)\r\n\r\n- ``on_actor_label_changed`` (OnActorLabelChanged):  [Read-Write]\r\n- ``on_delete_actors_begin`` (OnDeleteActorsBegin):  [Read-Write]\r\n- ``on_delete_actors_end`` (OnDeleteActorsEnd):  [Read-Write]\r\n- ``on_duplicate_actors_begin`` (OnEditCutActorsBegin):  [Read-Write]\r\n- ``on_duplicate_actors_end`` (OnDuplicateActorsEnd):  [Read-Write]\r\n- ``on_edit_copy_actors_begin`` (OnEditCopyActorsBegin):  [Read-Write]\r\n- ``on_edit_copy_actors_end`` (OnEditCopyActorsEnd):  [Read-Write]\r\n- ``on_edit_cut_actors_begin`` (OnEditCutActorsBegin):  [Read-Write]\r\n- ``on_edit_cut_actors_end`` (OnEditCutActorsEnd):  [Read-Write]\r\n- ``on_edit_paste_actors_begin`` (OnEditPasteActorsBegin):  [Read-Write]\r\n- ``on_edit_paste_actors_end`` (OnEditPasteActorsEnd):  [Read-Write]\r\n- ``on_new_actors_dropped`` (OnEditNewActorsDropped):  [Read-Write]\r\n- ``on_new_actors_placed`` (OnEditNewActorsPlaced):  [Read-Write]",
+      "base_classes": [
+        "EditorSubsystem",
+        "DynamicSubsystem",
+        "Subsystem",
+        "Object",
+        "_ObjectBase",
+        "_WrapperBase",
+        "object"
+      ],
+      "methods": [
+        {
+          "name": "spawn_actor_from_class",
+          "signature": "(...)",
+          "docstring": "x.spawn_actor_from_class(actor_class, location, rotation=[0.000000, 0.000000, 0.000000], transient=False) -> Actor\r\nCreate an actor and place it in the world editor. Can be created from a Blueprint or a Class.\nThe actor will be created in the current level and will be selected.\r\n\r\nArgs:\r\n    actor_class (type(Class)): Asset to attempt to use for an actor to place.\r\n    location (Vector): Location of the new actor.\r\n    rotation (Rotator): \r\n    transient (bool): \r\n\r\nReturns:\r\n    Actor: The created actor."
+        }
+      ],
+      "properties": []
+    },
+    {
+      "success": true,
+      "class_name": "LevelEditorSubsystem",
+      "full_path": "unreal.LevelEditorSubsystem",
+      "doc_string": "ULevelEditorSubsystem\nSubsystem for exposing Level Editor related functionality to scripts\r\n\r\n**C++ Source:**\r\n\r\n- **Module**: LevelEditor\r\n- **File**: LevelEditorSubsystem.h\r\n\r\n**Editor Properties:** (see get_editor_property/set_editor_property)\r\n\r\n- ``on_editor_camera_moved`` (OnLevelEditorEditorCameraMoved):  [Read-Write] Expose EditorCameraMoved to blueprints\r\n- ``on_map_changed`` (OnLevelEditorMapChanged):  [Read-Write] Expose MapChanged to blueprints. Note: This executes too early for some editor scripting, consider using OnMapOpened if this doesn't work for you.\r\n- ``on_map_opened`` (OnLevelEditorMapOpened):  [Read-Write] Expose MapOpened to blueprints\r\n- ``on_post_save_world`` (OnLevelEditorPostSaveWorld):  [Read-Write] Expose PostSaveWorld to blueprints\r\n- ``on_pre_save_world`` (OnLevelEditorPreSaveWorld):  [Read-Write] Expose PreSaveWorld to blueprints",
+      "base_classes": [
+        "EditorSubsystem",
+        "DynamicSubsystem",
+        "Subsystem",
+        "Object",
+        "_ObjectBase",
+        "_WrapperBase",
+        "object"
+      ],
+      "methods": [
+        {
+          "name": "save_current_level",
+          "signature": "(...)",
+          "docstring": "x.save_current_level() -> bool\r\nSaves the specified Level. Must already be saved at lease once to have a valid path.\r\n\r\nReturns:\r\n    bool: True if the operation succeeds."
+        }
+      ],
+      "properties": []
+    },
+    {
+      "success": true,
+      "class_name": "ActorService",
+      "full_path": "unreal.ActorService",
+      "doc_string": "Actor service exposed directly to Python for level actor management.\n\nPython Usage:\n  import unreal\n  actor_service = unreal.ActorService\n\n  # Discovery\n  actors = actor_service.list_level_actors()\n  lights = actor_service.find_actors_by_class(\"PointLight\")\n\n  # Lifecycle\n  actor_service.add_actor(\"PointLight\", (0, 0, 100))\n  actor_service.remove_actor(\"MyLight\")\n\n  # Transform\n  actor_service.set_location(\"MyActor\", (100, 200, 300))\n  actor_service.set_rotation(\"MyActor\", (0, 90, 0))\n  transform = actor_service.get_transform(\"MyActor\")\n\n  # Transform Locking\n  actor_service.set_actor_lock_location(\"MyActor\", True)   # Lock location in viewport\n  actor_service.set_preserve_scale_ratio(True)   # Lock uniform scale (padlock icon)\n  actor_service.set_absolute_transform(\"MyActor\", False, True, False)  # Absolute rotation\n\n  # Properties\n  value = actor_service.get_property(\"MyLight\", \"LightComponent.Intensity\")\n  actor_service.set_property(\"MyLight\", \"LightComponent.Intensity\", \"5000\")\n\n  # Organization\n  actor_service.set_folder(\"MyActor\", \"Level/Props\")\n  actor_service.rename_actor(\"OldName\", \"NewName\")\n\n  # Viewport\n  actor_service.focus_actor(\"MyActor\")\n  actor_service.refresh_viewport()\r\nnote: All 27 level actor operations available via Python\r\n\r\n**C++ Source:**\r\n\r\n- **Plugin**: Revvy\r\n- **Module**: Revvy\r\n- **File**: UActorService.h\r",
+      "base_classes": [
+        "Object",
+        "_ObjectBase",
+        "_WrapperBase",
+        "object"
+      ],
+      "methods": [
+        {
+          "name": "calculate_actor_view",
+          "signature": "(actor_name_or_label, direction=ViewDirection.FRONT, padding_multiplier=1.200000) -> CameraViewInfo",
+          "docstring": "X.calculate_actor_view(actor_name_or_label, direction=ViewDirection.FRONT, padding_multiplier=1.200000) -> CameraViewInfo\r\nCalculate camera view info for an actor WITHOUT moving the viewport camera.\nUse this to get the camera position/rotation for a specific view direction,\nthen apply it yourself with SetViewportCamera when ready.\r\n\r\nArgs:\r\n    actor_name_or_label (str): Name or label of the actor to frame\r\n    direction (ViewDirection): View direction (Top, Bottom, Left, Right, Front, Back)\r\n    padding_multiplier (float): Extra distance multiplier (1.0 = tight fit, 1.5 = 50% padding). Default 1.2\r\n\r\nReturns:\r\n    CameraViewInfo: Camera view info with the calculated position (camera NOT moved)"
+        }
+      ],
+      "properties": []
+    }
+  ]
+}

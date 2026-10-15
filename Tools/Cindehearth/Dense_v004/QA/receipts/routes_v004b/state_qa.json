@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "states": [
+    {
+      "chapter": 0,
+      "mood": "Lively",
+      "crowd": 24,
+      "gate_collision": 3,
+      "hatch_collision": 2,
+      "gate_visible": 2,
+      "cocoon_visible": 20,
+      "freed": 0
+    },
+    {
+      "chapter": 7,
+      "mood": "Lively",
+      "crowd": 24,
+      "gate_collision": 3,
+      "hatch_collision": 0,
+      "gate_visible": 2,
+      "cocoon_visible": 20,
+      "freed": 0
+    },
+    {
+      "chapter": 8,
+      "mood": "Lively",
+      "crowd": 24,
+      "gate_collision": 0,
+      "hatch_collision": 0,
+      "gate_visible": 0,
+      "cocoon_visible": 20,
+      "freed": 0
+    },
+    {
+      "chapter": 9,
+      "mood": "Hushed",
+      "crowd": 24,
+      "gate_collision": 0,
+      "hatch_collision": 0,
+      "gate_visible": 0,
+      "cocoon_visible": 20,
+      "freed": 0
+    },
+    {
+      "chapter": 11,
+      "mood": "Hushed",
+      "crowd": 24,
+      "gate_collision": 0,
+      "hatch_collision": 0,
+      "gate_visible": 0,
+      "cocoon_visible": 0,
+      "freed": 1
+    },
+    {
+      "chapter": 12,
+      "mood": "Recovered",
+      "crowd": 24,
+      "gate_collision": 0,
+      "hatch_collision": 0,
+      "gate_visible": 0,
+      "cocoon_visible": 0,
+      "freed": 1
+    }
+  ],
+  "error": null
+}

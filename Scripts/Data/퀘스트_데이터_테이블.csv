@@ -1,0 +1,19 @@
+﻿퀘스트 테이블,,,,,,,,,,,,,,,,,,,,,,,
+식별 (Identity),,,,분류 (Classification),,오픈 조건 (Unlock),,,의뢰·위치 (Giver / Location),,,목표 (Objective),,,보상 (Rewards),,,,,,,설명,
+Index,QuestID,Quest_Key,Quest_KR,QuestCategory,QuestType,RequiredLevel,PrereqQuestID,RepeatType,QuestGiverID,LocationID,Region_KR,TargetID,TargetCount,TurnInNPCID,Reward_EXP,Reward_Gold,RewardItem1ID,RewardItem1Count,RewardItem2ID,RewardItem2Count,ClaimType,Desc_Key,Desc_KR
+int,FName,FName / ST,string,enum (메인/서브/일일/튜토),enum (처치/수집/대화/도달/육성),int,FName,enum (1회/일일/주간),FName,FName,string,FName,int,FName,int,int,FName,int,FName,int,enum (자동/NPC수령),FText / ST,string
+1001,Q_TUT_001,ST_Q_TUT_001,첫 걸음,튜토,도달,1,None,1회,NPC_Rugan,LOC_Libergrove_Lowtown,리베르그로브 아랫마을,LOC_Libergrove_Gate,1,NPC_Rugan,100,100,C_VIT_01,3,,,자동,ST_QD_TUT_001,관문으로 이동해 안내자와 대화한다.
+1002,Q_TUT_002,ST_Q_TUT_002,첫 전투,튜토,처치,1,Q_TUT_001,1회,NPC_Rugan,LOC_Libergrove_Lowtown,리베르그로브 아랫마을,,3,NPC_Rugan,100,150,C_SP_01,3,,,NPC수령,ST_QD_TUT_002,야생 정령 3마리를 처치해 전투를 익힌다.
+1003,Q_TUT_003,ST_Q_TUT_003,나이아 교감,튜토,육성,10,Q_TUT_002,1회,NPC_Rugan,LOC_Libergrove_Sanctuary,리베르그로브 성역,,1,NPC_Rugan,100,200,C_CAP_01,5,,,NPC수령,ST_QD_TUT_003,교감석으로 나이아 1마리를 포획한다.
+1101,Q_MAIN_001,ST_Q_MAIN_001,모험의 시작,메인,처치,10,Q_TUT_003,1회,NPC_Elladon,LOC_Libergrove_Sanctuary,리베르그로브 성역,,5,NPC_Elladon,600,800,C_VIT_02,3,C_MIX_01,2,NPC수령,ST_QD_MAIN_001,다른 지역으로 이동하여 모험을 한다.
+1102,Q_MAIN_002,ST_Q_MAIN_002,나이아 해방,메인,수집,20,Q_MAIN_001,1회,NPC_Elladon,,,,3,NPC_Elladon,900,1200,C_REV_01,1,,,NPC수령,ST_QD_MAIN_002,착취 당하고 있는 나이아를 해방한다.
+1201,Q_SUB_001,ST_Q_SUB_001,상인의 부탁,서브,수집,8,None,1회,NPC_Gareth,LOC_Libergrove_TownHall,리베르그로브 마을 회관,,5,NPC_Gareth,200,500,C_SP_02,2,,,NPC수령,ST_QD_SUB_001,상인이 부탁한 아이템을 찾아서 전달한다.
+1202,Q_SUB_002,ST_Q_SUB_002,사라진 광부,서브,대화,10,None,1회,NPC_Rudi,LOC_Libergrove_Smithy,리베르그로브 장비공 공방,,1,NPC_Rudi,300,400,C_State_07,1,,,NPC수령,ST_QD_SUB_002,실종된 광부를 찾아 대화한 뒤 소식을 전한다.
+1301,Q_DAILY_001,ST_Q_DAILY_001,일일 토벌,일일,처치,5,None,일일,,,,,5,,350,600,C_VIT_02,2,,,자동,ST_QD_DAILY_001,적 5마리를 처치한다. (매일 초기화)
+1302,Q_DAILY_002,ST_Q_DAILY_002,일일 채집,일일,수집,5,None,일일,,,,,5,,250,700,C_MIX_01,1,,,자동,ST_QD_DAILY_002,재료 아이템 5개를 수집한다. (매일 초기화)
+1203,Q_SUB_003,ST_Q_SUB_003,[선할로우] 광장의 술래잡기,서브,대화,2,None,1회,NPC_Tion,LOC_Libergrove_Plaza,리베르그로브 광장,,3,NPC_Tion,100,50,C_VIT_01,2,,,NPC수령,ST_QD_SUB_003,광장에 숨은 아이 3명을 찾아 말을 건다.
+1204,Q_SUB_004,ST_Q_SUB_004,[선할로우] 잃어버린 팽이,서브,수집,2,None,1회,NPC_Tion,LOC_Libergrove_Plaza,리베르그로브 광장,,1,NPC_Tion,100,80,C_SP_01,2,,,NPC수령,ST_QD_SUB_004,티온이 잃어버린 팽이를 마을에서 찾아 돌려준다.
+1205,Q_SUB_005,ST_Q_SUB_005,[루트스테어] 뒤틀린 목재,서브,수집,3,None,1회,NPC_Bhran,LOC_Libergrove_Woodshop,리베르그로브 목공 공방,,8,NPC_Bhran,100,120,C_VIT_01,3,,,NPC수령,ST_QD_SUB_005,공방 뒷숲에서 쓸 만한 목재 8개를 모아 온다.
+1206,Q_SUB_006,ST_Q_SUB_006,[루트스테어] 공방의 불청객,서브,처치,3,None,1회,NPC_Bhran,LOC_Libergrove_Woodshop,리베르그로브 목공 공방,,5,NPC_Bhran,100,140,C_SP_01,3,,,NPC수령,ST_QD_SUB_006,불청객을 처치한다.
+1207,Q_SUB_007,ST_Q_SUB_007,[미스트웰] 흐려진 우물,서브,처치,2,None,1회,NPC_Seradi,LOC_Libergrove_Washstead,리베르그로브 빨래터,,6,NPC_Seradi,100,70,C_State_01,1,,,NPC수령,ST_QD_SUB_007,우물을 흐리게 하는 원인을 찾아 해결한다.
+1208,Q_SUB_008,ST_Q_SUB_008,[미스트웰] 할머니의 빨래,서브,수집,2,None,1회,NPC_Seradi,LOC_Libergrove_Washstead,리베르그로브 빨래터,,5,NPC_Seradi,100,90,C_VIT_01,2,,,NPC수령,ST_QD_SUB_008,바람에 날아간 빨랫감 5개를 마을에서 주워 온다.

@@ -1,0 +1,30 @@
+{
+  "source_object_name": "CH_RestyleCart_REF___tripo_node_30895201",
+  "output_object_name": "CH_Cart_Game_v001",
+  "operations": [
+    {
+      "type": "transform_object",
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "transform_vertices",
+      "scale": [
+        1.1005373717635565,
+        1.1005373717635565,
+        1.1005373717635565
+      ],
+      "translation": [
+        -0.0,
+        -0.0,
+        0.55
+      ]
+    },
+    {
+      "type": "delete_loose"
+    }
+  ]
+}

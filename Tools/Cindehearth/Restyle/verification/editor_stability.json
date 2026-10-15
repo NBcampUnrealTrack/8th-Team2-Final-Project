@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "editor_ticks": 11769,
+  "elapsed_seconds": 100.0,
+  "tree_count": 95,
+  "capture": {
+    "success": true,
+    "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Restyle_reload_stable.png",
+    "width": 1850,
+    "height": 823,
+    "camera": {
+      "location": [
+        -1900,
+        -7200,
+        800
+      ],
+      "rotation": [
+        -16.505551,
+        20.224859,
+        0
+      ],
+      "fov": 90
+    }
+  },
+  "samples": [
+    {
+      "elapsed": 0.03,
+      "ticks": 1
+    },
+    {
+      "elapsed": 15.03,
+      "ticks": 1755
+    },
+    {
+      "elapsed": 30.17,
+      "ticks": 3528
+    },
+    {
+      "elapsed": 45.17,
+      "ticks": 5305
+    },
+    {
+      "elapsed": 60.17,
+      "ticks": 7086
+    },
+    {
+      "elapsed": 75.17,
+      "ticks": 8831
+    },
+    {
+      "elapsed": 90.17,
+      "ticks": 10610
+    }
+  ],
+  "forced_material_diagnostics": false
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "tool": "blender_save_copy",
+    "arguments": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Shelf_Game_v003.blend",
+      "overwrite": false
+    },
+    "request_id": 51034843416147
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"51034843416147\",\n    \"command\": \"file.save_copy\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "51034843416147",
+        "command": "file.save_copy",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"51034843416147\",\n    \"command\": \"file.save_copy\",\n    \"state\": \"finished\",\n    \"created_at\": 1788595646.756623,\n    \"finished_at\": 1788595647.291003,\n    \"result\": {\n      \"path\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Polish_v003\\\\CH_Polish_Shelf_Game_v003.blend\",\n      \"bytes\": 22402576,\n      \"copy\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "51034843416147",
+        "command": "file.save_copy",
+        "state": "finished",
+        "created_at": 1788595646.756623,
+        "finished_at": 1788595647.291003,
+        "result": {
+          "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Shelf_Game_v003.blend",
+          "bytes": 22402576,
+          "copy": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "T_Boss2_HillCollapse_Telegraph2_Glow",
+  "blend": "Additive",
+  "frame_w": 512,
+  "frame_h": 320,
+  "cols": 4,
+  "rows": 4,
+  "frames": 16,
+  "fps": 24,
+  "loop": true,
+  "pivot_px": [
+    256,
+    226
+  ],
+  "pivot_uv": [
+    0.5,
+    0.7063
+  ],
+  "screen_scale_1080p": 1.7,
+  "note": "예비 2턴차: 위험 범위·빛기둥·낙석"
+}

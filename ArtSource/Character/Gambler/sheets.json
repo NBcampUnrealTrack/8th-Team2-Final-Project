@@ -1,0 +1,115 @@
+{
+ "canvas": [
+  60,
+  100
+ ],
+ "pivot": [
+  30,
+  96
+ ],
+ "jobId": 1004,
+ "anims": {
+  "Idle_Front": {
+   "source": "04_front_idle",
+   "offset": [
+    -1,
+    -1
+   ],
+   "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ]
+  },
+  "Walk_Front": {
+   "source": "05_front_walk",
+   "offset": [
+    -3,
+    1
+   ],
+   "durations_ms": [
+    120,
+    110,
+    110,
+    110,
+    120,
+    110,
+    110,
+    110
+   ]
+  },
+  "Idle_Side": {
+   "source": "01_side_walk",
+   "offset": [
+    6,
+    0
+   ],
+   "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ]
+  },
+  "Walk_Side": {
+   "source": "side_walk_png_frames",
+   "offset": [
+    6,
+    0
+   ],
+   "durations_ms": [
+    110,
+    110,
+    110,
+    110,
+    110,
+    110,
+    110,
+    110
+   ]
+  },
+  "Walk_Back": {
+   "source": "gambler_back_walk8_4layers",
+   "offset": [
+    -2,
+    1
+   ],
+   "durations_ms": [
+    120,
+    110,
+    110,
+    110,
+    120,
+    110,
+    110,
+    110
+   ]
+  },
+  "Idle_Back": {
+   "source": "Back idle",
+   "offset": [
+    -2,
+    0
+   ],
+   "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ]
+  }
+ }
+}

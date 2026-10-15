@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "name": "Watermill",
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Level_V8_20260908\\Preview\\Game_Watermill_Final_004.png",
+      "pawn": [
+        1650.0,
+        -80.0,
+        80.2513313293457
+      ],
+      "camera": [
+        1650.0000000000016,
+        -1725.4482671904357,
+        1090.2513313293468
+      ],
+      "rotation": [
+        1.4690353290379085e-14,
+        -30.0,
+        90.0
+      ],
+      "fov": 38.0,
+      "night": false,
+      "style_overrides": {},
+      "actual_game_view": true
+    }
+  ],
+  "error": null,
+  "mpc_defaults_unchanged": true,
+  "runtime_restored": true
+}

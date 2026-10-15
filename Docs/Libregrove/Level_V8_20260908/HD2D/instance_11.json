@@ -1,0 +1,21 @@
+{
+  "source": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Materials/tripo_mat_62cb0827.tripo_mat_62cb0827",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_09_MarketStall_c1564.MI_HD2D_LG_09_MarketStall_c1564",
+  "kind": "Surface",
+  "scalars": {
+    "PixelGrid": 256.0,
+    "Roughness": 0.87,
+    "Metallic": 0.0
+  },
+  "vectors": {
+    "MaterialTint": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "textures": {
+    "BaseColorTexture": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Textures/LG_09_MarketStall_fbx_basecolor"
+  }
+}

@@ -1,0 +1,20 @@
+#pragma once
+
+#include "NativeGameplayTags.h"
+
+namespace NU::Quest::Objective
+{
+	PROJECTM_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TutorialAction);
+	PROJECTM_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(NaiaCalmed);
+	PROJECTM_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(JobSelected);
+	PROJECTM_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(StarterContracted);
+	PROJECTM_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(SparringWon);
+}
+
+// 진정 전투 행동의 결과 큐, 블루프린트 큐(GCN_Quest*)가 이 태그로 나이아가라를 띄운다
+namespace NU::Quest::Cue
+{
+	PROJECTM_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Calm);
+	PROJECTM_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(CalmFail);
+	PROJECTM_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(MoveStone);
+}

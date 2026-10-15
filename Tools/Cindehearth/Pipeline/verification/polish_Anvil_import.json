@@ -1,0 +1,201 @@
+[
+  {
+    "tool": "blender_model_import",
+    "arguments": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Tripo\\CH_Polish_Anvil_P2_v003\\f36ec94d-a6c0-474b-beb5-786ce888d83e\\f36ec94d-a6c0-474b-beb5-786ce888d83e_model.fbx",
+      "name_prefix": "CH_Polish_Anvil_REF__"
+    },
+    "request_id": 168302666464729
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"168302666464729\",\n    \"command\": \"model.import\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "168302666464729",
+        "command": "model.import",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"168302666464729\",\n    \"command\": \"model.import\",\n    \"state\": \"finished\",\n    \"created_at\": 1788595266.0084348,\n    \"finished_at\": 1788595267.1624324,\n    \"result\": {\n      \"source_path\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Anvil_P2_v003\\\\f36ec94d-a6c0-474b-beb5-786ce888d83e\\\\f36ec94d-a6c0-474b-beb5-786ce888d83e_model.fbx\",\n      \"format\": \"fbx\",\n      \"name_prefix\": \"CH_Polish_Anvil_REF__\",\n      \"objects\": [\n        {\n          \"name\": \"CH_Polish_Anvil_REF___tripo_node_f36ec94d\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Polish_Anvil_REF___tripo_node_f36ec94d_Mesh\"\n        }\n      ],\n      \"mesh_reports\": [\n        {\n          \"object\": {\n            \"name\": \"CH_Polish_Anvil_REF___tripo_node_f36ec94d\",\n            \"type\": \"MESH\",\n            \"data_name\": \"CH_Polish_Anvil_REF___tripo_node_f36ec94d_Mesh\",\n            \"location\": [\n              0.0,\n              0.0,\n              0.0\n            ],\n            \"rotation_degrees\": [\n              -2.5044780654876655e-06,\n              0.0,\n              0.0\n            ],\n            \"scale\": [\n              1.0,\n              1.0,\n              1.0\n            ],\n            \"dimensions\": [\n              0.82275390625,\n              0.99951171875,\n              0.63916015625\n            ],\n            \"matrix_world\": [\n              [\n                1.0,\n                0.0,\n                0.0,\n                0.0\n              ],\n              [\n                0.0,\n                1.0,\n                4.371138828673793e-08,\n                0.0\n              ],\n              [\n                0.0,\n                -4.371138828673793e-08,\n                1.0,\n                0.0\n              ],\n              [\n                0.0,\n                0.0,\n                0.0,\n                1.0\n              ]\n            ],\n            \"parent\": null,\n            \"collections\": [\n              \"Collection\"\n            ]\n          },\n          \"fingerprint\": \"777795580f1a64ac9baff556e2a4a762ec7f55699d3a17edafc47ce5ce153a57\",\n          \"geometry\": {\n            \"vertices\": 476,\n            \"edges\": 1001,\n            \"polygons\": 525,\n            \"triangles\": 832,\n            \"ngons\": 0,\n            \"loose_vertices\": 0,\n            \"loose_edges\": 0,\n            \"zero_length_edges\": 0,\n            \"boundary_edges\": 125,\n            \"wire_edges\": 0,\n            \"non_manifold_edges\": 2,\n            \"degenerate_faces\": 0,\n            \"invalid_face_normals\": 0,\n            \"non_finite_vertices\": 0\n          },\n          \"bounds\": {\n            \"local_min\": [\n              -0.411376953125,\n              -0.499755859375,\n              -0.319580078125\n            ],\n            \"local_max\": [\n              0.411376953125,\n              0.499755859375,\n              0.319580078125\n            ],\n            \"world_min\": [\n              -0.411376953125,\n              -0.499755859375,\n              -0.3195801079273224\n            ],\n            \"world_max\": [\n              0.411376953125,\n              0.499755859375,\n              0.3195801079273224\n            ]\n          },\n          \"materials\": [\n            {\n              \"slot\": 0,\n              \"name\": \"tripo_mat_f36ec94d\"\n            }\n          ],\n          \"uv_layers\": [\n            {\n              \"name\": \"f36ec94d_a6c0_474b_beb5_786ce888d83e_NewUVMap\",\n              \"active\": true,\n              \"active_render\": true,\n              \"loop_count\": 1882,\n              \"bounds_min\": [\n                0.0007433996652252972,\n                0.0005411307211034\n              ],\n              \"bounds_max\": [\n                0.995142936706543,\n                0.9995267987251282\n              ],\n              \"out_of_zero_one_range\": 0,\n              \"non_finite\": 0,\n              \"degenerate_faces\": 0\n            }\n          ],\n          \"modifiers\": [],\n          \"quality\": {\n            \"passed\": true,\n            \"score\": 94,\n            \"blockers\": [],\n            \"warnings\": [\n              {\n                \"code\": \"non_manifold_geometry\",\n                \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n              }\n            ],\n            \"requirements\": {}\n          }\n        }\n      ]\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "168302666464729",
+        "command": "model.import",
+        "state": "finished",
+        "created_at": 1788595266.0084348,
+        "finished_at": 1788595267.1624324,
+        "result": {
+          "source_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Tripo\\CH_Polish_Anvil_P2_v003\\f36ec94d-a6c0-474b-beb5-786ce888d83e\\f36ec94d-a6c0-474b-beb5-786ce888d83e_model.fbx",
+          "format": "fbx",
+          "name_prefix": "CH_Polish_Anvil_REF__",
+          "objects": [
+            {
+              "name": "CH_Polish_Anvil_REF___tripo_node_f36ec94d",
+              "type": "MESH",
+              "data_name": "CH_Polish_Anvil_REF___tripo_node_f36ec94d_Mesh"
+            }
+          ],
+          "mesh_reports": [
+            {
+              "object": {
+                "name": "CH_Polish_Anvil_REF___tripo_node_f36ec94d",
+                "type": "MESH",
+                "data_name": "CH_Polish_Anvil_REF___tripo_node_f36ec94d_Mesh",
+                "location": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rotation_degrees": [
+                  -2.5044780654876655e-06,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "dimensions": [
+                  0.82275390625,
+                  0.99951171875,
+                  0.63916015625
+                ],
+                "matrix_world": [
+                  [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    1.0,
+                    4.371138828673793e-08,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    -4.371138828673793e-08,
+                    1.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                ],
+                "parent": null,
+                "collections": [
+                  "Collection"
+                ]
+              },
+              "fingerprint": "777795580f1a64ac9baff556e2a4a762ec7f55699d3a17edafc47ce5ce153a57",
+              "geometry": {
+                "vertices": 476,
+                "edges": 1001,
+                "polygons": 525,
+                "triangles": 832,
+                "ngons": 0,
+                "loose_vertices": 0,
+                "loose_edges": 0,
+                "zero_length_edges": 0,
+                "boundary_edges": 125,
+                "wire_edges": 0,
+                "non_manifold_edges": 2,
+                "degenerate_faces": 0,
+                "invalid_face_normals": 0,
+                "non_finite_vertices": 0
+              },
+              "bounds": {
+                "local_min": [
+                  -0.411376953125,
+                  -0.499755859375,
+                  -0.319580078125
+                ],
+                "local_max": [
+                  0.411376953125,
+                  0.499755859375,
+                  0.319580078125
+                ],
+                "world_min": [
+                  -0.411376953125,
+                  -0.499755859375,
+                  -0.3195801079273224
+                ],
+                "world_max": [
+                  0.411376953125,
+                  0.499755859375,
+                  0.3195801079273224
+                ]
+              },
+              "materials": [
+                {
+                  "slot": 0,
+                  "name": "tripo_mat_f36ec94d"
+                }
+              ],
+              "uv_layers": [
+                {
+                  "name": "f36ec94d_a6c0_474b_beb5_786ce888d83e_NewUVMap",
+                  "active": true,
+                  "active_render": true,
+                  "loop_count": 1882,
+                  "bounds_min": [
+                    0.0007433996652252972,
+                    0.0005411307211034
+                  ],
+                  "bounds_max": [
+                    0.995142936706543,
+                    0.9995267987251282
+                  ],
+                  "out_of_zero_one_range": 0,
+                  "non_finite": 0,
+                  "degenerate_faces": 0
+                }
+              ],
+              "modifiers": [],
+              "quality": {
+                "passed": true,
+                "score": 94,
+                "blockers": [],
+                "warnings": [
+                  {
+                    "code": "non_manifold_geometry",
+                    "message": "Mesh contains boundary, wire, or non-manifold edges."
+                  }
+                ],
+                "requirements": {}
+              }
+            }
+          ]
+        }
+      }
+    },
+    "isError": false
+  }
+]

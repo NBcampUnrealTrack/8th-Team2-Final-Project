@@ -1,0 +1,474 @@
+[
+  {
+    "ridge": "CH_NorthCliff_0_Source_HD2D_P3",
+    "height_factor": 0.6938722297054867
+  },
+  {
+    "ridge": "CH_NorthCliff_1_Source_HD2D_P3",
+    "height_factor": 0.4472046175072434
+  },
+  {
+    "ridge": "CH_NorthCliff_2_Source_HD2D_P3",
+    "height_factor": 0.3970317400356873
+  },
+  {
+    "ridge": "CH_NorthCliff_3_Source_HD2D_P3",
+    "height_factor": 0.4262767835890635
+  },
+  {
+    "ridge": "CH_NorthCliff_4_Source_HD2D_P3",
+    "height_factor": 0.4802565987332734
+  },
+  {
+    "ridge": "CH_NorthCliff_5_Source_HD2D_P3",
+    "height_factor": 0.48714881911490193
+  },
+  {
+    "ridge": "CH_NorthCliff_6_Source_HD2D_P3",
+    "height_factor": 0.5278429768031082
+  },
+  {
+    "ridge": "CH_NorthCliff_7_Source_HD2D_P3",
+    "height_factor": 0.4906776878529008
+  },
+  {
+    "ridge": "CH_NorthCliff_8_Source_HD2D_P3",
+    "height_factor": 0.586342754689745
+  },
+  {
+    "ridge": "CH_NorthCliff_9_Source_HD2D_P3",
+    "height_factor": 0.40743897746067603
+  },
+  {
+    "ridge": "CH_NorthCliff_10_Source_HD2D_P3",
+    "height_factor": 0.5773882154590542
+  },
+  {
+    "ridge": "CH_NorthCliff_11_Source_HD2D_P3",
+    "height_factor": 0.48937115397796377
+  },
+  {
+    "ridge": "CH_NorthCliff_12_Source_HD2D_P3",
+    "height_factor": 0.4170714908164136
+  },
+  {
+    "ridge": "CH_NorthCliff_13_Source_HD2D_P3",
+    "height_factor": 0.40946110402521185
+  },
+  {
+    "ridge": "CH_NorthCliff_14_Source_HD2D_P3",
+    "height_factor": 0.6177680057377067
+  },
+  {
+    "ridge": "CH_NorthCliff_15_Source_HD2D_P3",
+    "height_factor": 0.4167056510506399
+  },
+  {
+    "ridge": "CH_NorthCliff_16_Source_HD2D_P3",
+    "height_factor": 0.3870248087344222
+  },
+  {
+    "ridge": "CH_NorthCliff_20_Source_HD2D_P3",
+    "height_factor": 0.324520922225899
+  },
+  {
+    "ridge": "CH_NorthCliff_21_Source_HD2D_P3",
+    "height_factor": 0.5901547442959708
+  },
+  {
+    "ridge": "CH_NorthCliff_22_Source_HD2D_P3",
+    "height_factor": 0.5459027595943835
+  },
+  {
+    "ridge": "CH_NorthCliff_23_Source_HD2D_P3",
+    "height_factor": 0.44801187730920644
+  },
+  {
+    "ridge": "CH_NorthCliff_24_Source_HD2D_P3",
+    "height_factor": 0.47174859172834827
+  },
+  {
+    "ridge": "CH_NorthCliff_25_Source_HD2D_P3",
+    "height_factor": 0.38450491083585514
+  },
+  {
+    "ridge": "CH_NorthCliff_26_Source_HD2D_P3",
+    "height_factor": 0.714052998329558
+  },
+  {
+    "ridge": "CH_NorthCliff_27_Source_HD2D_P3",
+    "height_factor": 0.43195293202910245
+  },
+  {
+    "ridge": "CH_NorthCliff_28_Source_HD2D_P3",
+    "height_factor": 0.5190077351305715
+  },
+  {
+    "ridge": "CH_NorthCliff_29_Source_HD2D_P3",
+    "height_factor": 0.4953813039091816
+  },
+  {
+    "ridge": "CH_NorthCliff_30_Source_HD2D_P3",
+    "height_factor": 0.4774537595875849
+  },
+  {
+    "ridge": "CH_NorthCliff_31_Source_HD2D_P3",
+    "height_factor": 0.5398371897813613
+  },
+  {
+    "ridge": "CH_NorthCliff_32_Source_HD2D_P3",
+    "height_factor": 0.42962037613254034
+  },
+  {
+    "ridge": "CH_NorthCliff_33_Source_HD2D_P3",
+    "height_factor": 0.5146863574551801
+  },
+  {
+    "ridge": "CH_SideCliff_-1_0_Source_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_SideCliff_-1_1_Source_HD2D_P3",
+    "height_factor": 0.5912856211043863
+  },
+  {
+    "ridge": "CH_SideCliff_-1_2_Source_HD2D_P3",
+    "height_factor": 0.8843629512321058
+  },
+  {
+    "ridge": "CH_SideCliff_-1_3_Source_HD2D_P3",
+    "height_factor": 0.8153820650627905
+  },
+  {
+    "ridge": "CH_SideCliff_-1_4_Source_HD2D_P3",
+    "height_factor": 0.6446670763812151
+  },
+  {
+    "ridge": "CH_SideCliff_-1_5_Source_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_SideCliff_-1_6_Source_HD2D_P3",
+    "height_factor": 0.5920228265128402
+  },
+  {
+    "ridge": "CH_SideCliff_-1_7_Source_HD2D_P3",
+    "height_factor": 0.906725540518701
+  },
+  {
+    "ridge": "CH_SideCliff_-1_8_Source_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_SideCliff_-1_9_Source_HD2D_P3",
+    "height_factor": 0.8153326780079008
+  },
+  {
+    "ridge": "CH_SideCliff_-1_10_Source_HD2D_P3",
+    "height_factor": 0.7599651025087376
+  },
+  {
+    "ridge": "CH_SideCliff_-1_14_Source_HD2D_P3",
+    "height_factor": 0.5932258473267102
+  },
+  {
+    "ridge": "CH_SideCliff_-1_15_Source_HD2D_P3",
+    "height_factor": 0.5512558806789579
+  },
+  {
+    "ridge": "CH_SideCliff_-1_16_Source_HD2D_P3",
+    "height_factor": 0.7811039952831806
+  },
+  {
+    "ridge": "CH_SideCliff_-1_17_Source_HD2D_P3",
+    "height_factor": 0.517609731518432
+  },
+  {
+    "ridge": "CH_SideCliff_-1_18_Source_HD2D_P3",
+    "height_factor": 0.49341548140236874
+  },
+  {
+    "ridge": "CH_SideCliff_-1_19_Source_HD2D_P3",
+    "height_factor": 0.6208370768383517
+  },
+  {
+    "ridge": "CH_SideCliff_-1_20_Source_HD2D_P3",
+    "height_factor": 0.5898045627428566
+  },
+  {
+    "ridge": "CH_SideCliff_-1_21_Source_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_SideCliff_1_0_Source_HD2D_P3",
+    "height_factor": 0.7127005721717584
+  },
+  {
+    "ridge": "CH_SideCliff_1_1_Source_HD2D_P3",
+    "height_factor": 0.5066987598212872
+  },
+  {
+    "ridge": "CH_SideCliff_1_2_Source_HD2D_P3",
+    "height_factor": 0.740137859347799
+  },
+  {
+    "ridge": "CH_SideCliff_1_3_Source_HD2D_P3",
+    "height_factor": 0.7253729396494546
+  },
+  {
+    "ridge": "CH_SideCliff_1_4_Source_HD2D_P3",
+    "height_factor": 0.6654376842231025
+  },
+  {
+    "ridge": "CH_SideCliff_1_5_Source_HD2D_P3",
+    "height_factor": 0.8931862108511839
+  },
+  {
+    "ridge": "CH_SideCliff_1_6_Source_HD2D_P3",
+    "height_factor": 0.584454610983837
+  },
+  {
+    "ridge": "CH_SideCliff_1_7_Source_HD2D_P3",
+    "height_factor": 0.8120009357412936
+  },
+  {
+    "ridge": "CH_SideCliff_1_8_Source_HD2D_P3",
+    "height_factor": 0.7549098100395631
+  },
+  {
+    "ridge": "CH_SideCliff_1_9_Source_HD2D_P3",
+    "height_factor": 0.9966450658904236
+  },
+  {
+    "ridge": "CH_SideCliff_1_10_Source_HD2D_P3",
+    "height_factor": 0.7582569458897354
+  },
+  {
+    "ridge": "CH_SideCliff_1_11_Source_HD2D_P3",
+    "height_factor": 0.9746288074106357
+  },
+  {
+    "ridge": "CH_SideCliff_1_12_Source_HD2D_P3",
+    "height_factor": 0.7841699398529214
+  },
+  {
+    "ridge": "CH_SideCliff_1_13_Source_HD2D_P3",
+    "height_factor": 0.844995767693984
+  },
+  {
+    "ridge": "CH_SideCliff_1_14_Source_HD2D_P3",
+    "height_factor": 0.5882605837342673
+  },
+  {
+    "ridge": "CH_SideCliff_1_15_Source_HD2D_P3",
+    "height_factor": 0.8692896497286676
+  },
+  {
+    "ridge": "CH_SideCliff_1_16_Source_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_SideCliff_1_20_Source_HD2D_P3",
+    "height_factor": 0.9775955745463949
+  },
+  {
+    "ridge": "CH_SideCliff_1_21_Source_HD2D_P3",
+    "height_factor": 0.8601382943510798
+  },
+  {
+    "ridge": "CH_RidgeMass_00_HD2D_P3",
+    "height_factor": 0.8643567557799103
+  },
+  {
+    "ridge": "CH_RidgeMass_01_HD2D_P3",
+    "height_factor": 0.9897859789090055
+  },
+  {
+    "ridge": "CH_RidgeMass_02_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_03_HD2D_P3",
+    "height_factor": 0.7127019683334236
+  },
+  {
+    "ridge": "CH_RidgeMass_04_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_05_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_06_HD2D_P3",
+    "height_factor": 0.990274257422196
+  },
+  {
+    "ridge": "CH_RidgeMass_07_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_08_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_09_HD2D_P3",
+    "height_factor": 0.9346249085126875
+  },
+  {
+    "ridge": "CH_RidgeMass_10_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_11_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_12_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_13_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_14_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_15_HD2D_P3",
+    "height_factor": 0.6769153413500848
+  },
+  {
+    "ridge": "CH_RidgeMass_19_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_20_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_21_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_22_HD2D_P3",
+    "height_factor": 0.8787121891337204
+  },
+  {
+    "ridge": "CH_RidgeMass_23_HD2D_P3",
+    "height_factor": 0.8004144127892138
+  },
+  {
+    "ridge": "CH_RidgeMass_24_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_25_HD2D_P3",
+    "height_factor": 0.9844595465194835
+  },
+  {
+    "ridge": "CH_RidgeMass_26_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_27_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_28_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_29_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_30_HD2D_P3",
+    "height_factor": 0.9540138374303019
+  },
+  {
+    "ridge": "CH_RidgeMass_31_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_32_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_33_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_34_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_35_HD2D_P3",
+    "height_factor": 0.9174294963211383
+  },
+  {
+    "ridge": "CH_RidgeMass_36_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_37_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_38_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_39_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_40_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_41_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_42_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_44_HD2D_P3",
+    "height_factor": 0.9947704911850971
+  },
+  {
+    "ridge": "CH_RidgeMass_46_HD2D_P3",
+    "height_factor": 0.654456340084443
+  },
+  {
+    "ridge": "CH_RidgeMass_48_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_49_HD2D_P3",
+    "height_factor": 0.736685937419376
+  },
+  {
+    "ridge": "CH_RidgeMass_51_HD2D_P3",
+    "height_factor": 0.8257060337775569
+  },
+  {
+    "ridge": "CH_RidgeMass_53_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_55_HD2D_P3",
+    "height_factor": 1
+  },
+  {
+    "ridge": "CH_RidgeMass_56_HD2D_P3",
+    "height_factor": 0.652171558340126
+  },
+  {
+    "ridge": "CH_RidgeMass_57_HD2D_P3",
+    "height_factor": 1
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "status": "finished",
+  "id": "LG_06_NaiaShelter",
+  "destination": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter",
+  "objects": [
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/Textures/LG_06_NaiaShelter_fbx_basecolor.LG_06_NaiaShelter_fbx_basecolor",
+      "class": "Texture2D"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/Materials/tripo_mat_6029c87e.tripo_mat_6029c87e",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/StaticMeshes/SM_LG_06_NaiaShelter_V7.SM_LG_06_NaiaShelter_V7",
+      "class": "StaticMesh"
+    }
+  ]
+}

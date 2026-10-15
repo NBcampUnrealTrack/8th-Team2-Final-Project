@@ -1,0 +1,11 @@
+{
+  "stage": "terrain_create",
+  "created": [],
+  "layers": [
+    "/Game/Libregrove/Level_V8/Landscape/LI_Grass",
+    "/Game/Libregrove/Level_V8/Landscape/LI_Dirt",
+    "/Game/Libregrove/Level_V8/Landscape/LI_Cobblestone",
+    "/Game/Libregrove/Level_V8/Landscape/LI_Moss"
+  ],
+  "total_actors": 7
+}

@@ -1,0 +1,30 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"success\": true,\n  \"result\": {\n    \"scene\": \"Scene\",\n    \"active_object\": null,\n    \"object_count\": 0,\n    \"returned_object_count\": 0,\n    \"truncated\": false,\n    \"collections\": [\n      \"Collection\"\n    ],\n    \"materials\": [\n      \"Dots Stroke\",\n      \"Material\"\n    ],\n    \"objects\": []\n  }\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "result": {
+      "scene": "Scene",
+      "active_object": null,
+      "object_count": 0,
+      "returned_object_count": 0,
+      "truncated": false,
+      "collections": [
+        "Collection"
+      ],
+      "materials": [
+        "Dots Stroke",
+        "Material"
+      ],
+      "objects": []
+    }
+  },
+  "isError": false
+}

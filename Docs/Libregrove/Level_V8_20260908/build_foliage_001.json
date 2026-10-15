@@ -1,0 +1,35 @@
+{
+  "stage": "foliage",
+  "created": [],
+  "foliage": [
+    {
+      "kind": "Canopy",
+      "type": "/Game/Libregrove/Level_V8/Foliage/FT_LG8_Canopy.FT_LG8_Canopy",
+      "requested": 293,
+      "added": 293,
+      "rejected": 0
+    },
+    {
+      "kind": "Saplings",
+      "type": "/Game/Libregrove/Level_V8/Foliage/FT_LG8_Saplings.FT_LG8_Saplings",
+      "requested": 191,
+      "added": 191,
+      "rejected": 0
+    },
+    {
+      "kind": "Bush",
+      "type": "/Game/Libregrove/Level_V8/Foliage/FT_LG8_Bush.FT_LG8_Bush",
+      "requested": 1588,
+      "added": 1588,
+      "rejected": 0
+    },
+    {
+      "kind": "Rock",
+      "type": "/Game/Libregrove/Level_V8/Foliage/FT_LG8_Rock.FT_LG8_Rock",
+      "requested": 314,
+      "added": 314,
+      "rejected": 0
+    }
+  ],
+  "total_actors": 780
+}

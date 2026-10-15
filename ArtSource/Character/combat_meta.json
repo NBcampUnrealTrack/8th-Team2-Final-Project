@@ -1,0 +1,1834 @@
+{
+ "Novice/Combat_Idle": {
+  "name": "MCh_Body_Combat_Idle",
+  "cell": [
+   57,
+   94
+  ],
+  "frames": 8,
+  "pivot": [
+   28,
+   94
+  ],
+  "content": [
+   9,
+   32,
+   48,
+   93
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ]
+ },
+ "Novice/Combat_Attack": {
+  "name": "MCh_Body_Combat_Attack",
+  "cell": [
+   80,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   38,
+   105
+  ],
+  "content": [
+   18,
+   39,
+   60,
+   104
+  ],
+  "durations_ms": [
+   180,
+   100,
+   80,
+   50,
+   80,
+   60,
+   100,
+   150
+  ],
+  "frame_runs": [
+   18,
+   10,
+   8,
+   5,
+   8,
+   6,
+   10,
+   15
+  ]
+ },
+ "Novice/Combat_Death": {
+  "name": "MCh_Body_Combat_Death",
+  "cell": [
+   112,
+   94
+  ],
+  "frames": 8,
+  "pivot": [
+   42,
+   94
+  ],
+  "content": [
+   12,
+   32,
+   83,
+   93
+  ],
+  "durations_ms": [
+   140,
+   100,
+   110,
+   110,
+   100,
+   80,
+   80,
+   180
+  ],
+  "frame_runs": [
+   14,
+   10,
+   11,
+   11,
+   10,
+   8,
+   8,
+   18
+  ]
+ },
+ "Gambler/Combat_Idle": {
+  "name": "MCh_Gambler_Body_Combat_Idle",
+  "cell": [
+   80,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   38,
+   105
+  ],
+  "content": [
+   4,
+   3,
+   77,
+   104
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ]
+ },
+ "Gambler/Combat_Attack": {
+  "name": "MCh_Gambler_Body_Combat_Attack",
+  "cell": [
+   80,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   38,
+   105
+  ],
+  "content": [
+   4,
+   2,
+   78,
+   104
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ]
+ },
+ "NaiaKnight/Combat_Idle": {
+  "name": "MCh_NaiaKnight_Body_Combat_Idle",
+  "cell": [
+   64,
+   96
+  ],
+  "frames": 8,
+  "pivot": [
+   30,
+   94
+  ],
+  "content": [
+   0,
+   32,
+   59,
+   93
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ]
+ },
+ "NaiaKnight/Combat_Attack": {
+  "name": "MCh_NaiaKnight_Body_Combat_Attack",
+  "cell": [
+   128,
+   144
+  ],
+  "frames": 8,
+  "pivot": [
+   62,
+   137
+  ],
+  "content": [
+   14,
+   6,
+   90,
+   136
+  ],
+  "durations_ms": [
+   150,
+   100,
+   130,
+   40,
+   90,
+   100,
+   130,
+   160
+  ],
+  "frame_runs": [
+   15,
+   10,
+   13,
+   4,
+   9,
+   10,
+   13,
+   16
+  ]
+ },
+ "Druid/Combat_Idle": {
+  "name": "MCh_Druid_Body_Combat_Idle",
+  "cell": [
+   64,
+   94
+  ],
+  "frames": 8,
+  "pivot": [
+   30,
+   94
+  ],
+  "content": [
+   4,
+   28,
+   52,
+   93
+  ],
+  "durations_ms": [
+   180,
+   140,
+   140,
+   180,
+   140,
+   140,
+   140,
+   140
+  ],
+  "frame_runs": [
+   18,
+   14,
+   14,
+   18,
+   14,
+   14,
+   14,
+   14
+  ],
+  "source": "드루이드(남) 수정버전/sage_animation_layers4/sage_combat_outline_8f"
+ },
+ "Druid/Combat_Attack": {
+  "name": "MCh_Druid_Body_Combat_Attack",
+  "cell": [
+   352,
+   256
+  ],
+  "frames": 8,
+  "pivot": [
+   194,
+   241
+  ],
+  "content": [
+   31,
+   33,
+   238,
+   240
+  ],
+  "durations_ms": [
+   180,
+   140,
+   120,
+   220,
+   60,
+   150,
+   160,
+   240
+  ],
+  "frame_runs": [
+   18,
+   14,
+   12,
+   22,
+   6,
+   15,
+   16,
+   24
+  ],
+  "source": "드루이드(남) 수정버전/sage_animation_layers4/sage_target_slam_8f",
+  "note": "0·1·6·7프레임 드루이드는 옛 그림이고 새 대기만 다시 그린 그림이라 대기<->공격 전환에서 옷 음영이 바뀐다(경환 님 확인 필요)"
+ },
+ "Tracker/Combat_Idle": {
+  "name": "MCh_Tracker_Body_Combat_Idle",
+  "cell": [
+   128,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   58,
+   108
+  ],
+  "content": [
+   23,
+   42,
+   101,
+   107
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ]
+ },
+ "Tracker/Combat_Attack": {
+  "name": "MCh_Tracker_Body_Combat_Attack",
+  "cell": [
+   160,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   57,
+   108
+  ],
+  "content": [
+   17,
+   8,
+   152,
+   107
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ]
+ },
+ "Novice/Combat_Idle/hair": {
+  "name": "MCh_Hair1_Combat_Idle",
+  "cell": [
+   57,
+   94
+  ],
+  "frames": 8,
+  "pivot": [
+   28,
+   94
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "hair",
+  "body_key": "Novice/Combat_Idle"
+ },
+ "Novice/Combat_Idle/faceeye": {
+  "name": "MCh_FaceEye_Combat_Idle",
+  "cell": [
+   57,
+   94
+  ],
+  "frames": 8,
+  "pivot": [
+   28,
+   94
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "faceeye",
+  "body_key": "Novice/Combat_Idle"
+ },
+ "Novice/Combat_Attack/hair": {
+  "name": "MCh_Hair1_Combat_Attack",
+  "cell": [
+   80,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   38,
+   105
+  ],
+  "durations_ms": [
+   180,
+   100,
+   80,
+   50,
+   80,
+   60,
+   100,
+   150
+  ],
+  "frame_runs": [
+   18,
+   10,
+   8,
+   5,
+   8,
+   6,
+   10,
+   15
+  ],
+  "part": "hair",
+  "body_key": "Novice/Combat_Attack"
+ },
+ "Novice/Combat_Attack/faceeye": {
+  "name": "MCh_FaceEye_Combat_Attack",
+  "cell": [
+   80,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   38,
+   105
+  ],
+  "durations_ms": [
+   180,
+   100,
+   80,
+   50,
+   80,
+   60,
+   100,
+   150
+  ],
+  "frame_runs": [
+   18,
+   10,
+   8,
+   5,
+   8,
+   6,
+   10,
+   15
+  ],
+  "part": "faceeye",
+  "body_key": "Novice/Combat_Attack"
+ },
+ "Novice/Combat_Death/hair": {
+  "name": "MCh_Hair1_Combat_Death",
+  "cell": [
+   112,
+   94
+  ],
+  "frames": 8,
+  "pivot": [
+   42,
+   94
+  ],
+  "durations_ms": [
+   140,
+   100,
+   110,
+   110,
+   100,
+   80,
+   80,
+   180
+  ],
+  "frame_runs": [
+   14,
+   10,
+   11,
+   11,
+   10,
+   8,
+   8,
+   18
+  ],
+  "part": "hair",
+  "body_key": "Novice/Combat_Death"
+ },
+ "Novice/Combat_Death/faceeye": {
+  "name": "MCh_FaceEye_Combat_Death",
+  "cell": [
+   112,
+   94
+  ],
+  "frames": 8,
+  "pivot": [
+   42,
+   94
+  ],
+  "durations_ms": [
+   140,
+   100,
+   110,
+   110,
+   100,
+   80,
+   80,
+   180
+  ],
+  "frame_runs": [
+   14,
+   10,
+   11,
+   11,
+   10,
+   8,
+   8,
+   18
+  ],
+  "part": "faceeye",
+  "body_key": "Novice/Combat_Death"
+ },
+ "Gambler/Combat_Idle/hair": {
+  "name": "MCh_Gambler_Hair_Combat_Idle",
+  "cell": [
+   80,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   38,
+   105
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "hair",
+  "body_key": "Gambler/Combat_Idle"
+ },
+ "Gambler/Combat_Idle/faceeye": {
+  "name": "MCh_Gambler_FaceEye_Combat_Idle",
+  "cell": [
+   80,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   38,
+   105
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "faceeye",
+  "body_key": "Gambler/Combat_Idle"
+ },
+ "Gambler/Combat_Attack/hair": {
+  "name": "MCh_Gambler_Hair_Combat_Attack",
+  "cell": [
+   80,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   38,
+   105
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "hair",
+  "body_key": "Gambler/Combat_Attack"
+ },
+ "Gambler/Combat_Attack/faceeye": {
+  "name": "MCh_Gambler_FaceEye_Combat_Attack",
+  "cell": [
+   80,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   38,
+   105
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "faceeye",
+  "body_key": "Gambler/Combat_Attack"
+ },
+ "NaiaKnight/Combat_Idle/hair": {
+  "name": "MCh_NaiaKnight_Hair_Combat_Idle",
+  "cell": [
+   64,
+   96
+  ],
+  "frames": 8,
+  "pivot": [
+   30,
+   94
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "hair",
+  "body_key": "NaiaKnight/Combat_Idle"
+ },
+ "NaiaKnight/Combat_Idle/faceeye": {
+  "name": "MCh_NaiaKnight_FaceEye_Combat_Idle",
+  "cell": [
+   64,
+   96
+  ],
+  "frames": 8,
+  "pivot": [
+   30,
+   94
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "faceeye",
+  "body_key": "NaiaKnight/Combat_Idle"
+ },
+ "NaiaKnight/Combat_Attack/hair": {
+  "name": "MCh_NaiaKnight_Hair_Combat_Attack",
+  "cell": [
+   128,
+   144
+  ],
+  "frames": 8,
+  "pivot": [
+   62,
+   137
+  ],
+  "durations_ms": [
+   150,
+   100,
+   130,
+   40,
+   90,
+   100,
+   130,
+   160
+  ],
+  "frame_runs": [
+   15,
+   10,
+   13,
+   4,
+   9,
+   10,
+   13,
+   16
+  ],
+  "part": "hair",
+  "body_key": "NaiaKnight/Combat_Attack"
+ },
+ "NaiaKnight/Combat_Attack/faceeye": {
+  "name": "MCh_NaiaKnight_FaceEye_Combat_Attack",
+  "cell": [
+   128,
+   144
+  ],
+  "frames": 8,
+  "pivot": [
+   62,
+   137
+  ],
+  "durations_ms": [
+   150,
+   100,
+   130,
+   40,
+   90,
+   100,
+   130,
+   160
+  ],
+  "frame_runs": [
+   15,
+   10,
+   13,
+   4,
+   9,
+   10,
+   13,
+   16
+  ],
+  "part": "faceeye",
+  "body_key": "NaiaKnight/Combat_Attack"
+ },
+ "Druid/Combat_Idle/hair": {
+  "name": "MCh_Druid_Hair_Combat_Idle",
+  "cell": [
+   64,
+   94
+  ],
+  "frames": 8,
+  "pivot": [
+   30,
+   94
+  ],
+  "durations_ms": [
+   180,
+   140,
+   140,
+   180,
+   140,
+   140,
+   140,
+   140
+  ],
+  "frame_runs": [
+   18,
+   14,
+   14,
+   18,
+   14,
+   14,
+   14,
+   14
+  ],
+  "part": "hair",
+  "body_key": "Druid/Combat_Idle"
+ },
+ "Druid/Combat_Idle/faceeye": {
+  "name": "MCh_Druid_FaceEye_Combat_Idle",
+  "cell": [
+   64,
+   94
+  ],
+  "frames": 8,
+  "pivot": [
+   30,
+   94
+  ],
+  "durations_ms": [
+   180,
+   140,
+   140,
+   180,
+   140,
+   140,
+   140,
+   140
+  ],
+  "frame_runs": [
+   18,
+   14,
+   14,
+   18,
+   14,
+   14,
+   14,
+   14
+  ],
+  "part": "faceeye",
+  "body_key": "Druid/Combat_Idle"
+ },
+ "Druid/Combat_Attack/hair": {
+  "name": "MCh_Druid_Hair_Combat_Attack",
+  "cell": [
+   352,
+   256
+  ],
+  "frames": 8,
+  "pivot": [
+   194,
+   241
+  ],
+  "durations_ms": [
+   180,
+   140,
+   120,
+   220,
+   60,
+   150,
+   160,
+   240
+  ],
+  "frame_runs": [
+   18,
+   14,
+   12,
+   22,
+   6,
+   15,
+   16,
+   24
+  ],
+  "part": "hair",
+  "body_key": "Druid/Combat_Attack",
+  "empty_frames": [
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "Druid/Combat_Attack/faceeye": {
+  "name": "MCh_Druid_FaceEye_Combat_Attack",
+  "cell": [
+   352,
+   256
+  ],
+  "frames": 8,
+  "pivot": [
+   194,
+   241
+  ],
+  "durations_ms": [
+   180,
+   140,
+   120,
+   220,
+   60,
+   150,
+   160,
+   240
+  ],
+  "frame_runs": [
+   18,
+   14,
+   12,
+   22,
+   6,
+   15,
+   16,
+   24
+  ],
+  "part": "faceeye",
+  "body_key": "Druid/Combat_Attack",
+  "empty_frames": [
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "Tracker/Combat_Attack/hair": {
+  "name": "MCh_Tracker_Hair_Combat_Attack",
+  "cell": [
+   160,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   57,
+   108
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "hair",
+  "body_key": "Tracker/Combat_Attack"
+ },
+ "Tracker/Combat_Attack/faceeye": {
+  "name": "MCh_Tracker_FaceEye_Combat_Attack",
+  "cell": [
+   160,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   57,
+   108
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "faceeye",
+  "body_key": "Tracker/Combat_Attack"
+ },
+ "Tracker/Combat_Idle/hair": {
+  "name": "MCh_Tracker_Hair_Combat_Idle",
+  "cell": [
+   128,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   58,
+   108
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "hair",
+  "body_key": "Tracker/Combat_Idle"
+ },
+ "Tracker/Combat_Idle/faceeye": {
+  "name": "MCh_Tracker_FaceEye_Combat_Idle",
+  "cell": [
+   128,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   58,
+   108
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "faceeye",
+  "body_key": "Tracker/Combat_Idle"
+ },
+ "Mage/Combat_Idle": {
+  "name": "MCh_Mage_Body_Combat_Idle",
+  "cell": [
+   64,
+   104
+  ],
+  "frames": 8,
+  "pivot": [
+   32,
+   101
+  ],
+  "content": [
+   7,
+   8,
+   54,
+   101
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "source": "엘리멘탈리스트(남)/wizard_walk_idle_v4_layers4/combat_idle"
+ },
+ "Mage/Combat_Attack": {
+  "name": "MCh_Mage_Body_Combat_Attack",
+  "cell": [
+   160,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   48,
+   105
+  ],
+  "content": [
+   22,
+   3,
+   88,
+   105
+  ],
+  "durations_ms": [
+   180,
+   110,
+   150,
+   70,
+   100,
+   110,
+   110,
+   170
+  ],
+  "frame_runs": [
+   18,
+   11,
+   15,
+   7,
+   10,
+   11,
+   11,
+   17
+  ],
+  "source": "엘리멘탈리스트(남)/wizard_walk_idle_v4_layers4/attack",
+  "events": {
+   "cast_release_frame": 3,
+   "cast_release_ms": 440,
+   "projectile_frames": [
+    4,
+    5
+   ],
+   "projectile_ms": [
+    510,
+    610
+   ],
+   "return_to_idle_frame": 7,
+   "note": "원본 animation.json 값(프레임 번호 0부터로 바꿈). 어느 것을 Hit 로 쓸지는 정하지 않음"
+  }
+ },
+ "Mage/Combat_Idle/hair": {
+  "name": "MCh_Mage_Hair_Combat_Idle",
+  "cell": [
+   64,
+   104
+  ],
+  "frames": 8,
+  "pivot": [
+   32,
+   101
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "hair",
+  "body_key": "Mage/Combat_Idle",
+  "note": "법사 머리는 머리 4번(긴 꽁지머리) 모양이다. 짧은 머리 법사 전투 그림은 없음"
+ },
+ "Mage/Combat_Idle/faceeye": {
+  "name": "MCh_Mage_FaceEye_Combat_Idle",
+  "cell": [
+   64,
+   104
+  ],
+  "frames": 8,
+  "pivot": [
+   32,
+   101
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "faceeye",
+  "body_key": "Mage/Combat_Idle"
+ },
+ "Mage/Combat_Attack/hair": {
+  "name": "MCh_Mage_Hair_Combat_Attack",
+  "cell": [
+   160,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   48,
+   105
+  ],
+  "durations_ms": [
+   180,
+   110,
+   150,
+   70,
+   100,
+   110,
+   110,
+   170
+  ],
+  "frame_runs": [
+   18,
+   11,
+   15,
+   7,
+   10,
+   11,
+   11,
+   17
+  ],
+  "part": "hair",
+  "body_key": "Mage/Combat_Attack",
+  "note": "법사 머리는 머리 4번(긴 꽁지머리) 모양이다. 짧은 머리 법사 전투 그림은 없음"
+ },
+ "Mage/Combat_Attack/faceeye": {
+  "name": "MCh_Mage_FaceEye_Combat_Attack",
+  "cell": [
+   160,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   48,
+   105
+  ],
+  "durations_ms": [
+   180,
+   110,
+   150,
+   70,
+   100,
+   110,
+   110,
+   170
+  ],
+  "frame_runs": [
+   18,
+   11,
+   15,
+   7,
+   10,
+   11,
+   11,
+   17
+  ],
+  "part": "faceeye",
+  "body_key": "Mage/Combat_Attack"
+ },
+ "Mage/Combat_Attack/fx": {
+  "name": "MCh_Mage_FX_Combat_Attack",
+  "cell": [
+   160,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   48,
+   105
+  ],
+  "durations_ms": [
+   180,
+   110,
+   150,
+   70,
+   100,
+   110,
+   110,
+   170
+  ],
+  "frame_runs": [
+   18,
+   11,
+   15,
+   7,
+   10,
+   11,
+   11,
+   17
+  ],
+  "part": "fx",
+  "body_key": "Mage/Combat_Attack",
+  "empty_frames": [
+   0,
+   1,
+   6,
+   7
+  ],
+  "note": "마법 이펙트 층(몸에 안 구워짐). 몸·머리·얼굴 위에 그린다. DT_SkillVFX·JobAttackVFX(1003 행)와 겹칠 수 있다"
+ },
+ "Novice/Combat_Attack/hair4": {
+  "name": "MCh_Hair4_Combat_Attack",
+  "cell": [
+   80,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   38,
+   105
+  ],
+  "durations_ms": [
+   180,
+   100,
+   80,
+   50,
+   80,
+   60,
+   100,
+   150
+  ],
+  "frame_runs": [
+   18,
+   10,
+   8,
+   5,
+   8,
+   6,
+   10,
+   15
+  ],
+  "part": "hair4",
+  "body_key": "Novice/Combat_Attack",
+  "source": "추가헤어 공격모션(전직업_남)/male_attack_mage_hair_v01",
+  "note": "7프레임 (46,40)(46,41) 2칸은 기존 노비스처럼 얼굴 층 몫이라 뺐다"
+ },
+ "Novice/Combat_Idle/hair4": {
+  "name": "MCh_Hair4_Combat_Idle",
+  "cell": [
+   57,
+   94
+  ],
+  "frames": 8,
+  "pivot": [
+   28,
+   94
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "hair4",
+  "body_key": "Novice/Combat_Idle",
+  "source": "Mage/MCh_Mage_Hair_Combat_Idle (make_hair4_combat_idle.py)"
+ },
+ "NaiaKnight/Combat_Attack/hair4": {
+  "name": "MCh_NaiaKnight_Hair4_Combat_Attack",
+  "cell": [
+   128,
+   144
+  ],
+  "frames": 8,
+  "pivot": [
+   62,
+   137
+  ],
+  "durations_ms": [
+   150,
+   100,
+   130,
+   40,
+   90,
+   100,
+   130,
+   160
+  ],
+  "frame_runs": [
+   15,
+   10,
+   13,
+   4,
+   9,
+   10,
+   13,
+   16
+  ],
+  "part": "hair4",
+  "body_key": "NaiaKnight/Combat_Attack",
+  "source": "추가헤어 공격모션(전직업_남)/male_attack_mage_hair_v01"
+ },
+ "NaiaKnight/Combat_Idle/hair4": {
+  "name": "MCh_NaiaKnight_Hair4_Combat_Idle",
+  "cell": [
+   64,
+   96
+  ],
+  "frames": 8,
+  "pivot": [
+   30,
+   94
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "hair4",
+  "body_key": "NaiaKnight/Combat_Idle",
+  "source": "Mage/MCh_Mage_Hair_Combat_Idle (make_hair4_combat_idle.py)"
+ },
+ "Gambler/Combat_Attack/hair4": {
+  "name": "MCh_Gambler_Hair4_Combat_Attack",
+  "cell": [
+   80,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   38,
+   105
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "hair4",
+  "body_key": "Gambler/Combat_Attack",
+  "source": "추가헤어 공격모션(전직업_남)/male_attack_mage_hair_v01",
+  "artist_durations_ms": [
+   200,
+   120,
+   120,
+   100,
+   60,
+   100,
+   120,
+   180
+  ],
+  "note": "원본 시간과 다르지만 지금 몸 플립북(100ms x8)에 맞춤 --- 몸·얼굴·머리는 한 박자 목록을 써야 한다"
+ },
+ "Gambler/Combat_Idle/hair4": {
+  "name": "MCh_Gambler_Hair4_Combat_Idle",
+  "cell": [
+   80,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   38,
+   105
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "hair4",
+  "body_key": "Gambler/Combat_Idle",
+  "source": "Mage/MCh_Mage_Hair_Combat_Idle (make_hair4_combat_idle.py)"
+ },
+ "Tracker/Combat_Attack/hair4": {
+  "name": "MCh_Tracker_Hair4_Combat_Attack",
+  "cell": [
+   160,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   57,
+   108
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "hair4",
+  "body_key": "Tracker/Combat_Attack",
+  "source": "추가헤어 공격모션(전직업_남)/male_attack_mage_hair_v01",
+  "artist_durations_ms": [
+   180,
+   100,
+   110,
+   220,
+   60,
+   90,
+   130,
+   180
+  ],
+  "note": "원본 시간과 다르지만 지금 몸 플립북(100ms x8)에 맞춤 --- 몸·얼굴·머리는 한 박자 목록을 써야 한다"
+ },
+ "Tracker/Combat_Idle/hair4": {
+  "name": "MCh_Tracker_Hair4_Combat_Idle",
+  "cell": [
+   128,
+   112
+  ],
+  "frames": 8,
+  "pivot": [
+   58,
+   108
+  ],
+  "durations_ms": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100,
+   100
+  ],
+  "frame_runs": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "part": "hair4",
+  "body_key": "Tracker/Combat_Idle",
+  "source": "Mage/MCh_Mage_Hair_Combat_Idle (make_hair4_combat_idle.py)"
+ },
+ "Druid/Combat_Attack/hair4": {
+  "name": "MCh_Druid_Hair4_Combat_Attack",
+  "cell": [
+   352,
+   256
+  ],
+  "frames": 8,
+  "pivot": [
+   194,
+   241
+  ],
+  "durations_ms": [
+   180,
+   140,
+   120,
+   220,
+   60,
+   150,
+   160,
+   240
+  ],
+  "frame_runs": [
+   18,
+   14,
+   12,
+   22,
+   6,
+   15,
+   16,
+   24
+  ],
+  "part": "hair4",
+  "body_key": "Druid/Combat_Attack",
+  "source": "추가헤어 공격모션(전직업_남)/male_attack_mage_hair_v01",
+  "empty_frames": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "note": "수정본 드루이드 머리 층 + 꽁지"
+ },
+ "Druid/Combat_Idle/hair4": {
+  "name": "MCh_Druid_Hair4_Combat_Idle",
+  "cell": [
+   64,
+   94
+  ],
+  "frames": 8,
+  "pivot": [
+   30,
+   94
+  ],
+  "durations_ms": [
+   180,
+   140,
+   140,
+   180,
+   140,
+   140,
+   140,
+   140
+  ],
+  "frame_runs": [
+   18,
+   14,
+   14,
+   18,
+   14,
+   14,
+   14,
+   14
+  ],
+  "part": "hair4",
+  "body_key": "Druid/Combat_Idle",
+  "source": "Mage/MCh_Mage_Hair_Combat_Idle (make_hair4_combat_idle.py)"
+ }
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "name": "DirectionalLight_0",
+    "label": "DirectionalLight",
+    "class": "DirectionalLight",
+    "location": [
+      0.0,
+      0.0,
+      400.0
+    ],
+    "scale": [
+      1.0,
+      1.0000000149011612,
+      1.0000000149011612
+    ],
+    "bounds_center": [
+      47.82205561136266,
+      0.0,
+      338.8323692598752
+    ],
+    "bounds_extent": [
+      175.82205561136266,
+      128.0,
+      189.16763074012482
+    ]
+  },
+  {
+    "name": "SkyAtmosphere_0",
+    "label": "SkyAtmosphere",
+    "class": "SkyAtmosphere",
+    "location": [
+      0.0,
+      0.0,
+      -6000.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bounds_center": [
+      56.0,
+      0.0,
+      -6000.0
+    ],
+    "bounds_extent": [
+      184.0,
+      128.0,
+      128.0
+    ]
+  },
+  {
+    "name": "SkyLight_0",
+    "label": "SkyLight",
+    "class": "SkyLight",
+    "location": [
+      0.0,
+      0.0,
+      600.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bounds_center": [
+      0.0,
+      0.0,
+      427.5
+    ],
+    "bounds_extent": [
+      256.0,
+      256.0,
+      428.5
+    ]
+  },
+  {
+    "name": "ExponentialHeightFog_0",
+    "label": "ExponentialHeightFog",
+    "class": "ExponentialHeightFog",
+    "location": [
+      -5600.0,
+      -50.0,
+      -6850.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bounds_center": [
+      -5600.0,
+      -50.0,
+      -6850.0
+    ],
+    "bounds_extent": [
+      128.0,
+      128.0,
+      128.0
+    ]
+  },
+  {
+    "name": "VolumetricCloud_0",
+    "label": "VolumetricCloud",
+    "class": "VolumetricCloud",
+    "location": [
+      0.0,
+      0.0,
+      700.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bounds_center": [
+      0.0,
+      0.0,
+      700.0
+    ],
+    "bounds_extent": [
+      128.0,
+      128.0,
+      128.0
+    ]
+  },
+  {
+    "name": "PlayerStart_0",
+    "label": "PlayerStart",
+    "class": "PlayerStart",
+    "location": [
+      0.0,
+      0.0,
+      92.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "bounds_center": [
+      56.0,
+      0.0,
+      92.0
+    ],
+    "bounds_extent": [
+      184.0,
+      128.0,
+      128.0
+    ]
+  },
+  {
+    "name": "StaticMeshActor_0",
+    "label": "SM_SkySphere",
+    "class": "StaticMeshActor",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      400.0,
+      400.0,
+      400.0
+    ],
+    "bounds_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds_extent": [
+      1638400.0,
+      1638400.0,
+      1638400.0
+    ]
+  },
+  {
+    "name": "Floor_0",
+    "label": "Floor",
+    "class": "StaticMeshActor",
+    "location": [
+      0.0,
+      0.0,
+      -0.5
+    ],
+    "scale": [
+      8.0,
+      8.0,
+      8.0
+    ],
+    "bounds_center": [
+      -0.0009765625,
+      0.00048828125,
+      -200.5001220703125
+    ],
+    "bounds_extent": [
+      4000.00146484375,
+      4000.0,
+      200.0001220703125
+    ]
+  }
+]

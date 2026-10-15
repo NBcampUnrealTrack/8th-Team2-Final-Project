@@ -1,0 +1,230 @@
+[
+  {
+    "tool": "blender_mesh_edit",
+    "arguments": {
+      "source_object_name": "CH_Polish_Bed_REF___tripo_node_cf6facc2",
+      "output_object_name": "CH_Polish_Bed_Game_v003",
+      "operations": [
+        {
+          "type": "transform_object",
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "transform_vertices",
+          "scale": [
+            3.001465559355154,
+            3.001465559355154,
+            3.001465559355154
+          ],
+          "translation": [
+            -0.0,
+            -0.0,
+            0.6529066927210552
+          ]
+        },
+        {
+          "type": "delete_loose"
+        }
+      ]
+    },
+    "request_id": 241244250440369
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"241244250440369\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "241244250440369",
+        "command": "mesh.edit",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"241244250440369\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"finished\",\n    \"created_at\": 1788595608.401806,\n    \"finished_at\": 1788595608.5011559,\n    \"result\": {\n      \"source_object_name\": \"CH_Polish_Bed_REF___tripo_node_cf6facc2\",\n      \"source_fingerprint\": \"486277b20a22913609f7903c93ec7dd150cf1d35f3d3d39ed4f9273b9238dce7\",\n      \"output_object_name\": \"CH_Polish_Bed_Game_v003\",\n      \"operations\": [\n        {\n          \"type\": \"transform_object\"\n        },\n        {\n          \"type\": \"transform_vertices\"\n        },\n        {\n          \"type\": \"delete_loose\"\n        }\n      ],\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_Polish_Bed_Game_v003\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Polish_Bed_Game_v003_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            3.0,\n            1.9887640476226807,\n            1.2823644876480103\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"3c386f0a4454f39c959e925b039be99a856811c6564a8c09d0df6b770b4987e2\",\n        \"geometry\": {\n          \"vertices\": 697,\n          \"edges\": 1291,\n          \"polygons\": 626,\n          \"triangles\": 1228,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 102,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 0,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            -1.5,\n            -0.9943820238113403,\n            0.0\n          ],\n          \"local_max\": [\n            1.5,\n            0.9943820238113403,\n            1.2823644876480103\n          ],\n          \"world_min\": [\n            -1.5,\n            -0.9943820238113403,\n            0.0\n          ],\n          \"world_max\": [\n            1.5,\n            0.9943820238113403,\n            1.2823644876480103\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"tripo_mat_cf6facc2\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"cf6facc2_1154_4b05_b2a7_6e6310712f90_NewUVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 2480,\n            \"bounds_min\": [\n              0.0005675841821357608,\n              0.0005235333810560405\n            ],\n            \"bounds_max\": [\n              0.9995519518852234,\n              0.9995519518852234\n            ],\n            \"out_of_zero_one_range\": 0,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 0\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 94,\n          \"blockers\": [],\n          \"warnings\": [\n            {\n              \"code\": \"non_manifold_geometry\",\n              \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n            }\n          ],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "241244250440369",
+        "command": "mesh.edit",
+        "state": "finished",
+        "created_at": 1788595608.401806,
+        "finished_at": 1788595608.5011559,
+        "result": {
+          "source_object_name": "CH_Polish_Bed_REF___tripo_node_cf6facc2",
+          "source_fingerprint": "486277b20a22913609f7903c93ec7dd150cf1d35f3d3d39ed4f9273b9238dce7",
+          "output_object_name": "CH_Polish_Bed_Game_v003",
+          "operations": [
+            {
+              "type": "transform_object"
+            },
+            {
+              "type": "transform_vertices"
+            },
+            {
+              "type": "delete_loose"
+            }
+          ],
+          "output": {
+            "object": {
+              "name": "CH_Polish_Bed_Game_v003",
+              "type": "MESH",
+              "data_name": "CH_Polish_Bed_Game_v003_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                3.0,
+                1.9887640476226807,
+                1.2823644876480103
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "3c386f0a4454f39c959e925b039be99a856811c6564a8c09d0df6b770b4987e2",
+            "geometry": {
+              "vertices": 697,
+              "edges": 1291,
+              "polygons": 626,
+              "triangles": 1228,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 102,
+              "wire_edges": 0,
+              "non_manifold_edges": 0,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -1.5,
+                -0.9943820238113403,
+                0.0
+              ],
+              "local_max": [
+                1.5,
+                0.9943820238113403,
+                1.2823644876480103
+              ],
+              "world_min": [
+                -1.5,
+                -0.9943820238113403,
+                0.0
+              ],
+              "world_max": [
+                1.5,
+                0.9943820238113403,
+                1.2823644876480103
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_mat_cf6facc2"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "cf6facc2_1154_4b05_b2a7_6e6310712f90_NewUVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 2480,
+                "bounds_min": [
+                  0.0005675841821357608,
+                  0.0005235333810560405
+                ],
+                "bounds_max": [
+                  0.9995519518852234,
+                  0.9995519518852234
+                ],
+                "out_of_zero_one_range": 0,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 94,
+              "blockers": [],
+              "warnings": [
+                {
+                  "code": "non_manifold_geometry",
+                  "message": "Mesh contains boundary, wire, or non-manifold edges."
+                }
+              ],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

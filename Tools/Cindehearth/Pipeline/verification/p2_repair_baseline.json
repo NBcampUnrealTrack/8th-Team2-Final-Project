@@ -1,0 +1,156 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"success\": true,\n  \"result\": {\n    \"object\": {\n      \"name\": \"CH_GormP2_Game_v001\",\n      \"type\": \"MESH\",\n      \"data_name\": \"CH_GormP2_Game_v001_Mesh\",\n      \"location\": [\n        0.0,\n        0.0,\n        0.0\n      ],\n      \"rotation_degrees\": [\n        0.0,\n        0.0,\n        0.0\n      ],\n      \"scale\": [\n        1.0,\n        1.0,\n        1.0\n      ],\n      \"dimensions\": [\n        3.1500000953674316,\n        2.700000047683716,\n        2.5999999046325684\n      ],\n      \"matrix_world\": [\n        [\n          1.0,\n          0.0,\n          0.0,\n          0.0\n        ],\n        [\n          0.0,\n          1.0,\n          0.0,\n          0.0\n        ],\n        [\n          0.0,\n          0.0,\n          1.0,\n          0.0\n        ],\n        [\n          0.0,\n          0.0,\n          0.0,\n          1.0\n        ]\n      ],\n      \"parent\": null,\n      \"collections\": [\n        \"Collection\"\n      ]\n    },\n    \"fingerprint\": \"18c220125260c20be6db8054d3f2b0d573457432472428bebac52d8949825b7a\",\n    \"geometry\": {\n      \"vertices\": 2129,\n      \"edges\": 3984,\n      \"polygons\": 1907,\n      \"triangles\": 3363,\n      \"ngons\": 0,\n      \"loose_vertices\": 0,\n      \"loose_edges\": 0,\n      \"zero_length_edges\": 0,\n      \"boundary_edges\": 803,\n      \"wire_edges\": 0,\n      \"non_manifold_edges\": 12,\n      \"degenerate_faces\": 0,\n      \"invalid_face_normals\": 0,\n      \"non_finite_vertices\": 0\n    },\n    \"bounds\": {\n      \"local_min\": [\n        -1.5750000476837158,\n        -1.350000023841858,\n        -1.1920928955078125e-07\n      ],\n      \"local_max\": [\n        1.5749999284744263,\n        1.350000023841858,\n        2.5999999046325684\n      ],\n      \"world_min\": [\n        -1.5750000476837158,\n        -1.350000023841858,\n        -1.1920928955078125e-07\n      ],\n      \"world_max\": [\n        1.5749999284744263,\n        1.350000023841858,\n        2.5999999046325684\n      ]\n    },\n    \"materials\": [\n      {\n        \"slot\": 0,\n        \"name\": \"tripo_mat_f79424fa\"\n      }\n    ],\n    \"uv_layers\": [\n      {\n        \"name\": \"f79424fa_dbd0_4137_95c2_3e7a2ff0a14f_NewUVMap\",\n        \"active\": true,\n        \"active_render\": true,\n        \"loop_count\": 7177,\n        \"bounds_min\": [\n          0.0010820861207321286,\n          0.0010808086954057217\n        ],\n        \"bounds_max\": [\n          0.9989191293716431,\n          0.9896203875541687\n        ],\n        \"out_of_zero_one_range\": 0,\n        \"non_finite\": 0,\n        \"degenerate_faces\": 0\n      }\n    ],\n    \"modifiers\": [],\n    \"quality\": {\n      \"passed\": false,\n      \"score\": 69,\n      \"blockers\": [\n        {\n          \"code\": \"manifold_required\",\n          \"message\": \"A closed manifold mesh is required.\"\n        }\n      ],\n      \"warnings\": [\n        {\n          \"code\": \"non_manifold_geometry\",\n          \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n        }\n      ],\n      \"requirements\": {\n        \"require_manifold\": true\n      }\n    }\n  }\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "result": {
+      "object": {
+        "name": "CH_GormP2_Game_v001",
+        "type": "MESH",
+        "data_name": "CH_GormP2_Game_v001_Mesh",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          3.1500000953674316,
+          2.700000047683716,
+          2.5999999046325684
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "collections": [
+          "Collection"
+        ]
+      },
+      "fingerprint": "18c220125260c20be6db8054d3f2b0d573457432472428bebac52d8949825b7a",
+      "geometry": {
+        "vertices": 2129,
+        "edges": 3984,
+        "polygons": 1907,
+        "triangles": 3363,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 803,
+        "wire_edges": 0,
+        "non_manifold_edges": 12,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "bounds": {
+        "local_min": [
+          -1.5750000476837158,
+          -1.350000023841858,
+          -1.1920928955078125e-07
+        ],
+        "local_max": [
+          1.5749999284744263,
+          1.350000023841858,
+          2.5999999046325684
+        ],
+        "world_min": [
+          -1.5750000476837158,
+          -1.350000023841858,
+          -1.1920928955078125e-07
+        ],
+        "world_max": [
+          1.5749999284744263,
+          1.350000023841858,
+          2.5999999046325684
+        ]
+      },
+      "materials": [
+        {
+          "slot": 0,
+          "name": "tripo_mat_f79424fa"
+        }
+      ],
+      "uv_layers": [
+        {
+          "name": "f79424fa_dbd0_4137_95c2_3e7a2ff0a14f_NewUVMap",
+          "active": true,
+          "active_render": true,
+          "loop_count": 7177,
+          "bounds_min": [
+            0.0010820861207321286,
+            0.0010808086954057217
+          ],
+          "bounds_max": [
+            0.9989191293716431,
+            0.9896203875541687
+          ],
+          "out_of_zero_one_range": 0,
+          "non_finite": 0,
+          "degenerate_faces": 0
+        }
+      ],
+      "modifiers": [],
+      "quality": {
+        "passed": false,
+        "score": 69,
+        "blockers": [
+          {
+            "code": "manifold_required",
+            "message": "A closed manifold mesh is required."
+          }
+        ],
+        "warnings": [
+          {
+            "code": "non_manifold_geometry",
+            "message": "Mesh contains boundary, wire, or non-manifold edges."
+          }
+        ],
+        "requirements": {
+          "require_manifold": true
+        }
+      }
+    }
+  },
+  "isError": false
+}

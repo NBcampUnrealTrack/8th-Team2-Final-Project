@@ -1,0 +1,153 @@
+{
+  "id": "LG_06_NaiaShelter",
+  "name_ko": "나이아 안식처",
+  "source_name": "LG_06_NaiaShelter.fbx",
+  "output_name": "SM_LG_06_NaiaShelter_V7",
+  "source_fingerprint": "628f057755550c15f04583095a4d6357a7b5bb7ad78e700d1c98b71e35683c30",
+  "output_report": {
+    "object": {
+      "name": "SM_LG_06_NaiaShelter_V7",
+      "type": "MESH",
+      "data_name": "SM_LG_06_NaiaShelter_V7_Mesh",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.95835018157959,
+        2.82076096534729,
+        2.25
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "collections": [
+        "Collection"
+      ]
+    },
+    "fingerprint": "91b050b519cd37926821a231da2991b4b373d09220e91a39f0a4dfc7760c5ea9",
+    "geometry": {
+      "vertices": 3375,
+      "edges": 9616,
+      "polygons": 6251,
+      "triangles": 6251,
+      "ngons": 0,
+      "loose_vertices": 0,
+      "loose_edges": 0,
+      "zero_length_edges": 0,
+      "boundary_edges": 479,
+      "wire_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "invalid_face_normals": 0,
+      "non_finite_vertices": 0
+    },
+    "bounds": {
+      "local_min": [
+        -1.479175090789795,
+        -1.410380482673645,
+        0.0
+      ],
+      "local_max": [
+        1.479175090789795,
+        1.410380482673645,
+        2.25
+      ],
+      "world_min": [
+        -1.479175090789795,
+        -1.410380482673645,
+        0.0
+      ],
+      "world_max": [
+        1.479175090789795,
+        1.410380482673645,
+        2.25
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "tripo_mat_6029c87e"
+      }
+    ],
+    "uv_layers": [
+      {
+        "name": "UVMap",
+        "active": true,
+        "active_render": true,
+        "loop_count": 18753,
+        "bounds_min": [
+          0.001953125,
+          0.001953125
+        ],
+        "bounds_max": [
+          0.989990234375,
+          0.99755859375
+        ],
+        "out_of_zero_one_range": 0,
+        "non_finite": 0,
+        "degenerate_faces": 1
+      }
+    ],
+    "modifiers": [],
+    "quality": {
+      "passed": true,
+      "score": 94,
+      "blockers": [],
+      "warnings": [
+        {
+          "code": "non_manifold_geometry",
+          "message": "Mesh contains boundary, wire, or non-manifold edges."
+        }
+      ],
+      "requirements": {}
+    }
+  },
+  "scale_factor": 2.9583500521627477,
+  "dimensions_cm": [
+    295.835018157959,
+    282.076096534729,
+    225.0
+  ],
+  "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_06_NaiaShelter_V7.glb",
+  "sha256": "c3becdcd5ffd6a952ba37830ac9dc676e528b2a8224e1e4b21fd3a5934704767",
+  "recommended_vertex_max": 4000,
+  "initial_triangle_budget": 6500,
+  "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter",
+  "geometry_uv_unchanged_except_uniform_scale": true
+}

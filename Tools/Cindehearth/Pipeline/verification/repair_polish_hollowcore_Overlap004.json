@@ -1,0 +1,292 @@
+[
+  {
+    "job_id": "polish_hollowcore_Overlap004",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_hollowcore_Overlap004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_hollowcore_Overlap004"
+  },
+  {
+    "job_id": "polish_hollowcore_Overlap004",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "2dc97a8e1a6e6688c7db4469aef2775e66cf20cbccc1cac5d583005c93f08347",
+      "source": {
+        "object": {
+          "name": "CH_Polish_Hollowcore_Game_v003",
+          "type": "MESH",
+          "data_name": "CH_Polish_Hollowcore_Game_v003_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.149975538253784,
+            2.1704933643341064,
+            3.0
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "9fde94adfaeb3d7aa07a7aa83f676aea2769ec32580d396c003ff6ef741ed985",
+        "geometry": {
+          "vertices": 1536,
+          "edges": 3126,
+          "polygons": 1662,
+          "triangles": 2568,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 380,
+          "wire_edges": 0,
+          "non_manifold_edges": 19,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.074987769126892,
+            -1.0852466821670532,
+            0.0
+          ],
+          "local_max": [
+            1.074987769126892,
+            1.0852466821670532,
+            3.0
+          ],
+          "world_min": [
+            -1.074987769126892,
+            -1.0852466821670532,
+            0.0
+          ],
+          "world_max": [
+            1.074987769126892,
+            1.0852466821670532,
+            3.0
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_130c5fb9"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_130c5fb9_270d_465f_8b60_90ef158f543b_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 5892,
+            "bounds_min": [
+              0.001101513858884573,
+              0.0009849258931353688
+            ],
+            "bounds_max": [
+              0.9960094690322876,
+              0.9990231394767761
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Polish_Hollowcore_Overlap004",
+          "type": "MESH",
+          "data_name": "CH_Polish_Hollowcore_Overlap004_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.149975538253784,
+            2.1704933643341064,
+            3.0
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "1340793d3854a9e23778f5f49473de69b632b5b41c558a927504c42c16897971",
+        "geometry": {
+          "vertices": 1536,
+          "edges": 3122,
+          "polygons": 1644,
+          "triangles": 2547,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 409,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.074987769126892,
+            -1.0852466821670532,
+            0.0
+          ],
+          "local_max": [
+            1.074987769126892,
+            1.0852466821670532,
+            3.0
+          ],
+          "world_min": [
+            -1.074987769126892,
+            -1.0852466821670532,
+            0.0
+          ],
+          "world_max": [
+            1.074987769126892,
+            1.0852466821670532,
+            3.0
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_130c5fb9"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_130c5fb9_270d_465f_8b60_90ef158f543b_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 5835,
+            "bounds_min": [
+              0.001101513858884573,
+              0.0009849258931353688
+            ],
+            "bounds_max": [
+              0.9960094690322876,
+              0.9990231394767761
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "deleted_faces": 18
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Hollowcore_Overlap004.blend"
+    }
+  }
+]

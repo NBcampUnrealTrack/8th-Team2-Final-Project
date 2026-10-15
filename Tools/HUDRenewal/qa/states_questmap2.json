@@ -1,0 +1,8 @@
+[
+ {"shot": "q2_idle", "py": "qa_qm_idle.py", "wait": 20, "frames": 240},
+ {"shot": "q2_edge", "py": "qa_qm_edge.py", "wait": 1.5, "frames": 60},
+ {"shot": "q2_ready", "py": "qa_qm_progress.py", "wait": 1.0, "frames": 40},
+ {"shot": "q2_ready_after", "py": "", "wait": 2.4, "frames": 60},
+ {"shot": "q2_done", "py": "qa_qm_complete.py", "wait": 0.8, "frames": 30},
+ {"shot": "q2_reward", "py": "", "wait": 1.8, "frames": 60}
+]

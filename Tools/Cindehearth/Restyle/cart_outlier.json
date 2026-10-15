@@ -1,0 +1,14 @@
+{
+  "job_id": "restyle_cart_outlier_001",
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_Cart_Game_v001.blend",
+  "object_name": "CH_Cart_Game_v001",
+  "expected_fingerprint": "b896e439901a21a2b882ddc29316817e9015421787efb57c958983f27a5f9e90",
+  "output_object_name": "CH_Cart_NoOutlier_v002",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_Cart_NoOutlier_v002.blend",
+  "operation": "delete_components",
+  "selection_ids": [
+    59
+  ],
+  "max_faces": 1,
+  "max_diameter": 0.01
+}

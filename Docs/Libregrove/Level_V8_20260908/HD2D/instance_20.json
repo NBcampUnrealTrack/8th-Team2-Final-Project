@@ -1,0 +1,30 @@
+{
+  "source": "/Game/Village/Materials/Props/MI_Prop_Timber.MI_Prop_Timber",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Timber_df2b4.MI_HD2D_Prop_Timber_df2b4",
+  "kind": "WorldProps",
+  "scalars": {
+    "CameraFadeAmount": 0.0,
+    "TileCm": 60.0,
+    "RoughnessMul": 1.0,
+    "EmissiveStrength": 0.0
+  },
+  "vectors": {
+    "Tint": [
+      0.5199999809265137,
+      0.4000000059604645,
+      0.28999999165534973,
+      1.0
+    ],
+    "Emissive": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "textures": {
+    "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_BC.T_Prop_Timber_Pixel_BC",
+    "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_N.T_Prop_Timber_Pixel_N",
+    "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_ORM.T_Prop_Timber_Pixel_ORM"
+  }
+}

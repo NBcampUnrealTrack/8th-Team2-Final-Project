@@ -1,0 +1,17 @@
+{
+  "status": "finished",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_PineVolume_Closed_v005.glb",
+  "assets": [
+    "/Game/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/Textures/Normal.Normal",
+    "/Game/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/Textures/Color.Color",
+    "/Game/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/Textures/tripo_image_798ff027_2-tripo_image_798ff027_1.tripo_image_798ff027_2-tripo_image_798ff027_1",
+    "/Game/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/Materials/tripo_mat_798ff027.tripo_mat_798ff027",
+    "/Game/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/StaticMeshes/CH_PineVolume_Closed_v005.CH_PineVolume_Closed_v005"
+  ],
+  "meshes": [
+    {
+      "path": "/Game/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/StaticMeshes/CH_PineVolume_Closed_v005.CH_PineVolume_Closed_v005",
+      "triangles": 3280
+    }
+  ]
+}

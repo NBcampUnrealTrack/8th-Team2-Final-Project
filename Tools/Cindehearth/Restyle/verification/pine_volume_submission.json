@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"asset_name\": \"CH_PineVolume_P2_v003\",\n  \"request_id\": \"CH_PineVolume_P2_20260905_v003\",\n  \"kind\": \"p2_image\",\n  \"api_version\": \"v3\",\n  \"parameters\": {\n    \"image_path\": \"C:\\\\Users\\\\Ndus_072\\\\RevDevTool\\\\RevStudio-ProjectM\\\\Tools\\\\Cindehearth\\\\Restyle\\\\reference\\\\PineVolume_v003.png\",\n    \"model\": \"P2-20260801\",\n    \"face_limit\": 1600,\n    \"quad\": true,\n    \"texture\": true,\n    \"pbr\": true,\n    \"texture_quality\": \"standard\",\n    \"auto_size\": false,\n    \"export_uv\": true\n  },\n  \"status\": \"submitted\",\n  \"submitted_parameters\": {\n    \"model\": \"P2-20260801\",\n    \"face_limit\": 1600,\n    \"quad\": true,\n    \"texture\": true,\n    \"pbr\": true,\n    \"texture_quality\": \"standard\",\n    \"auto_size\": false,\n    \"export_uv\": true,\n    \"input\": \"file_ffeec2b1-2826-479a-998f-e2db5926ae9d\"\n  },\n  \"task_id\": \"798ff027-dfd5-4573-ad28-beb8ef759351\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

@@ -1,0 +1,24 @@
+{
+  "master": "/Game/Cindehearth/HD2D_v002/Materials/M_CH_AtlasWorld",
+  "instances": [
+    "Stone",
+    "StoneLight",
+    "Rock",
+    "Ash",
+    "Soil",
+    "Path",
+    "Roof",
+    "RoofPatch",
+    "Timber",
+    "Wood",
+    "Iron",
+    "Brass",
+    "Paper",
+    "Cloth",
+    "Pine"
+  ],
+  "compiled": true,
+  "textures": [
+    "/Game/Cindehearth/HD2D_v002/Textures/EnvironmentAtlas_v001.EnvironmentAtlas_v001"
+  ]
+}

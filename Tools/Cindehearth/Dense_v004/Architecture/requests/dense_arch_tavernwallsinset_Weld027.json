@@ -1,0 +1,13 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWallsInset_Final026.blend",
+  "object_name": "CH_Dense_TavernWallsInset_Final026",
+  "expected_fingerprint": "1e872fd08a76d0c9e1acaea60990b7d7bb36ed349ccb1ff7eb11419427dd56b2",
+  "output_object_name": "CH_Dense_TavernWallsInset_Weld027",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWallsInset_Weld027.blend",
+  "operation": "weld",
+  "selection_ids": [],
+  "distance": 1e-06,
+  "max_faces": 100,
+  "max_diameter": 4.5,
+  "job_id": "dense_arch_tavernwallsinset_Weld027"
+}

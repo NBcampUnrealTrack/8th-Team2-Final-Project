@@ -1,0 +1,150 @@
+{
+  "WBP_OptionsWindow": {
+    "ContentBox": [
+      0.0,
+      0.0
+    ],
+    "TitleText": [
+      156.0,
+      43.0
+    ],
+    "SettingsHeaderRule": [
+      150.0,
+      139.0
+    ],
+    "SettingsFooterRule": [
+      150.0,
+      540.0
+    ],
+    "DisplayTabButton": [
+      154.0,
+      94.0
+    ],
+    "SettingsTabMark0": [
+      172.0,
+      136.0
+    ],
+    "SettingsTabLabel0": [
+      154.0,
+      102.0
+    ],
+    "GraphicsTabButton": [
+      355.0,
+      94.0
+    ],
+    "SettingsTabMark1": [
+      373.0,
+      136.0
+    ],
+    "SettingsTabLabel1": [
+      355.0,
+      102.0
+    ],
+    "SoundTabButton": [
+      556.0,
+      94.0
+    ],
+    "SettingsTabMark2": [
+      574.0,
+      136.0
+    ],
+    "SettingsTabLabel2": [
+      556.0,
+      102.0
+    ],
+    "ControlsTabButton": [
+      757.0,
+      94.0
+    ],
+    "SettingsTabMark3": [
+      775.0,
+      136.0
+    ],
+    "SettingsTabLabel3": [
+      757.0,
+      102.0
+    ],
+    "TabSwitcher": [
+      164.0,
+      161.0
+    ],
+    "DefaultsButton": [
+      150.0,
+      560.0
+    ],
+    "CloseButton": [
+      848.0,
+      560.0
+    ],
+    "ApplyButton": [
+      686.0,
+      560.0
+    ],
+    "HeaderCloseButton": [
+      920.0,
+      41.0
+    ]
+  },
+  "WBP_KeyBindingsWindow": {
+    "WindowBG": [
+      0.0,
+      0.0
+    ],
+    "TitleText": [
+      156.0,
+      46.0
+    ],
+    "CloseButtonBox": [
+      1100.0,
+      60.0
+    ],
+    "SettingsHeaderRule": [
+      152.0,
+      111.0
+    ],
+    "SettingsActionHeading": [
+      163.83200073242188,
+      129.0
+    ],
+    "SettingsKeyboardHeading": [
+      590.77001953125,
+      129.0
+    ],
+    "SettingsGamepadHeading": [
+      876.7100219726562,
+      129.0
+    ],
+    "RowScroll": [
+      152.0,
+      169.0
+    ],
+    "SettingsFooterRule": [
+      152.0,
+      662.0
+    ],
+    "GuideText": [
+      154.0,
+      675.0
+    ],
+    "DefaultsButtonBox": [
+      150.0,
+      711.0
+    ],
+    "SettingsDefaultsButtonBG": [
+      150.0,
+      711.0
+    ],
+    "ApplyButtonBox": [
+      866.0,
+      711.0
+    ],
+    "SettingsApplyButtonBG": [
+      1002.0,
+      711.0
+    ],
+    "FooterCloseButton": [
+      1032.0,
+      711.0
+    ]
+  }
+}

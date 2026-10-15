@@ -1,0 +1,3 @@
+﻿Name,OwnerType,OwnerId,Type,Value,Tag,bInvert
+P_SelfHealAtHalf_Heal_HP50,Rule,P_SelfHealAtHalf_Heal,SelfHPRatioBelow,0.5,,FALSE
+P_Bramblecore_Lv10_Collapse_HP40,Phase,P_Bramblecore_Lv10_Collapse,SelfHPRatioBelow,0.4,,FALSE

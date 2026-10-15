@@ -1,0 +1,30 @@
+[
+  {
+    "route": "central_shrine",
+    "passed": true,
+    "reason": "",
+    "reached": 19,
+    "total": 19
+  },
+  {
+    "route": "west_bridge_mill",
+    "passed": false,
+    "reason": "no_progress_or_wrong_floor_12s",
+    "reached": 11,
+    "total": 15
+  },
+  {
+    "route": "east_bridge_workshop",
+    "passed": true,
+    "reason": "",
+    "reached": 12,
+    "total": 12
+  },
+  {
+    "route": "west_exit",
+    "passed": true,
+    "reason": "",
+    "reached": 6,
+    "total": 6
+  }
+]

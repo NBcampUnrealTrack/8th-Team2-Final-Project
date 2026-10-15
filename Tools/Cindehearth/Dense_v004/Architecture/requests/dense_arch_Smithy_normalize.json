@@ -1,0 +1,30 @@
+{
+  "source_object_name": "CH_Dense_Smithy_REF___tripo_node_dda91e9f",
+  "output_object_name": "CH_Dense_Smithy_Game_v004",
+  "operations": [
+    {
+      "type": "transform_object",
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "transform_vertices",
+      "scale": [
+        3.001465559355154,
+        3.001465559355154,
+        3.001465559355154
+      ],
+      "translation": [
+        -0.0,
+        -0.0,
+        1.249389350268686
+      ]
+    },
+    {
+      "type": "delete_loose"
+    }
+  ]
+}

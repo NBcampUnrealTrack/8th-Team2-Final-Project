@@ -1,0 +1,90 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"success\": true,\n  \"result\": {\n    \"bridge\": {\n      \"name\": \"Revvy Blender Bridge\",\n      \"version\": \"1.2.0\",\n      \"host\": \"127.0.0.1\",\n      \"port\": 9876,\n      \"exchange_root\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\",\n      \"arbitrary_code_execution\": false,\n      \"supported_commands\": [\n        \"animation.adjust\",\n        \"animation.export_fbx\",\n        \"animation.import_fbx\",\n        \"animation.inspect\",\n        \"animation.motion_inspect\",\n        \"collection.create\",\n        \"file.save_copy\",\n        \"job.status\",\n        \"material.assign\",\n        \"mesh.edit\",\n        \"mesh.inspect\",\n        \"model.export\",\n        \"model.import\",\n        \"modifier.apply\",\n        \"object.duplicate\",\n        \"primitive.create\",\n        \"scene.inspect\",\n        \"scene.measure\",\n        \"status\",\n        \"uv.edit\",\n        \"uv.inspect\",\n        \"viewport.capture\"\n      ],\n      \"contract\": {\n        \"id\": \"revvy.blender.typed-bridge.v1\",\n        \"schema_version\": 1,\n        \"bridge_version\": \"1.2.0\",\n        \"command_manifest_sha256\": \"40cb3c40712e9edfc1f1a51973250a6c8eba1e6652dcdf68a2be998b241f9d6f\",\n        \"tool_count\": 22,\n        \"command_count\": 22,\n        \"blender\": {\n          \"minimum_version\": \"5.0.0\",\n          \"production_baseline\": \"5.2 LTS\",\n          \"production_patch\": \"5.2.1\"\n        }\n      }\n    },\n    \"blender\": {\n      \"version\": \"5.0.0\",\n      \"minimum_supported_version\": \"5.0.0\",\n      \"runtime_supported\": true,\n      \"background\": false,\n      \"file\": null,\n      \"scene\": \"Scene\",\n      \"frame_start\": 1,\n      \"frame_end\": 250,\n      \"fps\": 24.0,\n      \"fps_base\": 1.0,\n      \"effective_fps\": 24.0\n    },\n    \"armatures\": [],\n    \"mesh_objects\": [\n      \"CH_GormHouse_Clean_v001\",\n      \"CH_GormHouse_Game_v001\",\n      \"CH_GormHouse_REF__tripo_node_1000c101-304e-4bf3-87a0-f5706d905714\",\n      \"CH_GormP2_Game_v001\",\n      \"CH_GormP2_REF__tripo_node_f79424fa\"\n    ],\n    \"materials\": [\n      \"Dots Stroke\",\n      \"Material\",\n      \"tripo_mat_f79424fa\",\n      \"tripo_material_1000c101-304e-4bf3-87a0-f5706d905714\"\n    ],\n    \"actions\": []\n  }\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "result": {
+      "bridge": {
+        "name": "Revvy Blender Bridge",
+        "version": "1.2.0",
+        "host": "127.0.0.1",
+        "port": 9876,
+        "exchange_root": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange",
+        "arbitrary_code_execution": false,
+        "supported_commands": [
+          "animation.adjust",
+          "animation.export_fbx",
+          "animation.import_fbx",
+          "animation.inspect",
+          "animation.motion_inspect",
+          "collection.create",
+          "file.save_copy",
+          "job.status",
+          "material.assign",
+          "mesh.edit",
+          "mesh.inspect",
+          "model.export",
+          "model.import",
+          "modifier.apply",
+          "object.duplicate",
+          "primitive.create",
+          "scene.inspect",
+          "scene.measure",
+          "status",
+          "uv.edit",
+          "uv.inspect",
+          "viewport.capture"
+        ],
+        "contract": {
+          "id": "revvy.blender.typed-bridge.v1",
+          "schema_version": 1,
+          "bridge_version": "1.2.0",
+          "command_manifest_sha256": "40cb3c40712e9edfc1f1a51973250a6c8eba1e6652dcdf68a2be998b241f9d6f",
+          "tool_count": 22,
+          "command_count": 22,
+          "blender": {
+            "minimum_version": "5.0.0",
+            "production_baseline": "5.2 LTS",
+            "production_patch": "5.2.1"
+          }
+        }
+      },
+      "blender": {
+        "version": "5.0.0",
+        "minimum_supported_version": "5.0.0",
+        "runtime_supported": true,
+        "background": false,
+        "file": null,
+        "scene": "Scene",
+        "frame_start": 1,
+        "frame_end": 250,
+        "fps": 24.0,
+        "fps_base": 1.0,
+        "effective_fps": 24.0
+      },
+      "armatures": [],
+      "mesh_objects": [
+        "CH_GormHouse_Clean_v001",
+        "CH_GormHouse_Game_v001",
+        "CH_GormHouse_REF__tripo_node_1000c101-304e-4bf3-87a0-f5706d905714",
+        "CH_GormP2_Game_v001",
+        "CH_GormP2_REF__tripo_node_f79424fa"
+      ],
+      "materials": [
+        "Dots Stroke",
+        "Material",
+        "tripo_mat_f79424fa",
+        "tripo_material_1000c101-304e-4bf3-87a0-f5706d905714"
+      ],
+      "actions": []
+    }
+  },
+  "isError": false
+}

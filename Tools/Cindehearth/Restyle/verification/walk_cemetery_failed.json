@@ -1,0 +1,78 @@
+{
+  "passed": false,
+  "reason": "pawn destroyed during traversal",
+  "samples": [
+    {
+      "seconds": 0.95,
+      "pos": [
+        2925.0,
+        2160.0,
+        365.2
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 3.28,
+      "pos": [
+        3508.1,
+        2473.9,
+        508.9
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 5.62,
+      "pos": [
+        3414.1,
+        2718.2,
+        -272.9
+      ],
+      "mode": "<MovementMode.MOVE_FALLING: 3>"
+    },
+    {
+      "seconds": 7.95,
+      "pos": [
+        3598.8,
+        3018.7,
+        -5808.1
+      ],
+      "mode": "<MovementMode.MOVE_FALLING: 3>"
+    },
+    {
+      "seconds": 10.28,
+      "pos": [
+        4295.5,
+        3230.8,
+        -15022.7
+      ],
+      "mode": "<MovementMode.MOVE_FALLING: 3>"
+    },
+    {
+      "seconds": 12.61,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "<MovementMode.MOVE_FALLING: 3>"
+    },
+    {
+      "seconds": 14.95,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "<MovementMode.MOVE_FALLING: 3>"
+    },
+    {
+      "seconds": 17.28,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "<MovementMode.MOVE_FALLING: 3>"
+    }
+  ]
+}

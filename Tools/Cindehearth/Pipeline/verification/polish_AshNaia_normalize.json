@@ -1,0 +1,225 @@
+[
+  {
+    "tool": "blender_mesh_edit",
+    "arguments": {
+      "source_object_name": "CH_Polish_AshNaia_REF___tripo_node_d2cc7162",
+      "output_object_name": "CH_Polish_AshNaia_Game_v003",
+      "operations": [
+        {
+          "type": "transform_object",
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "transform_vertices",
+          "scale": [
+            3.001465559355154,
+            3.001465559355154,
+            3.001465559355154
+          ],
+          "translation": [
+            -0.0,
+            -0.0,
+            0.9943820224719101
+          ]
+        },
+        {
+          "type": "delete_loose"
+        }
+      ]
+    },
+    "request_id": 233646036948755
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"233646036948755\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "233646036948755",
+        "command": "mesh.edit",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"233646036948755\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"finished\",\n    \"created_at\": 1788595969.0917752,\n    \"finished_at\": 1788595969.1532958,\n    \"result\": {\n      \"source_object_name\": \"CH_Polish_AshNaia_REF___tripo_node_d2cc7162\",\n      \"source_fingerprint\": \"0805fa38d9bb0bd89eeb750356540da277b7fd0c878176dd648949526f08a308\",\n      \"output_object_name\": \"CH_Polish_AshNaia_Game_v003\",\n      \"operations\": [\n        {\n          \"type\": \"transform_object\"\n        },\n        {\n          \"type\": \"transform_vertices\"\n        },\n        {\n          \"type\": \"delete_loose\"\n        }\n      ],\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_Polish_AshNaia_Game_v003\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Polish_AshNaia_Game_v003_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            2.6277480125427246,\n            3.0,\n            1.9887640476226807\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"62834e44cf30b33027773eebe716ba68474524fd3884bf1878acc4b119fcf879\",\n        \"geometry\": {\n          \"vertices\": 506,\n          \"edges\": 1041,\n          \"polygons\": 541,\n          \"triangles\": 1000,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 0,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 0,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            -1.3138740062713623,\n            -1.5,\n            0.0\n          ],\n          \"local_max\": [\n            1.3138740062713623,\n            1.5,\n            1.9887640476226807\n          ],\n          \"world_min\": [\n            -1.3138740062713623,\n            -1.5,\n            0.0\n          ],\n          \"world_max\": [\n            1.3138740062713623,\n            1.5,\n            1.9887640476226807\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"tripo_mat_d2cc7162\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"d2cc7162_68a7_4a94_8077_25d2c864932f_NewUVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 2082,\n            \"bounds_min\": [\n              0.0002743675431702286,\n              0.0004797762958332896\n            ],\n            \"bounds_max\": [\n              0.9997847676277161,\n              0.9997846484184265\n            ],\n            \"out_of_zero_one_range\": 0,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 0\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 100,\n          \"blockers\": [],\n          \"warnings\": [],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "233646036948755",
+        "command": "mesh.edit",
+        "state": "finished",
+        "created_at": 1788595969.0917752,
+        "finished_at": 1788595969.1532958,
+        "result": {
+          "source_object_name": "CH_Polish_AshNaia_REF___tripo_node_d2cc7162",
+          "source_fingerprint": "0805fa38d9bb0bd89eeb750356540da277b7fd0c878176dd648949526f08a308",
+          "output_object_name": "CH_Polish_AshNaia_Game_v003",
+          "operations": [
+            {
+              "type": "transform_object"
+            },
+            {
+              "type": "transform_vertices"
+            },
+            {
+              "type": "delete_loose"
+            }
+          ],
+          "output": {
+            "object": {
+              "name": "CH_Polish_AshNaia_Game_v003",
+              "type": "MESH",
+              "data_name": "CH_Polish_AshNaia_Game_v003_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                2.6277480125427246,
+                3.0,
+                1.9887640476226807
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "62834e44cf30b33027773eebe716ba68474524fd3884bf1878acc4b119fcf879",
+            "geometry": {
+              "vertices": 506,
+              "edges": 1041,
+              "polygons": 541,
+              "triangles": 1000,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 0,
+              "wire_edges": 0,
+              "non_manifold_edges": 0,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -1.3138740062713623,
+                -1.5,
+                0.0
+              ],
+              "local_max": [
+                1.3138740062713623,
+                1.5,
+                1.9887640476226807
+              ],
+              "world_min": [
+                -1.3138740062713623,
+                -1.5,
+                0.0
+              ],
+              "world_max": [
+                1.3138740062713623,
+                1.5,
+                1.9887640476226807
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_mat_d2cc7162"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "d2cc7162_68a7_4a94_8077_25d2c864932f_NewUVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 2082,
+                "bounds_min": [
+                  0.0002743675431702286,
+                  0.0004797762958332896
+                ],
+                "bounds_max": [
+                  0.9997847676277161,
+                  0.9997846484184265
+                ],
+                "out_of_zero_one_range": 0,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 100,
+              "blockers": [],
+              "warnings": [],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

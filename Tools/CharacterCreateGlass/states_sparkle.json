@@ -1,0 +1,7 @@
+[
+ {"shot": "spark_base", "py": "game_male_checked.py", "wait": 25},
+ {"shot": "spark_a", "py": "game_hair_colour.py", "wait": 0.1, "frames": 2},
+ {"shot": "spark_b", "wait": 0.12, "frames": 2},
+ {"shot": "spark_c", "wait": 0.12, "frames": 2},
+ {"shot": "spark_end", "wait": 1.5}
+]

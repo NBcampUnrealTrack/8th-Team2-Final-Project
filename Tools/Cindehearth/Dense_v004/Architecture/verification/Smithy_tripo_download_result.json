@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"downloaded\": true,\n  \"task_id\": \"dda91e9f-07fe-4fb0-b1fa-683ddbfe6b0a\",\n  \"asset_name\": \"CH_Dense_Smithy_P2_v004\",\n  \"files\": {\n    \"model\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Dense_Smithy_P2_v004\\\\dda91e9f-07fe-4fb0-b1fa-683ddbfe6b0a\\\\dda91e9f-07fe-4fb0-b1fa-683ddbfe6b0a_model.fbx\",\n    \"rendered_image\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Dense_Smithy_P2_v004\\\\dda91e9f-07fe-4fb0-b1fa-683ddbfe6b0a\\\\dda91e9f-07fe-4fb0-b1fa-683ddbfe6b0a_rendered.webp\"\n  },\n  \"output_directory\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Dense_Smithy_P2_v004\\\\dda91e9f-07fe-4fb0-b1fa-683ddbfe6b0a\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

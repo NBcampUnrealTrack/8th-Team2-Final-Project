@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"downloaded\": true,\n  \"task_id\": \"e7b0faa4-61fb-40fa-baeb-5e99762ec608\",\n  \"asset_name\": \"CH_Pine_P2_Restyle_v001\",\n  \"files\": {\n    \"model\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Pine_P2_Restyle_v001\\\\e7b0faa4-61fb-40fa-baeb-5e99762ec608\\\\e7b0faa4-61fb-40fa-baeb-5e99762ec608_model.fbx\",\n    \"rendered_image\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Pine_P2_Restyle_v001\\\\e7b0faa4-61fb-40fa-baeb-5e99762ec608\\\\e7b0faa4-61fb-40fa-baeb-5e99762ec608_rendered.webp\"\n  },\n  \"output_directory\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Pine_P2_Restyle_v001\\\\e7b0faa4-61fb-40fa-baeb-5e99762ec608\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

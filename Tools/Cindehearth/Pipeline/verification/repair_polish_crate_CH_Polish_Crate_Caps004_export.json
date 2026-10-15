@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "polish_crate_CH_Polish_Crate_Caps004_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_crate_CH_Polish_Crate_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_crate_CH_Polish_Crate_Caps004_export"
+  },
+  {
+    "job_id": "polish_crate_CH_Polish_Crate_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_crate_CH_Polish_Crate_Caps004_export"
+  },
+  {
+    "job_id": "polish_crate_CH_Polish_Crate_Caps004_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Crate_Caps004.glb",
+      "format": "glb",
+      "bytes": 2408828,
+      "object_names": [
+        "CH_Polish_Crate_Caps004"
+      ],
+      "fingerprints": {
+        "CH_Polish_Crate_Caps004": "25eae4ea50f6d913b3e4006d4b6bb63d12814c15bea2ad8296cc6221cbe5bc2d"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

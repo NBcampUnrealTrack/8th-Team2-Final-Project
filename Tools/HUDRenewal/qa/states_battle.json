@@ -1,0 +1,77 @@
+[
+ {
+  "shot": "b_preload",
+  "py": "qa_preload.py",
+  "wait": 12,
+  "frames": 120,
+  "noui": true
+ },
+ {
+  "shot": "b_root",
+  "py": "qa_battle4.py",
+  "wait": 11,
+  "frames": 200
+ },
+ {
+  "shot": "b_target",
+  "py": "qa_attack.py",
+  "wait": 0.6,
+  "frames": 20
+ },
+ {
+  "shot": "b_target2",
+  "py": "qa_target2.py",
+  "wait": 0.6,
+  "frames": 20
+ },
+ {
+  "shot": "b_target3",
+  "py": "qa_target2.py",
+  "wait": 0.08,
+  "frames": 2
+ },
+ {
+  "shot": "b_target3b",
+  "wait": 0.6,
+  "frames": 20
+ },
+ {
+  "shot": "b_item",
+  "py": "qa_item.py",
+  "wait": 0.5,
+  "frames": 20
+ },
+ {
+  "shot": "b_open0",
+  "py": "qa_reopen.py",
+  "wait": 0.15,
+  "frames": 1
+ },
+ {
+  "shot": "b_open1",
+  "wait": 0.5,
+  "frames": 1
+ },
+ {
+  "shot": "b_open2",
+  "wait": 0.6,
+  "frames": 1
+ },
+ {
+  "shot": "b_open3",
+  "wait": 0.8,
+  "frames": 1
+ },
+ {
+  "shot": "b_open4",
+  "py": "qa_motion_reset.py",
+  "wait": 1.2,
+  "frames": 10
+ },
+ {
+  "shot": "b_layout",
+  "py": "qa_layout.py",
+  "wait": 0.2,
+  "frames": 8
+ }
+]

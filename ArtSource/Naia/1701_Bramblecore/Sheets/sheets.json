@@ -1,0 +1,128 @@
+{
+  "Prewake": {
+    "texture": "T_1701_Bramblecore_Prewake.png",
+    "source": "Moss_Prewake1~8.png",
+    "note": "평시 — 잠든 언덕, 등에 생활 흔적",
+    "cell": [
+      256,
+      256
+    ],
+    "frames": 8,
+    "pivot_in_cell": [
+      128,
+      213
+    ],
+    "pivot_uv": [
+      0.5,
+      0.832
+    ]
+  },
+  "Rise": {
+    "texture": "T_1701_Bramblecore_Rise.png",
+    "source": "Moss_Rise1~8.png",
+    "note": "평시 -> 전투, 일어남",
+    "cell": [
+      256,
+      256
+    ],
+    "frames": 8,
+    "pivot_in_cell": [
+      128,
+      213
+    ],
+    "pivot_uv": [
+      0.5,
+      0.832
+    ]
+  },
+  "Idle": {
+    "texture": "T_1701_Bramblecore_Idle.png",
+    "source": "Moss_Idle1~8.png",
+    "note": "1페이즈 전투 대기 (Lv10 대련)",
+    "cell": [
+      256,
+      256
+    ],
+    "frames": 8,
+    "pivot_in_cell": [
+      128,
+      245
+    ],
+    "pivot_uv": [
+      0.5,
+      0.957
+    ]
+  },
+  "Stomp": {
+    "texture": "T_1701_Bramblecore_Stomp.png",
+    "source": "Moss_Stomp1~8.png",
+    "note": "1페이즈 공격 (Lv10 대련)",
+    "cell": [
+      256,
+      256
+    ],
+    "frames": 8,
+    "pivot_in_cell": [
+      128,
+      245
+    ],
+    "pivot_uv": [
+      0.5,
+      0.957
+    ]
+  },
+  "Evolution": {
+    "texture": "T_1701_Bramblecore_Evolution.png",
+    "source": "Moss_Evolutiont1~8.png",
+    "note": "1 -> 2페이즈 전환, 등의 소품이 떨어져 나감",
+    "cell": [
+      256,
+      256
+    ],
+    "frames": 8,
+    "pivot_in_cell": [
+      128,
+      213
+    ],
+    "pivot_uv": [
+      0.5,
+      0.832
+    ]
+  },
+  "EvolvedIdle": {
+    "texture": "T_1701_Bramblecore_EvolvedIdle.png",
+    "source": "Moss_Evolved_Idle1~8.png",
+    "note": "2페이즈 전투 대기 (레이드)",
+    "cell": [
+      256,
+      256
+    ],
+    "frames": 8,
+    "pivot_in_cell": [
+      128,
+      213
+    ],
+    "pivot_uv": [
+      0.5,
+      0.832
+    ]
+  },
+  "DoubleStomp": {
+    "texture": "T_1701_Bramblecore_DoubleStomp.png",
+    "source": "Moss_Double_Stomp1~8.png",
+    "note": "2페이즈 공격 (레이드)",
+    "cell": [
+      256,
+      256
+    ],
+    "frames": 8,
+    "pivot_in_cell": [
+      128,
+      213
+    ],
+    "pivot_uv": [
+      0.5,
+      0.832
+    ]
+  }
+}

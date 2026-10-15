@@ -1,0 +1,11 @@
+AdvancementId,Name,ParentJobId,ParentAdvancementId,AdvancementTier,AdvancementKey,DisplayName,Description,Icon
+1001,Adv_NaiaKnight_Possession,1001,0,2,Possession,빙의,,
+1002,Adv_NaiaKnight_Synchronization,1001,0,2,Synchronization,동조,,
+1003,Adv_Tracker_Tempest,1002,0,2,Tempest,템페스트,,
+1004,Adv_Tracker_Horizon,1002,0,2,Horizon,호라이즌,,
+1005,Adv_Elementalist_Nova,1003,0,2,Nova,노바,,
+1006,Adv_Elementalist_LeyLine,1003,0,2,LeyLine,레이라인,,
+1007,Adv_Gambler_MajorArcana,1004,0,2,MajorArcana,메이저 아르카나,,
+1008,Adv_Gambler_MinorArcana,1004,0,2,MinorArcana,마이너 아르카나,,
+1009,Adv_Druid_Courage,1005,0,2,Courage,함께 나아갈 용기,,
+1010,Adv_Druid_Primordial,1005,0,2,Primordial,태고의 존재,,

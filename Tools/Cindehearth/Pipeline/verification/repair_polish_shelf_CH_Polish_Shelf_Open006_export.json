@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "polish_shelf_CH_Polish_Shelf_Open006_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_shelf_CH_Polish_Shelf_Open006_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_shelf_CH_Polish_Shelf_Open006_export"
+  },
+  {
+    "job_id": "polish_shelf_CH_Polish_Shelf_Open006_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_shelf_CH_Polish_Shelf_Open006_export"
+  },
+  {
+    "job_id": "polish_shelf_CH_Polish_Shelf_Open006_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Shelf_Open006.glb",
+      "format": "glb",
+      "bytes": 4445520,
+      "object_names": [
+        "CH_Polish_Shelf_Open006"
+      ],
+      "fingerprints": {
+        "CH_Polish_Shelf_Open006": "ecffc531e129deb26588b4d4ea07af753356d1e52fa3e8a4247644f9af618da7"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

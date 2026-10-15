@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "elapsed_seconds": 3.4975295066833496,
+  "source": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Source\\ProjectM\\Field\\NUCindehearthDirector.cpp",
+  "mode": "MSVC /Zs using existing UE 5.8 generated include/define response; no objects or DLLs produced",
+  "runtime_verified": false,
+  "editor_mutated": false
+}

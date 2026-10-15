@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "restyle_rock_fbx_export_001",
+    "state": "running"
+  },
+  {
+    "job_id": "restyle_rock_fbx_export_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\restyle_rock_fbx_export_001"
+  },
+  {
+    "job_id": "restyle_rock_fbx_export_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\restyle_rock_fbx_export_001"
+  },
+  {
+    "job_id": "restyle_rock_fbx_export_001",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_Rock_Closed_v002.fbx",
+      "format": "fbx",
+      "bytes": 85884,
+      "object_names": [
+        "CH_Rock_Closed_v002"
+      ],
+      "fingerprints": {
+        "CH_Rock_Closed_v002": "e9d8c250ec582eb10015014dee2a4d07bb79316446161ad063dad492486e8d78"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

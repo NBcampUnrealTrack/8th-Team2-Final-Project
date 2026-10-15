@@ -1,0 +1,5 @@
+﻿Name,SkillId,SkillKey,KoreanName,EnglishName,SkillType,DamageType,AttackElement,SPCost,TargetPolicy,TargetCount,HitCount,EffectNote,Description,DescriptionKey
+170101,170101,ST_SK_BOSS_170101,앞발 짓누르기,,Attack,NU.Damage.Type.Physical,,0,SingleEnemy,1,1,위력 100 강공격 · 패링으로 대응,기본 견제기. 별도 예비 턴 없음. 패링 창 확대 수치는 기획 회신 대기,
+170102,170102,ST_SK_BOSS_170102,뿌리 후려치기,,Attack,NU.Damage.Type.Physical,,0,SingleEnemy,1,1,위력 140 강공격 · 패링으로 대응,장난치듯 크게 휘두르는 큰 동작. 패링 튜토리얼의 핵심 패턴,
+170103,170103,ST_SK_BOSS_170103,옹이 잔광,,Attack,NU.Damage.Type.Physical,,0,SingleEnemy,1,1,위력 120 패링 불가 · 회피 또는 매직 실드로만 대응,옹이에서 새어 나온 빛이 밀쳐내는 연출. 회피 또는 매직 실드로만 대응,
+170104,170104,ST_SK_BOSS_170104,언덕 무너뜨리기,,Attack,NU.Damage.Type.Physical,,0,SingleEnemy,1,1,"위력 200 강공격 · 패링으로 대응 · 잔여 HP 40% 에서 1회 한정, 경고 한 턴 뒤 실행","잔여 HP 40% 진입 다음 턴에 큰 기술 준비 경고(무공격), 그 다음 턴에 실행. 별도 예비 2턴 없음",

@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"asset_name\": \"CH_Polish_Anvil_P2_v003\",\n  \"request_id\": \"CH_Polish_Anvil_P2_20260905_v003\",\n  \"kind\": \"p2_image\",\n  \"api_version\": \"v3\",\n  \"parameters\": {\n    \"image_path\": \"C:\\\\Users\\\\Ndus_072\\\\RevDevTool\\\\RevStudio-ProjectM\\\\Tools\\\\Cindehearth\\\\Polish_v003\\\\reference\\\\Anvil.png\",\n    \"model\": \"P2-20260801\",\n    \"face_limit\": 450,\n    \"quad\": true,\n    \"texture\": true,\n    \"pbr\": true,\n    \"texture_quality\": \"standard\",\n    \"auto_size\": false,\n    \"export_uv\": true\n  },\n  \"status\": \"submitted\",\n  \"submitted_parameters\": {\n    \"model\": \"P2-20260801\",\n    \"face_limit\": 450,\n    \"quad\": true,\n    \"texture\": true,\n    \"pbr\": true,\n    \"texture_quality\": \"standard\",\n    \"auto_size\": false,\n    \"export_uv\": true,\n    \"input\": \"file_ff1cf586-2fa5-46cc-a9e2-1a59a147f74a\"\n  },\n  \"task_id\": \"f36ec94d-a6c0-474b-beb5-786ce888d83e\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

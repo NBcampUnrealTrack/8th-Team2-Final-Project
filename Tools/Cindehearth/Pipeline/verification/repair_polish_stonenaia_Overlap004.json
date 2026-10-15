@@ -1,0 +1,297 @@
+[
+  {
+    "job_id": "polish_stonenaia_Overlap004",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_stonenaia_Overlap004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_stonenaia_Overlap004"
+  },
+  {
+    "job_id": "polish_stonenaia_Overlap004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_stonenaia_Overlap004"
+  },
+  {
+    "job_id": "polish_stonenaia_Overlap004",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "d5d3401bdb2ee6f13761df2399fb597465790fb52c1ec7e6f75d667ec34bcfca",
+      "source": {
+        "object": {
+          "name": "CH_Polish_StoneNaia_Game_v003",
+          "type": "MESH",
+          "data_name": "CH_Polish_StoneNaia_Game_v003_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            1.6428920030593872,
+            3.0,
+            2.6365413665771484
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "bf5cde9585d3a4274a5641766078ed26133ba710be0fb848a29b331e2f52f6bd",
+        "geometry": {
+          "vertices": 882,
+          "edges": 1949,
+          "polygons": 1068,
+          "triangles": 1761,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 4,
+          "wire_edges": 0,
+          "non_manifold_edges": 3,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -0.8214460015296936,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            0.8214460015296936,
+            1.5,
+            2.6365413665771484
+          ],
+          "world_min": [
+            -0.8214460015296936,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            0.8214460015296936,
+            1.5,
+            2.6365413665771484
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_f281a5b2"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "f281a5b2_27f0_4bee_932f_a8826e8011cf_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 3897,
+            "bounds_min": [
+              0.0007005806546658278,
+              0.0007005965453572571
+            ],
+            "bounds_max": [
+              0.9968502521514893,
+              0.9992994666099548
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Polish_StoneNaia_Overlap004",
+          "type": "MESH",
+          "data_name": "CH_Polish_StoneNaia_Overlap004_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            1.6428920030593872,
+            3.0,
+            2.6365413665771484
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "673374d59e3aa0624dedf2743145bc61d14dde161d7dd30d1f98f08315aee11e",
+        "geometry": {
+          "vertices": 882,
+          "edges": 1947,
+          "polygons": 1066,
+          "triangles": 1759,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 3,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -0.8214460015296936,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            0.8214460015296936,
+            1.5,
+            2.6365413665771484
+          ],
+          "world_min": [
+            -0.8214460015296936,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            0.8214460015296936,
+            1.5,
+            2.6365413665771484
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_f281a5b2"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "f281a5b2_27f0_4bee_932f_a8826e8011cf_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 3891,
+            "bounds_min": [
+              0.0007005806546658278,
+              0.0007005965453572571
+            ],
+            "bounds_max": [
+              0.9968502521514893,
+              0.9992994666099548
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "deleted_faces": 2
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_StoneNaia_Overlap004.blend"
+    }
+  }
+]

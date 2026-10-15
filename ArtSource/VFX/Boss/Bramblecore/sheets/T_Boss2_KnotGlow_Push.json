@@ -1,0 +1,21 @@
+{
+  "name": "T_Boss2_KnotGlow_Push",
+  "blend": "Additive",
+  "frame_w": 512,
+  "frame_h": 400,
+  "cols": 4,
+  "rows": 4,
+  "frames": 16,
+  "fps": 30,
+  "loop": false,
+  "pivot_px": [
+    256,
+    64
+  ],
+  "pivot_uv": [
+    0.5,
+    0.16
+  ],
+  "screen_scale_1080p": 2.0,
+  "note": "피벗=옹이. 카메라(파티) 쪽으로 다가오며 커지는 압력파"
+}

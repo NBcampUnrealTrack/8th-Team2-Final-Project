@@ -1,0 +1,98 @@
+[
+  {
+    "name": "village_day",
+    "night": false,
+    "quest": 0,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_village_day.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          0,
+          -8300,
+          4300
+        ],
+        "rotation": [
+          -26.56505117707799,
+          90,
+          3.1178524834738926e-07
+        ],
+        "fov": 53
+      }
+    }
+  },
+  {
+    "name": "mine",
+    "night": false,
+    "quest": 0,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_mine.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          1650,
+          2600,
+          1040
+        ],
+        "rotation": [
+          -16.910098376785818,
+          127.05652818940959,
+          2.862827685101893e-07
+        ],
+        "fov": 50
+      }
+    }
+  },
+  {
+    "name": "rings",
+    "night": false,
+    "quest": 8,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_rings.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          540,
+          5410,
+          900
+        ],
+        "rotation": [
+          -40.404112308135225,
+          90,
+          4.518898070711217e-07
+        ],
+        "fov": 50
+      }
+    }
+  },
+  {
+    "name": "hollowcore",
+    "night": false,
+    "quest": 8,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_hollowcore.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          1100,
+          8490,
+          430
+        ],
+        "rotation": [
+          -18.67181656698204,
+          124.99202019855868,
+          3.099772425122735e-07
+        ],
+        "fov": 47
+      }
+    }
+  }
+]

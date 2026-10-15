@@ -1,0 +1,8 @@
+[
+ {"shot": "qm_idle", "py": "qa_qm_idle.py", "wait": 20, "frames": 240},
+ {"shot": "qm_move", "py": "qa_qm_move.py", "wait": 0.25, "frames": 8},
+ {"shot": "qm_accept", "py": "qa_qfx_accept.py", "wait": 0.9, "frames": 25},
+ {"shot": "qm_ready", "py": "qa_qfx_ready.py", "wait": 2.9, "frames": 60},
+ {"shot": "qm_done", "py": "qa_qfx_done.py", "wait": 2.25, "frames": 50},
+ {"shot": "qm_after", "py": "", "wait": 3.5, "frames": 60}
+]

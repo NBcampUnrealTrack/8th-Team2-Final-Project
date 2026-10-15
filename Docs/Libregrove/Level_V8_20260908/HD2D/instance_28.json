@@ -1,0 +1,22 @@
+{
+  "source": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Materials/tripo_mat_eaa7130b.tripo_mat_eaa7130b",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Crate_109b9.MI_HD2D_Crate_109b9",
+  "kind": "Surface",
+  "scalars": {
+    "PixelGrid": 128.0,
+    "Roughness": 0.87,
+    "Metallic": 0.0
+  },
+  "vectors": {
+    "MaterialTint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "textures": {
+    "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Textures/Color.Color",
+    "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Textures/Normal.Normal"
+  }
+}

@@ -1,0 +1,5021 @@
+[
+  {
+    "label": "CH_HearthSquare_Path",
+    "location": [
+      -59.400000000000006,
+      0.0,
+      158.85
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      13.5,
+      10.8,
+      0.027
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Path_Path.SM_CH_Path_Path",
+    "bounds": [
+      [
+        -59.39999999999998,
+        0.0,
+        158.85
+      ],
+      [
+        675.0,
+        540.0,
+        1.3499999999999943
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_CommunalHearth_10m_Dark",
+    "location": [
+      -59.400000000000006,
+      0.0,
+      161.54999999999998
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "visible": false,
+    "hidden": true,
+    "component_hidden": true,
+    "collision": false,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Hearth_Dark.SM_CH_Hearth_Dark",
+    "bounds": [
+      [
+        -59.39999999999998,
+        0.0,
+        168.29999999999998
+      ],
+      [
+        209.25,
+        209.25,
+        6.75
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Dark.MI_CH_Dark"
+    ]
+  },
+  {
+    "label": "CH_CommunalHearth_10m_Stone",
+    "location": [
+      -59.400000000000006,
+      0.0,
+      161.54999999999998
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "visible": false,
+    "hidden": true,
+    "component_hidden": true,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Hearth_Stone.SM_CH_Hearth_Stone",
+    "bounds": [
+      [
+        -55.53969268798829,
+        0.0,
+        177.74999999999997
+      ],
+      [
+        221.13969268798826,
+        224.5511260986328,
+        15.75
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "label": "CH_CommunalHearth_10m_StoneLight",
+    "location": [
+      -59.400000000000006,
+      0.0,
+      161.54999999999998
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "visible": false,
+    "hidden": true,
+    "component_hidden": true,
+    "collision": false,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Hearth_StoneLight.SM_CH_Hearth_StoneLight",
+    "bounds": [
+      [
+        -59.62443695068362,
+        0.0,
+        177.74999999999997
+      ],
+      [
+        224.77556304931642,
+        225.0,
+        15.75
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_StoneLight.MI_CH_StoneLight"
+    ]
+  },
+  {
+    "label": "CH_CommunalHearth_10m_Timber",
+    "location": [
+      -59.400000000000006,
+      0.0,
+      161.54999999999998
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "visible": false,
+    "hidden": true,
+    "component_hidden": true,
+    "collision": false,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Hearth_Timber.SM_CH_Hearth_Timber",
+    "bounds": [
+      [
+        -67.09849090576172,
+        16.479008102416998,
+        183.14999957084655
+      ],
+      [
+        123.89738159179687,
+        117.22757148742676,
+        8.550000429153442
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_CommunalHearth_10m_Ember",
+    "location": [
+      -59.400000000000006,
+      0.0,
+      161.54999999999998
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "visible": false,
+    "hidden": true,
+    "component_hidden": true,
+    "collision": false,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Hearth_Ember.SM_CH_Hearth_Ember",
+    "bounds": [
+      [
+        -71.31191940307617,
+        15.10506820678711,
+        181.79999999999998
+      ],
+      [
+        109.65772018432618,
+        83.03610305786133,
+        9.900000000000006
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Ember.MI_CH_Ember"
+    ]
+  },
+  {
+    "label": "CH_LivingEmbers_Ember",
+    "location": [
+      -59.400000000000006,
+      0.0,
+      161.54999999999998
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "visible": false,
+    "hidden": true,
+    "component_hidden": true,
+    "collision": false,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.Fire"
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Fire_Ember.SM_CH_Fire_Ember",
+    "bounds": [
+      [
+        -50.889497566223156,
+        22.50048236846924,
+        197.55
+      ],
+      [
+        43.53172016143799,
+        37.52130947113037,
+        74.70000000000002
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Ember.MI_CH_Ember"
+    ]
+  },
+  {
+    "label": "CH_LivingEmbers_Flame",
+    "location": [
+      -59.400000000000006,
+      0.0,
+      161.54999999999998
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "visible": false,
+    "hidden": true,
+    "component_hidden": true,
+    "collision": false,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.Fire"
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Fire_Flame.SM_CH_Fire_Flame",
+    "bounds": [
+      [
+        -63.98648300170899,
+        1.8914577484130888,
+        219.14999999999998
+      ],
+      [
+        39.08269500732422,
+        67.23733406066894,
+        81.89999999999999
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Flame.MI_CH_Flame"
+    ]
+  },
+  {
+    "label": "CH_WorkingForge_Stone",
+    "location": [
+      -137.7,
+      805.0,
+      157.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "visible": false,
+    "hidden": true,
+    "component_hidden": true,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Forge_Stone.SM_CH_Forge_Stone",
+    "bounds": [
+      [
+        -137.7,
+        805.0,
+        264.375
+      ],
+      [
+        54.0,
+        38.25,
+        106.875
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  },
+  {
+    "label": "CH_WorkingForge_Dark",
+    "location": [
+      -137.7,
+      805.0,
+      157.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "visible": false,
+    "hidden": true,
+    "component_hidden": true,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Forge_Dark.SM_CH_Forge_Dark",
+    "bounds": [
+      [
+        -137.7,
+        782.5,
+        216.0
+      ],
+      [
+        42.75,
+        22.5,
+        9.0
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Dark.MI_CH_Dark"
+    ]
+  },
+  {
+    "label": "CH_WorkingForge_Flame",
+    "location": [
+      -137.7,
+      805.0,
+      157.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "visible": false,
+    "hidden": true,
+    "component_hidden": true,
+    "collision": false,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Forge_Flame.SM_CH_Forge_Flame",
+    "bounds": [
+      [
+        -137.7,
+        787.8999993562699,
+        218.25
+      ],
+      [
+        39.48458175659181,
+        20.027769970893814,
+        20.25
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/Materials/MI_CH_Flame.MI_CH_Flame"
+    ]
+  },
+  {
+    "label": "CH_WorkingForge_Iron",
+    "location": [
+      -137.7,
+      805.0,
+      157.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "visible": false,
+    "hidden": true,
+    "component_hidden": true,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Forge_Iron.SM_CH_Forge_Iron",
+    "bounds": [
+      [
+        -56.69999999999999,
+        805.0,
+        191.25
+      ],
+      [
+        33.75,
+        22.5,
+        11.25
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Iron.MI_CH_Iron"
+    ]
+  },
+  {
+    "label": "CH_WorkingForge_Brass",
+    "location": [
+      -137.7,
+      805.0,
+      157.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "visible": false,
+    "hidden": true,
+    "component_hidden": true,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Forge_Brass.SM_CH_Forge_Brass",
+    "bounds": [
+      [
+        -16.19999999999999,
+        823.0,
+        184.49999978542328
+      ],
+      [
+        27.0,
+        20.25,
+        20.250000214576716
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Brass.MI_CH_Brass"
+    ]
+  },
+  {
+    "label": "CH_GormHouse_Firewood0",
+    "location": [
+      -575.1,
+      -1227.15,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -575.1,
+        -1227.15,
+        8.91
+      ],
+      [
+        28.350000000000023,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_GormHouse_Firewood1",
+    "location": [
+      -558.0899999999999,
+      -1227.15,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -558.0899999999999,
+        -1227.15,
+        8.91
+      ],
+      [
+        28.350000000000023,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_GormHouse_Firewood2",
+    "location": [
+      -541.08,
+      -1227.15,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -541.08,
+        -1227.15,
+        8.91
+      ],
+      [
+        28.350000000000023,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_01_Firewood0",
+    "location": [
+      -1141.0,
+      -1371.75,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1141.0,
+        -1371.75,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_01_Firewood1",
+    "location": [
+      -1123.99,
+      -1371.75,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1123.99,
+        -1371.75,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_01_Firewood2",
+    "location": [
+      -1106.98,
+      -1371.75,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1106.98,
+        -1371.75,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_02_Firewood0",
+    "location": [
+      -1516.0,
+      -1221.75,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1516.0,
+        -1221.75,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_02_Firewood1",
+    "location": [
+      -1498.99,
+      -1221.75,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1498.99,
+        -1221.75,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_02_Firewood2",
+    "location": [
+      -1481.9799999999998,
+      -1221.75,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1481.9799999999998,
+        -1221.75,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_03_Firewood0",
+    "location": [
+      -1941.0,
+      -1401.75,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1941.0,
+        -1401.75,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_03_Firewood1",
+    "location": [
+      -1923.99,
+      -1401.75,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1923.99,
+        -1401.75,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_03_Firewood2",
+    "location": [
+      -1906.9799999999998,
+      -1401.75,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1906.9799999999998,
+        -1401.75,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_04_Firewood0",
+    "location": [
+      1224.9,
+      -1317.6000000000001,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1224.9,
+        -1317.6000000000001,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_04_Firewood1",
+    "location": [
+      1241.91,
+      -1317.6000000000001,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1241.91,
+        -1317.6000000000001,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_04_Firewood2",
+    "location": [
+      1258.9200000000003,
+      -1317.6000000000001,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1258.9200000000003,
+        -1317.6000000000001,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_05_Firewood0",
+    "location": [
+      1957.5,
+      -1377.9,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1957.5,
+        -1377.9,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_05_Firewood1",
+    "location": [
+      1974.51,
+      -1377.9,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1974.51,
+        -1377.9,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_05_Firewood2",
+    "location": [
+      1991.5200000000002,
+      -1377.9,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1991.5200000000002,
+        -1377.9,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_06_Firewood0",
+    "location": [
+      -1022.85,
+      -1890.45,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1022.85,
+        -1890.45,
+        8.91
+      ],
+      [
+        28.350000000000023,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_06_Firewood1",
+    "location": [
+      -1005.8399999999999,
+      -1890.45,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1005.8399999999999,
+        -1890.45,
+        8.91
+      ],
+      [
+        28.349999999999966,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_06_Firewood2",
+    "location": [
+      -988.83,
+      -1890.45,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -988.83,
+        -1890.45,
+        8.91
+      ],
+      [
+        28.350000000000023,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_07_Firewood0",
+    "location": [
+      -1431.0,
+      -1830.15,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1431.0,
+        -1830.15,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_07_Firewood1",
+    "location": [
+      -1413.99,
+      -1830.15,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1413.99,
+        -1830.15,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_07_Firewood2",
+    "location": [
+      -1396.9799999999998,
+      -1830.15,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1396.9799999999998,
+        -1830.15,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_08_Firewood0",
+    "location": [
+      -1871.0,
+      -1921.75,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1871.0,
+        -1921.75,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_08_Firewood1",
+    "location": [
+      -1853.99,
+      -1921.75,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1853.99,
+        -1921.75,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_08_Firewood2",
+    "location": [
+      -1836.9799999999998,
+      -1921.75,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1836.9799999999998,
+        -1921.75,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_09_Firewood0",
+    "location": [
+      1491.3000000000002,
+      -1860.3000000000002,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1491.3000000000002,
+        -1860.3000000000002,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_09_Firewood1",
+    "location": [
+      1508.3100000000002,
+      -1860.3000000000002,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1508.3100000000002,
+        -1860.3000000000002,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_09_Firewood2",
+    "location": [
+      1525.3200000000004,
+      -1860.3000000000002,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1525.3200000000004,
+        -1860.3000000000002,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_10_Firewood0",
+    "location": [
+      1957.5,
+      -1920.6000000000001,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1957.5,
+        -1920.6000000000001,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_10_Firewood1",
+    "location": [
+      1974.51,
+      -1920.6000000000001,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1974.51,
+        -1920.6000000000001,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_10_Firewood2",
+    "location": [
+      1991.5200000000002,
+      -1920.6000000000001,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1991.5200000000002,
+        -1920.6000000000001,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_11_Firewood0",
+    "location": [
+      -673.2,
+      -2463.3,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -673.2,
+        -2463.3,
+        8.91
+      ],
+      [
+        28.350000000000023,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_11_Firewood1",
+    "location": [
+      -656.1899999999999,
+      -2463.3,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -656.1899999999999,
+        -2463.3,
+        8.91
+      ],
+      [
+        28.350000000000023,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_11_Firewood2",
+    "location": [
+      -639.1800000000001,
+      -2463.3,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -639.1800000000001,
+        -2463.3,
+        8.91
+      ],
+      [
+        28.350000000000023,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_12_Firewood0",
+    "location": [
+      -1172.6999999999998,
+      -2403.0,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1172.6999999999998,
+        -2403.0,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_12_Firewood1",
+    "location": [
+      -1155.6899999999998,
+      -2403.0,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1155.6899999999998,
+        -2403.0,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_12_Firewood2",
+    "location": [
+      -1138.6799999999996,
+      -2403.0,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1138.6799999999996,
+        -2403.0,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_13_Firewood0",
+    "location": [
+      -1672.1999999999998,
+      -2493.4500000000003,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1672.1999999999998,
+        -2493.4500000000003,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_13_Firewood1",
+    "location": [
+      -1655.1899999999998,
+      -2493.4500000000003,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1655.1899999999998,
+        -2493.4500000000003,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_13_Firewood2",
+    "location": [
+      -1638.1799999999996,
+      -2493.4500000000003,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        -1638.1799999999996,
+        -2493.4500000000003,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_14_Firewood0",
+    "location": [
+      991.8,
+      -2463.3,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        991.8,
+        -2463.3,
+        8.91
+      ],
+      [
+        28.350000000000023,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_14_Firewood1",
+    "location": [
+      1008.8100000000001,
+      -2463.3,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1008.8100000000001,
+        -2463.3,
+        8.91
+      ],
+      [
+        28.350000000000023,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_14_Firewood2",
+    "location": [
+      1025.82,
+      -2463.3,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1025.82,
+        -2463.3,
+        8.91
+      ],
+      [
+        28.349999999999966,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_15_Firewood0",
+    "location": [
+      1491.3000000000002,
+      -2403.0,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1491.3000000000002,
+        -2403.0,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_15_Firewood1",
+    "location": [
+      1508.3100000000002,
+      -2403.0,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1508.3100000000002,
+        -2403.0,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_15_Firewood2",
+    "location": [
+      1525.3200000000004,
+      -2403.0,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1525.3200000000004,
+        -2403.0,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_16_Firewood0",
+    "location": [
+      1957.5,
+      -2493.4500000000003,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1957.5,
+        -2493.4500000000003,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_16_Firewood1",
+    "location": [
+      1974.51,
+      -2493.4500000000003,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1974.51,
+        -2493.4500000000003,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_MinersHome_16_Firewood2",
+    "location": [
+      1991.5200000000002,
+      -2493.4500000000003,
+      8.91
+    ],
+    "rotation": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.14175000000000001,
+      0.14175000000000001,
+      0.5670000000000001
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth"
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "bounds": [
+      [
+        1991.5200000000002,
+        -2493.4500000000003,
+        8.91
+      ],
+      [
+        28.34999999999991,
+        7.087500000000091,
+        7.087500000000009
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.MI_CH_Timber"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_0",
+    "location": [
+      -45.07658536235866,
+      -549.7744368835408,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      69.32525634765622,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -45.07658536235866,
+        -549.7744368835408,
+        159.48517341613768
+      ],
+      [
+        27.818288531279833,
+        35.772185600329635,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_1",
+    "location": [
+      414.13293736567334,
+      558.6542283141665,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      103.94831848144536,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        414.13293736567334,
+        558.6542283141665,
+        159.48517341613768
+      ],
+      [
+        24.912863861605786,
+        34.87292178612722,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_2",
+    "location": [
+      -713.58701905399,
+      520.1563135372651,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -41.788204193115234,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -713.58701905399,
+        520.1563135372651,
+        159.48517341613768
+      ],
+      [
+        35.379092111750765,
+        34.29723712361658,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_3",
+    "location": [
+      625.764540194787,
+      261.2966560330183,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      13.517600059509281,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        625.764540194787,
+        261.2966560330183,
+        159.48517341613768
+      ],
+      [
+        34.798815357533385,
+        24.714682524658897,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_4",
+    "location": [
+      -182.49053160705952,
+      -532.3652339192193,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -52.4766502380371,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -182.49053160705952,
+        -532.3652339192193,
+        159.48517341613768
+      ],
+      [
+        33.34001442009884,
+        35.8526090043232,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_5",
+    "location": [
+      384.5450042575292,
+      518.6069450400704,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -52.823040008544915,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        384.5450042575292,
+        518.6069450400704,
+        159.48517341613768
+      ],
+      [
+        33.25408340408842,
+        35.88237723131715,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_6",
+    "location": [
+      -723.5892056985531,
+      -526.3839507626953,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      63.53811264038084,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -723.5892056985531,
+        -526.3839507626953,
+        159.48517341613768
+      ],
+      [
+        30.01287106726943,
+        36.15204757567463,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_7",
+    "location": [
+      613.2530839715093,
+      -259.9769551590945,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      154.74232482910156,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        613.2530839715093,
+        -259.9769551590945,
+        159.48517341613768
+      ],
+      [
+        36.10329389109347,
+        29.580722538979657,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_8",
+    "location": [
+      -509.1236323426672,
+      -543.5023005743755,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -98.08406066894534,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -509.1236323426672,
+        -543.5023005743755,
+        159.48517341613768
+      ],
+      [
+        22.09848810943913,
+        33.69660312304123,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_9",
+    "location": [
+      -636.1585334432058,
+      558.9234008425591,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -124.17510986328128,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -636.1585334432058,
+        558.9234008425591,
+        159.48517341613768
+      ],
+      [
+        32.45883839200428,
+        36.0853189820923,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_10",
+    "location": [
+      -715.6657582236795,
+      -523.7441660422699,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -70.64020538330077,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -715.6657582236795,
+        -523.7441660422699,
+        159.48517341613768
+      ],
+      [
+        27.2792397796602,
+        35.634821015536886,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_11",
+    "location": [
+      606.818284601906,
+      369.182107636116,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -24.943315505981452,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        606.818284601906,
+        369.182107636116,
+        159.48517341613768
+      ],
+      [
+        36.08794077403479,
+        29.465751567969676,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_12",
+    "location": [
+      297.745764672571,
+      -549.3031603319833,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -29.72815322875978,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        297.745764672571,
+        -549.3031603319833,
+        159.48517341613768
+      ],
+      [
+        36.203849123793475,
+        31.117742478582045,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_13",
+    "location": [
+      -566.1993697885647,
+      541.7974029476848,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      65.82382965087888,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -566.1993697885647,
+        541.7974029476848,
+        159.48517341613768
+      ],
+      [
+        29.1814666262502,
+        36.045914636556944,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_14",
+    "location": [
+      -740.2693372334584,
+      -120.93323910012506,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -83.89783477783203,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -740.2693372334584,
+        -120.93323910012506,
+        159.48517341613768
+      ],
+      [
+        21.093499782801473,
+        33.21859017676576,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_15",
+    "location": [
+      625.0926624310606,
+      -478.6929561186936,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -14.139837265014647,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        625.0926624310606,
+        -478.6929561186936,
+        159.48517341613768
+      ],
+      [
+        34.90524046347048,
+        25.000533598751247,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_16",
+    "location": [
+      384.0955585969856,
+      -554.7915562105629,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      127.15567779541013,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        384.0955585969856,
+        -554.7915562105629,
+        159.48517341613768
+      ],
+      [
+        33.24876413612901,
+        35.88416343844426,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_17",
+    "location": [
+      450.06631964340863,
+      520.201742339479,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -84.8248062133789,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        450.06631964340863,
+        520.201742339479,
+        159.48517341613768
+      ],
+      [
+        20.614710582318253,
+        32.98133630021016,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_18",
+    "location": [
+      -727.1105332249218,
+      -423.0949089227468,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      156.3554229736328,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -727.1105332249218,
+        -423.0949089227468,
+        159.48517341613768
+      ],
+      [
+        36.013001803784846,
+        28.98139974304428,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_19",
+    "location": [
+      630.9623124325716,
+      473.43286129385376,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -5.1318140029907235,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        630.9623124325716,
+        473.43286129385376,
+        159.48517341613768
+      ],
+      [
+        32.9700215149179,
+        20.59217138478533,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_20",
+    "location": [
+      579.0168209869879,
+      -522.5444790485972,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      60.93241500854492,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        579.0168209869879,
+        -522.5444790485972,
+        159.48517341613768
+      ],
+      [
+        30.902338022004074,
+        36.202861543692165,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_21",
+    "location": [
+      189.75529553196196,
+      536.6707317384578,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -24.07880020141602,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        189.75529553196196,
+        536.6707317384578,
+        159.48517341613768
+      ],
+      [
+        36.04011814659256,
+        29.14500846557337,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_22",
+    "location": [
+      -716.78796140786,
+      -482.93101485891947,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -65.86671447753905,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -716.78796140786,
+        -482.9310148589195,
+        159.48517341613768
+      ],
+      [
+        29.16541970288347,
+        36.043374510136374,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_23",
+    "location": [
+      622.2632139383531,
+      -38.563869749839064,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -87.05479431152345,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        622.2632139383531,
+        -38.563869749839064,
+        159.48517341613768
+      ],
+      [
+        19.441041261826967,
+        32.375342065343425,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_24",
+    "location": [
+      535.82633911587,
+      -533.6444828359326,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      129.57055664062497,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        535.82633911587,
+        -533.6444828359326,
+        159.48517341613768
+      ],
+      [
+        33.82289250447707,
+        35.64995638579424,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_25",
+    "location": [
+      -577.7287910777587,
+      555.1281179921926,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      40.61025619506839,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -577.7287910777587,
+        555.1281179921926,
+        159.48517341613768
+      ],
+      [
+        35.529593341486134,
+        34.05163290272242,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_26",
+    "location": [
+      -736.0201981540133,
+      -8.473439548880723,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      91.65092468261719,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -736.0201981540133,
+        -8.473439548880727,
+        159.48517341613768
+      ],
+      [
+        18.74622506201399,
+        32.00107254350967,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_27",
+    "location": [
+      623.6070609488165,
+      424.62120645428524,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -122.9098815917969,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        623.6070609488165,
+        424.62120645428524,
+        159.48517341613768
+      ],
+      [
+        32.09683715927474,
+        36.14121236741744,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_28",
+    "location": [
+      -30.313422488697483,
+      -548.0287993310546,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -107.19233703613283,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -30.313422488697483,
+        -548.0287993310546,
+        159.48517341613768
+      ],
+      [
+        26.359492374928465,
+        35.36747376710014,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_29",
+    "location": [
+      314.90048708427787,
+      519.0507653092961,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      154.39788818359375,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        314.90048708427787,
+        519.0507653092961,
+        159.48517341613768
+      ],
+      [
+        36.118868172104726,
+        29.70567112398885,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_30",
+    "location": [
+      -742.5185082759648,
+      -138.56176808144173,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -159.49571228027344,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -742.5185082759648,
+        -138.56176808144173,
+        159.48517341613768
+      ],
+      [
+        35.755440546913064,
+        27.749232595509824,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_31",
+    "location": [
+      612.1029004229902,
+      255.17899167850828,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -16.117605209350586,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        612.1029004229902,
+        255.17899167850828,
+        159.48517341613768
+      ],
+      [
+        35.21611532699717,
+        25.88936456797535,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_32",
+    "location": [
+      -572.9488460482734,
+      -555.8688147317716,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -161.52059936523438,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -572.9488460482734,
+        -555.8688147317716,
+        159.48517341613768
+      ],
+      [
+        35.53235722703619,
+        26.91028421936801,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_33",
+    "location": [
+      -365.75328323302745,
+      555.3060093513758,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      137.1637725830078,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -365.75328323302745,
+        555.3060093513758,
+        159.48517341613768
+      ],
+      [
+        35.23261836406692,
+        34.5035689334112,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_34",
+    "location": [
+      -729.4854044277621,
+      240.08568795190956,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -151.3915710449219,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -729.4854044277621,
+        240.08568795190956,
+        159.48517341613768
+      ],
+      [
+        36.1993401734984,
+        30.75019044272689,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_35",
+    "location": [
+      617.1527926053437,
+      -257.64446907933734,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -110.87640380859375,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        617.1527926053437,
+        -257.64446907933734,
+        159.48517341613768
+      ],
+      [
+        27.899668079736898,
+        35.791587192614614,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_36",
+    "location": [
+      -494.714336380345,
+      -523.1249629573553,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -155.39015197753906,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -494.714336380345,
+        -523.1249629573553,
+        159.48517341613768
+      ],
+      [
+        36.070467050935434,
+        29.342822845364935,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_37",
+    "location": [
+      -743.3346809517811,
+      543.6717535087836,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      156.50746154785156,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -743.3346809517811,
+        543.6717535087836,
+        159.48517341613768
+      ],
+      [
+        36.00301831648528,
+        28.923719976588472,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_38",
+    "location": [
+      -719.5842617624494,
+      -181.60886632671793,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -167.11190795898438,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -719.5842617624494,
+        -181.60886632671793,
+        159.48517341613768
+      ],
+      [
+        34.686970329836186,
+        24.422525281314563,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_39",
+    "location": [
+      615.3584026226907,
+      519.9749084895369,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      13.562111854553228,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        615.3584026226907,
+        519.9749084895369,
+        159.48517341613768
+      ],
+      [
+        34.80656493431093,
+        24.735228108359394,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_40",
+    "location": [
+      -648.8415466516894,
+      -541.4273969273492,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -102.48439788818362,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -648.8415466516894,
+        -541.4273969273492,
+        159.48517341613768
+      ],
+      [
+        24.233615452531012,
+        34.61304134420172,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_41",
+    "location": [
+      554.5580414462676,
+      536.8891644090185,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -163.99864196777344,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        554.5580414462676,
+        536.8891644090185,
+        159.48517341613768
+      ],
+      [
+        35.199000244851845,
+        25.837964828822663,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_42",
+    "location": [
+      -732.618098729125,
+      -443.36408220542023,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      -144.194580078125,
+      0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        -732.618098729125,
+        -443.36408220542023,
+        159.48517341613768
+      ],
+      [
+        35.98735840494692,
+        32.901934286159985,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_YardEdge_HearthSquare_43",
+    "location": [
+      606.1303801536914,
+      -167.67418979781635,
+      157.2
+    ],
+    "rotation": [
+      0.0,
+      153.98577880859375,
+      -0.0
+    ],
+    "scale": [
+      0.35,
+      0.22,
+      0.045
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "bounds": [
+      [
+        606.1303801536914,
+        -167.67418979781635,
+        159.48517341613768
+      ],
+      [
+        36.13578718092549,
+        29.853757807314167,
+        2.2851734161376953
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Path.MI_CH_Path"
+    ]
+  },
+  {
+    "label": "CH_HD2D_HearthFire0",
+    "location": [
+      -71.4,
+      0.0,
+      238.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -90.00000000000001
+    ],
+    "scale": [
+      1.296,
+      1.296,
+      1.0
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Engine/BasicShapes/Plane.Plane",
+    "bounds": [
+      [
+        -71.4,
+        0.0,
+        238.0
+      ],
+      [
+        64.79999999999998,
+        2.242910396391693e-14,
+        64.80000000000001
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_PixelFire0.MI_CH_PixelFire0"
+    ]
+  },
+  {
+    "label": "CH_HD2D_HearthFire1",
+    "location": [
+      -59.400000000000006,
+      0.0,
+      238.0
+    ],
+    "rotation": [
+      6.3611093629270335e-15,
+      60.00000000000001,
+      -90.0
+    ],
+    "scale": [
+      1.296,
+      1.296,
+      1.0
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Engine/BasicShapes/Plane.Plane",
+    "bounds": [
+      [
+        -59.400000000000006,
+        0.0,
+        238.0
+      ],
+      [
+        32.400000000000006,
+        56.11844616523165,
+        64.80000000000001
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_PixelFire1.MI_CH_PixelFire1"
+    ]
+  },
+  {
+    "label": "CH_HD2D_HearthFire2",
+    "location": [
+      -47.400000000000006,
+      0.0,
+      238.0
+    ],
+    "rotation": [
+      0.0,
+      119.99999999999997,
+      -90.0
+    ],
+    "scale": [
+      1.296,
+      1.296,
+      1.0
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Engine/BasicShapes/Plane.Plane",
+    "bounds": [
+      [
+        -47.400000000000006,
+        0.0,
+        238.0
+      ],
+      [
+        32.39999999999998,
+        56.11844616523168,
+        64.80000000000001
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_PixelFire2.MI_CH_PixelFire2"
+    ]
+  },
+  {
+    "label": "CH_HD2D_ForgeFire0",
+    "location": [
+      -125.99999999999997,
+      651.8429995687009,
+      218.25
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      -90.00000000000001
+    ],
+    "scale": [
+      0.7896916351318362,
+      0.6,
+      1.0
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Engine/BasicShapes/Plane.Plane",
+    "bounds": [
+      [
+        -125.99999999999997,
+        651.8429995687009,
+        218.25
+      ],
+      [
+        39.48458175659181,
+        0.0,
+        30.0
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_PixelFire0.MI_CH_PixelFire0"
+    ]
+  },
+  {
+    "label": "CH_HD2D_ForgeFire1",
+    "location": [
+      -125.99999999999997,
+      651.8429995687009,
+      218.25
+    ],
+    "rotation": [
+      -6.3611093629270335e-15,
+      90.00000000000003,
+      -90.00000000000003
+    ],
+    "scale": [
+      0.7896916351318362,
+      0.6,
+      1.0
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D"
+    ],
+    "mesh": "/Engine/BasicShapes/Plane.Plane",
+    "bounds": [
+      [
+        -125.99999999999997,
+        651.8429995687009,
+        218.25
+      ],
+      [
+        2.842170943040401e-14,
+        39.484581756591865,
+        30.0
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_PixelFire1.MI_CH_PixelFire1"
+    ]
+  },
+  {
+    "label": "CH_CommunalHearth_10m_P3",
+    "location": [
+      -59.400000000000006,
+      0.0,
+      161.54999999999998
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.5,
+      1.5,
+      0.7429417353494111
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003"
+    ],
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Hearth/CH_Polish_Hearth_Closed005/StaticMeshes/CH_Polish_Hearth_Closed005.CH_Polish_Hearth_Closed005",
+    "bounds": [
+      [
+        -59.39999999999998,
+        0.0,
+        180.54999999999998
+      ],
+      [
+        225.0,
+        225.0,
+        19.0
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Hearth.MI_CH_Hearth"
+    ]
+  },
+  {
+    "label": "CH_WorkingForge_P3",
+    "location": [
+      -137.7,
+      805.0,
+      157.5
+    ],
+    "rotation": [
+      0.0,
+      -90.00000000000001,
+      0.0
+    ],
+    "scale": [
+      0.5639118472069794,
+      0.5333333333333333,
+      0.7706795211154881
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Zone.Smithy"
+    ],
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Forge/CH_Polish_Forge_Caps008/StaticMeshes/CH_Polish_Forge_Caps008.CH_Polish_Forge_Caps008",
+    "bounds": [
+      [
+        -137.7,
+        805.0,
+        260.0
+      ],
+      [
+        80.00000000000003,
+        65.0,
+        102.5
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/Polish_v003/Materials/MI_CH_Forge.MI_CH_Forge"
+    ]
+  },
+  {
+    "label": "CH_D4_DorikSmithy",
+    "location": [
+      -92.7,
+      715.0,
+      157.5
+    ],
+    "rotation": [
+      0.0,
+      -90.00000000000001,
+      0.0
+    ],
+    "scale": [
+      1.5763476382034216,
+      1.5666666666666667,
+      1.320645249342101
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004"
+    ],
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/StaticMeshes/CH_Dense_SmithyStructure_Final018.CH_Dense_SmithyStructure_Final018",
+    "bounds": [
+      [
+        -91.66678314208986,
+        714.4224416290034,
+        245.56451485848646
+      ],
+      [
+        233.96678314208992,
+        174.42244162900352,
+        88.06451485848646
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/Dense_v004/Materials/MI_CH_Smithy.MI_CH_Smithy"
+    ]
+  },
+  {
+    "label": "CH_D4_DorikSmithy_Roof",
+    "location": [
+      -92.7,
+      715.0,
+      157.5
+    ],
+    "rotation": [
+      0.0,
+      -90.00000000000001,
+      0.0
+    ],
+    "scale": [
+      1.5763476382034216,
+      1.5666666666666667,
+      1.320645249342101
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "NoCollision",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.InteriorRoof"
+    ],
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyRoof/CH_Dense_SmithyRoof_RearFar023/StaticMeshes/CH_Dense_SmithyRoof_RearFar023.CH_Dense_SmithyRoof_RearFar023",
+    "bounds": [
+      [
+        -92.70000000000002,
+        715.9240921909367,
+        398.758069051682
+      ],
+      [
+        235.00000000000009,
+        174.07590780906344,
+        88.74193094831793
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/Dense_v004/Materials/MI_CH_Smithy.MI_CH_Smithy"
+    ]
+  },
+  {
+    "label": "CH_D4_DorikSmithy_Walls",
+    "location": [
+      -92.7,
+      715.0,
+      157.5
+    ],
+    "rotation": [
+      0.0,
+      -90.00000000000001,
+      0.0
+    ],
+    "scale": [
+      1.5763476382034216,
+      1.5666666666666667,
+      1.320645249342101
+    ],
+    "visible": true,
+    "hidden": false,
+    "component_hidden": false,
+    "collision": true,
+    "collision_profile": "BlockAll",
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004"
+    ],
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyWalls/CH_Dense_SmithyWalls_Final016/StaticMeshes/CH_Dense_SmithyWalls_Final016.CH_Dense_SmithyWalls_Final016",
+    "bounds": [
+      [
+        -92.03615798950196,
+        716.0160774731542,
+        235.7198620561157
+      ],
+      [
+        224.21660435994474,
+        171.65662332860643,
+        77.71816308373074
+      ]
+    ],
+    "materials": [
+      "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_Stone.MI_CH_Stone"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+[
+ {"shot": "glass_female", "py": "game_type_name.py", "wait": 25},
+ {"shot": "glass_male", "py": "game_male_checked.py"},
+ {"shot": "glass_male_hair", "py": "game_hair_colour.py", "wait": 0.12, "frames": 2},
+ {"shot": "glass_male_hair_after", "wait": 2},
+ {"shot": "glass_intro_mid", "py": "game_replay_intro.py", "wait": 0.3, "frames": 3},
+ {"shot": "glass_intro_end", "wait": 2},
+ {"shot": "glass_confirm_mid", "py": "game_create_confirm.py", "wait": 0.08, "frames": 2},
+ {"shot": "glass_confirm", "wait": 1.5}
+]

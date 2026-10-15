@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "restyle_roof_export_001",
+    "state": "running"
+  },
+  {
+    "job_id": "restyle_roof_export_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\restyle_roof_export_001"
+  },
+  {
+    "job_id": "restyle_roof_export_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\restyle_roof_export_001"
+  },
+  {
+    "job_id": "restyle_roof_export_001",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_ClosedRoof_v001.glb",
+      "format": "glb",
+      "bytes": 651244,
+      "object_names": [
+        "CH_ClosedRoof_v001"
+      ],
+      "fingerprints": {
+        "CH_ClosedRoof_v001": "d93c88329b35f22a49d0a32900b83d19431cb0cd486431757b7c0e61fcf4360c"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

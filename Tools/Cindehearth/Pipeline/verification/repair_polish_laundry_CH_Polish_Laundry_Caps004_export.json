@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "polish_laundry_CH_Polish_Laundry_Caps004_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_laundry_CH_Polish_Laundry_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_laundry_CH_Polish_Laundry_Caps004_export"
+  },
+  {
+    "job_id": "polish_laundry_CH_Polish_Laundry_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_laundry_CH_Polish_Laundry_Caps004_export"
+  },
+  {
+    "job_id": "polish_laundry_CH_Polish_Laundry_Caps004_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Laundry_Caps004.glb",
+      "format": "glb",
+      "bytes": 3228324,
+      "object_names": [
+        "CH_Polish_Laundry_Caps004"
+      ],
+      "fingerprints": {
+        "CH_Polish_Laundry_Caps004": "94b2b465e11a7c06c60e158d0adc9f98456eb778816f15e6e784e24655872443"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

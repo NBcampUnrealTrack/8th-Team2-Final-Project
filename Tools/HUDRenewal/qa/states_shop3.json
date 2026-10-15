@@ -1,0 +1,7 @@
+[
+ {"shot": "sh3_idle", "py": "qa_village.py", "wait": 20, "frames": 240},
+ {"shot": "sh3_near", "py": "qa_shop_go.py", "wait": 1.2, "frames": 30},
+ {"shot": "sh3_talk", "py": "qa_shop_talk.py", "wait": 2.2, "frames": 50},
+ {"shot": "sh3_open", "py": "qa_shop_pick.py", "wait": 3.0, "frames": 80},
+ {"shot": "sh3_sell", "py": "qa_shop_selltab.py", "wait": 1.5, "frames": 40}
+]

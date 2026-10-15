@@ -1,0 +1,198 @@
+[
+  {
+    "tool": "blender_modifier_apply",
+    "arguments": {
+      "source_object_name": "CH_Dense_TavernWalls_UVREF___CH_Dense_Tavern_Walls013",
+      "output_object_name": "CH_Dense_TavernWalls_Solid014",
+      "modifier": {
+        "type": "solidify",
+        "thickness": 0.035,
+        "offset": 0
+      }
+    },
+    "request_id": 195485176029881
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"195485176029881\",\n    \"command\": \"modifier.apply\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "195485176029881",
+        "command": "modifier.apply",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"195485176029881\",\n    \"command\": \"modifier.apply\",\n    \"state\": \"finished\",\n    \"created_at\": 1788599462.999503,\n    \"finished_at\": 1788599463.0440207,\n    \"result\": {\n      \"source_object_name\": \"CH_Dense_TavernWalls_UVREF___CH_Dense_Tavern_Walls013\",\n      \"source_fingerprint\": \"22614dd581d86815d73b1e15848e3dc2a4876c43ed7246563f5a9c682ef6af9d\",\n      \"output_object_name\": \"CH_Dense_TavernWalls_Solid014\",\n      \"modifier\": {\n        \"type\": \"solidify\",\n        \"thickness\": 0.035,\n        \"offset\": 0\n      },\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_Dense_TavernWalls_Solid014\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Dense_TavernWalls_Solid014_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            1.8406774997711182,\n            2.1565308570861816,\n            0.7638201713562012\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"92926f85b4ff495128d84adc6bf2c5e2c97c36a0dcd63301b0a5e94fbd15d8b4\",\n        \"geometry\": {\n          \"vertices\": 32,\n          \"edges\": 56,\n          \"polygons\": 32,\n          \"triangles\": 48,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 0,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 0,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            -1.1670972108840942,\n            -1.4606163501739502,\n            0.24884924292564392\n          ],\n          \"local_max\": [\n            0.6735802292823792,\n            0.695914626121521,\n            1.0126694440841675\n          ],\n          \"world_min\": [\n            -1.1670972108840942,\n            -1.4606163501739502,\n            0.24884924292564392\n          ],\n          \"world_max\": [\n            0.6735802292823792,\n            0.695914626121521,\n            1.0126694440841675\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"tripo_mat_4caa7db6.001\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"UVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 112,\n            \"bounds_min\": [\n              0.0,\n              0.0\n            ],\n            \"bounds_max\": [\n              0.8012839555740356,\n              0.8106369972229004\n            ],\n            \"out_of_zero_one_range\": 0,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 16\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 100,\n          \"blockers\": [],\n          \"warnings\": [],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "195485176029881",
+        "command": "modifier.apply",
+        "state": "finished",
+        "created_at": 1788599462.999503,
+        "finished_at": 1788599463.0440207,
+        "result": {
+          "source_object_name": "CH_Dense_TavernWalls_UVREF___CH_Dense_Tavern_Walls013",
+          "source_fingerprint": "22614dd581d86815d73b1e15848e3dc2a4876c43ed7246563f5a9c682ef6af9d",
+          "output_object_name": "CH_Dense_TavernWalls_Solid014",
+          "modifier": {
+            "type": "solidify",
+            "thickness": 0.035,
+            "offset": 0
+          },
+          "output": {
+            "object": {
+              "name": "CH_Dense_TavernWalls_Solid014",
+              "type": "MESH",
+              "data_name": "CH_Dense_TavernWalls_Solid014_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                1.8406774997711182,
+                2.1565308570861816,
+                0.7638201713562012
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "92926f85b4ff495128d84adc6bf2c5e2c97c36a0dcd63301b0a5e94fbd15d8b4",
+            "geometry": {
+              "vertices": 32,
+              "edges": 56,
+              "polygons": 32,
+              "triangles": 48,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 0,
+              "wire_edges": 0,
+              "non_manifold_edges": 0,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -1.1670972108840942,
+                -1.4606163501739502,
+                0.24884924292564392
+              ],
+              "local_max": [
+                0.6735802292823792,
+                0.695914626121521,
+                1.0126694440841675
+              ],
+              "world_min": [
+                -1.1670972108840942,
+                -1.4606163501739502,
+                0.24884924292564392
+              ],
+              "world_max": [
+                0.6735802292823792,
+                0.695914626121521,
+                1.0126694440841675
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_mat_4caa7db6.001"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "UVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 112,
+                "bounds_min": [
+                  0.0,
+                  0.0
+                ],
+                "bounds_max": [
+                  0.8012839555740356,
+                  0.8106369972229004
+                ],
+                "out_of_zero_one_range": 0,
+                "non_finite": 0,
+                "degenerate_faces": 16
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 100,
+              "blockers": [],
+              "warnings": [],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

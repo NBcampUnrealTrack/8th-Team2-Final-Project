@@ -1,0 +1,1067 @@
+[
+  {
+    "source": "/Game/Libregrove/Level_V8/Materials/MI_LG8_Sky_Day.MI_LG8_Sky_Day",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Sky_Day_17e60.MI_HD2D_LG8_Sky_Day_17e60",
+    "kind": "Sky",
+    "scalars": {},
+    "vectors": {
+      "HorizonCol": [
+        0.8799999952316284,
+        0.8100000023841858,
+        0.6499999761581421,
+        1.0
+      ],
+      "MidCol": [
+        0.5099999904632568,
+        0.6700000166893005,
+        0.7799999713897705,
+        1.0
+      ],
+      "ZenithCol": [
+        0.20000000298023224,
+        0.38999998569488525,
+        0.6000000238418579,
+        1.0
+      ],
+      "GroundCol": [
+        0.07000000029802322,
+        0.10000000149011612,
+        0.07999999821186066,
+        1.0
+      ],
+      "CloudCol": [
+        1.0,
+        0.9900000095367432,
+        0.8999999761581421,
+        1.0
+      ],
+      "CloudShadow": [
+        0.6200000047683716,
+        0.6600000262260437,
+        0.7599999904632568,
+        1.0
+      ],
+      "RidgeFar": [
+        0.3199999928474426,
+        0.4699999988079071,
+        0.5,
+        1.0
+      ],
+      "RidgeNear": [
+        0.11999999731779099,
+        0.23999999463558197,
+        0.23000000417232513,
+        1.0
+      ],
+      "SunDir": [
+        -0.5763145685195923,
+        0.4502663016319275,
+        0.6819983720779419,
+        1.0
+      ],
+      "SunCol": [
+        1.0,
+        0.8600000143051147,
+        0.6200000047683716,
+        1.0
+      ],
+      "Tune": [
+        0.3499999940395355,
+        0.47999998927116394,
+        0.0007999999797903001,
+        1.0
+      ]
+    },
+    "textures": {
+      "SkyTex": "/Game/Village/Textures/Pixel/T_Sky_Clouds.T_Sky_Clouds",
+      "RidgeTex": "/Game/Village/Textures/Pixel/T_Sky_Ridge.T_Sky_Ridge"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Level_V8/Materials/MI_LG8_Terrain.MI_LG8_Terrain",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Terrain_5574e.MI_HD2D_LG8_Terrain_5574e",
+    "kind": "Landscape",
+    "scalars": {
+      "TileCm_Grass": 180.0,
+      "TileCm_Dirt": 180.0,
+      "TileCm_Cobblestone": 180.0,
+      "TileCm_Moss": 210.0,
+      "TileCm_Cliff": 240.0,
+      "TileCm_Macro": 1850.0,
+      "TileCm_EdgeNoise": 100.0,
+      "EdgeNoise_Amount": 0.23000000417232513,
+      "MacroVariation_Amount": 0.2199999988079071,
+      "CliffSlopeStart": 0.3400000035762787,
+      "CliffSlopeEnd": 0.6600000262260437,
+      "RoughnessMul": 1.0
+    },
+    "vectors": {},
+    "textures": {
+      "Tex_Grass_BC": "/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_BC.T_Grass_Meadow_Pixel_BC",
+      "Tex_Grass_N": "/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_N.T_Grass_Meadow_Pixel_N",
+      "Tex_Grass_ORM": "/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_ORM.T_Grass_Meadow_Pixel_ORM",
+      "Tex_Dirt_BC": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_BC.T_Dirt_Path_Pixel_BC",
+      "Tex_Dirt_N": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_N.T_Dirt_Path_Pixel_N",
+      "Tex_Dirt_ORM": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_ORM.T_Dirt_Path_Pixel_ORM",
+      "Tex_Dirt_H": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_H.T_Dirt_Path_Pixel_H",
+      "Tex_Cobblestone_BC": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_BC.T_Cobblestone_Pixel_BC",
+      "Tex_Cobblestone_N": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_N.T_Cobblestone_Pixel_N",
+      "Tex_Cobblestone_ORM": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_ORM.T_Cobblestone_Pixel_ORM",
+      "Tex_Cobblestone_H": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_H.T_Cobblestone_Pixel_H",
+      "Tex_Moss_BC": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_BC.T_Moss_ForestFloor_Pixel_BC",
+      "Tex_Moss_N": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_N.T_Moss_ForestFloor_Pixel_N",
+      "Tex_Moss_ORM": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_ORM.T_Moss_ForestFloor_Pixel_ORM",
+      "Tex_Moss_H": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_H.T_Moss_ForestFloor_Pixel_H",
+      "Tex_Cliff_BC": "/Game/Village/Textures/Pixel/T_Cliff_Rock_Pixel_BC.T_Cliff_Rock_Pixel_BC",
+      "Tex_Macro": "/Game/Village/Textures/Pixel/T_Macro_Variation_Gray_Pixel_BC.T_Macro_Variation_Gray_Pixel_BC",
+      "Tex_EdgeNoise": "/Game/Village/Textures/Pixel/T_PathEdge_Noise_Gray_Pixel_BC.T_PathEdge_Noise_Gray_Pixel_BC"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Materials/tripo_mat_e34f3563.tripo_mat_e34f3563",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_01_Cottage_A_53c2b.MI_HD2D_LG_01_Cottage_A_53c2b",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 256.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Textures/LG_01_Cottage_A_fbx_basecolor"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Level_V8/Materials/MI_LG8_Stone.MI_LG8_Stone",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Stone_fcbe3.MI_HD2D_LG8_Stone_fcbe3",
+    "kind": "WorldProps",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 100.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.5600000023841858,
+        0.5600000023841858,
+        0.49000000953674316,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_BC.T_Prop_StoneBrick_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_N.T_Prop_StoneBrick_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_ORM.T_Prop_StoneBrick_Pixel_ORM"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/Materials/tripo_mat_f544a036.tripo_mat_f544a036",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_02_Inn_b5ef8.MI_HD2D_LG_02_Inn_b5ef8",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 256.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/Textures/LG_02_Inn_fbx_basecolor"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/Materials/tripo_mat_6029c87e.tripo_mat_6029c87e",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_06_NaiaShelter_2aed2.MI_HD2D_LG_06_NaiaShelter_2aed2",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 256.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/Textures/LG_06_NaiaShelter_fbx_basecolor"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/Materials/tripo_mat_12da9820.tripo_mat_12da9820",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_05_WatermillHouse_12e88.MI_HD2D_LG_05_WatermillHouse_12e88",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 256.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/Textures/LG_05_WatermillHouse_fbx_basecolor"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/Materials/tripo_mat_7a88dfe0.tripo_mat_7a88dfe0",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_03_VillageHall_01750.MI_HD2D_LG_03_VillageHall_01750",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 256.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/Textures/LG_03_VillageHall_fbx_basecolor"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Materials/tripo_mat_50ec2d11.tripo_mat_50ec2d11",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_07_Sanctuary_882dc.MI_HD2D_LG_07_Sanctuary_882dc",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 256.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Textures/LG_07_Sanctuary_fbx_basecolor"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/Materials/tripo_mat_317b1c2b.tripo_mat_317b1c2b",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_04_Workshop_e285b.MI_HD2D_LG_04_Workshop_e285b",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 256.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/Textures/LG_04_Workshop_fbx_basecolor"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Materials/tripo_mat_62cb0827.tripo_mat_62cb0827",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_09_MarketStall_c1564.MI_HD2D_LG_09_MarketStall_c1564",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 256.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Textures/LG_09_MarketStall_fbx_basecolor"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Level_V8/Materials/MI_LG8_River.MI_LG8_River",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_River_e988d.MI_HD2D_LG8_River_e988d",
+    "kind": "Water",
+    "scalars": {
+      "TileCm": 160.0,
+      "RippleScale": 0.6399999856948853,
+      "Ripple2Freq": 1.350000023841858,
+      "RippleSpeed": 0.11999999731779099,
+      "BandThreshold": 0.5,
+      "HighlightSharpness": 40.0,
+      "HighlightThreshold": 0.7400000095367432,
+      "ShallowDistance": 80.0,
+      "FoamWidth": 3.0,
+      "DepthSteps": 48.0,
+      "FoamSharpness": 4.0,
+      "BandStrength": 0.10000000149011612,
+      "HighlightStrength": 0.4399999976158142,
+      "OpacityBase": 0.6600000262260437,
+      "SpecularBase": 0.11999999731779099,
+      "SpecularGlint": 0.8500000238418579,
+      "RoughnessBase": 0.1899999976158142,
+      "RoughnessGlint": 0.07999999821186066
+    },
+    "vectors": {
+      "DeepColor": [
+        0.012000000104308128,
+        0.12999999523162842,
+        0.18000000715255737,
+        1.0
+      ],
+      "ShallowColor": [
+        0.05000000074505806,
+        0.3199999928474426,
+        0.3499999940395355,
+        1.0
+      ],
+      "FoamColor": [
+        0.5,
+        0.7300000190734863,
+        0.7400000095367432,
+        1.0
+      ],
+      "HighlightColor": [
+        0.6499999761581421,
+        0.8999999761581421,
+        0.9399999976158142,
+        1.0
+      ]
+    },
+    "textures": {
+      "RippleTex": "/Game/Village/Textures/Pixel/T_Water_Ripple.T_Water_Ripple"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Level_V8/Materials/MI_LG8_Wood.MI_LG8_Wood",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Wood_9a32e.MI_HD2D_LG8_Wood_9a32e",
+    "kind": "WorldProps",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 75.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.7200000286102295,
+        0.5699999928474426,
+        0.3700000047683716,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_BC.T_Prop_WoodPlanks_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_N.T_Prop_WoodPlanks_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_ORM.T_Prop_WoodPlanks_Pixel_ORM"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Level_V8/Materials/MI_LG8_Timber.MI_LG8_Timber",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Timber_b167e.MI_HD2D_LG8_Timber_b167e",
+    "kind": "WorldProps",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 90.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.5699999928474426,
+        0.41999998688697815,
+        0.2800000011920929,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_BC.T_Prop_Timber_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_N.T_Prop_Timber_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_ORM.T_Prop_Timber_Pixel_ORM"
+    }
+  },
+  {
+    "source": "/Game/Village/Materials/Props/MI_Prop_FountainStone.MI_Prop_FountainStone",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_FountainStone_da722.MI_HD2D_Prop_FountainStone_da722",
+    "kind": "WorldProps",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 180.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.7200000286102295,
+        0.7099999785423279,
+        0.6800000071525574,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Fountain_BC.T_Fountain_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Fountain_N.T_Fountain_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Fountain_ORM.T_Fountain_ORM"
+    }
+  },
+  {
+    "source": "/Game/Village/Materials/MI_HD2D_Water.MI_HD2D_Water",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_HD2D_Water_47df8.MI_HD2D_HD2D_Water_47df8",
+    "kind": "Water",
+    "scalars": {
+      "TileCm": 90.0,
+      "RippleScale": 0.6000000238418579,
+      "Ripple2Freq": 1.350000023841858,
+      "RippleSpeed": 0.07999999821186066,
+      "BandThreshold": 0.5,
+      "HighlightSharpness": 40.0,
+      "HighlightThreshold": 0.7400000095367432,
+      "ShallowDistance": 14.0,
+      "FoamWidth": 1.2000000476837158,
+      "DepthSteps": 3.0,
+      "FoamSharpness": 4.0,
+      "BandStrength": 0.3499999940395355,
+      "HighlightStrength": 0.30000001192092896,
+      "OpacityBase": 0.46000000834465027,
+      "SpecularBase": 0.11999999731779099,
+      "SpecularGlint": 0.8500000238418579,
+      "RoughnessBase": 0.3400000035762787,
+      "RoughnessGlint": 0.07999999821186066
+    },
+    "vectors": {
+      "DeepColor": [
+        0.02199999988079071,
+        0.07999999821186066,
+        0.10000000149011612,
+        1.0
+      ],
+      "ShallowColor": [
+        0.07500000298023224,
+        0.2150000035762787,
+        0.23000000417232513,
+        1.0
+      ],
+      "FoamColor": [
+        0.3400000035762787,
+        0.5,
+        0.5199999809265137,
+        1.0
+      ],
+      "HighlightColor": [
+        0.3799999952316284,
+        0.6000000238418579,
+        0.6299999952316284,
+        1.0
+      ]
+    },
+    "textures": {
+      "RippleTex": "/Game/Village/Textures/Pixel/T_Water_Ripple.T_Water_Ripple"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Level_V8/Materials/MI_LG8_Cobble.MI_LG8_Cobble",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Cobble_0f5d6.MI_HD2D_LG8_Cobble_0f5d6",
+    "kind": "WorldProps",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 115.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.6800000071525574,
+        0.6700000166893005,
+        0.5699999928474426,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_BC.T_Cobblestone_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_N.T_Cobblestone_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_ORM.T_Cobblestone_Pixel_ORM"
+    }
+  },
+  {
+    "source": "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Stone_aae7b.MI_HD2D_Prop_Stone_aae7b",
+    "kind": "WorldProps",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 90.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.36000001430511475,
+        0.3799999952316284,
+        0.4000000059604645,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_BC.T_Prop_StoneBrick_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_N.T_Prop_StoneBrick_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_ORM.T_Prop_StoneBrick_Pixel_ORM"
+    }
+  },
+  {
+    "source": "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Materials/tripo_mat_dbac5f18.tripo_mat_dbac5f18",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Portal_42136.MI_HD2D_Portal_42136",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 128.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Textures/Color.Color",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Textures/Normal.Normal"
+    }
+  },
+  {
+    "source": "/Game/Village/Materials/Props/MI_Prop_Timber.MI_Prop_Timber",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Timber_df2b4.MI_HD2D_Prop_Timber_df2b4",
+    "kind": "WorldProps",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 60.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.5199999809265137,
+        0.4000000059604645,
+        0.28999999165534973,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_BC.T_Prop_Timber_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_N.T_Prop_Timber_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_ORM.T_Prop_Timber_Pixel_ORM"
+    }
+  },
+  {
+    "source": "/Game/Village/Materials/Props/MI_Prop_Wood.MI_Prop_Wood",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Wood_07b79.MI_HD2D_Prop_Wood_07b79",
+    "kind": "WorldProps",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 60.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.5199999809265137,
+        0.44999998807907104,
+        0.36000001430511475,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_BC.T_Prop_WoodPlanks_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_N.T_Prop_WoodPlanks_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_ORM.T_Prop_WoodPlanks_Pixel_ORM"
+    }
+  },
+  {
+    "source": "/Game/Village/Materials/Props/MI_Prop_Soil.MI_Prop_Soil",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Soil_ed98c.MI_HD2D_Prop_Soil_ed98c",
+    "kind": "WorldProps",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 90.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.6200000047683716,
+        0.550000011920929,
+        0.44999998807907104,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_Soil_Pixel_BC.T_Prop_Soil_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_Soil_Pixel_N.T_Prop_Soil_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_Soil_Pixel_ORM.T_Prop_Soil_Pixel_ORM"
+    }
+  },
+  {
+    "source": "/Game/Village/Materials/Props/MI_Prop_Metal.MI_Prop_Metal",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Metal_16029.MI_HD2D_Prop_Metal_16029",
+    "kind": "WorldProps",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 60.0,
+      "RoughnessMul": 0.6000000238418579,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.75,
+        0.75,
+        0.800000011920929,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_Metal_Pixel_BC.T_Prop_Metal_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_Metal_Pixel_N.T_Prop_Metal_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_Metal_Pixel_ORM.T_Prop_Metal_Pixel_ORM"
+    }
+  },
+  {
+    "source": "/Game/Village/Materials/Props/MI_Prop_Roof.MI_Prop_Roof",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Roof_336d2.MI_HD2D_Prop_Roof_336d2",
+    "kind": "WorldProps",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 90.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.8799999952316284,
+        0.8799999952316284,
+        0.8199999928474426,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_RoofShingle_Pixel_BC.T_Prop_RoofShingle_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_RoofShingle_Pixel_N.T_Prop_RoofShingle_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_RoofShingle_Pixel_ORM.T_Prop_RoofShingle_Pixel_ORM"
+    }
+  },
+  {
+    "source": "/Game/Village/Materials/Props/MI_Prop_Rock.MI_Prop_Rock",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Rock_c6bf7.MI_HD2D_Prop_Rock_c6bf7",
+    "kind": "WorldProps",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 320.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.47999998927116394,
+        0.49000000953674316,
+        0.4699999988079071,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Cliff_Rock_Pixel_BC.T_Cliff_Rock_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Cliff_Rock_Pixel_N.T_Cliff_Rock_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Cliff_Rock_Pixel_ORM.T_Cliff_Rock_Pixel_ORM"
+    }
+  },
+  {
+    "source": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Materials/tripo_mat_b18f59b5.tripo_mat_b18f59b5",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Rock_0311b.MI_HD2D_Rock_0311b",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 128.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Textures/Color.Color",
+      "NormalTexture": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Textures/Normal.Normal"
+    }
+  },
+  {
+    "source": "/Game/Village/Materials/Props/MI_Prop_Leaf.MI_Prop_Leaf",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Leaf_ceddb.MI_HD2D_Prop_Leaf_ceddb",
+    "kind": "WorldProps",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 90.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.46000000834465027,
+        0.4399999976158142,
+        0.23999999463558197,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_Leaf_Pixel_BC.T_Prop_Leaf_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_Leaf_Pixel_N.T_Prop_Leaf_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_Leaf_Pixel_ORM.T_Prop_Leaf_Pixel_ORM"
+    }
+  },
+  {
+    "source": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Materials/tripo_mat_eaa7130b.tripo_mat_eaa7130b",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Crate_109b9.MI_HD2D_Crate_109b9",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 128.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Textures/Color.Color",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Textures/Normal.Normal"
+    }
+  },
+  {
+    "source": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Materials/tripo_mat_2439e2fa.tripo_mat_2439e2fa",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Barrel_892b0.MI_HD2D_Barrel_892b0",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 128.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Textures/Color.Color",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Textures/Normal.Normal"
+    }
+  },
+  {
+    "source": "/Game/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/Materials/tripo_mat_4b6b3464.tripo_mat_4b6b3464",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Laundry_d9245.MI_HD2D_Laundry_d9245",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 128.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/Textures/Color.Color",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/Textures/Normal.Normal"
+    }
+  },
+  {
+    "source": "/Game/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/Materials/tripo_mat_e1abc989.tripo_mat_e1abc989",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Noticeboard_857f3.MI_HD2D_Noticeboard_857f3",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 128.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/Textures/Color.Color",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/Textures/Normal.Normal"
+    }
+  },
+  {
+    "source": "/Game/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/Materials/tripo_mat_898ef2ed.tripo_mat_898ef2ed",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Bell_e58ba.MI_HD2D_Bell_e58ba",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 128.0,
+      "Roughness": 0.67,
+      "Metallic": 0.25
+    },
+    "vectors": {
+      "MaterialTint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/Textures/Color.Color",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/Textures/Normal.Normal"
+    }
+  },
+  {
+    "source": "/Game/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Materials/tripo_mat_f36ec94d.tripo_mat_f36ec94d",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Anvil_c33d9.MI_HD2D_Anvil_c33d9",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 128.0,
+      "Roughness": 0.67,
+      "Metallic": 0.25
+    },
+    "vectors": {
+      "MaterialTint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Textures/Color.Color",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Textures/Normal.Normal"
+    }
+  },
+  {
+    "source": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/Materials/tripo_mat_8d15cca3.tripo_mat_8d15cca3",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_ToolRack_97b46.MI_HD2D_ToolRack_97b46",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 128.0,
+      "Roughness": 0.67,
+      "Metallic": 0.25
+    },
+    "vectors": {
+      "MaterialTint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/Textures/Color.Color",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/Textures/Normal.Normal"
+    }
+  },
+  {
+    "source": "/Game/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/Materials/tripo_mat_399e5018.tripo_mat_399e5018",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Table_02f13.MI_HD2D_Table_02f13",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 128.0,
+      "Roughness": 0.87,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/Textures/Color.Color",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/Textures/Normal.Normal"
+    }
+  },
+  {
+    "source": "/Game/Village/Materials/Props/MI_Prop_Glow.MI_Prop_Glow",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Glow_0f852.MI_HD2D_Prop_Glow_0f852",
+    "kind": "WorldProps",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 90.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 5.0
+    },
+    "vectors": {
+      "Tint": [
+        0.949999988079071,
+        0.6000000238418579,
+        0.23999999463558197,
+        1.0
+      ],
+      "Emissive": [
+        1.0,
+        0.550000011920929,
+        0.18000000715255737,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_Plaster_Pixel_BC.T_Prop_Plaster_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_Plaster_Pixel_N.T_Prop_Plaster_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_Plaster_Pixel_ORM.T_Prop_Plaster_Pixel_ORM"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Materials/tripo_mat_dbfe09e0.tripo_mat_dbfe09e0",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_08_BroadleafTree_76350.MI_HD2D_LG_08_BroadleafTree_76350",
+    "kind": "Surface",
+    "scalars": {
+      "PixelGrid": 256.0,
+      "Roughness": 0.95,
+      "Metallic": 0.0
+    },
+    "vectors": {
+      "MaterialTint": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Textures/LG_08_BroadleafTree_fbx_basecolor"
+    }
+  },
+  {
+    "source": "/Game/Libregrove/Level_V8/Materials/M_LG8_Waterfall.M_LG8_Waterfall",
+    "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Waterfall_89dc5.MI_HD2D_LG8_Waterfall_89dc5",
+    "kind": "Waterfall",
+    "scalars": {},
+    "vectors": {},
+    "textures": {
+      "FlowNoise": "/Game/Village/Textures/Pixel/T_Water_Ripple.T_Water_Ripple"
+    }
+  }
+]

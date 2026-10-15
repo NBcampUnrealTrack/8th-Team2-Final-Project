@@ -1,0 +1,28 @@
+PROJECT: opening prologue of "Naia Unbounds", a cozy fantasy creature-companion RPG rendered in HD-2D pixel art (pixel sprites in a softly lit diorama, like Octopath Traveler / Sea of Stars). The prologue is a 4-picture "pixel storybook" told in second person: an abandoned newborn is raised by spirit creatures called Naia in a forest where no humans live, grows up with them, and finally walks out into the human world.
+
+THE NAIA (most important): the spirits ARE the game's real Naia creatures shown in the attached creature sheet. Draw them faithfully - same body shapes, colours, markings and cute chibi proportions - as living characters with personality, not as abstract lights. Give each a very soft faint glow at its outline so they read as spirits, but keep their designs fully clear and recognisable. Size: each Naia is about the size of a cat or small dog next to a human child.
+- AQUPONG: round white/pale-blue seal-like blob, a glossy deep-blue water-droplet cap on its head, big dark eyes, tiny pink heart nose, small light-blue fin tail.
+- BOLTO: round pale-yellow kitten face with big dark eyes and small ears marked with blue spark crosses, always sitting inside a swirling blue-grey storm cloud that it floats on.
+- PURUNA: lime-green leafy little creature with two small horns, ONE big round yellow eye, a white fluffy collar and white leaf-like arms, sitting on a dark-green striped seed bulb.
+- BULCOI: chunky orange boar-like creature with black fur on top, grey stone horns/plates, small orange flame tufts at its head and tail, one yellow eye.
+- TOGRA: dark-grey mole/seal-like lump with a brown speckled patch on its back, pink snout, small yellow eye.
+- HWIRY: pale-pink fluffy cat-like creature with a blue eye, a pointed ear, wispy fish-like fins and a long tail ending in a fin.
+
+STYLE (identical for every picture of the set):
+- High quality hand-crafted PIXEL ART illustration. Clean, consistent square pixels as if drawn on a 704x396 canvas and enlarged with nearest-neighbour; NO blurry gradients, NO painterly brush smears, NO photo texture, NO 3D render look.
+- Soft HD-2D lighting: light sources get a gentle pixel bloom halo, cool shadows, warm highlights. A few tiny floating light motes in the air.
+- Storybook memory mood: gentle vignette toward the corners, tender, warm, playful, never scary or grim.
+- Human figures are always seen from behind or side-back, faces never visible, gender-ambiguous, simple undyed linen clothes, short tousled pale-blond hair.
+- Canvas: landscape. Compose for a 16:9 frame; keep all important content inside the central 16:9 band. Keep the lowest ~20% of the frame calm and darker because white subtitle text will sit there.
+- STRICTLY NO text, letters, numbers, logos, signatures, watermarks, borders, frames, UI, speech bubbles.
+
+REFERENCES ATTACHED:
+1) An in-game screenshot of the human village (timber houses, slate roofs, cobblestone, warm lamps): only for the human-world architecture and the overall pixel density/lighting feel.
+2) The game's Naia creature sheet (top row: Aqupong, Bolto, Puruna; bottom row: Bulcoi, Togra, Hwiry). Their designs must match.
+PICTURE 4 of 4 - "Grown up, you stepped into the world of people for the first time."
+Dawn at the very edge of the forest. In the foreground, two giant roots arch over to form a natural gateway framing the view. Under it stands a young adult traveller in a simple hooded cream cloak (hood up, seen from behind, gender-ambiguous), the old book in a satchel at the hip, one foot stepping forward out of the forest shade into the first warm sunlight.
+Beyond the gateway, down a gentle grassy slope and across a little river with a wooden bridge, lies a distant human village like the attached screenshot: timber-framed cottages with blue-grey slate roofs, chimney smoke, warm window lights, a church spire, fields. Morning mist in the valley.
+The Naia have come to see the traveller off: they gather on the roots and the mossy ground just inside the forest edge - AQUPONG, PURUNA, TOGRA and BULCOI sitting together, HWIRY gliding a little forward, BOLTO on its cloud hovering by the arch. Clear split: cool teal forest behind, warm golden human world ahead. Hopeful, bittersweet, the start of a journey. Traveller small, centred under the arch at about 60% height.
+
+3) The approved picture 1 of this same set (third attachment): match its exact pixel density, palette, lighting, forest rendering and the way the Naia are drawn.
+4) An earlier storybook picture (fourth attachment): use it ONLY for the human child's look (pale-blond tousled hair, linen clothes, seen from behind); ignore its abstract glowing lights - the spirits must be the real Naia.

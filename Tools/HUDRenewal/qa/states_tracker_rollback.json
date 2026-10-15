@@ -1,0 +1,4 @@
+[
+ {"shot": "trk_idle", "py": "qa_village_solo.py", "wait": 20, "frames": 240},
+ {"shot": "trk_near", "py": "qa_interact.py", "wait": 1.5, "frames": 40}
+]

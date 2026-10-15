@@ -1,0 +1,15 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Barricade_Game_v003.blend",
+  "object_name": "CH_Polish_Barricade_Game_v003",
+  "expected_fingerprint": "95d961968f6c57b174a5369ab7c86e3b65272712b135400e29b2e167d6783ce1",
+  "output_object_name": "CH_Polish_Barricade_Overlap004",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Barricade_Overlap004.blend",
+  "operation": "delete_faces",
+  "selection_ids": [
+    3
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "polish_barricade_Overlap004"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "finished",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_Cart_Manifold_v004.glb",
+  "assets": [
+    "/Game/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/Textures/Normal.Normal",
+    "/Game/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/Textures/Color.Color",
+    "/Game/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/Textures/tripo_image_30895201_2-tripo_image_30895201_1.tripo_image_30895201_2-tripo_image_30895201_1",
+    "/Game/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/Materials/tripo_mat_30895201.tripo_mat_30895201",
+    "/Game/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/StaticMeshes/CH_Cart_Manifold_v004.CH_Cart_Manifold_v004"
+  ],
+  "meshes": [
+    {
+      "path": "/Game/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/StaticMeshes/CH_Cart_Manifold_v004.CH_Cart_Manifold_v004",
+      "triangles": 1926
+    }
+  ]
+}

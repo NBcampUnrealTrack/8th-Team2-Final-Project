@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "map": "/Game/Libregrove/Level_V8/Maps/L_Libregrove",
+  "sha256": "962e1e99263d0e2f59af4b8719e9736c345f9df9742042c0a579b40d4095a3f0",
+  "actors": 935,
+  "persisted_actor_exports_exact": 939,
+  "foliage_instances_exact": 2337,
+  "portal_id": 16007,
+  "source_entry": "EP_12011_CartTrail",
+  "target_entry": "EP_12027_Trail",
+  "region_trigger": {
+    "location_id": 12011,
+    "priority": 30,
+    "extent": [
+      800,
+      240,
+      160
+    ]
+  },
+  "legacy_destination_identity": true,
+  "dependency_packages": 784,
+  "missing_dependencies": [],
+  "both_endpoints_verified": true,
+  "pie_started": false,
+  "gameplay_transition_tested": false
+}

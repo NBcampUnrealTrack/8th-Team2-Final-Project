@@ -1,0 +1,780 @@
+{
+ "canvas": [
+  60,
+  100
+ ],
+ "pivot": [
+  30,
+  96
+ ],
+ "jobs": {
+  "Druid": {
+   "Idle_Front": {
+    "source": "front_idle",
+    "offset": [
+     1,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    "bounce": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "Walk_Front": {
+    "source": "front_walk",
+    "offset": [
+     1,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     120,
+     110,
+     110,
+     110,
+     120,
+     110,
+     110,
+     110
+    ],
+    "bounce": [
+     1,
+     2,
+     3,
+     0,
+     1,
+     2,
+     3,
+     0
+    ]
+   },
+   "Idle_Side": {
+    "source": "side_idle",
+    "offset": [
+     -4,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    "bounce": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "Walk_Side": {
+    "source": "side_walk",
+    "offset": [
+     -4,
+     3
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     110,
+     110,
+     110,
+     110,
+     110,
+     110,
+     110,
+     110
+    ],
+    "bounce": [
+     1,
+     2,
+     2,
+     0,
+     1,
+     2,
+     2,
+     0
+    ]
+   },
+   "Idle_Back": {
+    "source": "rear_idle",
+    "offset": [
+     1,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair"
+    ],
+    "durations_ms": [
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    "bounce": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "Walk_Back": {
+    "source": "rear_walk",
+    "offset": [
+     1,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair"
+    ],
+    "durations_ms": [
+     120,
+     110,
+     110,
+     110,
+     120,
+     110,
+     110,
+     110
+    ],
+    "bounce": [
+     1,
+     2,
+     3,
+     0,
+     1,
+     2,
+     3,
+     0
+    ]
+   }
+  },
+  "Gambler": {
+   "Idle_Front": {
+    "source": "front_idle",
+    "offset": [
+     -2,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    "bounce": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "Walk_Front": {
+    "source": "front_walk",
+    "offset": [
+     -2,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     120,
+     110,
+     110,
+     110,
+     120,
+     110,
+     110,
+     110
+    ],
+    "bounce": [
+     1,
+     2,
+     3,
+     0,
+     1,
+     2,
+     3,
+     0
+    ]
+   },
+   "Idle_Side": {
+    "source": "side_idle",
+    "offset": [
+     -9,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    "bounce": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "Walk_Side": {
+    "source": "side_walk",
+    "offset": [
+     -9,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     110,
+     110,
+     110,
+     110,
+     110,
+     110,
+     110,
+     110
+    ],
+    "bounce": [
+     1,
+     2,
+     2,
+     0,
+     1,
+     2,
+     2,
+     0
+    ]
+   },
+   "Idle_Back": {
+    "source": "rear_idle",
+    "offset": [
+     1,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair"
+    ],
+    "durations_ms": [
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    "bounce": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "Walk_Back": {
+    "source": "rear_walk",
+    "offset": [
+     1,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair"
+    ],
+    "durations_ms": [
+     120,
+     110,
+     110,
+     110,
+     120,
+     110,
+     110,
+     110
+    ],
+    "bounce": [
+     1,
+     2,
+     3,
+     0,
+     1,
+     2,
+     3,
+     0
+    ]
+   }
+  },
+  "Mage": {
+   "Idle_Front": {
+    "source": "front_idle",
+    "offset": [
+     2,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    "bounce": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "Walk_Front": {
+    "source": "front_walk",
+    "offset": [
+     2,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     120,
+     110,
+     110,
+     110,
+     120,
+     110,
+     110,
+     110
+    ],
+    "bounce": [
+     1,
+     2,
+     3,
+     0,
+     1,
+     2,
+     3,
+     0
+    ]
+   },
+   "Idle_Side": {
+    "source": "side_idle",
+    "offset": [
+     -1,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    "bounce": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "Walk_Side": {
+    "source": "side_walk",
+    "offset": [
+     -1,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     110,
+     110,
+     110,
+     110,
+     110,
+     110,
+     110,
+     110
+    ],
+    "bounce": [
+     1,
+     2,
+     2,
+     0,
+     1,
+     2,
+     2,
+     0
+    ]
+   },
+   "Idle_Back": {
+    "source": "rear_idle",
+    "offset": [
+     4,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair"
+    ],
+    "durations_ms": [
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    "bounce": [
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1
+    ]
+   },
+   "Walk_Back": {
+    "source": "rear_walk",
+    "offset": [
+     4,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair"
+    ],
+    "durations_ms": [
+     120,
+     110,
+     110,
+     110,
+     120,
+     110,
+     110,
+     110
+    ],
+    "bounce": [
+     0,
+     1,
+     2,
+     -1,
+     0,
+     1,
+     2,
+     -1
+    ]
+   }
+  },
+  "Tracker": {
+   "Idle_Front": {
+    "source": "front_idle",
+    "offset": [
+     2,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    "bounce": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "Walk_Front": {
+    "source": "front_walk",
+    "offset": [
+     2,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     120,
+     110,
+     110,
+     110,
+     120,
+     110,
+     110,
+     110
+    ],
+    "bounce": [
+     1,
+     2,
+     3,
+     0,
+     1,
+     2,
+     3,
+     0
+    ]
+   },
+   "Idle_Side": {
+    "source": "side_idle",
+    "offset": [
+     -1,
+     3
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    "bounce": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "Walk_Side": {
+    "source": "side_walk",
+    "offset": [
+     -1,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair",
+     "FaceEye"
+    ],
+    "durations_ms": [
+     110,
+     110,
+     110,
+     110,
+     110,
+     110,
+     110,
+     110
+    ],
+    "bounce": [
+     1,
+     2,
+     2,
+     0,
+     1,
+     2,
+     2,
+     0
+    ]
+   },
+   "Idle_Back": {
+    "source": "rear_idle",
+    "offset": [
+     2,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair"
+    ],
+    "durations_ms": [
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    "bounce": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "Walk_Back": {
+    "source": "rear_walk",
+    "offset": [
+     2,
+     2
+    ],
+    "layers": [
+     "Body",
+     "Hair"
+    ],
+    "durations_ms": [
+     120,
+     110,
+     110,
+     110,
+     120,
+     110,
+     110,
+     110
+    ],
+    "bounce": [
+     1,
+     2,
+     3,
+     0,
+     1,
+     2,
+     3,
+     0
+    ]
+   }
+  }
+ }
+}

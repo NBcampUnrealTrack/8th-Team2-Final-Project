@@ -1,0 +1,14 @@
+{
+  "status": "finished",
+  "assets": [
+    "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/Textures/Normal.Normal",
+    "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/Textures/Color.Color",
+    "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/Textures/tripo_image_f79424fa_2-tripo_image_f79424fa_1.tripo_image_f79424fa_2-tripo_image_f79424fa_1",
+    "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/Textures/CH_GormRoof_Color_v002.CH_GormRoof_Color_v002",
+    "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/Materials/tripo_mat_f79424fa.tripo_mat_f79424fa",
+    "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/Materials/CH_GormP2_Repaired_v002_RoofMaterial.CH_GormP2_Repaired_v002_RoofMaterial",
+    "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/StaticMeshes/CH_GormP2_Clean_v006.CH_GormP2_Clean_v006"
+  ],
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Export\\CH_GormP2_Clean_v006.glb",
+  "destination": "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006"
+}

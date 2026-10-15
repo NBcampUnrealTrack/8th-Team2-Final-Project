@@ -1,0 +1,3851 @@
+{
+  "material": {
+    "blend_mode": "BLEND_Opaque",
+    "shading_model": "MSM_DefaultLit",
+    "two_sided": false
+  },
+  "expressions": [
+    {
+      "id": "MaterialExpressionScalarParameter_0000025793B4DC00",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2600,
+      "pos_y": -1600,
+      "properties": {
+        "DefaultValue": "1200.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "TileCm_Grass",
+      "group": "Tiling",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_0000025793B4F640",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2600,
+      "pos_y": -1480,
+      "properties": {
+        "DefaultValue": "1200.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "TileCm_Dirt",
+      "group": "Tiling",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_0000025793B471C0",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2600,
+      "pos_y": -1360,
+      "properties": {
+        "DefaultValue": "1000.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "TileCm_Cobblestone",
+      "group": "Tiling",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_0000025793B4B680",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2600,
+      "pos_y": -1240,
+      "properties": {
+        "DefaultValue": "1400.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "TileCm_Moss",
+      "group": "Tiling",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_0000025793B4B7C0",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2600,
+      "pos_y": -1120,
+      "properties": {
+        "DefaultValue": "800.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "TileCm_Cliff",
+      "group": "Tiling",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_0000025793B4E880",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2600,
+      "pos_y": -1000,
+      "properties": {
+        "DefaultValue": "6000.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "TileCm_Macro",
+      "group": "Tiling",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_0000025793B48C00",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2600,
+      "pos_y": -880,
+      "properties": {
+        "DefaultValue": "500.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "TileCm_EdgeNoise",
+      "group": "Tiling",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_0000025793B48D40",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2600,
+      "pos_y": -760,
+      "properties": {
+        "DefaultValue": "0.350000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "EdgeNoise_Amount",
+      "group": "Blend",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_0000025793B44380",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2600,
+      "pos_y": -640,
+      "properties": {
+        "DefaultValue": "0.350000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "MacroVariation_Amount",
+      "group": "Blend",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_0000025793B4C6C0",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2600,
+      "pos_y": -520,
+      "properties": {
+        "DefaultValue": "0.550000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "CliffSlopeStart",
+      "group": "Blend",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_0000025793B4D480",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2600,
+      "pos_y": -400,
+      "properties": {
+        "DefaultValue": "0.750000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "CliffSlopeEnd",
+      "group": "Blend",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_0000025793B4B900",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2600,
+      "pos_y": -280,
+      "properties": {
+        "DefaultValue": "1.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "RoughnessMul",
+      "group": "Surface",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_000002569C99AC80",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 0,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_BC.T_Grass_Meadow_Pixel_BC'",
+        "SamplerType": "SAMPLERTYPE_Color",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Grass_BC",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_000002569C996400",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 220,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_N.T_Grass_Meadow_Pixel_N'",
+        "SamplerType": "SAMPLERTYPE_Normal",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Grass_N",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_000002569C991B80",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 440,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_ORM.T_Grass_Meadow_Pixel_ORM'",
+        "SamplerType": "SAMPLERTYPE_Masks",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Grass_ORM",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_000002569C992F80",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 900,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_BC.T_Dirt_Path_Pixel_BC'",
+        "SamplerType": "SAMPLERTYPE_Color",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Dirt_BC",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_000002569C995A00",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 1120,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_N.T_Dirt_Path_Pixel_N'",
+        "SamplerType": "SAMPLERTYPE_Normal",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Dirt_N",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_0000025797A21800",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 1340,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_ORM.T_Dirt_Path_Pixel_ORM'",
+        "SamplerType": "SAMPLERTYPE_Masks",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Dirt_ORM",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_0000025797A24E00",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 1560,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_H.T_Dirt_Path_Pixel_H'",
+        "SamplerType": "SAMPLERTYPE_LinearGrayscale",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Dirt_H",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_0000025797A23900",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 1800,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_BC.T_Cobblestone_Pixel_BC'",
+        "SamplerType": "SAMPLERTYPE_Color",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Cobblestone_BC",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_0000025797A22D00",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 2020,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_N.T_Cobblestone_Pixel_N'",
+        "SamplerType": "SAMPLERTYPE_Normal",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Cobblestone_N",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_000002579BE58A00",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 2240,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_ORM.T_Cobblestone_Pixel_ORM'",
+        "SamplerType": "SAMPLERTYPE_Masks",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Cobblestone_ORM",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_000002579BE5BA00",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 2460,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_H.T_Cobblestone_Pixel_H'",
+        "SamplerType": "SAMPLERTYPE_LinearGrayscale",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Cobblestone_H",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_000002579BE51E00",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 2700,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_BC.T_Moss_ForestFloor_Pixel_BC'",
+        "SamplerType": "SAMPLERTYPE_Color",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Moss_BC",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_000002579BE50600",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 2920,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_N.T_Moss_ForestFloor_Pixel_N'",
+        "SamplerType": "SAMPLERTYPE_Normal",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Moss_N",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_000002579BE5D200",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 3140,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_ORM.T_Moss_ForestFloor_Pixel_ORM'",
+        "SamplerType": "SAMPLERTYPE_Masks",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Moss_ORM",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_000002579BE5C900",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 3360,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_H.T_Moss_ForestFloor_Pixel_H'",
+        "SamplerType": "SAMPLERTYPE_LinearGrayscale",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Moss_H",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_00000256A2BC4200",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 3600,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_Derivative",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Cliff_Rock_Pixel_BC.T_Cliff_Rock_Pixel_BC'",
+        "SamplerType": "SAMPLERTYPE_Color",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Cliff_BC",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "DDX(UVs)",
+        "DDY(UVs)",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_0000025792C41B00",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 4100,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_None",
+        "SamplerSource": "SSM_Wrap_WorldGroupSettings",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Macro_Variation_Gray_Pixel_BC.T_Macro_Variation_Gray_Pixel_BC'",
+        "SamplerType": "SAMPLERTYPE_Color",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_Macro",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_000002579BDA7E00",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 4350,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_None",
+        "SamplerSource": "SSM_Wrap_WorldGroupSettings",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_PathEdge_Noise_Gray_Pixel_BC.T_PathEdge_Noise_Gray_Pixel_BC'",
+        "SamplerType": "SAMPLERTYPE_Color",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_EdgeNoise",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_000002579BDAC900",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1000,
+      "pos_y": 4700,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_None",
+        "SamplerSource": "SSM_Wrap_WorldGroupSettings",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_PathEdge_Noise_Gray_Pixel_BC.T_PathEdge_Noise_Gray_Pixel_BC'",
+        "SamplerType": "SAMPLERTYPE_Color",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "Tex_EdgeNoise",
+      "group": "Textures",
+      "inputs": [
+        "Coordinates",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionWorldPosition_000002569A399760",
+      "class": "WorldPosition",
+      "class_full": "MaterialExpressionWorldPosition",
+      "pos_x": -2300,
+      "pos_y": 200,
+      "properties": {
+        "WorldPositionShaderOffset": "WPT_Default"
+      },
+      "inputs": [],
+      "outputs": [
+        "XYZ",
+        "XY",
+        "Z"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVertexNormalWS_000002569A396C80",
+      "class": "VertexNormalWS",
+      "class_full": "MaterialExpressionVertexNormalWS",
+      "pos_x": -2300,
+      "pos_y": 5000,
+      "properties": {},
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionComponentMask_000002585537B000",
+      "class": "ComponentMask",
+      "class_full": "MaterialExpressionComponentMask",
+      "pos_x": -2050,
+      "pos_y": 200,
+      "properties": {
+        "R": "True",
+        "G": "True",
+        "B": "False",
+        "A": "False"
+      },
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionComponentMask_000002585537EC00",
+      "class": "ComponentMask",
+      "class_full": "MaterialExpressionComponentMask",
+      "pos_x": -2050,
+      "pos_y": 3500,
+      "properties": {
+        "R": "True",
+        "G": "False",
+        "B": "False",
+        "A": "False"
+      },
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionComponentMask_0000025855370500",
+      "class": "ComponentMask",
+      "class_full": "MaterialExpressionComponentMask",
+      "pos_x": -2050,
+      "pos_y": 3650,
+      "properties": {
+        "R": "False",
+        "G": "True",
+        "B": "False",
+        "A": "False"
+      },
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionComponentMask_0000025855372F00",
+      "class": "ComponentMask",
+      "class_full": "MaterialExpressionComponentMask",
+      "pos_x": -2050,
+      "pos_y": 3800,
+      "properties": {
+        "R": "False",
+        "G": "False",
+        "B": "True",
+        "A": "False"
+      },
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionComponentMask_0000025855378100",
+      "class": "ComponentMask",
+      "class_full": "MaterialExpressionComponentMask",
+      "pos_x": -2050,
+      "pos_y": 5000,
+      "properties": {
+        "R": "False",
+        "G": "False",
+        "B": "True",
+        "A": "False"
+      },
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDivide_0000025793B4E9C0",
+      "class": "Divide",
+      "class_full": "MaterialExpressionDivide",
+      "pos_x": -1500,
+      "pos_y": 0,
+      "properties": {
+        "ConstA": "1.000000",
+        "ConstB": "2.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDivide_0000025793B49B00",
+      "class": "Divide",
+      "class_full": "MaterialExpressionDivide",
+      "pos_x": -1500,
+      "pos_y": 900,
+      "properties": {
+        "ConstA": "1.000000",
+        "ConstB": "2.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDivide_0000025793B47080",
+      "class": "Divide",
+      "class_full": "MaterialExpressionDivide",
+      "pos_x": -1500,
+      "pos_y": 1800,
+      "properties": {
+        "ConstA": "1.000000",
+        "ConstB": "2.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDivide_0000025793B46180",
+      "class": "Divide",
+      "class_full": "MaterialExpressionDivide",
+      "pos_x": -1500,
+      "pos_y": 2700,
+      "properties": {
+        "ConstA": "1.000000",
+        "ConstB": "2.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionAdd_0000025793B42300",
+      "class": "Add",
+      "class_full": "MaterialExpressionAdd",
+      "pos_x": -1850,
+      "pos_y": 3550,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionAppendVector_0000025793B4F500",
+      "class": "AppendVector",
+      "class_full": "MaterialExpressionAppendVector",
+      "pos_x": -1700,
+      "pos_y": 3650,
+      "properties": {},
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDivide_0000025793B499C0",
+      "class": "Divide",
+      "class_full": "MaterialExpressionDivide",
+      "pos_x": -1500,
+      "pos_y": 3650,
+      "properties": {
+        "ConstA": "1.000000",
+        "ConstB": "2.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDivide_0000025793B4EC40",
+      "class": "Divide",
+      "class_full": "MaterialExpressionDivide",
+      "pos_x": -1500,
+      "pos_y": 4100,
+      "properties": {
+        "ConstA": "1.000000",
+        "ConstB": "2.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_0000025793B49D80",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -1700,
+      "pos_y": 4350,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "0.370000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDivide_0000025793B47800",
+      "class": "Divide",
+      "class_full": "MaterialExpressionDivide",
+      "pos_x": -1500,
+      "pos_y": 4350,
+      "properties": {
+        "ConstA": "1.000000",
+        "ConstB": "2.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDivide_00000257363B6180",
+      "class": "Divide",
+      "class_full": "MaterialExpressionDivide",
+      "pos_x": -1500,
+      "pos_y": 4700,
+      "properties": {
+        "ConstA": "1.000000",
+        "ConstB": "2.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionPower_00000257BDA19100",
+      "class": "Power",
+      "class_full": "MaterialExpressionPower",
+      "pos_x": -700,
+      "pos_y": 4700,
+      "properties": {
+        "ConstExponent": "0.454500"
+      },
+      "inputs": [
+        "Base",
+        "Exponent"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionSubtract_00000257BDA1A8C0",
+      "class": "Subtract",
+      "class_full": "MaterialExpressionSubtract",
+      "pos_x": -550,
+      "pos_y": 4700,
+      "properties": {
+        "ConstA": "1.000000",
+        "ConstB": "0.500000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000257BDA176C0",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -400,
+      "pos_y": 4700,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionAdd_00000257BDA18200",
+      "class": "Add",
+      "class_full": "MaterialExpressionAdd",
+      "pos_x": -700,
+      "pos_y": 1560,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionAdd_00000257BDA1AB40",
+      "class": "Add",
+      "class_full": "MaterialExpressionAdd",
+      "pos_x": -700,
+      "pos_y": 2460,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionAdd_00000257BDA1E880",
+      "class": "Add",
+      "class_full": "MaterialExpressionAdd",
+      "pos_x": -700,
+      "pos_y": 3360,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000257BDA1A000",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -700,
+      "pos_y": 4200,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionPower_00000257BDA1CF80",
+      "class": "Power",
+      "class_full": "MaterialExpressionPower",
+      "pos_x": -550,
+      "pos_y": 4200,
+      "properties": {
+        "ConstExponent": "0.454500"
+      },
+      "inputs": [
+        "Base",
+        "Exponent"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000257BDA1EB00",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -400,
+      "pos_y": 4200,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "4.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionLinearInterpolate_00000257705C7C80",
+      "class": "LinearInterpolate",
+      "class_full": "MaterialExpressionLinearInterpolate",
+      "pos_x": -250,
+      "pos_y": 4200,
+      "properties": {
+        "ConstA": "1.000000",
+        "ConstB": "1.000000",
+        "ConstAlpha": "0.500000"
+      },
+      "inputs": [
+        "A",
+        "B",
+        "Alpha"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000257BDA1BF40",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": 200,
+      "pos_y": 0,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionOneMinus_000002585537DB00",
+      "class": "OneMinus",
+      "class_full": "MaterialExpressionOneMinus",
+      "pos_x": -1850,
+      "pos_y": 5000,
+      "properties": {},
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionSmoothStep_00000257705CFD80",
+      "class": "SmoothStep",
+      "class_full": "MaterialExpressionSmoothStep",
+      "pos_x": -1650,
+      "pos_y": 5000,
+      "properties": {
+        "ConstMin": "0.000000",
+        "ConstMax": "1.000000",
+        "ConstValue": "0.000000"
+      },
+      "inputs": [
+        "Min",
+        "Max",
+        "Value"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionLinearInterpolate_00000257705C6600",
+      "class": "LinearInterpolate",
+      "class_full": "MaterialExpressionLinearInterpolate",
+      "pos_x": 500,
+      "pos_y": 0,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000",
+        "ConstAlpha": "0.500000"
+      },
+      "inputs": [
+        "A",
+        "B",
+        "Alpha"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionComponentMask_000002585537FE00",
+      "class": "ComponentMask",
+      "class_full": "MaterialExpressionComponentMask",
+      "pos_x": 200,
+      "pos_y": 600,
+      "properties": {
+        "R": "False",
+        "G": "True",
+        "B": "False",
+        "A": "False"
+      },
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000257BDA1C6C0",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": 400,
+      "pos_y": 600,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionLinearInterpolate_00000257705C5E80",
+      "class": "LinearInterpolate",
+      "class_full": "MaterialExpressionLinearInterpolate",
+      "pos_x": 600,
+      "pos_y": 600,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "0.900000",
+        "ConstAlpha": "0.500000"
+      },
+      "inputs": [
+        "A",
+        "B",
+        "Alpha"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionComponentMask_0000025855373C00",
+      "class": "ComponentMask",
+      "class_full": "MaterialExpressionComponentMask",
+      "pos_x": 200,
+      "pos_y": 800,
+      "properties": {
+        "R": "True",
+        "G": "False",
+        "B": "False",
+        "A": "False"
+      },
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionConstant_000002569A39C160",
+      "class": "Constant",
+      "class_full": "MaterialExpressionConstant",
+      "pos_x": 600,
+      "pos_y": 900,
+      "properties": {
+        "R": "0.000000"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionLandscapeLayerBlend_000002569A394360",
+      "class": "LandscapeLayerBlend",
+      "class_full": "MaterialExpressionLandscapeLayerBlend",
+      "pos_x": -200,
+      "pos_y": -200,
+      "properties": {
+        "Layers": "((LayerName=\"Grass\",LayerInput=(Expression=\"/Script/Engine.MaterialExpressionTextureSampleParameter2D'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionTextureSampleParameter2D_0'\",Mask=1,MaskR=1,MaskG=1,MaskB=1),PreviewWeight=1.000000),(LayerName=\"Dirt\",BlendType=LB_HeightBlend,LayerInput=(Expression=\"/Script/Engine.MaterialExpressionTextureSampleParameter2D'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionTextureSampleParameter2D_3'\",Mask=1,MaskR=1,MaskG=1,MaskB=1),HeightInput=(Expression=\"/Script/Engine.MaterialExpressionAdd'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionAdd_1'\")),(LayerName=\"Cobblestone\",BlendType=LB_HeightBlend,LayerInput=(Expression=\"/Script/Engine.MaterialExpressionTextureSampleParameter2D'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionTextureSampleParameter2D_7'\",Mask=1,MaskR=1,MaskG=1,MaskB=1),HeightInput=(Expression=\"/Script/Engine.MaterialExpressionAdd'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionAdd_2'\")),(LayerName=\"Moss\",BlendType=LB_HeightBlend,LayerInput=(Expression=\"/Script/Engine.MaterialExpressionTextureSampleParameter2D'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionTextureSampleParameter2D_11'\",Mask=1,MaskR=1,MaskG=1,MaskB=1),HeightInput=(Expression=\"/Script/Engine.MaterialExpressionAdd'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionAdd_3'\")))"
+      },
+      "landscape_layers": [
+        {
+          "layer_name": "Grass",
+          "blend_type": "LB_WeightBlend",
+          "preview_weight": 1
+        },
+        {
+          "layer_name": "Dirt",
+          "blend_type": "LB_HeightBlend",
+          "preview_weight": 0
+        },
+        {
+          "layer_name": "Cobblestone",
+          "blend_type": "LB_HeightBlend",
+          "preview_weight": 0
+        },
+        {
+          "layer_name": "Moss",
+          "blend_type": "LB_HeightBlend",
+          "preview_weight": 0
+        }
+      ],
+      "inputs": [
+        "Layer Grass",
+        "Layer Dirt",
+        "Height Dirt",
+        "Layer Cobblestone",
+        "Height Cobblestone",
+        "Layer Moss",
+        "Height Moss"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionLandscapeLayerBlend_000002569A39CF60",
+      "class": "LandscapeLayerBlend",
+      "class_full": "MaterialExpressionLandscapeLayerBlend",
+      "pos_x": -200,
+      "pos_y": 200,
+      "properties": {
+        "Layers": "((LayerName=\"Grass\",LayerInput=(Expression=\"/Script/Engine.MaterialExpressionTextureSampleParameter2D'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionTextureSampleParameter2D_1'\",Mask=1,MaskR=1,MaskG=1,MaskB=1),PreviewWeight=1.000000),(LayerName=\"Dirt\",BlendType=LB_HeightBlend,LayerInput=(Expression=\"/Script/Engine.MaterialExpressionTextureSampleParameter2D'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionTextureSampleParameter2D_4'\",Mask=1,MaskR=1,MaskG=1,MaskB=1),HeightInput=(Expression=\"/Script/Engine.MaterialExpressionAdd'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionAdd_1'\")),(LayerName=\"Cobblestone\",BlendType=LB_HeightBlend,LayerInput=(Expression=\"/Script/Engine.MaterialExpressionTextureSampleParameter2D'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionTextureSampleParameter2D_8'\",Mask=1,MaskR=1,MaskG=1,MaskB=1),HeightInput=(Expression=\"/Script/Engine.MaterialExpressionAdd'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionAdd_2'\")),(LayerName=\"Moss\",BlendType=LB_HeightBlend,LayerInput=(Expression=\"/Script/Engine.MaterialExpressionTextureSampleParameter2D'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionTextureSampleParameter2D_12'\",Mask=1,MaskR=1,MaskG=1,MaskB=1),HeightInput=(Expression=\"/Script/Engine.MaterialExpressionAdd'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionAdd_3'\")))"
+      },
+      "landscape_layers": [
+        {
+          "layer_name": "Grass",
+          "blend_type": "LB_WeightBlend",
+          "preview_weight": 1
+        },
+        {
+          "layer_name": "Dirt",
+          "blend_type": "LB_HeightBlend",
+          "preview_weight": 0
+        },
+        {
+          "layer_name": "Cobblestone",
+          "blend_type": "LB_HeightBlend",
+          "preview_weight": 0
+        },
+        {
+          "layer_name": "Moss",
+          "blend_type": "LB_HeightBlend",
+          "preview_weight": 0
+        }
+      ],
+      "inputs": [
+        "Layer Grass",
+        "Layer Dirt",
+        "Height Dirt",
+        "Layer Cobblestone",
+        "Height Cobblestone",
+        "Layer Moss",
+        "Height Moss"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionLandscapeLayerBlend_000002569A399AE0",
+      "class": "LandscapeLayerBlend",
+      "class_full": "MaterialExpressionLandscapeLayerBlend",
+      "pos_x": -200,
+      "pos_y": 600,
+      "properties": {
+        "Layers": "((LayerName=\"Grass\",LayerInput=(Expression=\"/Script/Engine.MaterialExpressionTextureSampleParameter2D'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionTextureSampleParameter2D_2'\",Mask=1,MaskR=1,MaskG=1,MaskB=1),PreviewWeight=1.000000),(LayerName=\"Dirt\",BlendType=LB_HeightBlend,LayerInput=(Expression=\"/Script/Engine.MaterialExpressionTextureSampleParameter2D'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionTextureSampleParameter2D_5'\",Mask=1,MaskR=1,MaskG=1,MaskB=1),HeightInput=(Expression=\"/Script/Engine.MaterialExpressionAdd'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionAdd_1'\")),(LayerName=\"Cobblestone\",BlendType=LB_HeightBlend,LayerInput=(Expression=\"/Script/Engine.MaterialExpressionTextureSampleParameter2D'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionTextureSampleParameter2D_9'\",Mask=1,MaskR=1,MaskG=1,MaskB=1),HeightInput=(Expression=\"/Script/Engine.MaterialExpressionAdd'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionAdd_2'\")),(LayerName=\"Moss\",BlendType=LB_HeightBlend,LayerInput=(Expression=\"/Script/Engine.MaterialExpressionTextureSampleParameter2D'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionTextureSampleParameter2D_13'\",Mask=1,MaskR=1,MaskG=1,MaskB=1),HeightInput=(Expression=\"/Script/Engine.MaterialExpressionAdd'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionAdd_3'\")))"
+      },
+      "landscape_layers": [
+        {
+          "layer_name": "Grass",
+          "blend_type": "LB_WeightBlend",
+          "preview_weight": 1
+        },
+        {
+          "layer_name": "Dirt",
+          "blend_type": "LB_HeightBlend",
+          "preview_weight": 0
+        },
+        {
+          "layer_name": "Cobblestone",
+          "blend_type": "LB_HeightBlend",
+          "preview_weight": 0
+        },
+        {
+          "layer_name": "Moss",
+          "blend_type": "LB_HeightBlend",
+          "preview_weight": 0
+        }
+      ],
+      "inputs": [
+        "Layer Grass",
+        "Layer Dirt",
+        "Height Dirt",
+        "Layer Cobblestone",
+        "Height Cobblestone",
+        "Layer Moss",
+        "Height Moss"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000257A8C4DFC0",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": 800,
+      "pos_y": -250,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionConstant_000002569A397C40",
+      "class": "Constant",
+      "class_full": "MaterialExpressionConstant",
+      "pos_x": 650,
+      "pos_y": -450,
+      "properties": {
+        "R": "1.000000"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMaterialFunctionCall_0000025791C1C1C0",
+      "class": "MaterialFunctionCall",
+      "class_full": "MaterialExpressionMaterialFunctionCall",
+      "pos_x": 1350,
+      "pos_y": -200,
+      "properties": {
+        "MaterialFunction": "/Script/Engine.MaterialFunction'/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color'"
+      },
+      "function_path": "/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color",
+      "inputs": [
+        "SourceColor (V3)",
+        "Saturation (S)",
+        "Contrast (S)",
+        "PaletteSteps (S)",
+        "PosterizeStrength (S)",
+        "ShadowLift (S)",
+        "GlobalTint (V3)",
+        "Strength (S)"
+      ],
+      "outputs": [
+        "StyledColor"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_0000025791C12940",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 50,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "Saturation",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000257BC7ADAC0",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 170,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "Contrast",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_0000025791C1BF40",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 290,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "PaletteSteps",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000257BC7A6CC0",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 410,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "PosterizeStrength",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_000002575E8A8C00",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 530,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "ShadowLift",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000257BC7AA280",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 650,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "GlobalTint",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_0000025791C19240",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 450,
+      "pos_y": -400,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "StyleStrength",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_000002575E8AD980",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": 450,
+      "pos_y": -540,
+      "properties": {
+        "DefaultValue": "1.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "StyleInfluence",
+      "group": "Per Material",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_0000025853890B40",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": 1000,
+      "pos_y": -380,
+      "properties": {
+        "Code": "return saturate(Global*Local);",
+        "OutputType": "CMOT_Float1",
+        "Description": "Custom",
+        "Inputs": "((InputName=\"Global\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_6'\")),(InputName=\"Local\",Input=(Expression=\"/Script/Engine.MaterialExpressionScalarParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionScalarParameter_12'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "return saturate(Global*Local);",
+      "output_type": "CMOT_Float1",
+      "custom_input_names": "Global,Local",
+      "inputs": [
+        "Global",
+        "Local"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000257BC7AE4C0",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 800,
+      "pos_y": 1650,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "NormalStrength",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_00000257705C7B00",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": 1300,
+      "pos_y": 1650,
+      "properties": {
+        "Code": "return normalize(float3(N.xy*max(0.,Strength),max(.001,N.z)));",
+        "OutputType": "CMOT_Float3",
+        "Description": "Custom",
+        "Inputs": "((InputName=\"N\",Input=(Expression=\"/Script/Landscape.MaterialExpressionLandscapeLayerBlend'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionLandscapeLayerBlend_1'\")),(InputName=\"Strength\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_7'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "return normalize(float3(N.xy*max(0.,Strength),max(.001,N.z)));",
+      "output_type": "CMOT_Float3",
+      "custom_input_names": "N,Strength",
+      "inputs": [
+        "N",
+        "Strength"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000257BDA1C080",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 800,
+      "pos_y": 1900,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "RoughnessBias",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_000002575E017680",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": 1300,
+      "pos_y": 1900,
+      "properties": {
+        "Code": "return clamp(R+Bias,.04,1.);",
+        "OutputType": "CMOT_Float1",
+        "Description": "Custom",
+        "Inputs": "((InputName=\"R\",Input=(Expression=\"/Script/Engine.MaterialExpressionLinearInterpolate'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionLinearInterpolate_2'\")),(InputName=\"Bias\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_8'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "return clamp(R+Bias,.04,1.);",
+      "output_type": "CMOT_Float1",
+      "custom_input_names": "R,Bias",
+      "inputs": [
+        "R",
+        "Bias"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000257BC7AB680",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": -3100,
+      "pos_y": 2500,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "WorldPixelSizeCm",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000256809A5C80",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": -3100,
+      "pos_y": 2700,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "TextureDensity",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_0000025764927440",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": -3100,
+      "pos_y": 2900,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "PixelBlend",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000255CA25F140",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": -3100,
+      "pos_y": 3100,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "StyleStrength",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_0000025791C1DE80",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -2800,
+      "pos_y": 2900,
+      "properties": {
+        "Code": "return saturate(Global*Strength);",
+        "OutputType": "CMOT_Float1",
+        "Description": "Custom",
+        "Inputs": "((InputName=\"Global\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_11'\")),(InputName=\"Strength\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_12'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "return saturate(Global*Strength);",
+      "output_type": "CMOT_Float1",
+      "custom_input_names": "Global,Strength",
+      "inputs": [
+        "Global",
+        "Strength"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_00000255CA4A0780",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -2400,
+      "pos_y": 2500,
+      "properties": {
+        "Code": "float grid=max(8.,TileCm/max(.25,PixelCm)*max(.0625,Density)); return lerp(UV,(floor(UV*grid)+.5)/grid,Blend);",
+        "OutputType": "CMOT_Float2",
+        "Description": "Custom",
+        "Inputs": "((InputName=\"UV\",Input=(Expression=\"/Script/Engine.MaterialExpressionDivide'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionDivide_0'\")),(InputName=\"TileCm\",Input=(Expression=\"/Script/Engine.MaterialExpressionScalarParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionScalarParameter_0'\")),(InputName=\"PixelCm\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_9'\")),(InputName=\"Density\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_10'\")),(InputName=\"Blend\",Input=(Expression=\"/Script/Engine.MaterialExpressionCustom'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCustom_3'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "float grid=max(8.,TileCm/max(.25,PixelCm)*max(.0625,Density)); return lerp(UV,(floor(UV*grid)+.5)/grid,Blend);",
+      "output_type": "CMOT_Float2",
+      "custom_input_names": "UV,TileCm,PixelCm,Density,Blend",
+      "inputs": [
+        "UV",
+        "TileCm",
+        "PixelCm",
+        "Density",
+        "Blend"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDDX_0000025855379900",
+      "class": "DDX",
+      "class_full": "MaterialExpressionDDX",
+      "pos_x": -2300,
+      "pos_y": 2650,
+      "properties": {},
+      "inputs": [
+        "Value"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDDY_0000025855374F00",
+      "class": "DDY",
+      "class_full": "MaterialExpressionDDY",
+      "pos_x": -2100,
+      "pos_y": 2650,
+      "properties": {},
+      "inputs": [
+        "Value"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_00000255B5F9ADC0",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -2400,
+      "pos_y": 2800,
+      "properties": {
+        "Code": "float grid=max(8.,TileCm/max(.25,PixelCm)*max(.0625,Density)); return lerp(UV,(floor(UV*grid)+.5)/grid,Blend);",
+        "OutputType": "CMOT_Float2",
+        "Description": "Custom",
+        "Inputs": "((InputName=\"UV\",Input=(Expression=\"/Script/Engine.MaterialExpressionDivide'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionDivide_1'\")),(InputName=\"TileCm\",Input=(Expression=\"/Script/Engine.MaterialExpressionScalarParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionScalarParameter_1'\")),(InputName=\"PixelCm\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_9'\")),(InputName=\"Density\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_10'\")),(InputName=\"Blend\",Input=(Expression=\"/Script/Engine.MaterialExpressionCustom'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCustom_3'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "float grid=max(8.,TileCm/max(.25,PixelCm)*max(.0625,Density)); return lerp(UV,(floor(UV*grid)+.5)/grid,Blend);",
+      "output_type": "CMOT_Float2",
+      "custom_input_names": "UV,TileCm,PixelCm,Density,Blend",
+      "inputs": [
+        "UV",
+        "TileCm",
+        "PixelCm",
+        "Density",
+        "Blend"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDDX_0000025855375400",
+      "class": "DDX",
+      "class_full": "MaterialExpressionDDX",
+      "pos_x": -2300,
+      "pos_y": 2950,
+      "properties": {},
+      "inputs": [
+        "Value"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDDY_000002585537D700",
+      "class": "DDY",
+      "class_full": "MaterialExpressionDDY",
+      "pos_x": -2100,
+      "pos_y": 2950,
+      "properties": {},
+      "inputs": [
+        "Value"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_00000255CA4A2300",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -2400,
+      "pos_y": 3100,
+      "properties": {
+        "Code": "float grid=max(8.,TileCm/max(.25,PixelCm)*max(.0625,Density)); return lerp(UV,(floor(UV*grid)+.5)/grid,Blend);",
+        "OutputType": "CMOT_Float2",
+        "Description": "Custom",
+        "Inputs": "((InputName=\"UV\",Input=(Expression=\"/Script/Engine.MaterialExpressionDivide'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionDivide_2'\")),(InputName=\"TileCm\",Input=(Expression=\"/Script/Engine.MaterialExpressionScalarParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionScalarParameter_2'\")),(InputName=\"PixelCm\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_9'\")),(InputName=\"Density\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_10'\")),(InputName=\"Blend\",Input=(Expression=\"/Script/Engine.MaterialExpressionCustom'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCustom_3'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "float grid=max(8.,TileCm/max(.25,PixelCm)*max(.0625,Density)); return lerp(UV,(floor(UV*grid)+.5)/grid,Blend);",
+      "output_type": "CMOT_Float2",
+      "custom_input_names": "UV,TileCm,PixelCm,Density,Blend",
+      "inputs": [
+        "UV",
+        "TileCm",
+        "PixelCm",
+        "Density",
+        "Blend"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDDX_0000025855370E00",
+      "class": "DDX",
+      "class_full": "MaterialExpressionDDX",
+      "pos_x": -2300,
+      "pos_y": 3250,
+      "properties": {},
+      "inputs": [
+        "Value"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDDY_0000025855377C00",
+      "class": "DDY",
+      "class_full": "MaterialExpressionDDY",
+      "pos_x": -2100,
+      "pos_y": 3250,
+      "properties": {},
+      "inputs": [
+        "Value"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_00000257BDA1ED80",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -2400,
+      "pos_y": 3400,
+      "properties": {
+        "Code": "float grid=max(8.,TileCm/max(.25,PixelCm)*max(.0625,Density)); return lerp(UV,(floor(UV*grid)+.5)/grid,Blend);",
+        "OutputType": "CMOT_Float2",
+        "Description": "Custom",
+        "Inputs": "((InputName=\"UV\",Input=(Expression=\"/Script/Engine.MaterialExpressionDivide'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionDivide_3'\")),(InputName=\"TileCm\",Input=(Expression=\"/Script/Engine.MaterialExpressionScalarParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionScalarParameter_3'\")),(InputName=\"PixelCm\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_9'\")),(InputName=\"Density\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_10'\")),(InputName=\"Blend\",Input=(Expression=\"/Script/Engine.MaterialExpressionCustom'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCustom_3'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "float grid=max(8.,TileCm/max(.25,PixelCm)*max(.0625,Density)); return lerp(UV,(floor(UV*grid)+.5)/grid,Blend);",
+      "output_type": "CMOT_Float2",
+      "custom_input_names": "UV,TileCm,PixelCm,Density,Blend",
+      "inputs": [
+        "UV",
+        "TileCm",
+        "PixelCm",
+        "Density",
+        "Blend"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDDX_000002585537C000",
+      "class": "DDX",
+      "class_full": "MaterialExpressionDDX",
+      "pos_x": -2300,
+      "pos_y": 3550,
+      "properties": {},
+      "inputs": [
+        "Value"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDDY_0000025855377000",
+      "class": "DDY",
+      "class_full": "MaterialExpressionDDY",
+      "pos_x": -2100,
+      "pos_y": 3550,
+      "properties": {},
+      "inputs": [
+        "Value"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_00000256809A71C0",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -2400,
+      "pos_y": 3700,
+      "properties": {
+        "Code": "float grid=max(8.,TileCm/max(.25,PixelCm)*max(.0625,Density)); return lerp(UV,(floor(UV*grid)+.5)/grid,Blend);",
+        "OutputType": "CMOT_Float2",
+        "Description": "Custom",
+        "Inputs": "((InputName=\"UV\",Input=(Expression=\"/Script/Engine.MaterialExpressionDivide'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionDivide_4'\")),(InputName=\"TileCm\",Input=(Expression=\"/Script/Engine.MaterialExpressionScalarParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionScalarParameter_4'\")),(InputName=\"PixelCm\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_9'\")),(InputName=\"Density\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCollectionParameter_10'\")),(InputName=\"Blend\",Input=(Expression=\"/Script/Engine.MaterialExpressionCustom'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.M_LG8_HD2D_Landscape:MaterialExpressionCustom_3'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "float grid=max(8.,TileCm/max(.25,PixelCm)*max(.0625,Density)); return lerp(UV,(floor(UV*grid)+.5)/grid,Blend);",
+      "output_type": "CMOT_Float2",
+      "custom_input_names": "UV,TileCm,PixelCm,Density,Blend",
+      "inputs": [
+        "UV",
+        "TileCm",
+        "PixelCm",
+        "Density",
+        "Blend"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDDX_0000025855370600",
+      "class": "DDX",
+      "class_full": "MaterialExpressionDDX",
+      "pos_x": -2300,
+      "pos_y": 3850,
+      "properties": {},
+      "inputs": [
+        "Value"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDDY_0000025855373E00",
+      "class": "DDY",
+      "class_full": "MaterialExpressionDDY",
+      "pos_x": -2100,
+      "pos_y": 3850,
+      "properties": {},
+      "inputs": [
+        "Value"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_id": "MaterialExpressionCustom_00000255CA4A0780",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C99AC80",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_0000025855379900",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C99AC80",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_0000025855374F00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C99AC80",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000255CA4A0780",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C996400",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_0000025855379900",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C996400",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_0000025855374F00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C996400",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000255CA4A0780",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C991B80",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_0000025855379900",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C991B80",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_0000025855374F00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C991B80",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000255B5F9ADC0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C992F80",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_0000025855375400",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C992F80",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_000002585537D700",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C992F80",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000255B5F9ADC0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C995A00",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_0000025855375400",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C995A00",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_000002585537D700",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002569C995A00",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000255B5F9ADC0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025797A21800",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_0000025855375400",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025797A21800",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_000002585537D700",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025797A21800",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000255B5F9ADC0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025797A24E00",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_0000025855375400",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025797A24E00",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_000002585537D700",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025797A24E00",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000255CA4A2300",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025797A23900",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_0000025855370E00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025797A23900",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_0000025855377C00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025797A23900",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000255CA4A2300",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025797A22D00",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_0000025855370E00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025797A22D00",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_0000025855377C00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025797A22D00",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000255CA4A2300",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE58A00",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_0000025855370E00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE58A00",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_0000025855377C00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE58A00",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000255CA4A2300",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE5BA00",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_0000025855370E00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE5BA00",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_0000025855377C00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE5BA00",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000257BDA1ED80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE51E00",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_000002585537C000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE51E00",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_0000025855377000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE51E00",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000257BDA1ED80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE50600",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_000002585537C000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE50600",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_0000025855377000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE50600",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000257BDA1ED80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE5D200",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_000002585537C000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE5D200",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_0000025855377000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE5D200",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000257BDA1ED80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE5C900",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_000002585537C000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE5C900",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_0000025855377000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BE5C900",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000256809A71C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_00000256A2BC4200",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDDX_0000025855370600",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_00000256A2BC4200",
+      "target_input": "DDX(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDDY_0000025855373E00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_00000256A2BC4200",
+      "target_input": "DDY(UVs)"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B4EC40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025792C41B00",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B47800",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BDA7E00",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_00000257363B6180",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_000002579BDAC900",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionWorldPosition_000002569A399760",
+      "source_output_index": 0,
+      "source_output_name": "XYZ",
+      "target_id": "MaterialExpressionComponentMask_000002585537B000",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionWorldPosition_000002569A399760",
+      "source_output_index": 0,
+      "source_output_name": "XYZ",
+      "target_id": "MaterialExpressionComponentMask_000002585537EC00",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionWorldPosition_000002569A399760",
+      "source_output_index": 0,
+      "source_output_name": "XYZ",
+      "target_id": "MaterialExpressionComponentMask_0000025855370500",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionWorldPosition_000002569A399760",
+      "source_output_index": 0,
+      "source_output_name": "XYZ",
+      "target_id": "MaterialExpressionComponentMask_0000025855372F00",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionVertexNormalWS_000002569A396C80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionComponentMask_0000025855378100",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionComponentMask_000002585537B000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_0000025793B4E9C0",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B4DC00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_0000025793B4E9C0",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionComponentMask_000002585537B000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_0000025793B49B00",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B4F640",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_0000025793B49B00",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionComponentMask_000002585537B000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_0000025793B47080",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B471C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_0000025793B47080",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionComponentMask_000002585537B000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_0000025793B46180",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B4B680",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_0000025793B46180",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionComponentMask_000002585537EC00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionAdd_0000025793B42300",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionComponentMask_0000025855370500",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionAdd_0000025793B42300",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionAdd_0000025793B42300",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionAppendVector_0000025793B4F500",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionComponentMask_0000025855372F00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionAppendVector_0000025793B4F500",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionAppendVector_0000025793B4F500",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_0000025793B499C0",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B4B7C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_0000025793B499C0",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionComponentMask_000002585537B000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_0000025793B4EC40",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B4E880",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_0000025793B4EC40",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B4E880",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_0000025793B49D80",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionComponentMask_000002585537B000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_0000025793B47800",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_0000025793B49D80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_0000025793B47800",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionComponentMask_000002585537B000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_00000257363B6180",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B48C00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_00000257363B6180",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_000002579BDAC900",
+      "source_output_index": 1,
+      "source_output_name": "R",
+      "target_id": "MaterialExpressionPower_00000257BDA19100",
+      "target_input": "Base"
+    },
+    {
+      "source_id": "MaterialExpressionPower_00000257BDA19100",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionSubtract_00000257BDA1A8C0",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionSubtract_00000257BDA1A8C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000257BDA176C0",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B48D40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000257BDA176C0",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_0000025797A24E00",
+      "source_output_index": 1,
+      "source_output_name": "R",
+      "target_id": "MaterialExpressionAdd_00000257BDA18200",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000257BDA176C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionAdd_00000257BDA18200",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_000002579BE5BA00",
+      "source_output_index": 1,
+      "source_output_name": "R",
+      "target_id": "MaterialExpressionAdd_00000257BDA1AB40",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000257BDA176C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionAdd_00000257BDA1AB40",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_000002579BE5C900",
+      "source_output_index": 1,
+      "source_output_name": "R",
+      "target_id": "MaterialExpressionAdd_00000257BDA1E880",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000257BDA176C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionAdd_00000257BDA1E880",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_0000025792C41B00",
+      "source_output_index": 1,
+      "source_output_name": "R",
+      "target_id": "MaterialExpressionMultiply_00000257BDA1A000",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_000002579BDA7E00",
+      "source_output_index": 1,
+      "source_output_name": "R",
+      "target_id": "MaterialExpressionMultiply_00000257BDA1A000",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000257BDA1A000",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionPower_00000257BDA1CF80",
+      "target_input": "Base"
+    },
+    {
+      "source_id": "MaterialExpressionPower_00000257BDA1CF80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000257BDA1EB00",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000257BDA1EB00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_00000257705C7C80",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B44380",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_00000257705C7C80",
+      "target_input": "Alpha"
+    },
+    {
+      "source_id": "MaterialExpressionLandscapeLayerBlend_000002569A394360",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000257BDA1BF40",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionLinearInterpolate_00000257705C7C80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000257BDA1BF40",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionComponentMask_0000025855378100",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionOneMinus_000002585537DB00",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B4C6C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionSmoothStep_00000257705CFD80",
+      "target_input": "Min"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B4D480",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionSmoothStep_00000257705CFD80",
+      "target_input": "Max"
+    },
+    {
+      "source_id": "MaterialExpressionOneMinus_000002585537DB00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionSmoothStep_00000257705CFD80",
+      "target_input": "Value"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000257BDA1BF40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_00000257705C6600",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_00000256A2BC4200",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLinearInterpolate_00000257705C6600",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionSmoothStep_00000257705CFD80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_00000257705C6600",
+      "target_input": "Alpha"
+    },
+    {
+      "source_id": "MaterialExpressionLandscapeLayerBlend_000002569A399AE0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionComponentMask_000002585537FE00",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionComponentMask_000002585537FE00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000257BDA1C6C0",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B4B900",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000257BDA1C6C0",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000257BDA1C6C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_00000257705C5E80",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionSmoothStep_00000257705CFD80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_00000257705C5E80",
+      "target_input": "Alpha"
+    },
+    {
+      "source_id": "MaterialExpressionLandscapeLayerBlend_000002569A399AE0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionComponentMask_0000025855373C00",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_000002569C99AC80",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A394360",
+      "target_input": "Layer Grass",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Layer",
+      "layer_name": "Grass"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_000002569C992F80",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A394360",
+      "target_input": "Layer Dirt",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Layer",
+      "layer_name": "Dirt"
+    },
+    {
+      "source_id": "MaterialExpressionAdd_00000257BDA18200",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A394360",
+      "target_input": "Height Dirt",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Height",
+      "layer_name": "Dirt"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_0000025797A23900",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A394360",
+      "target_input": "Layer Cobblestone",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Layer",
+      "layer_name": "Cobblestone"
+    },
+    {
+      "source_id": "MaterialExpressionAdd_00000257BDA1AB40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A394360",
+      "target_input": "Height Cobblestone",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Height",
+      "layer_name": "Cobblestone"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_000002579BE51E00",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A394360",
+      "target_input": "Layer Moss",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Layer",
+      "layer_name": "Moss"
+    },
+    {
+      "source_id": "MaterialExpressionAdd_00000257BDA1E880",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A394360",
+      "target_input": "Height Moss",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Height",
+      "layer_name": "Moss"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_000002569C996400",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A39CF60",
+      "target_input": "Layer Grass",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Layer",
+      "layer_name": "Grass"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_000002569C995A00",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A39CF60",
+      "target_input": "Layer Dirt",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Layer",
+      "layer_name": "Dirt"
+    },
+    {
+      "source_id": "MaterialExpressionAdd_00000257BDA18200",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A39CF60",
+      "target_input": "Height Dirt",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Height",
+      "layer_name": "Dirt"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_0000025797A22D00",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A39CF60",
+      "target_input": "Layer Cobblestone",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Layer",
+      "layer_name": "Cobblestone"
+    },
+    {
+      "source_id": "MaterialExpressionAdd_00000257BDA1AB40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A39CF60",
+      "target_input": "Height Cobblestone",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Height",
+      "layer_name": "Cobblestone"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_000002579BE50600",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A39CF60",
+      "target_input": "Layer Moss",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Layer",
+      "layer_name": "Moss"
+    },
+    {
+      "source_id": "MaterialExpressionAdd_00000257BDA1E880",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A39CF60",
+      "target_input": "Height Moss",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Height",
+      "layer_name": "Moss"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_000002569C991B80",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A399AE0",
+      "target_input": "Layer Grass",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Layer",
+      "layer_name": "Grass"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_0000025797A21800",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A399AE0",
+      "target_input": "Layer Dirt",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Layer",
+      "layer_name": "Dirt"
+    },
+    {
+      "source_id": "MaterialExpressionAdd_00000257BDA18200",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A399AE0",
+      "target_input": "Height Dirt",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Height",
+      "layer_name": "Dirt"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_000002579BE58A00",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A399AE0",
+      "target_input": "Layer Cobblestone",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Layer",
+      "layer_name": "Cobblestone"
+    },
+    {
+      "source_id": "MaterialExpressionAdd_00000257BDA1AB40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A399AE0",
+      "target_input": "Height Cobblestone",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Height",
+      "layer_name": "Cobblestone"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_000002579BE5D200",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A399AE0",
+      "target_input": "Layer Moss",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Layer",
+      "layer_name": "Moss"
+    },
+    {
+      "source_id": "MaterialExpressionAdd_00000257BDA1E880",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLandscapeLayerBlend_000002569A399AE0",
+      "target_input": "Height Moss",
+      "is_layer_blend_input": true,
+      "layer_input_type": "Height",
+      "layer_name": "Moss"
+    },
+    {
+      "source_id": "MaterialExpressionLinearInterpolate_00000257705C6600",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000257A8C4DFC0",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionConstant_000002569A397C40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000257A8C4DFC0",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000257A8C4DFC0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_0000025791C1C1C0",
+      "target_input": "SourceColor (V3)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_0000025791C12940",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_0000025791C1C1C0",
+      "target_input": "Saturation (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000257BC7ADAC0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_0000025791C1C1C0",
+      "target_input": "Contrast (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_0000025791C1BF40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_0000025791C1C1C0",
+      "target_input": "PaletteSteps (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000257BC7A6CC0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_0000025791C1C1C0",
+      "target_input": "PosterizeStrength (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_000002575E8A8C00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_0000025791C1C1C0",
+      "target_input": "ShadowLift (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000257BC7AA280",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_0000025791C1C1C0",
+      "target_input": "GlobalTint (V3)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_0000025853890B40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_0000025791C1C1C0",
+      "target_input": "Strength (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_0000025791C19240",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_0000025853890B40",
+      "target_input": "Global"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_000002575E8AD980",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_0000025853890B40",
+      "target_input": "Local"
+    },
+    {
+      "source_id": "MaterialExpressionLandscapeLayerBlend_000002569A39CF60",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257705C7B00",
+      "target_input": "N"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000257BC7AE4C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257705C7B00",
+      "target_input": "Strength"
+    },
+    {
+      "source_id": "MaterialExpressionLinearInterpolate_00000257705C5E80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_000002575E017680",
+      "target_input": "R"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000257BDA1C080",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_000002575E017680",
+      "target_input": "Bias"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_0000025764927440",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_0000025791C1DE80",
+      "target_input": "Global"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000255CA25F140",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_0000025791C1DE80",
+      "target_input": "Strength"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B4E9C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255CA4A0780",
+      "target_input": "UV"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B4DC00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255CA4A0780",
+      "target_input": "TileCm"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000257BC7AB680",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255CA4A0780",
+      "target_input": "PixelCm"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A5C80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255CA4A0780",
+      "target_input": "Density"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_0000025791C1DE80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255CA4A0780",
+      "target_input": "Blend"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B4E9C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDDX_0000025855379900",
+      "target_input": "Value"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B4E9C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDDY_0000025855374F00",
+      "target_input": "Value"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B49B00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255B5F9ADC0",
+      "target_input": "UV"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B4F640",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255B5F9ADC0",
+      "target_input": "TileCm"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000257BC7AB680",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255B5F9ADC0",
+      "target_input": "PixelCm"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A5C80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255B5F9ADC0",
+      "target_input": "Density"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_0000025791C1DE80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255B5F9ADC0",
+      "target_input": "Blend"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B49B00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDDX_0000025855375400",
+      "target_input": "Value"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B49B00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDDY_000002585537D700",
+      "target_input": "Value"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B47080",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255CA4A2300",
+      "target_input": "UV"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B471C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255CA4A2300",
+      "target_input": "TileCm"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000257BC7AB680",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255CA4A2300",
+      "target_input": "PixelCm"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A5C80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255CA4A2300",
+      "target_input": "Density"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_0000025791C1DE80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000255CA4A2300",
+      "target_input": "Blend"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B47080",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDDX_0000025855370E00",
+      "target_input": "Value"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B47080",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDDY_0000025855377C00",
+      "target_input": "Value"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B46180",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257BDA1ED80",
+      "target_input": "UV"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B4B680",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257BDA1ED80",
+      "target_input": "TileCm"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000257BC7AB680",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257BDA1ED80",
+      "target_input": "PixelCm"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A5C80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257BDA1ED80",
+      "target_input": "Density"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_0000025791C1DE80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000257BDA1ED80",
+      "target_input": "Blend"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B46180",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDDX_000002585537C000",
+      "target_input": "Value"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B46180",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDDY_0000025855377000",
+      "target_input": "Value"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B499C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000256809A71C0",
+      "target_input": "UV"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000025793B4B7C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000256809A71C0",
+      "target_input": "TileCm"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000257BC7AB680",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000256809A71C0",
+      "target_input": "PixelCm"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A5C80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000256809A71C0",
+      "target_input": "Density"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_0000025791C1DE80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000256809A71C0",
+      "target_input": "Blend"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B499C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDDX_0000025855370600",
+      "target_input": "Value"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_0000025793B499C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDDY_0000025855373E00",
+      "target_input": "Value"
+    }
+  ],
+  "output_connections": [
+    {
+      "property": "BaseColor",
+      "expression_id": "MaterialExpressionMaterialFunctionCall_0000025791C1C1C0",
+      "output_index": 0,
+      "output_name": "StyledColor"
+    },
+    {
+      "property": "Metallic",
+      "expression_id": "MaterialExpressionConstant_000002569A39C160",
+      "output_index": 0,
+      "output_name": ""
+    },
+    {
+      "property": "Roughness",
+      "expression_id": "MaterialExpressionCustom_000002575E017680",
+      "output_index": 0,
+      "output_name": ""
+    },
+    {
+      "property": "Normal",
+      "expression_id": "MaterialExpressionCustom_00000257705C7B00",
+      "output_index": 0,
+      "output_name": ""
+    },
+    {
+      "property": "AmbientOcclusion",
+      "expression_id": "MaterialExpressionComponentMask_0000025855373C00",
+      "output_index": 0,
+      "output_name": ""
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source": "/Game/Libregrove/Level_V8/Materials/M_LG8_Waterfall.M_LG8_Waterfall",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Waterfall_89dc5.MI_HD2D_LG8_Waterfall_89dc5",
+  "kind": "Waterfall",
+  "scalars": {},
+  "vectors": {},
+  "textures": {
+    "FlowNoise": "/Game/Village/Textures/Pixel/T_Water_Ripple.T_Water_Ripple"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Fernbrook_TreePolish_V6_20260911\\Preview\\Game_Naia_V6_001.png",
+  "sha256": "fd02934f5880d5c9b3d7e048f58f7ea2453fa505d09abae45669613cbbb65915",
+  "live_camera": {
+    "success": true,
+    "output": "{\"camera\": [-299.99999999999864, -1455.4482671904354, 1122.7183849538278], \"rotation\": [1.4690353290379085e-14, -30.0, 90.0], \"fov\": 38.0, \"pawn\": [-300.0, 190.0, 112.71838495382679], \"capsule_half_height\": 48.0, \"capsule_radius\": 24.0, \"grounded\": true, \"world\": \"/Game/Fernbrook/Entrance_V1/Maps/UEDPIE_0_L_Fernbrook_Entrance.L_Fernbrook_Entrance\"}",
+    "result": "None",
+    "warnings": [],
+    "execution_time_ms": 11.6708984375
+  },
+  "method": "specific player controller HighResShot; actual game view"
+}

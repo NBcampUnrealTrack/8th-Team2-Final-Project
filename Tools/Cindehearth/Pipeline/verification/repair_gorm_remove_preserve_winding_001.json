@@ -1,0 +1,300 @@
+[
+  {
+    "job_id": "gorm_remove_preserve_winding_001",
+    "state": "running"
+  },
+  {
+    "job_id": "gorm_remove_preserve_winding_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\gorm_remove_preserve_winding_001"
+  },
+  {
+    "job_id": "gorm_remove_preserve_winding_001",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "3225b0e56c298ec975199a18c0f895f6ea6a14423f63def418f91ee19092a916",
+      "source": {
+        "object": {
+          "name": "CH_GormP2_Repaired_v002",
+          "type": "MESH",
+          "data_name": "CH_GormP2_Repaired_v002_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            3.0900001525878906,
+            2.700000047683716,
+            2.5999999046325684
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "2e4a787dc322bcb7b796b84c7d9f386d02c843a8f7bad920ba28309669e78c87",
+        "geometry": {
+          "vertices": 1461,
+          "edges": 2522,
+          "polygons": 1123,
+          "triangles": 2114,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 684,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.5134999752044678,
+            -1.350000023841858,
+            -1.1920928955078125e-07
+          ],
+          "local_max": [
+            1.5765000581741333,
+            1.350000023841858,
+            2.5999999046325684
+          ],
+          "world_min": [
+            -1.5134999752044678,
+            -1.350000023841858,
+            -1.1920928955078125e-07
+          ],
+          "world_max": [
+            1.5765000581741333,
+            1.350000023841858,
+            2.5999999046325684
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_f79424fa"
+          },
+          {
+            "slot": 1,
+            "name": "CH_GormP2_Repaired_v002_RoofMaterial"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "f79424fa_dbd0_4137_95c2_3e7a2ff0a14f_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 4360,
+            "bounds_min": [
+              0.0010820861207321286,
+              0.0010808086954057217
+            ],
+            "bounds_max": [
+              0.9989191293716431,
+              0.9896203875541687
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_GormP2_Clean_v006",
+          "type": "MESH",
+          "data_name": "CH_GormP2_Clean_v006_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            3.0900001525878906,
+            2.700000047683716,
+            2.5999999046325684
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "dc842c992dee0b6753e11a11103b6dd0c32a3e4a4e6636726ac2911b4e11c9b0",
+        "geometry": {
+          "vertices": 1365,
+          "edges": 2376,
+          "polygons": 1062,
+          "triangles": 1994,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 634,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.5134999752044678,
+            -1.350000023841858,
+            -1.1920928955078125e-07
+          ],
+          "local_max": [
+            1.5765000581741333,
+            1.350000023841858,
+            2.5999999046325684
+          ],
+          "world_min": [
+            -1.5134999752044678,
+            -1.350000023841858,
+            -1.1920928955078125e-07
+          ],
+          "world_max": [
+            1.5765000581741333,
+            1.350000023841858,
+            2.5999999046325684
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_f79424fa"
+          },
+          {
+            "slot": 1,
+            "name": "CH_GormP2_Repaired_v002_RoofMaterial"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "f79424fa_dbd0_4137_95c2_3e7a2ff0a14f_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 4118,
+            "bounds_min": [
+              0.0010820861207321286,
+              0.0010808086954057217
+            ],
+            "bounds_max": [
+              0.9989191293716431,
+              0.9896203875541687
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "deleted_faces": 61
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Repair\\CH_GormP2_Clean_v006.blend"
+    }
+  }
+]

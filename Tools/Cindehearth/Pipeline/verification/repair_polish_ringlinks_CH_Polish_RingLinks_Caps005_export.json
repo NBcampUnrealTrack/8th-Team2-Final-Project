@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "polish_ringlinks_CH_Polish_RingLinks_Caps005_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_ringlinks_CH_Polish_RingLinks_Caps005_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_ringlinks_CH_Polish_RingLinks_Caps005_export"
+  },
+  {
+    "job_id": "polish_ringlinks_CH_Polish_RingLinks_Caps005_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_ringlinks_CH_Polish_RingLinks_Caps005_export"
+  },
+  {
+    "job_id": "polish_ringlinks_CH_Polish_RingLinks_Caps005_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_RingLinks_Caps005.glb",
+      "format": "glb",
+      "bytes": 4252272,
+      "object_names": [
+        "CH_Polish_RingLinks_Caps005"
+      ],
+      "fingerprints": {
+        "CH_Polish_RingLinks_Caps005": "b9f2f2fd924f377aafb706934ffc2475948205063ccedc71c505367f1f2f2be9"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

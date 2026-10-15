@@ -1,0 +1,15 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Ridge_Game_v003.blend",
+  "object_name": "CH_Polish_Ridge_Game_v003",
+  "expected_fingerprint": "c493e89f5c5812000583e410d20ee7508bb54f472382034693c63c042fc2c74c",
+  "output_object_name": "CH_Polish_Ridge_Stray004",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Ridge_Stray004.blend",
+  "operation": "delete_components",
+  "selection_ids": [
+    62
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "polish_ridge_Stray004"
+}

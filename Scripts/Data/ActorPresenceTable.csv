@@ -1,0 +1,95 @@
+Name,PresenceId,StepOrder,Conditions,ContractedStarterNaiaId,bVisible,SpotId,bOverrideQuestInteraction,QuestActorId,ObjectiveType,Battle,DesignNote,ApproachActorId,bHoverAroundPlayer
+Naia_1010_01_Workshop,Naia_1010,10,(),0,True,Naia1010_Workshop,True,1010,NU.Quest.Objective.TutorialAction,/Game/Developers/zxcv1/Quest/Data/Battles/DA_Quest_10005_1000504.DA_Quest_10005_1000504,Q5 해당 연습을 마칠 때까지 공방에 보인다. 연습 완료 후 숨고 Q8 수락 가능 시 조우지에 다시 등장한다.,None,False
+Naia_1010_015_Hidden,Naia_1010,15,"((QuestId=10005,ObjectiveId=1000504,State=Completed))",0,False,Naia1010_Mistwell,False,0,,None,각 튜토리얼 목표를 완료하면 즉시 숨고 조우지 자리에서 Q8 개방을 기다린다.,None,False
+Naia_1010_02_Mistwell,Naia_1010,20,"((QuestId=10010,ObjectiveId=0,State=AvailableOrInProgress))",0,True,Naia1010_Mistwell,True,12022,NU.Quest.Objective.NaiaCalmed,/Game/Developers/zxcv1/Quest/Data/Battles/DA_Quest_10010.DA_Quest_10010,Q8 의뢰를 수락할 수 있을 때부터 조우지에 보인다. NPC에게 의뢰를 수락한 뒤 기존 목표 조건에 따라 직접 상호작용한다.,None,False
+Naia_1010_03_Jar,Naia_1010,30,"((QuestId=10010,ObjectiveId=1001001,State=Completed))",0,True,Naia1010_Mistwell,True,0,,None,Q8-3 진정 뒤 같은 조우지에 남는다. 물동이 쪽 순간이동은 하지 않는다. 기존 진정 후 맴돌기는 유지한다.,None,True
+Naia_1010_05_Dais,Naia_1010,50,"((QuestId=10014,ObjectiveId=1001404,State=Completed))",0,True,Naia1010_Dais,True,0,,None,Q9 직업을 고른 뒤 전직 단상 둘레에 모인다,None,False
+Naia_1010_06_HiddenAfterQ9,Naia_1010,60,"((QuestId=10014,ObjectiveId=0,State=Completed))",0,False,None,False,0,,None,Q9 계약이 끝나면 단상에서 숨는다. 조우지는 레벨이 없어 돌려보내지 않는다,None,False
+Naia_1010_99_Contracted,Naia_1010,100,(),1010,False,None,False,0,,None,Q9에서 이 나이아와 시작 계약을 맺으면 동행 나이아로 따라다니므로 마을 자리에서는 숨는다,None,False
+Naia_1016_01_Workshop,Naia_1016,10,(),0,True,Naia1016_Workshop,True,1016,NU.Quest.Objective.TutorialAction,/Game/Developers/zxcv1/Quest/Data/Battles/DA_Quest_10005_1000505.DA_Quest_10005_1000505,Q5 해당 연습을 마칠 때까지 공방에 보인다. 연습 완료 후 숨고 Q8 수락 가능 시 조우지에 다시 등장한다.,None,False
+Naia_1016_015_Hidden,Naia_1016,15,"((QuestId=10005,ObjectiveId=1000505,State=Completed))",0,False,Naia1016_Bowridge,False,0,,None,각 튜토리얼 목표를 완료하면 즉시 숨고 조우지 자리에서 Q8 개방을 기다린다.,None,False
+Naia_1016_02_Bowridge,Naia_1016,20,"((QuestId=10012,ObjectiveId=0,State=AvailableOrInProgress))",0,True,Naia1016_Bowridge,True,12024,NU.Quest.Objective.NaiaCalmed,/Game/Developers/zxcv1/Quest/Data/Battles/DA_Quest_10012.DA_Quest_10012,Q8 의뢰를 수락할 수 있을 때부터 조우지에 보인다. NPC에게 의뢰를 수락한 뒤 기존 목표 조건에 따라 직접 상호작용한다.,None,False
+Naia_1016_025_Calmed,Naia_1016,25,"((QuestId=10012,ObjectiveId=1001201,State=Completed))",0,True,Naia1016_Bowridge,False,0,,None,New Q8-5 진정하면 천을 억새 위에 걸어 둔다. 진정한 뒤 사라지지 않고 다가온 플레이어 주변을 맴돈다(기획서 3.1),None,True
+Naia_1016_04_Dais,Naia_1016,40,"((QuestId=10014,ObjectiveId=1001404,State=Completed))",0,True,Naia1016_Dais,True,0,,None,Q9 직업을 고른 뒤 전직 단상 둘레에 모인다,None,False
+Naia_1016_05_HiddenAfterQ9,Naia_1016,50,"((QuestId=10014,ObjectiveId=0,State=Completed))",0,False,None,False,0,,None,Q9 계약이 끝나면 단상에서 숨는다. 조우지는 레벨이 없어 돌려보내지 않는다,None,False
+Naia_1016_99_Contracted,Naia_1016,100,(),1016,False,None,False,0,,None,Q9에서 이 나이아와 시작 계약을 맺으면 동행 나이아로 따라다니므로 마을 자리에서는 숨는다,None,False
+Naia_1004_00_Hidden,Naia_1004,0,(),0,False,None,False,0,,None,조우지 의뢰가 열리는 Q7 완료 전까지 숨긴다(마을 안 임시 조우지가 Q1~Q7에 보이지 않게),None,False
+Naia_1004_01_Encounter,Naia_1004,10,"((QuestId=10008,ObjectiveId=0,State=InProgress))",0,True,Naia1004_Sunhollow,True,12020,NU.Quest.Objective.NaiaCalmed,/Game/Developers/zxcv1/Quest/Data/Battles/DA_Quest_10008.DA_Quest_10008,Q8-1 의뢰를 받은 뒤(진행 중)부터 조우지에 보인다. 받기 전에는 숨긴다,None,False
+Naia_1004_015_Calmed,Naia_1004,15,"((QuestId=10008,ObjectiveId=1000803,State=Completed))",0,True,Naia1004_Sunhollow,False,0,,None,New Q8-1 진정하면 돗자리로 돌아와 물병을 내려놓는다. 진정한 뒤 사라지지 않고 다가온 플레이어 주변을 맴돈다(기획서 3.1),None,True
+Naia_1004_03_Dais,Naia_1004,30,"((QuestId=10014,ObjectiveId=1001404,State=Completed))",0,True,Naia1004_Dais,True,0,,None,Q9 직업을 고른 뒤 전직 단상 둘레에 모인다,None,False
+Naia_1004_04_HiddenAfterQ9,Naia_1004,40,"((QuestId=10014,ObjectiveId=0,State=Completed))",0,False,None,False,0,,None,Q9 계약이 끝나면 단상에서 숨는다. 조우지는 레벨이 없어 돌려보내지 않는다,None,False
+Naia_1004_99_Contracted,Naia_1004,100,(),1004,False,None,False,0,,None,Q9에서 이 나이아와 시작 계약을 맺으면 동행 나이아로 따라다니므로 마을 자리에서는 숨는다,None,False
+Naia_1013_00_Hidden,Naia_1013,0,(),0,False,None,False,0,,None,의뢰를 받고 안 쓴 돌에 다가가기 전까지 땅속에 있어 숨긴다,None,False
+Naia_1013_01_Encounter,Naia_1013,10,"((QuestId=10009,ObjectiveId=0,State=AvailableOrInProgress))",0,True,Naia1013_Rootstair,True,12021,NU.Quest.Objective.NaiaCalmed,/Game/Developers/zxcv1/Quest/Data/Battles/DA_Quest_10009.DA_Quest_10009,Q8 의뢰를 수락할 수 있을 때부터 조우지에 보인다. NPC에게 의뢰를 수락한 뒤 기존 목표 조건에 따라 직접 상호작용한다.,None,False
+Naia_1013_015_Calmed,Naia_1013,15,"((QuestId=10009,ObjectiveId=1000902,State=Completed))",0,True,Naia1013_Rootstair,False,0,,None,New Q8-2 진정한 뒤 사라지지 않고 다가온 플레이어 주변을 맴돈다(기획서 3.1),None,True
+Naia_1013_03_Dais,Naia_1013,30,"((QuestId=10014,ObjectiveId=1001404,State=Completed))",0,True,Naia1013_Dais,True,0,,None,Q9 직업을 고른 뒤 전직 단상 둘레에 모인다,None,False
+Naia_1013_04_HiddenAfterQ9,Naia_1013,40,"((QuestId=10014,ObjectiveId=0,State=Completed))",0,False,None,False,0,,None,Q9 계약이 끝나면 단상에서 숨는다. 조우지는 레벨이 없어 돌려보내지 않는다,None,False
+Naia_1013_99_Contracted,Naia_1013,100,(),1013,False,None,False,0,,None,Q9에서 이 나이아와 시작 계약을 맺으면 동행 나이아로 따라다니므로 마을 자리에서는 숨는다,None,False
+Naia_1007_00_Hidden,Naia_1007,0,(),0,False,None,False,0,,None,의뢰를 받고 숯에 다가가기 전까지 숨긴다,None,False
+Naia_1007_01_Encounter,Naia_1007,10,"((QuestId=10011,ObjectiveId=0,State=AvailableOrInProgress))",0,True,Naia1007_Emberkiln,True,12023,NU.Quest.Objective.NaiaCalmed,/Game/Developers/zxcv1/Quest/Data/Battles/DA_Quest_10011.DA_Quest_10011,Q8 의뢰를 수락할 수 있을 때부터 조우지에 보인다. NPC에게 의뢰를 수락한 뒤 기존 목표 조건에 따라 직접 상호작용한다.,None,False
+Naia_1007_015_Calmed,Naia_1007,15,"((QuestId=10011,ObjectiveId=1001101,State=Completed))",0,True,Naia1007_Emberkiln,False,0,,None,New Q8-4 진정한 뒤 사라지지 않고 다가온 플레이어 주변을 맴돈다(기획서 3.1),None,True
+Naia_1007_03_Dais,Naia_1007,30,"((QuestId=10014,ObjectiveId=1001404,State=Completed))",0,True,Naia1007_Dais,True,0,,None,Q9 직업을 고른 뒤 전직 단상 둘레에 모인다,None,False
+Naia_1007_04_HiddenAfterQ9,Naia_1007,40,"((QuestId=10014,ObjectiveId=0,State=Completed))",0,False,None,False,0,,None,Q9 계약이 끝나면 단상에서 숨는다. 조우지는 레벨이 없어 돌려보내지 않는다,None,False
+Naia_1007_99_Contracted,Naia_1007,100,(),1007,False,None,False,0,,None,Q9에서 이 나이아와 시작 계약을 맺으면 동행 나이아로 따라다니므로 마을 자리에서는 숨는다,None,False
+Naia_1001_00_Hidden,Naia_1001,0,(),0,False,None,False,0,,None,의뢰를 받고 리본에 다가가기 전까지 숨긴다,None,False
+Naia_1001_01_Encounter,Naia_1001,10,"((QuestId=10013,ObjectiveId=0,State=AvailableOrInProgress))",0,True,Naia1001_Rivenwood,True,12025,NU.Quest.Objective.NaiaCalmed,/Game/Developers/zxcv1/Quest/Data/Battles/DA_Quest_10013.DA_Quest_10013,Q8 의뢰를 수락할 수 있을 때부터 조우지에 보인다. NPC에게 의뢰를 수락한 뒤 기존 목표 조건에 따라 직접 상호작용한다.,None,False
+Naia_1001_015_Calmed,Naia_1001,15,"((QuestId=10013,ObjectiveId=1001301,State=Completed))",0,True,Naia1001_Rivenwood,False,0,,None,New Q8-6 진정한 뒤 사라지지 않고 다가온 플레이어 주변을 맴돈다(기획서 3.1),None,True
+Naia_1001_03_Dais,Naia_1001,30,"((QuestId=10014,ObjectiveId=1001404,State=Completed))",0,True,Naia1001_Dais,True,0,,None,Q9 직업을 고른 뒤 전직 단상 둘레에 모인다,None,False
+Naia_1001_04_HiddenAfterQ9,Naia_1001,40,"((QuestId=10014,ObjectiveId=0,State=Completed))",0,False,None,False,0,,None,Q9 계약이 끝나면 단상에서 숨는다. 조우지는 레벨이 없어 돌려보내지 않는다,None,False
+Naia_1001_99_Contracted,Naia_1001,100,(),1001,False,None,False,0,,None,Q9에서 이 나이아와 시작 계약을 맺으면 동행 나이아로 따라다니므로 마을 자리에서는 숨는다,None,False
+WS_10004_ElladonFar_Default,WS_10004_ElladonFar,0,(),0,False,None,False,0,,None,엘라던은 대화용 NPC 한 명만 사용하므로 원경용 복제는 항상 숨긴다,None,False
+WS_10010_MistwellJar_Default,WS_10010_MistwellJar,0,(),0,False,None,False,0,,None,Q8-3 미스트웰 샘가 물동이. 조우지 의뢰가 열리는 Q7 완료 전까지 숨긴다,None,False
+WS_10010_MistwellJar_Show,WS_10010_MistwellJar,10,"((QuestId=10007,ObjectiveId=0,State=Completed))",0,True,None,False,0,,None,Q7 완료 뒤 샘가에 늘 놓인 물동이(레벨 기획 §8 미스트웰 흔적). 진정 전에도 보인다,None,False
+WS_10013_PlazaCrowd_Default,WS_10013_PlazaCrowd,0,(),0,False,None,False,0,,None,여섯 조우지를 마친 뒤 광장에 늘어난 주민·나이아·노점(레벨 기획 4.6),None,False
+WS_10013_PlazaCrowd_Show,WS_10013_PlazaCrowd,10,"((QuestId=10008,ObjectiveId=0,State=Completed),(QuestId=10009,ObjectiveId=0,State=Completed),(QuestId=10010,ObjectiveId=0,State=Completed),(QuestId=10011,ObjectiveId=0,State=Completed),(QuestId=10012,ObjectiveId=0,State=Completed),(QuestId=10013,ObjectiveId=0,State=Completed))",0,True,None,False,0,,None,여섯 조우지를 마친 뒤 광장에 늘어난 주민·나이아·노점(레벨 기획 4.6),None,False
+WS_10017_PortalCourt_Default,WS_10017_PortalCourt,0,(),0,False,None,False,0,,None,Q12 격자문이 열리며 균열·포탈 광장이 처음 완전히 드러난다(기획서). 레벨에 꺼져 있던 포탈 아치·바닥 메시를 쓴다,None,False
+WS_10017_PortalCourt_Show,WS_10017_PortalCourt,20,"((QuestId=10017,ObjectiveId=1001701,State=Completed))",0,True,None,False,0,,None,Q12 격자문이 열리며 균열·포탈 광장이 처음 완전히 드러난다(기획서). 레벨에 꺼져 있던 포탈 아치·바닥 메시를 쓴다,None,False
+WS_10017_Nameplate_Default,WS_10017_Nameplate,0,(),0,False,None,False,0,,None,여관 1층 창가의 나무패. Q2 빈 벽을 Q12 완료 상태로 채운다.,None,False
+WS_10017_Nameplate_Show,WS_10017_Nameplate,20,"((QuestId=10017,ObjectiveId=1001703,State=Completed))",0,True,None,False,0,,None,여관 1층 창가의 나무패. Q2 빈 벽을 Q12 완료 상태로 채운다.,None,False
+NPC_Rugan_Default,NPC_Rugan,0,(),0,True,Rugan_Plaza,False,0,,None,New Q4 광장 회관 앞 루간의 기본 자리,None,False
+NPC_Rugan_Q7Gate,NPC_Rugan,10,"((QuestId=10007,ObjectiveId=1000701,State=Completed))",0,True,Rugan_Gate,False,0,,None,New Q7 닫힌 뿌리문 내레이션 컷이 성역을 비추는 동안 옮겨져 뒤따라온 것처럼 문 앞에서 안내한다,None,False
+NPC_Rugan_Q7Return,NPC_Rugan,20,"((QuestId=10007,ObjectiveId=1000702,State=Completed))",0,True,Rugan_Plaza,False,0,,None,Q7 안내 대화를 마치면 광장으로 복귀하고 재배치가 끝난 뒤 Q7 완료와 조우지 의뢰를 활성화한다,None,False
+NPC_Rugan_Q9Gather,NPC_Rugan,25,"((QuestId=10008,ObjectiveId=0,State=Completed),(QuestId=10009,ObjectiveId=0,State=Completed),(QuestId=10010,ObjectiveId=0,State=Completed),(QuestId=10011,ObjectiveId=0,State=Completed),(QuestId=10012,ObjectiveId=0,State=Completed),(QuestId=10013,ObjectiveId=0,State=Completed))",0,True,Rugan_Q9Center,False,0,,None,New Q9 여섯 조우지를 마치면 광장 한복판(분수 앞)에서 마을 사람들을 불러 모은다(기획서),None,False
+NPC_Rugan_Q9Dais,NPC_Rugan,30,"((QuestId=10014,ObjectiveId=1001401,State=Completed),(QuestId=10014,ObjectiveId=0,State=InProgress))",0,True,Rugan_Dais,False,0,,None,New Q9 여섯의 인정을 받은 플레이어를 성역 단상으로 먼저 기다린다,None,False
+NPC_Rugan_Q9Return,NPC_Rugan,40,"((QuestId=10014,ObjectiveId=0,State=Completed))",0,True,Rugan_Plaza,False,0,,None,New Q9 전직과 계약을 마친 뒤 광장 의뢰 자리로 돌아간다,None,False
+NPC_Rugan_Q11Fernbrook,NPC_Rugan,50,"((QuestId=10016,ObjectiveId=0,State=InProgress))",0,True,Rugan_Fernbrook,False,0,,None,New Q11 뿌리터 대신 펀브룩 보스 앞까지 동행해 상황을 설명한다(기획서: 여기까지 동행한 루간). 마칠 때까지 그 자리에 있다,None,False
+NPC_Elladon_Default,NPC_Elladon,0,(),0,True,Elladon_CouncilHall,False,0,,None,1레벨부터 회당 옆에 항상 보인다. 성장 퀘스트 완료 뒤에도 유지하고 Q9 이후에는 같은 NPC가 기존 퀘스트 위치로 이동한다,None,False
+NPC_Elladon_Q4Sanctuary,NPC_Elladon,5,"((QuestId=10004,ObjectiveId=0,State=Accepted))",0,True,Elladon_DaisBack,False,0,,None,Q4 수락부터 Q9 단상 전까지 성역 에코크라운 밑동에 선다. 루간이 장로회 수석을 말할 때 원경 컷(Shot_ElladonFar)이 비추는 자리(기획서 Q4~Q7 원경 엘라던). Q9 단상 행이 이어받는다,None,False
+NPC_Elladon_Q9Dais,NPC_Elladon,10,"((QuestId=10014,ObjectiveId=1001401,State=Completed))",0,True,Elladon_Dais,False,0,,None,New Q9 루간과 광장에서 대화를 마치면 성역이 화면 밖일 때 단상에 세운다. 도착하면 10014_ElladonApproach 컷이 처음 가까이 본 엘라던을 비춘다,None,False
+NPC_Elladon_Q9Back,NPC_Elladon,20,"((QuestId=10014,ObjectiveId=1001404,State=Completed))",0,True,Elladon_DaisBack,False,0,,None,New Q9 직업을 고른 뒤 엘라던이 물러서 여섯 나이아가 모일 자리를 내준다,None,False
+NPC_Elladon_Q10Hall,NPC_Elladon,30,"((QuestId=10014,ObjectiveId=0,State=Completed))",0,True,Elladon_CouncilHall,False,0,,None,New Q10 전직과 계약 뒤 엘라던은 장로회 회당 입구에서 개방 절차를 안내한다,None,False
+NPC_Elladon_Q12Gate,NPC_Elladon,40,"((QuestId=10016,ObjectiveId=0,State=Completed))",0,True,Elladon_Dais,False,0,,None,Q11 보스 대련을 마치면 성역 단상에서 기다린다. Q12 증표를 건네고 격자문을 여는 대화도 성역에서 진행한다.,None,False
+NPC_Elladon_AfterQ12,NPC_Elladon,50,"((QuestId=10017,ObjectiveId=0,State=Completed))",0,True,Elladon_CouncilHall,False,0,,None,Q12까지 마치면 성역에 할 일이 없으니 기본 자리(회당 옆)로 돌아간다,None,False
+WS_10012_Cloth_Default,WS_10012_Cloth,0,(),0,False,None,False,0,,None,New Q8-5 진정 후 억새 위에 걸린 천,None,False
+WS_10012_Cloth_Calmed,WS_10012_Cloth,10,"((QuestId=10012,ObjectiveId=1001201,State=Completed))",0,True,None,False,0,,None,New Q8-5 진정 후 억새 위에 걸린 천,None,False
+WS_10012_FallenCloth_Default,WS_10012_FallenCloth,0,(),0,False,None,False,0,,None,New Q8-5 진정 전 바닥에 떨어진 천,None,False
+WS_10012_FallenCloth_Available,WS_10012_FallenCloth,5,"((QuestId=10007,ObjectiveId=0,State=Completed))",0,True,None,False,0,,None,조우지 의뢰가 열리는 Q7 완료 전까지 숨기고 그 뒤 보인다(마을 안 임시 조우지가 Q1~Q7에 보이지 않게),None,False
+WS_10012_FallenCloth_Snatched,WS_10012_FallenCloth,7,"((QuestId=10012,ObjectiveId=1001201,State=InProgress))",0,False,None,False,0,,None,New Q8-5 주우려 다가가면 휘리가 낚아채 바닥에서 사라진다(기획서),QuestApproach_10012_Cloth,False
+WS_10012_FallenCloth_Calmed,WS_10012_FallenCloth,10,"((QuestId=10012,ObjectiveId=1001201,State=Completed))",0,False,None,False,0,,None,New Q8-5 진정 전 바닥에 떨어진 천,None,False
+WS_10008_MatPickup_Default,WS_10008_MatPickup,0,(),0,False,None,False,0,,None,New Q8-1 회수하기 전 돗자리,None,False
+WS_10008_MatPickup_Available,WS_10008_MatPickup,5,"((QuestId=10008,ObjectiveId=0,State=InProgress))",0,True,None,False,0,,None,Q8-1 의뢰를 받은 뒤(진행 중)에만 보인다. 받기 전에는 숨긴다,None,False
+WS_10008_MatPickup_Recovered,WS_10008_MatPickup,10,"((QuestId=10008,ObjectiveId=1000801,State=Completed))",0,False,None,False,0,,None,상호작용으로 회수한 돗자리는 즉시 숨기고 충돌과 재상호작용을 끈다,None,False
+WS_10008_BottlePickup_Default,WS_10008_BottlePickup,0,(),0,False,None,False,0,,None,New Q8-1 회수하기 전 물병,None,False
+WS_10008_BottlePickup_Available,WS_10008_BottlePickup,5,"((QuestId=10008,ObjectiveId=0,State=InProgress))",0,True,None,False,0,,None,Q8-1 의뢰를 받은 뒤(진행 중)에만 보인다. 받기 전에는 숨긴다,None,False
+WS_10008_BottlePickup_Recovered,WS_10008_BottlePickup,10,"((QuestId=10008,ObjectiveId=1000802,State=Completed))",0,False,None,False,0,,None,상호작용으로 회수한 물병은 즉시 숨기고 충돌과 재상호작용을 끈다,None,False
+WS_EncounterDressing_Default,WS_EncounterDressing,0,(),0,False,None,False,0,,None,마을 안 임시 조우지 장식(돌계단·돌·우물·숯·가마·억새·리본). Q7 완료 전까지 숨긴다,None,False
+WS_EncounterDressing_Show,WS_EncounterDressing,10,"((QuestId=10007,ObjectiveId=0,State=Completed))",0,True,None,False,0,,None,마을 안 임시 조우지 장식(돌계단·돌·우물·숯·가마·억새·리본). Q7 완료 뒤 보인다,None,False
+NPC_Noah_Default,NPC_Noah,0,(),0,True,None,False,0,,None,노아 기본 자리(레벨 배치 그대로),None,False
+NPC_Noah_Q9Crowd,NPC_Noah,10,"((QuestId=10008,ObjectiveId=0,State=Completed),(QuestId=10009,ObjectiveId=0,State=Completed),(QuestId=10010,ObjectiveId=0,State=Completed),(QuestId=10011,ObjectiveId=0,State=Completed),(QuestId=10012,ObjectiveId=0,State=Completed),(QuestId=10013,ObjectiveId=0,State=Completed))",0,True,Noah_Q9Crowd,False,0,,None,New Q9 루간이 광장에 사람들을 불러 모을 때 구경꾼 사이에서 한마디 한다(기획서),None,False
+NPC_Noah_Q9Done,NPC_Noah,20,"((QuestId=10014,ObjectiveId=1001401,State=Completed))",0,True,None,False,0,,None,New Q9 광장 인정 대화를 마치면 여관 자리로 돌아간다,None,False
+NPC_Rudy_Default,NPC_Rudy,0,(),0,True,None,False,0,,None,루디 기본 자리(레벨 배치 그대로),None,False
+NPC_Rudy_Q9Crowd,NPC_Rudy,4,"((QuestId=10008,ObjectiveId=0,State=Completed),(QuestId=10009,ObjectiveId=0,State=Completed),(QuestId=10010,ObjectiveId=0,State=Completed),(QuestId=10011,ObjectiveId=0,State=Completed),(QuestId=10012,ObjectiveId=0,State=Completed),(QuestId=10013,ObjectiveId=0,State=Completed))",0,True,Rudy_Q9Crowd,False,0,,None,New Q9 루간이 광장에 사람들을 불러 모을 때 구경꾼 사이에서 한마디 한다(기획서),None,False
+NPC_Rudy_Q9Done,NPC_Rudy,6,"((QuestId=10014,ObjectiveId=1001401,State=Completed))",0,True,None,False,0,,None,New Q9 광장 인정 대화를 마치면 공방 자리로 돌아간다,None,False
+NPC_Rudy_SQ101Master,NPC_Rudy,10,"((QuestId=10051,ObjectiveId=1005102,State=InProgress))",0,True,None,True,4900,NU.Quest.Objective.Talk,None,"4A 손끝의 대물림 스승 고르기 동안 다섯 장인 누구에게 말을 걸어도 같은 목표(4900, 공방 장인)로 센다",None,False
+NPC_Bran_Default,NPC_Bran,0,(),0,True,None,False,0,,None,브란 기본 자리(레벨 배치 그대로),None,False
+NPC_Bran_SQ101Master,NPC_Bran,10,"((QuestId=10051,ObjectiveId=1005102,State=InProgress))",0,True,None,True,4900,NU.Quest.Objective.Talk,None,"4A 손끝의 대물림 스승 고르기 동안 다섯 장인 누구에게 말을 걸어도 같은 목표(4900, 공방 장인)로 센다",None,False
+NPC_Elara_Default,NPC_Elara,0,(),0,True,None,False,0,,None,엘라라 기본 자리(레벨 배치 그대로),None,False
+NPC_Elara_SQ101Master,NPC_Elara,10,"((QuestId=10051,ObjectiveId=1005102,State=InProgress))",0,True,None,True,4900,NU.Quest.Objective.Talk,None,"4A 손끝의 대물림 스승 고르기 동안 다섯 장인 누구에게 말을 걸어도 같은 목표(4900, 공방 장인)로 센다",None,False
+NPC_Meris_Default,NPC_Meris,0,(),0,True,None,False,0,,None,메리스 기본 자리(레벨 배치 그대로),None,False
+NPC_Meris_SQ101Master,NPC_Meris,10,"((QuestId=10051,ObjectiveId=1005102,State=InProgress))",0,True,None,True,4900,NU.Quest.Objective.Talk,None,"4A 손끝의 대물림 스승 고르기 동안 다섯 장인 누구에게 말을 걸어도 같은 목표(4900, 공방 장인)로 센다",None,False
+NPC_Kaala_Default,NPC_Kaala,0,(),0,True,None,False,0,,None,카알라 기본 자리(레벨 배치 그대로),None,False
+NPC_Kaala_SQ101Master,NPC_Kaala,10,"((QuestId=10051,ObjectiveId=1005102,State=InProgress))",0,True,None,True,4900,NU.Quest.Objective.Talk,None,"4A 손끝의 대물림 스승 고르기 동안 다섯 장인 누구에게 말을 걸어도 같은 목표(4900, 공방 장인)로 센다",None,False
+Backgrove_Vines_10,Backgrove_Vines,10,(),0,True,None,False,0,,None,허시베일 폭포 뒤 바위 틈을 덮은 넝쿨. 회당이 열리다(10015)를 마칠 때까지 보인다.,None,False
+Backgrove_Vines_20,Backgrove_Vines,20,"((QuestId=10015,ObjectiveId=0,State=Completed))",0,False,None,False,0,,None,10015 완료 후 넝쿨이 걷히고 뒷숲 길(포탈 16037)이 열린다.,None,False
+Boss_Bramblecore_Default,Boss_Bramblecore,0,(),0,True,None,False,0,,None,보스 대련 완료 전 브램블코어와 접근 경고를 유지한다.,None,False
+Boss_Bramblecore_Cleared,Boss_Bramblecore,10,"((QuestId=10016,ObjectiveId=1001602,State=Completed))",0,False,None,False,0,,None,브램블코어 대련 목표 완료 즉시 보스와 접근 경고를 숨긴다. 후속 연출이나 보상을 기다리지 않으며 재접속 시 목표 완료 기록으로 유지한다.,None,False

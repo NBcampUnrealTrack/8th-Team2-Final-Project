@@ -1,0 +1,226 @@
+﻿Name,DialogueId,NpcId,QuestId,ObjectiveId,Phase,EventId,LineIndex,DialogueKey,Speaker,SpeakerNpcId,SpeakerName,DialogueText,Portrait
+14002,Quest_10002_NPC4001_Target_OBJ1000201,4001,10002,1000201,Target,None,1,ST_DLG_LI_MAIN102_01_02,Npc,4001,노아,"창가 침대 하나 비어 있어. 저긴 밤에 찬 바람이 새어 들어오니까 덧문 꼭 닫고 자고. 2층 벽에 못 박혀 있는 거 보이면, 거기가 이름 걸 자리야. 네 자리엔 아직 없을 거다. 일단 밥값부터 해.",None
+14003,QuestStory_1000202,0,0,0,Idle,None,1,ST_DLG_LI_MAIN102_02_01,Npc,4001,노아,…서툴어도 끝까지 하네. 그 정도면 밥값은 됐어.,None
+14081,Quest_10002_NPC4001_TurnIn,4001,10002,0,TurnIn,None,1,ST_DLG_LI_MAIN102_04_01,Npc,4001,노아,"이건 덤이야. 창고 구석에서 3년째 주인이 안 찾아간 물건. …안 올 거야. 근데 이거, 이 숲에선 오래 못 버텨. 저~기, 정비공 공방의 루디를 찾아가봐.",None
+14006,Quest_10003_NPC4003_Target_OBJ1000301,4003,10003,1000301,Target,None,1,ST_DLG_LI_MAIN103_02_01,Npc,4003,루디,"…이게 뭔지 모르는 얼굴이네. 바깥에서 흘러온 물건이야. 이 안에 나이아가 갇혀 있어. 도시 애들은 이런 걸 '마정강'이라고 부르던데. 나이아를 강철 틀 안에 가두고 짓눌러서, 비명 지르는 걸 힘으로 짜내는 방식이야. 그렇게 쥐어짜이던 나이아가, 자유롭게 뛰어노는 나이아들을 보면 어떨까? 여기선 못 써먹어, 이거. 억지로 짜낸 힘은 티가 나. 오래 쓰면 금방 무르지.",None
+14007,Quest_10003_NPC4003_Target_OBJ1000301,4003,10003,1000301,Target,None,3,ST_DLG_LI_MAIN103_02_02,Npc,4003,루디,우리 방식은 달라. 무기 안에 나이아가 머물 집을 만드는 거지. 그 녀석이 자기가 내키는 만큼 힘을 나눠주게 만들어. 가두는 게 아니라 부탁하는 거야. 그래서 가벼운 거고. 학대가 아니라 협력이니 나이아가 같이 무기를 휘둘러 주는거지.,None
+14008,Quest_10003_NPC4003_InProgress,4003,10003,0,InProgress,None,1,ST_DLG_LI_MAIN103_03_01,Npc,4003,루디,"저 녀석이 저래 봬도 반응은 빨라. 검이든 주먹이든, 과녁 맞히는 셈 치고 몇 대 후려쳐 봐. SP 남을 때까지 계속 때려도 돼. 그게 기본 공격이라는 거지. 걱정 마, 쟤는 이런 장난 좋아해.",None
+14009,Quest_10003_NPC4003_TurnIn,4003,10003,0,TurnIn,None,1,ST_DLG_LI_MAIN103_04_01,Npc,4003,루디,"자, 다 됐어. 리베르그로브식으로 다시 벼렸으니 한번 들어 봐. 전보다 가벼울 거야.",None
+14011,Quest_10004_NPC4005_Offer,4005,10004,0,Offer,None,1,ST_DLG_LI_MAIN104_01_01,Npc,4005,루간,굴러들어왔다는 애가 너구나. 벌써 노아랑 루디 둘 다한테 인정받았다며? 소문 빠른 마을이야.,None
+14012,Quest_10004_NPC4005_Offer,4005,10004,0,Offer,None,3,ST_DLG_LI_MAIN104_01_02,Npc,4005,루간,"어디서 왔든 관심 없다. 내 눈앞에서 딴 짓 안 하고 성실하게 제 몫만 하면 돼. …저 게시판 봐라. 거기 적힌 건 전부 사람 목숨이 걸린 일은 아니지만, 전부 누군가의 하루가 걸린 일이야.",None
+14013,Quest_10004_NPC4005_Target_OBJ1000401,4005,10004,1000401,Target,None,1,ST_DLG_LI_MAIN104_02_01,Npc,4005,루간,"저 나무 뒤편이랑 뿌리 아래 굴은 아직 네 자리가 아니다. 증표 없이 넘어오면, 나도 너를 감싸줄 수 없어. 그건 내 소관도 아니고, 장로회 수석 어르신 소관이다.",None
+14014,Quest_10005_NPC4003_Target_OBJ1000512,4003,10005,1000512,Target,None,1,ST_DLG_LI_MAIN105_01_01,Npc,4003,루디,재료 상인한테 숯 좀 받아다 줘. 화력 계산이 안 맞으면 나만 손해야.,None
+14015,Quest_10005_NPC4012_Target_OBJ1000509,4012,10005,1000509,Target,None,1,ST_DLG_LI_MAIN105_02_01,Npc,4012,브란,"...정말이다. 나이아가 도와주면 베인다고 나무는 즉시 죽지 않아. …거기, 그 목재 좀 저쪽으로 옮겨다오. 늙은이 허리가 비명을 질러서 말이지.",None
+14016,Quest_10005_NPC4006_Target_OBJ1000510,4006,10005,1000510,Target,None,1,ST_DLG_LI_MAIN105_03_01,Npc,4006,엘라라,"겁먹지 마세요, 데이진 않아요. 그냥 튕겨 오는 타이밍에 맞춰서 쳐내 보세요. 그게 패링이란 거에요. 정확히 맞히면 반동으로 튕겨나가면서 소리가 청량하게 나요.",None
+14017,Quest_10005_NPC4008_Target_OBJ1000511,4008,10005,1000511,Target,None,1,ST_DLG_LI_MAIN105_04_01,Npc,4008,메리스,"이 녀석 좀 말려줄래요? 자꾸 천을 못 쓰게 헝클어놔서… 아니, 저기, 잠깐, 안 돼!",None
+14018,Quest_10005_NPC4008_Target_OBJ1000511,4008,10005,1000511,Target,None,2,ST_DLG_LI_MAIN105_04_02,Npc,4008,메리스,"아이 참, 제가 다시 천을 널어놓는 동안 나이아랑 좀 어울려줄래요? 잡으려 하지 말고 피해 보세요. 저 녀석 바람은 방향이 뻔해서, 스치기 직전에 몸만 슬쩍 빼면 회피할 수 있어요.",None
+14019,Quest_10005_NPC4014_Target_OBJ1000508,4014,10005,1000508,Target,None,1,ST_DLG_LI_MAIN105_05_01,Npc,4014,카알라,"이 수프 한 그릇 갖다주고, 대신 저 화덕에 장작 좀 더 넣어줘.",None
+14082,Quest_10005_NPC4016_InProgress,4016,10005,0,InProgress,None,1,ST_DLG_LI_MAIN105_07_01,Npc,4016,바니엘,새로운 무기나 도구를 만들고 싶으신가요? 제 레시피 청사진을 구매해서 루디나 브란에게 가져가 보세요.,None
+14025,Quest_10006_NPC4004_Target_OBJ1000601,4004,10006,1000601,Target,None,1,ST_DLG_LI_MAIN106_03_01,Npc,4004,릴리,"여기서 자는 애들은 이미 누군가와 인연이 있거나, 이제 쉬는 중인 애들이야. 너는 아직 없지. 마을 밖으로 나가봐라. 여섯 갈래 길 끝에, 아직 아무와도 매이지 않은 애들이 있으니. 걔들은 여기 있는 애들이랑 달라. 전부 아직 누구의 것도 아니야.",None
+14027,Quest_10007_NPC4005_Target_OBJ1000702,4005,10007,1000702,Target,None,1,ST_DLG_LI_MAIN107_02_01,Npc,4005,루간,저 문은 네가 여는 게 아니야. 마을이 여는 거다. 그리고 마을은 아직 너를 몰라.,None
+14028,Quest_10008_NPC4011_Offer,4011,10008,0,Offer,None,1,ST_DLG_LI_MAIN108_01_01,Npc,4011,티온,실은 소풍 갔다가 풀 나이아한테 내 아지트 돗자리랑 물병을 빼앗겼어. 찾아주면 내 비밀 보물창고 위치 알려줄게!,None
+14030,Quest_10008_NPC4011_TurnIn,4011,10008,0,TurnIn,None,1,ST_DLG_LI_MAIN108_02_02,Npc,4011,티온,"오, 진짜 찾아왔네! …근데 이거 나 혼자 쓰던 거였는데, 이제 쟤랑 나눠 써야 하나 보다.",None
+14031,Quest_10009_NPC4012_Offer,4012,10009,0,Offer,None,1,ST_DLG_LI_MAIN109_01_01,Npc,4012,브란,"루트스테어 돌계단, 몇 칸 내가 손봐놨는데 마저 못 끝냈어. 이 나이엔 돌 나르는 게 예전 같지 않아서. 가서 나머지 돌 좀 옮겨주겠나. 대신… 조심해. 거기 사는 녀석이 자기 구역인 줄 안다.",None
+14032,Quest_10009_NPC4012_TurnIn,4012,10009,0,TurnIn,None,1,ST_DLG_LI_MAIN109_02_01,Npc,4012,브란,…이 녀석이 원래 여기 계단 지키던 녀석이었구먼. 몰랐네. 미안하게 됐다고 전해줘. 말은 안 통하니까 그냥 나 대신 한 번 쓰다듬어 주게.,None
+14033,Quest_10010_NPC4013_Offer,4013,10010,0,Offer,None,1,ST_DLG_LI_MAIN110_01_01,Npc,4013,세라디,…미스트웰 샘물에 다녀올 테냐? 안개가 아주 짙을 테니 자박자박 발소리를 내며 걸으렴. 국자랑 물동이 챙겨가고.,None
+14034,Quest_10010_NPC4013_TurnIn,4013,10010,0,TurnIn,None,1,ST_DLG_LI_MAIN110_02_01,Npc,4013,세라디,"호호, 봐라. 걔가 낯을 좀 가려서 그렇지 나쁜 애는 아니라니까.",None
+14035,Quest_10011_NPC4003_Offer,4003,10011,0,Offer,None,1,ST_DLG_LI_MAIN111_01_01,Npc,4003,루디,"엠버킬른 가마에서 숯 좀 집어와 줘. 불꽃 출력이 3% 부족하단 말이야! 터지면 어떡하냐고? 지금 날 못 믿는거야? 가서 보면 알아, 거기 지키는 녀석이 하나 있는데 우리 공방 불 나이아랑 한 핏줄일 거야.",None
+14036,Quest_10011_NPC4003_TurnIn,4003,10011,0,TurnIn,None,1,ST_DLG_LI_MAIN111_02_01,Npc,4003,루디,"…한 소리 들었나 보네, 너도. 성질은 급한데 오래는 못 가. 걔 성격 그대로야, 우리 공방 애랑.",None
+14037,Quest_10012_NPC4008_Offer,4008,10012,0,Offer,None,1,ST_DLG_LI_MAIN112_01_01,Npc,4008,메리스,"표식 천이 또 떨어졌을 텐데, 다시 매줄 수 있어요? 저는 가면 그 녀석이 저부터 놀려서…",None
+14039,Quest_10012_NPC4008_TurnIn,4008,10012,0,TurnIn,None,1,ST_DLG_LI_MAIN112_02_02,Npc,4008,메리스,…어? 오늘은 안 뺏겼네요. 뭘 어떻게 한 거예요?,None
+14040,Quest_10013_NPC4005_Offer,4005,10013,0,Offer,None,1,ST_DLG_LI_MAIN113_01_01,Npc,4005,루간,"리븐우드에 오래된 리본들 있다. 마을이 100년 동안 매달아온 것들이야. 낡아서 새로 매야 하는데, 거기 나이아가 자꾸 리본을 튕겨 떨어뜨려서 아무도 오래 못 버텨. 리본이나 똑바로 매고 와라.",None
+14041,Quest_10013_NPC4005_TurnIn,4005,10013,0,TurnIn,None,1,ST_DLG_LI_MAIN113_02_01,Npc,4005,루간,"…이 녀석, 사람 가려. 너한테는 얌전하네.",None
+14042,Quest_10014_NPC4005_Offer,4005,10014,0,Offer,None,1,ST_DLG_LI_MAIN114_01_01,Npc,4005,루간,"여섯 조우지를 다 다녀왔다고 들었다. 티온이 잃어버린 물병부터 내 리본까지. …어디서 굴러왔는지도 모르는 애가, 우리 마을 나이아 여섯을 전부 얌전하게 만들었어. 이 정도면 나도 더는 경계할 핑계가 없구나.",None
+14045,Quest_10014_NPC4004_InProgress,4004,10014,0,InProgress,None,1,ST_DLG_LI_MAIN114_02_01,Npc,4004,릴리,"너, 사냥꾼 냄새가 아니라… 숲냄새가 나기 시작했네? 나쁘지 않아.",None
+14046,Quest_10014_NPC4017_Target_OBJ1001403,4017,10014,1001403,Target,None,1,ST_DLG_LI_MAIN114_03_01,Npc,4017,엘라던,"그대가 하는 일을 모두 숲의 나이아들이 속삭여주었다. 그대의 손에 여섯 나이아의 기운이 고였으니, 외지인이여. 이제 단상으로 오라.",None
+14047,Quest_10014_NPC4017_Target_OBJ1001403,4017,10014,1001403,Target,None,2,ST_DLG_LI_MAIN114_04_01,Npc,4017,엘라던,"그대가 힘을 다루는 방식은 이미 나이아들이 지켜보았다. 어떤 이는 몸으로 다 받아냈고, 어떤 이는 정확히 한 곳을 노렸지. 그건 내가 정해줄 수 있는 게 아니다. 이제부터 나이아의 힘을 어떤 방식으로 쓸지, 그대가 정하라.",None
+14050,Quest_10015_NPC4017_Offer,4017,10015,0,Offer,None,1,ST_DLG_LI_MAIN115_01_01,Npc,4017,엘라던,"전직까지 마쳤으니 이제 여기도 열어주마. 다만 이 안에 있는 건 마을 사람만 아는 것들이니, 함부로 옮기지 마라.",None
+14051,Quest_10015_NPC4017_Target_OBJ1001501,4017,10015,1001501,Target,None,1,ST_DLG_LI_MAIN115_02_01,Npc,4017,엘라던,"나이아 여섯을 진정시키고, 힘을 받아들이는 법도 배웠다. 마지막으로 하나 남았다. 뒷숲에, 이 마을을 만들어준 녀석이 자고 있어. 그 앞에서 그대의 힘을 보여봐라. 이기라는 게 아니다. …그 녀석이 그대를 받아들이는지 보는 거다.",None
+14052,QuestStory_1001601,0,0,0,Idle,None,1,ST_DLG_LI_MAIN116_01_01,Npc,4005,루간,"쟤가 널 죽이려 들지는 않아. 대신 봐줄 생각도 없다. 네가 얼마나 자기 발로 서 있을 수 있는지, 그거 하나만 볼 거야.",None
+14078,Quest_10017_NPC4017_Target_OBJ1001701,4017,10017,1001701,Target,None,1,ST_DLG_14078,Npc,4017,엘라던,"브램블코어가 인정했는데 내가 더 뭘 따지겠나. 자, 이거 받게나. 이제 회당도, 저 안쪽도 전부 그대의 자리니.",None
+14079,Quest_10017_NPC4001_Target_OBJ1001702,4001,10017,1001702,Target,None,1,ST_DLG_14079,Npc,4001,노아,에코크라운에서 떨어진 가지로 만든 거야. 네 걸로 하나 새로 깎았어. …이제 네 자리 창가에 못이 하나 생겼을 거다. 걸어.,None
+14084,QuestStory_10017_Name,0,0,0,Idle,None,1,ST_DLG_14084,Npc,4001,노아,"…잘 왔다, 여기까지. {PlayerName}.",None
+14048,Quest_10014_StarterNaiaIntroduction,4017,0,0,Idle,StarterNaiaIntroduction,1,ST_DLG_LI_MAIN114_05_01,Narration,0,,"여섯이 전부 단상 둘레에 모였다. 누구도 먼저 나서지 않는다. 진정시켰다고 해서, 계약할 자격이 저절로 생기는 건 아닌 모양이다.",None
+14049,Quest_10014_StarterNaiaConfirmed,4017,0,0,Idle,StarterNaiaConfirmed,1,ST_DLG_LI_MAIN114_06_01,Npc,4017,엘라던,…됐다. 저 녀석이 그대를 따라가겠다는구나. 이제부터 저건 그냥 마을 나이아가 아니다. 그대의 나이아다.,None
+NPC_4001_FreeRecovery_01,NPC_4001_FreeRecovery,4001,0,0,Idle,NPC_4001_FreeRecovery,1,NPC_4001_FreeRecovery_01,Npc,4001,노아,"쯧... 다쳤어? 잠시 쉬고 갈래, 바로 회복하고 갈래? 지금은 무료야.",None
+NPC_4001_InstantStart_01,NPC_4001_InstantStart,4001,0,0,Idle,DA_NPC_4001_InstantStart,1,NPC_4001_InstantStart_01,Npc,4001,노아,너랑 나이아를 바로 회복시켜 줄게. 비용은 {Cost}골드야.,None
+NPC_4001_InsufficientGold_01,NPC_4001_InsufficientGold,4001,0,0,Idle,DA_NPC_4001_InsufficientGold,1,NPC_4001_InsufficientGold_01,Npc,4001,노아,골드가 부족해. 회복 비용을 가져오면 다시 와.,None
+NPC_4001_PaidRecovery_01,NPC_4001_PaidRecovery,4001,0,0,Idle,NPC_4001_PaidRecovery,1,NPC_4001_PaidRecovery_01,Npc,4001,노아,"쯧... 다쳤어? 잠시 쉬고 갈래, 하룻밤 자고 갈래? 비용은 {Cost}골드야.",None
+NPC_4001_Prompt_01,NPC_4001_Prompt,4001,0,0,Idle,NPC_4001_Prompt,1,NPC_4001_Prompt_01,Npc,4001,노아,짐 맡기게? …빈손이네. 입은 것도 이 근처 물건이 아니고. 어디서 굴러왔는지는 안 물어. 여관에서 손님 사정 캐면 장사 접어야 해.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4001_Portrait.T_NPC_4001_Portrait
+NPC_4001_RestOnly_01,NPC_4001_RestOnly,4001,0,0,Idle,NPC_4001_RestOnly,1,NPC_4001_RestOnly_01,Npc,4001,노아,쯧... 다쳤어? 잠시 쉬고 갈래?,None
+NPC_4001_RestStart_01,NPC_4001_RestStart,4001,0,0,Idle,DA_NPC_4001_RestStart,1,NPC_4001_RestStart_01,Npc,4001,노아,여기서 잠시 쉬어. 너랑 나이아가 함께 회복할 거야. 움직이면 휴식은 끝나.,None
+NPC_4001_StorageStart_01,NPC_4001_StorageStart,4001,0,0,Idle,DA_NPC_4001_StorageStart,1,NPC_4001_StorageStart_01,Npc,4001,노아,맡겨 둔 물건을 확인할 수 있도록 창고를 열어 줄게.,None
+NPC_4001_StorageUnavailable_01,NPC_4001_StorageUnavailable,4001,0,0,Idle,DA_NPC_4001_StorageUnavailable,1,NPC_4001_StorageUnavailable_01,Npc,4001,노아,지금은 창고를 이용할 수 없어.,None
+NPC_4002_Prompt_01,NPC_4002_Prompt,4002,0,0,Idle,NPC_4002_Prompt,1,NPC_4002_Prompt_01,Npc,4002,시안,아... 어서 와. 보다시피 쓸만한 물건은 별로 없어. 필요한 포션이 있으면 직접 집어가고 놋전은 저 그릇에 던져둬...,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4002_Portrait.T_NPC_4002_Portrait
+NPC_4005_Prompt_01,NPC_4005_Prompt,4005,0,0,Idle,NPC_4005_Prompt,1,NPC_4005_Prompt_01,Npc,4005,루간,도시에서 왔든 어디서 왔든 관심 없다. 내 눈앞에서 딴 짓 안 하고 성실하게 제 몫만 하면 돼.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+NPC_4010_Prompt_01,NPC_4010_Prompt,4010,0,0,Idle,NPC_4010_Prompt,1,NPC_4010_Prompt_01,Npc,4010,로든,"이 킨워터 물길이 보기는 쉬워 보여도, 크레이들풀에서 내려오는 물줄기라 속통이 깊어. 건널 땐 꼭 징검다리를 밟아!",/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4010_Portrait.T_NPC_4010_Portrait
+NPC_4011_Prompt_01,NPC_4011_Prompt,4011,0,0,Idle,NPC_4011_Prompt,1,NPC_4011_Prompt_01,Npc,4011,티온,야! 너 마을 밖에서 왔다며? 밖에는 뭐가 있어? …그것보다 내 말 좀 들어봐. 선할로우에 진짜 보물이 있다니까?,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+NPC_4017_Prompt_01,NPC_4017_Prompt,4017,0,0,Idle,NPC_4017_Prompt,1,NPC_4017_Prompt_01,Npc,4017,엘라던,"그대가 하는 일을 모두 숲의 정령들이 속삭여주었다. 그대의 손에 여섯 정령의 기운이 고였으니, 외지인이여. 이제 단상으로 오라.",/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4017_Portrait.T_NPC_4017_Portrait
+NPC_4017_TestDefault_01,NPC_4017_TestDefault,0,0,0,Idle,NPC_4017_TestDefault,1,NPC_4017_TestDefault_01,Npc,0,엘라돈,성역의 바람이 오늘은 조금 다르게 느껴지는구나.,/Engine/EngineResources/AICON-Green.AICON-Green
+NPC_4017_TestPrompt_01,NPC_4017_TestPrompt,0,0,0,Idle,NPC_4017_TestPrompt,1,NPC_4017_TestPrompt_01,Npc,0,엘라돈,어떤 이야기를 나누고 싶지?,/Engine/EngineResources/AICON-Green.AICON-Green
+NPC_4017_JobSelection_01,NPC_4017_JobSelection,0,0,0,Idle,NPC_4017_JobSelection,1,NPC_4017_JobSelection_01,Npc,4017,엘라던,"이제부터 나이아의 힘을 어떤 방식으로 쓸지, 그대가 정하라.",None
+NPC_4005_TestPrompt_01,NPC_4005_TestPrompt,0,0,0,Idle,NPC_4005_TestPrompt,1,NPC_4005_TestPrompt_01,Npc,4005,루간,무슨 일로 왔나?,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+NPC_4011_TestDefault_01,NPC_4011_TestDefault,0,0,0,Idle,NPC_4011_TestDefault,1,NPC_4011_TestDefault_01,Npc,4011,티온,오늘은 광장에서 뭘 하고 놀까? 재미있는 걸 찾으면 나한테도 알려 줘!,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+NPC_4011_TestPrompt_01,NPC_4011_TestPrompt,0,0,0,Idle,NPC_4011_TestPrompt,1,NPC_4011_TestPrompt_01,Npc,4011,티온,무슨 일로 왔어?,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_1001_TutorialGuide_Prompt_01,Quest_1001_TutorialGuide_Prompt,0,0,0,Idle,Quest_1001_TutorialGuide_Prompt,1,Quest_1001_TutorialGuide_Prompt_01,Npc,0,가이드,무슨 도움이 필요하신가요?,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_1001_TutorialGuide_Default_01,Quest_1001_TutorialGuide_Default,0,0,0,Idle,Quest_1001_TutorialGuide_Default,1,Quest_1001_TutorialGuide_Default_01,Npc,0,가이드,리베르그로브는 조용하고 살기 좋은 곳이랍니다.,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_1002_NPC4005_Default_01,Quest_1002_NPC4005_Default,0,0,0,Idle,Quest_1002_NPC4005_Default,1,Quest_1002_NPC4005_Default_01,Npc,4005,루간,관문 밖에서는 언제나 방심하지 말게.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_10903_NPC4001_Offer_01,Quest_10903_NPC4001_Offer,4001,10903,0,Offer,None,1,Quest_10903_NPC4001_Offer_01,Npc,4001,노아,여행자는 짐을 전부 들고 다니면 오래 못 버텨. 내 창고를 한 번 열어봐.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4001_Portrait.T_NPC_4001_Portrait
+Quest_10903_NPC4001_InProgress_01,Quest_10903_NPC4001_InProgress,4001,10903,0,InProgress,None,1,Quest_10903_NPC4001_InProgress_01,Npc,4001,노아,창고 이용을 선택하고 보관함 목록이 열리는지 확인해.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4001_Portrait.T_NPC_4001_Portrait
+Quest_10903_NPC4001_TurnIn_01,Quest_10903_NPC4001_TurnIn,4001,10903,0,TurnIn,None,1,Quest_10903_NPC4001_TurnIn_01,Npc,4001,노아,보관함 쓰는 법은 알겠군. 이제 훈련장 쪽의 루간에게 가봐.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4001_Portrait.T_NPC_4001_Portrait
+Quest_10902_NPC4002_Offer_01,Quest_10902_NPC4002_Offer,4002,10902,0,Offer,None,1,Quest_10902_NPC4002_Offer_01,Npc,4002,시안,물건을 고르는 법부터 익혀. 아무 상품이나 하나 사면 거래가 제대로 끝났는지 봐줄게.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4002_Portrait.T_NPC_4002_Portrait
+Quest_10902_NPC4002_InProgress_01,Quest_10902_NPC4002_InProgress,4002,10902,0,InProgress,None,1,Quest_10902_NPC4002_InProgress_01,Npc,4002,시안,상점에서 필요한 물건 하나를 골라 구매해. 구경만 한 건 거래가 아니야.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4002_Portrait.T_NPC_4002_Portrait
+Quest_10902_NPC4002_TurnIn_01,Quest_10902_NPC4002_TurnIn,4002,10902,0,TurnIn,None,1,Quest_10902_NPC4002_TurnIn_01,Npc,4002,시안,계산은 맞았어. 짐이 늘었으니 여관의 노아에게 창고 쓰는 법도 배워둬.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4002_Portrait.T_NPC_4002_Portrait
+Quest_10904_NPC4005_TurnIn_01,Quest_10904_NPC4005_TurnIn,4005,10904,0,TurnIn,None,1,Quest_10904_NPC4005_TurnIn_01,Npc,4005,루간,제 발로 훈련장까지 왔군. 최소한 길을 잃을 걱정은 없겠어.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_10905_NPC4005_Offer_01,Quest_10905_NPC4005_Offer,4005,10905,0,Offer,None,1,Quest_10905_NPC4005_Offer_01,Npc,4005,루간,교감석을 써서 나이아 한 마리와 직접 교감해 봐. 말로 듣는 것보다 빠르다.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_10905_NPC4005_InProgress_01,Quest_10905_NPC4005_InProgress,4005,10905,0,InProgress,None,1,Quest_10905_NPC4005_InProgress_01,Npc,4005,루간,교감석이 반응하는 나이아를 찾아. 억지로 다루려 들지는 마라.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_10906_NPC4005_Offer_01,Quest_10906_NPC4005_Offer,4005,10906,0,Offer,None,1,Quest_10906_NPC4005_Offer_01,Npc,4005,루간,숲 가장자리에 불청객이 나타났다. 적 한 마리를 쓰러뜨리고 돌아와.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_10906_NPC4005_InProgress_01,Quest_10906_NPC4005_InProgress,4005,10906,0,InProgress,None,1,Quest_10906_NPC4005_InProgress_01,Npc,4005,루간,아직 적을 쓰러뜨렸다는 소식이 없군. 방심하지 마라.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_10906_NPC4005_TurnIn_01,Quest_10906_NPC4005_TurnIn,4005,10906,0,TurnIn,None,1,Quest_10906_NPC4005_TurnIn_01,Npc,4005,루간,처음치고는 움직임이 나쁘지 않았다. 그래도 끝까지 경계를 늦추지 마.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_10907_NPC4005_Offer_01,Quest_10907_NPC4005_Offer,4005,10907,0,Offer,None,1,Quest_10907_NPC4005_Offer_01,Npc,4005,루간,적 하나를 쓰러뜨리는 것과 전투를 끝내는 건 다르다. 이번에는 승리하고 돌아와.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_10907_NPC4005_InProgress_01,Quest_10907_NPC4005_InProgress,4005,10907,0,InProgress,None,1,Quest_10907_NPC4005_InProgress_01,Npc,4005,루간,전투를 끝까지 마치고 승리를 확인해.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_10907_NPC4005_TurnIn_01,Quest_10907_NPC4005_TurnIn,4005,10907,0,TurnIn,None,1,Quest_10907_NPC4005_TurnIn_01,Npc,4005,루간,첫 승리를 기억해둬. 다음 싸움에서도 네가 살아 돌아올 기준이 될 테니.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_10901_NPC4010_Offer_01,Quest_10901_NPC4010_Offer,4010,10901,0,Offer,None,1,Quest_10901_NPC4010_Offer_01,Npc,4010,로든,마을을 둘러볼 거라면 우물가의 티온에게 먼저 인사해. 그 녀석이 길은 누구보다 잘 알거든.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4010_Portrait.T_NPC_4010_Portrait
+Quest_10901_NPC4010_InProgress_01,Quest_10901_NPC4010_InProgress,4010,10901,0,InProgress,None,1,Quest_10901_NPC4010_InProgress_01,Npc,4010,로든,티온은 우물가에 있을 거야. 내 이름을 대면 아는 척은 해주겠지.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4010_Portrait.T_NPC_4010_Portrait
+Quest_10904_NPC4010_Offer_01,Quest_10904_NPC4010_Offer,4010,10904,0,Offer,None,1,Quest_10904_NPC4010_Offer_01,Npc,4010,로든,마을 구경이 끝났으면 훈련장으로 가. 루간이 네 실력을 확인할 거야.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4010_Portrait.T_NPC_4010_Portrait
+Quest_10904_NPC4010_InProgress_01,Quest_10904_NPC4010_InProgress,4010,10904,0,InProgress,None,1,Quest_10904_NPC4010_InProgress_01,Npc,4010,로든,훈련장에 도착한 다음 루간에게 보고해.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4010_Portrait.T_NPC_4010_Portrait
+Quest_10900_NPC4011_Offer_01,Quest_10900_NPC4011_Offer,4011,10900,0,Offer,None,1,Quest_10900_NPC4011_Offer_01,Npc,4011,티온,내 팽이가 없어졌어! 광장 근처에서 놀다가 놓친 것 같아. 같이 찾아줄래?,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_10900_NPC4011_InProgress_01,Quest_10900_NPC4011_InProgress,4011,10900,0,InProgress,None,1,Quest_10900_NPC4011_InProgress_01,Npc,4011,티온,팽이는 광장 근처 어딘가에 있을 거야. 반짝이는 나무 팽이를 찾아봐!,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_10900_NPC4011_TurnIn_01,Quest_10900_NPC4011_TurnIn,4011,10900,0,TurnIn,None,1,Quest_10900_NPC4011_TurnIn_01,Npc,4011,티온,찾았다! 역시 너라면 찾아줄 줄 알았어. 정말 고마워!,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_10901_NPC4011_TurnIn_01,Quest_10901_NPC4011_TurnIn,4011,10901,0,TurnIn,None,1,Quest_10901_NPC4011_TurnIn_01,Npc,4011,티온,첫 인사는 끝! 다음에는 다리 북쪽 좌판의 시안을 찾아가 봐.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_10901_NPC4011_Target_01,Quest_10901_NPC4011_Target,4011,10901,0,Target,None,1,Quest_10901_NPC4011_Target_01,Npc,4011,티온,"로든 아저씨가 보냈다고? 좋아, 오늘부터 넌 우리 마을 손님이야!",/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_10905_NPC4017_TurnIn_01,Quest_10905_NPC4017_TurnIn,4017,10905,0,TurnIn,None,1,Quest_10905_NPC4017_TurnIn_01,Npc,4017,엘라던,교감의 첫 울림을 들었군. 그 인연을 힘이 아니라 약속으로 기억하게.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4017_Portrait.T_NPC_4017_Portrait
+Quest_10999_NPC4017_Offer_01,Quest_10999_NPC4017_Offer,4017,10999,0,Offer,None,1,Quest_10999_NPC4017_Offer_01,Npc,4017,엘라던,그대의 성장은 다음 관문 앞에서 멈춰 있군. 준비가 되었다면 내가 길을 열어주지.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4017_Portrait.T_NPC_4017_Portrait
+Quest_10999_NPC4017_Offer_02,Quest_10999_NPC4017_Offer,4017,10999,0,Offer,None,2,Quest_10999_NPC4017_Offer_02,Npc,4017,엘라던,의식을 받아들인 뒤 다시 말을 걸게.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4017_Portrait.T_NPC_4017_Portrait
+Quest_10999_NPC4017_TurnIn_01,Quest_10999_NPC4017_TurnIn,4017,10999,0,TurnIn,None,1,Quest_10999_NPC4017_TurnIn_01,Npc,4017,엘라던,성장은 끝났다. 여비를 챙겨 강가의 로든부터 만나보게.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4017_Portrait.T_NPC_4017_Portrait
+Quest_10999_NPC4017_Target_01,Quest_10999_NPC4017_Target,4017,10999,0,Target,None,1,Quest_10999_NPC4017_Target_01,Npc,4017,엘라던,숲의 기운이 그대 안에 자리 잡았다. 이제 성장을 마무리하겠다.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4017_Portrait.T_NPC_4017_Portrait
+Quest_2001_Offer_01,Quest_2001_Offer,0,0,0,Idle,Quest_2001_Offer,1,Quest_2001_Offer_01,Npc,0,엘라돈,리베르그로브 밖의 길을 경험할 때가 되었구나.,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_2001_Offer_02,Quest_2001_Offer,0,0,0,Idle,Quest_2001_Offer,2,Quest_2001_Offer_02,Npc,0,엘라돈,다른 지역에서 전투를 다섯 번 승리하고 돌아오너라.,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_2001_InProgress_01,Quest_2001_InProgress,0,0,0,Idle,Quest_2001_InProgress,1,Quest_2001_InProgress_01,Npc,0,엘라돈,새로운 지역의 전투는 마을 근처와 다를 것이다. 준비를 게을리하지 마라.,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_2001_TurnIn_01,Quest_2001_TurnIn,0,0,0,Idle,Quest_2001_TurnIn,1,Quest_2001_TurnIn_01,Npc,0,엘라돈,낯선 곳에서도 다섯 번의 승리를 거두었구나.,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_2001_TurnIn_02,Quest_2001_TurnIn,0,0,0,Idle,Quest_2001_TurnIn,2,Quest_2001_TurnIn_02,Npc,0,엘라돈,이제 너도 스스로 길을 선택할 준비가 되어 가는구나.,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_2002_Offer_01,Quest_2002_Offer,0,0,0,Idle,Quest_2002_Offer,1,Quest_2002_Offer_01,Npc,0,엘라돈,붙잡혀 착취당하는 나이아들이 있다는 소식이 들려왔다.,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_2002_Offer_02,Quest_2002_Offer,0,0,0,Idle,Quest_2002_Offer,2,Quest_2002_Offer_02,Npc,0,엘라돈,해방에 필요한 단서나 물품 세 개를 모아 오너라.,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_2002_InProgress_01,Quest_2002_InProgress,0,0,0,Idle,Quest_2002_InProgress,1,Quest_2002_InProgress_01,Npc,0,엘라돈,해방에 필요한 물품 세 개를 모두 확보해야 한다.,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_2002_TurnIn_01,Quest_2002_TurnIn,0,0,0,Idle,Quest_2002_TurnIn,1,Quest_2002_TurnIn_01,Npc,0,엘라돈,필요한 준비를 모두 마쳤구나.,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_2002_TurnIn_02,Quest_2002_TurnIn,0,0,0,Idle,Quest_2002_TurnIn,2,Quest_2002_TurnIn_02,Npc,0,엘라돈,이제 붙잡힌 나이아들을 구할 수 있겠다.,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_3001_Offer_01,Quest_3001_Offer,0,0,0,Idle,Quest_3001_Offer,1,Quest_3001_Offer_01,Npc,0,가레스,마침 자네에게 부탁할 일이 있었네.,/Engine/EngineResources/AICON-Red.AICON-Red
+Quest_3001_Offer_02,Quest_3001_Offer,0,0,0,Idle,Quest_3001_Offer,2,Quest_3001_Offer_02,Npc,0,가레스,장사에 필요한 물건 다섯 개만 구해다 주겠나?,/Engine/EngineResources/AICON-Red.AICON-Red
+Quest_3001_InProgress_01,Quest_3001_InProgress,0,0,0,Idle,Quest_3001_InProgress,1,Quest_3001_InProgress_01,Npc,0,가레스,부탁한 물건은 다섯 개일세. 서두를 필요는 없네.,/Engine/EngineResources/AICON-Red.AICON-Red
+Quest_3001_TurnIn_01,Quest_3001_TurnIn,0,0,0,Idle,Quest_3001_TurnIn,1,Quest_3001_TurnIn_01,Npc,0,가레스,전부 구해 왔군. 덕분에 장사를 이어갈 수 있겠어.,/Engine/EngineResources/AICON-Red.AICON-Red
+Quest_3002_Offer_01,Quest_3002_Offer,0,0,0,Idle,Quest_3002_Offer,1,Quest_3002_Offer_01,Npc,4003,루디,광산에 들어간 광부 하나가 돌아오지 않고 있어.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4003_Portrait.T_NPC_4003_Portrait
+Quest_3002_Offer_02,Quest_3002_Offer,0,0,0,Idle,Quest_3002_Offer,2,Quest_3002_Offer_02,Npc,4003,루디,그를 찾아 이야기를 들어 보고 소식을 전해 주게.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4003_Portrait.T_NPC_4003_Portrait
+Quest_3002_InProgress_01,Quest_3002_InProgress,0,0,0,Idle,Quest_3002_InProgress,1,Quest_3002_InProgress_01,Npc,4003,루디,광부를 찾으면 무슨 일이 있었는지 꼭 물어봐 주게.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4003_Portrait.T_NPC_4003_Portrait
+Quest_3002_TurnIn_01,Quest_3002_TurnIn,0,0,0,Idle,Quest_3002_TurnIn,1,Quest_3002_TurnIn_01,Npc,4003,루디,무사하다는 소식을 들으니 다행이군.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4003_Portrait.T_NPC_4003_Portrait
+Quest_3002_TurnIn_02,Quest_3002_TurnIn,0,0,0,Idle,Quest_3002_TurnIn,2,Quest_3002_TurnIn_02,Npc,4003,루디,걱정을 덜어 줘서 고맙네.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4003_Portrait.T_NPC_4003_Portrait
+Quest_3003_Offer_01,Quest_3003_Offer,0,0,0,Idle,Quest_3003_Offer,1,Quest_3003_Offer_01,Npc,4011,티온,우리 지금 광장에서 숨바꼭질 중이야. 숨어 있는 아이 셋을 찾아 줄래?,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_3003_Offer_02,Quest_3003_Offer,0,0,0,Idle,Quest_3003_Offer,2,Quest_3003_Offer_02,Npc,4011,티온,아이들을 찾으면 말을 걸어 줘. 모두 찾고 나한테 돌아오면 돼!,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_3003_InProgress_01,Quest_3003_InProgress,0,0,0,Idle,Quest_3003_InProgress,1,Quest_3003_InProgress_01,Npc,4011,티온,"아직 못 찾은 아이가 있어. 분수와 나무 상자, 골목 근처를 잘 살펴봐!",/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_3003_TurnIn_01,Quest_3003_TurnIn,0,0,0,Idle,Quest_3003_TurnIn,1,Quest_3003_TurnIn_01,Npc,4011,티온,정말 셋을 전부 찾았네! 다들 네가 엄청 빨랐다고 하더라.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_3003_TurnIn_02,Quest_3003_TurnIn,0,0,0,Idle,Quest_3003_TurnIn,2,Quest_3003_TurnIn_02,Npc,4011,티온,덕분에 숨바꼭질이 더 재미있어졌어. 고마워!,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_3003_Completed_01,Quest_3003_Completed,0,0,0,Idle,Quest_3003_Completed,1,Quest_3003_Completed_01,Npc,4011,티온,다음엔 내가 숨을 차례야. 그때도 꼭 같이 놀자!,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_3003_Target_01,Quest_3003_Target,0,0,0,Idle,Quest_3003_Target,1,Quest_3003_Target_01,Npc,0,숨은 아이,"앗, 찾았다! 티온에게 먼저 돌아가 있을게.",/Engine/EngineResources/AICON-Red.AICON-Red
+Quest_3003_Target_02,Quest_3003_Target,0,0,0,Idle,Quest_3003_Target,2,Quest_3003_Target_02,Player,0,,광장에 숨은 아이 한 명을 찾았다.,None
+Quest_10900_Offer_01,Quest_10900_Offer,0,0,0,Idle,Quest_10900_Offer,1,Quest_10900_Offer_01,Npc,4011,티온,큰일 났어. 내가 아끼는 나무 팽이를 광장에서 잃어버렸어.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_10900_Offer_02,Quest_10900_Offer,0,0,0,Idle,Quest_10900_Offer,2,Quest_10900_Offer_02,Npc,4011,티온,풀숲이나 나무 상자 근처에 떨어졌을 거야. 찾아 줄 수 있어?,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_10900_InProgress_01,Quest_10900_InProgress,0,0,0,Idle,Quest_10900_InProgress,1,Quest_10900_InProgress_01,Npc,4011,티온,갈색 나무에 금빛 띠가 둘러진 팽이야. 광장을 다시 찾아봐 줘.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_10900_TurnIn_01,Quest_10900_TurnIn,0,0,0,Idle,Quest_10900_TurnIn,1,Quest_10900_TurnIn_01,Npc,4011,티온,내 팽이다! 흠집까지 그대로야. 정말 찾아 줬구나!,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_10900_TurnIn_02,Quest_10900_TurnIn,0,0,0,Idle,Quest_10900_TurnIn,2,Quest_10900_TurnIn_02,Npc,4011,티온,고마워. 다음에 팽이 돌리는 법도 알려 줄게!,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_10900_Completed_01,Quest_10900_Completed,0,0,0,Idle,Quest_10900_Completed,1,Quest_10900_Completed_01,Npc,4011,티온,팽이는 이번엔 주머니 깊숙이 넣어 뒀어. 이제 안 잃어버릴 거야!,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+Quest_10900_Target_01,Quest_10900_Target,0,0,0,Idle,Quest_10900_Target,1,Quest_10900_Target_01,Player,0,,풀숲 아래에서 금빛 띠가 둘러진 나무 팽이를 발견했다.,None
+Quest_10900_Target_02,Quest_10900_Target,0,0,0,Idle,Quest_10900_Target,2,Quest_10900_Target_02,Player,0,,티온이 찾던 팽이가 틀림없다. 챙겨서 돌려주자.,None
+Quest_3005_Offer_01,Quest_3005_Offer,0,0,0,Idle,Quest_3005_Offer,1,Quest_3005_Offer_01,Npc,4012,브란,공방에 쓸 목재가 모자라.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4012_Portrait.T_NPC_4012_Portrait
+Quest_3005_Offer_02,Quest_3005_Offer,0,0,0,Idle,Quest_3005_Offer,2,Quest_3005_Offer_02,Npc,4012,브란,뒷숲에서 쓸 만한 목재 여덟 개를 모아다 주겠나?,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4012_Portrait.T_NPC_4012_Portrait
+Quest_3005_InProgress_01,Quest_3005_InProgress,0,0,0,Idle,Quest_3005_InProgress,1,Quest_3005_InProgress_01,Npc,4012,브란,뒤틀렸어도 결이 살아 있는 목재면 쓸 수 있어. 여덟 개 필요하네.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4012_Portrait.T_NPC_4012_Portrait
+Quest_3005_TurnIn_01,Quest_3005_TurnIn,0,0,0,Idle,Quest_3005_TurnIn,1,Quest_3005_TurnIn_01,Npc,4012,브란,좋은 목재를 골라 왔군.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4012_Portrait.T_NPC_4012_Portrait
+Quest_3005_TurnIn_02,Quest_3005_TurnIn,0,0,0,Idle,Quest_3005_TurnIn,2,Quest_3005_TurnIn_02,Npc,4012,브란,이 정도면 공방 일을 이어갈 수 있겠어.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4012_Portrait.T_NPC_4012_Portrait
+Quest_3006_Offer_01,Quest_3006_Offer,0,0,0,Idle,Quest_3006_Offer,1,Quest_3006_Offer_01,Npc,4012,브란,공방 뒷숲에 불청객들이 들끓고 있어.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4012_Portrait.T_NPC_4012_Portrait
+Quest_3006_Offer_02,Quest_3006_Offer,0,0,0,Idle,Quest_3006_Offer,2,Quest_3006_Offer_02,Npc,4012,브란,녀석 다섯을 처리해 주겠나?,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4012_Portrait.T_NPC_4012_Portrait
+Quest_3006_InProgress_01,Quest_3006_InProgress,0,0,0,Idle,Quest_3006_InProgress,1,Quest_3006_InProgress_01,Npc,4012,브란,불청객 다섯을 몰아내기 전에는 목재를 구하러 가기 어렵네.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4012_Portrait.T_NPC_4012_Portrait
+Quest_3006_TurnIn_01,Quest_3006_TurnIn,0,0,0,Idle,Quest_3006_TurnIn,1,Quest_3006_TurnIn_01,Npc,4012,브란,숲이 조용해졌군. 솜씨가 제법이야.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4012_Portrait.T_NPC_4012_Portrait
+Quest_3007_Offer_01,Quest_3007_Offer,0,0,0,Idle,Quest_3007_Offer,1,Quest_3007_Offer_01,Npc,4013,세라디,요즘 우물물이 자꾸 흐려지는구나.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4013_Portrait.T_NPC_4013_Portrait
+Quest_3007_Offer_02,Quest_3007_Offer,0,0,0,Idle,Quest_3007_Offer,2,Quest_3007_Offer_02,Npc,4013,세라디,주변을 어지럽히는 녀석 여섯을 처리해 주겠니?,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4013_Portrait.T_NPC_4013_Portrait
+Quest_3007_InProgress_01,Quest_3007_InProgress,0,0,0,Idle,Quest_3007_InProgress,1,Quest_3007_InProgress_01,Npc,4013,세라디,우물을 맑게 하려면 원인이 되는 녀석 여섯을 모두 몰아내야 한단다.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4013_Portrait.T_NPC_4013_Portrait
+Quest_3007_TurnIn_01,Quest_3007_TurnIn,0,0,0,Idle,Quest_3007_TurnIn,1,Quest_3007_TurnIn_01,Npc,4013,세라디,물이 다시 맑아졌구나.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4013_Portrait.T_NPC_4013_Portrait
+Quest_3007_TurnIn_02,Quest_3007_TurnIn,0,0,0,Idle,Quest_3007_TurnIn,2,Quest_3007_TurnIn_02,Npc,4013,세라디,마을 사람들이 안심하고 우물을 쓰겠어.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4013_Portrait.T_NPC_4013_Portrait
+Quest_3008_Offer_01,Quest_3008_Offer,0,0,0,Idle,Quest_3008_Offer,1,Quest_3008_Offer_01,Npc,4013,세라디,바람이 빨랫감을 전부 날려 버렸지 뭐니.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4013_Portrait.T_NPC_4013_Portrait
+Quest_3008_Offer_02,Quest_3008_Offer,0,0,0,Idle,Quest_3008_Offer,2,Quest_3008_Offer_02,Npc,4013,세라디,마을에 흩어진 빨랫감 다섯 장을 찾아 주겠니?,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4013_Portrait.T_NPC_4013_Portrait
+Quest_3008_InProgress_01,Quest_3008_InProgress,0,0,0,Idle,Quest_3008_InProgress,1,Quest_3008_InProgress_01,Npc,4013,세라디,빨랫감은 다섯 장이란다. 바람이 데려간 곳을 잘 살펴보렴.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4013_Portrait.T_NPC_4013_Portrait
+Quest_3008_TurnIn_01,Quest_3008_TurnIn,0,0,0,Idle,Quest_3008_TurnIn,1,Quest_3008_TurnIn_01,Npc,4013,세라디,빠짐없이 찾아왔구나. 정말 고맙다.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4013_Portrait.T_NPC_4013_Portrait
+Quest_1001_Offer_01,Quest_1001_Offer,0,0,0,Idle,Quest_1001_Offer,1,Quest_1001_Offer_01,Npc,0,가이드,처음 보는 얼굴이군요.,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_1001_Offer_02,Quest_1001_Offer,0,0,0,Idle,Quest_1001_Offer,2,Quest_1001_Offer_02,Npc,0,가이드,오른쪽 관문으로 이동해 루간을 만나세요.,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_1001_InProgress_01,Quest_1001_InProgress,0,0,0,Idle,Quest_1001_InProgress,1,Quest_1001_InProgress_01,Npc,0,가이드,오른쪽 관문으로 가시면 됩니다.,/Engine/EngineResources/AICON-Green.AICON-Green
+Quest_1002_Offer_01,Quest_1002_Offer,0,0,0,Idle,Quest_1002_Offer,1,Quest_1002_Offer_01,Npc,4005,루간,안내를 받고 왔군.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_1002_Offer_02,Quest_1002_Offer,0,0,0,Idle,Quest_1002_Offer,2,Quest_1002_Offer_02,Npc,4005,루간,근처 야생 정령 세 마리를 상대해 보게.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_1002_InProgress_01,Quest_1002_InProgress,0,0,0,Idle,Quest_1002_InProgress,1,Quest_1002_InProgress_01,Npc,4005,루간,아직 야생 정령 세 마리를 모두 상대하지 못했군.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_1002_TurnIn_01,Quest_1002_TurnIn,0,0,0,Idle,Quest_1002_TurnIn,1,Quest_1002_TurnIn_01,Npc,4005,루간,야생 정령 세 마리를 모두 상대했군.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_1002_TurnIn_02,Quest_1002_TurnIn,0,0,0,Idle,Quest_1002_TurnIn,2,Quest_1002_TurnIn_02,Npc,4005,루간,좋아. 첫 전투치고는 훌륭했네.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_1003_Offer_01,Quest_1003_Offer,0,0,0,Idle,Quest_1003_Offer,1,Quest_1003_Offer_01,Npc,4005,루간,전투의 기본은 익힌 모양이군.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_1003_Offer_02,Quest_1003_Offer,0,0,0,Idle,Quest_1003_Offer,2,Quest_1003_Offer_02,Npc,4005,루간,이번에는 교감석을 사용해 나이아 한 마리를 포획해 보게.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_1003_InProgress_01,Quest_1003_InProgress,0,0,0,Idle,Quest_1003_InProgress,1,Quest_1003_InProgress_01,Npc,4005,루간,서두르지 말게. 나이아의 움직임을 살피고 교감석을 사용해 보게.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_1003_TurnIn_01,Quest_1003_TurnIn,0,0,0,Idle,Quest_1003_TurnIn,1,Quest_1003_TurnIn_01,Npc,4005,루간,나이아와 첫 교감을 맺었군.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_1003_TurnIn_02,Quest_1003_TurnIn,0,0,0,Idle,Quest_1003_TurnIn,2,Quest_1003_TurnIn_02,Npc,4005,루간,힘으로 누르는 것보다 마음을 읽는 일이 더 중요하다는 걸 기억하게.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+Quest_3003_Child01_Target_01,Quest_3003_Child01_Target,0,0,0,Idle,Quest_3003_Child01_Target,1,Quest_3003_Child01_Target_01,Npc,0,레미,"앗, 분수 뒤면 완벽할 줄 알았는데! 티온에게 돌아가 있을게.",/Engine/EngineResources/AICON-Red.AICON-Red
+Quest_3003_Child01_Target_02,Quest_3003_Child01_Target,0,0,0,Idle,Quest_3003_Child01_Target,2,Quest_3003_Child01_Target_02,Player,0,,분수 근처에 숨은 레미를 찾았다.,None
+Quest_3003_Child02_Target_01,Quest_3003_Child02_Target,0,0,0,Idle,Quest_3003_Child02_Target,1,Quest_3003_Child02_Target_01,Npc,0,도란,"상자 뒤까지 찾아오다니, 정말 빠르네! 나도 광장으로 돌아갈게.",/Engine/EngineResources/AICON-Red.AICON-Red
+Quest_3003_Child02_Target_02,Quest_3003_Child02_Target,0,0,0,Idle,Quest_3003_Child02_Target,2,Quest_3003_Child02_Target_02,Player,0,,나무 상자 뒤에 숨은 도란을 찾았다.,None
+Quest_3003_Child03_Target_01,Quest_3003_Child03_Target,0,0,0,Idle,Quest_3003_Child03_Target,1,Quest_3003_Child03_Target_01,Npc,0,미오,여기 골목까지 살펴볼 줄은 몰랐어. 티온에게 먼저 가 있을게!,/Engine/EngineResources/AICON-Red.AICON-Red
+Quest_3003_Child03_Target_02,Quest_3003_Child03_Target,0,0,0,Idle,Quest_3003_Child03_Target,2,Quest_3003_Child03_Target_02,Player,0,,골목 구석에 숨은 미오를 찾았다.,None
+14054,QuestStory_10002_Lantern,0,0,0,Idle,None,1,ST_DLG_14054,Npc,4001,노아,"만지지 마, 그거. 안 물어. 그냥... 삐지면 얘네 빛이 죽어서 내가 곤란해. 여긴 그냥 길을 밝혀주는 용도로 써.",None
+14026,QuestStory_1000701,0,0,0,Idle,None,1,ST_DLG_LI_MAIN107_01_01,Narration,0,,뿌리가 얽혀 만든 문이 길을 막는다. 틈 사이로 새어 나오는 빛이 어딘가 낯익다. 그것이 무엇을 감추고 있는지는 아직 알 수 없다.,None
+14029,QuestStory_1000803,0,0,0,Idle,None,1,ST_DLG_LI_MAIN108_02_01,Narration,0,,푸루나가 물병을 툭 내려놓는다. 아직도 돗자리 한쪽 끝은 붙잡은 채다.,None
+14038,QuestStory_1001201,0,0,0,Idle,None,1,ST_DLG_LI_MAIN112_02_01,Narration,0,,휘리가 천 조각을 물고 와 억새 위에 정확히 걸어놓는다.,None
+14043,Quest_10014_NPC4005_Target_OBJ1001401,4005,10014,1001401,Target,None,1,ST_DLG_LI_MAIN114_01_02,Npc,4001,노아,…손놀림 좋다고 했잖아. 처음부터.,None
+14044,Quest_10014_NPC4005_Target_OBJ1001401,4005,10014,1001401,Target,None,2,ST_DLG_LI_MAIN114_01_03,Npc,4003,루디,무기 다시 봐줄게. 이번엔 진짜 좋은 걸로.,None
+14053,QuestStory_1001602,0,0,0,Idle,None,1,ST_DLG_LI_MAIN116_02_01,Narration,0,,"브램블코어가 몸을 낮춘다. 진 것도, 이긴 것도 아니다. 그저 인정했을 뿐이다.",None
+NPC_4001_Default_01,NPC_4001_Default,4001,0,0,Idle,NPC_4001_Default,1,NPC_4001_Default_01,Npc,4001,노아,창가 침대는 밤에 찬 바람이 새어 들어오니까 덧문 꼭 닫고 자. …어디서 굴러왔는지는 안 물어. 여관에서 손님 사정 캐면 장사 접어야 해.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4001_Portrait.T_NPC_4001_Portrait
+NPC_4002_Default_01,NPC_4002_Default,4002,0,0,Idle,NPC_4002_Default,1,NPC_4002_Default_01,Npc,4002,시안,"옭아매인 마력이 근처에서 울리고 있네... 귀가 찌릿거려서 잠을 잘 수가 없어. 너, 주머니 속에 그거... 아르카디아의 마공학 물품이니? 당장 치워줄래?",/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4002_Portrait.T_NPC_4002_Portrait
+NPC_4005_Default_01,NPC_4005_Default,4005,0,0,Idle,NPC_4005_Default,1,NPC_4005_Default_01,Npc,4005,루간,"리븐우드 나무에 리본이나 똑바로 매고 와라. 숲의 바람이 네 냄새를 받아들이면, 그때 다시 이야기하지.",/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4005_Portrait.T_NPC_4005_Portrait
+NPC_4010_Default_01,NPC_4010_Default,4010,0,0,Idle,NPC_4010_Default,1,NPC_4010_Default_01,Npc,4010,로든,"공방 마당 쪽에서 또 놋쇠 소리가 쾅쾅 나던데, 루디가 또 기계를 터뜨렸나 보구먼. 기웃거릴 거면 머리 조심해라!",/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4010_Portrait.T_NPC_4010_Portrait
+NPC_4011_Default_01,NPC_4011_Default,4011,0,0,Idle,NPC_4011_Default,1,NPC_4011_Default_01,Npc,4011,티온,실은 소풍 갔다가 풀 정령한테 내 아지트 돗자리랑 물병을 빼앗겼어... 대신 찾아주면 내 비밀 보물창고 위치 알려줄게!,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4011_Portrait.T_NPC_4011_Portrait
+NPC_4017_Default_01,NPC_4017_Default,4017,0,0,Idle,NPC_4017_Default,1,NPC_4017_Default_01,Npc,4017,엘라던,에코크라운의 문을 열겠노라. 저 균열 너머에서 그대의 진정한 운명이 시작될 것이다.,/Game/Art/Sprites/NPC/Libergrove/Textures/T_NPC_4017_Portrait.T_NPC_4017_Portrait
+NPC_4003_Default_01,NPC_4003_Default,4003,0,0,Idle,NPC_4003_Default,1,NPC_4003_Default_01,Npc,4003,루디,엠버킬른 가마에서 숯 좀 집어와 줘. 불꽃 출력이 3% 부족하단 말이야! 터지면 어떡하냐고? 지금 날 못 믿는거야?,None
+NPC_4003_Prompt_01,NPC_4003_Prompt,4003,0,0,Idle,NPC_4003_Prompt,1,NPC_4003_Prompt_01,Npc,4003,루디,"망치질 소리 안 들려?! 지금 집중 중이니까 10초만 기다려! ...휴, 됐다. 그래서, 내 명작을 수리하러 온 거야, 아니면 너만의 명작을 만들러 온 거야?",None
+NPC_4004_Default_01,NPC_4004_Default,4004,0,0,Idle,NPC_4004_Default,1,NPC_4004_Default_01,Npc,4004,릴리,"너, 사냥꾼 냄새가 아니라... 숲냄새가 나기 시작했네? 나쁘지 않아.",None
+NPC_4004_Prompt_01,NPC_4004_Prompt,4004,0,0,Idle,NPC_4004_Prompt,1,NPC_4004_Prompt_01,Npc,4004,릴리,너... 발소리가 너무 커. 상처입은 나이아들이 깨잖아. 피곤하면 저쪽 이끼 방석에 누워. 신발은 벗고!,None
+NPC_4006_Default_01,NPC_4006_Default,4006,0,0,Idle,NPC_4006_Default,1,NPC_4006_Default_01,Npc,4006,엘라라,미스트웰에서 퍼온 샘물과 선할로우의 찻잎을 섞어보세요. 마음을 진정시키는 유용한 시약이 될 거예요.,None
+NPC_4006_Prompt_01,NPC_4006_Prompt,4006,0,0,Idle,NPC_4006_Prompt,1,NPC_4006_Prompt_01,Npc,4006,엘라라,시들어가는 약초라도 나이아의 온기는 남아있어요. 조심스럽게 다루면 훌륭한 회복 포션이 되죠.,None
+NPC_4007_Default_01,NPC_4007_Default,4007,0,0,Idle,NPC_4007_Default,1,NPC_4007_Default_01,Npc,4007,토르벤,"회랑 데크가 삐걱거린다고? 잠깐 기다려봐, 목재가 수분을 머금어서 소리가 나는 거니까 함부로 건드리지 마!",None
+NPC_4007_Prompt_01,NPC_4007_Prompt,4007,0,0,Idle,NPC_4007_Prompt,1,NPC_4007_Prompt_01,Npc,4007,토르벤,이 물레방아 축 좀 봐라! 100년을 굴렀어도 이음새 하나 틀어진 게 없어. 쇠붙이 따위나 박아대는 도시 놈들이 뭘 알겠냐?,None
+NPC_4008_Default_01,NPC_4008_Default,4008,0,0,Idle,NPC_4008_Default,1,NPC_4008_Default_01,Npc,4008,메리스,도시에서는 기계로 실을 짜낸다면서요? 나이아의 손길 없이 짜낸 옷은 바람을 맞으면 금세 상해버린답니다.,None
+NPC_4008_Prompt_01,NPC_4008_Prompt,4008,0,0,Idle,NPC_4008_Prompt,1,NPC_4008_Prompt_01,Npc,4008,메리스,오늘 보우리지에서 불어오는 바람은 습기가 많네요. 염색 천을 말리기엔 시간이 좀 걸리겠어요.,None
+NPC_4009_Default_01,NPC_4009_Default,4009,0,0,Idle,NPC_4009_Default,1,NPC_4009_Default_01,Npc,4009,케란,"오늘 사냥터 쪽 냄새가 바뀌었어. 바람이 북쪽에서 불어오는데, 숲으로 나갈 거면 보우리지 오솔길 쪽은 조심하는 게 좋아.",None
+NPC_4009_Prompt_01,NPC_4009_Prompt,4009,0,0,Idle,NPC_4009_Prompt,1,NPC_4009_Prompt_01,Npc,4009,케란,어이! 밭고랑 사이로 다니지 말라니까! 풀 정령 녀석들이 또 싹을 밟아놓았잖아!,None
+NPC_4012_Default_01,NPC_4012_Default,4012,0,0,Idle,NPC_4012_Default,1,NPC_4012_Default_01,Npc,4012,브란,루트스테어 돌계단에 쓸 강돌을 좀 운반해다 다오. 늙은이 허리가 비명을 질러서 말이지.,None
+NPC_4012_Prompt_01,NPC_4012_Prompt,4012,0,0,Idle,NPC_4012_Prompt,1,NPC_4012_Prompt_01,Npc,4012,브란,"나무는 베어진 순간 죽는 게 아니다. 집이 되고 다리가 되어 새로운 숨을 쉬는 게지. ...쯧, 젊은 놈들이 대패질 기교만 늘어서는.",None
+NPC_4013_Default_01,NPC_4013_Default,4013,0,0,Idle,NPC_4013_Default,1,NPC_4013_Default_01,Npc,4013,세라디,미스트웰 샘물에 다녀올 테냐? 안개가 아주 짙을 테니 자박자박 발소리를 내며 걸으렴. 샘가의 물 정령이 안개를 거둬줄 게다.,None
+NPC_4013_Prompt_01,NPC_4013_Prompt,4013,0,0,Idle,NPC_4013_Prompt,1,NPC_4013_Prompt_01,Npc,4013,세라디,"아이구, 장난꾸러기 물 정령 녀석이 옷에 물을 한 바가지나 쏟았네! 내가 못 살아 정말. 호호호.",None
+NPC_4014_Default_01,NPC_4014_Default,4014,0,0,Idle,NPC_4014_Default,1,NPC_4014_Default_01,Npc,4014,카알라,나이아의 온기가 스민 야생 버섯 수프야. 한 접시 먹으면 온몸에 열이 불끈불끈 솟을 걸?,None
+NPC_4014_Prompt_01,NPC_4014_Prompt,4014,0,0,Idle,NPC_4014_Prompt,1,NPC_4014_Prompt_01,Npc,4014,카알라,배고픈 전사는 땔감 없는 화덕이나 마찬가지야! 전투 나가기 전에 수프 한 그릇 뚝딱 비우고 가!,None
+NPC_4015_Default_01,NPC_4015_Default,4015,0,0,Idle,NPC_4015_Default,1,NPC_4015_Default_01,Npc,4015,가렛,"직접 채집하러 숲속을 헤매는 건 초보들이나 하는 짓이지, 시간 낭비니까. 내 수레에서 사 가!",None
+NPC_4015_Prompt_01,NPC_4015_Prompt,4015,0,0,Idle,NPC_4015_Prompt,1,NPC_4015_Prompt_01,Npc,4015,가렛,골라 골라! 엠버킬른산 고순도 숯부터 선할로우의 싱싱한 약초 뿌리까지 전부 다 있다고!,None
+NPC_4016_Default_01,NPC_4016_Default,4016,0,0,Idle,NPC_4016_Default,1,NPC_4016_Default_01,Npc,4016,바니엘,새로운 무기나 도구를 만들고 싶으신가요? 제 레시피 청사진을 구매해서 루디나 브란에게 가져가 보세요.,None
+NPC_4016_Prompt_01,NPC_4016_Prompt,4016,0,0,Idle,NPC_4016_Prompt,1,NPC_4016_Prompt_01,Npc,4016,바니엘,선의 각도가 1도만 틀어져도 마력의 공명 효율이 급격히 떨어집니다. 이 도면은 완벽하게 계산되었죠.,None
+14901,Quest_10005_NPC4009_Target_OBJ1000506,4009,10005,1000506,Target,None,1,ST_DLG_LI_MAIN105_SOUP_KERAN,Npc,4009,케란,"...아, 카알라가 보낸 거냐? 이 냄새는 못 참지. 마침 배가 등짝에 붙던 참이었다. 잘 먹으마.",None
+14902,FieldStory_BramblecoreWarning,0,0,0,Idle,None,1,ST_DLG_LI_FIELD_BRAMBLECORE_WARN_01,Narration,0,,앞에서 위험한 기운이 느껴집니다.,None
+14903,QuestStory_10005_Done,0,0,0,Idle,None,1,ST_DLG_LI_MAIN105_DONE_01,Narration,0,,다섯 장인의 잔심부름을 모두 마쳤다. 공방 일이 어느새 손에 익었다.,None
+14090,Quest_10051_NPC4003_Target_OBJ1005102,4003,10051,1005102,Target,None,1,ST_DLG_LI_SIDE101_01_01,Npc,4003,루디,"정식으로 배우고 싶다고? …흠, 나쁘지 않지. 근데 내 밑에서 배우려면 대충은 안 통한다. 화덕 앞에서 버텨봐.",None
+14091,Quest_10051_NPC4003_Target_OBJ1005102,4003,10051,1005102,Target,None,2,ST_DLG_LI_SIDE101_01_02,Npc,4003,루디,이제 이거 걸치고 다녀. 오늘부터 내 제자다.,None
+14092,Quest_10051_NPC4012_Target_OBJ1005102,4012,10051,1005102,Target,None,1,ST_DLG_LI_SIDE101_02_01,Npc,4012,브란,"나무는 서두르는 손을 제일 싫어한다. 천천히, 결을 보는 법부터 가르쳐주마.",None
+14093,Quest_10051_NPC4012_Target_OBJ1005102,4012,10051,1005102,Target,None,2,ST_DLG_LI_SIDE101_02_02,Npc,4012,브란,이제부터 내 마당에서 톱질 좀 해도 된다는 뜻이다. 걸쳐라.,None
+14094,Quest_10051_NPC4006_Target_OBJ1005102,4006,10051,1005102,Target,None,1,ST_DLG_LI_SIDE101_03_01,Npc,4006,엘라라,"좋아요, 그럼 오늘부터 제 조수네요. 증류기 다루는 거, 생각보다 섬세한 일이에요.",None
+14095,Quest_10051_NPC4006_Target_OBJ1005102,4006,10051,1005102,Target,None,2,ST_DLG_LI_SIDE101_03_02,Npc,4006,엘라라,"자, 이제 진짜 제 조수예요. 잘 부탁해요.",None
+14096,Quest_10051_NPC4008_Target_OBJ1005102,4008,10051,1005102,Target,None,1,ST_DLG_LI_SIDE101_04_01,Npc,4008,메리스,"실 감는 법부터 시작할 거예요. 지루해도 참으세요, 다들 그렇게 배웠으니까.",None
+14097,Quest_10051_NPC4008_Target_OBJ1005102,4008,10051,1005102,Target,None,2,ST_DLG_LI_SIDE101_04_02,Npc,4008,메리스,이제 이거 입고 실 감아요. 오늘부터 제 밑이에요.,None
+14098,Quest_10051_NPC4014_Target_OBJ1005102,4014,10051,1005102,Target,None,1,ST_DLG_LI_SIDE101_05_01,Npc,4014,카알라,"좋아, 오늘부터 내 부엌이다! 간 보는 법부터 배워야지.",None
+14099,Quest_10051_NPC4014_Target_OBJ1005102,4014,10051,1005102,Target,None,2,ST_DLG_LI_SIDE101_05_02,Npc,4014,카알라,"자, 이제 이거 두르고 국자 잡아. 부엌은 손 많을수록 좋다.",None
+14910,Quest_10003_NPC4003_Target_OBJ1000301,4003,10003,1000301,Target,None,2,ST_DLG_14910,Npc,4003,루디,"노아 말로는 3년째 주인이 안 찾아갔다지? 이 정도 물건을 두고 간 걸 보면, 어지간히 급했나 보네.",None
+14911,Quest_10004_NPC4005_Offer,4005,10004,0,Offer,None,2,ST_DLG_14911,Npc,4005,루간,"이 마을은 지도에 없다. 찾아오는 놈은 드물고, 찾아오는 놈은 대개 뭔가에 쫓기던 얼굴이지. 너는 쫓기는 얼굴은 아니네. 길 잃은 얼굴이야.",None
+14912,Quest_10004_NPC4005_Target_OBJ1000401,4005,10004,1000401,Target,None,2,ST_DLG_14912,Npc,4005,루간,"그리고 하나. 네 이름은 아직 안 부른다. 나무패가 걸리면 그때, 다들 부를 거다.",None
+14913,QuestStory_10002_Lantern,0,0,0,Idle,None,2,ST_DLG_14913,Npc,4001,노아,…저게 처음 보는 사람한테 저러는 건 처음 보네.,None
+14914,QuestStory_10005_EmptyWorkbench,0,0,0,Idle,None,1,ST_DLG_14914,Npc,4012,브란,저 자리? 건드리지 마라. …먼지는 털어도 되고.,None
+14915,QuestStory_10006_InjuredNaia,0,0,0,Idle,None,1,ST_DLG_14915,Npc,4004,릴리,이 애는 바깥에서 왔어. 풀어줘도 한참을 그 자리에 가만히 서 있더라. …어디가 열린 문인지 몰라서.,None
+14916,QuestStory_10006_InjuredNaia,0,0,0,Idle,None,2,ST_DLG_14916,Npc,4004,릴리,"…발 조심해라, 자는 애들 깬다.",None
+14917,Quest_10007_NPC4005_Target_OBJ1000702,4005,10007,1000702,Target,None,2,ST_DLG_14917,Npc,4005,루간,저 안엔 100년 전에 열린 틈이 있다. 알아도 되는 건 거기까지다.,None
+14918,Quest_10007_NPC4005_Target_OBJ1000702,4005,10007,1000702,Target,None,3,ST_DLG_14918,Npc,4005,루간,여섯 조우지부터 다녀와. 게시판에 다 붙여놨다.,None
+14919,Quest_10017_NPC4017_Target_OBJ1001701,4017,10017,1001701,Target,None,2,ST_DLG_14919,Npc,4017,엘라던,"처음 그대를 봤을 때 알았다. 이 땅 사람이 아니라는 것도, 저 틈이 그대를 알아본다는 것도. …그래도 그대는 오늘 이곳 사람이다. 에코크라운의 문을 열겠노라. 그 너머로 가는 길은 그대가 정하도록. 돌아올 자리는 이미 여관 창가에 있으니.",None

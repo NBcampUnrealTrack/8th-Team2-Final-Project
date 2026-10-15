@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"type\": \"image_to_model\",\n  \"status\": \"success\",\n  \"progress\": 100,\n  \"input\": {\n    \"pbr\": true,\n    \"file\": {\n      \"type\": \"jpeg\",\n      \"object\": {\n        \"key\": \"tcli_33f767858dee44c5bacdc60beb29672f/20260905/898ef2ed-af4a-49b7-86d8-cc68a9ffab0e/image.jpeg\",\n        \"bucket\": \"tripo-data\"\n      }\n    },\n    \"quad\": true,\n    \"texture\": true,\n    \"auto_size\": false,\n    \"export_uv\": true,\n    \"face_limit\": 600,\n    \"model_version\": \"P2-20260801\",\n    \"texture_quality\": \"standard\",\n    \"enable_image_autofix\": false\n  },\n  \"task_id\": \"898ef2ed-af4a-49b7-86d8-cc68a9ffab0e\",\n  \"created_at\": \"2026-09-05T07:59:03.175148Z\",\n  \"completed_at\": \"2026-09-05T08:00:04.646960Z\",\n  \"credits_consumed\": 110.0,\n  \"output_files\": {\n    \"model_url\": \"tripo_pbr_model_898ef2ed-af4a-49b7-86d8-cc68a9ffab0e.fbx\",\n    \"rendered_image_url\": \"legacy_mesh.webp\"\n  }\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

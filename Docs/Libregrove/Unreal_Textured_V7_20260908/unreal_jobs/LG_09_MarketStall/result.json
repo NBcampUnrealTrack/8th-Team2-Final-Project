@@ -1,0 +1,19 @@
+{
+  "status": "finished",
+  "id": "LG_09_MarketStall",
+  "destination": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall",
+  "objects": [
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Textures/LG_09_MarketStall_fbx_basecolor.LG_09_MarketStall_fbx_basecolor",
+      "class": "Texture2D"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Materials/tripo_mat_62cb0827.tripo_mat_62cb0827",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/StaticMeshes/SM_LG_09_MarketStall_V7.SM_LG_09_MarketStall_V7",
+      "class": "StaticMesh"
+    }
+  ]
+}

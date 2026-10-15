@@ -1,0 +1,155 @@
+{
+  "prior": {
+    "type": "perspective",
+    "location": [
+      -258.70078940841984,
+      -1560.7745772947187,
+      425.3146812627226
+    ],
+    "rotation": [
+      0.0,
+      -18.0,
+      70.0
+    ],
+    "fov": 60.0,
+    "realtime": false,
+    "game_view": false
+  },
+  "framing": {
+    "actor_center": [
+      850.0,
+      -850.0,
+      157.0
+    ],
+    "actor_extent": [
+      159.36761474609375,
+      152.20852661132812,
+      157.5
+    ],
+    "distance": 729.3975619772763
+  },
+  "scene": {
+    "success": true,
+    "camera": {
+      "location": [
+        1087.258793457453,
+        -198.1368224085993,
+        382.3962423066323
+      ],
+      "rotation": [
+        -18,
+        -110,
+        0
+      ],
+      "fov": 60
+    },
+    "viewport": [
+      1543,
+      615
+    ],
+    "actor_count": 5,
+    "total_matching": 5,
+    "actors": [
+      {
+        "name": "StaticMeshActor_3",
+        "label": "LGV7_LG_03_VillageHall",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          850,
+          -850,
+          -0.5
+        ],
+        "extent_cm": [
+          159.36761474609375,
+          152.20852661132812,
+          157.5
+        ],
+        "dist_cm": 792.3552673800962,
+        "screen_px": [
+          772,
+          565
+        ]
+      },
+      {
+        "name": "StaticMeshActor_0",
+        "label": "SM_SkySphere",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          0
+        ],
+        "extent_cm": [
+          1638400,
+          1638400,
+          1638400
+        ],
+        "dist_cm": 1169.4514827366572,
+        "screen_px": [
+          -4168,
+          1696
+        ]
+      },
+      {
+        "name": "Floor_0",
+        "label": "Floor",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          4000.00146484375,
+          4000,
+          200.0001220703125
+        ],
+        "dist_cm": 1169.6150720289443,
+        "screen_px": [
+          -4165,
+          1698
+        ]
+      },
+      {
+        "name": "Brush_1",
+        "label": "Brush1",
+        "class": "Brush",
+        "pos_cm": [
+          -90,
+          110,
+          20
+        ],
+        "extent_cm": [
+          1000,
+          1000,
+          100
+        ],
+        "dist_cm": 1269.7313119455368,
+        "screen_px": [
+          -6603,
+          2193
+        ]
+      },
+      {
+        "name": "StaticMeshActor_2",
+        "label": "LGV7_LG_02_Inn",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          -850,
+          -0.5
+        ],
+        "extent_cm": [
+          201.67604064941406,
+          118.92041015625,
+          180.0485076904297
+        ],
+        "dist_cm": 1324.260857468291,
+        "screen_px": [
+          -241,
+          383
+        ]
+      }
+    ]
+  }
+}

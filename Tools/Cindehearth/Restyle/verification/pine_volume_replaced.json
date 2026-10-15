@@ -1,0 +1,2389 @@
+{
+  "mesh": "/Game/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/StaticMeshes/CH_PineVolume_Closed_v005.CH_PineVolume_Closed_v005",
+  "material": "/Game/Cindehearth/HD2D_v002/Materials/MI_CH_P2_PineVolume",
+  "count": 95,
+  "dimensions_cm": [
+    207.47923278808594,
+    216.44845581054688,
+    270.0
+  ],
+  "horizontal_depth_ratio": 0.9585618525719051,
+  "uniform_scale": true,
+  "trees": [
+    {
+      "label": "CH_HD2D_ForestEdge_0_0",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.3758261199107809,
+          2.066231011848534,
+          2.108854032440009
+        ],
+        "location": [
+          -2318.8504579510095,
+          -8884.460505330104,
+          -7.999899442003611
+        ],
+        "yaw": -14.763305664062496
+      },
+      "scale": 2.108854881596423,
+      "height_cm": 569.3908180310342,
+      "location": [
+        -2318.8504579510095,
+        -8884.460505330104,
+        -8.0
+      ],
+      "yaw": -47.18132048249231
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_1",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1186858944807547,
+          2.066231011848534,
+          1.9799852870330876
+        ],
+        "location": [
+          -2259.803640890487,
+          -8613.153531528229,
+          -7.999905586944244
+        ],
+        "yaw": 10.808506965637209
+      },
+      "scale": 1.9799860842988917,
+      "height_cm": 534.5962427607008,
+      "location": [
+        -2259.803640890487,
+        -8613.153531528229,
+        -8.0
+      ],
+      "yaw": 177.1606304257216
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_10",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0942949467562606,
+          2.066231011848534,
+          1.6305446477303545
+        ],
+        "location": [
+          -2263.508031824098,
+          -6294.305842053338,
+          -7.999922249572386
+        ],
+        "yaw": -2.665953874588013
+      },
+      "scale": 1.630545304289521,
+      "height_cm": 440.2472321581707,
+      "location": [
+        -2263.508031824098,
+        -6294.305842053338,
+        -8.0
+      ],
+      "yaw": 37.74718710524655
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_11",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1883858629433532,
+          2.066231011848534,
+          1.8646596081443332
+        ],
+        "location": [
+          -2300.360535275564,
+          -6044.149326560899,
+          -7.999911086101144
+        ],
+        "yaw": 1.9987639188766488
+      },
+      "scale": 1.8646603589728126,
+      "height_cm": 503.4582969226594,
+      "location": [
+        -2300.360535275564,
+        -6044.149326560899,
+        -8.0
+      ],
+      "yaw": -138.85653393108774
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_12",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.261015226572437,
+          2.066231011848534,
+          2.0815059641812836
+        ],
+        "location": [
+          -2380.5367520353075,
+          -5735.820291696469,
+          -7.999900746061126
+        ],
+        "yaw": 6.028836250305176
+      },
+      "scale": 2.081506802325656,
+      "height_cm": 562.0068366279272,
+      "location": [
+        -2380.5367520353075,
+        -5735.820291696469,
+        -8.0
+      ],
+      "yaw": 116.90770709084865
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_13",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.4229110313299551,
+          2.066231011848534,
+          2.098614575356429
+        ],
+        "location": [
+          -2124.773719936401,
+          -5515.915148212703,
+          -7.999899930258972
+        ],
+        "yaw": -16.64747619628906
+      },
+      "scale": 2.0986154203897978,
+      "height_cm": 566.6261635052454,
+      "location": [
+        -2124.773719936401,
+        -5515.915148212703,
+        -8.0
+      ],
+      "yaw": 151.62516709556672
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_14",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2589357102569152,
+          2.066231011848534,
+          1.6729358790532711
+        ],
+        "location": [
+          -2103.093561083763,
+          -5233.702913196888,
+          -7.999920228200958
+        ],
+        "yaw": -0.9948630928993224
+      },
+      "scale": 1.6729365526817963,
+      "height_cm": 451.69286922408503,
+      "location": [
+        -2103.093561083763,
+        -5233.702913196888,
+        -8.0
+      ],
+      "yaw": -28.908501784159
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_15",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2178062212649328,
+          2.066231011848534,
+          1.7485177519793034
+        ],
+        "location": [
+          -2309.4066239564977,
+          -5025.753347859576,
+          -7.999916624176408
+        ],
+        "yaw": -5.479076385498048
+      },
+      "scale": 1.7485184560418137,
+      "height_cm": 472.0999831312897,
+      "location": [
+        -2309.4066239564977,
+        -5025.753347859576,
+        -8.0
+      ],
+      "yaw": -72.2656930041201
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_2",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2760079687348629,
+          2.066231011848534,
+          1.596546594847847
+        ],
+        "location": [
+          -2373.9479557477125,
+          -8329.298083578868,
+          -7.999923870725877
+        ],
+        "yaw": 2.4046788215637207
+      },
+      "scale": 1.596547237717273,
+      "height_cm": 431.0677541836637,
+      "location": [
+        -2373.9479557477125,
+        -8329.298083578868,
+        -8.0
+      ],
+      "yaw": 91.37331258851276
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_3",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1726280519909575,
+          2.066231011848534,
+          1.6106189585280049
+        ],
+        "location": [
+          -2179.46161543793,
+          -8125.36447192599,
+          -7.999923199703287
+        ],
+        "yaw": 1.3605737686157224
+      },
+      "scale": 1.6106196070638437,
+      "height_cm": 434.8672939072378,
+      "location": [
+        -2179.46161543793,
+        -8125.36447192599,
+        -8.0
+      ],
+      "yaw": -112.2398927817292
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_4",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2523281940269297,
+          2.066231011848534,
+          1.9473611541083846
+        ],
+        "location": [
+          -2257.710849585999,
+          -7903.996226181238,
+          -7.999907142584128
+        ],
+        "yaw": 11.463690757751468
+      },
+      "scale": 1.9473619382376741,
+      "height_cm": 525.787723324172,
+      "location": [
+        -2257.710849585999,
+        -7903.996226181238,
+        -8.0
+      ],
+      "yaw": -129.1680242617645
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_5",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.4735180579213523,
+          2.066231011848534,
+          2.1200533988096244
+        ],
+        "location": [
+          -2255.146453877001,
+          -7636.088664735816,
+          -7.999898907976207
+        ],
+        "yaw": -1.4696445465087893
+      },
+      "scale": 2.1200542524756028,
+      "height_cm": 572.4146481684128,
+      "location": [
+        -2255.146453877001,
+        -7636.088664735816,
+        -8.0
+      ],
+      "yaw": -89.34384304489103
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_6",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1690738854975133,
+          2.066231011848534,
+          1.776530415475732
+        ],
+        "location": [
+          -2260.2000181122353,
+          -7349.738032125584,
+          -7.9999152884285225
+        ],
+        "yaw": 3.8774356842041033
+      },
+      "scale": 1.776531130817891,
+      "height_cm": 479.6634053208306,
+      "location": [
+        -2260.2000181122353,
+        -7349.738032125584,
+        -8.0
+      ],
+      "yaw": 28.60856699283468
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_7",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.4356418514737699,
+          2.066231011848534,
+          2.127560248163361
+        ],
+        "location": [
+          -2276.7834377295876,
+          -7027.70673216906,
+          -7.999898550021736
+        ],
+        "yaw": 8.983028411865234
+      },
+      "scale": 2.127561104852066,
+      "height_cm": 574.4414983100579,
+      "location": [
+        -2276.7834377295876,
+        -7027.70673216906,
+        -8.0
+      ],
+      "yaw": 133.8388161397433
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_8",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1501839332113373,
+          2.066231011848534,
+          2.1177140248005806
+        ],
+        "location": [
+          -2206.461787690705,
+          -6814.518855597319,
+          -7.999899019526253
+        ],
+        "yaw": -12.673475265502928
+      },
+      "scale": 2.117714877524581,
+      "height_cm": 571.7830169316369,
+      "location": [
+        -2206.461787690705,
+        -6814.518855597319,
+        -8.0
+      ],
+      "yaw": -76.01304479855648
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_0_9",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2745721488346393,
+          2.066231011848534,
+          1.7298733775113193
+        ],
+        "location": [
+          -2167.2095225570265,
+          -6559.133796288533,
+          -7.9999175132094615
+        ],
+        "yaw": -7.920773029327391
+      },
+      "scale": 1.7298740740664396,
+      "height_cm": 467.06599999793866,
+      "location": [
+        -2167.2095225570265,
+        -6559.133796288533,
+        -8.0
+      ],
+      "yaw": -146.67497997430053
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_0",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2275779716094062,
+          2.066231011848534,
+          1.9801013043766886
+        ],
+        "location": [
+          2679.1415579521567,
+          -8940.317317875404,
+          -7.999905581412107
+        ],
+        "yaw": -12.996666908264158
+      },
+      "scale": 1.9801021016892086,
+      "height_cm": 534.6275674560864,
+      "location": [
+        2679.1415579521567,
+        -8940.317317875404,
+        -8.0
+      ],
+      "yaw": 124.50282192155993
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_1",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.44524692637625,
+          2.066231011848534,
+          1.7765459152027527
+        ],
+        "location": [
+          2643.5905699991913,
+          -8598.766452611813,
+          -7.999915287689438
+        ],
+        "yaw": 10.532892227172853
+      },
+      "scale": 1.776546630551153,
+      "height_cm": 479.66759024881134,
+      "location": [
+        2643.5905699991913,
+        -8598.766452611813,
+        -8.0
+      ],
+      "yaw": 57.35294596306926
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_10",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.26991359607054,
+          2.066231011848534,
+          2.1557349033097224
+        ],
+        "location": [
+          2514.443363400113,
+          -6322.378328400586,
+          -7.999897206549487
+        ],
+        "yaw": -2.6422436237335214
+      },
+      "scale": 2.1557357713433047,
+      "height_cm": 582.0486582626922,
+      "location": [
+        2514.443363400113,
+        -6322.378328400586,
+        -8.0
+      ],
+      "yaw": 166.33181665688682
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_11",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.3667210139287054,
+          2.066231011848534,
+          1.666620096502702
+        ],
+        "location": [
+          2642.6427546264254,
+          -6089.313124638929,
+          -7.999920529360938
+        ],
+        "yaw": 7.519309520721439
+      },
+      "scale": 1.6666207675880986,
+      "height_cm": 449.9876072487866,
+      "location": [
+        2642.6427546264254,
+        -6089.313124638929,
+        -8.0
+      ],
+      "yaw": 136.1361588181053
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_12",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.3613447610580918,
+          2.066231011848534,
+          1.6628624499091083
+        ],
+        "location": [
+          2714.497413239624,
+          -5786.075702378994,
+          -7.9999207085394906
+        ],
+        "yaw": -12.728700637817381
+      },
+      "scale": 1.6628631194814414,
+      "height_cm": 448.9730422599892,
+      "location": [
+        2714.497413239624,
+        -5786.075702378994,
+        -8.0
+      ],
+      "yaw": -39.873398476759405
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_13",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2383465988246352,
+          2.066231011848534,
+          1.993609254801314
+        ],
+        "location": [
+          2737.785547571298,
+          -5583.566980331895,
+          -7.999904937302837
+        ],
+        "yaw": -6.322429180145265
+      },
+      "scale": 1.993610057552979,
+      "height_cm": 538.2747155393043,
+      "location": [
+        2737.785547571298,
+        -5583.566980331895,
+        -8.0
+      ],
+      "yaw": 19.07548371538516
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_14",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2296694954061562,
+          2.066231011848534,
+          1.5956036341912219
+        ],
+        "location": [
+          2779.308137926656,
+          -5234.315574962836,
+          -7.999923915689745
+        ],
+        "yaw": 16.217191696166992
+      },
+      "scale": 1.5956042766809528,
+      "height_cm": 430.81315470385726,
+      "location": [
+        2779.308137926656,
+        -5234.315574962836,
+        -8.0
+      ],
+      "yaw": 55.95090202323814
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_15",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2759101308356455,
+          2.066231011848534,
+          2.0817158860238263
+        ],
+        "location": [
+          2490.2778221395024,
+          -5022.070615691839,
+          -7.999900736051273
+        ],
+        "yaw": -17.46940803527832
+      },
+      "scale": 2.081716724252727,
+      "height_cm": 562.0635155482362,
+      "location": [
+        2490.2778221395024,
+        -5022.070615691839,
+        -8.0
+      ],
+      "yaw": -41.62153235991167
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_2",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.4723994692955167,
+          2.066231011848534,
+          1.9803389569548444
+        ],
+        "location": [
+          2769.3349912447043,
+          -8435.183996418233,
+          -7.999905570079949
+        ],
+        "yaw": -14.837816238403319
+      },
+      "scale": 1.980339754363058,
+      "height_cm": 534.6917336780257,
+      "location": [
+        2769.3349912447043,
+        -8435.183996418233,
+        -8.0
+      ],
+      "yaw": -170.86050820429512
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_3",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.3822724737602714,
+          2.066231011848534,
+          1.5808420053482766
+        ],
+        "location": [
+          2579.681119518652,
+          -8168.17044407818,
+          -7.99992461957906
+        ],
+        "yaw": -10.787178993225096
+      },
+      "scale": 1.5808426418940533,
+      "height_cm": 426.8275133113944,
+      "location": [
+        2579.681119518652,
+        -8168.17044407818,
+        -8.0
+      ],
+      "yaw": -98.52913312842445
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_4",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1131150512551116,
+          2.066231011848534,
+          1.9842925739806105
+        ],
+        "location": [
+          2753.6601606690774,
+          -7856.512531936041,
+          -7.999905381556798
+        ],
+        "yaw": 1.4734487533569345
+      },
+      "scale": 1.9842933729807977,
+      "height_cm": 535.7592107048154,
+      "location": [
+        2753.6601606690774,
+        -7856.512531936041,
+        -8.0
+      ],
+      "yaw": -133.22903996211804
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_5",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.3119833028580807,
+          2.066231011848534,
+          1.8027444882614025
+        ],
+        "location": [
+          2583.567596211796,
+          -7537.193025863621,
+          -7.999914038444125
+        ],
+        "yaw": 16.280105590820312
+      },
+      "scale": 1.8027452141589855,
+      "height_cm": 486.74120782292607,
+      "location": [
+        2583.567596211796,
+        -7537.193025863621,
+        -8.0
+      ],
+      "yaw": 169.62744781648018
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_6",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.3628912236148885,
+          2.066231011848534,
+          1.8767139031194373
+        ],
+        "location": [
+          2515.246374517942,
+          -7393.663313754646,
+          -7.999910511307568
+        ],
+        "yaw": -2.369956731796265
+      },
+      "scale": 1.876714658801729,
+      "height_cm": 506.7129578764668,
+      "location": [
+        2515.246374517942,
+        -7393.663313754646,
+        -8.0
+      ],
+      "yaw": 47.37402182242499
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_7",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.4152604283735901,
+          2.066231011848534,
+          1.769427231498057
+        ],
+        "location": [
+          2788.1670947774896,
+          -7102.585725033483,
+          -7.999915627134729
+        ],
+        "yaw": 6.674110412597656
+      },
+      "scale": 1.7694279439800304,
+      "height_cm": 477.74554487460824,
+      "location": [
+        2788.1670947774896,
+        -7102.585725033483,
+        -8.0
+      ],
+      "yaw": 28.661734313955947
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_8",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1626437787231734,
+          2.066231011848534,
+          1.8807139059794815
+        ],
+        "location": [
+          2533.6345005281073,
+          -6826.304917733889,
+          -7.999910320572568
+        ],
+        "yaw": -11.45626640319824
+      },
+      "scale": 1.8807146632724243,
+      "height_cm": 507.79295908355454,
+      "location": [
+        2533.6345005281073,
+        -6826.304917733889,
+        -8.0
+      ],
+      "yaw": -149.99131210883831
+    },
+    {
+      "label": "CH_HD2D_ForestEdge_1_9",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.3923387854736422,
+          2.066231011848534,
+          1.5793623375904493
+        ],
+        "location": [
+          2541.6161075930677,
+          -6500.987810547635,
+          -7.999924690135117
+        ],
+        "yaw": -7.954698085784913
+      },
+      "scale": 1.5793629735404193,
+      "height_cm": 426.42800285591323,
+      "location": [
+        2541.6161075930677,
+        -6500.987810547635,
+        -8.0
+      ],
+      "yaw": 87.74729896639349
+    },
+    {
+      "label": "CH_Pine_01_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.056753474807033,
+          1.6688788941853543,
+          1.9487833553349023
+        ],
+        "location": [
+          1400.714367121809,
+          -8492.196344635857,
+          9.292523171114456e-05
+        ],
+        "yaw": 16.773437500000007
+      },
+      "scale": 1.948784140036859,
+      "height_cm": 526.1717178099519,
+      "location": [
+        1400.714367121809,
+        -8492.196344635857,
+        0.0
+      ],
+      "yaw": 118.78869581677162
+    },
+    {
+      "label": "CH_Pine_04_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0275295462618972,
+          1.6688788941853543,
+          1.9377605061322278
+        ],
+        "location": [
+          -986.3217513171467,
+          -7106.140332430212,
+          9.239962130223407e-05
+        ],
+        "yaw": -12.171509742736813
+      },
+      "scale": 1.9377612863956966,
+      "height_cm": 523.1955473268381,
+      "location": [
+        -986.3217513171467,
+        -7106.140332430212,
+        0.0
+      ],
+      "yaw": -121.74633132154818
+    },
+    {
+      "label": "CH_Pine_05_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0804444617164894,
+          1.6688788941853543,
+          1.7646096487572362
+        ],
+        "location": [
+          -974.3733896917125,
+          -5528.608199367784,
+          8.414314502512151e-05
+        ],
+        "yaw": -15.631312370300295
+      },
+      "scale": 1.7646103592993498,
+      "height_cm": 476.44479701082446,
+      "location": [
+        -974.3733896917125,
+        -5528.608199367784,
+        0.0
+      ],
+      "yaw": -104.18443418155982
+    },
+    {
+      "label": "CH_Pine_07_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1648530075210395,
+          1.6688788941853543,
+          1.5410389951203531
+        ],
+        "location": [
+          957.1287871182849,
+          -7647.700610250712,
+          7.348246551133887e-05
+        ],
+        "yaw": 16.943183898925785
+      },
+      "scale": 1.541039615638951,
+      "height_cm": 416.08069622251674,
+      "location": [
+        957.1287871182849,
+        -7647.700610250712,
+        0.0
+      ],
+      "yaw": 137.96462891708018
+    },
+    {
+      "label": "CH_Pine_08_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1742878284496927,
+          1.6688788941853543,
+          1.3331716462684222
+        ],
+        "location": [
+          1348.4855620514488,
+          -7735.088406036028,
+          6.357057792036162e-05
+        ],
+        "yaw": -0.6899574398994447
+      },
+      "scale": 1.3331721830866357,
+      "height_cm": 359.95648943339165,
+      "location": [
+        1348.4855620514488,
+        -7735.088406036028,
+        0.0
+      ],
+      "yaw": 65.96995040547392
+    },
+    {
+      "label": "CH_Pine_09_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0317512006901937,
+          1.6688788941853543,
+          1.8946315970311398
+        ],
+        "location": [
+          1570.2200604457978,
+          -6644.77305424629,
+          9.03430746570177e-05
+        ],
+        "yaw": 4.982503890991213
+      },
+      "scale": 1.8946323599282147,
+      "height_cm": 511.55073718061794,
+      "location": [
+        1570.2200604457978,
+        -6644.77305424629,
+        0.0
+      ],
+      "yaw": -5.2728413998260635
+    },
+    {
+      "label": "CH_Pine_10_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          0.9305855408251814,
+          1.6688788941853543,
+          1.7498520087821177
+        ],
+        "location": [
+          -1400.0612268825855,
+          -7123.682943901398,
+          8.343944591436947e-05
+        ],
+        "yaw": -16.55434799194336
+      },
+      "scale": 1.7498527133818833,
+      "height_cm": 472.4602326131085,
+      "location": [
+        -1400.0612268825855,
+        -7123.682943901398,
+        0.0
+      ],
+      "yaw": -149.9720335828472
+    },
+    {
+      "label": "CH_Pine_11_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.070502578695327,
+          1.6688788941853543,
+          1.4140456377931503
+        ],
+        "location": [
+          1993.580408046477,
+          -7822.704932602238,
+          6.742695034948112e-05
+        ],
+        "yaw": 15.595309257507326
+      },
+      "scale": 1.4140462071762865,
+      "height_cm": 381.7924759375974,
+      "location": [
+        1993.580408046477,
+        -7822.704932602238,
+        0.0
+      ],
+      "yaw": -38.11778343517372
+    },
+    {
+      "label": "CH_Pine_12_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.044922213829777,
+          1.6688788941853543,
+          1.9408696563953438
+        ],
+        "location": [
+          1544.979511005694,
+          -5179.523227882089,
+          9.254787713982314e-05
+        ],
+        "yaw": -8.949176788330076
+      },
+      "scale": 1.9408704379107509,
+      "height_cm": 524.0350182359027,
+      "location": [
+        1544.979511005694,
+        -5179.523227882089,
+        0.0
+      ],
+      "yaw": -8.192658309442578
+    },
+    {
+      "label": "CH_Pine_13_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0080918058668897,
+          1.6688788941853543,
+          2.029949835969595
+        ],
+        "location": [
+          1298.535385224318,
+          -7979.2671925828645,
+          9.679555110786415e-05
+        ],
+        "yaw": 10.94381713867188
+      },
+      "scale": 2.029950653354249,
+      "height_cm": 548.0866764056472,
+      "location": [
+        1298.535385224318,
+        -7979.2671925828645,
+        0.0
+      ],
+      "yaw": -174.18122290433232
+    },
+    {
+      "label": "CH_Pine_14_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          0.9540040260861989,
+          1.6688788941853543,
+          1.2864160876712813
+        ],
+        "location": [
+          1482.0567863143033,
+          -5170.368016366715,
+          6.134109915119559e-05
+        ],
+        "yaw": 1.8371727466583252
+      },
+      "scale": 1.2864166056627853,
+      "height_cm": 347.332483528952,
+      "location": [
+        1482.0567863143033,
+        -5170.368016366715,
+        0.0
+      ],
+      "yaw": -153.0693223266137
+    },
+    {
+      "label": "CH_Pine_15_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1419554541915042,
+          1.6688788941853543,
+          1.43800959351151
+        ],
+        "location": [
+          1835.518520622147,
+          -6550.710521432967,
+          6.856964080388593e-05
+        ],
+        "yaw": -16.87241554260254
+      },
+      "scale": 1.4380101725440324,
+      "height_cm": 388.26274658688874,
+      "location": [
+        1835.518520622147,
+        -6550.710521432967,
+        0.0
+      ],
+      "yaw": 15.98086444161774
+    },
+    {
+      "label": "CH_Pine_16_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          0.9549082665716353,
+          1.6688788941853543,
+          1.2644863608916599
+        ],
+        "location": [
+          -1458.8517171240035,
+          -5150.58844237879,
+          6.029540829141902e-05
+        ],
+        "yaw": 0.7887890934944155
+      },
+      "scale": 1.2644868700528855,
+      "height_cm": 341.4114549142791,
+      "location": [
+        -1458.8517171240035,
+        -5150.58844237879,
+        0.0
+      ],
+      "yaw": -23.1441701729988
+    },
+    {
+      "label": "CH_Pine_17_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0809695325762716,
+          1.6688788941853543,
+          2.0113473235445944
+        ],
+        "location": [
+          895.457001829594,
+          -8181.513662805325,
+          9.590851419184659e-05
+        ],
+        "yaw": 17.427446365356445
+      },
+      "scale": 2.011348133438714,
+      "height_cm": 543.0639960284528,
+      "location": [
+        895.457001829594,
+        -8181.513662805325,
+        0.0
+      ],
+      "yaw": -148.06402406232985
+    },
+    {
+      "label": "CH_Pine_18_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0320142325240285,
+          1.6688788941853543,
+          1.6766895315761874
+        ],
+        "location": [
+          190.39238095420671,
+          -5458.739868223124,
+          7.99507871425718e-05
+        ],
+        "yaw": -4.155808925628663
+      },
+      "scale": 1.6766902067161678,
+      "height_cm": 452.7063558133653,
+      "location": [
+        190.39238095420671,
+        -5458.739868223124,
+        0.0
+      ],
+      "yaw": -34.123976504559664
+    },
+    {
+      "label": "CH_Pine_19_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.064161940725317,
+          1.6688788941853543,
+          1.6702808917703682
+        ],
+        "location": [
+          -768.0839507884511,
+          -8371.27496124362,
+          7.964519938327638e-05
+        ],
+        "yaw": 16.84544563293458
+      },
+      "scale": 1.6702815643298297,
+      "height_cm": 450.976022369054,
+      "location": [
+        -768.0839507884511,
+        -8371.27496124362,
+        0.0
+      ],
+      "yaw": 54.69055350324709
+    },
+    {
+      "label": "CH_Pine_21_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0614256103950401,
+          1.6688788941853543,
+          1.8968946832256552
+        ],
+        "location": [
+          1808.0730683724316,
+          -5367.119775828621,
+          9.045098701599384e-05
+        ],
+        "yaw": -8.87250804901123
+      },
+      "scale": 1.8968954470339898,
+      "height_cm": 512.1617706991773,
+      "location": [
+        1808.0730683724316,
+        -5367.119775828621,
+        0.0
+      ],
+      "yaw": 135.86999159740344
+    },
+    {
+      "label": "CH_Pine_22_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1204243111602088,
+          1.6688788941853543,
+          1.656919409561447
+        ],
+        "location": [
+          1282.196584232705,
+          -6997.097950508676,
+          7.900807426268801e-05
+        ],
+        "yaw": 4.4752702713012695
+      },
+      "scale": 1.6569200767407408,
+      "height_cm": 447.36842072,
+      "location": [
+        1282.196584232705,
+        -6997.097950508676,
+        0.0
+      ],
+      "yaw": 101.97874009776154
+    },
+    {
+      "label": "CH_Pine_23_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.22168519357576,
+          1.6688788941853543,
+          1.6417253906992364
+        ],
+        "location": [
+          -605.4875440997125,
+          -8802.336806378977,
+          7.82835669850939e-05
+        ],
+        "yaw": 0.6544020175933836
+      },
+      "scale": 1.6417260517604686,
+      "height_cm": 443.26603397532654,
+      "location": [
+        -605.4875440997125,
+        -8802.336806378977,
+        0.0
+      ],
+      "yaw": -97.1945954924464
+    },
+    {
+      "label": "CH_Pine_25_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.187143634575175,
+          1.6688788941853543,
+          1.6912632921124624
+        ],
+        "location": [
+          70.13356927405371,
+          -5127.736641896738,
+          8.064571819841682e-05
+        ],
+        "yaw": -6.458191871643066
+      },
+      "scale": 1.6912639731207493,
+      "height_cm": 456.6412727426023,
+      "location": [
+        70.13356927405371,
+        -5127.736641896738,
+        0.0
+      ],
+      "yaw": 50.82946351680772
+    },
+    {
+      "label": "CH_Pine_26_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1338481975444024,
+          1.6688788941853543,
+          1.8935362408794376
+        ],
+        "location": [
+          1835.2939546563223,
+          -7522.216495737086,
+          9.02908440055579e-05
+        ],
+        "yaw": -8.195750236511229
+      },
+      "scale": 1.8935370033354535,
+      "height_cm": 511.25499090057247,
+      "location": [
+        1835.2939546563223,
+        -7522.216495737086,
+        0.0
+      ],
+      "yaw": -70.7860552810472
+    },
+    {
+      "label": "CH_Pine_28_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0445689785337764,
+          1.6688788941853543,
+          1.6160609193453093
+        ],
+        "location": [
+          -1738.812256917288,
+          -6855.167787782663,
+          7.705978962637468e-05
+        ],
+        "yaw": -11.198725700378416
+      },
+      "scale": 1.6160615700724217,
+      "height_cm": 436.33662391955386,
+      "location": [
+        -1738.812256917288,
+        -6855.167787782663,
+        0.0
+      ],
+      "yaw": -129.73716453949226
+    },
+    {
+      "label": "CH_Pine_29_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.00842070004446,
+          1.6688788941853543,
+          1.3308461433691574
+        ],
+        "location": [
+          969.7596642093297,
+          -6937.043319355634,
+          6.345968930097377e-05
+        ],
+        "yaw": -13.290567398071287
+      },
+      "scale": 1.330846679250978,
+      "height_cm": 359.3286033977641,
+      "location": [
+        969.7596642093297,
+        -6937.043319355634,
+        0.0
+      ],
+      "yaw": 16.404097190868697
+    },
+    {
+      "label": "CH_Pine_31_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          0.9651928952754842,
+          1.6688788941853543,
+          1.6513601141247831
+        ],
+        "location": [
+          -1398.0944508137868,
+          -5557.824181972968,
+          7.874298639892498e-05
+        ],
+        "yaw": 12.613892555236818
+      },
+      "scale": 1.6513607790655573,
+      "height_cm": 445.86741034770046,
+      "location": [
+        -1398.0944508137868,
+        -5557.824181972968,
+        0.0
+      ],
+      "yaw": -102.63451004243664
+    },
+    {
+      "label": "CH_Pine_32_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          0.9127873349088319,
+          1.6688788941853543,
+          1.651752669673972
+        ],
+        "location": [
+          23.40035508585462,
+          -8141.712044921634,
+          7.876170490617618e-05
+        ],
+        "yaw": -8.301386833190918
+      },
+      "scale": 1.6517533347728135,
+      "height_cm": 445.9734003886596,
+      "location": [
+        23.40035508585462,
+        -8141.712044921634,
+        0.0
+      ],
+      "yaw": -108.82682220126014
+    },
+    {
+      "label": "CH_Pine_33_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2437615874617551,
+          1.6688788941853543,
+          1.7119329298485737
+        ],
+        "location": [
+          1594.3042807799106,
+          -8411.22208861877,
+          8.163132333033437e-05
+        ],
+        "yaw": 9.851063728332521
+      },
+      "scale": 1.7119336191797485,
+      "height_cm": 462.2220771785321,
+      "location": [
+        1594.3042807799106,
+        -8411.22208861877,
+        0.0
+      ],
+      "yaw": 155.25245192647338
+    },
+    {
+      "label": "CH_Pine_34_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2092564774172376,
+          1.6688788941853543,
+          1.777645566328288
+        ],
+        "location": [
+          255.61659329043766,
+          -5027.622380404405,
+          8.476474601403656e-05
+        ],
+        "yaw": 4.6608033180236825
+      },
+      "scale": 1.7776462821194765,
+      "height_cm": 479.96449617225863,
+      "location": [
+        255.61659329043766,
+        -5027.622380404405,
+        0.0
+      ],
+      "yaw": -116.82601812344207
+    },
+    {
+      "label": "CH_Pine_35_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2178362550064477,
+          1.6688788941853543,
+          1.824929661054854
+        ],
+        "location": [
+          1250.1358815416304,
+          -4938.907106451499,
+          8.701942734979887e-05
+        ],
+        "yaw": 17.56958007812501
+      },
+      "scale": 1.8249303958855738,
+      "height_cm": 492.73120688910495,
+      "location": [
+        1250.1358815416304,
+        -4938.907106451499,
+        0.0
+      ],
+      "yaw": -45.20419947313579
+    },
+    {
+      "label": "CH_Pine_36_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.207739180989344,
+          1.6688788941853543,
+          1.544891801010993
+        ],
+        "location": [
+          -1049.7478226344285,
+          -5931.964490443515,
+          7.366618161253897e-05
+        ],
+        "yaw": -10.400837898254393
+      },
+      "scale": 1.5448924230809713,
+      "height_cm": 417.12095423186224,
+      "location": [
+        -1049.7478226344285,
+        -5931.964490443515,
+        0.0
+      ],
+      "yaw": -94.32905750981637
+    },
+    {
+      "label": "CH_Pine_37_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.217045770377843,
+          1.6688788941853543,
+          1.4485147012546051
+        ],
+        "location": [
+          89.82354926767378,
+          -7329.745289596556,
+          6.907056337616945e-05
+        ],
+        "yaw": -16.69244956970215
+      },
+      "scale": 1.4485152845171403,
+      "height_cm": 391.0991268196279,
+      "location": [
+        89.82354926767378,
+        -7329.745289596556,
+        0.0
+      ],
+      "yaw": 132.70469601949992
+    },
+    {
+      "label": "CH_Pine_38_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2331761425299042,
+          1.6688788941853543,
+          1.4740941178816378
+        ],
+        "location": [
+          -1301.4202715116505,
+          -7651.721362705896,
+          7.029028500946224e-05
+        ],
+        "yaw": -14.767918586730953
+      },
+      "scale": 1.4740947114440446,
+      "height_cm": 398.00557208989204,
+      "location": [
+        -1301.4202715116505,
+        -7651.721362705896,
+        0.0
+      ],
+      "yaw": -52.33349059499119
+    },
+    {
+      "label": "CH_Pine_39_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1580358289601778,
+          1.6688788941853543,
+          1.285819320941628
+        ],
+        "location": [
+          -1566.4393754603057,
+          -6674.522200285159,
+          6.131264309604778e-05
+        ],
+        "yaw": -4.515784263610842
+      },
+      "scale": 1.2858198386928363,
+      "height_cm": 347.1713564470658,
+      "location": [
+        -1566.4393754603057,
+        -6674.522200285159,
+        0.0
+      ],
+      "yaw": -86.59021495842897
+    },
+    {
+      "label": "CH_Pine_42_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1214112990321052,
+          1.6688788941853543,
+          1.6788095642614593
+        ],
+        "location": [
+          1517.8277424083724,
+          -5865.5953583172895,
+          8.005187817866608e-05
+        ],
+        "yaw": -17.01595497131348
+      },
+      "scale": 1.6788102402550973,
+      "height_cm": 453.2787648688763,
+      "location": [
+        1517.8277424083724,
+        -5865.5953583172895,
+        0.0
+      ],
+      "yaw": 92.13995602471829
+    },
+    {
+      "label": "CH_Pine_43_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0871695639060766,
+          1.6688788941853543,
+          1.2729200633416673
+        ],
+        "location": [
+          -230.40523463546097,
+          -5219.656706221732,
+          6.069755856235825e-05
+        ],
+        "yaw": 14.955924034118654
+      },
+      "scale": 1.2729205758988285,
+      "height_cm": 343.6885554926837,
+      "location": [
+        -230.40523463546097,
+        -5219.656706221732,
+        0.0
+      ],
+      "yaw": 118.01271132651482
+    },
+    {
+      "label": "CH_Pine_44_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1293020940390164,
+          1.6688788941853543,
+          1.4073683363558374
+        ],
+        "location": [
+          1601.1191451270504,
+          -5179.972632705042,
+          6.710855180529773e-05
+        ],
+        "yaw": -16.77040672302246
+      },
+      "scale": 1.407368903050275,
+      "height_cm": 379.9896038235742,
+      "location": [
+        1601.1191451270504,
+        -5179.972632705042,
+        0.0
+      ],
+      "yaw": -6.93587618901617
+    },
+    {
+      "label": "CH_Pine_45_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          0.9704222267720268,
+          1.6688788941853543,
+          1.8911858604090657
+        ],
+        "location": [
+          1981.976345012624,
+          -7513.465145873267,
+          9.017876913113907e-05
+        ],
+        "yaw": 6.789381504058838
+      },
+      "scale": 1.8911866219186717,
+      "height_cm": 510.62038791804133,
+      "location": [
+        1981.976345012624,
+        -7513.465145873267,
+        0.0
+      ],
+      "yaw": -131.08008024350661
+    },
+    {
+      "label": "CH_Pine_46_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1868822136918167,
+          1.6688788941853543,
+          1.3782279383859142
+        ],
+        "location": [
+          910.460988258156,
+          -4932.7965840422985,
+          6.57190293496091e-05
+        ],
+        "yaw": 13.195065498352054
+      },
+      "scale": 1.3782284933466065,
+      "height_cm": 372.12169320358373,
+      "location": [
+        910.460988258156,
+        -4932.7965840422985,
+        0.0
+      ],
+      "yaw": -43.366447193531656
+    },
+    {
+      "label": "CH_Pine_47_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1346903241713513,
+          1.6688788941853543,
+          1.7031430346591359
+        ],
+        "location": [
+          1727.1293275814103,
+          -6429.441236047519,
+          8.121218846603088e-05
+        ],
+        "yaw": 15.191793441772461
+      },
+      "scale": 1.7031437204509496,
+      "height_cm": 459.8488045217564,
+      "location": [
+        1727.1293275814103,
+        -6429.441236047519,
+        0.0
+      ],
+      "yaw": 112.53645757894384
+    },
+    {
+      "label": "CH_Pine_48_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          0.9229765760219664,
+          1.6688788941853543,
+          1.8109741557042
+        ],
+        "location": [
+          1448.5997442451855,
+          -5955.792419104769,
+          8.635397699852943e-05
+        ],
+        "yaw": -10.989406585693358
+      },
+      "scale": 1.8109748849155614,
+      "height_cm": 488.9632189272016,
+      "location": [
+        1448.5997442451855,
+        -5955.792419104769,
+        0.0
+      ],
+      "yaw": 105.60587736029822
+    },
+    {
+      "label": "CH_Pine_49_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.016788283137812,
+          1.6688788941853543,
+          1.8752959301617402
+        ],
+        "location": [
+          -1097.2476613597346,
+          -8545.879050534355,
+          8.942107821282102e-05
+        ],
+        "yaw": -7.68299150466919
+      },
+      "scale": 1.8752966852730675,
+      "height_cm": 506.3301050237282,
+      "location": [
+        -1097.2476613597346,
+        -8545.879050534355,
+        0.0
+      ],
+      "yaw": 178.45772444693455
+    },
+    {
+      "label": "CH_Pine_50_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0021430766398045,
+          1.6688788941853543,
+          1.944340445577244
+        ],
+        "location": [
+          1307.8314258438227,
+          -7183.599127897096,
+          9.271337726484509e-05
+        ],
+        "yaw": 9.518623352050787
+      },
+      "scale": 1.9443412284902075,
+      "height_cm": 524.972131692356,
+      "location": [
+        1307.8314258438227,
+        -7183.599127897096,
+        0.0
+      ],
+      "yaw": -49.235051649019994
+    },
+    {
+      "label": "CH_Pine_51_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.015175990157093,
+          1.6688788941853543,
+          1.34648669068427
+        ],
+        "location": [
+          2080.25015915062,
+          -5455.524585536752,
+          6.420548871442175e-05
+        ],
+        "yaw": -15.189482688903805
+      },
+      "scale": 1.3464872328639526,
+      "height_cm": 363.5515528732672,
+      "location": [
+        2080.25015915062,
+        -5455.524585536752,
+        0.0
+      ],
+      "yaw": 56.190608665162955
+    },
+    {
+      "label": "CH_Pine_52_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          0.9520531269677303,
+          1.6688788941853543,
+          1.3098610484633275
+        ],
+        "location": [
+          -1034.0385904867107,
+          -5631.135358415815,
+          6.245904199902189e-05
+        ],
+        "yaw": -6.672408103942872
+      },
+      "scale": 1.3098615758952379,
+      "height_cm": 353.6626254917142,
+      "location": [
+        -1034.0385904867107,
+        -5631.135358415815,
+        0.0
+      ],
+      "yaw": 78.621637909958
+    },
+    {
+      "label": "CH_Pine_53_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2628700976475127,
+          1.6688788941853543,
+          1.4756804884490455
+        ],
+        "location": [
+          2102.977492055789,
+          -7741.817034342746,
+          7.036592905278423e-05
+        ],
+        "yaw": -7.967998027801513
+      },
+      "scale": 1.475681082650224,
+      "height_cm": 398.4338923155605,
+      "location": [
+        2102.977492055789,
+        -7741.817034342746,
+        0.0
+      ],
+      "yaw": 39.64953883463136
+    },
+    {
+      "label": "CH_Pine_54_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2004927640801446,
+          1.6688788941853543,
+          1.2436136997655338
+        ],
+        "location": [
+          -1314.014026812152,
+          -8167.701515901115,
+          5.930012224986714e-05
+        ],
+        "yaw": 14.439007759094245
+      },
+      "scale": 1.2436142005221216,
+      "height_cm": 335.77583414097285,
+      "location": [
+        -1314.014026812152,
+        -8167.701515901115,
+        0.0
+      ],
+      "yaw": -171.02050213713665
+    },
+    {
+      "label": "CH_Pine_55_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.158743478065158,
+          1.6688788941853543,
+          1.4624173808137857
+        ],
+        "location": [
+          -1335.3117428882815,
+          -5572.769951610927,
+          6.973349479741028e-05
+        ],
+        "yaw": -16.85255813598633
+      },
+      "scale": 1.4624179696744084,
+      "height_cm": 394.85285181209025,
+      "location": [
+        -1335.3117428882815,
+        -5572.769951610927,
+        0.0
+      ],
+      "yaw": -137.53737072670157
+    },
+    {
+      "label": "CH_Pine_56_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          0.9557583550215198,
+          1.6688788941853543,
+          1.2899996103896452
+        ],
+        "location": [
+          824.6137016454641,
+          -6957.499282174135,
+          6.151197483013369e-05
+        ],
+        "yaw": 3.7964129447937016
+      },
+      "scale": 1.2900001298240993,
+      "height_cm": 348.3000350525068,
+      "location": [
+        824.6137016454641,
+        -6957.499282174135,
+        0.0
+      ],
+      "yaw": 63.28931548455438
+    },
+    {
+      "label": "CH_Pine_58_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0835409822694362,
+          1.6688788941853543,
+          1.5933249056924976
+        ],
+        "location": [
+          -1485.3063277834906,
+          -8157.895285860549,
+          7.597565201246727e-05
+        ],
+        "yaw": -15.725766181945803
+      },
+      "scale": 1.5933255472646701,
+      "height_cm": 430.1978977614609,
+      "location": [
+        -1485.3063277834906,
+        -8157.895285860549,
+        0.0
+      ],
+      "yaw": -61.79822602801197
+    },
+    {
+      "label": "CH_Pine_59_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2481201546449785,
+          1.6688788941853543,
+          1.3115820683672286
+        ],
+        "location": [
+          1077.3007002978957,
+          -7828.21536458067,
+          6.25411066230406e-05
+        ],
+        "yaw": -0.06182923913002014
+      },
+      "scale": 1.311582596492129,
+      "height_cm": 354.1273010528748,
+      "location": [
+        1077.3007002978957,
+        -7828.21536458067,
+        0.0
+      ],
+      "yaw": 179.50968851925575
+    },
+    {
+      "label": "CH_Pine_60_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          0.9853902769888303,
+          1.6688788941853543,
+          1.8617086676385435
+        ],
+        "location": [
+          11.95880913049237,
+          -7860.059346084599,
+          8.877318704788892e-05
+        ],
+        "yaw": -5.812698841094972
+      },
+      "scale": 1.8617094172787896,
+      "height_cm": 502.6615426652732,
+      "location": [
+        11.95880913049237,
+        -7860.059346084599,
+        0.0
+      ],
+      "yaw": -141.3324621767746
+    },
+    {
+      "label": "CH_Pine_61_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.2306797767609934,
+          1.6688788941853543,
+          1.855546498347541
+        ],
+        "location": [
+          1048.9645528136064,
+          -5655.422167418598,
+          8.84793519185801e-05
+        ],
+        "yaw": -9.103740692138672
+      },
+      "scale": 1.8555472455065127,
+      "height_cm": 500.99775628675843,
+      "location": [
+        1048.9645528136064,
+        -5655.422167418598,
+        0.0
+      ],
+      "yaw": 152.34991874337527
+    },
+    {
+      "label": "CH_Pine_62_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          0.9466654630480474,
+          1.6688788941853543,
+          1.9376911218801132
+        ],
+        "location": [
+          -1913.0324579629096,
+          -7992.970514928348,
+          9.239631280327383e-05
+        ],
+        "yaw": -8.703808784484862
+      },
+      "scale": 1.9376919021156436,
+      "height_cm": 523.1768135712238,
+      "location": [
+        -1913.0324579629096,
+        -7992.970514928348,
+        0.0
+      ],
+      "yaw": -128.34606995470284
+    },
+    {
+      "label": "CH_Pine_63_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0538294280822682,
+          1.6688788941853543,
+          1.5986065286041629
+        ],
+        "location": [
+          2165.139713677647,
+          -8707.402052225561,
+          7.622749941845716e-05
+        ],
+        "yaw": 11.92602825164795
+      },
+      "scale": 1.5986071723030468,
+      "height_cm": 431.62393652182266,
+      "location": [
+        2165.139713677647,
+        -8707.402052225561,
+        0.0
+      ],
+      "yaw": -140.07406440407127
+    },
+    {
+      "label": "CH_Pine_65_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1365869612561923,
+          1.6688788941853543,
+          1.4533370285192484
+        ],
+        "location": [
+          -179.90401299095072,
+          -8441.838603435324,
+          6.930050985904924e-05
+        ],
+        "yaw": 15.611564636230481
+      },
+      "scale": 1.4533376137235539,
+      "height_cm": 392.40115570535954,
+      "location": [
+        -179.90401299095072,
+        -8441.838603435324,
+        0.0
+      ],
+      "yaw": -135.49823195086518
+    },
+    {
+      "label": "CH_Pine_66_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          0.9371239334035799,
+          1.6688788941853543,
+          1.5908702418228058
+        ],
+        "location": [
+          -351.1338830247538,
+          -5291.46806297044,
+          7.58586045180705e-05
+        ],
+        "yaw": -16.891803741455078
+      },
+      "scale": 1.5908708824065771,
+      "height_cm": 429.53513824977586,
+      "location": [
+        -351.1338830247538,
+        -5291.46806297044,
+        0.0
+      ],
+      "yaw": -14.860231792202455
+    },
+    {
+      "label": "CH_Pine_67_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          0.9714453776667762,
+          1.6688788941853543,
+          1.4148685917699342
+        ],
+        "location": [
+          1747.4248546847002,
+          -5447.212321482898,
+          6.746619185304328e-05
+        ],
+        "yaw": 8.492389678955078
+      },
+      "scale": 1.414869161484443,
+      "height_cm": 382.01467360079965,
+      "location": [
+        1747.4248546847002,
+        -5447.212321482898,
+        0.0
+      ],
+      "yaw": 37.5799617964328
+    },
+    {
+      "label": "CH_Pine_68_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          0.9963936248504278,
+          1.6688788941853543,
+          1.8410566302928173
+        ],
+        "location": [
+          2204.9339550727536,
+          -7155.374278393967,
+          8.778842116798484e-05
+        ],
+        "yaw": 2.585869073867797
+      },
+      "scale": 1.8410573716172627,
+      "height_cm": 497.08549033666094,
+      "location": [
+        2204.9339550727536,
+        -7155.374278393967,
+        0.0
+      ],
+      "yaw": 95.40091319113503
+    },
+    {
+      "label": "CH_Pine_69_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0487519659796223,
+          1.6688788941853543,
+          1.6909658064461663
+        ],
+        "location": [
+          2353.4626170766787,
+          -8527.449895305273,
+          8.063153297644455e-05
+        ],
+        "yaw": 5.661156177520754
+      },
+      "scale": 1.690966487334667,
+      "height_cm": 456.5609515803601,
+      "location": [
+        2353.4626170766787,
+        -8527.449895305273,
+        0.0
+      ],
+      "yaw": -143.031389887597
+    },
+    {
+      "label": "CH_Pine_70_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0840063196693888,
+          1.6688788941853543,
+          1.9984392095924124
+        ],
+        "location": [
+          -431.43886709424544,
+          -7920.212307588575,
+          9.529300735437453e-05
+        ],
+        "yaw": -15.879623413085938
+      },
+      "scale": 1.998440014288919,
+      "height_cm": 539.5788038580081,
+      "location": [
+        -431.43886709424544,
+        -7920.212307588575,
+        0.0
+      ],
+      "yaw": -19.170364555368906
+    },
+    {
+      "label": "CH_Pine_71_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0478264704916525,
+          1.6688788941853543,
+          1.400890164413157
+        ],
+        "location": [
+          -292.05340178485613,
+          -5397.105432275233,
+          6.679964849534783e-05
+        ],
+        "yaw": -17.070432662963864
+      },
+      "scale": 1.4008907284990777,
+      "height_cm": 378.24049669475096,
+      "location": [
+        -292.05340178485613,
+        -5397.105432275233,
+        0.0
+      ],
+      "yaw": -19.281974481277132
+    },
+    {
+      "label": "CH_Pine_72_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1593676582962669,
+          1.6688788941853543,
+          1.7240862020771008
+        ],
+        "location": [
+          1412.2252296815652,
+          -6254.450410168821,
+          8.221083650956634e-05
+        ],
+        "yaw": -10.456384658813475
+      },
+      "scale": 1.7240868963019425,
+      "height_cm": 465.50346200152444,
+      "location": [
+        1412.2252296815652,
+        -6254.450410168821,
+        0.0
+      ],
+      "yaw": 16.427457338432873
+    },
+    {
+      "label": "CH_Pine_73_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.1369538279239633,
+          1.6688788941853543,
+          1.705857775061514
+        ],
+        "location": [
+          810.7063163231577,
+          -6569.886247099479,
+          8.13416373759038e-05
+        ],
+        "yaw": 0.7555071115493774
+      },
+      "scale": 1.7058584619464519,
+      "height_cm": 460.581784725542,
+      "location": [
+        810.7063163231577,
+        -6569.886247099479,
+        0.0
+      ],
+      "yaw": -27.802686644189947
+    },
+    {
+      "label": "CH_Pine_74_Pine_HD2D",
+      "previous": {
+        "mesh": "/Game/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.CH_Pine_Closed_v002",
+        "scale": [
+          1.0708712543041994,
+          1.6688788941853543,
+          1.8593052481360706
+        ],
+        "location": [
+          -288.9771928811925,
+          -6281.238384358002,
+          8.865858307533601e-05
+        ],
+        "yaw": -12.993807792663572
+      },
+      "scale": 1.85930599680855,
+      "height_cm": 502.0126191383085,
+      "location": [
+        -288.9771928811925,
+        -6281.238384358002,
+        0.0
+      ],
+      "yaw": 122.03882515208898
+    }
+  ]
+}

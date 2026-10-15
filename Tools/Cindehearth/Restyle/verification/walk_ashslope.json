@@ -1,0 +1,139 @@
+{
+  "passed": true,
+  "route": "ashslope",
+  "waypoints_reached": 10,
+  "total_waypoints": 10,
+  "final_pos": [
+    -8607.385730345497,
+    -360.94517003485305,
+    657.6500002904501
+  ],
+  "samples": [
+    {
+      "seconds": 0.95,
+      "pos": [
+        -3240.0,
+        540.0,
+        207.6
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 3.28,
+      "pos": [
+        -4034.9,
+        540.0,
+        207.6
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 5.62,
+      "pos": [
+        -4494.4,
+        981.5,
+        207.6
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 7.95,
+      "pos": [
+        -4935.4,
+        1367.8,
+        279.2
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 10.28,
+      "pos": [
+        -5335.7,
+        1026.5,
+        320.1
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 12.62,
+      "pos": [
+        -5527.1,
+        232.6,
+        320.1
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 14.95,
+      "pos": [
+        -5779.6,
+        -385.9,
+        320.1
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 17.28,
+      "pos": [
+        -6443.6,
+        -258.2,
+        432.6
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 19.61,
+      "pos": [
+        -6618.0,
+        539.8,
+        432.6
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 21.62,
+      "pos": [
+        -6767.4,
+        1223.7,
+        432.6
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 23.95,
+      "pos": [
+        -7364.1,
+        1353.2,
+        548.9
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 26.28,
+      "pos": [
+        -7673.8,
+        790.8,
+        545.1
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 28.61,
+      "pos": [
+        -7854.8,
+        1.6,
+        545.2
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 30.95,
+      "pos": [
+        -8257.5,
+        -371.1,
+        603.5
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    }
+  ]
+}

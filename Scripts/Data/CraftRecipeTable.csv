@@ -1,0 +1,15 @@
+Name,RecipeId,ShopId,SlotIndex,ResultType,ResultId,ResultCount,DisplayName,Category,Material1,Material2,Material3,Material4,Gold,RequiredLevel,RequiredBlueprintId,Description
+14001,14001,8006,1,Item,6001,3,하급 체력 포션,체력 포션,"(RefType=Item,RefId=6501,Count=1)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)",20,1,0,회복 물약 재료로 하급 체력 포션 3개를 만든다.
+14002,14002,8006,2,Item,6002,1,중급 체력 포션,체력 포션,"(RefType=Item,RefId=6501,Count=3)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)",80,5,0,회복 물약 재료를 더 써서 중급으로 졸인다.
+14003,14003,8006,3,Item,6011,3,하급 마나 포션,마나 포션,"(RefType=Item,RefId=6501,Count=1)","(RefType=Item,RefId=6504,Count=1)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)",30,1,0,약초 추출물에 광석 가루를 섞어 마나를 채운다.
+14014,14014,8006,4,Item,6012,1,중급 마나 포션,마나 포션,"(RefType=Item,RefId=6501,Count=2)","(RefType=Item,RefId=6504,Count=2)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)",90,5,0,광석 가루를 더 넣어 마나를 진하게 한다.
+14004,14004,8006,5,Item,6031,1,화상 치료제,치료제,"(RefType=Item,RefId=6501,Count=2)","(RefType=Item,RefId=6505,Count=1)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)",60,3,0,약초 추출물과 가죽 기름으로 화상 연고를 만든다.
+14005,14005,8008,1,Equip,7006,1,낡은 갑옷,낡은 세트,"(RefType=Item,RefId=6503,Count=2)","(RefType=Item,RefId=6505,Count=2)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)",120,1,0,천과 가죽을 덧대어 몸통 보호구를 짓는다.
+14006,14006,8008,2,Equip,7007,1,낡은 바지,낡은 세트,"(RefType=Item,RefId=6503,Count=2)","(RefType=Item,RefId=6505,Count=1)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)",100,1,0,천을 겹쳐 다리 보호구를 짓는다.
+14007,14007,8008,3,Equip,7009,1,낡은 장갑,낡은 세트,"(RefType=Item,RefId=6505,Count=2)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)",80,1,0,가죽을 재단해 손 보호구를 만든다.
+14008,14008,8002,1,Equip,7001,1,낡은 검,낡은 세트,"(RefType=Item,RefId=6504,Count=3)","(RefType=Item,RefId=6502,Count=1)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)",150,1,0,광석을 벼려 날을 세운다.
+14011,14011,8002,2,Equip,7008,1,낡은 투구,낡은 세트,"(RefType=Item,RefId=6504,Count=2)","(RefType=Item,RefId=6505,Count=1)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)",110,1,0,광석을 두드려 머리 보호구를 만든다.
+14009,14009,8002,3,Equip,7010,1,낡은 신발,낡은 세트,"(RefType=Item,RefId=6505,Count=2)","(RefType=Item,RefId=6504,Count=1)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)",90,1,0,가죽 바닥에 쇠붙이를 덧대어 신발을 만든다.
+14012,14012,8002,4,Equip,7101,1,단련된 검,단련된 세트,"(RefType=Item,RefId=6506,Count=3)","(RefType=Item,RefId=6502,Count=2)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)",400,20,0,원석을 여러 번 접어 벼린 날.
+14013,14013,8002,5,Equip,7108,1,단련된 투구,단련된 세트,"(RefType=Item,RefId=6506,Count=2)","(RefType=Item,RefId=6505,Count=2)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)",320,20,0,원석으로 두드린 단단한 머리 보호구.
+14010,14010,8009,1,Item,6508,2,갱목 가공 재료,목재 부품,"(RefType=Item,RefId=6506,Count=1)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)","(RefType=Item,RefId=0,Count=0)",40,1,6510,도면대로 원석을 깎아 갱목 부속을 다듬는다.

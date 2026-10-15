@@ -1,0 +1,139 @@
+{
+  "passed": true,
+  "route": "ashslope",
+  "waypoints_reached": 10,
+  "total_waypoints": 10,
+  "final_pos": [
+    -8540.694911041997,
+    -351.85597946004975,
+    657.6499951845608
+  ],
+  "samples": [
+    {
+      "seconds": 0.81,
+      "pos": [
+        -3240.0,
+        540.0,
+        207.6
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 2.83,
+      "pos": [
+        -3918.3,
+        540.0,
+        207.6
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 4.84,
+      "pos": [
+        -4399.9,
+        889.2,
+        207.6
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 6.86,
+      "pos": [
+        -4845.5,
+        1313.5,
+        256.6
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 8.88,
+      "pos": [
+        -5297.3,
+        994.5,
+        320.1
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 10.89,
+      "pos": [
+        -5484.1,
+        315.7,
+        320.1
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 12.91,
+      "pos": [
+        -5730.4,
+        -305.9,
+        320.1
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 14.92,
+      "pos": [
+        -6359.4,
+        -234.4,
+        432.6
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 16.94,
+      "pos": [
+        -6567.8,
+        406.0,
+        432.6
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 18.95,
+      "pos": [
+        -6732.9,
+        1092.1,
+        432.6
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 20.97,
+      "pos": [
+        -7290.3,
+        1331.0,
+        530.2
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 22.99,
+      "pos": [
+        -7599.9,
+        806.2,
+        545.2
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 25.0,
+      "pos": [
+        -7787.2,
+        128.5,
+        545.1
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 27.02,
+      "pos": [
+        -8178.9,
+        -322.2,
+        583.8
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    }
+  ]
+}

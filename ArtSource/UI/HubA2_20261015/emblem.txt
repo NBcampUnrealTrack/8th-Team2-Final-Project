@@ -1,0 +1,4 @@
+Use $imagegen to create ONE game emblem asset for UI use: a faithful high-resolution redraw of the attached emblem.png (the game's main emblem).
+Same design exactly: central crescent ring with an inner dot and inner thin ring, a four-point star rising from the top with small sparkles, symmetrical sweeping feathered/leaf wings below, small diamond tip at the bottom. Champagne gold (#D9C08A to #F3E2B8 highlights) with fine ivory edge highlights, crisp vector-like edges, very subtle soft outer glow.
+Background: fully TRANSPARENT (alpha), nothing else in the image, centred with a little margin, square 1024x1024. No text, no frame, no dark plate.
+Save the final PNG into the current working directory as exactly emblem_hires.png and reply with only that path.

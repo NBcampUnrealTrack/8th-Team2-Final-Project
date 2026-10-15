@@ -1,0 +1,14 @@
+{
+  "source_object_name": "CH_Dense_TavernWallsInset_REF___CH_Dense_TavernWallsFront_025",
+  "output_object_name": "CH_Dense_TavernWallsInset_Final026",
+  "operations": [
+    {
+      "type": "transform_vertices",
+      "translation": [
+        -0.14,
+        0,
+        0
+      ]
+    }
+  ]
+}

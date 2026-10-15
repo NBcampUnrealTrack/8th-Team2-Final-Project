@@ -1,0 +1,44 @@
+{
+  "name": "Wall",
+  "geometry": {
+    "vertices": 731,
+    "edges": 1548,
+    "polygons": 818,
+    "triangles": 1399,
+    "ngons": 0,
+    "loose_vertices": 0,
+    "loose_edges": 0,
+    "zero_length_edges": 0,
+    "boundary_edges": 61,
+    "wire_edges": 0,
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "invalid_face_normals": 0,
+    "non_finite_vertices": 0
+  },
+  "dimensions": [
+    0.8397654891014099,
+    3.0,
+    1.7659990787506104
+  ],
+  "components": [
+    {
+      "id": 0,
+      "faces": 818,
+      "diameter": 3.5811
+    }
+  ],
+  "loops": [
+    {
+      "id": 0,
+      "edges": 61,
+      "simple": true,
+      "diameter": 3.0428,
+      "center": [
+        -0.0007327795028686523,
+        -0.0007327795028686523,
+        0.012457281351089478
+      ]
+    }
+  ]
+}

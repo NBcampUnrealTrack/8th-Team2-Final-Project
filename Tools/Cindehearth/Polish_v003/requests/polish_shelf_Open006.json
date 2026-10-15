@@ -1,0 +1,15 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Shelf_Caps005.blend",
+  "object_name": "CH_Polish_Shelf_Caps005",
+  "expected_fingerprint": "e50cece9b80607f1505befb8cd5b6c73a635eb9b525948ec01174078cdfbd5cf",
+  "output_object_name": "CH_Polish_Shelf_Open006",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Shelf_Open006.blend",
+  "operation": "delete_faces",
+  "selection_ids": [
+    729
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "polish_shelf_Open006"
+}

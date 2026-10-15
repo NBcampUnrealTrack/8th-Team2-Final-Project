@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"type\": \"image_to_model\",\n  \"status\": \"success\",\n  \"progress\": 100,\n  \"input\": {\n    \"pbr\": true,\n    \"file\": {\n      \"type\": \"jpeg\",\n      \"object\": {\n        \"key\": \"tcli_33f767858dee44c5bacdc60beb29672f/20260905/d2cc7162-68a7-4a94-8077-25d2c864932f/image.jpeg\",\n        \"bucket\": \"tripo-data\"\n      }\n    },\n    \"quad\": true,\n    \"texture\": true,\n    \"auto_size\": false,\n    \"export_uv\": true,\n    \"face_limit\": 500,\n    \"model_version\": \"P2-20260801\",\n    \"texture_quality\": \"standard\",\n    \"enable_image_autofix\": false\n  },\n  \"task_id\": \"d2cc7162-68a7-4a94-8077-25d2c864932f\",\n  \"created_at\": \"2026-09-05T08:06:32.767202Z\",\n  \"completed_at\": \"2026-09-05T08:08:10.349818Z\",\n  \"credits_consumed\": 110.0,\n  \"output_files\": {\n    \"model_url\": \"tripo_pbr_model_d2cc7162-68a7-4a94-8077-25d2c864932f.fbx\",\n    \"rendered_image_url\": \"legacy_mesh.webp\"\n  }\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

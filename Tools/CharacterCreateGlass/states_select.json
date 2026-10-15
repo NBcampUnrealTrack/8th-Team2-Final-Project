@@ -1,0 +1,8 @@
+[
+ {"shot": "select_empty", "wait": 25},
+ {"shot": "select_roster", "py": "game_select_dummies.py", "wait": 6},
+ {"shot": "select_pick_mid", "py": "game_select_pick.py", "wait": 0.12, "frames": 2},
+ {"shot": "select_pick", "wait": 2},
+ {"shot": "select_intro_mid", "py": "game_replay_intro.py", "wait": 0.35, "frames": 3},
+ {"shot": "select_intro_end", "wait": 2}
+]

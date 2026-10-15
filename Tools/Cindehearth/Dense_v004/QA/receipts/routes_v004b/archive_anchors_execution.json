@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "output": "ARCHIVE ANCHOR QA [{\"case\": \"Q6 hatch remains gated\", \"stage\": 6, \"start\": [1077.7, 195.975, 215.0], \"expected\": [1077.7, 195.975, 215.0], \"actual\": [1077.6999999999998, 195.9749999999999, 215.0], \"error_cm\": 2.428351918216984e-13, \"passed\": true}, {\"case\": \"Q7 enter at current upper anchor\", \"stage\": 7, \"start\": [1077.7, 195.975, 215.0], \"expected\": [1172.7, 253.475, 29.0], \"actual\": [1172.7, 253.475, 29.0], \"error_cm\": 0.0, \"passed\": true}, {\"case\": \"Q7 exit at current lower anchor\", \"stage\": 7, \"start\": [1172.7, 253.475, 29.0], \"expected\": [1077.7, 195.975, 215.0], \"actual\": [1077.7, 195.975, 215.0], \"error_cm\": 0.0, \"passed\": true}, {\"case\": \"reject distant horizontal position\", \"stage\": 7, \"start\": [1572.7, 195.975, 215.0], \"expected\": [1572.7, 195.975, 215.0], \"actual\": [1572.7, 195.975, 215.0], \"error_cm\": 0.0, \"passed\": true}, {\"case\": \"reject vertically remote floor\", \"stage\": 7, \"start\": [1077.7, 195.975, 415.0], \"expected\": [1077.7, 195.975, 415.0], \"actual\": [1077.7, 195.975, 415.0], \"error_cm\": 0.0, \"passed\": true}]",
+  "result": "None",
+  "warnings": [],
+  "execution_time_ms": 37.035400390625
+}

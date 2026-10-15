@@ -1,0 +1,17 @@
+{
+  "effect": "Cindehearth fixed front ambient fire",
+  "source": "Persistent log hearth and forge firebox",
+  "target": "Upward heat flow, rooted at fuel",
+  "camera_contract": {"pitch": -25, "yaw": 90, "fov": 32, "rotation_allowed": false},
+  "primary": "Five unequal tapered tongues merged into one camera-facing silhouette",
+  "secondary": "Three sparse rising motes with smooth entrance and exit",
+  "palette": "Amber yellow core, orange body, dim red translucent rim",
+  "motion": "16 Hz material loop; unequal heights and phase; upward advected bends; steady root",
+  "geometry": "Two static depth-tested quads, one per source; no crossed planes",
+  "shader": "/Game/Cindehearth/Fire_v005/Materials/M_CH_FrontFire",
+  "texture_contract": "Procedural UV64x80 grid with alpha; no texture generation/import required",
+  "avoid": ["standing human-like silhouette", "orange opaque cardboard", "floating forge flame", "screen-facing rectangle", "white bloom disc"],
+  "scope": "Local environment polish; camera, gameplay and light state contract preserved",
+  "candidate_selection": "Root evaluates actual front day/night and temporal captures; user art approval not yet recorded",
+  "performance_scope": "Five old quads replaced by two; bounded shader loops5+3; no new dynamic lights or Niagara simulation; target-platform frame-budget qualification not claimed"
+}

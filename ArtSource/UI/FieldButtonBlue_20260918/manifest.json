@@ -1,0 +1,27 @@
+{
+  "tool": "native image_gen",
+  "prompt": "Use case: precise-object-edit. Edit the provided production circular HUD button backplate PNG. The user specifically says its NAVY COLOR IS TOO DARK and wants a LIGHTER BLUE. CHANGE ONLY THE INTERIOR BLUE COLOR: replace near-black navy with an unmistakably lighter soft mid blue, center sRGB #4D80A6, very subtle perimeter #416F93; restrained matte satin, minimal gradient, no glow. Keep the exact existing circle silhouette, size, position, transparent exterior, narrow champagne/ivory rim geometry and rim color. No new ornament, no icons, no text, no white background, no checkerboard painted into image, no added shadow, no strong bevel. The full disk should read as muted clear BLUE even at 64px, visibly several shades lighter than the supplied image, with enough contrast for a warm ivory symbol over it. Preserve RGBA transparency outside the circle. Single isolated button base texture.",
+  "native_source": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-53617c84-6c55-4a53-881e-6f36bedf3a2b.png",
+  "reference": "ArtSource/UI/FieldHUDTheme_20260917/T_FHUD_MenuBase.png",
+  "source_file": "ArtSource/UI/FieldButtonBlue_20260918/T_FHUD_MenuBase_LightBlue.png",
+  "asset_path": "/Game/Developers/MinkiCho/Art/FieldHUD/IconsV2/T_FHUD_MenuBase_LightBlue",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "sha256": "bb5d2b074625089ee542a0474c7a36661a223b901c3bc14769d07143a0f33d42",
+  "center_rgba": [
+    76,
+    135,
+    183,
+    253
+  ],
+  "old_center_rgba": [
+    21,
+    36,
+    58,
+    254
+  ],
+  "source_pixels_unmodified": true
+}

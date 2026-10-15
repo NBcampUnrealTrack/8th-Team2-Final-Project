@@ -1,0 +1,27 @@
+{
+  "status": "finished",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Portal_Caps004.glb",
+  "assets": [
+    "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Textures/Normal.Normal",
+    "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Textures/Color.Color",
+    "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Textures/tripo_image_dbac5f18_2-tripo_image_dbac5f18_1.tripo_image_dbac5f18_2-tripo_image_dbac5f18_1",
+    "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Materials/tripo_mat_dbac5f18.tripo_mat_dbac5f18",
+    "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/StaticMeshes/CH_Polish_Portal_Caps004.CH_Polish_Portal_Caps004"
+  ],
+  "meshes": [
+    {
+      "path": "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/StaticMeshes/CH_Polish_Portal_Caps004.CH_Polish_Portal_Caps004",
+      "triangles": 2420,
+      "min": [
+        -47.41084671020508,
+        -150.0,
+        0.0
+      ],
+      "max": [
+        47.41084671020508,
+        150.0,
+        239.32583618164062
+      ]
+    }
+  ]
+}

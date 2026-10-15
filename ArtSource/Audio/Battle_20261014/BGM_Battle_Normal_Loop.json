@@ -1,0 +1,20 @@
+{
+ "source": "Nia Unbound Battle_suno_original.mp3",
+ "beat_s": 0.38974910974502563,
+ "bpm": 153.9451904296875,
+ "loop_start_s": 20.85825,
+ "loop_end_s": 110.96945833333334,
+ "loop_length_s": 90.11120833333334,
+ "loop_length_beats": 231.20310974121094,
+ "onset_corr_at_L": 0.25054335594177246,
+ "onset_align_corr": 0.4561644196510315,
+ "end_shift_ms": 43.53741496598639,
+ "crossfade_s": 0.38975,
+ "seam_flux": 244.90109976126405,
+ "beat_flux_median": 116.30652578573758,
+ "beat_flux_p90": 179.04938875124404,
+ "lufs_before": -15.9,
+ "target_lufs": -16.0,
+ "gain_db": -0.09999999999999984,
+ "peak_dbfs": -3.953124823130825
+}

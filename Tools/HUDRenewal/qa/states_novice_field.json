@@ -1,0 +1,8 @@
+[
+ {
+  "shot": "nov_field",
+  "py": "qa_village.py",
+  "wait": 20,
+  "frames": 240
+ }
+]

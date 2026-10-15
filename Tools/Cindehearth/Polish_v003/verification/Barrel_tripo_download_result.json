@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"downloaded\": true,\n  \"task_id\": \"2439e2fa-cf72-4c98-9dba-8cd0e1b7f2b2\",\n  \"asset_name\": \"CH_Polish_Barrel_P2_v003\",\n  \"files\": {\n    \"model\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Barrel_P2_v003\\\\2439e2fa-cf72-4c98-9dba-8cd0e1b7f2b2\\\\2439e2fa-cf72-4c98-9dba-8cd0e1b7f2b2_model.fbx\",\n    \"rendered_image\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Barrel_P2_v003\\\\2439e2fa-cf72-4c98-9dba-8cd0e1b7f2b2\\\\2439e2fa-cf72-4c98-9dba-8cd0e1b7f2b2_rendered.webp\"\n  },\n  \"output_directory\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Barrel_P2_v003\\\\2439e2fa-cf72-4c98-9dba-8cd0e1b7f2b2\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

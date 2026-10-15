@@ -1,0 +1,22 @@
+{
+  "source": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Materials/tripo_mat_b18f59b5.tripo_mat_b18f59b5",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Rock_0311b.MI_HD2D_Rock_0311b",
+  "kind": "Surface",
+  "scalars": {
+    "PixelGrid": 128.0,
+    "Roughness": 0.87,
+    "Metallic": 0.0
+  },
+  "vectors": {
+    "MaterialTint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "textures": {
+    "BaseColorTexture": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Textures/Color.Color",
+    "NormalTexture": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Textures/Normal.Normal"
+  }
+}

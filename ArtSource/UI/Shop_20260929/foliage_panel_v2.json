@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-29",
+  "mode": "built-in image_gen",
+  "reference_asset": "/Game/Developers/MinkiCho/상점_페이지",
+  "output_file": "T_Shop_FoliagePanelV2.png",
+  "texture_asset": "/Game/Developers/MinkiCho/Art/Shop/Concept20260929/T_Shop_FoliagePanelV2",
+  "use": "WBP_ShopPage / LeftLeaves. Original pixels unchanged.",
+  "prompt": "Create one opaque vertical decorative background texture for a fantasy RPG shop UI, matching the blue-gray foliage along the far left side under the hanging navy SHOP pennant in the attached reference screenshot. Output ONLY the decorative foliage panel, no screenshot and no UI. Tall narrow 1:3 aspect ratio, full bleed edge-to-edge opaque warm pale ivory paper background. Dense layered silhouettes of small leafy branches and clusters, dusty navy, slate blue and pale silver blue. Strongest darkest clusters at bottom and left edge, softer lighter foliage extending through center and upper right. Individual leaves small and varied, around 3-7% of panel width, NOT a few giant leaves. Gentle fine painterly paper grain but clearly defined leaf edges, elegant fantasy botanical wallpaper with uneven natural spacing. No flowers, no giant single leaf, no letters, no symbols, no frame, no border, no merchant, no buttons, no transparent background, no checkerboard. A subtle decorative tree canopy shadow pattern behind a menu. Preserve the reference's calm navy/ivory mood."
+}

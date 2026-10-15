@@ -1,0 +1,36 @@
+{
+  "mode": "built-in image_gen",
+  "reference": "/Game/Developers/MinkiCho/ProjectM_Character_Info_Concept",
+  "asset": "T_CharacterMenu_Ornaments.png",
+  "purpose": "Shared fullscreen shell ornament atlas; transparent decorative strokes only. Text, buttons, content and data remain live UMG widgets.",
+  "prompts": [
+    "Use case: background-extraction and fantasy UI ornament redrawing. Input image is the reference RPG menu. Extract and reinterpret ONLY its delicate gold border filigree / celestial line ornaments, NOT the interface itself. Deliver ONE square 1024x1024 RGBA TRANSPARENT sprite atlas with exactly FOUR separate ornament cells in a precise 2x2 grid, each cell 512x512 with 32px transparent gutters. NO grid lines. TOP LEFT CELL: elegant thin-line corner flourish oriented to sit in a BOTTOM RIGHT corner, sweeping along bottom and right edges, an elongated four-point star where two fine arcs meet, small restrained curling leaf outlines. Interior upper-left of this cell mostly empty. TOP RIGHT CELL: a smaller airy arc-and-leaf corner flourish oriented to sit in a TOP LEFT corner, fine linear gilded curls and a small diamond star, open center. BOTTOM LEFT CELL: delicate circular celestial navigation chart for a navy sidebar watermark: incomplete astrolabe circles, very sparse intersecting straight lines and tiny diamond stars, one small compass center, wide open areas, no dense grid. BOTTOM RIGHT CELL: elegant horizontally balanced small header divider ornament centered in the cell: very elongated fine curves tapering to the left and right, central tiny four-point star with two small diamonds, narrow in height. Style: crisp clean flat single-color antique pale gold drafting, uniformly fine lines, sparse restrained late Art Nouveau/celestial RPG ornament like the reference. Lines 2-3 pixels at source resolution, enough clarity at reduced UI size. Everything is ornamental line art, almost no filled shapes. Actual alpha transparency between and around all lines. NO background, paper, panels, frames enclosing a rectangle, letters, numerals, labels, character, buttons, shadows, blur, glow, bevels, thick shiny jewelry, screenshots or checkerboard. Each of the FOUR cells must be isolated and fit within its own quadrant with transparent outer gutters.",
+    "Edit this transparent FOUR-cell ornament atlas. Keep exactly the same 2x2 quadrant positions, motifs, orientations, and relative sizes. CHANGE ONLY THE RENDERING STYLE: convert all art to flat monochrome WHITE thin LINE ART on genuine transparent alpha. Every curve and circle should be a crisp thin white outline, with empty transparent interiors. Remove ALL gold color, yellow fringes, glow, soft haze, bevels, reflective shading, shadows, metallic fills, and scattered pixels. Use smooth clean 2px strokes at 1024px output, with slightly thicker principal outlines but no solid broad bands. The star shapes should be elegant hollow four-point outlines with only a few fine internal spokes. Outer blank areas and cell gutters fully transparent. TOP LEFT bottom-right corner flourish; TOP RIGHT top-left corner flourish; BOTTOM LEFT circular astrolabe diagram; BOTTOM RIGHT slender horizontal divider. Do not add labels, background, grid or any other content. This is a production monochrome UMG mask atlas, to be tinted and given opacity later in the game, so pure white RGB for visible strokes and proper anti-aliased alpha only. Output square."
+  ],
+  "uv_cells": {
+    "corner_bottom_right": [
+      0,
+      0,
+      0.5,
+      0.5
+    ],
+    "corner_top_left": [
+      0.5,
+      0,
+      1,
+      0.5
+    ],
+    "astrolabe": [
+      0,
+      0.5,
+      0.5,
+      1
+    ],
+    "divider": [
+      0.5,
+      0.5,
+      1,
+      1
+    ]
+  }
+}

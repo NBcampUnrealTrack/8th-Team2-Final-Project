@@ -1,0 +1,1384 @@
+[
+  {
+    "id": "LG_01_Cottage_A",
+    "name_ko": "아랫마을 기본 주택",
+    "source_name": "LG_01_Cottage_A.fbx",
+    "output_name": "SM_LG_01_Cottage_A_V7",
+    "source_fingerprint": "e6c54ec76a21c71198ae7057282c674c13464367c542c9e355fe212ae78e24ae",
+    "output_report": {
+      "object": {
+        "name": "SM_LG_01_Cottage_A_V7",
+        "type": "MESH",
+        "data_name": "SM_LG_01_Cottage_A_V7_Mesh",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          2.903735876083374,
+          2.8923933506011963,
+          2.430000066757202
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "collections": [
+          "Collection"
+        ]
+      },
+      "fingerprint": "b65cdb0ee223cdc78d020cfde907a755a5da7a55ed8dad8598c473f8656684ea",
+      "geometry": {
+        "vertices": 4516,
+        "edges": 10834,
+        "polygons": 6574,
+        "triangles": 6574,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 1975,
+        "wire_edges": 0,
+        "non_manifold_edges": 26,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "bounds": {
+        "local_min": [
+          -1.451867938041687,
+          -1.4461966753005981,
+          0.0
+        ],
+        "local_max": [
+          1.451867938041687,
+          1.4461966753005981,
+          2.430000066757202
+        ],
+        "world_min": [
+          -1.451867938041687,
+          -1.4461966753005981,
+          0.0
+        ],
+        "world_max": [
+          1.451867938041687,
+          1.4461966753005981,
+          2.430000066757202
+        ]
+      },
+      "materials": [
+        {
+          "slot": 0,
+          "name": "tripo_mat_e34f3563"
+        }
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "active": true,
+          "active_render": true,
+          "loop_count": 19722,
+          "bounds_min": [
+            0.001953125,
+            0.001953125
+          ],
+          "bounds_max": [
+            0.99462890625,
+            0.990234375
+          ],
+          "out_of_zero_one_range": 0,
+          "non_finite": 0,
+          "degenerate_faces": 8
+        }
+      ],
+      "modifiers": [],
+      "quality": {
+        "passed": true,
+        "score": 94,
+        "blockers": [],
+        "warnings": [
+          {
+            "code": "non_manifold_geometry",
+            "message": "Mesh contains boundary, wire, or non-manifold edges."
+          }
+        ],
+        "requirements": {}
+      }
+    },
+    "scale_factor": 2.9037356866749326,
+    "dimensions_cm": [
+      290.3735876083374,
+      289.23933506011963,
+      243.00000667572021
+    ],
+    "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_01_Cottage_A_V7.glb",
+    "sha256": "d62ec643b17df16cb53cbe891cb673b0d735303ea0ed036c3d94aaf147d07827",
+    "recommended_vertex_max": 2600,
+    "initial_triangle_budget": 4500,
+    "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A",
+    "geometry_uv_unchanged_except_uniform_scale": true
+  },
+  {
+    "id": "LG_02_Inn",
+    "name_ko": "물가 여관",
+    "source_name": "LG_02_Inn.fbx",
+    "output_name": "SM_LG_02_Inn_V7",
+    "source_fingerprint": "49e0b65af57abb7c9fd93d3b64423a6e9f040c5f86a60c630829b7b35ef33521",
+    "output_report": {
+      "object": {
+        "name": "SM_LG_02_Inn_V7",
+        "type": "MESH",
+        "data_name": "SM_LG_02_Inn_V7_Mesh",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          4.033520698547363,
+          2.378408193588257,
+          3.6009700298309326
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "collections": [
+          "Collection"
+        ]
+      },
+      "fingerprint": "0fd6649fb4f599b7b20cc5abe45325f0e52a2b50435d6884490e6429d004b57b",
+      "geometry": {
+        "vertices": 9631,
+        "edges": 22040,
+        "polygons": 12889,
+        "triangles": 12889,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 5421,
+        "wire_edges": 0,
+        "non_manifold_edges": 8,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "bounds": {
+        "local_min": [
+          -2.0167603492736816,
+          -1.1892040967941284,
+          0.0
+        ],
+        "local_max": [
+          2.0167603492736816,
+          1.1892040967941284,
+          3.6009700298309326
+        ],
+        "world_min": [
+          -2.0167603492736816,
+          -1.1892040967941284,
+          0.0
+        ],
+        "world_max": [
+          2.0167603492736816,
+          1.1892040967941284,
+          3.6009700298309326
+        ]
+      },
+      "materials": [
+        {
+          "slot": 0,
+          "name": "tripo_mat_f544a036"
+        }
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "active": true,
+          "active_render": true,
+          "loop_count": 38667,
+          "bounds_min": [
+            0.001953125,
+            0.001953125
+          ],
+          "bounds_max": [
+            0.996337890625,
+            0.99609375
+          ],
+          "out_of_zero_one_range": 0,
+          "non_finite": 0,
+          "degenerate_faces": 4
+        }
+      ],
+      "modifiers": [],
+      "quality": {
+        "passed": true,
+        "score": 94,
+        "blockers": [],
+        "warnings": [
+          {
+            "code": "non_manifold_geometry",
+            "message": "Mesh contains boundary, wire, or non-manifold edges."
+          }
+        ],
+        "requirements": {}
+      }
+    },
+    "scale_factor": 4.033519688247761,
+    "dimensions_cm": [
+      403.3520698547363,
+      237.84081935882568,
+      360.09700298309326
+    ],
+    "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_02_Inn_V7.glb",
+    "sha256": "0e482af503e7cefefc15753857c357e8a8483b1475e7d45fc5356e3383ba94c4",
+    "recommended_vertex_max": 4800,
+    "initial_triangle_budget": 8000,
+    "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn",
+    "geometry_uv_unchanged_except_uniform_scale": true
+  },
+  {
+    "id": "LG_03_VillageHall",
+    "name_ko": "마을 회관·성역 회당 공용",
+    "source_name": "LG_03_VillageHall.fbx",
+    "output_name": "SM_LG_03_VillageHall_V7",
+    "source_fingerprint": "0a4d76abcb675b57a2869876728d0f8e3004fd24362472c348b8d68f621be8fe",
+    "output_report": {
+      "object": {
+        "name": "SM_LG_03_VillageHall_V7",
+        "type": "MESH",
+        "data_name": "SM_LG_03_VillageHall_V7_Mesh",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          3.187352418899536,
+          3.044170379638672,
+          3.1499998569488525
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "collections": [
+          "Collection"
+        ]
+      },
+      "fingerprint": "bb3c66c85e5994faebf7f2cf61e61bd953530025ede6670325a4b35877601291",
+      "geometry": {
+        "vertices": 9171,
+        "edges": 22264,
+        "polygons": 13450,
+        "triangles": 13450,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 4178,
+        "wire_edges": 0,
+        "non_manifold_edges": 0,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "bounds": {
+        "local_min": [
+          -1.593676209449768,
+          -1.522085189819336,
+          0.0
+        ],
+        "local_max": [
+          1.593676209449768,
+          1.522085189819336,
+          3.1499998569488525
+        ],
+        "world_min": [
+          -1.593676209449768,
+          -1.522085189819336,
+          0.0
+        ],
+        "world_max": [
+          1.593676209449768,
+          1.522085189819336,
+          3.1499998569488525
+        ]
+      },
+      "materials": [
+        {
+          "slot": 0,
+          "name": "tripo_mat_7a88dfe0"
+        }
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "active": true,
+          "active_render": true,
+          "loop_count": 40350,
+          "bounds_min": [
+            0.001953125,
+            0.001953125
+          ],
+          "bounds_max": [
+            0.998046875,
+            0.99365234375
+          ],
+          "out_of_zero_one_range": 0,
+          "non_finite": 0,
+          "degenerate_faces": 12
+        }
+      ],
+      "modifiers": [],
+      "quality": {
+        "passed": true,
+        "score": 94,
+        "blockers": [],
+        "warnings": [
+          {
+            "code": "non_manifold_geometry",
+            "message": "Mesh contains boundary, wire, or non-manifold edges."
+          }
+        ],
+        "requirements": {}
+      }
+    },
+    "scale_factor": 3.1873517786561263,
+    "dimensions_cm": [
+      318.7352418899536,
+      304.4170379638672,
+      314.99998569488525
+    ],
+    "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_03_VillageHall_V7.glb",
+    "sha256": "de26753fa7a6c8c0c7116acaa36c9c2e4d4a57ebf7ab5712174b3363a3ca2c3f",
+    "recommended_vertex_max": 4200,
+    "initial_triangle_budget": 7000,
+    "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall",
+    "geometry_uv_unchanged_except_uniform_scale": true
+  },
+  {
+    "id": "LG_04_Workshop",
+    "name_ko": "목공·직공 작업소",
+    "source_name": "LG_04_Workshop.fbx",
+    "output_name": "SM_LG_04_Workshop_V7",
+    "source_fingerprint": "1826c6f7c8992a74d654af7980b56ef42565fc6f7377a77a836867beb44aaf6c",
+    "output_report": {
+      "object": {
+        "name": "SM_LG_04_Workshop_V7",
+        "type": "MESH",
+        "data_name": "SM_LG_04_Workshop_V7_Mesh",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          3.427934408187866,
+          2.3993873596191406,
+          2.51990008354187
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "collections": [
+          "Collection"
+        ]
+      },
+      "fingerprint": "cb8204a9a51d436fc069c003e93e79d41c6a0f17aadb214dd89b8a80c9c29a68",
+      "geometry": {
+        "vertices": 8370,
+        "edges": 20590,
+        "polygons": 12452,
+        "triangles": 12452,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 3872,
+        "wire_edges": 0,
+        "non_manifold_edges": 48,
+        "degenerate_faces": 1,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "bounds": {
+        "local_min": [
+          -1.713967204093933,
+          -1.1996936798095703,
+          0.0
+        ],
+        "local_max": [
+          1.713967204093933,
+          1.1996936798095703,
+          2.51990008354187
+        ],
+        "world_min": [
+          -1.713967204093933,
+          -1.1996936798095703,
+          0.0
+        ],
+        "world_max": [
+          1.713967204093933,
+          1.1996936798095703,
+          2.51990008354187
+        ]
+      },
+      "materials": [
+        {
+          "slot": 0,
+          "name": "tripo_mat_317b1c2b"
+        }
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "active": true,
+          "active_render": true,
+          "loop_count": 37356,
+          "bounds_min": [
+            0.001953125,
+            0.001953125
+          ],
+          "bounds_max": [
+            0.989501953125,
+            0.994140625
+          ],
+          "out_of_zero_one_range": 0,
+          "non_finite": 0,
+          "degenerate_faces": 151
+        }
+      ],
+      "modifiers": [],
+      "quality": {
+        "passed": false,
+        "score": 69,
+        "blockers": [
+          {
+            "code": "degenerate_faces",
+            "message": "Mesh contains zero-area faces."
+          }
+        ],
+        "warnings": [
+          {
+            "code": "non_manifold_geometry",
+            "message": "Mesh contains boundary, wire, or non-manifold edges."
+          }
+        ],
+        "requirements": {}
+      }
+    },
+    "scale_factor": 3.427934373962139,
+    "dimensions_cm": [
+      342.7934408187866,
+      239.93873596191406,
+      251.990008354187
+    ],
+    "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_04_Workshop_V7.glb",
+    "sha256": "020ea03cdf2108cc3dfa502d69646a84623bfbbd9ee6c3c92b12a3580b4a82c1",
+    "recommended_vertex_max": 3200,
+    "initial_triangle_budget": 5000,
+    "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop",
+    "geometry_uv_unchanged_except_uniform_scale": true
+  },
+  {
+    "id": "LG_05_WatermillHouse",
+    "name_ko": "물레방앗간 본체",
+    "source_name": "LG_05_WatermillHouse.fbx",
+    "output_name": "SM_LG_05_WatermillHouse_V7",
+    "source_fingerprint": "7dc1c746e38a131378c2fb55d75f0de7738ea2e66d8a99690db6ec9977d6fa91",
+    "output_report": {
+      "object": {
+        "name": "SM_LG_05_WatermillHouse_V7",
+        "type": "MESH",
+        "data_name": "SM_LG_05_WatermillHouse_V7_Mesh",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          3.0525119304656982,
+          2.2651636600494385,
+          2.7899999618530273
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "collections": [
+          "Collection"
+        ]
+      },
+      "fingerprint": "c5ebca33b39ee98199592971bb020e9e828222036990aadb6e0dd8c90a5ed361",
+      "geometry": {
+        "vertices": 9895,
+        "edges": 24128,
+        "polygons": 14769,
+        "triangles": 14769,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 3950,
+        "wire_edges": 0,
+        "non_manifold_edges": 1,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "bounds": {
+        "local_min": [
+          -1.5262559652328491,
+          -1.1325818300247192,
+          0.0
+        ],
+        "local_max": [
+          1.5262559652328491,
+          1.1325818300247192,
+          2.7899999618530273
+        ],
+        "world_min": [
+          -1.5262559652328491,
+          -1.1325818300247192,
+          0.0
+        ],
+        "world_max": [
+          1.5262559652328491,
+          1.1325818300247192,
+          2.7899999618530273
+        ]
+      },
+      "materials": [
+        {
+          "slot": 0,
+          "name": "tripo_mat_12da9820"
+        }
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "active": true,
+          "active_render": true,
+          "loop_count": 44307,
+          "bounds_min": [
+            0.001953125,
+            0.001953125
+          ],
+          "bounds_max": [
+            0.998046875,
+            0.993896484375
+          ],
+          "out_of_zero_one_range": 0,
+          "non_finite": 0,
+          "degenerate_faces": 91
+        }
+      ],
+      "modifiers": [],
+      "quality": {
+        "passed": true,
+        "score": 94,
+        "blockers": [],
+        "warnings": [
+          {
+            "code": "non_manifold_geometry",
+            "message": "Mesh contains boundary, wire, or non-manifold edges."
+          }
+        ],
+        "requirements": {}
+      }
+    },
+    "scale_factor": 3.0525115191986645,
+    "dimensions_cm": [
+      305.2511930465698,
+      226.51636600494385,
+      278.99999618530273
+    ],
+    "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_05_WatermillHouse_V7.glb",
+    "sha256": "5b0c01a4c9ad45e0fe7415ace4b3678839f2f601e413d8eb0c71e9a761061103",
+    "recommended_vertex_max": 3500,
+    "initial_triangle_budget": 6000,
+    "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse",
+    "geometry_uv_unchanged_except_uniform_scale": true
+  },
+  {
+    "id": "LG_06_NaiaShelter",
+    "name_ko": "나이아 안식처",
+    "source_name": "LG_06_NaiaShelter.fbx",
+    "output_name": "SM_LG_06_NaiaShelter_V7",
+    "source_fingerprint": "628f057755550c15f04583095a4d6357a7b5bb7ad78e700d1c98b71e35683c30",
+    "output_report": {
+      "object": {
+        "name": "SM_LG_06_NaiaShelter_V7",
+        "type": "MESH",
+        "data_name": "SM_LG_06_NaiaShelter_V7_Mesh",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          2.95835018157959,
+          2.82076096534729,
+          2.25
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "collections": [
+          "Collection"
+        ]
+      },
+      "fingerprint": "91b050b519cd37926821a231da2991b4b373d09220e91a39f0a4dfc7760c5ea9",
+      "geometry": {
+        "vertices": 3375,
+        "edges": 9616,
+        "polygons": 6251,
+        "triangles": 6251,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 479,
+        "wire_edges": 0,
+        "non_manifold_edges": 0,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "bounds": {
+        "local_min": [
+          -1.479175090789795,
+          -1.410380482673645,
+          0.0
+        ],
+        "local_max": [
+          1.479175090789795,
+          1.410380482673645,
+          2.25
+        ],
+        "world_min": [
+          -1.479175090789795,
+          -1.410380482673645,
+          0.0
+        ],
+        "world_max": [
+          1.479175090789795,
+          1.410380482673645,
+          2.25
+        ]
+      },
+      "materials": [
+        {
+          "slot": 0,
+          "name": "tripo_mat_6029c87e"
+        }
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "active": true,
+          "active_render": true,
+          "loop_count": 18753,
+          "bounds_min": [
+            0.001953125,
+            0.001953125
+          ],
+          "bounds_max": [
+            0.989990234375,
+            0.99755859375
+          ],
+          "out_of_zero_one_range": 0,
+          "non_finite": 0,
+          "degenerate_faces": 1
+        }
+      ],
+      "modifiers": [],
+      "quality": {
+        "passed": true,
+        "score": 94,
+        "blockers": [],
+        "warnings": [
+          {
+            "code": "non_manifold_geometry",
+            "message": "Mesh contains boundary, wire, or non-manifold edges."
+          }
+        ],
+        "requirements": {}
+      }
+    },
+    "scale_factor": 2.9583500521627477,
+    "dimensions_cm": [
+      295.835018157959,
+      282.076096534729,
+      225.0
+    ],
+    "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_06_NaiaShelter_V7.glb",
+    "sha256": "c3becdcd5ffd6a952ba37830ac9dc676e528b2a8224e1e4b21fd3a5934704767",
+    "recommended_vertex_max": 4000,
+    "initial_triangle_budget": 6500,
+    "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter",
+    "geometry_uv_unchanged_except_uniform_scale": true
+  },
+  {
+    "id": "LG_07_Sanctuary",
+    "name_ko": "에코크라운 성역 핵심",
+    "source_name": "LG_07_Sanctuary.fbx",
+    "output_name": "SM_LG_07_Sanctuary_V7",
+    "source_fingerprint": "8e4cc3762927302cea97cad6a97f8146483368c946c93c356d66b74625c7faad",
+    "output_report": {
+      "object": {
+        "name": "SM_LG_07_Sanctuary_V7",
+        "type": "MESH",
+        "data_name": "SM_LG_07_Sanctuary_V7_Mesh",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          2.8331546783447266,
+          2.8335940837860107,
+          3.5999999046325684
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "collections": [
+          "Collection"
+        ]
+      },
+      "fingerprint": "b3f28260c6ba896d8c03987b61c3a75fa3ec90abf9d1e17b7e866265b2fb5767",
+      "geometry": {
+        "vertices": 10933,
+        "edges": 28533,
+        "polygons": 17726,
+        "triangles": 17726,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 3896,
+        "wire_edges": 0,
+        "non_manifold_edges": 7,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "bounds": {
+        "local_min": [
+          -1.4165773391723633,
+          -1.4167970418930054,
+          0.0
+        ],
+        "local_max": [
+          1.4165773391723633,
+          1.4167970418930054,
+          3.5999999046325684
+        ],
+        "world_min": [
+          -1.4165773391723633,
+          -1.4167970418930054,
+          0.0
+        ],
+        "world_max": [
+          1.4165773391723633,
+          1.4167970418930054,
+          3.5999999046325684
+        ]
+      },
+      "materials": [
+        {
+          "slot": 0,
+          "name": "tripo_mat_50ec2d11"
+        }
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "active": true,
+          "active_render": true,
+          "loop_count": 53178,
+          "bounds_min": [
+            0.001953125,
+            0.001953125
+          ],
+          "bounds_max": [
+            0.987548828125,
+            0.983154296875
+          ],
+          "out_of_zero_one_range": 0,
+          "non_finite": 0,
+          "degenerate_faces": 64
+        }
+      ],
+      "modifiers": [],
+      "quality": {
+        "passed": true,
+        "score": 94,
+        "blockers": [],
+        "warnings": [
+          {
+            "code": "non_manifold_geometry",
+            "message": "Mesh contains boundary, wire, or non-manifold edges."
+          }
+        ],
+        "requirements": {}
+      }
+    },
+    "scale_factor": 3.6,
+    "dimensions_cm": [
+      283.31546783447266,
+      283.3594083786011,
+      359.99999046325684
+    ],
+    "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_07_Sanctuary_V7.glb",
+    "sha256": "a4f00662428c4a8d8df3984ff24a98d6923d3dd27cb2fe98cf420e5a3892d234",
+    "recommended_vertex_max": 4200,
+    "initial_triangle_budget": 7000,
+    "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary",
+    "geometry_uv_unchanged_except_uniform_scale": true
+  },
+  {
+    "id": "LG_08_BroadleafTree",
+    "name_ko": "리베르그로브 활엽수",
+    "source_name": "LG_08_BroadleafTree.fbx",
+    "output_name": "SM_LG_08_BroadleafTree_V7",
+    "source_fingerprint": "8416a431628f281cab688b6119321d233ef90db2990dffff2f2c229ac4049c48",
+    "output_report": {
+      "object": {
+        "name": "SM_LG_08_BroadleafTree_V7",
+        "type": "MESH",
+        "data_name": "SM_LG_08_BroadleafTree_V7_Mesh",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          4.9998650550842285,
+          4.9101457595825195,
+          4.5
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "collections": [
+          "Collection"
+        ]
+      },
+      "fingerprint": "98721fac7dc0ff654952d048af0f26881700e82beec2dbc3a150d088ff22fce5",
+      "geometry": {
+        "vertices": 5685,
+        "edges": 16991,
+        "polygons": 11303,
+        "triangles": 11303,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 73,
+        "wire_edges": 0,
+        "non_manifold_edges": 0,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "bounds": {
+        "local_min": [
+          -2.4999325275421143,
+          -2.4550728797912598,
+          0.0
+        ],
+        "local_max": [
+          2.4999325275421143,
+          2.4550728797912598,
+          4.5
+        ],
+        "world_min": [
+          -2.4999325275421143,
+          -2.4550728797912598,
+          0.0
+        ],
+        "world_max": [
+          2.4999325275421143,
+          2.4550728797912598,
+          4.5
+        ]
+      },
+      "materials": [
+        {
+          "slot": 0,
+          "name": "tripo_mat_dbfe09e0"
+        }
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "active": true,
+          "active_render": true,
+          "loop_count": 33909,
+          "bounds_min": [
+            0.001953125,
+            0.001953125
+          ],
+          "bounds_max": [
+            0.994384765625,
+            0.994873046875
+          ],
+          "out_of_zero_one_range": 0,
+          "non_finite": 0,
+          "degenerate_faces": 0
+        }
+      ],
+      "modifiers": [],
+      "quality": {
+        "passed": true,
+        "score": 94,
+        "blockers": [],
+        "warnings": [
+          {
+            "code": "non_manifold_geometry",
+            "message": "Mesh contains boundary, wire, or non-manifold edges."
+          }
+        ],
+        "requirements": {}
+      }
+    },
+    "scale_factor": 4.999864369998644,
+    "dimensions_cm": [
+      499.98650550842285,
+      491.01457595825195,
+      450.0
+    ],
+    "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_08_BroadleafTree_V7.glb",
+    "sha256": "088524fd7b9a1bbaa33794d24ba45cd947088cc8ba320993568a3841694b22fd",
+    "recommended_vertex_max": 3400,
+    "initial_triangle_budget": 5500,
+    "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree",
+    "geometry_uv_unchanged_except_uniform_scale": true
+  },
+  {
+    "id": "LG_09_MarketStall",
+    "name_ko": "광장 공용 노점",
+    "source_name": "LG_09_MarketStall.fbx",
+    "output_name": "SM_LG_09_MarketStall_V7",
+    "source_fingerprint": "f00142092e66bbbeacab2e90858d89ba16e08cb56efa6790f49e2f346e475020",
+    "output_report": {
+      "object": {
+        "name": "SM_LG_09_MarketStall_V7",
+        "type": "MESH",
+        "data_name": "SM_LG_09_MarketStall_V7_Mesh",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          2.012834310531616,
+          1.6017662286758423,
+          1.7100000381469727
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "collections": [
+          "Collection"
+        ]
+      },
+      "fingerprint": "f461cada9289fd04e591940ae3acd06700f4f1ce1512b815b2ddeafb0e8c0ce0",
+      "geometry": {
+        "vertices": 1534,
+        "edges": 3963,
+        "polygons": 2505,
+        "triangles": 2505,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 411,
+        "wire_edges": 0,
+        "non_manifold_edges": 0,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "bounds": {
+        "local_min": [
+          -1.006417155265808,
+          -0.8008831143379211,
+          0.0
+        ],
+        "local_max": [
+          1.006417155265808,
+          0.8008831143379211,
+          1.7100000381469727
+        ],
+        "world_min": [
+          -1.006417155265808,
+          -0.8008831143379211,
+          0.0
+        ],
+        "world_max": [
+          1.006417155265808,
+          0.8008831143379211,
+          1.7100000381469727
+        ]
+      },
+      "materials": [
+        {
+          "slot": 0,
+          "name": "tripo_mat_62cb0827"
+        }
+      ],
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "active": true,
+          "active_render": true,
+          "loop_count": 7515,
+          "bounds_min": [
+            0.001953125,
+            0.001953125
+          ],
+          "bounds_max": [
+            0.997802734375,
+            0.96240234375
+          ],
+          "out_of_zero_one_range": 0,
+          "non_finite": 0,
+          "degenerate_faces": 4
+        }
+      ],
+      "modifiers": [],
+      "quality": {
+        "passed": true,
+        "score": 94,
+        "blockers": [],
+        "warnings": [
+          {
+            "code": "non_manifold_geometry",
+            "message": "Mesh contains boundary, wire, or non-manifold edges."
+          }
+        ],
+        "requirements": {}
+      }
+    },
+    "scale_factor": 2.0128342553344347,
+    "dimensions_cm": [
+      201.28343105316162,
+      160.17662286758423,
+      171.00000381469727
+    ],
+    "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_09_MarketStall_V7.glb",
+    "sha256": "7a4b41634828f6e3541cff784a4b7c0fc22e32f8eab1c4dc2a507226e4e45232",
+    "recommended_vertex_max": 2300,
+    "initial_triangle_budget": 3600,
+    "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall",
+    "geometry_uv_unchanged_except_uniform_scale": true
+  }
+]

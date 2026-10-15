@@ -1,0 +1,19 @@
+{
+  "status": "finished",
+  "id": "LG_08_BroadleafTree",
+  "destination": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree",
+  "objects": [
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Textures/LG_08_BroadleafTree_fbx_basecolor.LG_08_BroadleafTree_fbx_basecolor",
+      "class": "Texture2D"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Materials/tripo_mat_dbfe09e0.tripo_mat_dbfe09e0",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/StaticMeshes/SM_LG_08_BroadleafTree_V7.SM_LG_08_BroadleafTree_V7",
+      "class": "StaticMesh"
+    }
+  ]
+}

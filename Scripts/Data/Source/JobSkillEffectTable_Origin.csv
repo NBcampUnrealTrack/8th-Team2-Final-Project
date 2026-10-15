@@ -1,0 +1,466 @@
+﻿SkillEffectId,JobSkillId,EffectIndex,EffectType,TargetScope,StackType,AffectedStat,Value,bIsPercent,DurationTurns,DurationScope,MaxPerBattle,ValuePer,ValuePerUnit,ValueCap,bConsumeResource,ConditionType,ConditionValue,ResourceName,StatusEffectId,ImplementBy,Confidence,SourceText,Name
+300101,3001,1,DamageDealtMod,Self,Additive,DamageDealt,0,TRUE,0,Permanent,0,,,,,HPAbove,70,None,0,Data,High,"과다 수용 — 구간 1: HPAbove 70 → +0% — Value=0 은 ""해당 구간에서는 증가 없음""을 뜻하는 의도된 값",300101
+300102,3001,2,DamageDealtMod,Self,Additive,DamageDealt,10,TRUE,0,Permanent,0,,,,,HPBelow,70,None,0,Data,High,과다 수용 — 구간 2: HPBelow 70 → +10%,300102
+300103,3001,3,DamageDealtMod,Self,Additive,DamageDealt,20,TRUE,0,Permanent,0,,,,,HPBelow,30,None,0,Data,High,과다 수용 — 구간 3: HPBelow 30 → +20%,300103
+300104,3001,4,DamageDealtMod,Self,Additive,DamageDealt,30,TRUE,0,Permanent,0,,,,,HPBelow,15,None,0,Data,High,과다 수용 — 구간 4: HPBelow 15 → +30%,300104
+300201,3002,1,Damage,Enemy,None,AttackPower,170,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,300201
+300203,3002,3,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,FALSE,None,,영력,0,Data,High,최대 HP 10% 소모 → 5%마다 영력 +1 = +2,300203
+300301,3003,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,None,0,Code_NewMechanic,Manual,획득한 합연산 증가 효과의 15%를 아군에게 공유. INT·LUK 직군은 마법 공격력으로 전환.,300301
+300401,3004,1,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,영력,0,Data,High,자신의 스킬로 최대 HP 소모 시 소모한 5%마다 영력 +1 (최대 20).,300401
+300501,3005,1,DamageDealtMod,Self,Additive,DamageDealt,1.27,TRUE,0,Permanent,0,영력,1,,,,,None,0,Data,High,영력 1당 주는 피해 +1.27% (합연산).,300501
+300601,3006,1,Heal,Self,None,Health,4,TRUE,0,Instant,0,소모한 영력,1,,,,,None,0,Data,High,소모한 영력 1당 최대 HP 4% 회복 (영력 20 전량 소모 시 80% 회복).,300601
+300701,3007,1,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,동조율,0,Data,High,최대 HP 소모 시 5%마다 동조율 +1 (최대 25).,300701
+300702,3007,2,DamageDealtMod,Self,Additive,DamageDealt,10,TRUE,3,Turns,0,,,,,DuringState,공진,None,0,Data,High,동조율 7 도달 시 3턴간 [공진] 진입 — 주는 피해 +10%(합연산),300702
+300703,3007,3,StatModifier,Self,Additive,MaxSP,15,TRUE,3,Turns,0,,,,,DuringState,공진,None,0,Data,High,SP 상한 +15%,300703
+300704,3007,4,StatModifier,Self,Additive,Speed,15,FALSE,3,Turns,0,,,,,DuringState,공진,None,0,Data,High,속도 +15,300704
+300705,3007,5,StatModifier,Self,Additive,CriticalRate,10,TRUE,3,Turns,0,,,,,DuringState,공진,None,0,Data,High,치명타 확률 +10%.,300705
+300706,3007,6,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,,DuringState,공진,동조율,0,Data,High,"공진 중 매 턴 최대 HP 10.8% 자동 소모, 동조율 +2 자동 축적.",300706
+300707,3007,7,Heal,Self,None,Health,5.4,TRUE,0,Instant,0,,,,,OnStateEnd,공진,None,0,Data,High,최대 HP 5.4% 회복.,300707
+300708,3007,8,HPCost,Self,None,MaxHealth,10.8,TRUE,0,Permanent,0,,,,,DuringState,공진,None,0,Code_NewMechanic,High,"공진 중 매 턴 시작 시 최대 HP 10.8% 자동 소모. 상태가 소모하는 것이라 ""자신의 스킬로 소모""가 아님 → 동조율 자연 획득 없음(매 턴 +2 는 300706 줄). 3038 즉발은 10%",300708
+300801,3008,1,DamageDealtMod,Self,Additive,DamageDealt,19.5,TRUE,0,Permanent,0,동조율,1,,,,,None,0,Data,High,동조율 1당 주는 피해 +19.5% (합연산).,300801
+300901,3009,1,Damage,Enemy,None,AttackPower,57,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,300901
+300902,3009,2,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,,,,동조율,0,Data,High,동조율 +2.,300902
+301001,3010,1,Damage,Enemy,None,AttackPower,170,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,301001
+301002,3010,2,Damage,Enemy,None,AttackPower,227,TRUE,0,Instant,0,,,,,OnActFirst,,None,0,Data,High,선공 턴이면 계수 교체 → 227%,301002
+301101,3011,1,StatModifier,Self,Additive,Speed,25,FALSE,2,Turns,0,,,,,None,,None,0,Data,High,이번 턴과 다음 턴 속도 +25 (다음 턴 선공 판정에 반영). 3112 회피 사격과 같은 2 Turns 방식,301101
+301102,3011,2,DamageDealtMod,Self,Additive,DamageDealt,12,TRUE,1,Turns,0,,,,,,,None,0,Data,High,이번 턴 남은 모든 공격 주는 피해 +12% (합연산) — 이번 턴 끝까지(1 Turns),301102
+301201,3012,1,Heal,Self,None,Health,20,TRUE,0,Instant,0,,,,,OncePerTurnFirstAction,,None,0,Data,High,최대 HP 20% 회복.,301201
+301301,3013,1,DamageTakenMod,Self,Multiplicative,DamageTaken,0.7,FALSE,1,Turns,0,,,,,,,None,0,Data,High,이번 턴 받는 피해 ×0.70 (곱연산).,301301
+301302,3013,2,CoefficientMul,Enemy,None,AttackPower,1.5,FALSE,0,Permanent,0,,,,,AfterSkill,3013,None,0,Code_NewMechanic,High,"반전 — 사용한 다음 턴 첫 공격(첫 피해 행동) 1회의 계수 ×1.5. 나이아 나이트 문서의 ""계수 +X%"" 는 쌍격 예시(총 337%)대로 계수 대비 비율",301302
+301401,3014,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.037,FALSE,0,Permanent,0,잃은HP,10,1.148,,,,None,0,Data,High,잃은 HP 10%마다 주는 피해 ×1.037 누적 (곱연산) (최대 ×1.148).,301401
+301501,3015,1,StatModifier,Self,Additive,CriticalRate,4.6,TRUE,0,Permanent,0,잃은HP,20,,,,,None,0,Data,High,"잃은 HP 20%마다 치명타 확률 +4.6%, 치명타 피해 +9.2%p (기대배율",301501
+301502,3015,2,StatModifier,Self,Additive,CriticalDamage,9.2,TRUE,0,Permanent,0,잃은HP,20,,,,,None,0,Data,High,"잃은 HP 20%마다 치명타 확률 +4.6%, 치명타 피해 +9.2%p (기대배율",301502
+301601,3016,1,Damage,Enemy,None,AttackPower,447,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,301601
+301602,3016,2,StatModifier,Enemy,Additive,Defense,-30,TRUE,3,Turns,0,,,,,,,None,0,Code_NewMechanic,High,붕괴 — 대상 방어력 3턴간 30% 감소 (대상에 걸리므로 파티 전원의 공격에 적용),301602
+301701,3017,1,Damage,Enemy,None,AttackPower,224,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 2,301701
+301702,3017,2,CoefficientMul,Enemy,None,AttackPower,1.25,FALSE,0,Instant,0,,,,,SpeedDiffAtLeast,1,None,0,Code_NewMechanic,High,"쌍격 — 대상이 자신보다 느리면 각 타격 계수 ×1.25 (224% → 280% × 2 = 560%, 설명의 총 559% 와 반올림 차)",301702
+301801,3018,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.123,FALSE,0,Permanent,0,,,,,None,,None,0,Data,High,주는 피해 ×1.123 (곱연산).,301801
+301802,3018,2,DamageDealtMod,Self,Multiplicative,DamageDealt,1.05,FALSE,0,Permanent,0,,,,,ResourceAtMax,자원,None,0,Data,High,정합 — 자원이 상한일 때 추가 ×1.05,301802
+301901,3019,1,StatModifier,Self,Additive,CriticalRate,6,TRUE,0,Permanent,0,,,,,,,None,0,Data,High,"치명타 확률 +6.0%, 치명타 피해 +12.1%p (기대배율",301901
+301902,3019,2,StatModifier,Self,Additive,CriticalDamage,12.1,TRUE,0,Permanent,0,,,,,,,None,0,Data,High,"치명타 확률 +6.0%, 치명타 피해 +12.1%p (기대배율",301902
+302002,3020,2,ResourceGain,Self,None,None,3,FALSE,0,Instant,0,,,,,,,자원,0,Data,High,최대 HP 15% 소모 (자원 +3).,302002
+302003,3020,3,DamageTakenMod,Self,Multiplicative,DamageTaken,0.65,FALSE,2,Turns,0,,,,,,,None,0,Data,High,2턴간 받는 피해 ×0.65 (곱연산).,302003
+302101,3021,1,Damage,Enemy,None,AttackPower,170,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,302101
+302102,3021,2,Heal,Self,None,Health,20,TRUE,0,Instant,0,준 피해,1,,,,,None,0,Code_NewMechanic,High,환원 — 준 피해의 20% 를 자신이 회복. 영력·동조율은 회복으로 줄지 않음,302102
+302201,3022,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,None,0,Code_Override,Manual,[전율]의 파티 시너지 ×1.085 → ×1.120. (딜 기여는 파티 3인 환산),302201
+302301,3023,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,None,0,Code_Override,Manual,[전율]이 나이아·소환물에도 적용되고 공유 비율 15% → 22%. (딜 기여는 파티 환산),302301
+302401,3024,1,Damage,Enemy,None,AttackPower,170,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,302401
+302402,3024,2,Damage,Enemy,None,AttackPower,287,TRUE,0,Instant,0,,,,,TargetHPBelow,35,None,0,Data,High,대상 HP 35% 이하면 계수 교체 → 287% (기본 계수 행과 배타),302402
+302501,3025,1,Damage,Enemy,None,AttackPower,170,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,302501
+302502,3025,2,DefenseIgnore,Enemy,None,Defense,50,TRUE,0,Instant,0,,,,,,,None,0,Code_NewMechanic,High,대지 강타 — 이 스킬의 타격은 대상 방어력의 50% 를 무시,302502
+302601,3026,1,StatModifier,Self,Additive,MaxHealth,27,TRUE,0,Permanent,0,,,,,,,None,0,Data,High,최대 HP +27%.,302601
+302701,3027,1,DamageDealtMod,Self,Additive,DamageDealt,10,TRUE,0,Permanent,1,,,,,HPBelow,25,None,0,Data,High,HP 25% 이하 진입 시 주는 피해 +10%(합연산),302701
+302702,3027,2,DamageTakenMod,Self,Multiplicative,DamageTaken,0.9,FALSE,0,Permanent,1,,,,,HPBelow,25,None,0,Data,High,받는 피해 ×0.90(곱연산),302702
+302703,3027,3,DeathPrevent,Self,None,Health,1,FALSE,0,Instant,1,,,,,HPBelow,25,None,0,Code_NewMechanic,High,사망 1회 방지,302703
+302801,3028,1,Damage,Enemy,None,AttackPower,170,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,302801
+302803,3028,3,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,,,,영력,0,Data,High,사용 후 최대 HP 10% 소모 (영력 +2).,302803
+302901,3029,1,Damage,Enemy,None,AttackPower,255,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,302901
+302902,3029,2,CoefficientAdd,Enemy,Additive,AttackPower,3,TRUE,0,Instant,0,영력,1,,FALSE,None,,영력,0,Code_NewMechanic,High,기본 계수 255% 에 영력 1당 +3%p 를 더한다(영력 20 → 315%). 영력은 소모하지 않음. 주는 피해 증가(DamageDealtMod)가 아니라 계수 자체의 가산이라 새 타입으로 둠,302902
+303001,3030,1,DamageDealtMod,Self,Additive,DamageDealt,1.27,TRUE,0,Permanent,0,영력,1,,,,,None,0,Code_Override,High,영력 1당 +1.27% → +1.83% 로 상향 (3005 를 덮어씀. 합산 아님),303001
+303101,3031,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,영력,0,Code_Resource,Manual,"영력 상한 20 → 26, 1당 +2.70% (합연산). 영력 26 기준 +70.2%. 단, 영력 10 이상일 때 매 턴 시작 시 최대 HP 2% 자동 소모.",303101
+303201,3032,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,영력,0,Code_NewMechanic,Manual,"모든 영력 소모. 소모 영력에 따른 계수 적용 (0→1,163% ~ 26→1,756%). [전력 방출 계수표] 참조.",303201
+303301,3033,1,Damage,Enemy,None,AttackPower,216,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 3,303301
+303303,3033,3,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,영력,0,Data,High,"타격마다 최대 HP 5% 소모 (타격당 영력 +1, 총 +3).",303303
+303401,3034,1,DamageDealtMod,Self,Additive,DamageDealt,7,TRUE,0,Permanent,0,,,,,HPBelow,50,None,0,Data,High,극점 — 구간 1: HPBelow 50 → +7%,303401
+303402,3034,2,DamageDealtMod,Self,Additive,DamageDealt,18,TRUE,0,Permanent,0,,,,,HPBelow,30,None,0,Data,High,극점 — 구간 2: HPBelow 30 → +18%,303402
+303403,3034,3,DamageDealtMod,Self,Additive,DamageDealt,29,TRUE,0,Permanent,0,,,,,HPBelow,15,None,0,Data,High,극점 — 구간 3: HPBelow 15 → +29%,303403
+303404,3034,4,HealReceivedMod,Self,Additive,Health,-30,TRUE,0,Permanent,0,,,,,None,,None,0,Code_NewMechanic,High,받는 모든 회복량 −30% (페널티),303404
+303501,3035,1,DamageDealtMod,Self,Additive,DamageDealt,6.1,TRUE,0,Permanent,0,,,,,,,None,0,Data,High,상시 영력 감소 무효 + 주는 피해 +6.1% (합연산).,303501
+303502,3035,2,ResourceDecayImmune,Self,None,None,0,FALSE,0,Permanent,0,,,,,None,,영력,0,Code_Resource,High,상시 영력 감소 무효,303502
+303601,3036,1,Damage,Enemy,None,AttackPower,170,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,303601
+303603,3036,3,ResourceGain,Self,None,None,3,FALSE,0,Instant,0,,,,,,,동조율,0,Data,High,동조율 +3.,303603
+303701,3037,1,Damage,Enemy,None,AttackPower,170,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,303701
+303702,3037,2,ResourceGain,Self,None,None,3,FALSE,0,Instant,0,,,,,,,동조율,0,Data,High,선공 턴이면 동조율 +3 (후공 시 +1).,303702
+303703,3037,3,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,OnActSecond,,동조율,0,Data,High,후공이면 동조율 +3 대신 +1,303703
+303801,3038,1,ResourceGain,Self,None,None,8,FALSE,0,Instant,0,,,,,OnStateEnter,공진,동조율,0,Data,High,공진 진입 순간 동조율 +8 (1회). DuringState 였던 것을 OnStateEnter 로 — 공진 중 매 턴 +8 로 읽히지 않게,303801
+303802,3038,2,DamageDealtMod,Self,Additive,DamageDealt,40,TRUE,0,Permanent,0,,,,,DuringState,공진,None,0,Data,High,"공진 중 주는 피해 +40% 추가(합연산), 자동 소모 10.8% → 10%, 종료 시 동조율 4 유지.",303802
+303803,3038,3,Special,Self,None,None,5,FALSE,0,Permanent,0,,,,,,,동조율,0,Code_Override,High,즉발 — 공진 진입 요구 7 → 5 (자원 시트 AD7 StateEnterValue 를 덮어씀),303803
+303804,3038,4,Special,Self,None,None,10,TRUE,0,Permanent,0,,,,,DuringState,공진,None,0,Code_Override,High,즉발 — 공진 자동 소모 최대 HP 10.8% → 10% (300708 줄을 덮어씀),303804
+303805,3038,5,Special,Self,None,None,4,FALSE,0,Permanent,0,,,,,OnStateEnd,공진,동조율,0,Code_Override,High,즉발 — 공진 종료 시 동조율 전량 소멸 대신 4 유지 (자원 시트 AG7 Reset 을 덮어씀),303805
+303806,3038,6,Special,Self,None,None,12,FALSE,0,Permanent,0,,,,,,,동조율,0,Code_Override,High,즉발 — 동조율 상한 25 → 12 고정 (자원 시트 K7 MaxValue 를 덮어씀),303806
+303901,3039,1,StatModifier,Self,Additive,CriticalDamage,2.13,TRUE,0,Permanent,0,동조율,1,,,,,None,0,Data,High,"공진 종료 시 동조율 6 유지, 동조율 1당 치명타 피해 +2.13%p (곱연산).",303901
+303902,3039,2,Special,Self,None,None,6,FALSE,0,Permanent,0,,,,,OnStateEnd,공진,동조율,0,Code_Override,High,잔향 — 공진 종료 시 동조율 전량 소멸 대신 6 유지 (자원 시트 AG7 Reset 을 덮어씀). 상한 25·진입 7 은 기본값 그대로,303902
+304001,3040,1,Damage,Enemy,None,AttackPower,151,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 2,304001
+304002,3040,2,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,동조율,0,Data,High,타격당 동조율 +1 (총 +2).,304002
+304101,3041,1,Damage,Enemy,None,AttackPower,76,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 4,304101
+304102,3041,2,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,동조율,0,Data,High,타격당 동조율 +1 (총 +4).,304102
+304201,3042,1,DamageDealtMod,Self,Additive,DamageDealt,19.5,TRUE,0,Permanent,0,동조율,1,,,,,None,0,Code_Override,High,동조율 1당 +19.5% → +25.2% 로 상향 (3008 을 덮어씀),304201
+304301,3043,1,Special,Self,None,None,0,FALSE,0,Instant,2,,,,,,,동조율,0,Code_Resource,Manual,2턴간 동조율이 소멸하지 않으며 공진 자동 소모가 멈춘다. 그 동안 주는 피해 −10% (합연산). 전투당 2회.,304301
+304401,3044,1,DamageDealtMod,Self,Additive,DamageDealt,10,TRUE,0,Permanent,1,,,,,HPBelow,25,None,0,Data,High,HP 25% 이하 진입 시 주는 피해 +10%(합연산),304401
+304402,3044,2,DamageTakenMod,Self,Multiplicative,DamageTaken,0.9,FALSE,0,Permanent,1,,,,,HPBelow,25,None,0,Data,High,받는 피해 ×0.90(곱연산),304402
+304403,3044,3,DeathPrevent,Self,None,Health,1,FALSE,0,Instant,1,,,,,HPBelow,25,None,0,Code_NewMechanic,High,사망 1회 방지,304403
+304501,3045,1,Damage,Enemy,None,AttackPower,2335,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,304501
+304502,3045,2,CoefficientAdd,Enemy,Additive,AttackPower,11.9,TRUE,0,Instant,0,잃은HP,1,1200,FALSE,None,,None,0,Code_NewMechanic,High,"역천 — 잃은 HP 1% 당 계수 +11.9%p (10% 당 +119%p 비례, 최대 +1,200%p). 기획서 ""HP 25% 기준 총계수 3,228%"" = 2,335 + 75 × 11.9",304502
+304503,3045,3,Heal,Self,None,Health,40,TRUE,0,Instant,0,,,,,HPBelow,40,None,0,Code_NewMechanic,High,역천 — 사용 후 HP 를 최대 HP 40% 까지 채움(회복량 = 40% − 현재 HP%). 받는 회복량 보정(3034 극점)도 적용. 영력은 소모하지 않음,304503
+304601,3046,1,DamageDealtMod,Self,Additive,DamageDealt,8,TRUE,0,Permanent,0,잃은HP,25,24,,,,None,0,Data,High,잃은 HP 25%마다 주는 피해 +8%(합연산) (최대 +24%).,304601
+304602,3046,2,DamageDealtMod,Self,Multiplicative,DamageDealt,1.15,FALSE,0,Permanent,0,,,,,ResourceAtMax,영력,None,0,Data,High,영력이 상한일 때 주는 피해 ×1.15(곱연산).,304602
+304701,3047,1,Damage,Enemy,None,AttackPower,2058,TRUE,0,Instant,1,,,,FALSE,ResourceAtMax,AG,AG,0,Code_Resource,High,"기본 계수 2,058%. 자원 비례 가산은 CoefficientAdd 행",304701
+304702,3047,2,CoefficientAdd,Enemy,Additive,AttackPower,59,TRUE,0,Instant,0,영력,1,,TRUE,None,,영력,0,Code_NewMechanic,High,영력 1당 계수 +59%p. 영력 전량 소모,304702
+304801,3048,1,DamageTakenMod,Self,Multiplicative,DamageTaken,0.8,FALSE,0,Permanent,0,,,,,DuringState,공진,None,0,Data,High,공진 중 받는 피해 ×0.80(곱연산).,304801
+304802,3048,2,Special,Self,None,None,0,FALSE,1,Turns,0,,,,,OnStateEnd,공진,동조율,0,Code_Override,High,"균형 — 공진 종료 시 동조율 소멸(자원 시트 AG7 Reset)을 1턴 미룸. 3038·3039 의 ""종료 시 N 유지"" 와 겹치면 1턴 전량 유지 후 N 만 남김",304802
+304901,3049,1,Damage,Enemy,None,AttackPower,5265,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,304901
+304902,3049,2,DamageTakenMod,Self,Multiplicative,DamageTaken,0.5,FALSE,3,Turns,0,,,,,,,None,0,Data,High,"이후 3턴간 받는 피해 ×0.50(곱연산), 그 동안 동조율이 소멸하지 않으며 공진이 종료되지 않고 자동 소모도 멈춘다.",304902
+304903,3049,3,ResourceClear,Self,None,None,0,FALSE,0,Instant,0,,,,,None,,동조율,0,Code_Resource,High,동조율 소멸 · [공진] 종료 · 자동 소모 정지,304903
+305001,3050,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.4,FALSE,0,Permanent,0,,,,,HitCountAtLeast,6,None,0,Data,High,한 턴에 6회 이상 공격하면 그 턴의 7회차 이후 주는 피해 ×1.40(곱연산).,305001
+305101,3051,1,Damage,Enemy,None,AttackPower,186,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,305101
+305102,3051,2,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,동조율,0,Data,High,타격당 동조율 +1.,305102
+310101,3101,1,DamageDealtMod,Self,Additive,DamageDealt,0,TRUE,0,Permanent,0,,,,,SpeedDiffAtMost,0,None,0,Data,High,"선행 — 구간 1: SpeedDiffAtMost 0 → +0% — Value=0 은 ""해당 구간에서는 증가 없음""을 뜻하는 의도된 값",310101
+310102,3101,2,DamageDealtMod,Self,Additive,DamageDealt,15,TRUE,0,Permanent,0,,,,,SpeedDiffAtLeast,1,None,0,Data,High,선행 — 구간 2: SpeedDiffAtLeast 1 → +15%,310102
+310103,3101,3,DamageDealtMod,Self,Additive,DamageDealt,18,TRUE,0,Permanent,0,,,,,SpeedDiffAtLeast,10,None,0,Data,High,선행 — 구간 3: SpeedDiffAtLeast 10 → +18%,310103
+310104,3101,4,DamageDealtMod,Self,Additive,DamageDealt,21,TRUE,0,Permanent,0,,,,,SpeedDiffAtLeast,20,None,0,Data,High,선행 — 구간 4: SpeedDiffAtLeast 20 → +21%,310104
+310105,3101,5,DamageDealtMod,Self,Additive,DamageDealt,24,TRUE,0,Permanent,0,,,,,SpeedDiffAtLeast,30,None,0,Data,High,선행 — 구간 5: SpeedDiffAtLeast 30 → +24%,310105
+310106,3101,6,DamageDealtMod,Self,Additive,DamageDealt,30,TRUE,0,Permanent,0,,,,,SpeedDiffAtLeast,50,None,0,Data,High,선행 — 구간 6: SpeedDiffAtLeast 50 → +30%,310106
+310201,3102,1,Damage,Enemy,None,AttackPower,135,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,310201
+310202,3102,2,Damage,Enemy,None,AttackPower,216,TRUE,0,Instant,0,,,,,OnFirstStrike,Success,None,0,Data,High,선제 성공 턴이면 계수 교체 → 216%,310202
+310301,3103,1,StatModifier,Party,Additive,CriticalRate,12,TRUE,0,Permanent,0,,,,,OnFirstStrike,Success,None,0,Data,High,"소환물 포함) 치명타 확률 +12%, 대상 속도 −8.",310301
+310302,3103,2,StatModifier,Enemy,Additive,Speed,-8,FALSE,0,Instant,0,,,,,OnFirstStrike,Success,None,0,Data,High,대상 속도 −8,310302
+310401,3104,1,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,템포,0,Data,High,공격 성공 시 템포 +1.,310401
+310402,3104,2,DamageDealtMod,Self,Additive,DamageDealt,4.9,TRUE,0,Permanent,0,템포,1,,,,,None,0,Data,High,"템포 1당 주는 피해 +4.9%(합연산), 템포 3당 SP 상한 +1.",310402
+310403,3104,3,StatModifier,Self,Additive,MaxSP,1,FALSE,0,Permanent,0,템포,3,,,,,None,0,Data,High,"템포 1당 주는 피해 +4.9%(합연산), 템포 3당 SP 상한 +1.",310403
+310404,3104,4,DamageDealtMod,Self,Multiplicative,DamageDealt,0.55,FALSE,0,Permanent,0,,,,,AfterState,번아웃:1턴,None,0,Data,High,주는 피해 ×0.55(곱연산)·[선제 주도] 미발동.,310404
+310405,3104,5,StatModifier,Self,Additive,MaxSP,-70,TRUE,0,Permanent,0,,,,,AfterState,번아웃:1턴,None,0,Data,High,[번아웃] 다음 턴 SP 상한 −70% (3135·3144 멈추지 않는 손은 −35% 로 덮어씀),310405
+310501,3105,1,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,,OnAttackSkillUse,,템포,0,Code_NewMechanic,High,"연사 — 피해를 주는 액티브 스킬을 쓸 때마다 템포 +2 (타격 수와 무관, 스킬 1회당 1번). 한 턴 한 스킬 규칙이라 사실상 공격 스킬을 쓴 턴마다 +2",310501
+310601,3106,1,Damage,Enemy,None,AttackPower,50,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,310601
+310602,3106,2,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,,,,템포,0,Data,High,템포 +2.,310602
+310701,3107,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,마크,0,Code_Resource,Manual,"단발 공격 적중 시 대상에게 [마크] 1중첩 (최대 5). 마크 1중첩당 대상 속도 −5 (최대 −25, 속도 5 미만 불가). 3턴 동안 새 중첩을 못 얻으면 마크 전량 소멸(개별 만료 없음).",310701
+310702,3107,2,StatModifier,Enemy,Additive,Speed,-5,FALSE,0,Permanent,0,마크,1,-25,,None,,마크,0,Data,High,전직: 호라이즌 — 마크 1중첩당 대상 속도 −5 (최대 −25),310702
+310801,3108,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,마크,0,Code_NewMechanic,Manual,단발 공격의 주는 피해가 속도 차이에 따라 증가(합연산). 선제 타격 성공 턴엔 추가 +25%(합연산). [정조준 속도 차이표] 참조.,310801
+310901,3109,1,Damage,Enemy,None,AttackPower,244,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,310901
+311001,3110,1,Damage,Enemy,None,AttackPower,70,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,311001
+311002,3110,2,DefenseIgnore,Enemy,None,Defense,50,TRUE,0,Instant,0,,,,,,,None,0,Code_NewMechanic,High,관통 화살 — 이 스킬의 타격은 대상 방어력의 50% 를 무시,311002
+311101,3111,1,Damage,Enemy,None,AttackPower,70,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,311101
+311102,3111,2,StatModifier,Enemy,Additive,Speed,-6,FALSE,2,Turns,0,,,,,,,None,0,Data,High,견제 화살 — 대상 속도 −6 (2턴). 하한은 공용 상수 MinSpeed,311102
+311201,3112,1,DamageTakenMod,Self,Multiplicative,DamageTaken,0.7,FALSE,1,Turns,0,,,,,,,None,0,Data,High,이번 턴 받는 피해 ×0.70(곱연산).,311201
+311202,3112,2,StatModifier,Self,Additive,Speed,12,FALSE,2,Turns,0,,,,,,,None,0,Data,High,다음 턴 속도 +12.,311202
+311301,3113,1,DamageTakenMod,Self,Multiplicative,DamageTaken,0.65,FALSE,1,Turns,0,,,,,,,None,0,Data,High,이번 턴 받는 피해 ×0.65(곱연산).,311301
+311302,3113,2,ResourceDecayImmune,Self,None,None,0,FALSE,1,Turns,0,,,,,,,자원,0,Code_Resource,High,위장 — 이번 턴 자원 소멸 대기 시간이 흐르지 않음(호라이즌 마크 3턴 대기). 템페스트 템포는 대기 시간이 없어 무동작,311302
+311401,3114,1,StatModifier,Self,Additive,CriticalDamage,39,TRUE,0,Permanent,0,,,,,SingleHit,,None,0,Data,High,단발 공격의 치명타 피해 +39%p (기대배율,311401
+311501,3115,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.15,FALSE,0,Permanent,0,,,,,SingleHit,,None,0,Data,High,단발 공격이 주는 피해 ×1.15(곱연산).,311501
+311601,3116,1,Damage,Enemy,None,AttackPower,244,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,311601
+311602,3116,2,Damage,Enemy,None,AttackPower,412,TRUE,0,Instant,0,,,,,TargetHPBelow,35,None,0,Data,High,대상 HP 35% 이하면 계수 교체 → 412% (기본 계수 행과 배타),311602
+311701,3117,1,Damage,Enemy,None,AttackPower,122,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 2,311701
+311702,3117,2,DamageDealtMod,Self,Additive,DamageDealt,25,TRUE,0,Instant,0,,,,,SpeedDiffAtLeast,1,None,0,Data,High,"쌍발 — 대상이 자신보다 느리면 이 스킬 주는 피해 +25%(합연산) (122% × 2 × 1.25 = 305% 상당). 트래커 문서는 ""합연산"" 으로 적어 쌍격(계수 배율)과 구분",311702
+311801,3118,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.12,FALSE,0,Permanent,0,,,,,None,,None,0,Data,High,주는 피해 ×1.12(곱연산).,311801
+311802,3118,2,DamageDealtMod,Self,Multiplicative,DamageDealt,1.04,FALSE,0,Permanent,0,,,,,ResourceAbove,자원:50%,None,0,Data,High,빠른 손 — 자원이 상한의 절반 초과 시 추가 ×1.04,311802
+311901,3119,1,StatModifier,Self,Additive,CriticalRate,1.27,TRUE,0,Permanent,0,자원,4,,,,,None,0,Data,High,"자원 4당 치명타 확률 +1.27%, 치명타 피해 +2.55%p (기대배율",311901
+311902,3119,2,StatModifier,Self,Additive,CriticalDamage,2.55,TRUE,0,Permanent,0,자원,4,,,,,None,0,Data,High,"자원 4당 치명타 확률 +1.27%, 치명타 피해 +2.55%p (기대배율",311902
+312001,3120,1,Damage,Enemy,None,AttackPower,363,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,312001
+312002,3120,2,Damage,Enemy,None,AttackPower,645,TRUE,0,Instant,0,,,,,TargetHPBelow,35,None,0,Data,High,대상 HP 35% 이하면 계수 교체 → 645% (기본 계수 행과 배타),312002
+312101,3121,1,Damage,Enemy,None,AttackPower,363,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,312101
+312102,3121,2,ForceCritical,Enemy,None,None,1,FALSE,0,Instant,0,,,,,None,,None,0,Code_NewMechanic,High,반드시 치명타로 적중,312102
+312201,3122,1,StatModifier,Party,Additive,CriticalRate,12,TRUE,0,Permanent,0,,,,,,,None,0,Code_Override,High,아군 치명타 +12% → +16% 로 상향 (3103 을 덮어씀),312201
+312301,3123,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,None,0,Code_Override,Manual,"[선제 주도]가 선공 실패 턴에도 절반(치명타 +6%) 발동하고, 대상 속도 감소 −8 → −12. 선제권을 놓쳐도 무너지지 않게 해준다. (딜 기여는 파티 환산)",312301
+312401,3124,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,자원,0,Pending,Manual,자원을 8 소모해 SP 15를 즉시 회복. 한 턴 한 행동 규칙에서 SP 즉시 회복의 쓸 곳이 없어 트래커 기획서 재설계 대기 — 312402 와 함께 보류(스킬 사용 불가),312401
+312402,3124,2,ResourceGain,Self,None,SP,15,FALSE,0,Instant,0,,,,,OncePerTurn,,SP,0,Pending,High,숨 고르기 — 자원 8 소모해 SP 15 회복. 312401 과 함께 기획 재설계 대기,312402
+312501,3125,1,Damage,Enemy,None,AttackPower,135,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,312501
+312502,3125,2,ResourceGain,Self,None,None,3,FALSE,0,Instant,0,,,,,,,자원,0,Data,High,"자원 +3, 준 피해의 15%를 SP로 전환.",312502
+312503,3125,3,ResourceGain,Self,None,SP,15,TRUE,0,Instant,0,준 피해,1,,,None,,SP,0,Data,High,흡수 사격 — 준 피해의 15%를 SP로 전환,312503
+312601,3126,1,DamageTakenMod,Self,Multiplicative,DamageTaken,0.92,FALSE,0,Permanent,0,,,,,,,None,0,Data,High,"최대 HP +27%, 받는 피해 ×0.92(곱연산).",312601
+312602,3126,2,StatModifier,Self,Additive,MaxHealth,27,TRUE,0,Permanent,0,,,,,None,,None,0,Data,High,최대 HP +27%,312602
+312701,3127,1,ResourceGainMod,Self,None,None,29,FALSE,0,Permanent,0,,,,,,,AG,0,Code_Override,Manual,AG 자연 충전 턴당 +20 → +29 로 상향 (기본값을 덮어씀),312701
+312801,3128,1,Damage,Enemy,None,AttackPower,45,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 3,312801
+312802,3128,2,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,템포,0,Data,High,타격당 템포 +1 (총 +3).,312802
+312901,3129,1,Damage,Enemy,None,AttackPower,135,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,312901
+312902,3129,2,ResourceGain,Self,None,None,4,FALSE,0,Instant,0,,,,,,,템포,0,Data,High,선제 타격 턴이면 템포 +4 (실패 시 +1).,312902
+312903,3129,3,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,OnFirstStrikeFail,,템포,0,Data,High,선제 실패면 템포 +4 대신 +1,312903
+313001,3130,1,DamageDealtMod,Self,Additive,DamageDealt,8.2,TRUE,0,Permanent,0,템포,1,,,,,None,0,Code_Override,High,템포 1당 주는 피해 +4.9% → +8.2%(합연산).,313001
+313101,3131,1,DamageDealtMod,Self,Additive,DamageDealt,4.9,TRUE,0,Permanent,0,템포,1,,,,,None,0,Code_Override,High,"단, 템포 1당 주는 피해 +4.9% → +4.0%(합연산).",313101
+313201,3132,1,Damage,Enemy,None,AttackPower,128,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 4,313201
+313202,3132,2,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,템포,0,Data,High,타격당 템포 +1 (총 +4).,313202
+313301,3133,1,Damage,Enemy,None,AttackPower,512,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,313301
+313302,3133,2,DamageDealtMod,Self,Additive,DamageDealt,5.8,TRUE,0,Instant,0,템포,1,,FALSE,None,,템포,0,Data,High,템포 1당 주는 피해 +5.8%(합연산),313302
+313303,3133,3,ResourceGain,Self,None,None,-50,TRUE,0,Instant,0,,,,FALSE,None,,템포,0,Code_Resource,High,보유 템포의 절반을 소모(번아웃 회피 수단). 고정량이 아니라 보유량 비율이라 코드 처리 필요,313303
+313401,3134,1,StatModifier,Self,Additive,Speed,29,TRUE,0,Permanent,0,,,,,,,None,0,Data,High,속도 +29% 상시.,313401
+313501,3135,1,DamageDealtMod,Self,Multiplicative,DamageDealt,0.55,FALSE,0,Permanent,0,,,,,AfterState,번아웃:1턴,None,0,Code_Override,High,주는 피해 ×0.55 → ×0.775 로 완화된다.,313501
+313601,3136,1,Damage,Enemy,None,AttackPower,135,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,313601
+313602,3136,2,DebuffStack,Enemy,None,None,2,FALSE,0,Instant,0,,,,,,,마크,0,Data,High,마크 +2.,313602
+313701,3137,1,DebuffStack,Enemy,None,None,1,FALSE,0,Instant,0,,,,,,,마크,0,Data,High,"마크 +1, 마크 소멸 대기 시간 초기화.",313701
+313702,3137,2,StatModifier,Enemy,Additive,Defense,-25,TRUE,3,Turns,0,,,,,,,None,0,Code_NewMechanic,High,약점 관측 — 대상 방어력 3턴간 25% 감소 (파티 전체 적용),313702
+313703,3137,3,ResourceTimerReset,Enemy,None,None,0,FALSE,0,Instant,0,,,,,,,마크,0,Code_Resource,High,"약점 관측 — 대상의 마크 소멸 대기 시간(3턴, 자원 시트 W9)을 처음부터 다시 셈",313703
+313801,3138,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,마크,0,Code_Override,Manual,"[정조준]의 증가폭이 [극한 집중] 행으로 대체된다(합연산). 단, 다타 스킬 사용 턴엔 미적용([이중 관통]·[쌍발]과 배타적). [정조준 속도 차이표] 참조.",313801
+313901,3139,1,DamageDealtMod,Self,Additive,DamageDealt,25,TRUE,0,Permanent,0,,,,,OnFirstStrike,Success,None,0,Data,High,선제 타격 성공 시 주는 피해 +25% 추가(합연산) — [정조준]과 합산 +50%.,313901
+314001,3140,1,Damage,Enemy,None,AttackPower,512,TRUE,0,Instant,0,,,,FALSE,,,None,0,Data,High,기본 계수 512%. 자원 비례 가산은 CoefficientAdd 행,314001
+314002,3140,2,CoefficientAdd,Enemy,Additive,AttackPower,240,TRUE,0,Instant,0,마크,1,,TRUE,None,,마크,0,Code_NewMechanic,High,"소모한 마크 1중첩당 계수 +240%p (5중첩 시 +1,200%, 총계수 1,712%). 마크 전량 소모",314002
+314101,3141,1,Damage,Enemy,None,AttackPower,256,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 2,314101
+314102,3141,2,DebuffStack,Enemy,None,None,1,FALSE,0,Instant,0,,,,,,,마크,0,Data,High,타격당 마크 +1 (2타 = 총 +2). 각 타격이 단발 판정을 유지,314102
+314103,3141,3,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,SingleHit,,마크,0,Code_Override,High,"각 타격을 단발 공격으로 판정 — 단발 조건(SingleHit) 효과를 타격마다 받음(3108 정조준·3114·3115·3142·3143). 3138 극한 집중은 ""다타 스킬 사용 턴"" 기준이라 이 스킬을 쓴 턴에는 꺼짐(설명대로 배타)",314103
+314201,3142,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,마크,0,Code_NewMechanic,Manual,단발 공격의 계수 +17%(합연산). 마크 획득량 +1.,314201
+314301,3143,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,마크,0,Code_Override,Manual,마크가 소모되지 않는 상태에서 단발 피해 ×1.10(곱연산). 마크가 5중첩이면 추가로 ×1.08.,314301
+314401,3144,1,DamageDealtMod,Self,Multiplicative,DamageDealt,0.55,FALSE,0,Permanent,0,,,,,AfterState,번아웃:1턴,None,0,Code_Override,High,주는 피해 ×0.55 → ×0.775 로 완화된다.,314401
+314501,3145,1,Damage,Enemy,None,AttackPower,254,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,314501
+314601,3146,1,DamageDealtMod,Self,Additive,DamageDealt,0.66,TRUE,0,Permanent,0,속도초과분,1,30,,SpeedAbove,20,None,0,Data,High,속도가 20을 초과하는 만큼 1당 주는 피해 +0.66%(합연산) (최대 +30%).,314601
+314701,3147,1,Damage,Enemy,None,AttackPower,3123,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,314701
+314801,3148,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.28,FALSE,0,Permanent,0,,,,,None,,None,0,Data,High,주는 피해 ×1.28(곱연산).,314801
+314802,3148,2,DamageTakenMod,Self,Multiplicative,DamageTaken,0.8,FALSE,0,Permanent,0,,,,,StackAtCount,마크:5,None,0,Data,High,마크가 5중첩일 때 추가로 받는 피해 ×0.80(곱연산).,314802
+314901,3149,1,Damage,Enemy,None,AttackPower,3187,TRUE,0,Instant,1,,,,FALSE,ResourceAtMax,AG,AG,0,Code_Resource,High,"기본 계수 3,187%. 자원 비례 가산은 CoefficientAdd 행",314901
+314902,3149,2,CoefficientAdd,Enemy,Additive,AttackPower,903,TRUE,0,Instant,0,마크,1,,TRUE,None,,마크,0,Code_NewMechanic,High,"마크 1중첩당 계수 +903%p (마크 5 기준 총계수 7,702%). 마크 전량 소모",314902
+315001,3150,1,Special,Self,None,None,0,FALSE,0,Instant,0,속도차이,1,1.45,,,,None,0,Code_NewMechanic,Manual,대상과의 속도 차이 1당 단발 피해 ×(1 + 0.015) 누적(곱연산) (최대 ×1.45).,315001
+315101,3151,1,Damage,Enemy,None,AttackPower,2921,TRUE,0,Instant,1,,,,FALSE,ResourceAtMax,AG,AG,0,Code_Resource,High,"기본 계수 2,921%. 자원 비례는 CoefficientAdd 행",315101
+315102,3151,2,CoefficientAdd,Enemy,Additive,AttackPower,119,TRUE,0,Instant,0,속도차이,1,,FALSE,None,,속도차이,0,Code_NewMechanic,High,"속도 차이 1당 계수 +119%p (속도 차이 35 기준 총계수 7,086%). 마크를 소모하지 않음",315102
+320101,3201,1,StatModifier,Party,Additive,CriticalRate,3,TRUE,0,Permanent,0,약점,1,,,,,None,0,Data,High,소환물 포함) 치명타 확률 +3%(최대 +15%).,320101
+320201,3202,1,DamageDealtMod,Self,Additive,DamageDealt,6,TRUE,0,Permanent,0,,,,,StackAtCount,약점:1,None,0,Data,High,원소 지배 — 구간 1: StackAtCount 약점:1 → +6%,320201
+320202,3202,2,DamageDealtMod,Self,Additive,DamageDealt,18,TRUE,0,Permanent,0,,,,,StackAtCount,약점:3,None,0,Data,High,원소 지배 — 구간 2: StackAtCount 약점:3 → +18%,320202
+320203,3202,3,DamageDealtMod,Self,Additive,DamageDealt,30,TRUE,0,Permanent,0,,,,,StackAtCount,약점:5,None,0,Data,High,원소 지배 — 구간 3: StackAtCount 약점:5 → +30%,320203
+320301,3203,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,None,0,Code_NewMechanic,Manual,남은 SP 전량 소모하고 즉시 턴 종료. 평시 계수표(소모 SP)의 1.25배 피해 (SP 40→402% / 59→654% / 71→824%). 그 턴 방어·AG 충전 불가. [나이아 개화 계수표] 참조.,320301
+320401,3204,1,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,마력 응축,0,Data,High,마법 피해 시 마력 응축 +1 (최대 6).,320401
+320402,3204,2,DamageDealtMod,Self,Additive,DamageDealt,5,TRUE,0,Permanent,0,마력 응축,1,,,,,None,0,Data,High,응축 1당 주는 피해 +5%(합연산).,320402
+320501,3205,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,마력 응축,0,Code_Resource,Manual,"마력 응축 3 소모. 이번 턴 마법 사용 불가(기본 공격·패링·회피는 가능). 턴 종료 시 방어 소모 후 남은 SP의 212%가 다음 턴 이월(LV60 기준 가용 SP 52 → 이월 SP 110, 상한=기본 SP 3배). 다음 마법은 [임계] 상태. 명상 턴에 강공 피격 시 이월 212% → 55%로 붕괴.",320501
+320502,3205,2,ResourceGain,Self,None,None,-3,FALSE,0,Instant,0,,,,FALSE,None,,마력 응축,0,Data,High,마력 응축 3 소모 (정의표 ResourceGain 에서 이관),320502
+320503,3205,3,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,FALSE,None,,임계,0,Code_Resource,High,명상 — 임계 +1 → 다음 마법이 [임계] 상태,320503
+320601,3206,1,Damage,Enemy,None,MagicAttackPower,188,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,320601
+320602,3206,2,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,,,,마력 응축,0,Data,High,마력 응축 +1 추가 → 마법 피해 자연 +1 에 더해 총 +2 (명시 줄 값 = 총량),320602
+320701,3207,1,DamageDealtMod,Self,Additive,DamageDealt,6.6,TRUE,0,Permanent,0,문양,1,,,,,None,0,Data,High,자신 주는 피해 +6.6%(합연산) — 문양 수는 가장 많이 쌓인 적 1체 기준,320701
+320702,3207,2,StatModifier,Ally,Additive,MaxSP,1,FALSE,0,Permanent,0,문양,1,,,,,None,0,Data,High,아군 전원 SP 상한 +1 (아군 = 자신·나이아 제외 파티원). 문양 수는 가장 많이 쌓인 적 1체 기준,320702
+320703,3207,3,DamageDealtMod,Self,Multiplicative,DamageDealt,0.28,FALSE,0,Permanent,0,,,,,DuringState,지맥 붕괴,None,0,Data,High,문양 0이 되면 [지맥 붕괴](주는 피해 ×0.28 곱연산·[각인] 불가·3턴).,320703
+320704,3207,4,StatModifier,Self,Additive,MaxSP,-2,FALSE,0,Permanent,0,문양,1,,,,,None,0,Data,High,문양 1중첩당 자신 SP 상한 −2 — 문양 수는 가장 많이 쌓인 적 1체 기준. 3238 −3 / 3242 절반 / 3250 −1 로 덮어씀,320704
+320705,3207,5,Damage,Enemy,None,MagicAttackPower,52,TRUE,0,Permanent,0,문양,1,,FALSE,OnTurnEnd,,문양,0,Code_Resource,High,"문양 1중첩당 매 턴 마법 공격력 ×52% 지속 피해 — 문양이 있는 적마다 그 적의 문양 수로 계산. 시전자 턴 종료 시, 감쇠(−1) 전에 적용. [문양 지속 피해표]는 선형(52% × 문양 수)이라 별도 표 없음. 3238 → 89% / 3239 → 45% 로 덮어씀",320705
+320706,3207,6,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,DuringState,지맥 붕괴,문양,0,Code_NewMechanic,High,[지맥 붕괴] 동안 [각인] 계열(3208 각인·3240 지맥 개방) 사용 불가. 3249 게이아 필드는 붕괴 복구용이라 사용 가능,320706
+320801,3208,1,Damage,Enemy,None,MagicAttackPower,188,TRUE,0,Instant,0,,,,,OncePerTurn,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,320801
+320802,3208,2,ResourceGain,Enemy,None,None,2,FALSE,0,Instant,0,,,,,OncePerTurn,,문양,0,Data,High,문양 +2 (맞은 대상에게). 턴당 1회,320802
+320901,3209,1,Damage,Enemy,None,MagicAttackPower,188,TRUE,0,Instant,0,,,,FALSE,,,None,0,Data,High,기본 계수 188%. 자원 비례는 CoefficientAdd 행,320901
+320902,3209,2,CoefficientAdd,Enemy,Additive,MagicAttackPower,12,TRUE,0,Instant,0,문양,1,,FALSE,None,,문양,0,Code_NewMechanic,High,문양 1당 계수 +12%p. 문양을 소모하지 않음,320902
+321001,3210,1,Damage,Enemy,None,MagicAttackPower,64,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,321001
+321002,3210,2,DefenseIgnore,Enemy,None,Defense,50,TRUE,0,Instant,0,,,,,,,None,0,Code_NewMechanic,High,"원소 침식 — 대상 마법 저항의 절반 무시. 마법 저항 = 방어력(별도 스탯 없음, 3218 관통과 같은 해석)",321002
+321101,3211,1,Damage,Enemy,None,MagicAttackPower,64,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,321101
+321102,3211,2,DebuffStack,Enemy,None,None,2,FALSE,0,Instant,0,,,,,,,약점,0,Data,High,약점 +2 (즉시).,321102
+321201,3212,1,Damage,Enemy,None,MagicAttackPower,63,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 3,321201
+321202,3212,2,DebuffStack,Enemy,None,None,1,FALSE,0,Instant,0,,,,,,,약점,0,Data,High,타격당 약점 +1 (총 +3).,321202
+321301,3213,1,Damage,Enemy,None,MagicAttackPower,188,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,321301
+321302,3213,2,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,,,,자원,0,Data,High,자원 +2.,321302
+321401,3214,1,StatModifier,Self,Additive,CriticalDamage,55,TRUE,0,Permanent,0,,,,,,,None,0,Data,High,치명타 피해 +55%p (기대배율,321401
+321501,3215,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.17,FALSE,0,Permanent,0,,,,,,,None,0,Data,High,주는 피해 ×1.17 (곱연산).,321501
+321601,3216,1,Damage,Enemy,None,MagicAttackPower,320,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,321601
+321602,3216,2,Damage,Enemy,None,MagicAttackPower,440,TRUE,0,Instant,0,,,,,StackAtCount,약점:5,None,0,Data,High,대상 약점 5중첩이면 320% + 120% → 440%,321602
+321701,3217,1,Damage,Enemy,None,MagicAttackPower,320,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,321701
+321702,3217,2,CoefficientAdd,Enemy,Additive,MagicAttackPower,18,TRUE,0,Instant,0,자원,1,,FALSE,None,,자원,0,Code_NewMechanic,High,"자원 1당 계수 +18%p (계수 가산 — 3209·3241 과 같은 방식). 노바=마력 응축(자신), 레이라인=문양(대상). 소모하지 않음",321702
+321801,3218,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.17,FALSE,0,Permanent,0,,,,,,,None,0,Data,High,대상 마법 저항의 25%를 무시 — 주는 피해 ×1.17(곱연산).,321801
+321901,3219,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.23,FALSE,0,Permanent,0,,,,,StackAtCount,약점:5,None,0,Data,High,대상 약점이 5중첩일 때 주는 피해 ×1.23(곱연산).,321901
+322001,3220,1,DamageTakenMod,Self,Multiplicative,DamageTaken,0.6,FALSE,1,Turns,0,,,,,,,None,0,Data,High,이번 턴 받는 피해 ×0.60(곱연산).,322001
+322101,3221,1,Damage,Enemy,None,MagicAttackPower,188,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,322101
+322102,3221,2,Special,Self,None,None,0,FALSE,1,Turns,0,,,,,,,None,0,Code_Override,High,즉응 시전 — 이번 턴 [명상](3205) 중 강공 피격 시 이월 배율 붕괴(212% → 55%)를 무시,322102
+322201,3222,1,StatModifier,Self,Additive,CriticalDamage,6,TRUE,0,Permanent,0,약점,1,30,,,,None,0,Code_Override,High,추가로 자신은 약점 1중첩당 치명타 피해 +6%p(최대 +30%p,322201
+322301,3223,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,약점,0,Code_Override,Manual,"약점 유지 3턴 → 5턴, 단일 대상 부여 시 주변 1체에도 1중첩 부여. (딜 기여는 파티 환산)",322301
+322401,3224,1,Damage,Enemy,None,MagicAttackPower,479,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,322401
+322402,3224,2,Damage,Enemy,None,MagicAttackPower,809,TRUE,0,Instant,0,,,,,TargetHPBelow,35,None,0,Data,High,대상 HP 35% 이하면 계수 교체 → 809% (기본 계수 행과 배타),322402
+322501,3225,1,Damage,Enemy,None,MagicAttackPower,479,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,322501
+322502,3225,2,DebuffStack,Enemy,None,None,5,FALSE,0,Instant,0,,,,FALSE,None,,약점,0,Data,High,약점을 즉시 5중첩으로 만든다. 약점 상한이 5 라 +5 가산으로 항상 5 가 됨,322502
+322601,3226,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.13,FALSE,0,Permanent,0,,,,,,,None,0,Data,High,주는 피해 ×1.13(곱연산).,322601
+322602,3226,2,ResourceGain,Self,None,SP,8,TRUE,0,Instant,0,준 피해,1,,,None,,SP,0,Code_NewMechanic,High,준 피해의 8%를 SP로 전환,322602
+322701,3227,1,ResourceGainMod,Self,None,None,29,FALSE,0,Permanent,0,,,,,,,AG,0,Code_Override,Manual,AG 자연 충전 턴당 +20 → +29 로 상향 (기본값을 덮어씀),322701
+322801,3228,1,Special,Self,None,None,0,FALSE,0,Instant,2,,,,,,,마력 응축,0,Code_Resource,Manual,마력 응축 3 소모. [명상]과 동일하게 SP 이월하되 이번 턴 마법 사용 제한 없음. 전투당 2회·쿨타임 4턴. (노바 최상위 스킬 — 사실상 공짜 이월),322801
+322802,3228,2,ResourceGain,Self,None,None,-3,FALSE,0,Instant,0,,,,FALSE,None,,마력 응축,0,Data,High,마력 응축 3 소모 (정의표 ResourceGain 에서 이관),322802
+322803,3228,3,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,FALSE,None,,임계,0,Code_Resource,High,심층 명상 — 임계 +1 → 다음 마법이 [임계] 상태,322803
+322901,3229,1,Damage,Enemy,None,MagicAttackPower,322,TRUE,0,Instant,0,,,,FALSE,,,None,0,Data,High,기본 계수 322%. 자원 비례는 CoefficientAdd 행,322901
+322902,3229,2,CoefficientAdd,Enemy,Additive,MagicAttackPower,14,TRUE,0,Instant,0,마력 응축,1,,FALSE,None,,마력 응축,0,Code_NewMechanic,High,마력 응축 1당 계수 +14%p. 응축을 소모하지 않음,322902
+323001,3230,1,DamageDealtMod,Self,Additive,DamageDealt,25.5,TRUE,0,Permanent,0,,,,,,,None,0,Data,High,상시 주는 피해 +25.5%(합연산).,323001
+323002,3230,2,ResourceGainCap,Self,None,None,1,FALSE,0,Permanent,0,,,,,None,,마력 응축,0,Code_Resource,High,마력 응축 획득량 턴당 1 고정 (페널티),323002
+323101,3231,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,None,0,Code_Override,Manual,명상 턴에 강공을 맞아도 이월 배율 감소가 212%→55% 에서 212%→150% 로 완화(저점 상승).,323101
+323201,3232,1,Damage,Enemy,None,MagicAttackPower,683,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,323201
+323202,3232,2,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,,,,마력 응축,0,Data,High,"마력 응축 +2, 준 피해의 12%를 SP로 전환.",323202
+323203,3232,3,ResourceGain,Self,None,SP,12,TRUE,0,Instant,0,준 피해,1,,,None,,SP,0,Code_NewMechanic,High,준 피해의 12%를 SP로 전환,323203
+323301,3233,1,Damage,Enemy,None,MagicAttackPower,683,TRUE,0,Instant,0,,,,FALSE,,,None,0,Data,High,기본 계수 683%. 자원 비례 가산은 CoefficientAdd 행,323301
+323302,3233,2,CoefficientAdd,Enemy,Additive,MagicAttackPower,20,TRUE,0,Instant,0,마력 응축,1,,TRUE,None,,마력 응축,0,Code_NewMechanic,High,마력 응축 1당 계수 +20%p. 응축 전량 소모,323302
+323401,3234,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,마력 응축,0,Code_Override,Manual,"[명상] 이월 배율 212% → 248%. LV60 기준 이월 SP 110 → 128, [임계] 계수 1,191% → 1,477%.",323401
+323501,3235,1,DamageDealtMod,Self,Additive,DamageDealt,25,TRUE,0,Permanent,0,,,,,AfterState,임계:1턴,None,0,Data,High,"[임계] 마법을 사용한 다음 턴, 주는 피해 +25%(합연산). [임계] 상태가 마법에 쓰여 끝난 뒤 1턴 (번아웃 다음 턴 줄과 같은 AfterState 방식)",323501
+323601,3236,1,Damage,Enemy,None,MagicAttackPower,94,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 2,323601
+323602,3236,2,DebuffStack,Enemy,None,None,1,FALSE,0,Instant,0,,,,,,,약점,0,Data,High,타격당 약점 +1.,323602
+323701,3237,1,Damage,Enemy,None,MagicAttackPower,188,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,323701
+323702,3237,2,ResourceDecayImmune,Self,None,None,,FALSE,1,Turns,0,,,,FALSE,None,,문양,0,Code_Resource,High,이번 턴 문양이 감쇠하지 않는다(순증 +2),323702
+323801,3238,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,문양,0,Code_Override,Manual,문양 1중첩당 지속 피해 52% → 89%. [지맥 붕괴] 지속 3턴 → 1턴. 단 자신 SP 상한 감소 −2 → −3.,323801
+323901,3239,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,문양,0,Code_Override,Manual,"문양 상한 +1, [각인]의 문양 획득 +2 → +3(순증 +2/턴). 단 문양 1중첩당 지속 피해 52% → 45%.",323901
+324001,3240,1,Damage,Enemy,None,MagicAttackPower,479,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,324001
+324003,3240,3,ResourceGain,Enemy,None,None,2,FALSE,0,Instant,0,,,,,None,,문양,0,Data,High,지맥 개방 — 문양 +2,324003
+324004,3240,4,Heal,Ally,None,SP,8,FALSE,0,Instant,0,,,,,None,,None,0,Data,High,지맥 개방 — 아군 SP 즉시 8 회복,324004
+324101,3241,1,Damage,Enemy,None,MagicAttackPower,479,TRUE,0,Instant,0,,,,FALSE,,,None,0,Data,High,기본 계수 479%. 자원 비례 가산은 CoefficientAdd 행,324101
+324102,3241,2,CoefficientAdd,Enemy,Additive,MagicAttackPower,60,TRUE,0,Instant,0,문양,1,,TRUE,None,,문양,0,Code_NewMechanic,High,소모한 문양 1당 계수 +60%p (문양 6에서 +360%). 문양 전량 소모,324102
+324201,3242,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,문양,0,Code_Override,Manual,문양이 감쇠하지 않으며 자신의 SP 상한 감소가 절반이 된다. 단 [각인]의 문양 획득 +2 → +1. (원본 LV55 액티브를 상시 패시브로 전환),324201
+324301,3243,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,SPBelow,20,문양,0,Code_NewMechanic,Manual,"자동 발동 — 자신의 턴 중 행동 후 SP 가 20([각인] 비용) 미만이고, 이번 턴 [각인]을 아직 쓰지 않았고, 문양 3 이상인 적이 있을 때. 턴당 1회. 가장 많이 쌓인 적의 문양 2 소모 → SP 20 회복 (발동 후에도 문양 1 이상이 남아 스스로 붕괴를 부르지 않음)",324301
+324302,3243,2,ResourceGain,Self,None,SP,20,FALSE,0,Instant,0,,,,,OncePerTurn,,SP,0,Data,High,지맥 역류 — 문양 2 소모해 SP 20 회복,324302
+324303,3243,3,ResourceGain,Enemy,None,None,-2,FALSE,0,Instant,0,,,,TRUE,OncePerTurn,,문양,0,Code_Resource,High,지맥 역류 — 문양이 가장 많이 쌓인 적에게서 문양 −2 (발동 조건은 324301 줄),324303
+324401,3244,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,None,0,Code_Override,Manual,"[임계] 계수표가 [초신성] 행으로 대체된다 (SP 200 기준). 수치는 재실측 필요 — 이전 1,480% → 2,148%는 틀린 기준점 위의 값. [임계 계수표] 참조.",324401
+324501,3245,1,Damage,Enemy,None,MagicAttackPower,1182,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,324501
+324502,3245,2,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,FALSE,None,,임계,0,Code_Resource,High,노바 버스트 — 사용 후 임계 +1 → 다음 마법이 [임계] 상태,324502
+324601,3246,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.12,FALSE,0,Permanent,0,,,,,StackAtCount,약점:5,None,0,Data,High,약점이 5중첩인 대상에게 주는 피해 ×1.12(곱연산).,324601
+324701,3247,1,Damage,Enemy,None,MagicAttackPower,1424,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,324701
+324702,3247,2,CoefficientAdd,Enemy,Additive,MagicAttackPower,199,TRUE,0,Instant,0,약점,1,,FALSE,None,,약점,0,Code_NewMechanic,High,"어비스 콜 — 대상 약점 1중첩당 계수 +199%p (약점 5 → 1,424 + 995 = 2,419%, 설명과 일치). 약점은 소모하지 않음",324702
+324703,3247,3,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,FALSE,None,,임계,0,Code_Resource,High,어비스 콜 — 사용 후 임계 +1 → 다음 마법이 [임계] 상태,324703
+324801,3248,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.22,FALSE,0,Permanent,0,,,,,ResourceAtMax,문양,None,0,Data,High,"문양이 상한에 도달했을 때 주는 피해 ×1.22(곱연산), 받는 피해 ×0.80(곱연산).",324801
+324802,3248,2,DamageTakenMod,Self,Multiplicative,DamageTaken,0.8,FALSE,0,Permanent,0,,,,,ResourceAtMax,문양,None,0,Data,High,"문양이 상한에 도달했을 때 주는 피해 ×1.22(곱연산), 받는 피해 ×0.80(곱연산).",324802
+324901,3249,1,Damage,Enemy,None,MagicAttackPower,1790,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,324901
+325001,3250,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,문양,0,Code_Override,Manual,"문양 1중첩당 자신 SP 상한 감소 −2 → −1, 아군 SP 상한 증가 +1 → +2.",325001
+325101,3251,1,Damage,Enemy,None,MagicAttackPower,1790,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,325101
+325102,3251,2,ResourceDecayImmune,Self,None,None,0,FALSE,3,Turns,0,,,,,None,,문양,0,Code_Resource,High,3턴간 문양 감쇠 정지,325102
+330101,3301,1,StatModifier,Self,Additive,CriticalRate,12,TRUE,0,Permanent,0,,,,,OnCardDrawn,대길,None,0,Data,High,대길: 치명타 확률 +12%,330101
+330102,3301,2,StatModifier,Self,Additive,CriticalDamage,96,TRUE,0,Permanent,0,,,,,OnCardDrawn,대길,None,0,Data,High,치명타 피해 +96%p(곱연산),330102
+330103,3301,3,StatModifier,Self,Additive,CriticalRate,6,TRUE,0,Permanent,0,,,,,OnCardDrawn,길,None,0,Data,High,길: 치명타 확률 +6%,330103
+330104,3301,4,DamageDealtMod,Self,Additive,DamageDealt,19,TRUE,0,Permanent,0,,,,,OnCardDrawn,길,None,0,Data,High,주는 피해 +19%(합연산).,330104
+330105,3301,5,DamageDealtMod,Self,Multiplicative,DamageDealt,0.72,FALSE,0,Permanent,0,,,,,OnCardDrawn,흉,None,0,Data,High,흉: 주는 피해 ×0.72(곱연산),330105
+330106,3301,6,SkillCostMod,Self,Additive,SP,-40,TRUE,0,Permanent,0,,,,FALSE,OnCardDrawn,대길,None,0,Code_NewMechanic,High,대길: SP 비용 −40%,330106
+330107,3301,7,SkillCostMod,Self,Additive,SP,30,TRUE,0,Permanent,0,,,,FALSE,OnCardDrawn,흉,None,0,Code_NewMechanic,High,흉: SP 비용 +30%,330107
+330201,3302,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,FALSE,,,카드,0,Code_Resource,Manual,"뽑은 카드를 던진다. 계수·SP가 카드에 따라 변함 — 대길 SP14/계수260%, 길 SP24/계수190%, 흉 SP31/계수130%. 주력기.",330201
+330202,3302,2,Damage,Enemy,None,MagicAttackPower,260,TRUE,0,Instant,0,,,,,OnCardDrawn,대길,None,0,Data,High,"점괘 투사 — 대길 턴 계수 260% (세 줄은 서로 배타, 그 턴 카드 하나만 적용). 마이너가 흉·대흉을 저장한 턴은 [길] 줄",330202
+330203,3302,3,Damage,Enemy,None,MagicAttackPower,190,TRUE,0,Instant,0,,,,,OnCardDrawn,길,None,0,Data,High,"점괘 투사 — 길 턴 계수 190% (세 줄은 서로 배타, 그 턴 카드 하나만 적용). 마이너가 흉·대흉을 저장한 턴은 [길] 줄",330203
+330204,3302,4,Damage,Enemy,None,MagicAttackPower,130,TRUE,0,Instant,0,,,,,OnCardDrawn,흉,None,0,Data,High,"점괘 투사 — 흉 턴 계수 130% (세 줄은 서로 배타, 그 턴 카드 하나만 적용). 마이너가 흉·대흉을 저장한 턴은 [길] 줄",330204
+330301,3303,1,StatModifier,Party,Additive,CriticalRate,15,TRUE,0,Permanent,0,,,,FALSE,OnCardDrawn,대길,None,0,Data,High,소환물 포함) — 대길: 치명타 확률 +15%,330301
+330302,3303,2,StatModifier,Party,Additive,CriticalRate,8,TRUE,0,Permanent,0,,,,,OnCardDrawn,길,None,0,Data,High,치명타 피해 +60%p / 길: 치명타 확률 +8% / 흉: 치명타 확률 +4%.,330302
+330303,3303,3,StatModifier,Party,Additive,CriticalRate,4,TRUE,0,Permanent,0,,,,,OnCardDrawn,흉,None,0,Data,High,치명타 피해 +60%p / 길: 치명타 확률 +8% / 흉: 치명타 확률 +4%.,330303
+330304,3303,4,StatModifier,Party,Additive,CriticalDamage,60,TRUE,0,Permanent,0,,,,,OnCardDrawn,대길,None,0,Data,High,치명타 피해 +60%p / 길: 치명타 확률 +8% / 흉: 치명타 확률 +4%.,330304
+330401,3304,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,패,0,Code_Resource,Manual,"뽑은 카드가 패에 1장 기록(최대 3장, 오래된 것부터 밀림). 패가 대길·길로만 3장 채워지면 [The World] 개방(SP 55·마법 공격력 1,710%, 사용 후 패 초기화).",330401
+330501,3305,1,DamageDealtMod,Self,Additive,DamageDealt,14,TRUE,0,Permanent,0,패의 대길,1,,,,,None,0,Data,High,패에 기록된 대길 1장당 주는 피해 +14%(합연산).,330501
+330601,3306,1,Damage,Enemy,None,MagicAttackPower,170,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,330601
+330602,3306,2,ResourceGain,Self,None,None,-1,FALSE,0,Instant,0,,,,FALSE,None,,패,0,Code_Resource,High,패의 가장 오래된 카드 1장을 버린다. 어느 카드를 뺄지 정해야 해서 코드 처리,330602
+330701,3307,1,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,,,,성배,0,Data,High,"흉 → 성배 +2, 대흉 → 검 +2.",330701
+330702,3307,2,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,,,,검,0,Data,High,"흉 → 성배 +2, 대흉 → 검 +2.",330702
+330801,3308,1,Heal,Party,None,Health,4,TRUE,0,Instant,0,소모한 성배,1,,,,,None,0,Data,High,나이아 HP를 스택 1당 최대 HP 4% 회복.,330801
+330901,3309,1,Damage,Enemy,None,MagicAttackPower,625,TRUE,0,Instant,0,,,,FALSE,,,None,0,Data,High,기본 계수 625%. 자원 비례 가산은 CoefficientAdd 행,330901
+330902,3309,2,CoefficientAdd,Enemy,Additive,MagicAttackPower,198,TRUE,0,Instant,0,검,1,,TRUE,None,,검,0,Code_NewMechanic,High,검 스택 1당 계수 +198%p. 검 스택 전량 소모,330902
+331001,3310,1,Damage,Enemy,None,MagicAttackPower,57,TRUE,0,Instant,2,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,331001
+331002,3310,2,Special,Self,None,None,,FALSE,0,Instant,2,,,,FALSE,None,,카드,0,Code_NewMechanic,High,이번 턴 카드를 다시 뽑는다(전투당 2회),331002
+331101,3311,1,Damage,Enemy,None,MagicAttackPower,57,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,331101
+331102,3311,2,Special,Self,None,None,,FALSE,0,Instant,0,,,,FALSE,None,,카드,0,Code_NewMechanic,High,다음 턴에 뽑을 카드를 미리 확인한다,331102
+331201,3312,1,DamageTakenMod,Self,Multiplicative,DamageTaken,0.6,FALSE,1,Turns,0,,,,,,,None,0,Data,High,이번 턴 받는 피해 ×0.60(곱연산).,331201
+331301,3313,1,Damage,Enemy,None,MagicAttackPower,57,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 3,331301
+331401,3314,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.12,FALSE,0,Permanent,0,,,,,,,None,0,Data,High,주는 피해 ×1.12(곱연산).,331401
+331501,3315,1,StatModifier,Self,Additive,CriticalDamage,58,TRUE,0,Permanent,0,,,,,,,None,0,Data,High,치명타 피해 +58%p(기대배율,331501
+331601,3316,1,Damage,Enemy,None,MagicAttackPower,436,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,331601
+331602,3316,2,Damage,Enemy,None,MagicAttackPower,576,TRUE,0,Instant,0,,,,,HandHasCard,대길,None,0,Data,High,패에 대길이 있으면 436% + 140% → 576%,331602
+331701,3317,1,Damage,Enemy,None,MagicAttackPower,218,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 2,331701
+331702,3317,2,Damage,Enemy,None,MagicAttackPower,268,TRUE,0,Instant,0,,,,,HandHasCard,길:2,None,0,Data,High,패에 길 2장 이상이면 218% + 50% → 268%,331702
+331801,3318,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.12,FALSE,0,Permanent,0,,,,,,,None,0,Data,High,주는 피해 ×1.12(곱연산).,331801
+331901,3319,1,StatModifier,Self,Additive,CriticalRate,7,TRUE,0,Permanent,0,,,,,,,None,0,Data,High,"치명타 확률 +7%, 치명타 피해 +14%p(기대배율",331901
+331902,3319,2,StatModifier,Self,Additive,CriticalDamage,14,TRUE,0,Permanent,0,,,,,,,None,0,Data,High,"치명타 확률 +7%, 치명타 피해 +14%p(기대배율",331902
+332001,3320,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,카드,0,Code_NewMechanic,Manual,카드를 다시 뽑는다. 이번 턴 스킬 SP 비용 변동이 적용되지 않는다(흉 턴 구제기).,332001
+332101,3321,1,Damage,Enemy,None,MagicAttackPower,170,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,332101
+332102,3321,2,CoefficientAdd,Enemy,Additive,MagicAttackPower,25,TRUE,0,Instant,0,패의 길 이상,1,,FALSE,None,,패,0,Code_NewMechanic,High,패에 기록된 길 이상(대길·길) 1장당 계수 +25%p (3장 = 245%). 카드는 소모하지 않음,332102
+332201,3322,1,StatModifier,Self,Additive,CriticalDamage,30,TRUE,0,Permanent,0,,,,,,,None,0,Code_Override,High,[계시] 값 상향 + 자신 치명타 피해 +30%p. 상향분은 3303 을 덮어씀,332201
+332301,3323,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.06,FALSE,0,Permanent,0,,,,,,,None,0,Data,High,추가로 주는 피해 ×1.06(곱연산).,332301
+332302,3323,2,StatusDurationMod,Self,None,None,2,FALSE,2,Turns,0,,,,,None,계시,None,0,Code_NewMechanic,High,[계시]가 2턴 유지,332302
+332401,3324,1,Damage,Enemy,None,MagicAttackPower,436,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,332401
+332402,3324,2,Damage,Enemy,None,MagicAttackPower,736,TRUE,0,Instant,0,,,,,TargetHPBelow,35,None,0,Data,High,대상 HP 35% 이하면 계수 교체 → 736% (기본 계수 행과 배타),332402
+332501,3325,1,Damage,Enemy,None,MagicAttackPower,436,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,332501
+332502,3325,2,Damage,Enemy,None,MagicAttackPower,872,TRUE,0,Instant,0,,,,,OnCardDrawn,대길,None,0,Data,High,대길 턴이면 436% × 2 → 872%,332502
+332601,3326,1,DamageTakenMod,Self,Multiplicative,DamageTaken,0.92,FALSE,0,Permanent,0,,,,,,,None,0,Data,High,"최대 HP +27%, 받는 피해 ×0.92(곱연산).",332601
+332602,3326,2,StatModifier,Self,Additive,MaxHealth,27,TRUE,0,Permanent,0,,,,,None,,None,0,Data,High,최대 HP +27%,332602
+332701,3327,1,ResourceGainMod,Self,None,None,29,FALSE,0,Permanent,0,,,,,,,AG,0,Code_Override,Manual,AG 자연 충전 턴당 +20 → +29 로 상향 (기본값을 덮어씀),332701
+332801,3328,1,Damage,Enemy,None,MagicAttackPower,170,TRUE,0,Instant,2,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,332801
+332802,3328,2,Special,Self,None,None,,FALSE,0,Instant,2,,,,FALSE,None,,패,0,Code_NewMechanic,High,패의 흉 1장을 길로 바꾼다(전투당 2회). The World 개방에 직접 기여,332802
+332901,3329,1,Damage,Enemy,None,MagicAttackPower,170,TRUE,0,Instant,3,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,332901
+332902,3329,2,CardFloor,Self,None,None,1,FALSE,2,Turns,0,,,,,None,길,None,0,Code_Resource,High,다음 턴 카드가 [길] 이상으로 확정 (이번 턴 카드는 이미 뽑혔으므로 2 Turns = 다음 턴 1회 적용). 전투당 3회는 332901 MaxPerBattle,332902
+333001,3330,1,Special,Self,None,None,0,FALSE,0,Instant,3,,,,,,,카드,0,Code_NewMechanic,Manual,흉을 뽑으면 즉시 버리고 다시 뽑는다(전투당 3회). The World 개방률 42% → 70%. (저점 방지),333001
+333101,3331,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,패,0,Code_Override,Manual,대길이 패에 2장으로 기록되어 The World 개방이 빨라진다. 단 흉도 2장으로 기록. (고점 추구),333101
+333201,3332,1,Damage,Enemy,None,MagicAttackPower,170,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 2,333201
+333202,3332,2,Damage,Enemy,None,MagicAttackPower,250,TRUE,0,Instant,0,,,,,OnCardDrawn,흉,None,0,Data,High,흉 턴이면 170% + 80% → 250%,333202
+333301,3333,1,Damage,Enemy,None,MagicAttackPower,170,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,333301
+333302,3333,2,CoefficientAdd,Enemy,Additive,MagicAttackPower,18,TRUE,0,Instant,0,패,1,,FALSE,None,,패,0,Code_NewMechanic,High,"패에 기록된 카드 1장당 계수 +18%p (계수 가산, 3장 = 224%). 카드는 소모하지 않음",333302
+333401,3334,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,패,0,Code_Override,Manual,"[The World] 계수 1,710% → 2,223%.",333401
+333501,3335,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,패,0,Code_Override,Manual,The World 사용 후 패가 초기화되지 않고 1장이 남는다(소모한 패 중 가장 좋은 것). 사이클 약 1.4배.,333501
+333601,3336,1,Damage,Enemy,None,MagicAttackPower,170,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,333601
+333602,3336,2,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,검,0,Data,High,검 +1.,333602
+333701,3337,1,Damage,Enemy,None,MagicAttackPower,130,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,333701
+333702,3337,2,StatModifier,Self,Additive,MaxSP,8,FALSE,2,Turns,0,,,,,None,,None,0,Data,High,"다음 턴 SP 상한 +8 — 2 Turns(이번 턴 + 다음 턴). 이번 턴은 행동 뒤라 쓸 곳이 없고, 다음 턴 시작에 상한 +8 로 SP 가 찬다",333702
+333703,3337,3,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,성배,0,Data,High,펜타클 — 성배 +1,333703
+333801,3338,1,ResourceGain,Self,None,None,3,FALSE,0,Instant,0,,,,,,,성배,0,Data,High,흉 저장 시 성배 +3.,333801
+333802,3338,2,DamageDealtMod,Self,Multiplicative,DamageDealt,1.1,FALSE,0,Permanent,0,,,,,AfterResourceSpend,성배,None,0,Data,High,성배를 방출한 턴에는 주는 피해 ×1.10(곱연산).,333802
+333901,3339,1,ResourceGain,Self,None,None,3,FALSE,0,Instant,0,,,,,,,검,0,Code_Override,High,검 +3 및 [검 방출] 검 1당 계수 198%p → 237%p 로 상향 (330902 CoefficientAdd 를 덮어씀),333901
+334001,3340,1,Damage,Enemy,None,MagicAttackPower,292,TRUE,0,Instant,0,,,,FALSE,,,None,0,Data,High,기본 계수 292%. 자원 비례는 CoefficientAdd 행,334001
+334002,3340,2,CoefficientAdd,Enemy,Additive,MagicAttackPower,14,TRUE,0,Instant,0,검,1,,FALSE,None,,검,0,Code_NewMechanic,High,검 스택 1당 계수 +14%p (검 10 기준 총 432%). 검 스택을 소모하지 않음,334002
+334101,3341,1,Damage,Enemy,None,MagicAttackPower,227,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,334101
+334102,3341,2,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,FALSE,None,,성배,0,Data,High,성배 +2 (정의표 ResourceGain 에서 이관),334102
+334103,3341,3,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,FALSE,None,,검,0,Data,High,검 +2 (정의표 ResourceGain 에서 이관),334103
+334201,3342,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,성배·검,0,Code_Resource,Manual,성배·검이 매 턴 각각 +1 추가 축적된다(상한 초과분 버려짐).,334201
+334301,3343,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,검,0,Code_Override,Manual,"[검 방출]의 스택당 계수 198% → 248%, 검이 8 이상이면 추가로 ×1.15(곱연산). (330902 CoefficientAdd 를 덮어씀)",334301
+334401,3344,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,카드,0,Code_NewMechanic,Manual,"흉을 2턴 연속으로 뽑으면 다음 카드가 반드시 대길이 되고, 패에서 흉이 전부 제거된다. (저점 방지)",334401
+334501,3345,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,패,0,Code_Override,Manual,"[The World] 계수가 ×1.30 되고, 패가 대길 3장이면 추가로 ×1.30. (대길 3장 시 The World 2,890%) (고점 추구)",334501
+334601,3346,1,Damage,Enemy,None,MagicAttackPower,2406,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,334601
+334602,3346,2,DamageDealtMod,Enemy,Multiplicative,DamageDealt,1.25,FALSE,0,Instant,0,,,,,OnCardDrawn,대길,None,0,Data,High,"대길 턴이면 피해 ×1.25 (기본 계수 2,406% 에 곱함)",334602
+334701,3347,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,성배·검,0,Code_Resource,Manual,"전투 시작 시 성배·검이 각각 4로 시작하고, 스택이 4 미만으로 내려가지 않는다. (저점 방지)",334701
+334801,3348,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.18,FALSE,0,Permanent,0,,,,,ResourceSumAbove,성배+검:8,None,0,Data,High,성배와 검의 합이 8 이상일 때 주는 피해 ×1.18(곱연산).,334801
+334901,3349,1,Damage,Enemy,None,MagicAttackPower,1796,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,334901
+334902,3349,2,CardFloor,Self,None,None,1,FALSE,3,Turns,0,,,,,None,길,None,0,Code_Resource,High,3턴간 뽑는 카드가 전부 [길] 이상,334902
+340101,3401,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,None,0,Code_Resource,Manual,나이아와 합체한 상태로 전투를 시작해 둘의 스탯이 하나로 합쳐진다. 기본 최대 HP의 2.92%가 공격력에 더해진다([태고의 존재] 선택 시 ×0.90). 환산 기준은 [기본 최대 HP]로 고정되어 [거대한 몸집]·,340101
+340201,3402,1,Damage,Enemy,None,MaxHealth,14,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,340201
+340202,3402,2,Taunt,Enemy,None,None,0,FALSE,2,Turns,0,,,,,,,None,0,Code_NewMechanic,High,적 전체의 공격 대상을 2턴간 자신으로 강제 고정(도발). 쿨타임 4턴은 정의 시트 CooldownTurns,340202
+340301,3403,1,DamageDealtMod,Ally,Additive,DamageDealt,1,TRUE,0,Permanent,0,최대HP,250,,,,,None,0,Data,High,자신의 최대 HP 250당 모든 아군의 주는 피해 +1% (합연산).,340301
+340401,3404,1,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,동화율,0,Data,High,매 턴 종료 시 동화율 +1 (최대 20).,340401
+340402,3404,2,DamageDealtMod,Self,Additive,DamageDealt,1.6,TRUE,0,Permanent,0,동화율,1,,,,,None,0,Data,High,동화율 1당 주는 피해 +1.6% (합연산).,340402
+340501,3405,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,None,0,Code_NewMechanic,Manual,매 턴 시작 시 본인을 제외한 아군 전체에게 최대 HP 4%의 보호막 부여 (중첩되지 않으며 갱신).,340501
+340502,3405,2,Shield,Ally,None,MaxHealth,4,TRUE,0,Permanent,0,,,,,None,,None,0,Data,High,수호의 결 — 매 턴 본인 제외 아군 전체에게 최대 HP 4% 보호막(갱신),340502
+340601,3406,1,Damage,Enemy,None,MaxHealth,55,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 2,340601
+340602,3406,2,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,동화율,0,Code_Resource,High,스킬 사용당 동화율 총 +1 (타격당 아님). 효과표 자원 줄은 타격마다 적용되므로 코드 처리,340602
+340701,3407,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,응전,0,Code_Resource,Manual,"최대 HP ×1.30, 방어력 ×1.30. 피격 확률이 상시 증가해 적의 공격에 우선적으로 노출된다(어그로 가중치 300, 용기·딜러 100).",340701
+340801,3408,1,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,응전,0,Data,High,피격당할 때마다 응전 +1 (최대 20).,340801
+340802,3408,2,DamageDealtMod,Self,Additive,DamageDealt,0.4,TRUE,0,Permanent,0,응전,1,,,,,None,0,Data,High,응전 1당 주는 피해 +0.4% (합연산).,340802
+340901,3409,1,Damage,Enemy,None,MaxHealth,197,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,340901
+340902,3409,2,Heal,Party,None,Health,18,TRUE,0,Instant,0,준 피해,1,,,LowestHPAlly,,None,0,Code_NewMechanic,High,준 피해의 18%를 최저 HP 아군에게 회복 — 자신·나이아 포함(Party) 중 HP 비율이 가장 낮은 1명. 태고 탱커 자신의 생존 회복이 핵심이라 자신을 뺄 수 없음,340902
+341001,3410,1,Damage,Enemy,None,MaxHealth,43,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,341001
+341002,3410,2,DefenseIgnore,Enemy,None,Defense,50,TRUE,0,Instant,0,,,,,,,None,0,Code_NewMechanic,High,대지 강타(드루이드) — 이 스킬의 타격은 대상 방어력의 50% 를 무시,341002
+341101,3411,1,Damage,Enemy,None,MaxHealth,43,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,341101
+341102,3411,2,StatModifier,Enemy,None,AttackPower,-8,TRUE,3,Turns,0,,,,,,,None,0,Data,High,포효 — 대상 공격력 3턴간 8% 감소. 중첩 불가: 다시 걸면 지속만 3턴으로 갱신. 설명대로 물리 공격력만,341102
+341201,3412,1,DamageTakenMod,Self,Multiplicative,DamageTaken,0.55,FALSE,1,Turns,0,,,,,,,None,0,Data,High,이번 턴 받는 피해 ×0.55 (곱연산).,341201
+341202,3412,2,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,,None,,자원,0,Data,High,웅크리기 — 자원 +2,341202
+341301,3413,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,None,0,Code_NewMechanic,Manual,자신의 최대 HP 12%를 소모해 아군 1인을 그만큼 회복. 태고(HP 941) 기준 회복량 113으로 딜러 EHP의 24%.,341301
+341302,3413,2,Heal,Ally,None,Health,12,TRUE,0,Instant,0,,,,,None,,None,0,Data,High,생명 전이 — 자신 최대 HP 12%를 소모해 아군 1인 회복,341302
+341401,3414,1,DamageTakenMod,Self,Multiplicative,DamageTaken,0.88,FALSE,0,Permanent,0,,,,,,,None,0,Data,High,받는 피해 ×0.88 (곱연산).,341401
+341501,3415,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.12,FALSE,0,Permanent,0,,,,,HPBelow,50,None,0,Data,High,현재 HP 50% 이하일 때 주는 피해 ×1.12 (곱연산).,341501
+341601,3416,1,Damage,Enemy,None,MaxHealth,197,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,341601
+341602,3416,2,Damage,Enemy,None,MaxHealth,335,TRUE,0,Instant,0,,,,,TargetHPBelow,35,None,0,Data,High,대상 HP 35% 이하면 계수 교체 → 335% (기본 계수 행과 배타),341602
+341701,3417,1,Damage,Enemy,None,MaxHealth,66,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 3,341701
+341801,3418,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.12,FALSE,0,Permanent,0,,,,,,,None,0,Data,High,주는 피해 ×1.12 (곱연산).,341801
+341901,3419,1,StatModifier,Self,Additive,CriticalRate,7,TRUE,0,Permanent,0,,,,,,,None,0,Data,High,"치명타 확률 +7%, 치명타 피해 +14%p (기대배율",341901
+341902,3419,2,StatModifier,Self,Additive,CriticalDamage,14,TRUE,0,Permanent,0,,,,,,,None,0,Data,High,"치명타 확률 +7%, 치명타 피해 +14%p (기대배율",341902
+342001,3420,1,Damage,Enemy,None,MaxHealth,197,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,342001
+342002,3420,2,Heal,Ally,None,Health,40,TRUE,0,Instant,0,준 피해,1,,,,,None,0,Code_NewMechanic,High,준 피해의 40% 를 아군 전체에 분배 회복 (합계 40% 를 회복받는 인원수로 나눔),342002
+342101,3421,1,Damage,Enemy,None,MaxHealth,197,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,342101
+342102,3421,2,Heal,Self,None,Health,30,TRUE,0,Instant,0,준 피해,1,,,,,None,0,Code_NewMechanic,High,흡수의 아가리 — 준 피해의 30% 를 자신이 회복,342102
+342201,3422,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.06,FALSE,0,Permanent,0,,,,,,,None,0,Code_Override,High,추가로 자신은 주는 피해 ×1.06 (곱연산).,342201
+342301,3423,1,DamageTakenMod,AllyAndNaia,Multiplicative,DamageTaken,0.94,FALSE,0,Permanent,0,,,,,,,None,0,Data,High,"소환물에도 적용되고, 아군이 받는 피해 ×0.94 (곱연산)도 함께 얻는다.",342301
+342302,3423,2,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,None,0,Code_Override,High,[태고의 고양](340301)의 대상 범위를 Ally → AllyAndNaia 로 넓힘. 받는 피해 ×0.94(342301)도 같은 범위,342302
+342401,3424,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,자원,0,Code_Resource,Manual,2턴간 자원(동화율/응전)이 매 턴 +3씩 오른다. 자원 상한에 빨리 닿게 해 후반 화력을 앞당긴다.,342401
+342402,3424,2,ResourceGain,Self,None,None,3,FALSE,2,Turns,0,,,,,None,,자원,0,Data,High,완전 동화 — 2턴간 자원 매 턴 +3,342402
+342501,3425,1,Damage,Enemy,None,MaxHealth,292,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,342501
+342502,3425,2,Shield,Ally,None,MaxHealth,12,TRUE,3,Turns,0,,,,,,,None,0,Data,High,아군 전체에 최대 HP 12% 보호막 즉시 부여. 지속 미기재 → 3429 와 같은 3턴,342502
+342601,3426,1,StatModifier,Self,Additive,MaxHealth,27,TRUE,0,Permanent,0,,,,,,,None,0,Data,High,최대 HP +27%.,342601
+342701,3427,1,ResourceGainMod,Self,None,None,29,FALSE,0,Permanent,0,,,,,,,AG,0,Code_Override,Manual,AG 자연 충전 턴당 +20 → +29 로 상향 (기본값을 덮어씀),342701
+342801,3428,1,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,,,,,,,동화율,0,Data,High,보호막이 남아있는 아군 1인당 동화율 +1 (3인 파티 즉시 +3).,342801
+342802,3428,2,Shield,Ally,None,MaxHealth,8,TRUE,3,Turns,0,,,,,,,None,0,Data,High,아군 전체에게 최대 HP 8% 보호막. 342801(보호막 남은 아군 1인당 동화율 +1)보다 먼저 적용. 지속 미기재 → 3턴,342802
+342901,3429,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,동화율,0,Code_NewMechanic,Manual,아군 전체에게 최대 HP 18% 보호막(3턴). 보호막 소모 → 동화율 환산은 342903 줄,342901
+342902,3429,2,Shield,Ally,None,MaxHealth,18,TRUE,3,Turns,0,,,,,None,,None,0,Data,High,생명의 결계 — 아군 전체 최대 HP 18% 보호막(3턴),342902
+342903,3429,3,ResourceGain,Self,None,None,1,FALSE,0,Instant,0,보호막 소모량,6,9,FALSE,,,동화율,0,Code_NewMechanic,High,"이 스킬로 건 보호막이 깎인 양 누계 — 자신(드루이드) 최대 HP 의 6% 마다 동화율 +1, 시전 1회당 최대 +9. 아군 1명의 보호막(18%)이 다 깎이면 +3 = 3428 가시 방벽 즉시 +3 과 같은 기준",342903
+343001,3430,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.06,FALSE,0,Permanent,0,,,,,,,None,0,Code_Override,High,보호막 4% → 6% 로 상향(3405 를 덮어씀) + 주는 피해 ×1.06,343001
+343101,3431,1,DamageDealtMod,Ally,Multiplicative,DamageDealt,1.06,FALSE,0,Permanent,0,,,,,AllyHasShield,,None,0,Data,High,보호막을 받은 아군이 주는 피해 ×1.06 (곱연산).,343101
+343201,3432,1,Damage,Enemy,None,MaxHealth,415,TRUE,0,Instant,0,,,,FALSE,,,None,0,Data,High,기본 계수 415%. 자원 비례는 DamageDealtMod 행,343201
+343202,3432,2,DamageDealtMod,Self,Additive,DamageDealt,3,TRUE,0,Instant,0,동화율,1,,FALSE,None,,동화율,0,Data,High,동화율 1당 주는 피해 +3%(합연산). 동화율 20 에서 +60% → 최대 HP 415% × 1.6 = 664%,343202
+343301,3433,1,Damage,Enemy,None,MaxHealth,415,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,343301
+343302,3433,2,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,,,,동화율,0,Data,High,동화율 +2 추가.,343302
+343303,3433,3,ResourceGainMod,Self,Multiplicative,None,2,FALSE,0,Permanent,0,,,,,AfterSkill,3433,동화율,0,Code_Resource,High,동화의 파동 — 사용한 다음 턴 동화율 획득량 2배 (턴 종료 자연 +1 포함). 3235 잔광과 같은 AfterSkill 방식,343303
+343401,3434,1,DamageDealtMod,Self,Additive,DamageDealt,1.6,TRUE,0,Permanent,0,동화율,1,,,,,None,0,Code_Override,High,동화율 1당 주는 피해 +1.6% → +2.4%.,343401
+343501,3435,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,동화율,0,Code_Override,Manual,"동화율 상한 20 → 30, 매 턴 획득량 유지. 단 1당 +1.6% → +1.2%. 20턴 기준 +24%로 [깊은 동화]보다 낮고, 30턴 이상 장기전에서만 역전.",343501
+343601,3436,1,Damage,Enemy,None,MaxHealth,197,TRUE,0,Instant,0,,,,,,,None,0,Data,High,Coefficient 컬럼 기준 · HitCount 1,343601
+343602,3436,2,ResourceGain,Self,None,None,2,FALSE,0,Instant,0,,,,,,,응전,0,Data,High,응전 +2.,343602
+343701,3437,1,DamageTakenMod,Self,Multiplicative,DamageTaken,0.7,FALSE,2,Turns,0,,,,,,,None,0,Data,High,2턴간 받는 피해 ×0.70 (곱연산).,343701
+343702,3437,2,ResourceGainMod,Self,Multiplicative,None,2,FALSE,2,Turns,0,,,,,None,,응전,0,Code_Resource,High,2턴간 응전 획득 2배,343702
+343801,3438,1,DamageDealtMod,Self,Additive,DamageDealt,11,TRUE,0,Permanent,0,,,,,HPBelow,50,None,0,Code_Override,High,"HP 구간 상향, 단 최대 HP ×1.30 → ×1.15 (3408 을 덮어씀)",343801
+343802,3438,2,DamageDealtMod,Self,Additive,DamageDealt,28,TRUE,0,Permanent,0,,,,,HPBelow,25,None,0,Code_Override,High,"HP 구간 상향, 단 최대 HP ×1.30 → ×1.15 (3408 을 덮어씀)",343802
+343901,3439,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,응전,0,Code_Override,Manual,"최대 HP ×1.30 → ×1.45, 방어력 ×1.30 → ×1.50 (EHP 1,989). 도발 공백기에도 어그로 유지(어그로 가중치 300 → 500). 단 응전 1당 +0.4% → +0.25%.",343901
+344001,3440,1,Damage,Enemy,None,MaxHealth,415,TRUE,0,Instant,0,,,,FALSE,,,None,0,Data,High,기본 계수 415%. 자원 비례는 DamageDealtMod 행,344001
+344002,3440,2,DamageDealtMod,Self,Additive,DamageDealt,2.5,TRUE,0,Instant,0,응전,1,,FALSE,None,,응전,0,Data,High,응전 1당 주는 피해 +2.5%(합연산). 응전 20 에서 +50% → 최대 HP 415% × 1.5 = 623%,344002
+344101,3441,1,Heal,Self,None,Health,20,TRUE,0,Instant,0,,,,,,,None,0,Data,High,최대 HP 20% 회복.,344101
+344102,3441,2,ResourceGain,Self,None,None,-50,TRUE,0,Instant,0,,,,FALSE,None,,응전,0,Code_Resource,High,보유 응전의 절반을 소모. 보유량 비율이라 코드 처리 필요,344102
+344201,3442,1,Special,Self,None,None,0,FALSE,0,Instant,0,,,,,,,None,0,Code_Override,Manual,[순환의 이빨]의 회복 전환이 18% → 26%. 태고의 생존 여유(0.47~0.58배)를 끌어올리는 핵심이라 딜 기여는 간접 효과.,344201
+344301,3443,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.1,FALSE,0,Permanent,0,,,,,ResourceAtMax,응전,None,0,Data,High,응전이 상한일 때 주는 피해 ×1.10 (곱연산),344301
+344401,3444,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.15,FALSE,0,Permanent,0,,,,,ResourceAtMax,동화율,None,0,Data,High,"동화율이 상한에 도달했을 때 주는 피해 ×1.15 (곱연산), 아군 보호막 2배.",344401
+344402,3444,2,ShieldMod,Ally,Multiplicative,None,2,FALSE,0,Permanent,0,,,,,ResourceAtMax,동화율,None,0,Code_NewMechanic,High,아군 보호막 2배,344402
+344501,3445,1,Damage,Enemy,None,MaxHealth,220,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,344501
+344502,3445,2,Shield,Ally,None,MaxHealth,30,TRUE,3,Turns,0,,,,,,,None,0,Data,High,아군 전체에 최대 HP 30% 보호막. 지속 미기재 → 3턴,344502
+344503,3445,3,CoefficientAdd,Enemy,Additive,MaxHealth,14,TRUE,0,Instant,0,동화율,1,,FALSE,None,,동화율,0,Code_NewMechanic,High,"동화율 1당 계수 +14%p (동화율 20 → 220 + 280 = 500%, 설명의 총계수와 일치). 소모하지 않음",344503
+344601,3446,1,DamageTakenMod,Self,Multiplicative,DamageTaken,0.85,FALSE,0,Permanent,0,,,,,WhileAllyShielded,,None,0,Data,High,아군이 보호막을 유지하는 동안 자신이 받는 피해 ×0.85 (곱연산).,344601
+344701,3447,1,Damage,Enemy,None,MaxHealth,340,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,344701
+344702,3447,2,ShieldMod,Ally,Multiplicative,None,2,FALSE,3,Turns,0,,,,,None,,None,0,Code_NewMechanic,High,3턴간 아군 보호막 매 턴 2배,344702
+344801,3448,1,Heal,Self,None,Health,30,TRUE,0,Instant,1,,,,,HPBelow,20,None,0,Data,High,HP 20% 이하에서 사망 1회 방지 후 최대 HP 30% 회복 (전투당 1회).,344801
+344802,3448,2,DeathPrevent,Self,None,Health,1,FALSE,0,Instant,1,,,,,HPBelow,20,None,0,Code_NewMechanic,High,사망 1회 방지,344802
+344901,3449,1,Damage,Enemy,None,MaxHealth,280,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,344901
+344902,3449,2,CoefficientAdd,Enemy,Additive,MaxHealth,10,TRUE,0,Instant,0,응전,1,,FALSE,None,,응전,0,Code_NewMechanic,High,"응전 1당 계수 +10%p (응전 20 → 280 + 200 = 480%, 설명의 총계수와 일치). 소모하지 않음",344902
+344903,3449,3,Heal,Ally,None,Health,40,TRUE,0,Instant,0,준 피해,1,,,,,None,0,Code_NewMechanic,High,"준 피해의 40% 를 아군 각자 회복 (3420 과 달리 ""분배"" 가 아님)",344903
+345001,3450,1,DamageDealtMod,Self,Multiplicative,DamageDealt,1.2,FALSE,0,Permanent,0,,,,,ResourceAtMax,응전,None,0,Data,High,응전이 상한에 도달했을 때 주는 피해 ×1.20 (곱연산).,345001
+345101,3451,1,Damage,Enemy,None,MaxHealth,200,TRUE,0,Instant,1,,,,,ResourceAtMax,AG,AG,0,Code_Resource,High,Coefficient 컬럼 기준 · HitCount 1,345101
+345102,3451,2,CoefficientAdd,Enemy,Additive,MaxHealth,40,TRUE,0,Instant,0,잃은HP,10,360,FALSE,None,,None,0,Code_NewMechanic,High,"종언의 포효 — 잃은 HP 10% 마다 계수 +40%p (최대 +360%p → 총 560%, 설명과 일치)",345102

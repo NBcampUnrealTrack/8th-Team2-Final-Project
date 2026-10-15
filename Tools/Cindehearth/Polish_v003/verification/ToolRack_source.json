@@ -1,0 +1,139 @@
+{
+  "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_ToolRack_Caps004.blend",
+  "object": "CH_Polish_ToolRack_Caps004",
+  "fingerprint": "d4ad280d79f57c78fc02692f2a8f51171576f2527067f89eb012879145af4de2",
+  "report": {
+    "object": {
+      "name": "CH_Polish_ToolRack_Caps004",
+      "type": "MESH",
+      "data_name": "CH_Polish_ToolRack_Caps004_Mesh",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.2268041372299194,
+        3.0,
+        2.640648126602173
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "collections": [
+        "Collection"
+      ]
+    },
+    "fingerprint": "d4ad280d79f57c78fc02692f2a8f51171576f2527067f89eb012879145af4de2",
+    "geometry": {
+      "vertices": 527,
+      "edges": 1047,
+      "polygons": 549,
+      "triangles": 992,
+      "ngons": 0,
+      "loose_vertices": 0,
+      "loose_edges": 0,
+      "zero_length_edges": 0,
+      "boundary_edges": 4,
+      "wire_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "invalid_face_normals": 0,
+      "non_finite_vertices": 0
+    },
+    "bounds": {
+      "local_min": [
+        -0.6134020686149597,
+        -1.5,
+        0.0
+      ],
+      "local_max": [
+        0.6134020686149597,
+        1.5,
+        2.640648126602173
+      ],
+      "world_min": [
+        -0.6134020686149597,
+        -1.5,
+        0.0
+      ],
+      "world_max": [
+        0.6134020686149597,
+        1.5,
+        2.640648126602173
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "tripo_mat_8d15cca3"
+      }
+    ],
+    "uv_layers": [
+      {
+        "name": "tripo_8d15cca3_b72b_4ab4_ab07_7390f1f159ea_NewUVMap",
+        "active": true,
+        "active_render": true,
+        "loop_count": 2090,
+        "bounds_min": [
+          0.0004639092367142439,
+          0.0004733704845421016
+        ],
+        "bounds_max": [
+          0.999548614025116,
+          0.9995485544204712
+        ],
+        "out_of_zero_one_range": 0,
+        "non_finite": 0,
+        "degenerate_faces": 0
+      }
+    ],
+    "modifiers": [],
+    "quality": {
+      "passed": true,
+      "score": 94,
+      "blockers": [],
+      "warnings": [
+        {
+          "code": "non_manifold_geometry",
+          "message": "Mesh contains boundary, wire, or non-manifold edges."
+        }
+      ],
+      "requirements": {}
+    }
+  }
+}

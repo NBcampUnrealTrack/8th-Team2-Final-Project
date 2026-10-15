@@ -1,0 +1,225 @@
+{
+  "name": "Crate",
+  "geometry": {
+    "vertices": 257,
+    "edges": 464,
+    "polygons": 219,
+    "triangles": 415,
+    "ngons": 0,
+    "loose_vertices": 0,
+    "loose_edges": 0,
+    "zero_length_edges": 0,
+    "boundary_edges": 75,
+    "wire_edges": 0,
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "invalid_face_normals": 0,
+    "non_finite_vertices": 0
+  },
+  "dimensions": [
+    2.9736199378967285,
+    3.0,
+    2.7625794410705566
+  ],
+  "components": [
+    {
+      "id": 0,
+      "faces": 160,
+      "diameter": 5.0018
+    },
+    {
+      "id": 1,
+      "faces": 6,
+      "diameter": 2.9432
+    },
+    {
+      "id": 2,
+      "faces": 5,
+      "diameter": 2.8527
+    },
+    {
+      "id": 3,
+      "faces": 5,
+      "diameter": 0.1896
+    },
+    {
+      "id": 4,
+      "faces": 4,
+      "diameter": 2.8058
+    },
+    {
+      "id": 5,
+      "faces": 4,
+      "diameter": 2.8795
+    },
+    {
+      "id": 6,
+      "faces": 5,
+      "diameter": 0.1904
+    },
+    {
+      "id": 7,
+      "faces": 5,
+      "diameter": 0.1933
+    },
+    {
+      "id": 8,
+      "faces": 5,
+      "diameter": 0.1933
+    },
+    {
+      "id": 9,
+      "faces": 5,
+      "diameter": 0.1907
+    },
+    {
+      "id": 10,
+      "faces": 5,
+      "diameter": 0.1907
+    },
+    {
+      "id": 11,
+      "faces": 5,
+      "diameter": 0.1933
+    },
+    {
+      "id": 12,
+      "faces": 5,
+      "diameter": 0.1933
+    }
+  ],
+  "loops": [
+    {
+      "id": 0,
+      "edges": 12,
+      "simple": true,
+      "diameter": 2.9432,
+      "center": [
+        -1.3497802019119263,
+        0.021250605583190918,
+        1.3974109292030334
+      ]
+    },
+    {
+      "id": 1,
+      "edges": 11,
+      "simple": true,
+      "diameter": 2.8527,
+      "center": [
+        -0.027112841606140137,
+        1.4230581521987915,
+        1.3974109292030334
+      ]
+    },
+    {
+      "id": 2,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.1876,
+      "center": [
+        1.4384465217590332,
+        -1.3028822541236877,
+        0.21250617504119873
+      ]
+    },
+    {
+      "id": 3,
+      "edges": 10,
+      "simple": true,
+      "diameter": 2.8058,
+      "center": [
+        0.0,
+        -1.4259892702102661,
+        1.3922813534736633
+      ]
+    },
+    {
+      "id": 4,
+      "edges": 10,
+      "simple": true,
+      "diameter": 2.8795,
+      "center": [
+        1.3527113199234009,
+        0.0,
+        1.3732290863990784
+      ]
+    },
+    {
+      "id": 5,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.1886,
+      "center": [
+        1.447239875793457,
+        -1.2970200181007385,
+        2.553737163543701
+      ]
+    },
+    {
+      "id": 6,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.1886,
+      "center": [
+        -1.4340498447418213,
+        -1.2926233410835266,
+        0.2205667495727539
+      ]
+    },
+    {
+      "id": 7,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.1886,
+      "center": [
+        -1.4340498447418213,
+        -1.2838299870491028,
+        2.5302882194519043
+      ]
+    },
+    {
+      "id": 8,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.1886,
+      "center": [
+        1.4589643478393555,
+        1.28529554605484,
+        0.2191011905670166
+      ]
+    },
+    {
+      "id": 9,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.1886,
+      "center": [
+        1.4545676708221436,
+        1.2794333100318909,
+        2.553737163543701
+      ]
+    },
+    {
+      "id": 10,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.1886,
+      "center": [
+        -1.4443087577819824,
+        1.2999511361122131,
+        0.19565218687057495
+      ]
+    },
+    {
+      "id": 11,
+      "edges": 4,
+      "simple": true,
+      "diameter": 0.1886,
+      "center": [
+        -1.4340498447418213,
+        1.3014166951179504,
+        2.5302882194519043
+      ]
+    }
+  ]
+}

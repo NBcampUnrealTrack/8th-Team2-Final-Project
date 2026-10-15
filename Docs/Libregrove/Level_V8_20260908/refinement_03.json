@@ -1,0 +1,41 @@
+{
+  "material": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_River_e988d.MI_HD2D_LG8_River_e988d",
+  "old_scalars": {
+    "OpacityBase": 0.6600000262260437,
+    "HighlightStrength": 0.4399999976158142,
+    "ShallowDistance": 80.0
+  },
+  "new_scalars": {
+    "OpacityBase": 0.84,
+    "HighlightStrength": 0.36,
+    "ShallowDistance": 120.0
+  },
+  "old_colors": {
+    "DeepColor": [
+      0.012000000104308128,
+      0.12999999523162842,
+      0.18000000715255737,
+      1.0
+    ],
+    "ShallowColor": [
+      0.05000000074505806,
+      0.3199999928474426,
+      0.3499999940395355,
+      1.0
+    ]
+  },
+  "new_colors": {
+    "DeepColor": [
+      0.008,
+      0.085,
+      0.13,
+      1.0
+    ],
+    "ShallowColor": [
+      0.035,
+      0.245,
+      0.29,
+      1.0
+    ]
+  }
+}

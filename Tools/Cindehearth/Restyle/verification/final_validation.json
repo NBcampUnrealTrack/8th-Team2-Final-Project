@@ -1,0 +1,45 @@
+{
+  "level": "/Game/Maps/L_Cindehearth",
+  "pie": false,
+  "chapter": 0,
+  "night": false,
+  "loaded_materials": [
+    "/Game/Cindehearth/HD2D_v002/Materials/M_CH_AtlasWorld.M_CH_AtlasWorld",
+    "/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelFire.M_CH_PixelFire",
+    "/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelSmoke.M_CH_PixelSmoke"
+  ],
+  "compilation_evidence": "Earlier creation-time receipts; no forced recompilation during reload audit",
+  "models": [
+    {
+      "name": "ClosedRoof",
+      "path": "/Game/Cindehearth/HD2D_v002/Models/ClosedRoof/CH_ClosedRoof_v001/StaticMeshes/CH_ClosedRoof_v001.CH_ClosedRoof_v001",
+      "triangles": 20,
+      "nanite": false
+    },
+    {
+      "name": "Rock",
+      "path": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+      "triangles": 1812,
+      "nanite": false
+    },
+    {
+      "name": "Cart",
+      "path": "/Game/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/StaticMeshes/CH_Cart_Manifold_v004.CH_Cart_Manifold_v004",
+      "triangles": 1926,
+      "nanite": false
+    },
+    {
+      "name": "PineVolume",
+      "path": "/Game/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/StaticMeshes/CH_PineVolume_Closed_v005.CH_PineVolume_Closed_v005",
+      "triangles": 3280,
+      "nanite": false
+    }
+  ],
+  "volumetric_tree_count": 95,
+  "old_flat_tree_count": 0,
+  "uniform_scale": true,
+  "fire_planes": 5,
+  "smoke_planes": 56,
+  "temporary_capture_actors": 0,
+  "saved": true
+}

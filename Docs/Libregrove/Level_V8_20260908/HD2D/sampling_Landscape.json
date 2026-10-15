@@ -1,0 +1,22 @@
+{
+  "samples": [
+    "MaterialExpressionTextureSampleParameter2D_0",
+    "MaterialExpressionTextureSampleParameter2D_1",
+    "MaterialExpressionTextureSampleParameter2D_2",
+    "MaterialExpressionTextureSampleParameter2D_3",
+    "MaterialExpressionTextureSampleParameter2D_4",
+    "MaterialExpressionTextureSampleParameter2D_5",
+    "MaterialExpressionTextureSampleParameter2D_6",
+    "MaterialExpressionTextureSampleParameter2D_7",
+    "MaterialExpressionTextureSampleParameter2D_8",
+    "MaterialExpressionTextureSampleParameter2D_9",
+    "MaterialExpressionTextureSampleParameter2D_10",
+    "MaterialExpressionTextureSampleParameter2D_11",
+    "MaterialExpressionTextureSampleParameter2D_12",
+    "MaterialExpressionTextureSampleParameter2D_13",
+    "MaterialExpressionTextureSampleParameter2D_14",
+    "MaterialExpressionTextureSampleParameter2D_15"
+  ],
+  "unique_uvs": 5,
+  "original_derivatives": true
+}

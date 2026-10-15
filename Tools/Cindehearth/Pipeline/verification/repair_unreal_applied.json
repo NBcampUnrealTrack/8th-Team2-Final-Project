@@ -1,0 +1,24 @@
+{
+  "status": "applied",
+  "actor": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_1336",
+  "mesh": "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/StaticMeshes/CH_GormP2_Clean_v006.CH_GormP2_Clean_v006",
+  "triangles": 1994,
+  "nanite": false,
+  "materials": [
+    "/Game/Cindehearth/Tripo/GormHouse_P2_v001/MI_CH_GormP2_Pixel.MI_CH_GormP2_Pixel",
+    "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/MI_CH_RepairedRoof_Pixel.MI_CH_RepairedRoof_Pixel"
+  ],
+  "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+  "location": [
+    -1125.0,
+    -1620.0,
+    0.0
+  ],
+  "rotation": [
+    -0.0,
+    0.0,
+    180.0
+  ],
+  "bounds": "(<Struct 'Vector' (0x0000022F02E6E2C0) {x: -1128.150009, y: -1620.000000, z: 129.999994}>, <Struct 'Vector' (0x0000022EDA553300) {x: 154.500000, y: 135.000000, z: 130.000006}>)",
+  "map_backup": "..\\..\\..\\..\\..\\..\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthAutomation\\L_Cindehearth_before_mesh_repair.umap"
+}

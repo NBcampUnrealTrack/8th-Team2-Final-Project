@@ -1,0 +1,231 @@
+{
+  "map": "/Game/Fernbrook/Entrance_V1/Maps/L_Fernbrook_Entrance.L_Fernbrook_Entrance",
+  "actors": 241,
+  "all_actor_transforms_preserved": true,
+  "foliage": [
+    {
+      "type": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Canopy.FT_FB1_Canopy",
+      "count": 513,
+      "mesh": "/Game/Fernbrook/Polish_V6/Models/SM_FB6_Canopy.SM_FB6_Canopy",
+      "transforms_exact": true
+    },
+    {
+      "type": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Sapling.FT_FB1_Sapling",
+      "count": 311,
+      "mesh": "/Game/Fernbrook/Polish_V6/Models/SM_FB6_Sapling.SM_FB6_Sapling",
+      "transforms_exact": true
+    },
+    {
+      "type": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Bush.FT_FB1_Bush",
+      "count": 973,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Reuse/SM_FB1_Bush.SM_FB1_Bush",
+      "transforms_exact": true
+    },
+    {
+      "type": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Rock.FT_FB1_Rock",
+      "count": 172,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Reuse/SM_FB1_Rock_A.SM_FB1_Rock_A",
+      "transforms_exact": true
+    },
+    {
+      "type": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Fern.FT_FB1_Fern",
+      "count": 1467,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Auxiliary/Fern/StaticMeshes/SM_FB1_Fern_V1.SM_FB1_Fern_V1",
+      "transforms_exact": true
+    },
+    {
+      "type": "/Game/Fernbrook/Entrance_V1/Foliage/FT_FB1_Grass.FT_FB1_Grass",
+      "count": 2218,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Auxiliary/Grass/StaticMeshes/SM_FB1_Grass_V1.SM_FB1_Grass_V1",
+      "transforms_exact": true
+    },
+    {
+      "type": "/Game/Fernbrook/Polish_V2/Foliage/FT_FB2_TrailGrass.FT_FB2_TrailGrass",
+      "count": 1250,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Auxiliary/Grass/StaticMeshes/SM_FB1_Grass_V1.SM_FB1_Grass_V1",
+      "transforms_exact": true
+    },
+    {
+      "type": "/Game/Fernbrook/Polish_V2/Foliage/FT_FB2_DryGrass.FT_FB2_DryGrass",
+      "count": 117,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Auxiliary/Grass/StaticMeshes/SM_FB1_Grass_V1.SM_FB1_Grass_V1",
+      "transforms_exact": true
+    },
+    {
+      "type": "/Game/Fernbrook/Polish_V2/Foliage/FT_FB2_ShadeFern.FT_FB2_ShadeFern",
+      "count": 1099,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Auxiliary/Fern/StaticMeshes/SM_FB1_Fern_V1.SM_FB1_Fern_V1",
+      "transforms_exact": true
+    },
+    {
+      "type": "/Game/Fernbrook/Polish_V2/Foliage/FT_FB2_BankGrass.FT_FB2_BankGrass",
+      "count": 360,
+      "mesh": "/Game/Fernbrook/Entrance_V1/Models/Auxiliary/Grass/StaticMeshes/SM_FB1_Grass_V1.SM_FB1_Grass_V1",
+      "transforms_exact": true
+    },
+    {
+      "type": "/Game/Fernbrook/Polish_V5/Foliage/FT_FB07_Textured_V5.FT_FB07_Textured_V5",
+      "count": 143,
+      "mesh": "/Game/Fernbrook/Polish_V5/Models/FB07/StaticMeshes/SM_FB07_Wildflower_White_A_V5.SM_FB07_Wildflower_White_A_V5",
+      "transforms_exact": true
+    },
+    {
+      "type": "/Game/Fernbrook/Polish_V5/Foliage/FT_FB08_Textured_V5.FT_FB08_Textured_V5",
+      "count": 55,
+      "mesh": "/Game/Fernbrook/Polish_V5/Models/FB08/StaticMeshes/SM_FB08_Wildflower_Cream_B_V5.SM_FB08_Wildflower_Cream_B_V5",
+      "transforms_exact": true
+    },
+    {
+      "type": "/Game/Fernbrook/Polish_V5/Foliage/FT_FB09_Textured_V5.FT_FB09_Textured_V5",
+      "count": 197,
+      "mesh": "/Game/Fernbrook/Polish_V5/Models/FB09/StaticMeshes/SM_FB09_Broadleaf_Weed_A_V5.SM_FB09_Broadleaf_Weed_A_V5",
+      "transforms_exact": true
+    },
+    {
+      "type": "/Game/Fernbrook/Polish_V5/Foliage/FT_FB10_Textured_V5.FT_FB10_Textured_V5",
+      "count": 106,
+      "mesh": "/Game/Fernbrook/Polish_V5/Models/FB10/StaticMeshes/SM_FB10_Broadleaf_Weed_B_V5.SM_FB10_Broadleaf_Weed_B_V5",
+      "transforms_exact": true
+    }
+  ],
+  "instances": 8981,
+  "meshes": [
+    {
+      "kind": "Canopy",
+      "factor": 0.92,
+      "render_size_cm": [
+        319.6943664550781,
+        291.2686462402344,
+        386.3999938964844
+      ],
+      "render_vertices": 2062,
+      "triangles": 1826,
+      "height_distribution_cm": {
+        "min": 330.26417416287757,
+        "p25": 378.75256613985016,
+        "median": 420.6925567123713,
+        "p75": 458.3492676526532,
+        "max": 520.6441007918121
+      },
+      "geometry_uniform_scale_verified": true,
+      "normals_UV_indices_exact": true,
+      "bounds_contain_render_vertices": true,
+      "collision_uniform_scale_verified": true
+    },
+    {
+      "kind": "Sapling",
+      "factor": 1.3,
+      "render_size_cm": [
+        231.87884521484375,
+        252.6077117919922,
+        416.0
+      ],
+      "render_vertices": 1877,
+      "triangles": 1440,
+      "height_distribution_cm": {
+        "min": 158.620924949646,
+        "p25": 195.82357120513916,
+        "median": 219.73855209350586,
+        "p75": 239.86456489562988,
+        "max": 273.85353660583496
+      },
+      "geometry_uniform_scale_verified": true,
+      "normals_UV_indices_exact": true,
+      "bounds_contain_render_vertices": true,
+      "collision_uniform_scale_verified": true
+    }
+  ],
+  "material_values": {
+    "Canopy": {
+      "scalar": {
+        "PixelGrid": 1024.0,
+        "PixelInfluence": 1.1200000047683716,
+        "StyleInfluence": 0.0,
+        "Roughness": 0.9399999976158142,
+        "Metallic": 0.0,
+        "EmissiveGain": 0.0,
+        "TreePaletteSteps": 9.0,
+        "TreePaletteBlend": 0.0,
+        "TreeVariation": 0.18000000715255737,
+        "LeafSaturation": 1.0399999618530273,
+        "LeafContrast": 1.0
+      },
+      "vectors": {
+        "MaterialTint": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "LeafTint": [
+          0.9800000190734863,
+          1.0,
+          0.9200000166893005,
+          1.0
+        ],
+        "BarkTint": [
+          1.0,
+          0.9800000190734863,
+          0.9300000071525574,
+          1.0
+        ]
+      },
+      "texture": "/Game/Fernbrook/Polish_V5/Models/FB12/Textures/tripo_rgb_6520990e-89f5-4cb5-b125-62df6765f97e.tripo_rgb_6520990e-89f5-4cb5-b125-62df6765f97e"
+    },
+    "Sapling": {
+      "scalar": {
+        "PixelGrid": 1024.0,
+        "PixelInfluence": 1.1200000047683716,
+        "StyleInfluence": 0.0,
+        "Roughness": 0.9399999976158142,
+        "Metallic": 0.0,
+        "EmissiveGain": 0.0,
+        "TreePaletteSteps": 9.0,
+        "TreePaletteBlend": 0.0,
+        "TreeVariation": 0.18000000715255737,
+        "LeafSaturation": 1.1699999570846558,
+        "LeafContrast": 1.0700000524520874
+      },
+      "vectors": {
+        "MaterialTint": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "LeafTint": [
+          0.6200000047683716,
+          0.7799999713897705,
+          0.47999998927116394,
+          1.0
+        ],
+        "BarkTint": [
+          0.800000011920929,
+          0.699999988079071,
+          0.5699999928474426,
+          1.0
+        ]
+      },
+      "texture": "/Game/Fernbrook/Polish_V5/Models/FB13/Textures/tripo_rgb_522c2565-6ceb-47f6-b1a4-a7f6bb5372fe.tripo_rgb_522c2565-6ceb-47f6-b1a4-a7f6bb5372fe"
+    }
+  },
+  "viewport": {
+    "location": [
+      602.4184146059991,
+      -2635.49570230937,
+      562.7247403883263
+    ],
+    "rotation": [
+      -25.59999896585947,
+      57.99999709427368,
+      0.0
+    ],
+    "fov": 100.0,
+    "game": false,
+    "realtime": false,
+    "type": "perspective",
+    "mode": "lit"
+  },
+  "dirty_content": 0,
+  "dirty_maps": 0
+}

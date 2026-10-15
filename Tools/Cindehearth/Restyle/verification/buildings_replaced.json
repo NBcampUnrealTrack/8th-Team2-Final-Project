@@ -1,0 +1,510 @@
+[
+  {
+    "kind": "roof",
+    "label": "CH_DorikSmithy_HD2DRoof",
+    "hidden": [
+      "CH_DorikSmithy_Roof",
+      "CH_DorikSmithy_RoofPatch"
+    ],
+    "location": [
+      -320.95566679723055,
+      917.4661439114391,
+      202.933985286564
+    ],
+    "scale": [
+      1.8906878721366809,
+      1.8099630996309954,
+      1.549497094092431
+    ]
+  },
+  {
+    "kind": "roof",
+    "label": "CH_AssayOffice_HD2DRoof",
+    "hidden": [
+      "CH_AssayOffice_Roof",
+      "CH_AssayOffice_RoofPatch"
+    ],
+    "location": [
+      1391.8759951456311,
+      375.99322522152835,
+      213.51190736448612
+    ],
+    "scale": [
+      0.9917475728155348,
+      1.657329038500347,
+      1.0819646265599636
+    ]
+  },
+  {
+    "kind": "roof",
+    "label": "CH_FreyaTavern_HD2DRoof",
+    "hidden": [
+      "CH_FreyaTavern_Roof",
+      "CH_FreyaTavern_RoofPatch"
+    ],
+    "location": [
+      -366.8731425253859,
+      -2545.753413284133,
+      132.39504029905635
+    ],
+    "scale": [
+      2.181950008059011,
+      1.9944649446494458,
+      1.7832631495091826
+    ]
+  },
+  {
+    "kind": "roof",
+    "label": "CH_MarenClinic_HD2DRoof",
+    "hidden": [
+      "CH_MarenClinic_Roof",
+      "CH_MarenClinic_RoofPatch"
+    ],
+    "location": [
+      1391.7967603872355,
+      -2149.655627306273,
+      68.0508684034472
+    ],
+    "scale": [
+      1.0169014643696899,
+      1.0719557195571947,
+      0.8481983927937294
+    ]
+  },
+  {
+    "kind": "roof",
+    "label": "CH_MineManagement_HD2DRoof",
+    "hidden": [
+      "CH_MineManagement_Roof",
+      "CH_MineManagement_RoofPatch"
+    ],
+    "location": [
+      1077.2554982513132,
+      3428.563929889299,
+      389.0703489229278
+    ],
+    "scale": [
+      0.8712703964085249,
+      0.8874538745387446,
+      0.7313152759106122
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_01_HD2D",
+    "hidden": [
+      "CH_MinersHome_01_Stone",
+      "CH_MinersHome_01_Timber",
+      "CH_MinersHome_01_Iron",
+      "CH_MinersHome_01_Brass",
+      "CH_MinersHome_01_StoneLight",
+      "CH_MinersHome_01_RoofPatch",
+      "CH_MinersHome_01_Roof",
+      "CH_MinersHome_01_Window",
+      "CH_MinersHome_01_Dark"
+    ],
+    "location": [
+      -1530.0,
+      -1800.0,
+      0.0
+    ],
+    "scale": [
+      0.9,
+      1.14,
+      0.97
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_02_HD2D",
+    "hidden": [
+      "CH_MinersHome_02_Stone",
+      "CH_MinersHome_02_Timber",
+      "CH_MinersHome_02_Iron",
+      "CH_MinersHome_02_Brass",
+      "CH_MinersHome_02_StoneLight",
+      "CH_MinersHome_02_RoofPatch",
+      "CH_MinersHome_02_Roof",
+      "CH_MinersHome_02_Window",
+      "CH_MinersHome_02_Dark"
+    ],
+    "location": [
+      -1890.0,
+      -1665.0,
+      0.0
+    ],
+    "scale": [
+      1.08,
+      0.94,
+      0.83
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_03_HD2D",
+    "hidden": [
+      "CH_MinersHome_03_Stone",
+      "CH_MinersHome_03_Timber",
+      "CH_MinersHome_03_Iron",
+      "CH_MinersHome_03_Brass",
+      "CH_MinersHome_03_StoneLight",
+      "CH_MinersHome_03_RoofPatch",
+      "CH_MinersHome_03_Roof",
+      "CH_MinersHome_03_Window",
+      "CH_MinersHome_03_Dark"
+    ],
+    "location": [
+      -2430.0,
+      -1845.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_04_HD2D",
+    "hidden": [
+      "CH_MinersHome_04_Stone",
+      "CH_MinersHome_04_Timber",
+      "CH_MinersHome_04_Iron",
+      "CH_MinersHome_04_Brass",
+      "CH_MinersHome_04_StoneLight",
+      "CH_MinersHome_04_RoofPatch",
+      "CH_MinersHome_04_Roof",
+      "CH_MinersHome_04_Window",
+      "CH_MinersHome_04_Dark"
+    ],
+    "location": [
+      1575.0,
+      -1755.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_05_HD2D",
+    "hidden": [
+      "CH_MinersHome_05_Stone",
+      "CH_MinersHome_05_Timber",
+      "CH_MinersHome_05_Iron",
+      "CH_MinersHome_05_Brass",
+      "CH_MinersHome_05_StoneLight",
+      "CH_MinersHome_05_RoofPatch",
+      "CH_MinersHome_05_Roof",
+      "CH_MinersHome_05_Window",
+      "CH_MinersHome_05_Dark"
+    ],
+    "location": [
+      2565.0,
+      -1845.0,
+      0.0
+    ],
+    "scale": [
+      1.08,
+      0.94,
+      0.83
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_06_HD2D",
+    "hidden": [
+      "CH_MinersHome_06_Stone",
+      "CH_MinersHome_06_Timber",
+      "CH_MinersHome_06_Iron",
+      "CH_MinersHome_06_Brass",
+      "CH_MinersHome_06_StoneLight",
+      "CH_MinersHome_06_RoofPatch",
+      "CH_MinersHome_06_Roof",
+      "CH_MinersHome_06_Window",
+      "CH_MinersHome_06_Dark"
+    ],
+    "location": [
+      -1462.5,
+      -2610.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_07_HD2D",
+    "hidden": [
+      "CH_MinersHome_07_Stone",
+      "CH_MinersHome_07_Timber",
+      "CH_MinersHome_07_Iron",
+      "CH_MinersHome_07_Brass",
+      "CH_MinersHome_07_StoneLight",
+      "CH_MinersHome_07_RoofPatch",
+      "CH_MinersHome_07_Roof",
+      "CH_MinersHome_07_Window",
+      "CH_MinersHome_07_Dark"
+    ],
+    "location": [
+      -1890.0,
+      -2520.0,
+      0.0
+    ],
+    "scale": [
+      0.9,
+      1.14,
+      0.97
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_08_HD2D",
+    "hidden": [
+      "CH_MinersHome_08_Stone",
+      "CH_MinersHome_08_Timber",
+      "CH_MinersHome_08_Iron",
+      "CH_MinersHome_08_Brass",
+      "CH_MinersHome_08_StoneLight",
+      "CH_MinersHome_08_RoofPatch",
+      "CH_MinersHome_08_Roof",
+      "CH_MinersHome_08_Window",
+      "CH_MinersHome_08_Dark"
+    ],
+    "location": [
+      -2520.0,
+      -2655.0,
+      0.0
+    ],
+    "scale": [
+      1.08,
+      0.94,
+      0.83
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_09_HD2D",
+    "hidden": [
+      "CH_MinersHome_09_Stone",
+      "CH_MinersHome_09_Timber",
+      "CH_MinersHome_09_Iron",
+      "CH_MinersHome_09_Brass",
+      "CH_MinersHome_09_StoneLight",
+      "CH_MinersHome_09_RoofPatch",
+      "CH_MinersHome_09_Roof",
+      "CH_MinersHome_09_Window",
+      "CH_MinersHome_09_Dark"
+    ],
+    "location": [
+      1935.0,
+      -2565.0,
+      0.0
+    ],
+    "scale": [
+      0.9,
+      1.14,
+      0.97
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_10_HD2D",
+    "hidden": [
+      "CH_MinersHome_10_Stone",
+      "CH_MinersHome_10_Timber",
+      "CH_MinersHome_10_Iron",
+      "CH_MinersHome_10_Brass",
+      "CH_MinersHome_10_StoneLight",
+      "CH_MinersHome_10_RoofPatch",
+      "CH_MinersHome_10_Roof",
+      "CH_MinersHome_10_Window",
+      "CH_MinersHome_10_Dark"
+    ],
+    "location": [
+      2565.0,
+      -2655.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_11_HD2D",
+    "hidden": [
+      "CH_MinersHome_11_Stone",
+      "CH_MinersHome_11_Timber",
+      "CH_MinersHome_11_Iron",
+      "CH_MinersHome_11_Brass",
+      "CH_MinersHome_11_StoneLight",
+      "CH_MinersHome_11_RoofPatch",
+      "CH_MinersHome_11_Roof",
+      "CH_MinersHome_11_Window",
+      "CH_MinersHome_11_Dark"
+    ],
+    "location": [
+      -990.0,
+      -3465.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_12_HD2D",
+    "hidden": [
+      "CH_MinersHome_12_Stone",
+      "CH_MinersHome_12_Timber",
+      "CH_MinersHome_12_Iron",
+      "CH_MinersHome_12_Brass",
+      "CH_MinersHome_12_StoneLight",
+      "CH_MinersHome_12_RoofPatch",
+      "CH_MinersHome_12_Roof",
+      "CH_MinersHome_12_Window",
+      "CH_MinersHome_12_Dark"
+    ],
+    "location": [
+      -1665.0,
+      -3375.0,
+      0.0
+    ],
+    "scale": [
+      1.08,
+      0.94,
+      0.83
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_13_HD2D",
+    "hidden": [
+      "CH_MinersHome_13_Stone",
+      "CH_MinersHome_13_Timber",
+      "CH_MinersHome_13_Iron",
+      "CH_MinersHome_13_Brass",
+      "CH_MinersHome_13_StoneLight",
+      "CH_MinersHome_13_RoofPatch",
+      "CH_MinersHome_13_Roof",
+      "CH_MinersHome_13_Window",
+      "CH_MinersHome_13_Dark"
+    ],
+    "location": [
+      -2340.0,
+      -3510.0,
+      0.0
+    ],
+    "scale": [
+      0.9,
+      1.14,
+      0.97
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_14_HD2D",
+    "hidden": [
+      "CH_MinersHome_14_Stone",
+      "CH_MinersHome_14_Timber",
+      "CH_MinersHome_14_Iron",
+      "CH_MinersHome_14_Brass",
+      "CH_MinersHome_14_StoneLight",
+      "CH_MinersHome_14_RoofPatch",
+      "CH_MinersHome_14_Roof",
+      "CH_MinersHome_14_Window",
+      "CH_MinersHome_14_Dark"
+    ],
+    "location": [
+      1260.0,
+      -3465.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_15_HD2D",
+    "hidden": [
+      "CH_MinersHome_15_Stone",
+      "CH_MinersHome_15_Timber",
+      "CH_MinersHome_15_Iron",
+      "CH_MinersHome_15_Brass",
+      "CH_MinersHome_15_StoneLight",
+      "CH_MinersHome_15_RoofPatch",
+      "CH_MinersHome_15_Roof",
+      "CH_MinersHome_15_Window",
+      "CH_MinersHome_15_Dark"
+    ],
+    "location": [
+      1935.0,
+      -3375.0,
+      0.0
+    ],
+    "scale": [
+      0.9,
+      1.14,
+      0.97
+    ]
+  },
+  {
+    "kind": "house",
+    "label": "CH_MinersHome_16_HD2D",
+    "hidden": [
+      "CH_MinersHome_16_Stone",
+      "CH_MinersHome_16_Timber",
+      "CH_MinersHome_16_Iron",
+      "CH_MinersHome_16_Brass",
+      "CH_MinersHome_16_StoneLight",
+      "CH_MinersHome_16_RoofPatch",
+      "CH_MinersHome_16_Roof",
+      "CH_MinersHome_16_Window",
+      "CH_MinersHome_16_Dark"
+    ],
+    "location": [
+      2565.0,
+      -3510.0,
+      0.0
+    ],
+    "scale": [
+      1.08,
+      0.94,
+      0.83
+    ]
+  },
+  {
+    "kind": "roof",
+    "label": "CH_UnloadingShelter_HD2DRoof",
+    "hidden": [
+      "CH_UnloadingShelter_Roof",
+      "CH_UnloadingShelter_RoofPatch"
+    ],
+    "location": [
+      -95.95566679723055,
+      2807.4661439114393,
+      360.43398528656417
+    ],
+    "scale": [
+      1.8906878721366809,
+      1.8099630996309954,
+      1.5494970940924304
+    ]
+  }
+]

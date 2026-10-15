@@ -1,0 +1,110 @@
+[
+{
+"shot": "v00_02.6",
+"py": "play.py",
+"wait": 2.6,
+"frames": 10
+},
+{
+"shot": "v01_06.0",
+"py": "stamp.py",
+"wait": 2.9,
+"frames": 3
+},
+{
+"shot": "v02_11.7",
+"py": "stamp.py",
+"wait": 5.199999999999999,
+"frames": 3
+},
+{
+"shot": "v03_15.0",
+"py": "stamp.py",
+"wait": 2.8000000000000007,
+"frames": 3
+},
+{
+"shot": "v04_19.4",
+"py": "stamp.py",
+"wait": 3.9499999999999993,
+"frames": 3
+},
+{
+"shot": "v05_25.4",
+"py": "stamp.py",
+"wait": 5.5,
+"frames": 3
+},
+{
+"shot": "v06_29.8",
+"py": "stamp.py",
+"wait": 3.8500000000000014,
+"frames": 3
+},
+{
+"shot": "v07_30.6",
+"py": "stamp.py",
+"wait": 0.3000000000000007,
+"frames": 3
+},
+{
+"shot": "v08_31.6",
+"py": "stamp.py",
+"wait": 0.5,
+"frames": 3
+},
+{
+"shot": "v09_33.6",
+"py": "stamp.py",
+"wait": 1.5,
+"frames": 3
+},
+{
+"shot": "v10_38.3",
+"py": "stamp.py",
+"wait": 4.199999999999996,
+"frames": 3
+},
+{
+"shot": "v11_41.5",
+"py": "stamp.py",
+"wait": 2.700000000000003,
+"frames": 3
+},
+{
+"shot": "v12_48.5",
+"py": "stamp.py",
+"wait": 6.5,
+"frames": 3
+},
+{
+"shot": "v13_56.8",
+"py": "stamp.py",
+"wait": 7.75,
+"frames": 3
+},
+{
+"shot": "v14_58.8",
+"py": "stamp.py",
+"wait": 1.5499999999999972,
+"frames": 3
+},
+{
+"shot": "v15_62.2",
+"py": "stamp.py",
+"wait": 2.9000000000000057,
+"frames": 3
+},
+{
+"shot": "v16_63.5",
+"py": "stamp.py",
+"wait": 0.7999999999999972,
+"frames": 3
+},
+{
+"shot": "v17_65.6",
+"py": "stamp.py",
+"wait": 1.5999999999999943,
+"frames": 3
+}
+]

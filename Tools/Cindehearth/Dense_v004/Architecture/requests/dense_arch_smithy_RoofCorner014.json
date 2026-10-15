@@ -1,0 +1,18 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Smithy_Body013.blend",
+  "object_name": "CH_Dense_Smithy_Body013",
+  "expected_fingerprint": "c90e375267491d0cee89472c62e5bda736aa92e5faadf50aa65126b7bc903b56",
+  "output_object_name": "CH_Dense_Smithy_RoofCorner014",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Smithy_RoofCorner014.blend",
+  "operation": "cap_polygon",
+  "selection_ids": [
+    209,
+    233,
+    235,
+    230
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "dense_arch_smithy_RoofCorner014"
+}

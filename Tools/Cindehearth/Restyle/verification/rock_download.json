@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"downloaded\": true,\n  \"task_id\": \"b18f59b5-a0ce-48b1-a2e4-3403a83a57af\",\n  \"asset_name\": \"CH_Rock_P2_Restyle_v001\",\n  \"files\": {\n    \"model\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Rock_P2_Restyle_v001\\\\b18f59b5-a0ce-48b1-a2e4-3403a83a57af\\\\b18f59b5-a0ce-48b1-a2e4-3403a83a57af_model.fbx\",\n    \"rendered_image\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Rock_P2_Restyle_v001\\\\b18f59b5-a0ce-48b1-a2e4-3403a83a57af\\\\b18f59b5-a0ce-48b1-a2e4-3403a83a57af_rendered.webp\"\n  },\n  \"output_directory\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Rock_P2_Restyle_v001\\\\b18f59b5-a0ce-48b1-a2e4-3403a83a57af\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

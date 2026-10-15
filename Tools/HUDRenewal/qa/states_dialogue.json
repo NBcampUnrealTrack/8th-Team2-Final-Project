@@ -1,0 +1,38 @@
+[
+ {
+  "shot": "dlg_idle",
+  "py": "qa_village.py",
+  "wait": 20,
+  "frames": 240
+ },
+ {
+  "shot": "dlg_near",
+  "py": "qa_interact.py",
+  "wait": 1.0,
+  "frames": 30
+ },
+ {
+  "shot": "dlg_open",
+  "py": "qa_open_dialogue.py",
+  "wait": 2.5,
+  "frames": 60
+ },
+ {
+  "shot": "dlg_line2",
+  "py": "qa_dialogue_next.py",
+  "wait": 2.5,
+  "frames": 60
+ },
+ {
+  "shot": "dlg_line3",
+  "py": "qa_dialogue_next.py",
+  "wait": 2.5,
+  "frames": 60
+ },
+ {
+  "shot": "dlg_clean",
+  "py": "qa_hide_dialogue.py",
+  "wait": 0.6,
+  "frames": 20
+ }
+]

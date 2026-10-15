@@ -1,0 +1,174 @@
+{
+ "canvas": [
+  60,
+  100
+ ],
+ "pivot": [
+  30,
+  96
+ ],
+ "anims": {
+  "Idle_Front": {
+   "source": "front_idle",
+   "offset": [
+    1,
+    2
+   ],
+   "frame_ground_lock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ]
+  },
+  "Walk_Front": {
+   "source": "front_walk",
+   "offset": [
+    0,
+    -1
+   ],
+   "frame_ground_lock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "durations_ms": [
+    120,
+    110,
+    110,
+    110,
+    120,
+    110,
+    110,
+    110
+   ]
+  },
+  "Idle_Side": {
+   "source": "side_idle_a",
+   "offset": [
+    2,
+    3
+   ],
+   "frame_ground_lock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ]
+  },
+  "Walk_Side": {
+   "source": "side_walk",
+   "offset": [
+    2,
+    3
+   ],
+   "frame_ground_lock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "durations_ms": [
+    110,
+    110,
+    110,
+    110,
+    110,
+    110,
+    110,
+    110
+   ]
+  },
+  "Idle_Back": {
+   "source": "back_idle",
+   "offset": [
+    2,
+    2
+   ],
+   "frame_ground_lock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ]
+  },
+  "Walk_Back": {
+   "source": "back_walk",
+   "offset": [
+    2,
+    2
+   ],
+   "frame_ground_lock": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "durations_ms": [
+    120,
+    110,
+    110,
+    110,
+    120,
+    110,
+    110,
+    110
+   ]
+  }
+ }
+}

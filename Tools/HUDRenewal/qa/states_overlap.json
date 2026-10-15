@@ -1,0 +1,5 @@
+[
+ {"shot": "ov_idle", "py": "qa_village.py", "wait": 20, "frames": 240},
+ {"shot": "ov_both", "py": "qa_overlap.py", "wait": 1.2, "frames": 30},
+ {"shot": "ov_after", "py": "", "wait": 2.6, "frames": 60}
+]

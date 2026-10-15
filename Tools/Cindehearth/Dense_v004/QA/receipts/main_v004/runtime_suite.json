@@ -1,0 +1,24 @@
+{
+  "passed": false,
+  "status": "failed",
+  "run_id": "main_v004",
+  "started": "2026-09-05T18:28:37.343727",
+  "full_suite": true,
+  "routes": [
+    {
+      "route": "rail",
+      "passed": true,
+      "waypoints": 6
+    },
+    {
+      "route": "cemetery",
+      "passed": true,
+      "waypoints": 4
+    }
+  ],
+  "completed_stages": [
+    "states"
+  ],
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Dense_v004\\QA\\run.py\", line 91, in main\n    result = wait_receipt('walk_'+mode+'.json')\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Dense_v004\\QA\\run.py\", line 69, in wait_receipt\n    assert result.get('passed') is True, result\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'passed': False, 'route': 'ashslope', 'waypoints_reached': 1, 'total_waypoints': 10, 'route_floor_points': [[-2257.2, 361.8, 157.5], [-3056.4, 361.8, 157.5], [-3256.2, 904.5, 157.5], [-3755.7, 904.5, 270], [-4055.4, -241.20000000000002, 270], [-4588.200000000001, -241.20000000000002, 382.5], [-4887.900000000001, 904.5, 382.5], [-5420.700000000001, 904.5, 495], [-5720.400000000001, -241.20000000000002, 495], [-6253.200000000001, -241.20000000000002, 607.5]], 'reached': [{'seconds': 0.92, 'waypoint': 0, 'position': [-2257.2, 361.79999999999995, 207.6500072479248], 'distance': 0.0, 'floor_error_cm': 2.15, 'walkable_floor': True, 'movement_mode': '<MovementMode.MOVE_WALKING: 1>'}], 'final_position': [-2547.0607688005935, 361.79999999999995, -1003.1232166495128], 'reason': 'fell_below_expected_play_surfaces', 'samples': [{'seconds': 0.92, 'waypoint': 0, 'position': [-2257.2, 361.79999999999995, 207.6500072479248], 'distance': 0.0, 'floor_error_cm': 2.15, 'walkable_floor': True, 'movement_mode': '<MovementMode.MOVE_WALKING: 1>'}, {'seconds': 1.59, 'waypoint': 1, 'position': [-2352.0867237347366, 361.79999999999995, 207.6500072479248], 'distance': 704.31, 'floor_error_cm': 2.15, 'walkable_floor': True, 'movement_mode': '<MovementMode.MOVE_WALKING: 1>'}, {'seconds': 2.27, 'waypoint': 1, 'position': [-2450.349464390205, 361.79999999999995, 42.21176949316665], 'distance': 606.05, 'floor_error_cm': -163.29, 'walkable_floor': False, 'movement_mode': '<MovementMode.MOVE_FALLING: 3>'}, {'seconds': 2.92, 'waypoint': 1, 'position': [-2501.5495602663, 361.79999999999995, -545.7890180875702], 'distance': 554.85, 'floor_error_cm': -751.29, 'walkable_floor': False, 'movement_mode': '<MovementMode.MOVE_FALLING: 3>'}], 'movement': 'add_movement_input; only initial placement teleports', 'horizontal_tolerance_cm': 58, 'floor_tolerance_cm': 40}\n",
+  "finished": "2026-09-05T18:29:09.101131"
+}

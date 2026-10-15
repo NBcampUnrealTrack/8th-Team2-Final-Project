@@ -1,0 +1,230 @@
+[
+  {
+    "tool": "blender_mesh_edit",
+    "arguments": {
+      "source_object_name": "CH_Polish_Noticeboard_REF___tripo_node_e1abc989",
+      "output_object_name": "CH_Polish_Noticeboard_Game_v003",
+      "operations": [
+        {
+          "type": "transform_object",
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "transform_vertices",
+          "scale": [
+            3.001465559355154,
+            3.001465559355154,
+            3.001465559355154
+          ],
+          "translation": [
+            -0.0,
+            -0.0,
+            1.271372740595994
+          ]
+        },
+        {
+          "type": "delete_loose"
+        }
+      ]
+    },
+    "request_id": 259417763112035
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"259417763112035\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "259417763112035",
+        "command": "mesh.edit",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"259417763112035\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"finished\",\n    \"created_at\": 1788595989.7992768,\n    \"finished_at\": 1788595989.8896,\n    \"result\": {\n      \"source_object_name\": \"CH_Polish_Noticeboard_REF___tripo_node_e1abc989\",\n      \"source_fingerprint\": \"87726a4ff841a1e8c9941ec5ecfda3bf1ce571b67d96c5d7c34beb1971c17c7a\",\n      \"output_object_name\": \"CH_Polish_Noticeboard_Game_v003\",\n      \"operations\": [\n        {\n          \"type\": \"transform_object\"\n        },\n        {\n          \"type\": \"transform_vertices\"\n        },\n        {\n          \"type\": \"delete_loose\"\n        }\n      ],\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_Polish_Noticeboard_Game_v003\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Polish_Noticeboard_Game_v003_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            0.7459697127342224,\n            3.0,\n            2.542745590209961\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"5da60edddfbf01a7dda3ca9859cc0804643a81400e168776a3787f8c2be37a5d\",\n        \"geometry\": {\n          \"vertices\": 731,\n          \"edges\": 1284,\n          \"polygons\": 627,\n          \"triangles\": 1025,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 289,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 0,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            -0.3729848563671112,\n            -1.5,\n            0.0\n          ],\n          \"local_max\": [\n            0.3729848563671112,\n            1.5,\n            2.542745590209961\n          ],\n          \"world_min\": [\n            -0.3729848563671112,\n            -1.5,\n            0.0\n          ],\n          \"world_max\": [\n            0.3729848563671112,\n            1.5,\n            2.542745590209961\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"tripo_mat_e1abc989\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"e1abc989_846e_423b_acd8_50b744577d59_NewUVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 2279,\n            \"bounds_min\": [\n              0.0005267533706501126,\n              0.000526723510120064\n            ],\n            \"bounds_max\": [\n              0.9994732737541199,\n              0.9968193769454956\n            ],\n            \"out_of_zero_one_range\": 0,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 0\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 94,\n          \"blockers\": [],\n          \"warnings\": [\n            {\n              \"code\": \"non_manifold_geometry\",\n              \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n            }\n          ],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "259417763112035",
+        "command": "mesh.edit",
+        "state": "finished",
+        "created_at": 1788595989.7992768,
+        "finished_at": 1788595989.8896,
+        "result": {
+          "source_object_name": "CH_Polish_Noticeboard_REF___tripo_node_e1abc989",
+          "source_fingerprint": "87726a4ff841a1e8c9941ec5ecfda3bf1ce571b67d96c5d7c34beb1971c17c7a",
+          "output_object_name": "CH_Polish_Noticeboard_Game_v003",
+          "operations": [
+            {
+              "type": "transform_object"
+            },
+            {
+              "type": "transform_vertices"
+            },
+            {
+              "type": "delete_loose"
+            }
+          ],
+          "output": {
+            "object": {
+              "name": "CH_Polish_Noticeboard_Game_v003",
+              "type": "MESH",
+              "data_name": "CH_Polish_Noticeboard_Game_v003_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                0.7459697127342224,
+                3.0,
+                2.542745590209961
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "5da60edddfbf01a7dda3ca9859cc0804643a81400e168776a3787f8c2be37a5d",
+            "geometry": {
+              "vertices": 731,
+              "edges": 1284,
+              "polygons": 627,
+              "triangles": 1025,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 289,
+              "wire_edges": 0,
+              "non_manifold_edges": 0,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -0.3729848563671112,
+                -1.5,
+                0.0
+              ],
+              "local_max": [
+                0.3729848563671112,
+                1.5,
+                2.542745590209961
+              ],
+              "world_min": [
+                -0.3729848563671112,
+                -1.5,
+                0.0
+              ],
+              "world_max": [
+                0.3729848563671112,
+                1.5,
+                2.542745590209961
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_mat_e1abc989"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "e1abc989_846e_423b_acd8_50b744577d59_NewUVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 2279,
+                "bounds_min": [
+                  0.0005267533706501126,
+                  0.000526723510120064
+                ],
+                "bounds_max": [
+                  0.9994732737541199,
+                  0.9968193769454956
+                ],
+                "out_of_zero_one_range": 0,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 94,
+              "blockers": [],
+              "warnings": [
+                {
+                  "code": "non_manifold_geometry",
+                  "message": "Mesh contains boundary, wire, or non-manifold edges."
+                }
+              ],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

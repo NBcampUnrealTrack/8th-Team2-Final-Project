@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "routes": [
+    {
+      "name": "rail",
+      "waypoints": 6,
+      "receipt": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\main_v004\\walk_rail.json"
+    },
+    {
+      "name": "cemetery",
+      "waypoints": 4,
+      "receipt": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\final_refinements\\walk_cemetery.json"
+    },
+    {
+      "name": "ashslope",
+      "waypoints": 10,
+      "receipt": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\routes_v004b\\walk_ashslope.json"
+    },
+    {
+      "name": "deepvein",
+      "waypoints": 6,
+      "receipt": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\final_refinements\\walk_deepvein.json"
+    },
+    {
+      "name": "pinehollow",
+      "waypoints": 5,
+      "receipt": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\routes_v004b\\walk_pinehollow.json"
+    },
+    {
+      "name": "gorm",
+      "waypoints": 8,
+      "receipt": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\routes_v004b\\walk_gorm.json"
+    },
+    {
+      "name": "stairs_lower_west",
+      "waypoints": 4,
+      "receipt": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\routes_v004b\\walk_stairs_lower_west.json"
+    },
+    {
+      "name": "stairs_lower_east",
+      "waypoints": 4,
+      "receipt": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\routes_v004b\\walk_stairs_lower_east.json"
+    },
+    {
+      "name": "stairs_upper_west",
+      "waypoints": 4,
+      "receipt": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\routes_v004b\\walk_stairs_upper_west.json"
+    },
+    {
+      "name": "stairs_upper_east",
+      "waypoints": 4,
+      "receipt": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\routes_v004b\\walk_stairs_upper_east.json"
+    },
+    {
+      "name": "smithy_approach",
+      "waypoints": 4,
+      "receipt": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\routes_v004b\\walk_smithy_approach.json"
+    },
+    {
+      "name": "tavern_approach",
+      "waypoints": 4,
+      "receipt": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\final_refinements\\walk_tavern_approach.json"
+    },
+    {
+      "name": "housing_north_alley",
+      "waypoints": 5,
+      "receipt": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\routes_v004b\\walk_housing_north_alley.json"
+    },
+    {
+      "name": "housing_middle_alley",
+      "waypoints": 4,
+      "receipt": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\routes_v004b\\walk_housing_middle_alley.json"
+    }
+  ],
+  "route_count": 14,
+  "waypoints": 72,
+  "states_archive_epilogue_camera": "Tools\\Cindehearth\\Dense_v004\\QA\\receipts\\routes_v004b\\runtime_suite.json",
+  "validation_scope": "14 routes/72 unique waypoints; rail from main_v004, 10 routes from routes_v004b, and the final tavern/cemetery/deepvein rechecks from final_refinements. State/archive/epilogue/camera tests passed in routes_v004b. Subsequent changes were visual except the separately retested tavern front wall.",
+  "failed_earlier_runs": [
+    "main_v004 (Ashbridge scale)",
+    "corrected_v004 (PIEstop pending prevented repair)"
+  ]
+}

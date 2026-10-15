@@ -1,0 +1,26 @@
+﻿[
+    {
+        "shot":  "npc_idle",
+        "py":  "qa_village.py",
+        "wait":  20,
+        "frames":  240
+    },
+    {
+        "shot":  "npc_cfg",
+        "py":  "qa_google_cfg.py",
+        "wait":  0.1,
+        "frames":  2
+    },
+    {
+        "shot":  "npc_near",
+        "py":  "qa_interact.py",
+        "wait":  1.0,
+        "frames":  30
+    },
+    {
+        "shot":  "npc_clean",
+        "py":  "qa_hide_markers.py",
+        "wait":  0.6,
+        "frames":  20
+    }
+]

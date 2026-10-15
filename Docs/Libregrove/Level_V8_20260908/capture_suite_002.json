@@ -1,0 +1,200 @@
+{
+  "rows": [
+    {
+      "name": "StyleOff",
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Level_V8_20260908\\Preview\\Game_StyleOff_Final_002.png",
+      "pawn": [
+        0.0,
+        350.0,
+        80.22660446166992
+      ],
+      "camera": [
+        1.3642420526593924e-12,
+        -1295.4482671904354,
+        1090.226604461671
+      ],
+      "rotation": [
+        1.4690353290379085e-14,
+        -30.0,
+        90.0
+      ],
+      "fov": 38.0,
+      "night": false,
+      "style_overrides": {
+        "StyleStrength": 0.0,
+        "PixelBlend": 0.0
+      },
+      "actual_game_view": true
+    },
+    {
+      "name": "StyleStrong",
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Level_V8_20260908\\Preview\\Game_StyleStrong_Final_002.png",
+      "pawn": [
+        0.0,
+        350.0,
+        80.22660446166992
+      ],
+      "camera": [
+        1.3642420526593924e-12,
+        -1295.4482671904354,
+        1090.226604461671
+      ],
+      "rotation": [
+        1.4690353290379085e-14,
+        -30.0,
+        90.0
+      ],
+      "fov": 38.0,
+      "night": false,
+      "style_overrides": {
+        "StyleStrength": 1.0,
+        "PixelBlend": 1.0,
+        "TextureDensity": 0.35,
+        "PaletteSteps": 10.0,
+        "PosterizeStrength": 1.0
+      },
+      "actual_game_view": true
+    },
+    {
+      "name": "Square",
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Level_V8_20260908\\Preview\\Game_Square_Final_002.png",
+      "pawn": [
+        0.0,
+        350.0,
+        80.22660446166992
+      ],
+      "camera": [
+        1.3642420526593924e-12,
+        -1295.4482671904354,
+        1090.226604461671
+      ],
+      "rotation": [
+        1.4690353290379085e-14,
+        -30.0,
+        90.0
+      ],
+      "fov": 38.0,
+      "night": false,
+      "style_overrides": {},
+      "actual_game_view": true
+    },
+    {
+      "name": "Waterfront",
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Level_V8_20260908\\Preview\\Game_Waterfront_Final_002.png",
+      "pawn": [
+        1710.0,
+        1350.0,
+        89.35704612731934
+      ],
+      "camera": [
+        1710.0000000000014,
+        -295.44826719043544,
+        1099.3570461273205
+      ],
+      "rotation": [
+        1.4690353290379085e-14,
+        -30.0,
+        90.0
+      ],
+      "fov": 38.0,
+      "night": false,
+      "style_overrides": {},
+      "actual_game_view": true
+    },
+    {
+      "name": "Workshops",
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Level_V8_20260908\\Preview\\Game_Workshops_Final_002.png",
+      "pawn": [
+        -1800.0,
+        850.0,
+        80.22660636901855
+      ],
+      "camera": [
+        -1799.9999999999986,
+        -795.4482671904354,
+        1090.2266063690197
+      ],
+      "rotation": [
+        1.4690353290379085e-14,
+        -30.0,
+        90.0
+      ],
+      "fov": 38.0,
+      "night": false,
+      "style_overrides": {},
+      "actual_game_view": true
+    },
+    {
+      "name": "Shrine",
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Level_V8_20260908\\Preview\\Game_Shrine_Final_002.png",
+      "pawn": [
+        0.0,
+        2110.0,
+        161.76116156578064
+      ],
+      "camera": [
+        1.3642420526593924e-12,
+        464.55173280956456,
+        1171.7611615657818
+      ],
+      "rotation": [
+        1.4690353290379085e-14,
+        -30.0,
+        90.0
+      ],
+      "fov": 38.0,
+      "night": false,
+      "style_overrides": {},
+      "actual_game_view": true
+    },
+    {
+      "name": "CentralBridge",
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Level_V8_20260908\\Preview\\Game_CentralBridge_Final_002.png",
+      "pawn": [
+        0.0,
+        -720.0,
+        125.0
+      ],
+      "camera": [
+        1.3642420526593924e-12,
+        -2365.448267190435,
+        1135.0000000000011
+      ],
+      "rotation": [
+        1.4690353290379085e-14,
+        -30.0,
+        90.0
+      ],
+      "fov": 38.0,
+      "night": false,
+      "style_overrides": {},
+      "actual_game_view": true
+    },
+    {
+      "name": "SquareNight",
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Level_V8_20260908\\Preview\\Game_SquareNight_Final_002.png",
+      "pawn": [
+        0.0,
+        350.0,
+        80.22660446166992
+      ],
+      "camera": [
+        1.5916157281026244e-12,
+        -1295.4482671904357,
+        1090.226604461671
+      ],
+      "rotation": [
+        1.4690353290379085e-14,
+        -30.0,
+        90.0
+      ],
+      "fov": 38.0,
+      "night": true,
+      "style_overrides": {},
+      "actual_game_view": true
+    }
+  ],
+  "error": null,
+  "mpc_defaults_unchanged": true,
+  "runtime_restored": true
+}

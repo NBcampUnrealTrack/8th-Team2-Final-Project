@@ -1,0 +1,21 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_RingLinks_Game_v003.blend",
+  "object_name": "CH_Polish_RingLinks_Game_v003",
+  "expected_fingerprint": "a567796b88662e96f376a22aae9af4ab66075fc26917fc64a0551510d0fe47cd",
+  "output_object_name": "CH_Polish_RingLinks_Overlap004",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_RingLinks_Overlap004.blend",
+  "operation": "delete_faces",
+  "selection_ids": [
+    40,
+    106,
+    120,
+    125,
+    152,
+    198,
+    297
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "polish_ringlinks_Overlap004"
+}

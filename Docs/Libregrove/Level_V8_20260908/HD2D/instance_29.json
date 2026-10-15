@@ -1,0 +1,22 @@
+{
+  "source": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Materials/tripo_mat_2439e2fa.tripo_mat_2439e2fa",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Barrel_892b0.MI_HD2D_Barrel_892b0",
+  "kind": "Surface",
+  "scalars": {
+    "PixelGrid": 128.0,
+    "Roughness": 0.87,
+    "Metallic": 0.0
+  },
+  "vectors": {
+    "MaterialTint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "textures": {
+    "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Textures/Color.Color",
+    "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Textures/Normal.Normal"
+  }
+}

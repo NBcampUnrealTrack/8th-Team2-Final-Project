@@ -1,0 +1,7 @@
+[
+ {"shot": "na_idle", "py": "qa_village.py", "wait": 20, "frames": 240},
+ {"shot": "na_info", "py": "qa_npc_survey.py", "wait": 0.2, "frames": 4},
+ {"shot": "na_near", "py": "qa_interact.py", "wait": 1.0, "frames": 30},
+ {"shot": "na_press", "py": "", "wait": 0.62, "frames": 20},
+ {"shot": "na_near2", "py": "", "wait": 0.5, "frames": 15}
+]

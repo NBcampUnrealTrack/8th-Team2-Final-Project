@@ -1,0 +1,38 @@
+[
+  {
+    "job_id": "polish_grave_CH_Polish_Grave_Closed004_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_grave_CH_Polish_Grave_Closed004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_grave_CH_Polish_Grave_Closed004_export"
+  },
+  {
+    "job_id": "polish_grave_CH_Polish_Grave_Closed004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_grave_CH_Polish_Grave_Closed004_export"
+  },
+  {
+    "job_id": "polish_grave_CH_Polish_Grave_Closed004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_grave_CH_Polish_Grave_Closed004_export"
+  },
+  {
+    "job_id": "polish_grave_CH_Polish_Grave_Closed004_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Grave_Closed004.glb",
+      "format": "glb",
+      "bytes": 4097664,
+      "object_names": [
+        "CH_Polish_Grave_Closed004"
+      ],
+      "fingerprints": {
+        "CH_Polish_Grave_Closed004": "7a8f37afd1b0fd6079abe3c78a2c263642fbf8c8ca78b118b166439d3ddd732d"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

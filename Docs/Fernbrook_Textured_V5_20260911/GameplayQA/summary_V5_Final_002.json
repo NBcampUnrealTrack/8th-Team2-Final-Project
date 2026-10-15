@@ -1,0 +1,23 @@
+[
+  {
+    "route": "bridge_forward",
+    "passed": true,
+    "reason": "",
+    "reached": 17,
+    "total": 17
+  },
+  {
+    "route": "bridge_return",
+    "passed": true,
+    "reason": "",
+    "reached": 17,
+    "total": 17
+  },
+  {
+    "route": "naia_glade",
+    "passed": true,
+    "reason": "",
+    "reached": 5,
+    "total": 5
+  }
+]

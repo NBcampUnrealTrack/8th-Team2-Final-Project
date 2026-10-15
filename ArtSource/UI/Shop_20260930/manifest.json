@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-30",
+  "reference_asset": "/Game/Developers/MinkiCho/상점_페이지.상점_페이지",
+  "reference_sha256": "4507d5359f6e8007a99e0e2416ed9e70a43accb883b5c6383cd951e3e3c3bab3",
+  "tool": "built-in image_gen",
+  "prompt_file": "backdrop_prompt.txt",
+  "source_file": "T_Shop_PageBackdropV3.png",
+  "sha256": "b3da5d7ea44af280407a47924465eabbf02016dc5426d606c813cfaf7d7e6e1d",
+  "size": [
+    1793,
+    877
+  ],
+  "unreal_asset": "/Game/Developers/MinkiCho/Art/Shop/Concept20260930/T_Shop_PageBackdropV3",
+  "consumer": "/Game/Developers/MinkiCho/UI/Shop/WBP_ShopPage:WidgetTree.PaperSurface",
+  "pixel_postprocessing": false,
+  "native_ui_layers": [
+    "shop title and emblem",
+    "merchant portrait and text",
+    "tabs",
+    "six product entries",
+    "30 inventory slots",
+    "purchase dialog"
+  ],
+  "validation": "Saved/ShopRefresh_20260930/qa.json",
+  "final_screenshot": "Saved/ShopRefresh_20260930/final_main00000.png"
+}

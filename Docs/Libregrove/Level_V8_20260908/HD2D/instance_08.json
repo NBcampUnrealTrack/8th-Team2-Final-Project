@@ -1,0 +1,21 @@
+{
+  "source": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/Materials/tripo_mat_7a88dfe0.tripo_mat_7a88dfe0",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_03_VillageHall_01750.MI_HD2D_LG_03_VillageHall_01750",
+  "kind": "Surface",
+  "scalars": {
+    "PixelGrid": 256.0,
+    "Roughness": 0.87,
+    "Metallic": 0.0
+  },
+  "vectors": {
+    "MaterialTint": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "textures": {
+    "BaseColorTexture": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/Textures/LG_03_VillageHall_fbx_basecolor"
+  }
+}

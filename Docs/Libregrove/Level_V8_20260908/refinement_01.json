@@ -1,0 +1,221 @@
+{
+  "replaced_cliffs": [
+    {
+      "actor": "LG8_WaterfallCliff_00",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2020.0,
+        2190.0,
+        87.76983333333345
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    },
+    {
+      "actor": "LG8_WaterfallCliff_01",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2714.687153510578,
+        2365.8120614671802,
+        213.83405035577994
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    },
+    {
+      "actor": "LG8_WaterfallCliff_02",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2385.797407779166,
+        1930.9522202670498,
+        -318.41109530899405
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    },
+    {
+      "actor": "LG8_WaterfallCliff_03",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2175.708169210626,
+        2395.878202696511,
+        195.84615027030083
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    },
+    {
+      "actor": "LG8_WaterfallCliff_04",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2814.1509134268767,
+        2145.699472120407,
+        122.09801299621847
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    },
+    {
+      "actor": "LG8_WaterfallCliff_05",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2083.535777132572,
+        2049.3957796027553,
+        -135.46402337488982
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    },
+    {
+      "actor": "LG8_WaterfallCliff_06",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2521.6075070478782,
+        2441.471815281783,
+        273.29200994349736
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    },
+    {
+      "actor": "LG8_WaterfallCliff_07",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2606.752087731202,
+        1960.0766532296127,
+        90.41191148636653
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    },
+    {
+      "actor": "LG8_WaterfallCliff_08",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2043.2252872237939,
+        2277.305467645172,
+        113.1713976538719
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    },
+    {
+      "actor": "LG8_WaterfallCliff_09",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2788.4012503827266,
+        2291.2843480390598,
+        173.6876798678261
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    },
+    {
+      "actor": "LG8_WaterfallCliff_10",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2253.9591336510885,
+        1953.4585512608023,
+        -311.24722763171883
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    },
+    {
+      "actor": "LG8_WaterfallCliff_11",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2296.249300971227,
+        2437.2442830420523,
+        247.09587736089713
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    },
+    {
+      "actor": "LG8_WaterfallCliff_12",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2768.379572557577,
+        2062.2428787820672,
+        119.52548951196599
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    },
+    {
+      "actor": "LG8_WaterfallCliff_13",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2030.4357761376518,
+        2130.9976289200395,
+        72.50502840828892
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    },
+    {
+      "actor": "LG8_WaterfallCliff_14",
+      "mesh": "/Game/Village/Meshes/SM_Cliff_Block.SM_Cliff_Block",
+      "location": [
+        2645.618288640187,
+        2404.693325137575,
+        238.67585330919832
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.85
+      ]
+    }
+  ],
+  "river": "/Game/Libregrove/Level_V8/Materials/MI_LG8_River",
+  "terrain_patch": [
+    122,
+    179,
+    130,
+    193
+  ]
+}

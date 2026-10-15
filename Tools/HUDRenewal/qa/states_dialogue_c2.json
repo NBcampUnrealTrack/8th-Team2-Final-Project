@@ -1,0 +1,8 @@
+[
+ {"shot": "dc2_idle", "py": "qa_village.py", "wait": 20, "frames": 240},
+ {"shot": "dc2_near", "py": "qa_interact.py", "wait": 1.0, "frames": 30},
+ {"shot": "dc2_open", "py": "qa_open_dialogue.py", "wait": 2.6, "frames": 60},
+ {"shot": "dc2_talk_a", "py": "qa_dialogue_pick_talk.py", "wait": 3.0, "frames": 60},
+ {"shot": "dc2_talk_b", "py": "", "wait": 0.45, "frames": 10},
+ {"shot": "dc2_talk2", "py": "qa_dialogue_next.py", "wait": 3.0, "frames": 60}
+]

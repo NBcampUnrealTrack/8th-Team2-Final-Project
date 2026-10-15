@@ -1,0 +1,297 @@
+[
+  {
+    "job_id": "restyle_rock_cap_002",
+    "state": "running"
+  },
+  {
+    "job_id": "restyle_rock_cap_002",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\restyle_rock_cap_002"
+  },
+  {
+    "job_id": "restyle_rock_cap_002",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\restyle_rock_cap_002"
+  },
+  {
+    "job_id": "restyle_rock_cap_002",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\restyle_rock_cap_002"
+  },
+  {
+    "job_id": "restyle_rock_cap_002",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "3d489e45427dab4c3caeb2da1573c621cef15329095fcb66406c1e8e1a8e9a72",
+      "source": {
+        "object": {
+          "name": "CH_Rock_Game_v001",
+          "type": "MESH",
+          "data_name": "CH_Rock_Game_v001_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            1.8000000715255737,
+            1.622374176979065,
+            1.0156326293945312
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "4aed6a2c0c19611d2b78d2b280229911dcd2c18dcfdc20cf98bff9e3abb28960",
+        "geometry": {
+          "vertices": 912,
+          "edges": 1928,
+          "polygons": 1019,
+          "triangles": 1732,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 86,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -0.9000000357627869,
+            -0.8111870884895325,
+            0.0
+          ],
+          "local_max": [
+            0.9000000357627869,
+            0.8111870884895325,
+            1.0156326293945312
+          ],
+          "world_min": [
+            -0.9000000357627869,
+            -0.8111870884895325,
+            0.0
+          ],
+          "world_max": [
+            0.9000000357627869,
+            0.8111870884895325,
+            1.0156326293945312
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_b18f59b5"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "b18f59b5_a0ce_48b1_a2e4_3403a83a57af_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 3770,
+            "bounds_min": [
+              0.0005162683082744479,
+              0.0006255580810829997
+            ],
+            "bounds_max": [
+              0.9906895160675049,
+              0.9994956254959106
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Rock_Closed_v002",
+          "type": "MESH",
+          "data_name": "CH_Rock_Closed_v002_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            1.8000000715255737,
+            1.622374176979065,
+            1.0156326293945312
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "e9d8c250ec582eb10015014dee2a4d07bb79316446161ad063dad492486e8d78",
+        "geometry": {
+          "vertices": 912,
+          "edges": 2005,
+          "polygons": 1099,
+          "triangles": 1812,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 0,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -0.9000000357627869,
+            -0.8111870884895325,
+            0.0
+          ],
+          "local_max": [
+            0.9000000357627869,
+            0.8111870884895325,
+            1.0156326293945312
+          ],
+          "world_min": [
+            -0.9000000357627869,
+            -0.8111870884895325,
+            0.0
+          ],
+          "world_max": [
+            0.9000000357627869,
+            0.8111870884895325,
+            1.0156326293945312
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_b18f59b5"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "b18f59b5_a0ce_48b1_a2e4_3403a83a57af_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 4010,
+            "bounds_min": [
+              0.0005162683082744479,
+              0.0006255580810829997
+            ],
+            "bounds_max": [
+              0.9906895160675049,
+              0.9994956254959106
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 100,
+          "blockers": [],
+          "warnings": [],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "added_faces": 80
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_Rock_Closed_v002.blend"
+    }
+  }
+]

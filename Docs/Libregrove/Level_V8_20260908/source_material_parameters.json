@@ -1,0 +1,115 @@
+[
+  {
+    "material": "/Game/Village/Materials/M_VillagePixelLandscape2",
+    "instance": "/Game/Village/Materials/MI_VillagePixelLandscape2.MI_VillagePixelLandscape2",
+    "scalars": {
+      "TileCm_Grass": 540.0,
+      "TileCm_Dirt": 540.0,
+      "TileCm_Cobblestone": 450.0,
+      "TileCm_Moss": 630.0,
+      "TileCm_Cliff": 360.0,
+      "TileCm_Macro": 2700.0,
+      "TileCm_EdgeNoise": 225.0,
+      "EdgeNoise_Amount": 0.3499999940395355,
+      "MacroVariation_Amount": 0.3499999940395355,
+      "CliffSlopeStart": 0.550000011920929,
+      "CliffSlopeEnd": 0.75,
+      "RoughnessMul": 1.0
+    },
+    "vectors": {},
+    "textures": {
+      "Tex_Grass_BC": "/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_BC.T_Grass_Meadow_Pixel_BC",
+      "Tex_Grass_N": "/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_N.T_Grass_Meadow_Pixel_N",
+      "Tex_Grass_ORM": "/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_ORM.T_Grass_Meadow_Pixel_ORM",
+      "Tex_Dirt_BC": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_BC.T_Dirt_Path_Pixel_BC",
+      "Tex_Dirt_N": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_N.T_Dirt_Path_Pixel_N",
+      "Tex_Dirt_ORM": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_ORM.T_Dirt_Path_Pixel_ORM",
+      "Tex_Dirt_H": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_H.T_Dirt_Path_Pixel_H",
+      "Tex_Cobblestone_BC": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_BC.T_Cobblestone_Pixel_BC",
+      "Tex_Cobblestone_N": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_N.T_Cobblestone_Pixel_N",
+      "Tex_Cobblestone_ORM": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_ORM.T_Cobblestone_Pixel_ORM",
+      "Tex_Cobblestone_H": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_H.T_Cobblestone_Pixel_H",
+      "Tex_Moss_BC": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_BC.T_Moss_ForestFloor_Pixel_BC",
+      "Tex_Moss_N": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_N.T_Moss_ForestFloor_Pixel_N",
+      "Tex_Moss_ORM": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_ORM.T_Moss_ForestFloor_Pixel_ORM",
+      "Tex_Moss_H": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_H.T_Moss_ForestFloor_Pixel_H",
+      "Tex_Cliff_BC": "/Game/Village/Textures/Pixel/T_Cliff_Rock_Pixel_BC.T_Cliff_Rock_Pixel_BC",
+      "Tex_Macro": "/Game/Village/Textures/Pixel/T_Macro_Variation_Gray_Pixel_BC.T_Macro_Variation_Gray_Pixel_BC",
+      "Tex_EdgeNoise": "/Game/Village/Textures/Pixel/T_PathEdge_Noise_Gray_Pixel_BC.T_PathEdge_Noise_Gray_Pixel_BC"
+    }
+  },
+  {
+    "material": "/Game/Village/Materials/M_HD2D_Sky",
+    "instance": "/Game/Village/Materials/MI_HD2D_Sky.MI_HD2D_Sky",
+    "scalars": {},
+    "vectors": {
+      "HorizonCol": "<Struct 'LinearColor' (0x00000256862A1B60) {r: 0.980000, g: 0.820000, b: 0.630000, a: 1.000000}>",
+      "MidCol": "<Struct 'LinearColor' (0x00000256862A3EE0) {r: 0.560000, g: 0.700000, b: 0.820000, a: 1.000000}>",
+      "ZenithCol": "<Struct 'LinearColor' (0x00000256862A0EA0) {r: 0.240000, g: 0.420000, b: 0.660000, a: 1.000000}>",
+      "GroundCol": "<Struct 'LinearColor' (0x00000256862A29E0) {r: 0.030000, g: 0.038000, b: 0.052000, a: 1.000000}>",
+      "CloudCol": "<Struct 'LinearColor' (0x00000256862E81E0) {r: 1.100000, g: 1.050000, b: 0.980000, a: 1.000000}>",
+      "CloudShadow": "<Struct 'LinearColor' (0x00000256862E8160) {r: 0.620000, g: 0.660000, b: 0.760000, a: 1.000000}>",
+      "RidgeFar": "<Struct 'LinearColor' (0x00000256862E81A0) {r: 0.550000, g: 0.630000, b: 0.750000, a: 1.000000}>",
+      "RidgeNear": "<Struct 'LinearColor' (0x00000256862E8060) {r: 0.240000, g: 0.300000, b: 0.400000, a: 1.000000}>",
+      "SunDir": "<Struct 'LinearColor' (0x00000256862E8360) {r: 0.658965, g: -0.116193, b: 0.743145, a: 1.000000}>",
+      "SunCol": "<Struct 'LinearColor' (0x00000256862D5860) {r: 1.000000, g: 0.860000, b: 0.620000, a: 1.000000}>",
+      "Tune": "<Struct 'LinearColor' (0x00000256862D52A0) {r: 0.360000, g: 0.460000, b: 0.001100, a: 1.000000}>"
+    },
+    "textures": {
+      "SkyTex": "/Game/Village/Textures/Pixel/T_Sky_Clouds.T_Sky_Clouds",
+      "RidgeTex": "/Game/Village/Textures/Pixel/T_Sky_Ridge.T_Sky_Ridge"
+    }
+  },
+  {
+    "material": "/Game/Village/Materials/M_HD2D_Water",
+    "instance": "/Game/Village/Materials/MI_HD2D_Water.MI_HD2D_Water",
+    "scalars": {
+      "TileCm": 90.0,
+      "RippleScale": 0.6000000238418579,
+      "Ripple2Freq": 1.350000023841858,
+      "RippleSpeed": 0.07999999821186066,
+      "BandThreshold": 0.5,
+      "HighlightSharpness": 40.0,
+      "HighlightThreshold": 0.7400000095367432,
+      "ShallowDistance": 14.0,
+      "FoamWidth": 1.2000000476837158,
+      "DepthSteps": 3.0,
+      "FoamSharpness": 4.0,
+      "BandStrength": 0.3499999940395355,
+      "HighlightStrength": 0.30000001192092896,
+      "OpacityBase": 0.46000000834465027,
+      "SpecularBase": 0.11999999731779099,
+      "SpecularGlint": 0.8500000238418579,
+      "RoughnessBase": 0.3400000035762787,
+      "RoughnessGlint": 0.07999999821186066
+    },
+    "vectors": {
+      "DeepColor": "<Struct 'LinearColor' (0x00000256862E8BE0) {r: 0.022000, g: 0.080000, b: 0.100000, a: 1.000000}>",
+      "ShallowColor": "<Struct 'LinearColor' (0x00000256862E9F20) {r: 0.075000, g: 0.215000, b: 0.230000, a: 1.000000}>",
+      "FoamColor": "<Struct 'LinearColor' (0x00000256862E8720) {r: 0.340000, g: 0.500000, b: 0.520000, a: 1.000000}>",
+      "HighlightColor": "<Struct 'LinearColor' (0x00000256862EA120) {r: 0.380000, g: 0.600000, b: 0.630000, a: 1.000000}>"
+    },
+    "textures": {
+      "RippleTex": "/Game/Village/Textures/Pixel/T_Water_Ripple.T_Water_Ripple"
+    }
+  },
+  {
+    "material": "/Game/Village/Materials/M_PixelPropWA2",
+    "instance": "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 90.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": "<Struct 'LinearColor' (0x000002568630F320) {r: 0.360000, g: 0.380000, b: 0.400000, a: 1.000000}>",
+      "Emissive": "<Struct 'LinearColor' (0x000002568630FEA0) {r: 0.000000, g: 0.000000, b: 0.000000, a: 1.000000}>"
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_BC.T_Prop_StoneBrick_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_N.T_Prop_StoneBrick_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_ORM.T_Prop_StoneBrick_Pixel_ORM"
+    }
+  }
+]

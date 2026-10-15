@@ -1,0 +1,27 @@
+{
+  "status": "finished",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Hollowcore_Caps006.glb",
+  "assets": [
+    "/Game/Cindehearth/Polish_v003/Models/Hollowcore/CH_Polish_Hollowcore_Caps006/Textures/Normal.Normal",
+    "/Game/Cindehearth/Polish_v003/Models/Hollowcore/CH_Polish_Hollowcore_Caps006/Textures/Color.Color",
+    "/Game/Cindehearth/Polish_v003/Models/Hollowcore/CH_Polish_Hollowcore_Caps006/Textures/tripo_image_130c5fb9_2-tripo_image_130c5fb9_1.tripo_image_130c5fb9_2-tripo_image_130c5fb9_1",
+    "/Game/Cindehearth/Polish_v003/Models/Hollowcore/CH_Polish_Hollowcore_Caps006/Materials/tripo_mat_130c5fb9.tripo_mat_130c5fb9",
+    "/Game/Cindehearth/Polish_v003/Models/Hollowcore/CH_Polish_Hollowcore_Caps006/StaticMeshes/CH_Polish_Hollowcore_Caps006.CH_Polish_Hollowcore_Caps006"
+  ],
+  "meshes": [
+    {
+      "path": "/Game/Cindehearth/Polish_v003/Models/Hollowcore/CH_Polish_Hollowcore_Caps006/StaticMeshes/CH_Polish_Hollowcore_Caps006.CH_Polish_Hollowcore_Caps006",
+      "triangles": 2715,
+      "min": [
+        -107.498779296875,
+        -108.52466583251953,
+        0.0
+      ],
+      "max": [
+        107.498779296875,
+        108.52466583251953,
+        300.0
+      ]
+    }
+  ]
+}

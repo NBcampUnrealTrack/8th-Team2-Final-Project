@@ -1,0 +1,88 @@
+[
+  {
+    "key": "tab_surface",
+    "path": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-9a0a2304-7d65-4fa7-983c-33ebbe013368.png",
+    "prompt": "Use case: stylized-concept. Create one production square 1024x1024 9-slice button texture for ProjectM high-resolution modern fantasy UI. A single full-canvas deep navy #1B2D44 flat button surface with gently rounded small corners, radius90px, exterior genuinely transparent within corner cutouts. Edges aligned x=8,y=8,x=1016,y=1016. Exactly one uniform continuous 24px muted blue-grey border #718296. Empty homogeneous navy center; tiny soft luminance increase near top only, no pronounced gradient. Designed to be 9-sliced with edge margins128px and displayed as 110x32 tabs or28x28 utility buttons. No text, no icon, no dividers, no inset buttons, no lines through the center, no glow, no decoration, no metal, no perspective, no cast shadow. One independent base state only. Transparent PNG, no checkerboard pixels.",
+    "correction_prompt": null,
+    "selected_attempt": 1,
+    "attempts": 1,
+    "qa_note": "PNG preserved byte-for-byte. Near-zero-alpha preview residue is not visibly present with normal Unreal alpha blending; no Python pixel editing was performed.",
+    "source_file": "ArtSource/UI/FieldHUDTheme_20260917/T_FHUD_Control.png",
+    "sha256": "5ddcb81733223334607d24b60aa1158e1768f5257a6d80b0fac7e759ffa0b7d5",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "alpha_bbox": [
+      18,
+      20,
+      1236,
+      1236
+    ],
+    "asset_path": "/Game/Developers/MinkiCho/UI/FieldHUDTheme/Textures/T_FHUD_Control",
+    "mode": "RGBA",
+    "generator": "built-in image_gen.imagegen",
+    "image_model": "not exposed by tool",
+    "pixel_postprocessing": "none",
+    "agent": "Codex (GPT-6); separate from image-generation model",
+    "unreal_verification": {
+      "asset": "/Game/Developers/MinkiCho/UI/FieldHUDTheme/Textures/T_FHUD_Control",
+      "source_sha256": "5ddcb81733223334607d24b60aa1158e1768f5257a6d80b0fac7e759ffa0b7d5",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "runtime_size": [
+        39,
+        39
+      ],
+      "max_texture_size": 64,
+      "settings": "UI / RGBA / sRGB / NoMipmaps / NeverStream / Clamp"
+    },
+    "qa_result": "Passed file/alpha checks and visual inspection in Unreal PIE at intended HUD sizes.",
+    "runtime_evidence": "Saved/UIHUDTextures/hud_textures00003.png"
+  },
+  {
+    "key": "quest_marker",
+    "path": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-44b7dd5c-a32c-4755-b6a8-63e7d62d4720.png",
+    "prompt": "Use case: stylized-concept. One production quest notification icon for a clean modern fantasy game HUD, square1024 PNG with genuine transparent alpha background. A simple flat muted orange #D99B50 circle, centered diameter780px, containing a single bold warm ivory #F3EBD8 exclamation mark. Exclamation mark is a clean geometric tapered vertical bar and round dot. Uniform simple shapes, no outlines, no starburst, no sun rays, no ornaments, no glow, no gradient, no shadow, no extra text, no background, no checkerboard. Precise symmetrical flat high-resolution 2D icon, readable at24px. Transparent safety margin at least12% on all sides.",
+    "correction_prompt": null,
+    "selected_attempt": 1,
+    "attempts": 1,
+    "qa_note": "PNG preserved byte-for-byte. Near-zero-alpha preview residue is not visibly present with normal Unreal alpha blending; no Python pixel editing was performed.",
+    "source_file": "ArtSource/UI/FieldHUDTheme_20260917/T_FHUD_QuestMarker.png",
+    "sha256": "ebd709eaa45f684fba33c2eeb3a080576899de8629a4ddf94aa6e9643646e0f3",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "alpha_bbox": [
+      144,
+      148,
+      1109,
+      1116
+    ],
+    "asset_path": "/Game/Developers/MinkiCho/UI/FieldHUDTheme/Textures/T_FHUD_QuestMarker",
+    "mode": "RGBA",
+    "generator": "built-in image_gen.imagegen",
+    "image_model": "not exposed by tool",
+    "pixel_postprocessing": "none",
+    "agent": "Codex (GPT-6); separate from image-generation model",
+    "unreal_verification": {
+      "asset": "/Game/Developers/MinkiCho/UI/FieldHUDTheme/Textures/T_FHUD_QuestMarker",
+      "source_sha256": "ebd709eaa45f684fba33c2eeb3a080576899de8629a4ddf94aa6e9643646e0f3",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "runtime_size": [
+        156,
+        156
+      ],
+      "max_texture_size": 256,
+      "settings": "UI / RGBA / sRGB / NoMipmaps / NeverStream / Clamp"
+    },
+    "qa_result": "Passed file/alpha checks and visual inspection in Unreal PIE at intended HUD sizes.",
+    "runtime_evidence": "Saved/UIHUDTextures/hud_textures00003.png"
+  }
+]

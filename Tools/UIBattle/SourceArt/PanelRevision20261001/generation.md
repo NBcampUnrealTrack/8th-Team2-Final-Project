@@ -1,0 +1,7 @@
+# Command menu revision 2 ornament — 2026-10-01
+
+Built-in `image_gen` generated the transparent PNG. Reference exported from the user's updated `/Game/Developers/MinkiCho/인게임_전투_UI_패널부분` (1746×901). The generated alpha is preserved; opacity is controlled in the Unreal material instance.
+
+Prompt:
+
+> Use case: background-extraction. Asset type: transparent RGBA ornament texture for an Unreal Engine fantasy battle command menu. Reference image 1 is the user's updated game UI design. Recreate ONLY the very thin gold compass ornament immediately LEFT of the five battle command buttons (around reference x660 y625), as a standalone tall ornament. It is an elegant vertical compass rose with very long slender north/south spikes, short east/west spikes, fine curved elliptical orbital arcs and tiny diamond points, warm pale muted gold, low visual density, translucent fine lines. Thin width about 35% of height. Flat 2D UI art, perfectly front-facing, crisp lines. Center ornament in a portrait canvas with generous transparent margin. No big rectangular panel, no filled background, no circular button badges, no buttons, no lettering, no numbers, no character, no scenery, no screenshot elements, no heavy bloom. Preserve the restrained fine-line shape seen behind and just left of the menu in the reference. Entire background and open space between strokes must be genuinely transparent. This texture will be used as a subtle gold watermark; gold strokes should be clearly visible so their opacity can be set in engine.

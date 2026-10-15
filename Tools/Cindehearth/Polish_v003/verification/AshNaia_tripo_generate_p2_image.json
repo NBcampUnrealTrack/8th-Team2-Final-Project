@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"asset_name\": \"CH_Polish_AshNaia_P2_v003\",\n  \"request_id\": \"CH_Polish_AshNaia_P2_20260905_v003\",\n  \"kind\": \"p2_image\",\n  \"api_version\": \"v3\",\n  \"parameters\": {\n    \"image_path\": \"C:\\\\Users\\\\Ndus_072\\\\RevDevTool\\\\RevStudio-ProjectM\\\\Tools\\\\Cindehearth\\\\Polish_v003\\\\reference\\\\AshNaia.png\",\n    \"model\": \"P2-20260801\",\n    \"face_limit\": 500,\n    \"quad\": true,\n    \"texture\": true,\n    \"pbr\": true,\n    \"texture_quality\": \"standard\",\n    \"auto_size\": false,\n    \"export_uv\": true\n  },\n  \"status\": \"submitted\",\n  \"submitted_parameters\": {\n    \"model\": \"P2-20260801\",\n    \"face_limit\": 500,\n    \"quad\": true,\n    \"texture\": true,\n    \"pbr\": true,\n    \"texture_quality\": \"standard\",\n    \"auto_size\": false,\n    \"export_uv\": true,\n    \"input\": \"file_f3034427-8937-4755-bb96-cdef381fc346\"\n  },\n  \"task_id\": \"d2cc7162-68a7-4a94-8077-25d2c864932f\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

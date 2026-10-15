@@ -1,0 +1,12 @@
+{
+  "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Level_V8_20260908\\Preview\\Game_Square_001.png",
+  "sha256": "13f46084e3221d6e0ac968b5080c7a0fa2b2da317ef31214f5111a73a5054256",
+  "live_camera": {
+    "success": true,
+    "output": "{\"camera\": [1.5916157281026244e-12, -1295.4482671904357, 1090.226604461671], \"rotation\": [1.4690353290379085e-14, -30.0, 90.0], \"fov\": 38.0, \"pawn\": [0.0, 350.0, 80.22660446166992]}",
+    "result": "None",
+    "warnings": [],
+    "execution_time_ms": 7.586799621582031
+  },
+  "method": "SystemLibrary.ExecuteConsoleCommand specific player HighResShot"
+}

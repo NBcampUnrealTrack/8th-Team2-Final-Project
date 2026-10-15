@@ -1,0 +1,19 @@
+{
+  "status": "finished",
+  "id": "LG_04_Workshop",
+  "destination": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop",
+  "objects": [
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/Textures/LG_04_Workshop_fbx_basecolor.LG_04_Workshop_fbx_basecolor",
+      "class": "Texture2D"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/Materials/tripo_mat_317b1c2b.tripo_mat_317b1c2b",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/StaticMeshes/SM_LG_04_Workshop_V7.SM_LG_04_Workshop_V7",
+      "class": "StaticMesh"
+    }
+  ]
+}

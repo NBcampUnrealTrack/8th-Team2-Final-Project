@@ -1,0 +1,50 @@
+[
+  {
+    "label": "CH_Lettering_Tavern",
+    "position": [
+      -126,
+      -1910,
+      252
+    ],
+    "sign_scale": 0.55
+  },
+  {
+    "label": "CH_Lettering_Smithy",
+    "position": [
+      -285,
+      522,
+      295
+    ],
+    "sign_scale": 0.45
+  },
+  {
+    "label": "CH_D4_TavernDayBounce",
+    "position": [
+      -126,
+      -2230,
+      390
+    ],
+    "intensity": 220,
+    "night": false
+  },
+  {
+    "label": "CH_D4_TavernDoorWarm",
+    "position": [
+      -126,
+      -1970,
+      185
+    ],
+    "intensity": 520,
+    "night": true
+  },
+  {
+    "label": "CH_D4_TavernLoftWarm",
+    "position": [
+      -260,
+      -1910,
+      280
+    ],
+    "intensity": 160,
+    "night": true
+  }
+]

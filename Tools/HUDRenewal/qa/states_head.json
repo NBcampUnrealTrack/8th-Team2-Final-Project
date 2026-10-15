@@ -1,0 +1,6 @@
+[
+ {"shot": "hm_idle", "py": "qa_village.py", "wait": 20, "frames": 240},
+ {"shot": "hm_info", "py": "qa_head_info.py", "wait": 0.2, "frames": 4},
+ {"shot": "hm_near", "py": "qa_interact.py", "wait": 1.2, "frames": 40},
+ {"shot": "hm_near2", "py": "", "wait": 0.9, "frames": 30}
+]

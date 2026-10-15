@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "settled_upper": [
+    1077.7,
+    195.975,
+    215.0
+  ],
+  "upper_floor_walkable": true
+}

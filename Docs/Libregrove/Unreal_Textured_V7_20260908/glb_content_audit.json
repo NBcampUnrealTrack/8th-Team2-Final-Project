@@ -1,0 +1,659 @@
+[
+  {
+    "id": "LG_01_Cottage_A",
+    "glb": {
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_01_Cottage_A_V7.glb",
+      "world_min_m": [
+        -1.451867938041687,
+        0.0,
+        -1.4461966753005981
+      ],
+      "world_max_m": [
+        1.451867938041687,
+        2.430000066757202,
+        1.4461966753005981
+      ],
+      "dimensions_m_xyz_y_up": [
+        2.903735876083374,
+        2.430000066757202,
+        2.8923933506011963
+      ],
+      "primitives": [
+        {
+          "node": "SM_LG_01_Cottage_A_V7",
+          "vertices": 10002,
+          "triangles": 6574,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "uv_min": [
+            0.001953125,
+            0.009765625
+          ],
+          "uv_max": [
+            0.99462890625,
+            0.998046875
+          ],
+          "uv_nonfinite": 0
+        }
+      ],
+      "total_render_vertices": 10002,
+      "total_triangles": 6574,
+      "materials": [
+        {
+          "doubleSided": true,
+          "name": "tripo_mat_e34f3563",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8999999761581421
+          }
+        }
+      ],
+      "images": [
+        {
+          "bufferView": 4,
+          "mimeType": "image/jpeg",
+          "name": "LG_01_Cottage_A_fbx_basecolor"
+        }
+      ]
+    },
+    "images": [
+      {
+        "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\SourceTextures\\LG_01_Cottage_A\\LG_01_Cottage_A_fbx_basecolor.jpg",
+        "sha256": "5b89df9a49af52544675c774567441b5af9b4209ffbb589e6e500d7e5d659f61",
+        "bytes": 3352824
+      }
+    ],
+    "texture_preserved_as_embedded_bytes": true,
+    "geometry_and_scale_passed": true
+  },
+  {
+    "id": "LG_02_Inn",
+    "glb": {
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_02_Inn_V7.glb",
+      "world_min_m": [
+        -2.0167603492736816,
+        0.0,
+        -1.1892040967941284
+      ],
+      "world_max_m": [
+        2.0167603492736816,
+        3.6009700298309326,
+        1.1892040967941284
+      ],
+      "dimensions_m_xyz_y_up": [
+        4.033520698547363,
+        3.6009700298309326,
+        2.378408193588257
+      ],
+      "primitives": [
+        {
+          "node": "SM_LG_02_Inn_V7",
+          "vertices": 19270,
+          "triangles": 12889,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "uv_min": [
+            0.001953125,
+            0.00390625
+          ],
+          "uv_max": [
+            0.996337890625,
+            0.998046875
+          ],
+          "uv_nonfinite": 0
+        }
+      ],
+      "total_render_vertices": 19270,
+      "total_triangles": 12889,
+      "materials": [
+        {
+          "doubleSided": true,
+          "name": "tripo_mat_f544a036",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8999999761581421
+          }
+        }
+      ],
+      "images": [
+        {
+          "bufferView": 4,
+          "mimeType": "image/jpeg",
+          "name": "LG_02_Inn_fbx_basecolor"
+        }
+      ]
+    },
+    "images": [
+      {
+        "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\SourceTextures\\LG_02_Inn\\LG_02_Inn_fbx_basecolor.jpg",
+        "sha256": "395001e986180f8daf30d775b8d0e5c010ce87bec8e9159069255625153c5929",
+        "bytes": 1225899
+      }
+    ],
+    "texture_preserved_as_embedded_bytes": true,
+    "geometry_and_scale_passed": true
+  },
+  {
+    "id": "LG_03_VillageHall",
+    "glb": {
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_03_VillageHall_V7.glb",
+      "world_min_m": [
+        -1.593676209449768,
+        0.0,
+        -1.522085189819336
+      ],
+      "world_max_m": [
+        1.593676209449768,
+        3.1499998569488525,
+        1.522085189819336
+      ],
+      "dimensions_m_xyz_y_up": [
+        3.187352418899536,
+        3.1499998569488525,
+        3.044170379638672
+      ],
+      "primitives": [
+        {
+          "node": "SM_LG_03_VillageHall_V7",
+          "vertices": 19843,
+          "triangles": 13450,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "uv_min": [
+            0.001953125,
+            0.00634765625
+          ],
+          "uv_max": [
+            0.998046875,
+            0.998046875
+          ],
+          "uv_nonfinite": 0
+        }
+      ],
+      "total_render_vertices": 19843,
+      "total_triangles": 13450,
+      "materials": [
+        {
+          "doubleSided": true,
+          "name": "tripo_mat_7a88dfe0",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8999999761581421
+          }
+        }
+      ],
+      "images": [
+        {
+          "bufferView": 4,
+          "mimeType": "image/jpeg",
+          "name": "LG_03_VillageHall_fbx_basecolor"
+        }
+      ]
+    },
+    "images": [
+      {
+        "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\SourceTextures\\LG_03_VillageHall\\LG_03_VillageHall_fbx_basecolor.jpg",
+        "sha256": "cb4fc88eb7f7c340735cc389a98739e1188fdd5b999e34c3137e276074931487",
+        "bytes": 1051764
+      }
+    ],
+    "texture_preserved_as_embedded_bytes": true,
+    "geometry_and_scale_passed": true
+  },
+  {
+    "id": "LG_04_Workshop",
+    "glb": {
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_04_Workshop_V7.glb",
+      "world_min_m": [
+        -1.713967204093933,
+        0.0,
+        -1.1996936798095703
+      ],
+      "world_max_m": [
+        1.713967204093933,
+        2.51990008354187,
+        1.1996936798095703
+      ],
+      "dimensions_m_xyz_y_up": [
+        3.427934408187866,
+        2.51990008354187,
+        2.3993873596191406
+      ],
+      "primitives": [
+        {
+          "node": "SM_LG_04_Workshop_V7",
+          "vertices": 18399,
+          "triangles": 12452,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "uv_min": [
+            0.001953125,
+            0.005859375
+          ],
+          "uv_max": [
+            0.989501953125,
+            0.998046875
+          ],
+          "uv_nonfinite": 0
+        }
+      ],
+      "total_render_vertices": 18399,
+      "total_triangles": 12452,
+      "materials": [
+        {
+          "doubleSided": true,
+          "name": "tripo_mat_317b1c2b",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8999999761581421
+          }
+        }
+      ],
+      "images": [
+        {
+          "bufferView": 4,
+          "mimeType": "image/jpeg",
+          "name": "LG_04_Workshop_fbx_basecolor"
+        }
+      ]
+    },
+    "images": [
+      {
+        "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\SourceTextures\\LG_04_Workshop\\LG_04_Workshop_fbx_basecolor.jpg",
+        "sha256": "4a95f63a17b8b46eaa3fffbe91c3090442629d68dcf977800c0fdb2242da3d24",
+        "bytes": 988484
+      }
+    ],
+    "texture_preserved_as_embedded_bytes": true,
+    "geometry_and_scale_passed": true
+  },
+  {
+    "id": "LG_05_WatermillHouse",
+    "glb": {
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_05_WatermillHouse_V7.glb",
+      "world_min_m": [
+        -1.5262559652328491,
+        0.0,
+        -1.1325818300247192
+      ],
+      "world_max_m": [
+        1.5262559652328491,
+        2.7899999618530273,
+        1.1325818300247192
+      ],
+      "dimensions_m_xyz_y_up": [
+        3.0525119304656982,
+        2.7899999618530273,
+        2.2651636600494385
+      ],
+      "primitives": [
+        {
+          "node": "SM_LG_05_WatermillHouse_V7",
+          "vertices": 22268,
+          "triangles": 14769,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "uv_min": [
+            0.001953125,
+            0.006103515625
+          ],
+          "uv_max": [
+            0.998046875,
+            0.998046875
+          ],
+          "uv_nonfinite": 0
+        }
+      ],
+      "total_render_vertices": 22268,
+      "total_triangles": 14769,
+      "materials": [
+        {
+          "doubleSided": true,
+          "name": "tripo_mat_12da9820",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8999999761581421
+          }
+        }
+      ],
+      "images": [
+        {
+          "bufferView": 4,
+          "mimeType": "image/jpeg",
+          "name": "LG_05_WatermillHouse_fbx_basecolor"
+        }
+      ]
+    },
+    "images": [
+      {
+        "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\SourceTextures\\LG_05_WatermillHouse\\LG_05_WatermillHouse_fbx_basecolor.jpg",
+        "sha256": "f0f150269564d8142657e8e582ff0e5f85f02b8efcd46c19a20e160e1a1b61d1",
+        "bytes": 1175009
+      }
+    ],
+    "texture_preserved_as_embedded_bytes": true,
+    "geometry_and_scale_passed": true
+  },
+  {
+    "id": "LG_06_NaiaShelter",
+    "glb": {
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_06_NaiaShelter_V7.glb",
+      "world_min_m": [
+        -1.479175090789795,
+        0.0,
+        -1.410380482673645
+      ],
+      "world_max_m": [
+        1.479175090789795,
+        2.25,
+        1.410380482673645
+      ],
+      "dimensions_m_xyz_y_up": [
+        2.95835018157959,
+        2.25,
+        2.82076096534729
+      ],
+      "primitives": [
+        {
+          "node": "SM_LG_06_NaiaShelter_V7",
+          "vertices": 7857,
+          "triangles": 6251,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "uv_min": [
+            0.001953125,
+            0.00244140625
+          ],
+          "uv_max": [
+            0.989990234375,
+            0.998046875
+          ],
+          "uv_nonfinite": 0
+        }
+      ],
+      "total_render_vertices": 7857,
+      "total_triangles": 6251,
+      "materials": [
+        {
+          "doubleSided": true,
+          "name": "tripo_mat_6029c87e",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8999999761581421
+          }
+        }
+      ],
+      "images": [
+        {
+          "bufferView": 4,
+          "mimeType": "image/jpeg",
+          "name": "LG_06_NaiaShelter_fbx_basecolor"
+        }
+      ]
+    },
+    "images": [
+      {
+        "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\SourceTextures\\LG_06_NaiaShelter\\LG_06_NaiaShelter_fbx_basecolor.jpg",
+        "sha256": "830f6a0784c4329defecd60b9d4269a72022b465c424b4b5508ecb068fb5c277",
+        "bytes": 1209824
+      }
+    ],
+    "texture_preserved_as_embedded_bytes": true,
+    "geometry_and_scale_passed": true
+  },
+  {
+    "id": "LG_07_Sanctuary",
+    "glb": {
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_07_Sanctuary_V7.glb",
+      "world_min_m": [
+        -1.4165773391723633,
+        0.0,
+        -1.4167970418930054
+      ],
+      "world_max_m": [
+        1.4165773391723633,
+        3.5999999046325684,
+        1.4167970418930054
+      ],
+      "dimensions_m_xyz_y_up": [
+        2.8331546783447266,
+        3.5999999046325684,
+        2.8335940837860107
+      ],
+      "primitives": [
+        {
+          "node": "SM_LG_07_Sanctuary_V7",
+          "vertices": 21244,
+          "triangles": 17726,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "uv_min": [
+            0.001953125,
+            0.016845703125
+          ],
+          "uv_max": [
+            0.987548828125,
+            0.998046875
+          ],
+          "uv_nonfinite": 0
+        }
+      ],
+      "total_render_vertices": 21244,
+      "total_triangles": 17726,
+      "materials": [
+        {
+          "doubleSided": true,
+          "name": "tripo_mat_50ec2d11",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8999999761581421
+          }
+        }
+      ],
+      "images": [
+        {
+          "bufferView": 4,
+          "mimeType": "image/jpeg",
+          "name": "LG_07_Sanctuary_fbx_basecolor"
+        }
+      ]
+    },
+    "images": [
+      {
+        "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\SourceTextures\\LG_07_Sanctuary\\LG_07_Sanctuary_fbx_basecolor.jpg",
+        "sha256": "dd69f5bac48d611c69857d132d8081f690f523b764bc1735123f7bd453d03150",
+        "bytes": 1145095
+      }
+    ],
+    "texture_preserved_as_embedded_bytes": true,
+    "geometry_and_scale_passed": true
+  },
+  {
+    "id": "LG_08_BroadleafTree",
+    "glb": {
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_08_BroadleafTree_V7.glb",
+      "world_min_m": [
+        -2.4999325275421143,
+        0.0,
+        -2.4550728797912598
+      ],
+      "world_max_m": [
+        2.4999325275421143,
+        4.5,
+        2.4550728797912598
+      ],
+      "dimensions_m_xyz_y_up": [
+        4.9998650550842285,
+        4.5,
+        4.9101457595825195
+      ],
+      "primitives": [
+        {
+          "node": "SM_LG_08_BroadleafTree_V7",
+          "vertices": 19275,
+          "triangles": 11303,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "uv_min": [
+            0.001953125,
+            0.005126953125
+          ],
+          "uv_max": [
+            0.994384765625,
+            0.998046875
+          ],
+          "uv_nonfinite": 0
+        }
+      ],
+      "total_render_vertices": 19275,
+      "total_triangles": 11303,
+      "materials": [
+        {
+          "doubleSided": true,
+          "name": "tripo_mat_dbfe09e0",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8999999761581421
+          }
+        }
+      ],
+      "images": [
+        {
+          "bufferView": 4,
+          "mimeType": "image/jpeg",
+          "name": "LG_08_BroadleafTree_fbx_basecolor"
+        }
+      ]
+    },
+    "images": [
+      {
+        "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\SourceTextures\\LG_08_BroadleafTree\\LG_08_BroadleafTree_fbx_basecolor.jpg",
+        "sha256": "5c7244522b43513a256e14bfd50b7f84bab1ed2e910488c798b5dbfc63d5f63b",
+        "bytes": 1320837
+      }
+    ],
+    "texture_preserved_as_embedded_bytes": true,
+    "geometry_and_scale_passed": true
+  },
+  {
+    "id": "LG_09_MarketStall",
+    "glb": {
+      "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_09_MarketStall_V7.glb",
+      "world_min_m": [
+        -1.006417155265808,
+        0.0,
+        -0.8008831143379211
+      ],
+      "world_max_m": [
+        1.006417155265808,
+        1.7100000381469727,
+        0.8008831143379211
+      ],
+      "dimensions_m_xyz_y_up": [
+        2.012834310531616,
+        1.7100000381469727,
+        1.6017662286758423
+      ],
+      "primitives": [
+        {
+          "node": "SM_LG_09_MarketStall_V7",
+          "vertices": 2994,
+          "triangles": 2505,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "uv_min": [
+            0.001953125,
+            0.03759765625
+          ],
+          "uv_max": [
+            0.997802734375,
+            0.998046875
+          ],
+          "uv_nonfinite": 0
+        }
+      ],
+      "total_render_vertices": 2994,
+      "total_triangles": 2505,
+      "materials": [
+        {
+          "doubleSided": true,
+          "name": "tripo_mat_62cb0827",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8999999761581421
+          }
+        }
+      ],
+      "images": [
+        {
+          "bufferView": 4,
+          "mimeType": "image/jpeg",
+          "name": "LG_09_MarketStall_fbx_basecolor"
+        }
+      ]
+    },
+    "images": [
+      {
+        "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\SourceTextures\\LG_09_MarketStall\\LG_09_MarketStall_fbx_basecolor.jpg",
+        "sha256": "379ec991a306af7080e8829f161443f18ade180ffcd7545ccae7bcfeec35bddd",
+        "bytes": 735328
+      }
+    ],
+    "texture_preserved_as_embedded_bytes": true,
+    "geometry_and_scale_passed": true
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "code": 0,
+  "status": "success",
+  "data": {
+    "balance": 1560.0,
+    "frozen": 0.0
+  }
+}

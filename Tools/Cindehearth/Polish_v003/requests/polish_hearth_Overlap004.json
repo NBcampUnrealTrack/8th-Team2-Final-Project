@@ -1,0 +1,17 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Hearth_Game_v003.blend",
+  "object_name": "CH_Polish_Hearth_Game_v003",
+  "expected_fingerprint": "4576fb1da336b0e5403d40887811e3ea45b5c34e552ed6915a1fe833023761b1",
+  "output_object_name": "CH_Polish_Hearth_Overlap004",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Hearth_Overlap004.blend",
+  "operation": "delete_faces",
+  "selection_ids": [
+    95,
+    242,
+    243
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "polish_hearth_Overlap004"
+}

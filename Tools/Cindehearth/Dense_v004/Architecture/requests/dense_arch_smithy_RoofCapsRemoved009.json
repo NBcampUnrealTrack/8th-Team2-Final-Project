@@ -1,0 +1,24 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Smithy_WallSide008.blend",
+  "object_name": "CH_Dense_Smithy_WallSide008",
+  "expected_fingerprint": "641feb5a18e72c02113bcbbe3ecb400a7212066f852fd044a32fafd34ec83608",
+  "output_object_name": "CH_Dense_Smithy_RoofCapsRemoved009",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Smithy_RoofCapsRemoved009.blend",
+  "operation": "delete_faces",
+  "selection_ids": [
+    1771,
+    1772,
+    1773,
+    1774,
+    1775,
+    1778,
+    1779,
+    1780,
+    1781,
+    1782
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "dense_arch_smithy_RoofCapsRemoved009"
+}

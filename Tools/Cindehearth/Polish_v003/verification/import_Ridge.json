@@ -1,0 +1,27 @@
+{
+  "status": "finished",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Ridge_BaseCaps008.glb",
+  "assets": [
+    "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/Textures/Normal.Normal",
+    "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/Textures/Color.Color",
+    "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/Textures/tripo_image_b1ec04a3_2-tripo_image_b1ec04a3_1.tripo_image_b1ec04a3_2-tripo_image_b1ec04a3_1",
+    "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/Materials/tripo_mat_b1ec04a3.tripo_mat_b1ec04a3",
+    "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/StaticMeshes/CH_Polish_Ridge_BaseCaps008.CH_Polish_Ridge_BaseCaps008"
+  ],
+  "meshes": [
+    {
+      "path": "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/StaticMeshes/CH_Polish_Ridge_BaseCaps008.CH_Polish_Ridge_BaseCaps008",
+      "triangles": 1900,
+      "min": [
+        -150.0,
+        -123.32681274414062,
+        0.0
+      ],
+      "max": [
+        150.0,
+        123.32681274414062,
+        128.2364501953125
+      ]
+    }
+  ]
+}

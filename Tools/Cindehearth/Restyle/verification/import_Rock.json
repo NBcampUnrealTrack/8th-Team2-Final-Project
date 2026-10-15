@@ -1,0 +1,17 @@
+{
+  "status": "finished",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_Rock_Closed_v002.glb",
+  "assets": [
+    "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Textures/Normal.Normal",
+    "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Textures/Color.Color",
+    "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Textures/tripo_image_b18f59b5_2-tripo_image_b18f59b5_1.tripo_image_b18f59b5_2-tripo_image_b18f59b5_1",
+    "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Materials/tripo_mat_b18f59b5.tripo_mat_b18f59b5",
+    "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002"
+  ],
+  "meshes": [
+    {
+      "path": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+      "triangles": 1812
+    }
+  ]
+}

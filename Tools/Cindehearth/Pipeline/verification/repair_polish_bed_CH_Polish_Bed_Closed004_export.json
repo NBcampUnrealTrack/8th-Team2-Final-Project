@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "polish_bed_CH_Polish_Bed_Closed004_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_bed_CH_Polish_Bed_Closed004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_bed_CH_Polish_Bed_Closed004_export"
+  },
+  {
+    "job_id": "polish_bed_CH_Polish_Bed_Closed004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_bed_CH_Polish_Bed_Closed004_export"
+  },
+  {
+    "job_id": "polish_bed_CH_Polish_Bed_Closed004_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Bed_Closed004.glb",
+      "format": "glb",
+      "bytes": 2923852,
+      "object_names": [
+        "CH_Polish_Bed_Closed004"
+      ],
+      "fingerprints": {
+        "CH_Polish_Bed_Closed004": "9a555529f001d3ad9e5d56324766f9f11aed35f6549990accff0891a0b71beac"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

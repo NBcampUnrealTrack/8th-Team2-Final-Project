@@ -1,0 +1,38 @@
+[
+  {
+    "job_id": "polish_ashnaia_CH_Polish_AshNaia_Game_v003_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_ashnaia_CH_Polish_AshNaia_Game_v003_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_ashnaia_CH_Polish_AshNaia_Game_v003_export"
+  },
+  {
+    "job_id": "polish_ashnaia_CH_Polish_AshNaia_Game_v003_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_ashnaia_CH_Polish_AshNaia_Game_v003_export"
+  },
+  {
+    "job_id": "polish_ashnaia_CH_Polish_AshNaia_Game_v003_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_ashnaia_CH_Polish_AshNaia_Game_v003_export"
+  },
+  {
+    "job_id": "polish_ashnaia_CH_Polish_AshNaia_Game_v003_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_AshNaia_Game_v003.glb",
+      "format": "glb",
+      "bytes": 1006532,
+      "object_names": [
+        "CH_Polish_AshNaia_Game_v003"
+      ],
+      "fingerprints": {
+        "CH_Polish_AshNaia_Game_v003": "62834e44cf30b33027773eebe716ba68474524fd3884bf1878acc4b119fcf879"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

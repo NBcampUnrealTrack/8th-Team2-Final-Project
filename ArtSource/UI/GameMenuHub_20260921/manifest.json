@@ -1,0 +1,24 @@
+{
+  "reference": "/Game/Developers/MinkiCho/Art/인게임_메뉴_허브",
+  "generation": "Native image_gen; exported reference used as edit/style input. Unmodified RGBA PNGs. Backplate removes all static UI content; keeps panel, banner, portrait frame and row lines. Card atlas provides normal and gold hover backgrounds.",
+  "images": [
+    {
+      "asset": "/Game/Developers/dbals/UI/GameMenuHub/Textures/T_GameMenuHub_Backplate",
+      "source": "ArtSource/UI/GameMenuHub_20260921/backplate.png",
+      "sha256": "c3143aed3725ef19b157fd0b28c2d6d57297cee6b4e7f51e42843ccbb2cf006a",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "asset": "/Game/Developers/dbals/UI/GameMenuHub/Textures/T_GameMenuHub_Cards",
+      "source": "ArtSource/UI/GameMenuHub_20260921/cards.png",
+      "sha256": "18bfe0b3a85de45dcd719612d9cfbdb61c548714904e027b2693f1f19b3fa794",
+      "dimensions": [
+        1774,
+        887
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+[
+  {
+    "tool": "blender_mesh_edit",
+    "arguments": {
+      "source_object_name": "CH_Polish_Barrel_REF___tripo_node_2439e2fa",
+      "output_object_name": "CH_Polish_Barrel_Game_v003",
+      "operations": [
+        {
+          "type": "transform_object",
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "transform_vertices",
+          "scale": [
+            3.001465559355154,
+            3.001465559355154,
+            3.001465559355154
+          ],
+          "translation": [
+            -0.0,
+            -0.0,
+            1.5
+          ]
+        },
+        {
+          "type": "delete_loose"
+        }
+      ]
+    },
+    "request_id": 181285206767971
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"181285206767971\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "181285206767971",
+        "command": "mesh.edit",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"181285206767971\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"finished\",\n    \"created_at\": 1788595425.2216647,\n    \"finished_at\": 1788595425.3044298,\n    \"result\": {\n      \"source_object_name\": \"CH_Polish_Barrel_REF___tripo_node_2439e2fa\",\n      \"source_fingerprint\": \"318e0ccf966caee8f3800a12dbad92c81a139ca6cac95e2cf177eab700ab4f6e\",\n      \"output_object_name\": \"CH_Polish_Barrel_Game_v003\",\n      \"operations\": [\n        {\n          \"type\": \"transform_object\"\n        },\n        {\n          \"type\": \"transform_vertices\"\n        },\n        {\n          \"type\": \"delete_loose\"\n        }\n      ],\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_Polish_Barrel_Game_v003\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Polish_Barrel_Game_v003_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            2.8387885093688965,\n            2.812408447265625,\n            3.0\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"add0cefcbe8022cd0419ef47c9076d9edd19f550ccbed51bf9bb88d880ed94a3\",\n        \"geometry\": {\n          \"vertices\": 397,\n          \"edges\": 823,\n          \"polygons\": 428,\n          \"triangles\": 765,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 25,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 0,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            -1.4193942546844482,\n            -1.4062042236328125,\n            0.0\n          ],\n          \"local_max\": [\n            1.4193942546844482,\n            1.4062042236328125,\n            3.0\n          ],\n          \"world_min\": [\n            -1.4193942546844482,\n            -1.4062042236328125,\n            0.0\n          ],\n          \"world_max\": [\n            1.4193942546844482,\n            1.4062042236328125,\n            3.0\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"tripo_mat_2439e2fa\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"tripo_2439e2fa_cf72_4c98_9dba_8cd0e1b7f2b2_NewUVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 1621,\n            \"bounds_min\": [\n              0.0005470981122925878,\n              0.0003270520828664303\n            ],\n            \"bounds_max\": [\n              0.9839153289794922,\n              0.9997338652610779\n            ],\n            \"out_of_zero_one_range\": 0,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 0\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 94,\n          \"blockers\": [],\n          \"warnings\": [\n            {\n              \"code\": \"non_manifold_geometry\",\n              \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n            }\n          ],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "181285206767971",
+        "command": "mesh.edit",
+        "state": "finished",
+        "created_at": 1788595425.2216647,
+        "finished_at": 1788595425.3044298,
+        "result": {
+          "source_object_name": "CH_Polish_Barrel_REF___tripo_node_2439e2fa",
+          "source_fingerprint": "318e0ccf966caee8f3800a12dbad92c81a139ca6cac95e2cf177eab700ab4f6e",
+          "output_object_name": "CH_Polish_Barrel_Game_v003",
+          "operations": [
+            {
+              "type": "transform_object"
+            },
+            {
+              "type": "transform_vertices"
+            },
+            {
+              "type": "delete_loose"
+            }
+          ],
+          "output": {
+            "object": {
+              "name": "CH_Polish_Barrel_Game_v003",
+              "type": "MESH",
+              "data_name": "CH_Polish_Barrel_Game_v003_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                2.8387885093688965,
+                2.812408447265625,
+                3.0
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "add0cefcbe8022cd0419ef47c9076d9edd19f550ccbed51bf9bb88d880ed94a3",
+            "geometry": {
+              "vertices": 397,
+              "edges": 823,
+              "polygons": 428,
+              "triangles": 765,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 25,
+              "wire_edges": 0,
+              "non_manifold_edges": 0,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -1.4193942546844482,
+                -1.4062042236328125,
+                0.0
+              ],
+              "local_max": [
+                1.4193942546844482,
+                1.4062042236328125,
+                3.0
+              ],
+              "world_min": [
+                -1.4193942546844482,
+                -1.4062042236328125,
+                0.0
+              ],
+              "world_max": [
+                1.4193942546844482,
+                1.4062042236328125,
+                3.0
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_mat_2439e2fa"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "tripo_2439e2fa_cf72_4c98_9dba_8cd0e1b7f2b2_NewUVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 1621,
+                "bounds_min": [
+                  0.0005470981122925878,
+                  0.0003270520828664303
+                ],
+                "bounds_max": [
+                  0.9839153289794922,
+                  0.9997338652610779
+                ],
+                "out_of_zero_one_range": 0,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 94,
+              "blockers": [],
+              "warnings": [
+                {
+                  "code": "non_manifold_geometry",
+                  "message": "Mesh contains boundary, wire, or non-manifold edges."
+                }
+              ],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

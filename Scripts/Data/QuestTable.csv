@@ -1,0 +1,86 @@
+﻿Quest_ID,Quest_Key,Quest_KR,QuestCategory,QuestType,RequiredLevel,PrereqQuest_ID,RepeatType,QuestGiver_ID,Location_ID,Region_KR,Target_ID,TargetCount,TurnInNPC_ID,Reward_EXP,Reward_Gold,RewardItem1_ID,RewardItem1Count,RewardItem2_ID,RewardItem2Count,ClaimType,Desc_Key,Desc_KR,QuestDialogue,bUseObjectiveTable,AdditionalPrereqQuest_IDs,bAutoAccept
+10001,ST_Q_MAIN_101,뿌리 사이로,NU.Quest.Category.Main,,1,0,Once,0,12001,리베르그로브 남쪽 진입로,0,0,0,0,0,0,0,0,0,Automatic,ST_Q_MAIN_101,통로 끝에서 불빛이 보인다. 그쪽으로 가보자.,,TRUE,,TRUE
+10002,ST_Q_MAIN_102,견습생의 자리,NU.Quest.Category.Main,,1,10001,Once,4001,12002,리베르그로브 아랫마을 · 여관,0,0,4001,222,30,9501,1,0,0,NpcTurnIn,ST_Q_MAIN_102,"여관 주인 노아는 낯선 외지인에게 순순히 방을 내주지 않았다. 신세를 지려면, 우선 몸으로 값을 치러야 할 모양이다.",,TRUE,,FALSE
+10003,ST_Q_MAIN_103,벼려지지 않은 것,NU.Quest.Category.Main,,2,10002,Once,4003,12012,리베르그로브 큰 길 · 정비공 공방,0,0,4003,444,50,9502,1,0,0,NpcTurnIn,ST_Q_MAIN_103,노아가 내준 낡은 무기가 손에 낯설다. 누가 쓰던 걸까. 정비공 루디를 찾아가 손을 좀 봐 달라고 하자.,,TRUE,,FALSE
+10004,ST_Q_MAIN_104,나무판과 이름,NU.Quest.Category.Main,,3,10003,Once,4005,12005,리베르그로브 사각 광장,0,0,0,667,80,6615,1,0,0,Automatic,ST_Q_MAIN_104,촌장 대리 루간이 사각 광장에서 신참을 지켜보고 있다고 한다. 인사라도 해두는 게 좋을 것 같다.,,TRUE,,FALSE
+10005,ST_Q_MAIN_105,손에 익는 하루,NU.Quest.Category.Main,,4,10004,Once,4003,12011,리베르그로브 공방 구역 · 공방 마당,0,0,0,889,100,9503,1,0,0,Automatic,ST_Q_MAIN_105,공방 마당의 다섯 장인들이 저마다 손이 모자란다며 잔심부름을 부탁했다. 하나씩 처리해주자.,,TRUE,,FALSE
+10006,ST_Q_MAIN_106,물빛 아래,NU.Quest.Category.Main,,5,10005,Once,4004,12009,리베르그로브 물가 구역 · 나이아 안식처,0,0,4004,1111,130,6616,1,0,0,NpcTurnIn,ST_Q_MAIN_106,"물가 구역, 나이아 안식처의 관리인 릴리는 낯선 발소리를 경계하고 있다. 신발을 벗고 조심스레 다가가 보자.",,TRUE,,FALSE
+10007,ST_Q_MAIN_107,닫힌 뿌리,NU.Quest.Category.Main,,6,10006,Once,0,12018,리베르그로브 성역,0,0,0,1333,150,0,0,0,0,Automatic,ST_Q_MAIN_107,"성역 깊은 곳, 뿌리로 얽힌 문이 굳게 닫혀 있다. 아직은 넘어설 수 없는 문이다.",,TRUE,,TRUE
+10008,ST_Q_MAIN_108,두고 온 볕,NU.Quest.Category.Main,,7,10007,Once,4011,12020,선할로우,0,0,4011,500,180,6617,1,0,0,NpcTurnIn,ST_Q_MAIN_108,광장 아이들의 대장 티온이 선할로우에 두고 온 물건을 찾아달라고 부탁했다. 풀 나이아가 뭔가 붙잡고 안 놓아준다는데.,,TRUE,,FALSE
+10009,ST_Q_MAIN_109,끊어진 계단,NU.Quest.Category.Main,,7,10007,Once,4012,12021,루트스테어,0,0,4012,500,180,6510,1,0,0,NpcTurnIn,ST_Q_MAIN_109,목공 원로 브란이 손보다 만 루트스테어 돌계단이 있다고 했다. 땅 나이아가 자기 자리라고 여기는 모양이다.,,TRUE,,FALSE
+10010,ST_Q_MAIN_110,안개 속의 물,NU.Quest.Category.Main,,7,10007,Once,4013,12022,미스트웰,0,0,4013,700,180,6501,2,0,0,NpcTurnIn,ST_Q_MAIN_110,빨래터 할머니 세라디가 미스트웰의 샘물을 길어와달라고 했다. 안개 속에 낯을 가리는 물 나이아가 산다고 한다.,,TRUE,,FALSE
+10011,ST_Q_MAIN_111,식지 않은 재,NU.Quest.Category.Main,,7,10007,Once,4003,12023,엠버킬른,0,0,4003,500,180,6502,2,0,0,NpcTurnIn,ST_Q_MAIN_111,"루디가 엠버킬른의 숯이 필요하다고 했다. 가마를 지키는 불 나이아가 성질이 급하다는데, 조급하게 굴면 안 될 것 같다.",,TRUE,,FALSE
+10012,ST_Q_MAIN_112,바람이 아는 방향,NU.Quest.Category.Main,,7,10007,Once,4008,12024,보우리지,0,0,4008,500,200,6503,2,0,0,NpcTurnIn,ST_Q_MAIN_112,메리스가 보우리지의 바람 표식 천이 또 떨어졌다고 했다. 장난기 많은 바람 나이아의 짓인 모양이다.,,TRUE,,FALSE
+10013,ST_Q_MAIN_113,오래된 리본,NU.Quest.Category.Main,,7,10007,Once,4005,12025,리븐우드,0,0,4005,500,200,6618,1,0,0,NpcTurnIn,ST_Q_MAIN_113,루간이 리븐우드의 낡은 리본을 새로 매달라고 했다. 자꾸 리본을 튕겨 떨어뜨리는 전기 나이아가 있다는데.,,TRUE,,FALSE
+10014,ST_Q_MAIN_114,여섯의 인정,NU.Quest.Category.Main,,8,10013,Once,4005,12005,리베르그로브 사각 광장,0,0,0,1200,360,6619,1,0,0,Automatic,ST_Q_MAIN_114,여섯 조우지의 나이아를 전부 진정시켰다. 마을이 마침내 마음을 열려는 것 같다.,,TRUE,"(10008,10009,10010,10011,10012)",FALSE
+10015,ST_Q_MAIN_115,회당이 열리다,NU.Quest.Category.Main,,9,10014,Once,4017,12019,리베르그로브 성역 · 장로회 회당,0,0,4017,1000,230,0,0,0,0,NpcTurnIn,ST_Q_MAIN_115,전직을 마쳤다. 엘라던이 마지막으로 회당을 열어주겠다고 한다.,,TRUE,,FALSE
+10016,ST_Q_MAIN_116,뿌리터의 손님,NU.Quest.Category.Main,,9,10015,Once,4017,12027,펀브룩 초입 · 수레길 진입로,0,0,0,500,720,6601,1,0,0,Automatic,ST_Q_MAIN_116,"뒷숲 깊은 곳, 이 마을을 만들어준 존재가 잠들어 있다고 한다. 이기라는 게 아니라, 인정받으라는 것 같다.",,TRUE,,TRUE
+10017,ST_Q_MAIN_117,나무패를 걸다,NU.Quest.Category.Main,,10,10016,Once,4017,12002,리베르그로브 성역 · 여관 1층,0,0,0,234,800,6620,1,0,0,Automatic,ST_Q_MAIN_117,"브램블코어의 인정을 받았다. 이제 마을에 남은 마지막 절차는, 창가에 나무패를 거는 것뿐이다.",,TRUE,,FALSE
+10051,ST_Q_SIDE_101,손끝의 대물림,NU.Quest.Category.Side,,8,10013,Once,4005,12011,리베르그로브 공방 구역 · 공방 마당,0,0,0,500,150,0,0,0,0,Automatic,ST_Q_SIDE_101,여섯 조우지를 마친 뒤로 루간이 따로 할 말이 있는 눈치다. 전투만이 이 마을에 자리 잡는 유일한 길은 아니라고 한다.,,TRUE,"(10008,10009,10010,10011,10012)",FALSE
+10101,ST_Q_MAIN_201,잿빛 고개를 넘어,NU.Quest.Category.Main,NU.Quest.Objective.ReachLocation,11,10017,Once,0,12101,그레이베인 산길 → 신데하스 초입,0,1,0,0,0,0,0,0,0,Automatic,ST_Q_MAIN_201,,,FALSE,,FALSE
+10102,ST_Q_MAIN_202,손님보다는 일손,NU.Quest.Category.Main,NU.Quest.Objective.CollectItem,11,10101,Once,4051,12102,신데하스 갱도 입구·큰 길 → 화덕 광장,0,4,4051,2162,280,6602,1,0,0,NpcTurnIn,ST_Q_MAIN_202,,,FALSE,,FALSE
+10103,ST_Q_MAIN_203,길들여진 무게,NU.Quest.Category.Main,NU.Quest.Objective.Talk,12,10102,Once,4053,12105,신데하스 대장간,0,3,4053,2378,300,0,0,0,0,NpcTurnIn,ST_Q_MAIN_203,,,FALSE,,FALSE
+10104,ST_Q_MAIN_204,비탈의 이름을 외우다,NU.Quest.Category.Main,NU.Quest.Objective.Talk,13,10103,Once,4055,12113,애쉬슬로프 진입로,0,2,4055,1946,330,0,0,0,0,NpcTurnIn,ST_Q_MAIN_204,,,FALSE,,FALSE
+10105,ST_Q_MAIN_205,부스러진 걸음,NU.Quest.Category.Main,NU.Quest.Objective.EnemyDefeated,13,10104,Once,4055,12114,애쉬슬로프,0,5,4055,1946,330,6504,3,0,0,NpcTurnIn,ST_Q_MAIN_205,,,FALSE,,FALSE
+10106,ST_Q_MAIN_206,물러서지 않는 뿔,NU.Quest.Category.Main,NU.Quest.Objective.EnemyDefeated,14,10105,Once,4055,12115,애쉬슬로프,0,4,4055,1946,350,6505,3,0,0,NpcTurnIn,ST_Q_MAIN_206,,,FALSE,,FALSE
+10107,ST_Q_MAIN_207,광맥의 파수꾼,NU.Quest.Category.Main,NU.Quest.Objective.EnemyDefeated,14,10106,Once,4055,12116,애쉬슬로프 심층 광맥,0,1,4055,2811,630,6506,2,0,0,NpcTurnIn,ST_Q_MAIN_207,,,FALSE,,FALSE
+10108,ST_Q_MAIN_208,소나무 숲의 셈,NU.Quest.Category.Main,NU.Quest.Objective.CollectItem,14,10107,Once,4054,12117,파인할로우,0,6,4054,2162,350,0,0,0,0,NpcTurnIn,ST_Q_MAIN_208,,,FALSE,,FALSE
+10109,ST_Q_MAIN_209,톱니에 걸린 소리,NU.Quest.Category.Main,NU.Quest.Objective.Talk,15,10108,Once,4057,12118,파인할로우 벌목 장비 지대,0,2,4057,1514,380,6507,2,0,0,NpcTurnIn,ST_Q_MAIN_209,,,FALSE,,FALSE
+10110,ST_Q_MAIN_210,오래된 발자국,NU.Quest.Category.Main,NU.Quest.Objective.EnemyDefeated,15,10109,Once,4057,12120,파인할로우 심층부,0,1,4057,2811,680,6508,2,0,0,NpcTurnIn,ST_Q_MAIN_210,,,FALSE,,FALSE
+10111,ST_Q_MAIN_211,기록에 없는 상처,NU.Quest.Category.Main,NU.Quest.Objective.Talk,16,10110,Once,4056,12111,신데하스 의무소,0,3,4056,2162,400,6001,3,0,0,NpcTurnIn,ST_Q_MAIN_211,,,FALSE,,FALSE
+10112,ST_Q_MAIN_212,녹슨 인장,NU.Quest.Category.Main,NU.Quest.Objective.Talk,16,10111,Once,4057,12107,신데하스 감정소 · 지하 장부고,0,3,4057,2811,720,0,0,0,0,NpcTurnIn,ST_Q_MAIN_212,,,FALSE,,FALSE
+10113,ST_Q_MAIN_213,깊은 곳의 숨소리,NU.Quest.Category.Main,NU.Quest.Objective.Talk,17,10112,Once,4057,12102,신데하스 갱도 입구 봉쇄 통로,0,2,4051,2378,430,0,0,0,0,NpcTurnIn,ST_Q_MAIN_213,,,FALSE,,FALSE
+10114,ST_Q_MAIN_214,모두가 아는 침묵,NU.Quest.Category.Main,NU.Quest.Objective.Talk,18,10113,Once,4051,12103,신데하스 화덕 광장,0,3,4051,2595,810,0,0,0,0,NpcTurnIn,ST_Q_MAIN_214,,,FALSE,,FALSE
+10115,ST_Q_MAIN_215,깊은 곳으로,NU.Quest.Category.Main,NU.Quest.Objective.ReachLocation,19,10114,Once,4057,12122,딥베인 진입부~안식 고리 집하장,0,3,4057,2378,480,0,0,0,0,NpcTurnIn,ST_Q_MAIN_215,,,FALSE,,FALSE
+10116,ST_Q_MAIN_216,할로우코어,NU.Quest.Category.Main,NU.Quest.Objective.EnemyDefeated,19,10115,Once,0,12124,딥베인 최심부 · 원형 공동,0,0,0,4757,1520,6509,1,0,0,Automatic,ST_Q_MAIN_216,,,FALSE,,FALSE
+10117,ST_Q_MAIN_217,잿가루 위에 남은 것,NU.Quest.Category.Main,NU.Quest.Objective.Talk,20,10116,Once,4051,12103,신데하스 전역,0,0,4051,3027,1600,6603,1,0,0,NpcTurnIn,ST_Q_MAIN_217,,,FALSE,,FALSE
+10151,ST_Q_SIDE_201,이름 없는 애들,NU.Quest.Category.Side,NU.Quest.Objective.Talk,12,10102,Once,4052,12103,신데하스 화덕 광장,0,1,4052,0,140,0,0,0,0,NpcTurnIn,ST_Q_SIDE_201,,,FALSE,,FALSE
+10152,ST_Q_SIDE_202,손끝의 꿈,NU.Quest.Category.Side,NU.Quest.Objective.Talk,13,10103,Once,4053,12105,신데하스 대장간,0,1,4053,0,160,0,0,0,0,NpcTurnIn,ST_Q_SIDE_202,,,FALSE,,FALSE
+10153,ST_Q_SIDE_203,팔지 않는 것,NU.Quest.Category.Side,NU.Quest.Objective.Talk,14,10106,Once,4055,12113,애쉬슬로프 진입로,0,1,4055,0,170,0,0,0,0,NpcTurnIn,ST_Q_SIDE_203,,,FALSE,,FALSE
+10154,ST_Q_SIDE_204,그리드폴의 뒷골목,NU.Quest.Category.Side,NU.Quest.Objective.Talk,16,10111,Once,4056,12109,신데하스 주막,0,1,4056,0,190,0,0,0,0,NpcTurnIn,ST_Q_SIDE_204,,,FALSE,,FALSE
+10155,ST_Q_SIDE_205,그래도 남는 사람,NU.Quest.Category.Side,NU.Quest.Objective.Talk,18,10114,Once,0,12103,신데하스 화덕 광장,0,1,4059,0,220,0,0,0,0,NpcTurnIn,ST_Q_SIDE_205,,,FALSE,,FALSE
+10201,ST_Q_MAIN_301,케스트라의 부탁,NU.Quest.Category.Main,NU.Quest.Objective.ReachLocation,21,10117,Once,4055,12201,애쉬슬로프 인근,0,1,0,0,0,0,0,0,0,Automatic,ST_Q_MAIN_301,,,FALSE,,FALSE
+10202,ST_Q_MAIN_302,낯선 손님,NU.Quest.Category.Main,NU.Quest.Objective.Talk,21,10201,Once,4103,12207,파스트라이드 · 가축과 짐수레 구역,0,2,4103,10198,530,6605,1,0,0,NpcTurnIn,ST_Q_MAIN_302,,,FALSE,,FALSE
+10203,ST_Q_MAIN_303,나르의 시험,NU.Quest.Category.Main,NU.Quest.Objective.EnemyDefeated,22,10202,Once,4101,12210,앰버리치 · 침식 구릉,0,2,4101,11570,550,6607,2,0,0,NpcTurnIn,ST_Q_MAIN_303,,,FALSE,,FALSE
+10204,ST_Q_MAIN_304,이동하는 계절,NU.Quest.Category.Main,NU.Quest.Objective.CollectItem,23,10203,Once,4101,12210,앰버리치 · 침식 구릉,0,2,4101,12942,580,6608,1,0,0,NpcTurnIn,ST_Q_MAIN_304,,,FALSE,,FALSE
+10205,ST_Q_MAIN_305,화톳불의 밤,NU.Quest.Category.Main,NU.Quest.Objective.Talk,24,10204,Once,4103,12202,파스트라이드 · 화톳불 광장 (밤),0,1,4103,14314,1080,6606,3,0,0,NpcTurnIn,ST_Q_MAIN_305,,,FALSE,,FALSE
+10206,ST_Q_MAIN_306,사나워진 늑대,NU.Quest.Category.Main,NU.Quest.Objective.Talk,25,10205,Once,4104,12211,본크래그 · 능선길,0,1,4104,7000,630,0,0,0,0,NpcTurnIn,ST_Q_MAIN_306,,,FALSE,,FALSE
+10207,ST_Q_MAIN_307,뜯어먹지 않은 흔적,NU.Quest.Category.Main,NU.Quest.Objective.EnemyDefeated,25,10206,Once,4104,12213,본크래그 · 바닥길,0,2,4104,8686,1130,6609,1,0,0,NpcTurnIn,ST_Q_MAIN_307,,,FALSE,,FALSE
+10208,ST_Q_MAIN_308,고요 목걸이,NU.Quest.Category.Main,NU.Quest.Objective.Talk,26,10207,Once,4106,12207,파스트라이드 · 가축과 짐수레 구역,0,2,4106,7000,650,6610,1,0,0,NpcTurnIn,ST_Q_MAIN_308,,,FALSE,,FALSE
+10209,ST_Q_MAIN_309,나르의 선택,NU.Quest.Category.Main,NU.Quest.Objective.Talk,26,10208,Once,4101,12204,파스트라이드 · 사냥꾼들의 자리 (나르의 천막),0,1,0,10058,0,0,0,0,0,Automatic,ST_Q_MAIN_309,,,FALSE,,FALSE
+10210,ST_Q_MAIN_310,달라지는 사람들,NU.Quest.Category.Main,NU.Quest.Objective.Talk,27,10209,Once,0,12202,파스트라이드 · 화톳불 광장 (밤),0,1,0,6000,680,0,0,0,0,Automatic,ST_Q_MAIN_310,,,FALSE,,FALSE
+10211,ST_Q_MAIN_311,세 번째 문양,NU.Quest.Category.Main,NU.Quest.Objective.Talk,27,10210,Once,4104,12214,원로와 부족장의 자리,0,2,4104,11430,1220,6611,1,0,0,NpcTurnIn,ST_Q_MAIN_311,,,FALSE,,FALSE
+10212,ST_Q_MAIN_312,성인식 준비,NU.Quest.Category.Main,NU.Quest.Objective.CollectItem,28,10211,Once,4103,12206,파스트라이드 · 의식 물품 천막,0,2,4103,5000,700,6612,1,0,0,NpcTurnIn,ST_Q_MAIN_312,,,FALSE,,FALSE
+10213,ST_Q_MAIN_313,성인식,NU.Quest.Category.Main,NU.Quest.Objective.ReachLocation,29,10212,Once,4103,12215,"하운드런 (첫 사냥의 협곡, 입구)",0,1,0,0,0,0,0,0,0,Automatic,ST_Q_MAIN_313,,,FALSE,,FALSE
+10214,ST_Q_MAIN_314,무뎌진 사냥꾼,NU.Quest.Category.Main,NU.Quest.Objective.EnemyDefeated,29,10213,Once,4101,12216,하운드런 안쪽 (막다른 턱),0,2,0,7802,2320,6613,1,0,0,Automatic,ST_Q_MAIN_314,,,FALSE,,FALSE
+10215,ST_Q_MAIN_315,나르의 속마음,NU.Quest.Category.Main,NU.Quest.Objective.Talk,30,10214,Once,4101,12204,파스트라이드 · 나르의 천막,0,1,4101,10000,0,0,0,0,0,NpcTurnIn,ST_Q_MAIN_315,,,FALSE,,FALSE
+10216,ST_Q_MAIN_316,나르의 대답,NU.Quest.Category.Main,NU.Quest.Objective.Talk,30,10215,Once,4101,12202,파스트라이드 · 화톳불 광장 (밤),0,1,4101,11174,2400,6614,1,0,0,NpcTurnIn,ST_Q_MAIN_316,,,FALSE,,FALSE
+10217,ST_Q_MAIN_317,남겨진 표식,NU.Quest.Category.Main,NU.Quest.Objective.ReachLocation,30,10216,Once,0,12214,본크래그 서식지 경계부,0,1,0,1000,2400,0,0,0,0,Automatic,ST_Q_MAIN_317,,,FALSE,,FALSE
+10301,ST_Q_MAIN_401,안개 속의 검문,NU.Quest.Category.Main,NU.Quest.Objective.EnemyDefeated,31,10217,Once,4153,12302,섀도우베일 · 파수구와 교역터,0,2,0,0,0,0,0,0,0,Automatic,ST_Q_MAIN_401,,,FALSE,,FALSE
+10302,ST_Q_MAIN_402,임시 체류,NU.Quest.Category.Main,NU.Quest.Objective.Talk,31,10301,Once,4151,12301,섀도우베일 · 저수 안뜰 (중앙 마당),0,3,4151,12000,780,6621,1,0,0,NpcTurnIn,ST_Q_MAIN_402,,,FALSE,,FALSE
+10303,ST_Q_MAIN_403,이름 없는 명패판,NU.Quest.Category.Main,NU.Quest.Objective.Talk,32,10302,Once,4152,12301,섀도우베일 · 저수 안뜰,0,4,0,10000,800,0,0,0,0,Automatic,ST_Q_MAIN_403,,,FALSE,,FALSE
+10304,ST_Q_MAIN_404,진료소 등록,NU.Quest.Category.Main,NU.Quest.Objective.Talk,32,10303,Once,4154,12306,섀도우베일 · 거주 회랑 (셀바의 진료소),0,3,4154,10000,800,6622,1,0,0,NpcTurnIn,ST_Q_MAIN_404,,,FALSE,,FALSE
+10305,ST_Q_MAIN_405,소린의 질문,NU.Quest.Category.Main,NU.Quest.Objective.Talk,33,10304,Once,4155,12304,섀도우베일 · 거주 회랑 골목,0,2,4155,10000,830,6623,1,0,0,NpcTurnIn,ST_Q_MAIN_405,,,FALSE,,FALSE
+10306,ST_Q_MAIN_406,안개 속 실태,NU.Quest.Category.Main,NU.Quest.Objective.EnemyDefeated,33,10305,Once,4153,12309,더스크마이어 초입 (습지 필드①),0,3,4153,9000,1490,6624,1,0,0,NpcTurnIn,ST_Q_MAIN_406,,,FALSE,,FALSE
+10307,ST_Q_MAIN_407,쓸모를 증명하다,NU.Quest.Category.Main,NU.Quest.Objective.Talk,34,10306,Once,4151,12301,저수 안뜰,0,2,4151,9000,1530,0,0,0,0,NpcTurnIn,ST_Q_MAIN_407,,,FALSE,,FALSE
+10308,ST_Q_MAIN_408,가라앉은 흔적,NU.Quest.Category.Main,NU.Quest.Objective.ReachLocation,34,10307,Once,4152,12309,더스크마이어 심부 (습지 필드②),0,3,4152,11000,1530,6625,1,0,0,NpcTurnIn,ST_Q_MAIN_408,,,FALSE,,FALSE
+10309,ST_Q_MAIN_409,초기형 억제 장비,NU.Quest.Category.Main,NU.Quest.Objective.CollectItem,35,10308,Once,4152,12303,첨탑 회랑,0,3,4152,11000,1580,6626,1,0,0,NpcTurnIn,ST_Q_MAIN_409,,,FALSE,,FALSE
+10310,ST_Q_MAIN_410,"이중 고리, 다시",NU.Quest.Category.Main,NU.Quest.Objective.CollectItem,35,10309,Once,4152,12308,첨탑 회랑 · 에스라의 기록보관소,0,2,4152,13000,2800,6627,1,0,0,NpcTurnIn,ST_Q_MAIN_410,,,FALSE,,FALSE
+10311,ST_Q_MAIN_411,숫자 뒤의 사람들,NU.Quest.Category.Main,NU.Quest.Objective.Talk,36,10310,Once,4151,12307,첨탑 회랑 · 바렌의 방,0,1,4151,11000,1620,0,0,0,0,NpcTurnIn,ST_Q_MAIN_411,,,FALSE,,FALSE
+10312,ST_Q_MAIN_412,아셀의 기억,NU.Quest.Category.Main,NU.Quest.Objective.Talk,36,10311,Once,4153,12302,섀도우베일 · 파수구와 교역터,0,3,4153,13000,2880,6628,1,0,0,NpcTurnIn,ST_Q_MAIN_412,,,FALSE,,FALSE
+10313,ST_Q_MAIN_413,파수대의 사람,NU.Quest.Category.Main,NU.Quest.Objective.Talk,37,10312,Once,4151,12305,섀도우베일 · 성벽 파수대,0,3,4151,11000,1670,0,0,0,0,NpcTurnIn,ST_Q_MAIN_413,,,FALSE,,FALSE
+10314,ST_Q_MAIN_414,세 번째 문양,NU.Quest.Category.Main,NU.Quest.Objective.CollectItem,37,10313,Once,4152,12305,성벽 파수대,0,3,4152,15000,2960,6629,1,0,0,NpcTurnIn,ST_Q_MAIN_414,,,FALSE,,FALSE
+10315,ST_Q_MAIN_415,봉쇄를 뜯다,NU.Quest.Category.Main,NU.Quest.Objective.ReachLocation,38,10314,Once,4151,12303,미스트킵 지하 저장고 진입부,0,4,0,17000,3040,0,0,0,0,Automatic,ST_Q_MAIN_415,,,FALSE,,FALSE
+10316,ST_Q_MAIN_416,드리프트코어,NU.Quest.Category.Main,NU.Quest.Objective.EnemyDefeated,39,10315,Once,0,12303,미스트킵 지하 저장고 최심부,0,3,0,20000,3120,6630,1,0,0,Automatic,ST_Q_MAIN_416,,,FALSE,,FALSE
+10317,ST_Q_MAIN_417,안개 너머로 보내는 소식,NU.Quest.Category.Main,NU.Quest.Objective.Talk,39,10316,Once,0,12301,섀도우베일 · 저수 안뜰,0,1,0,8000,3120,0,0,0,0,Automatic,ST_Q_MAIN_417,,,FALSE,,FALSE
+10801,ST_Q_DAILY_001,일일 토벌,NU.Quest.Category.Daily,NU.Quest.Objective.EnemyDefeated,15,0,Daily,0,0,,0,5,0,350,600,0,0,0,0,Automatic,ST_Q_DAILY_001,,,FALSE,,FALSE
+10802,ST_Q_DAILY_002,일일 채집,NU.Quest.Category.Daily,NU.Quest.Objective.CollectItem,15,0,Daily,0,0,,0,5,0,250,700,0,0,0,0,Automatic,ST_Q_DAILY_002,,,FALSE,,FALSE
+10999,ST_Q_DEBUG_10999,레벨 20 성장,NU.Quest.Category.Side,,1,0,Once,4017,0,리베르그로브 성역 · 장로회 회당,0,0,4017,60000,10000,0,0,0,0,NpcTurnIn,ST_Q_DEBUG_10999,엘라던과 대화해 레벨 20 성장 상태와 초기 자금을 받는다.,,TRUE,,FALSE
+10901,ST_Q_TUTORIAL_001,마을의 첫 인사,NU.Quest.Category.Side,,1,10999,Once,4010,12005,리베르그로브 광장,0,0,4011,100,80,0,0,0,0,NpcTurnIn,ST_Q_TUTORIAL_001,루간의 부탁을 받고 티온과 대화한 뒤 티온에게 완료 보고한다.,,TRUE,,FALSE
+10900,ST_Q_SUB_004,[선할로우] 잃어버린 팽이,NU.Quest.Category.Side,,1,0,Once,4011,0,리베르그로브 광장,0,0,4011,120,100,0,0,0,0,NpcTurnIn,ST_Q_SUB_004,티온이 잃어버린 팽이를 마을에서 찾아 돌려준다.,/Game/Developers/zxcv1/Dialogue/Compatibility/10900/DA_Quest_10900.DA_Quest_10900,TRUE,,FALSE
+10902,ST_Q_TUTORIAL_002,시안의 첫 거래,NU.Quest.Category.Side,,1,10999,Once,4002,12005,리베르그로브 광장,0,0,4002,140,120,0,0,0,0,NpcTurnIn,ST_Q_TUTORIAL_002,시안에게 의뢰를 받고 아이템을 한 번 구매한 뒤 다시 시안에게 보고한다.,,TRUE,,FALSE
+10903,ST_Q_TUTORIAL_003,노아의 여행자 창고,NU.Quest.Category.Side,,1,10999,Once,4001,12005,리베르그로브 광장,0,0,4001,160,140,0,0,0,0,NpcTurnIn,ST_Q_TUTORIAL_003,노아에게 의뢰를 받고 창고를 한 번 이용한 뒤 다시 노아에게 보고한다.,,TRUE,,FALSE
+10904,ST_Q_TUTORIAL_004,훈련장으로,NU.Quest.Category.Side,,1,10999,Once,4010,12011,리베르그로브 훈련장,0,0,4005,180,160,0,0,0,0,NpcTurnIn,ST_Q_TUTORIAL_004,리베르그로브 훈련장에 도착한 뒤 루간에게 보고한다.,,TRUE,,FALSE
+10905,ST_Q_TUTORIAL_005,교감석의 울림,NU.Quest.Category.Side,,1,10999,Once,4005,12011,리베르그로브 훈련장,0,0,4005,200,180,0,0,0,0,NpcTurnIn,ST_Q_TUTORIAL_005,교감석으로 나이아 한 마리와 교감한다.,,TRUE,,FALSE
+10906,ST_Q_TUTORIAL_006,숲의 불청객,NU.Quest.Category.Side,,1,10999,Once,4005,12011,리베르그로브 훈련장,0,0,4005,220,200,0,0,0,0,NpcTurnIn,ST_Q_TUTORIAL_006,전투에서 적 한 마리를 처치한다.,,TRUE,,FALSE
+10907,ST_Q_TUTORIAL_007,첫 승리,NU.Quest.Category.Side,,1,10999,Once,4005,12011,리베르그로브 훈련장,0,0,4005,240,220,0,0,0,0,NpcTurnIn,ST_Q_TUTORIAL_007,전투에서 승리한 뒤 루간에게 보고한다.,,TRUE,,FALSE

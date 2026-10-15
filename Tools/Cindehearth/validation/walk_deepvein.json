@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "route": "deepvein",
+  "waypoints_reached": 6,
+  "total_waypoints": 6,
+  "final_pos": [
+    540.0,
+    8932.14733607967,
+    5.150001186876025
+  ],
+  "samples": [
+    {
+      "seconds": 0.97,
+      "pos": [
+        540.0,
+        4140.0,
+        365.2
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 3.3,
+      "pos": [
+        540.0,
+        4907.2,
+        340.7
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 5.62,
+      "pos": [
+        540.0,
+        5723.9,
+        192.3
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 7.97,
+      "pos": [
+        540.0,
+        6391.5,
+        185.2
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 10.3,
+      "pos": [
+        540.0,
+        7186.6,
+        132.2
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 12.62,
+      "pos": [
+        540.0,
+        8003.3,
+        6.6
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 14.97,
+      "pos": [
+        540.0,
+        8698.8,
+        0.8
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    }
+  ]
+}

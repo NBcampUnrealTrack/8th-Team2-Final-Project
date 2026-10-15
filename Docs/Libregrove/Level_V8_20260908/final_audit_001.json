@@ -1,0 +1,187 @@
+{
+  "scene": "/Game/Libregrove/Level_V8/Maps/L_Libregrove.L_Libregrove",
+  "actors": 785,
+  "buildings": 34,
+  "material_slots": 909,
+  "foliage": [
+    {
+      "component": "FoliageInstancedStaticMeshComponent_0",
+      "mesh": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/StaticMeshes/SM_LG_08_BroadleafTree_V7.SM_LG_08_BroadleafTree_V7",
+      "count": 283
+    },
+    {
+      "component": "FoliageInstancedStaticMeshComponent_1",
+      "mesh": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/StaticMeshes/SM_LG_08_BroadleafTree_V7.SM_LG_08_BroadleafTree_V7",
+      "count": 191
+    },
+    {
+      "component": "FoliageInstancedStaticMeshComponent_2",
+      "mesh": "/Game/Village/Meshes/SM_Bush.SM_Bush",
+      "count": 1564
+    },
+    {
+      "component": "FoliageInstancedStaticMeshComponent_3",
+      "mesh": "/Game/Village/Meshes/SM_Rock_B.SM_Rock_B",
+      "count": 309
+    }
+  ],
+  "foliage_total": 2347,
+  "foliage_types": [
+    {
+      "path": "/Game/Libregrove/Level_V8/Foliage/FT_LG8_Bush.FT_LG8_Bush",
+      "materials": [
+        "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Leaf_ceddb.MI_HD2D_Prop_Leaf_ceddb"
+      ]
+    },
+    {
+      "path": "/Game/Libregrove/Level_V8/Foliage/FT_LG8_Canopy.FT_LG8_Canopy",
+      "materials": [
+        "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_08_BroadleafTree_76350.MI_HD2D_LG_08_BroadleafTree_76350"
+      ]
+    },
+    {
+      "path": "/Game/Libregrove/Level_V8/Foliage/FT_LG8_Rock.FT_LG8_Rock",
+      "materials": [
+        "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Rock_c6bf7.MI_HD2D_Prop_Rock_c6bf7"
+      ]
+    },
+    {
+      "path": "/Game/Libregrove/Level_V8/Foliage/FT_LG8_Saplings.FT_LG8_Saplings",
+      "materials": [
+        "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_08_BroadleafTree_76350.MI_HD2D_LG_08_BroadleafTree_76350"
+      ]
+    }
+  ],
+  "source_mesh_default_materials_preserved": [
+    "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/StaticMeshes/SM_LG_01_Cottage_A_V7.SM_LG_01_Cottage_A_V7",
+    "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/StaticMeshes/SM_LG_02_Inn_V7.SM_LG_02_Inn_V7",
+    "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/StaticMeshes/SM_LG_06_NaiaShelter_V7.SM_LG_06_NaiaShelter_V7",
+    "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/StaticMeshes/SM_LG_05_WatermillHouse_V7.SM_LG_05_WatermillHouse_V7",
+    "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/StaticMeshes/SM_LG_03_VillageHall_V7.SM_LG_03_VillageHall_V7",
+    "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/StaticMeshes/SM_LG_07_Sanctuary_V7.SM_LG_07_Sanctuary_V7",
+    "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/StaticMeshes/SM_LG_04_Workshop_V7.SM_LG_04_Workshop_V7",
+    "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/StaticMeshes/SM_LG_09_MarketStall_V7.SM_LG_09_MarketStall_V7",
+    "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/StaticMeshes/SM_LG_08_BroadleafTree_V7.SM_LG_08_BroadleafTree_V7"
+  ],
+  "terrain": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Terrain_Stable.MI_HD2D_Terrain_Stable",
+  "game_mode": "/Game/Libregrove/Level_V8/Gameplay/BP_LG8_GameMode.BP_LG8_GameMode_C",
+  "camera_graph_compile_state": "BS_UpToDate",
+  "camera_edges": 13,
+  "postprocess": [
+    {
+      "actor": "LG8_PP_ArtGrade",
+      "weight": 1.0,
+      "focal_distance": 0.0,
+      "fstop": 16.0,
+      "sensor_width": 24.576000213623047,
+      "exposure_bias": 0.30000001192092896
+    },
+    {
+      "actor": "LG8_PP_DOF_Optional_Windows",
+      "weight": 1.0,
+      "focal_distance": 1900.0,
+      "fstop": 2.4000000953674316,
+      "sensor_width": 120.0,
+      "exposure_bias": 1.0
+    }
+  ],
+  "mpc_defaults": {
+    "scalars": [
+      {
+        "name": "StyleStrength",
+        "default": 1
+      },
+      {
+        "name": "PixelBlend",
+        "default": 0.8999999761581421
+      },
+      {
+        "name": "TextureDensity",
+        "default": 1
+      },
+      {
+        "name": "PaletteSteps",
+        "default": 24
+      },
+      {
+        "name": "PosterizeStrength",
+        "default": 0.550000011920929
+      },
+      {
+        "name": "Saturation",
+        "default": 0.9300000071525574
+      },
+      {
+        "name": "Contrast",
+        "default": 1.0700000524520874
+      },
+      {
+        "name": "ShadowLift",
+        "default": 0.02500000037252903
+      },
+      {
+        "name": "RoughnessBias",
+        "default": 0.019999999552965164
+      },
+      {
+        "name": "NormalStrength",
+        "default": 0.550000011920929
+      },
+      {
+        "name": "EmissiveMultiplier",
+        "default": 1
+      },
+      {
+        "name": "WorldPixelSizeCm",
+        "default": 3
+      }
+    ],
+    "vectors": [
+      {
+        "name": "GlobalTint",
+        "default": {
+          "r": 1.0199999809265137,
+          "g": 1,
+          "b": 0.949999988079071,
+          "a": 1
+        }
+      }
+    ]
+  },
+  "old_village_map_sha256": "01625bb8d6468b7ab8ec4d6e4a69011aed75a43c5b00b3618f85e0785422464a",
+  "routes": [
+    {
+      "route": "central_shrine",
+      "run": "002",
+      "waypoints": 19
+    },
+    {
+      "route": "west_bridge_mill",
+      "run": "005",
+      "waypoints": 15
+    },
+    {
+      "route": "east_bridge_workshop",
+      "run": "002",
+      "waypoints": 12
+    },
+    {
+      "route": "lower_loop",
+      "run": "001",
+      "waypoints": 8
+    },
+    {
+      "route": "west_exit",
+      "run": "004",
+      "waypoints": 6
+    },
+    {
+      "route": "southeast_exit",
+      "run": "001",
+      "waypoints": 4
+    }
+  ],
+  "waypoints_total": 64,
+  "pie_off": true,
+  "no_forced_shader_diagnostics": true
+}

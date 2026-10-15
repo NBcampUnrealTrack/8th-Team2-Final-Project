@@ -1,0 +1,6 @@
+JobId,Name,JobKey,GraphId,DisplayName,Description,Icon
+1001,Job_NaiaKnight,NaiaKnight,1001,나이아 나이트,"나는 몸을 내준다. 나이아가 떠난 자리는, 다시 채워질 테니.",
+1002,Job_Tracker,Tracker,1002,트래커,나는 누구보다 먼저 본다. 앞선 자만이 급소를 본다.,
+1003,Job_Elementalist,Elementalist,1003,엘리멘탈리스트,"나는 적의 틈을 읽는다. 가장 아픈 곳에, 가장 정확하게.",
+1004,Job_Gambler,Gambler,1004,갬블러,나는 정해진 패를 믿지 않는다. 나이아가 보여주는 건 언제나 다음 장이다.,
+1005,Job_Druid,Druid,1005,드루이드,"나는 나이아와 하나가 된다. 내가 버티는 만큼, 우리 모두가 강해진다.",

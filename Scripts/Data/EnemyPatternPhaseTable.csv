@@ -1,0 +1,3 @@
+﻿Name,PatternId,PhaseIndex,PhaseTag,OnEnterAbilityId
+P_Bramblecore_Lv10_Base,P_Bramblecore_Lv10,0,NU.Enemy.Phase.First,
+P_Bramblecore_Lv10_Collapse,P_Bramblecore_Lv10,1,NU.Enemy.Phase.Second,NU.Ability.Battle.Enemy.Telegraph

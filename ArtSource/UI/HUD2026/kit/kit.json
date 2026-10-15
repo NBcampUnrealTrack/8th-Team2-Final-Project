@@ -1,0 +1,718 @@
+{
+ "T_HUD_Shadow": {
+  "size": [
+   128,
+   128
+  ],
+  "margin": [
+   0.375,
+   0.375,
+   0.375,
+   0.375
+  ],
+  "pixel": false
+ },
+ "T_HUD_ShadowSoft": {
+  "size": [
+   96,
+   96
+  ],
+  "margin": [
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ],
+  "pixel": false
+ },
+ "T_HUD_ScrimL": {
+  "size": [
+   256,
+   64
+  ],
+  "margin": [
+   0,
+   0.34375,
+   0,
+   0.34375
+  ],
+  "pixel": false
+ },
+ "T_HUD_ScrimR": {
+  "size": [
+   256,
+   64
+  ],
+  "margin": [
+   0,
+   0.34375,
+   0,
+   0.34375
+  ],
+  "pixel": false
+ },
+ "T_HUD_BannerGlow": {
+  "size": [
+   256,
+   76
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_RuleL": {
+  "size": [
+   256,
+   4
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_RuleR": {
+  "size": [
+   256,
+   4
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_BarHP": {
+  "size": [
+   256,
+   16
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_BarSP": {
+  "size": [
+   256,
+   16
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_BarFoe": {
+  "size": [
+   256,
+   16
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_BarGold": {
+  "size": [
+   256,
+   16
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_MapVignette": {
+  "size": [
+   96,
+   96
+  ],
+  "margin": [
+   0.3645833333333333,
+   0.3645833333333333,
+   0.3645833333333333,
+   0.3645833333333333
+  ],
+  "pixel": false
+ },
+ "T_HUD_MapCorners": {
+  "size": [
+   64,
+   64
+  ],
+  "margin": [
+   0.296875,
+   0.296875,
+   0.296875,
+   0.296875
+  ],
+  "pixel": false
+ },
+ "T_HUD_Diamond": {
+  "size": [
+   12,
+   12
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_DiamondHollow": {
+  "size": [
+   12,
+   12
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Pip": {
+  "size": [
+   12,
+   12
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_PipEmpty": {
+  "size": [
+   12,
+   12
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_PipSP": {
+  "size": [
+   12,
+   12
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_PlayerArrow": {
+  "size": [
+   20,
+   22
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Chevron": {
+  "size": [
+   18,
+   12
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Ring": {
+  "size": [
+   64,
+   64
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_TargetCursor": {
+  "size": [
+   40,
+   32
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_TargetRing": {
+  "size": [
+   132,
+   42
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Glow": {
+  "size": [
+   128,
+   128
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Marker_Request": {
+  "size": [
+   44,
+   44
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Marker_TurnIn": {
+  "size": [
+   44,
+   44
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Marker_InProgress": {
+  "size": [
+   44,
+   44
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Marker_Portal": {
+  "size": [
+   44,
+   44
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_MapPlayer": {
+  "size": [
+   40,
+   40
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_MapPlayerCone": {
+  "size": [
+   128,
+   128
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_MapPlayerHalo": {
+  "size": [
+   64,
+   64
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Badge_Offer": {
+  "size": [
+   48,
+   48
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Badge_TurnIn": {
+  "size": [
+   48,
+   48
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Badge_InProgress": {
+  "size": [
+   48,
+   48
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Badge_Locked": {
+  "size": [
+   48,
+   48
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Badge_Target": {
+  "size": [
+   48,
+   48
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Badge_Portal": {
+  "size": [
+   48,
+   48
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_EdgePointer": {
+  "size": [
+   18,
+   12
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Head_Offer": {
+  "size": [
+   128,
+   128
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Head_TurnIn": {
+  "size": [
+   128,
+   128
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Head_Target": {
+  "size": [
+   128,
+   128
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Head_Locked": {
+  "size": [
+   128,
+   128
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Sparkle": {
+  "size": [
+   40,
+   40
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_QuestGlow": {
+  "size": [
+   256,
+   92
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Rays": {
+  "size": [
+   384,
+   384
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_PortraitMask72": {
+  "size": [
+   72,
+   72
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_PortraitMask36": {
+  "size": [
+   36,
+   36
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_HoverFrame": {
+  "size": [
+   48,
+   48
+  ],
+  "margin": [
+   0.3125,
+   0.3125,
+   0.3125,
+   0.3125
+  ],
+  "pixel": false
+ },
+ "T_HUD_DialogueScrim": {
+  "size": [
+   8,
+   256
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_OptionDot": {
+  "size": [
+   48,
+   48
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_OptionExit": {
+  "size": [
+   48,
+   48
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Coin": {
+  "size": [
+   40,
+   40
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Close": {
+  "size": [
+   32,
+   32
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_SelBeam": {
+  "size": [
+   64,
+   256
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_SelGlow": {
+  "size": [
+   256,
+   61
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_SelShadow": {
+  "size": [
+   128,
+   30
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_SelVeil": {
+  "size": [
+   256,
+   256
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_BubbleTail": {
+  "size": [
+   18,
+   10
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Line8": {
+  "size": [
+   24,
+   24
+  ],
+  "margin": [
+   0.4166666666666667,
+   0.4166666666666667,
+   0.4166666666666667,
+   0.4166666666666667
+  ],
+  "pixel": false
+ },
+ "T_HUD_Line10": {
+  "size": [
+   28,
+   28
+  ],
+  "margin": [
+   0.42857142857142855,
+   0.42857142857142855,
+   0.42857142857142855,
+   0.42857142857142855
+  ],
+  "pixel": false
+ },
+ "T_HUD_Line14": {
+  "size": [
+   36,
+   36
+  ],
+  "margin": [
+   0.4444444444444444,
+   0.4444444444444444,
+   0.4444444444444444,
+   0.4444444444444444
+  ],
+  "pixel": false
+ },
+ "T_HUD_Line22": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": [
+   0.46153846153846156,
+   0.46153846153846156,
+   0.46153846153846156,
+   0.46153846153846156
+  ],
+  "pixel": false
+ },
+ "T_HUD_CircleLine52": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false
+ },
+ "T_HUD_Icon_Quest": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Character": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Stats": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Growth": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Bag": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Naia": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Menu": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Eye": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Eyeoff": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Sword": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Spark": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Swap": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Flee": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Chat": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Gear": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Map": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ },
+ "T_HUD_Icon_Party": {
+  "size": [
+   52,
+   52
+  ],
+  "margin": null,
+  "pixel": false,
+  "mips": true
+ }
+}

@@ -1,0 +1,1 @@
+ok exit=0 thread=01a13765-3a01-7dc2-804b-fba123c2cf8a src=/c/Users/Ndus_072/AppData/Roaming/reddy-ide/codex-accounts/cacda7a4-2af9-47be-bcac-0b2de17a8f8e/home/generated_images/01a13765-3a01-7dc2-804b-fba123c2cf8a/exec-c73b4f6f-419b-4c17-afc1-035e434bbda1.png out=/c/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/ArtSource/Prologue_20261014/tripo_refs/tripo_gate_right.png

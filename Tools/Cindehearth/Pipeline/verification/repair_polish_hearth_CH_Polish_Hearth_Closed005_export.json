@@ -1,0 +1,48 @@
+[
+  {
+    "job_id": "polish_hearth_CH_Polish_Hearth_Closed005_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_hearth_CH_Polish_Hearth_Closed005_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_hearth_CH_Polish_Hearth_Closed005_export"
+  },
+  {
+    "job_id": "polish_hearth_CH_Polish_Hearth_Closed005_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_hearth_CH_Polish_Hearth_Closed005_export"
+  },
+  {
+    "job_id": "polish_hearth_CH_Polish_Hearth_Closed005_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_hearth_CH_Polish_Hearth_Closed005_export"
+  },
+  {
+    "job_id": "polish_hearth_CH_Polish_Hearth_Closed005_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_hearth_CH_Polish_Hearth_Closed005_export"
+  },
+  {
+    "job_id": "polish_hearth_CH_Polish_Hearth_Closed005_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_hearth_CH_Polish_Hearth_Closed005_export"
+  },
+  {
+    "job_id": "polish_hearth_CH_Polish_Hearth_Closed005_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Hearth_Closed005.glb",
+      "format": "glb",
+      "bytes": 2788772,
+      "object_names": [
+        "CH_Polish_Hearth_Closed005"
+      ],
+      "fingerprints": {
+        "CH_Polish_Hearth_Closed005": "4348aa02c8345c66e9e13b0375554d210fed4ac765e894ecc4cd6abd4257b9c0"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

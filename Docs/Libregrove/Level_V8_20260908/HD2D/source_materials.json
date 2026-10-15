@@ -1,0 +1,4302 @@
+[
+  {
+    "path": "/Game/Libregrove/Level_V8/Materials/MI_LG8_Sky_Day.MI_LG8_Sky_Day",
+    "root": "/Game/Village/Materials/M_HD2D_Sky.M_HD2D_Sky",
+    "scalars": {},
+    "vectors": {
+      "HorizonCol": [
+        0.8799999952316284,
+        0.8100000023841858,
+        0.6499999761581421,
+        1.0
+      ],
+      "MidCol": [
+        0.5099999904632568,
+        0.6700000166893005,
+        0.7799999713897705,
+        1.0
+      ],
+      "ZenithCol": [
+        0.20000000298023224,
+        0.38999998569488525,
+        0.6000000238418579,
+        1.0
+      ],
+      "GroundCol": [
+        0.07000000029802322,
+        0.10000000149011612,
+        0.07999999821186066,
+        1.0
+      ],
+      "CloudCol": [
+        1.0,
+        0.9900000095367432,
+        0.8999999761581421,
+        1.0
+      ],
+      "CloudShadow": [
+        0.6200000047683716,
+        0.6600000262260437,
+        0.7599999904632568,
+        1.0
+      ],
+      "RidgeFar": [
+        0.3199999928474426,
+        0.4699999988079071,
+        0.5,
+        1.0
+      ],
+      "RidgeNear": [
+        0.11999999731779099,
+        0.23999999463558197,
+        0.23000000417232513,
+        1.0
+      ],
+      "SunDir": [
+        -0.5763145685195923,
+        0.4502663016319275,
+        0.6819983720779419,
+        1.0
+      ],
+      "SunCol": [
+        1.0,
+        0.8600000143051147,
+        0.6200000047683716,
+        1.0
+      ],
+      "Tune": [
+        0.3499999940395355,
+        0.47999998927116394,
+        0.0007999999797903001,
+        1.0
+      ]
+    },
+    "textures": {
+      "SkyTex": "/Game/Village/Textures/Pixel/T_Sky_Clouds.T_Sky_Clouds",
+      "RidgeTex": "/Game/Village/Textures/Pixel/T_Sky_Ridge.T_Sky_Ridge"
+    }
+  },
+  {
+    "path": "/Game/Libregrove/Level_V8/Materials/MI_LG8_Terrain.MI_LG8_Terrain",
+    "root": "/Game/Village/Materials/M_VillagePixelLandscape2.M_VillagePixelLandscape2",
+    "scalars": {
+      "TileCm_Grass": 180.0,
+      "TileCm_Dirt": 180.0,
+      "TileCm_Cobblestone": 180.0,
+      "TileCm_Moss": 210.0,
+      "TileCm_Cliff": 240.0,
+      "TileCm_Macro": 1850.0,
+      "TileCm_EdgeNoise": 100.0,
+      "EdgeNoise_Amount": 0.23000000417232513,
+      "MacroVariation_Amount": 0.2199999988079071,
+      "CliffSlopeStart": 0.3400000035762787,
+      "CliffSlopeEnd": 0.6600000262260437,
+      "RoughnessMul": 1.0
+    },
+    "vectors": {},
+    "textures": {
+      "Tex_Grass_BC": "/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_BC.T_Grass_Meadow_Pixel_BC",
+      "Tex_Grass_N": "/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_N.T_Grass_Meadow_Pixel_N",
+      "Tex_Grass_ORM": "/Game/Village/Textures/Pixel/T_Grass_Meadow_Pixel_ORM.T_Grass_Meadow_Pixel_ORM",
+      "Tex_Dirt_BC": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_BC.T_Dirt_Path_Pixel_BC",
+      "Tex_Dirt_N": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_N.T_Dirt_Path_Pixel_N",
+      "Tex_Dirt_ORM": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_ORM.T_Dirt_Path_Pixel_ORM",
+      "Tex_Dirt_H": "/Game/Village/Textures/Pixel/T_Dirt_Path_Pixel_H.T_Dirt_Path_Pixel_H",
+      "Tex_Cobblestone_BC": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_BC.T_Cobblestone_Pixel_BC",
+      "Tex_Cobblestone_N": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_N.T_Cobblestone_Pixel_N",
+      "Tex_Cobblestone_ORM": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_ORM.T_Cobblestone_Pixel_ORM",
+      "Tex_Cobblestone_H": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_H.T_Cobblestone_Pixel_H",
+      "Tex_Moss_BC": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_BC.T_Moss_ForestFloor_Pixel_BC",
+      "Tex_Moss_N": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_N.T_Moss_ForestFloor_Pixel_N",
+      "Tex_Moss_ORM": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_ORM.T_Moss_ForestFloor_Pixel_ORM",
+      "Tex_Moss_H": "/Game/Village/Textures/Pixel/T_Moss_ForestFloor_Pixel_H.T_Moss_ForestFloor_Pixel_H",
+      "Tex_Cliff_BC": "/Game/Village/Textures/Pixel/T_Cliff_Rock_Pixel_BC.T_Cliff_Rock_Pixel_BC",
+      "Tex_Macro": "/Game/Village/Textures/Pixel/T_Macro_Variation_Gray_Pixel_BC.T_Macro_Variation_Gray_Pixel_BC",
+      "Tex_EdgeNoise": "/Game/Village/Textures/Pixel/T_PathEdge_Noise_Gray_Pixel_BC.T_PathEdge_Noise_Gray_Pixel_BC"
+    }
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Materials/tripo_mat_e34f3563.tripo_mat_e34f3563",
+    "root": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Materials/tripo_mat_e34f3563.tripo_mat_e34f3563",
+    "scalars": {},
+    "vectors": {},
+    "textures": {}
+  },
+  {
+    "path": "/Game/Libregrove/Level_V8/Materials/MI_LG8_Stone.MI_LG8_Stone",
+    "root": "/Game/Village/Materials/M_PixelPropWA2.M_PixelPropWA2",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 100.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.5600000023841858,
+        0.5600000023841858,
+        0.49000000953674316,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_BC.T_Prop_StoneBrick_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_N.T_Prop_StoneBrick_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_ORM.T_Prop_StoneBrick_Pixel_ORM"
+    }
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/Materials/tripo_mat_f544a036.tripo_mat_f544a036",
+    "root": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/Materials/tripo_mat_f544a036.tripo_mat_f544a036",
+    "scalars": {},
+    "vectors": {},
+    "textures": {}
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/Materials/tripo_mat_6029c87e.tripo_mat_6029c87e",
+    "root": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/Materials/tripo_mat_6029c87e.tripo_mat_6029c87e",
+    "scalars": {},
+    "vectors": {},
+    "textures": {}
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/Materials/tripo_mat_12da9820.tripo_mat_12da9820",
+    "root": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/Materials/tripo_mat_12da9820.tripo_mat_12da9820",
+    "scalars": {},
+    "vectors": {},
+    "textures": {}
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/Materials/tripo_mat_7a88dfe0.tripo_mat_7a88dfe0",
+    "root": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/Materials/tripo_mat_7a88dfe0.tripo_mat_7a88dfe0",
+    "scalars": {},
+    "vectors": {},
+    "textures": {}
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Materials/tripo_mat_50ec2d11.tripo_mat_50ec2d11",
+    "root": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Materials/tripo_mat_50ec2d11.tripo_mat_50ec2d11",
+    "scalars": {},
+    "vectors": {},
+    "textures": {}
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/Materials/tripo_mat_317b1c2b.tripo_mat_317b1c2b",
+    "root": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/Materials/tripo_mat_317b1c2b.tripo_mat_317b1c2b",
+    "scalars": {},
+    "vectors": {},
+    "textures": {}
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Materials/tripo_mat_62cb0827.tripo_mat_62cb0827",
+    "root": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Materials/tripo_mat_62cb0827.tripo_mat_62cb0827",
+    "scalars": {},
+    "vectors": {},
+    "textures": {}
+  },
+  {
+    "path": "/Game/Libregrove/Level_V8/Materials/MI_LG8_River.MI_LG8_River",
+    "root": "/Game/Village/Materials/M_HD2D_Water.M_HD2D_Water",
+    "scalars": {
+      "TileCm": 160.0,
+      "RippleScale": 0.6399999856948853,
+      "Ripple2Freq": 1.350000023841858,
+      "RippleSpeed": 0.11999999731779099,
+      "BandThreshold": 0.5,
+      "HighlightSharpness": 40.0,
+      "HighlightThreshold": 0.7400000095367432,
+      "ShallowDistance": 80.0,
+      "FoamWidth": 3.0,
+      "DepthSteps": 48.0,
+      "FoamSharpness": 4.0,
+      "BandStrength": 0.10000000149011612,
+      "HighlightStrength": 0.4399999976158142,
+      "OpacityBase": 0.6600000262260437,
+      "SpecularBase": 0.11999999731779099,
+      "SpecularGlint": 0.8500000238418579,
+      "RoughnessBase": 0.1899999976158142,
+      "RoughnessGlint": 0.07999999821186066
+    },
+    "vectors": {
+      "DeepColor": [
+        0.012000000104308128,
+        0.12999999523162842,
+        0.18000000715255737,
+        1.0
+      ],
+      "ShallowColor": [
+        0.05000000074505806,
+        0.3199999928474426,
+        0.3499999940395355,
+        1.0
+      ],
+      "FoamColor": [
+        0.5,
+        0.7300000190734863,
+        0.7400000095367432,
+        1.0
+      ],
+      "HighlightColor": [
+        0.6499999761581421,
+        0.8999999761581421,
+        0.9399999976158142,
+        1.0
+      ]
+    },
+    "textures": {
+      "RippleTex": "/Game/Village/Textures/Pixel/T_Water_Ripple.T_Water_Ripple"
+    }
+  },
+  {
+    "path": "/Game/Libregrove/Level_V8/Materials/MI_LG8_Wood.MI_LG8_Wood",
+    "root": "/Game/Village/Materials/M_PixelPropWA2.M_PixelPropWA2",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 75.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.7200000286102295,
+        0.5699999928474426,
+        0.3700000047683716,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_BC.T_Prop_WoodPlanks_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_N.T_Prop_WoodPlanks_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_ORM.T_Prop_WoodPlanks_Pixel_ORM"
+    }
+  },
+  {
+    "path": "/Game/Libregrove/Level_V8/Materials/MI_LG8_Timber.MI_LG8_Timber",
+    "root": "/Game/Village/Materials/M_PixelPropWA2.M_PixelPropWA2",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 90.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.5699999928474426,
+        0.41999998688697815,
+        0.2800000011920929,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_BC.T_Prop_Timber_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_N.T_Prop_Timber_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_ORM.T_Prop_Timber_Pixel_ORM"
+    }
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_FountainStone.MI_Prop_FountainStone",
+    "root": "/Game/Village/Materials/M_PixelPropWA2.M_PixelPropWA2",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 180.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.7200000286102295,
+        0.7099999785423279,
+        0.6800000071525574,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Fountain_BC.T_Fountain_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Fountain_N.T_Fountain_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Fountain_ORM.T_Fountain_ORM"
+    }
+  },
+  {
+    "path": "/Game/Village/Materials/MI_HD2D_Water.MI_HD2D_Water",
+    "root": "/Game/Village/Materials/M_HD2D_Water.M_HD2D_Water",
+    "scalars": {
+      "TileCm": 90.0,
+      "RippleScale": 0.6000000238418579,
+      "Ripple2Freq": 1.350000023841858,
+      "RippleSpeed": 0.07999999821186066,
+      "BandThreshold": 0.5,
+      "HighlightSharpness": 40.0,
+      "HighlightThreshold": 0.7400000095367432,
+      "ShallowDistance": 14.0,
+      "FoamWidth": 1.2000000476837158,
+      "DepthSteps": 3.0,
+      "FoamSharpness": 4.0,
+      "BandStrength": 0.3499999940395355,
+      "HighlightStrength": 0.30000001192092896,
+      "OpacityBase": 0.46000000834465027,
+      "SpecularBase": 0.11999999731779099,
+      "SpecularGlint": 0.8500000238418579,
+      "RoughnessBase": 0.3400000035762787,
+      "RoughnessGlint": 0.07999999821186066
+    },
+    "vectors": {
+      "DeepColor": [
+        0.02199999988079071,
+        0.07999999821186066,
+        0.10000000149011612,
+        1.0
+      ],
+      "ShallowColor": [
+        0.07500000298023224,
+        0.2150000035762787,
+        0.23000000417232513,
+        1.0
+      ],
+      "FoamColor": [
+        0.3400000035762787,
+        0.5,
+        0.5199999809265137,
+        1.0
+      ],
+      "HighlightColor": [
+        0.3799999952316284,
+        0.6000000238418579,
+        0.6299999952316284,
+        1.0
+      ]
+    },
+    "textures": {
+      "RippleTex": "/Game/Village/Textures/Pixel/T_Water_Ripple.T_Water_Ripple"
+    }
+  },
+  {
+    "path": "/Game/Libregrove/Level_V8/Materials/MI_LG8_Cobble.MI_LG8_Cobble",
+    "root": "/Game/Village/Materials/M_PixelPropWA2.M_PixelPropWA2",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 115.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.6800000071525574,
+        0.6700000166893005,
+        0.5699999928474426,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_BC.T_Cobblestone_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_N.T_Cobblestone_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Cobblestone_Pixel_ORM.T_Cobblestone_Pixel_ORM"
+    }
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Stone.MI_Prop_Stone",
+    "root": "/Game/Village/Materials/M_PixelPropWA2.M_PixelPropWA2",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 90.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.36000001430511475,
+        0.3799999952316284,
+        0.4000000059604645,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_BC.T_Prop_StoneBrick_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_N.T_Prop_StoneBrick_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_StoneBrick_Pixel_ORM.T_Prop_StoneBrick_Pixel_ORM"
+    }
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Materials/tripo_mat_dbac5f18.tripo_mat_dbac5f18",
+    "root": "/InterchangeAssets/gltf/Substrate/M_GLTF.M_GLTF",
+    "scalars": {
+      "BaseColorTexture_Rotation": 0.0,
+      "BaseColorTexture_TexCoord": 0.0,
+      "MetallicRoughnessTexture_Rotation": 0.0,
+      "MetallicRoughnessTexture_TexCoord": 0.0,
+      "MetallicFactor": 1.0,
+      "RoughnessFactor": 1.0,
+      "NormalTexture_Rotation": 0.0,
+      "NormalTexture_TexCoord": 0.0,
+      "NormalScale": 1.0,
+      "TransmissionTexture_Rotation": 0.0,
+      "TransmissionTexture_TexCoord": 0.0,
+      "TransmissionFactor": 0.0,
+      "OcclusionTexture_Rotation": 0.0,
+      "OcclusionTexture_TexCoord": 0.0,
+      "OcclusionStrength": 1.0,
+      "IOR": 1.5,
+      "SpecularTexture_Rotation": 0.0,
+      "SpecularTexture_TexCoord": 0.0,
+      "SpecularFactor": 1.0,
+      "AlphaCutoff": 0.0,
+      "AlphaMode": 0.0,
+      "IridescenceIOR": 1.2999999523162842,
+      "IridescenceFactor": 0.0,
+      "IridescenceThicknessMinimum": 100.0,
+      "IridescenceThicknessMaximum": 400.0,
+      "IridescenceTexture_Rotation": 0.0,
+      "IridescenceTexture_TexCoord": 0.0,
+      "IridescenceThicknessTexture_Rotation": 0.0,
+      "IridescenceThicknessTexture_TexCoord": 0.0,
+      "AnisotropyStrength": 0.0,
+      "AnisotropyRotation": 0.0,
+      "AnisotropyTexture_Rotation": 0.0,
+      "AnisotropyTexture_TexCoord": 0.0,
+      "SpecularColorTexture_Rotation": 0.0,
+      "SpecularColorTexture_TexCoord": 0.0,
+      "EmissiveTexture_Rotation": 0.0,
+      "EmissiveTexture_TexCoord": 0.0,
+      "EmissiveStrength": 1.0,
+      "SheenRoughnessFactor": 0.0,
+      "SheenColorTexture_Rotation": 0.0,
+      "SheenColorTexture_TexCoord": 0.0,
+      "SheenRoughnessTexture_Rotation": 0.0,
+      "SheenRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatFactor": 0.0,
+      "ClearCoatRoughnessFactor": 0.0,
+      "ClearCoatNormalScale": 1.0,
+      "ClearCoatTexture_Rotation": 0.0,
+      "ClearCoatTexture_TexCoord": 0.0,
+      "ClearCoatRoughnessTexture_Rotation": 0.0,
+      "ClearCoatRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatNormalTexture_Rotation": 0.0,
+      "ClearCoatNormalTexture_TexCoord": 0.0,
+      "DiffuseTexture_Rotation": 0.0,
+      "DiffuseTexture_TexCoord": 0.0,
+      "GlossinessFactor": 1.0,
+      "SpecularGlossinessTexture_Rotation": 0.0,
+      "SpecularGlossinessTexture_TexCoord": 0.0,
+      "ThicknessFactor": 0.0,
+      "ThicknessTexture_Rotation": 0.0,
+      "ThicknessTexture_TexCoord": 0.0,
+      "AttenuationDistance": 1.0
+    },
+    "vectors": {
+      "BaseColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "MetallicRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "NormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "TransmissionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "OcclusionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "MetallicRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "NormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "OcclusionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "TransmissionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "EmissiveTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "EmissiveFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "EmissiveTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenColorFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "SheenColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatNormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatNormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "DiffuseTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "SpecFactor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "AttenuationColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Textures/Color.Color",
+      "MetallicRoughnessTexture": "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Textures/tripo_image_dbac5f18_2-tripo_image_dbac5f18_1.tripo_image_dbac5f18_2-tripo_image_dbac5f18_1",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Textures/Normal.Normal",
+      "TransmissionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "OcclusionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "SpecularTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "IridescenceTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "IridescenceThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "AnisotropyTexture": "/InterchangeAssets/gltf/Textures/T_Anisotropy_Direction_Linear.T_Anisotropy_Direction_Linear",
+      "SpecularColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "EmissiveTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatNormalTexture": "/InterchangeAssets/gltf/Textures/T_Generic_N.T_Generic_N",
+      "DiffuseTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SpecularGlossinessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "ThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear"
+    }
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Timber.MI_Prop_Timber",
+    "root": "/Game/Village/Materials/M_PixelPropWA2.M_PixelPropWA2",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 60.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.5199999809265137,
+        0.4000000059604645,
+        0.28999999165534973,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_BC.T_Prop_Timber_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_N.T_Prop_Timber_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_Timber_Pixel_ORM.T_Prop_Timber_Pixel_ORM"
+    }
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Wood.MI_Prop_Wood",
+    "root": "/Game/Village/Materials/M_PixelPropWA2.M_PixelPropWA2",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 60.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.5199999809265137,
+        0.44999998807907104,
+        0.36000001430511475,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_BC.T_Prop_WoodPlanks_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_N.T_Prop_WoodPlanks_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_ORM.T_Prop_WoodPlanks_Pixel_ORM"
+    }
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Soil.MI_Prop_Soil",
+    "root": "/Game/Village/Materials/M_PixelPropWA2.M_PixelPropWA2",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 90.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.6200000047683716,
+        0.550000011920929,
+        0.44999998807907104,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_Soil_Pixel_BC.T_Prop_Soil_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_Soil_Pixel_N.T_Prop_Soil_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_Soil_Pixel_ORM.T_Prop_Soil_Pixel_ORM"
+    }
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Metal.MI_Prop_Metal",
+    "root": "/Game/Village/Materials/M_PixelPropWA2.M_PixelPropWA2",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 60.0,
+      "RoughnessMul": 0.6000000238418579,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.75,
+        0.75,
+        0.800000011920929,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_Metal_Pixel_BC.T_Prop_Metal_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_Metal_Pixel_N.T_Prop_Metal_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_Metal_Pixel_ORM.T_Prop_Metal_Pixel_ORM"
+    }
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Roof.MI_Prop_Roof",
+    "root": "/Game/Village/Materials/M_PixelPropWA2.M_PixelPropWA2",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 90.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.8799999952316284,
+        0.8799999952316284,
+        0.8199999928474426,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_RoofShingle_Pixel_BC.T_Prop_RoofShingle_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_RoofShingle_Pixel_N.T_Prop_RoofShingle_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_RoofShingle_Pixel_ORM.T_Prop_RoofShingle_Pixel_ORM"
+    }
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Rock.MI_Prop_Rock",
+    "root": "/Game/Village/Materials/M_PixelPropWA2.M_PixelPropWA2",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 320.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.47999998927116394,
+        0.49000000953674316,
+        0.4699999988079071,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Cliff_Rock_Pixel_BC.T_Cliff_Rock_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Cliff_Rock_Pixel_N.T_Cliff_Rock_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Cliff_Rock_Pixel_ORM.T_Cliff_Rock_Pixel_ORM"
+    }
+  },
+  {
+    "path": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Materials/tripo_mat_b18f59b5.tripo_mat_b18f59b5",
+    "root": "/InterchangeAssets/gltf/Substrate/M_GLTF.M_GLTF",
+    "scalars": {
+      "BaseColorTexture_Rotation": 0.0,
+      "BaseColorTexture_TexCoord": 0.0,
+      "MetallicRoughnessTexture_Rotation": 0.0,
+      "MetallicRoughnessTexture_TexCoord": 0.0,
+      "MetallicFactor": 1.0,
+      "RoughnessFactor": 1.0,
+      "NormalTexture_Rotation": 0.0,
+      "NormalTexture_TexCoord": 0.0,
+      "NormalScale": 1.0,
+      "TransmissionTexture_Rotation": 0.0,
+      "TransmissionTexture_TexCoord": 0.0,
+      "TransmissionFactor": 0.0,
+      "OcclusionTexture_Rotation": 0.0,
+      "OcclusionTexture_TexCoord": 0.0,
+      "OcclusionStrength": 1.0,
+      "IOR": 1.5,
+      "SpecularTexture_Rotation": 0.0,
+      "SpecularTexture_TexCoord": 0.0,
+      "SpecularFactor": 1.0,
+      "AlphaCutoff": 0.0,
+      "AlphaMode": 0.0,
+      "IridescenceIOR": 1.2999999523162842,
+      "IridescenceFactor": 0.0,
+      "IridescenceThicknessMinimum": 100.0,
+      "IridescenceThicknessMaximum": 400.0,
+      "IridescenceTexture_Rotation": 0.0,
+      "IridescenceTexture_TexCoord": 0.0,
+      "IridescenceThicknessTexture_Rotation": 0.0,
+      "IridescenceThicknessTexture_TexCoord": 0.0,
+      "AnisotropyStrength": 0.0,
+      "AnisotropyRotation": 0.0,
+      "AnisotropyTexture_Rotation": 0.0,
+      "AnisotropyTexture_TexCoord": 0.0,
+      "SpecularColorTexture_Rotation": 0.0,
+      "SpecularColorTexture_TexCoord": 0.0,
+      "EmissiveTexture_Rotation": 0.0,
+      "EmissiveTexture_TexCoord": 0.0,
+      "EmissiveStrength": 1.0,
+      "SheenRoughnessFactor": 0.0,
+      "SheenColorTexture_Rotation": 0.0,
+      "SheenColorTexture_TexCoord": 0.0,
+      "SheenRoughnessTexture_Rotation": 0.0,
+      "SheenRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatFactor": 0.0,
+      "ClearCoatRoughnessFactor": 0.0,
+      "ClearCoatNormalScale": 1.0,
+      "ClearCoatTexture_Rotation": 0.0,
+      "ClearCoatTexture_TexCoord": 0.0,
+      "ClearCoatRoughnessTexture_Rotation": 0.0,
+      "ClearCoatRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatNormalTexture_Rotation": 0.0,
+      "ClearCoatNormalTexture_TexCoord": 0.0,
+      "DiffuseTexture_Rotation": 0.0,
+      "DiffuseTexture_TexCoord": 0.0,
+      "GlossinessFactor": 1.0,
+      "SpecularGlossinessTexture_Rotation": 0.0,
+      "SpecularGlossinessTexture_TexCoord": 0.0,
+      "ThicknessFactor": 0.0,
+      "ThicknessTexture_Rotation": 0.0,
+      "ThicknessTexture_TexCoord": 0.0,
+      "AttenuationDistance": 1.0
+    },
+    "vectors": {
+      "BaseColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "MetallicRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "NormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "TransmissionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "OcclusionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "MetallicRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "NormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "OcclusionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "TransmissionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "EmissiveTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "EmissiveFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "EmissiveTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenColorFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "SheenColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatNormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatNormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "DiffuseTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "SpecFactor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "AttenuationColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Textures/Color.Color",
+      "MetallicRoughnessTexture": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Textures/tripo_image_b18f59b5_2-tripo_image_b18f59b5_1.tripo_image_b18f59b5_2-tripo_image_b18f59b5_1",
+      "NormalTexture": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Textures/Normal.Normal",
+      "TransmissionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "OcclusionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "SpecularTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "IridescenceTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "IridescenceThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "AnisotropyTexture": "/InterchangeAssets/gltf/Textures/T_Anisotropy_Direction_Linear.T_Anisotropy_Direction_Linear",
+      "SpecularColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "EmissiveTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatNormalTexture": "/InterchangeAssets/gltf/Textures/T_Generic_N.T_Generic_N",
+      "DiffuseTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SpecularGlossinessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "ThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear"
+    }
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Leaf.MI_Prop_Leaf",
+    "root": "/Game/Village/Materials/M_PixelPropWA2.M_PixelPropWA2",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 90.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 0.0
+    },
+    "vectors": {
+      "Tint": [
+        0.46000000834465027,
+        0.4399999976158142,
+        0.23999999463558197,
+        1.0
+      ],
+      "Emissive": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_Leaf_Pixel_BC.T_Prop_Leaf_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_Leaf_Pixel_N.T_Prop_Leaf_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_Leaf_Pixel_ORM.T_Prop_Leaf_Pixel_ORM"
+    }
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Materials/tripo_mat_eaa7130b.tripo_mat_eaa7130b",
+    "root": "/InterchangeAssets/gltf/Substrate/M_GLTF.M_GLTF",
+    "scalars": {
+      "BaseColorTexture_Rotation": 0.0,
+      "BaseColorTexture_TexCoord": 0.0,
+      "MetallicRoughnessTexture_Rotation": 0.0,
+      "MetallicRoughnessTexture_TexCoord": 0.0,
+      "MetallicFactor": 1.0,
+      "RoughnessFactor": 1.0,
+      "NormalTexture_Rotation": 0.0,
+      "NormalTexture_TexCoord": 0.0,
+      "NormalScale": 1.0,
+      "TransmissionTexture_Rotation": 0.0,
+      "TransmissionTexture_TexCoord": 0.0,
+      "TransmissionFactor": 0.0,
+      "OcclusionTexture_Rotation": 0.0,
+      "OcclusionTexture_TexCoord": 0.0,
+      "OcclusionStrength": 1.0,
+      "IOR": 1.5,
+      "SpecularTexture_Rotation": 0.0,
+      "SpecularTexture_TexCoord": 0.0,
+      "SpecularFactor": 1.0,
+      "AlphaCutoff": 0.0,
+      "AlphaMode": 0.0,
+      "IridescenceIOR": 1.2999999523162842,
+      "IridescenceFactor": 0.0,
+      "IridescenceThicknessMinimum": 100.0,
+      "IridescenceThicknessMaximum": 400.0,
+      "IridescenceTexture_Rotation": 0.0,
+      "IridescenceTexture_TexCoord": 0.0,
+      "IridescenceThicknessTexture_Rotation": 0.0,
+      "IridescenceThicknessTexture_TexCoord": 0.0,
+      "AnisotropyStrength": 0.0,
+      "AnisotropyRotation": 0.0,
+      "AnisotropyTexture_Rotation": 0.0,
+      "AnisotropyTexture_TexCoord": 0.0,
+      "SpecularColorTexture_Rotation": 0.0,
+      "SpecularColorTexture_TexCoord": 0.0,
+      "EmissiveTexture_Rotation": 0.0,
+      "EmissiveTexture_TexCoord": 0.0,
+      "EmissiveStrength": 1.0,
+      "SheenRoughnessFactor": 0.0,
+      "SheenColorTexture_Rotation": 0.0,
+      "SheenColorTexture_TexCoord": 0.0,
+      "SheenRoughnessTexture_Rotation": 0.0,
+      "SheenRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatFactor": 0.0,
+      "ClearCoatRoughnessFactor": 0.0,
+      "ClearCoatNormalScale": 1.0,
+      "ClearCoatTexture_Rotation": 0.0,
+      "ClearCoatTexture_TexCoord": 0.0,
+      "ClearCoatRoughnessTexture_Rotation": 0.0,
+      "ClearCoatRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatNormalTexture_Rotation": 0.0,
+      "ClearCoatNormalTexture_TexCoord": 0.0,
+      "DiffuseTexture_Rotation": 0.0,
+      "DiffuseTexture_TexCoord": 0.0,
+      "GlossinessFactor": 1.0,
+      "SpecularGlossinessTexture_Rotation": 0.0,
+      "SpecularGlossinessTexture_TexCoord": 0.0,
+      "ThicknessFactor": 0.0,
+      "ThicknessTexture_Rotation": 0.0,
+      "ThicknessTexture_TexCoord": 0.0,
+      "AttenuationDistance": 1.0
+    },
+    "vectors": {
+      "BaseColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "MetallicRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "NormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "TransmissionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "OcclusionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "MetallicRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "NormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "OcclusionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "TransmissionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "EmissiveTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "EmissiveFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "EmissiveTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenColorFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "SheenColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatNormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatNormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "DiffuseTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "SpecFactor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "AttenuationColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Textures/Color.Color",
+      "MetallicRoughnessTexture": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Textures/tripo_image_eaa7130b_2-tripo_image_eaa7130b_1.tripo_image_eaa7130b_2-tripo_image_eaa7130b_1",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Textures/Normal.Normal",
+      "TransmissionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "OcclusionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "SpecularTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "IridescenceTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "IridescenceThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "AnisotropyTexture": "/InterchangeAssets/gltf/Textures/T_Anisotropy_Direction_Linear.T_Anisotropy_Direction_Linear",
+      "SpecularColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "EmissiveTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatNormalTexture": "/InterchangeAssets/gltf/Textures/T_Generic_N.T_Generic_N",
+      "DiffuseTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SpecularGlossinessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "ThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear"
+    }
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Materials/tripo_mat_2439e2fa.tripo_mat_2439e2fa",
+    "root": "/InterchangeAssets/gltf/Substrate/M_GLTF.M_GLTF",
+    "scalars": {
+      "BaseColorTexture_Rotation": 0.0,
+      "BaseColorTexture_TexCoord": 0.0,
+      "MetallicRoughnessTexture_Rotation": 0.0,
+      "MetallicRoughnessTexture_TexCoord": 0.0,
+      "MetallicFactor": 1.0,
+      "RoughnessFactor": 1.0,
+      "NormalTexture_Rotation": 0.0,
+      "NormalTexture_TexCoord": 0.0,
+      "NormalScale": 1.0,
+      "TransmissionTexture_Rotation": 0.0,
+      "TransmissionTexture_TexCoord": 0.0,
+      "TransmissionFactor": 0.0,
+      "OcclusionTexture_Rotation": 0.0,
+      "OcclusionTexture_TexCoord": 0.0,
+      "OcclusionStrength": 1.0,
+      "IOR": 1.5,
+      "SpecularTexture_Rotation": 0.0,
+      "SpecularTexture_TexCoord": 0.0,
+      "SpecularFactor": 1.0,
+      "AlphaCutoff": 0.0,
+      "AlphaMode": 0.0,
+      "IridescenceIOR": 1.2999999523162842,
+      "IridescenceFactor": 0.0,
+      "IridescenceThicknessMinimum": 100.0,
+      "IridescenceThicknessMaximum": 400.0,
+      "IridescenceTexture_Rotation": 0.0,
+      "IridescenceTexture_TexCoord": 0.0,
+      "IridescenceThicknessTexture_Rotation": 0.0,
+      "IridescenceThicknessTexture_TexCoord": 0.0,
+      "AnisotropyStrength": 0.0,
+      "AnisotropyRotation": 0.0,
+      "AnisotropyTexture_Rotation": 0.0,
+      "AnisotropyTexture_TexCoord": 0.0,
+      "SpecularColorTexture_Rotation": 0.0,
+      "SpecularColorTexture_TexCoord": 0.0,
+      "EmissiveTexture_Rotation": 0.0,
+      "EmissiveTexture_TexCoord": 0.0,
+      "EmissiveStrength": 1.0,
+      "SheenRoughnessFactor": 0.0,
+      "SheenColorTexture_Rotation": 0.0,
+      "SheenColorTexture_TexCoord": 0.0,
+      "SheenRoughnessTexture_Rotation": 0.0,
+      "SheenRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatFactor": 0.0,
+      "ClearCoatRoughnessFactor": 0.0,
+      "ClearCoatNormalScale": 1.0,
+      "ClearCoatTexture_Rotation": 0.0,
+      "ClearCoatTexture_TexCoord": 0.0,
+      "ClearCoatRoughnessTexture_Rotation": 0.0,
+      "ClearCoatRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatNormalTexture_Rotation": 0.0,
+      "ClearCoatNormalTexture_TexCoord": 0.0,
+      "DiffuseTexture_Rotation": 0.0,
+      "DiffuseTexture_TexCoord": 0.0,
+      "GlossinessFactor": 1.0,
+      "SpecularGlossinessTexture_Rotation": 0.0,
+      "SpecularGlossinessTexture_TexCoord": 0.0,
+      "ThicknessFactor": 0.0,
+      "ThicknessTexture_Rotation": 0.0,
+      "ThicknessTexture_TexCoord": 0.0,
+      "AttenuationDistance": 1.0
+    },
+    "vectors": {
+      "BaseColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "MetallicRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "NormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "TransmissionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "OcclusionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "MetallicRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "NormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "OcclusionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "TransmissionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "EmissiveTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "EmissiveFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "EmissiveTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenColorFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "SheenColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatNormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatNormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "DiffuseTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "SpecFactor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "AttenuationColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Textures/Color.Color",
+      "MetallicRoughnessTexture": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Textures/tripo_image_2439e2fa_2-tripo_image_2439e2fa_1.tripo_image_2439e2fa_2-tripo_image_2439e2fa_1",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Textures/Normal.Normal",
+      "TransmissionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "OcclusionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "SpecularTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "IridescenceTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "IridescenceThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "AnisotropyTexture": "/InterchangeAssets/gltf/Textures/T_Anisotropy_Direction_Linear.T_Anisotropy_Direction_Linear",
+      "SpecularColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "EmissiveTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatNormalTexture": "/InterchangeAssets/gltf/Textures/T_Generic_N.T_Generic_N",
+      "DiffuseTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SpecularGlossinessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "ThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear"
+    }
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/Materials/tripo_mat_4b6b3464.tripo_mat_4b6b3464",
+    "root": "/InterchangeAssets/gltf/Substrate/M_GLTF.M_GLTF",
+    "scalars": {
+      "BaseColorTexture_Rotation": 0.0,
+      "BaseColorTexture_TexCoord": 0.0,
+      "MetallicRoughnessTexture_Rotation": 0.0,
+      "MetallicRoughnessTexture_TexCoord": 0.0,
+      "MetallicFactor": 1.0,
+      "RoughnessFactor": 1.0,
+      "NormalTexture_Rotation": 0.0,
+      "NormalTexture_TexCoord": 0.0,
+      "NormalScale": 1.0,
+      "TransmissionTexture_Rotation": 0.0,
+      "TransmissionTexture_TexCoord": 0.0,
+      "TransmissionFactor": 0.0,
+      "OcclusionTexture_Rotation": 0.0,
+      "OcclusionTexture_TexCoord": 0.0,
+      "OcclusionStrength": 1.0,
+      "IOR": 1.5,
+      "SpecularTexture_Rotation": 0.0,
+      "SpecularTexture_TexCoord": 0.0,
+      "SpecularFactor": 1.0,
+      "AlphaCutoff": 0.0,
+      "AlphaMode": 0.0,
+      "IridescenceIOR": 1.2999999523162842,
+      "IridescenceFactor": 0.0,
+      "IridescenceThicknessMinimum": 100.0,
+      "IridescenceThicknessMaximum": 400.0,
+      "IridescenceTexture_Rotation": 0.0,
+      "IridescenceTexture_TexCoord": 0.0,
+      "IridescenceThicknessTexture_Rotation": 0.0,
+      "IridescenceThicknessTexture_TexCoord": 0.0,
+      "AnisotropyStrength": 0.0,
+      "AnisotropyRotation": 0.0,
+      "AnisotropyTexture_Rotation": 0.0,
+      "AnisotropyTexture_TexCoord": 0.0,
+      "SpecularColorTexture_Rotation": 0.0,
+      "SpecularColorTexture_TexCoord": 0.0,
+      "EmissiveTexture_Rotation": 0.0,
+      "EmissiveTexture_TexCoord": 0.0,
+      "EmissiveStrength": 1.0,
+      "SheenRoughnessFactor": 0.0,
+      "SheenColorTexture_Rotation": 0.0,
+      "SheenColorTexture_TexCoord": 0.0,
+      "SheenRoughnessTexture_Rotation": 0.0,
+      "SheenRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatFactor": 0.0,
+      "ClearCoatRoughnessFactor": 0.0,
+      "ClearCoatNormalScale": 1.0,
+      "ClearCoatTexture_Rotation": 0.0,
+      "ClearCoatTexture_TexCoord": 0.0,
+      "ClearCoatRoughnessTexture_Rotation": 0.0,
+      "ClearCoatRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatNormalTexture_Rotation": 0.0,
+      "ClearCoatNormalTexture_TexCoord": 0.0,
+      "DiffuseTexture_Rotation": 0.0,
+      "DiffuseTexture_TexCoord": 0.0,
+      "GlossinessFactor": 1.0,
+      "SpecularGlossinessTexture_Rotation": 0.0,
+      "SpecularGlossinessTexture_TexCoord": 0.0,
+      "ThicknessFactor": 0.0,
+      "ThicknessTexture_Rotation": 0.0,
+      "ThicknessTexture_TexCoord": 0.0,
+      "AttenuationDistance": 1.0
+    },
+    "vectors": {
+      "BaseColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "MetallicRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "NormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "TransmissionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "OcclusionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "MetallicRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "NormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "OcclusionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "TransmissionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "EmissiveTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "EmissiveFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "EmissiveTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenColorFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "SheenColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatNormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatNormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "DiffuseTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "SpecFactor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "AttenuationColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/Textures/Color.Color",
+      "MetallicRoughnessTexture": "/Game/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/Textures/tripo_image_4b6b3464_2-tripo_image_4b6b3464_1.tripo_image_4b6b3464_2-tripo_image_4b6b3464_1",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/Textures/Normal.Normal",
+      "TransmissionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "OcclusionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "SpecularTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "IridescenceTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "IridescenceThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "AnisotropyTexture": "/InterchangeAssets/gltf/Textures/T_Anisotropy_Direction_Linear.T_Anisotropy_Direction_Linear",
+      "SpecularColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "EmissiveTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatNormalTexture": "/InterchangeAssets/gltf/Textures/T_Generic_N.T_Generic_N",
+      "DiffuseTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SpecularGlossinessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "ThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear"
+    }
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/Materials/tripo_mat_e1abc989.tripo_mat_e1abc989",
+    "root": "/InterchangeAssets/gltf/Substrate/M_GLTF.M_GLTF",
+    "scalars": {
+      "BaseColorTexture_Rotation": 0.0,
+      "BaseColorTexture_TexCoord": 0.0,
+      "MetallicRoughnessTexture_Rotation": 0.0,
+      "MetallicRoughnessTexture_TexCoord": 0.0,
+      "MetallicFactor": 1.0,
+      "RoughnessFactor": 1.0,
+      "NormalTexture_Rotation": 0.0,
+      "NormalTexture_TexCoord": 0.0,
+      "NormalScale": 1.0,
+      "TransmissionTexture_Rotation": 0.0,
+      "TransmissionTexture_TexCoord": 0.0,
+      "TransmissionFactor": 0.0,
+      "OcclusionTexture_Rotation": 0.0,
+      "OcclusionTexture_TexCoord": 0.0,
+      "OcclusionStrength": 1.0,
+      "IOR": 1.5,
+      "SpecularTexture_Rotation": 0.0,
+      "SpecularTexture_TexCoord": 0.0,
+      "SpecularFactor": 1.0,
+      "AlphaCutoff": 0.0,
+      "AlphaMode": 0.0,
+      "IridescenceIOR": 1.2999999523162842,
+      "IridescenceFactor": 0.0,
+      "IridescenceThicknessMinimum": 100.0,
+      "IridescenceThicknessMaximum": 400.0,
+      "IridescenceTexture_Rotation": 0.0,
+      "IridescenceTexture_TexCoord": 0.0,
+      "IridescenceThicknessTexture_Rotation": 0.0,
+      "IridescenceThicknessTexture_TexCoord": 0.0,
+      "AnisotropyStrength": 0.0,
+      "AnisotropyRotation": 0.0,
+      "AnisotropyTexture_Rotation": 0.0,
+      "AnisotropyTexture_TexCoord": 0.0,
+      "SpecularColorTexture_Rotation": 0.0,
+      "SpecularColorTexture_TexCoord": 0.0,
+      "EmissiveTexture_Rotation": 0.0,
+      "EmissiveTexture_TexCoord": 0.0,
+      "EmissiveStrength": 1.0,
+      "SheenRoughnessFactor": 0.0,
+      "SheenColorTexture_Rotation": 0.0,
+      "SheenColorTexture_TexCoord": 0.0,
+      "SheenRoughnessTexture_Rotation": 0.0,
+      "SheenRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatFactor": 0.0,
+      "ClearCoatRoughnessFactor": 0.0,
+      "ClearCoatNormalScale": 1.0,
+      "ClearCoatTexture_Rotation": 0.0,
+      "ClearCoatTexture_TexCoord": 0.0,
+      "ClearCoatRoughnessTexture_Rotation": 0.0,
+      "ClearCoatRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatNormalTexture_Rotation": 0.0,
+      "ClearCoatNormalTexture_TexCoord": 0.0,
+      "DiffuseTexture_Rotation": 0.0,
+      "DiffuseTexture_TexCoord": 0.0,
+      "GlossinessFactor": 1.0,
+      "SpecularGlossinessTexture_Rotation": 0.0,
+      "SpecularGlossinessTexture_TexCoord": 0.0,
+      "ThicknessFactor": 0.0,
+      "ThicknessTexture_Rotation": 0.0,
+      "ThicknessTexture_TexCoord": 0.0,
+      "AttenuationDistance": 1.0
+    },
+    "vectors": {
+      "BaseColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "MetallicRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "NormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "TransmissionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "OcclusionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "MetallicRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "NormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "OcclusionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "TransmissionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "EmissiveTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "EmissiveFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "EmissiveTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenColorFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "SheenColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatNormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatNormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "DiffuseTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "SpecFactor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "AttenuationColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/Textures/Color.Color",
+      "MetallicRoughnessTexture": "/Game/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/Textures/tripo_image_e1abc989_2-tripo_image_e1abc989_1.tripo_image_e1abc989_2-tripo_image_e1abc989_1",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/Textures/Normal.Normal",
+      "TransmissionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "OcclusionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "SpecularTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "IridescenceTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "IridescenceThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "AnisotropyTexture": "/InterchangeAssets/gltf/Textures/T_Anisotropy_Direction_Linear.T_Anisotropy_Direction_Linear",
+      "SpecularColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "EmissiveTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatNormalTexture": "/InterchangeAssets/gltf/Textures/T_Generic_N.T_Generic_N",
+      "DiffuseTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SpecularGlossinessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "ThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear"
+    }
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/Materials/tripo_mat_898ef2ed.tripo_mat_898ef2ed",
+    "root": "/InterchangeAssets/gltf/Substrate/M_GLTF.M_GLTF",
+    "scalars": {
+      "BaseColorTexture_Rotation": 0.0,
+      "BaseColorTexture_TexCoord": 0.0,
+      "MetallicRoughnessTexture_Rotation": 0.0,
+      "MetallicRoughnessTexture_TexCoord": 0.0,
+      "MetallicFactor": 1.0,
+      "RoughnessFactor": 1.0,
+      "NormalTexture_Rotation": 0.0,
+      "NormalTexture_TexCoord": 0.0,
+      "NormalScale": 1.0,
+      "TransmissionTexture_Rotation": 0.0,
+      "TransmissionTexture_TexCoord": 0.0,
+      "TransmissionFactor": 0.0,
+      "OcclusionTexture_Rotation": 0.0,
+      "OcclusionTexture_TexCoord": 0.0,
+      "OcclusionStrength": 1.0,
+      "IOR": 1.5,
+      "SpecularTexture_Rotation": 0.0,
+      "SpecularTexture_TexCoord": 0.0,
+      "SpecularFactor": 1.0,
+      "AlphaCutoff": 0.0,
+      "AlphaMode": 0.0,
+      "IridescenceIOR": 1.2999999523162842,
+      "IridescenceFactor": 0.0,
+      "IridescenceThicknessMinimum": 100.0,
+      "IridescenceThicknessMaximum": 400.0,
+      "IridescenceTexture_Rotation": 0.0,
+      "IridescenceTexture_TexCoord": 0.0,
+      "IridescenceThicknessTexture_Rotation": 0.0,
+      "IridescenceThicknessTexture_TexCoord": 0.0,
+      "AnisotropyStrength": 0.0,
+      "AnisotropyRotation": 0.0,
+      "AnisotropyTexture_Rotation": 0.0,
+      "AnisotropyTexture_TexCoord": 0.0,
+      "SpecularColorTexture_Rotation": 0.0,
+      "SpecularColorTexture_TexCoord": 0.0,
+      "EmissiveTexture_Rotation": 0.0,
+      "EmissiveTexture_TexCoord": 0.0,
+      "EmissiveStrength": 1.0,
+      "SheenRoughnessFactor": 0.0,
+      "SheenColorTexture_Rotation": 0.0,
+      "SheenColorTexture_TexCoord": 0.0,
+      "SheenRoughnessTexture_Rotation": 0.0,
+      "SheenRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatFactor": 0.0,
+      "ClearCoatRoughnessFactor": 0.0,
+      "ClearCoatNormalScale": 1.0,
+      "ClearCoatTexture_Rotation": 0.0,
+      "ClearCoatTexture_TexCoord": 0.0,
+      "ClearCoatRoughnessTexture_Rotation": 0.0,
+      "ClearCoatRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatNormalTexture_Rotation": 0.0,
+      "ClearCoatNormalTexture_TexCoord": 0.0,
+      "DiffuseTexture_Rotation": 0.0,
+      "DiffuseTexture_TexCoord": 0.0,
+      "GlossinessFactor": 1.0,
+      "SpecularGlossinessTexture_Rotation": 0.0,
+      "SpecularGlossinessTexture_TexCoord": 0.0,
+      "ThicknessFactor": 0.0,
+      "ThicknessTexture_Rotation": 0.0,
+      "ThicknessTexture_TexCoord": 0.0,
+      "AttenuationDistance": 1.0
+    },
+    "vectors": {
+      "BaseColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "MetallicRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "NormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "TransmissionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "OcclusionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "MetallicRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "NormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "OcclusionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "TransmissionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "EmissiveTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "EmissiveFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "EmissiveTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenColorFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "SheenColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatNormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatNormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "DiffuseTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "SpecFactor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "AttenuationColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/Textures/Color.Color",
+      "MetallicRoughnessTexture": "/Game/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/Textures/tripo_image_898ef2ed_2-tripo_image_898ef2ed_1.tripo_image_898ef2ed_2-tripo_image_898ef2ed_1",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/Textures/Normal.Normal",
+      "TransmissionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "OcclusionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "SpecularTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "IridescenceTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "IridescenceThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "AnisotropyTexture": "/InterchangeAssets/gltf/Textures/T_Anisotropy_Direction_Linear.T_Anisotropy_Direction_Linear",
+      "SpecularColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "EmissiveTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatNormalTexture": "/InterchangeAssets/gltf/Textures/T_Generic_N.T_Generic_N",
+      "DiffuseTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SpecularGlossinessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "ThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear"
+    }
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Materials/tripo_mat_f36ec94d.tripo_mat_f36ec94d",
+    "root": "/InterchangeAssets/gltf/Substrate/M_GLTF.M_GLTF",
+    "scalars": {
+      "BaseColorTexture_Rotation": 0.0,
+      "BaseColorTexture_TexCoord": 0.0,
+      "MetallicRoughnessTexture_Rotation": 0.0,
+      "MetallicRoughnessTexture_TexCoord": 0.0,
+      "MetallicFactor": 1.0,
+      "RoughnessFactor": 1.0,
+      "NormalTexture_Rotation": 0.0,
+      "NormalTexture_TexCoord": 0.0,
+      "NormalScale": 1.0,
+      "TransmissionTexture_Rotation": 0.0,
+      "TransmissionTexture_TexCoord": 0.0,
+      "TransmissionFactor": 0.0,
+      "OcclusionTexture_Rotation": 0.0,
+      "OcclusionTexture_TexCoord": 0.0,
+      "OcclusionStrength": 1.0,
+      "IOR": 1.5,
+      "SpecularTexture_Rotation": 0.0,
+      "SpecularTexture_TexCoord": 0.0,
+      "SpecularFactor": 1.0,
+      "AlphaCutoff": 0.0,
+      "AlphaMode": 0.0,
+      "IridescenceIOR": 1.2999999523162842,
+      "IridescenceFactor": 0.0,
+      "IridescenceThicknessMinimum": 100.0,
+      "IridescenceThicknessMaximum": 400.0,
+      "IridescenceTexture_Rotation": 0.0,
+      "IridescenceTexture_TexCoord": 0.0,
+      "IridescenceThicknessTexture_Rotation": 0.0,
+      "IridescenceThicknessTexture_TexCoord": 0.0,
+      "AnisotropyStrength": 0.0,
+      "AnisotropyRotation": 0.0,
+      "AnisotropyTexture_Rotation": 0.0,
+      "AnisotropyTexture_TexCoord": 0.0,
+      "SpecularColorTexture_Rotation": 0.0,
+      "SpecularColorTexture_TexCoord": 0.0,
+      "EmissiveTexture_Rotation": 0.0,
+      "EmissiveTexture_TexCoord": 0.0,
+      "EmissiveStrength": 1.0,
+      "SheenRoughnessFactor": 0.0,
+      "SheenColorTexture_Rotation": 0.0,
+      "SheenColorTexture_TexCoord": 0.0,
+      "SheenRoughnessTexture_Rotation": 0.0,
+      "SheenRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatFactor": 0.0,
+      "ClearCoatRoughnessFactor": 0.0,
+      "ClearCoatNormalScale": 1.0,
+      "ClearCoatTexture_Rotation": 0.0,
+      "ClearCoatTexture_TexCoord": 0.0,
+      "ClearCoatRoughnessTexture_Rotation": 0.0,
+      "ClearCoatRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatNormalTexture_Rotation": 0.0,
+      "ClearCoatNormalTexture_TexCoord": 0.0,
+      "DiffuseTexture_Rotation": 0.0,
+      "DiffuseTexture_TexCoord": 0.0,
+      "GlossinessFactor": 1.0,
+      "SpecularGlossinessTexture_Rotation": 0.0,
+      "SpecularGlossinessTexture_TexCoord": 0.0,
+      "ThicknessFactor": 0.0,
+      "ThicknessTexture_Rotation": 0.0,
+      "ThicknessTexture_TexCoord": 0.0,
+      "AttenuationDistance": 1.0
+    },
+    "vectors": {
+      "BaseColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "MetallicRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "NormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "TransmissionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "OcclusionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "MetallicRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "NormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "OcclusionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "TransmissionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "EmissiveTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "EmissiveFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "EmissiveTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenColorFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "SheenColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatNormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatNormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "DiffuseTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "SpecFactor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "AttenuationColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Textures/Color.Color",
+      "MetallicRoughnessTexture": "/Game/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Textures/tripo_image_f36ec94d_2-tripo_image_f36ec94d_1.tripo_image_f36ec94d_2-tripo_image_f36ec94d_1",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Textures/Normal.Normal",
+      "TransmissionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "OcclusionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "SpecularTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "IridescenceTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "IridescenceThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "AnisotropyTexture": "/InterchangeAssets/gltf/Textures/T_Anisotropy_Direction_Linear.T_Anisotropy_Direction_Linear",
+      "SpecularColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "EmissiveTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatNormalTexture": "/InterchangeAssets/gltf/Textures/T_Generic_N.T_Generic_N",
+      "DiffuseTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SpecularGlossinessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "ThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear"
+    }
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/Materials/tripo_mat_8d15cca3.tripo_mat_8d15cca3",
+    "root": "/InterchangeAssets/gltf/Substrate/M_GLTF.M_GLTF",
+    "scalars": {
+      "BaseColorTexture_Rotation": 0.0,
+      "BaseColorTexture_TexCoord": 0.0,
+      "MetallicRoughnessTexture_Rotation": 0.0,
+      "MetallicRoughnessTexture_TexCoord": 0.0,
+      "MetallicFactor": 1.0,
+      "RoughnessFactor": 1.0,
+      "NormalTexture_Rotation": 0.0,
+      "NormalTexture_TexCoord": 0.0,
+      "NormalScale": 1.0,
+      "TransmissionTexture_Rotation": 0.0,
+      "TransmissionTexture_TexCoord": 0.0,
+      "TransmissionFactor": 0.0,
+      "OcclusionTexture_Rotation": 0.0,
+      "OcclusionTexture_TexCoord": 0.0,
+      "OcclusionStrength": 1.0,
+      "IOR": 1.5,
+      "SpecularTexture_Rotation": 0.0,
+      "SpecularTexture_TexCoord": 0.0,
+      "SpecularFactor": 1.0,
+      "AlphaCutoff": 0.0,
+      "AlphaMode": 0.0,
+      "IridescenceIOR": 1.2999999523162842,
+      "IridescenceFactor": 0.0,
+      "IridescenceThicknessMinimum": 100.0,
+      "IridescenceThicknessMaximum": 400.0,
+      "IridescenceTexture_Rotation": 0.0,
+      "IridescenceTexture_TexCoord": 0.0,
+      "IridescenceThicknessTexture_Rotation": 0.0,
+      "IridescenceThicknessTexture_TexCoord": 0.0,
+      "AnisotropyStrength": 0.0,
+      "AnisotropyRotation": 0.0,
+      "AnisotropyTexture_Rotation": 0.0,
+      "AnisotropyTexture_TexCoord": 0.0,
+      "SpecularColorTexture_Rotation": 0.0,
+      "SpecularColorTexture_TexCoord": 0.0,
+      "EmissiveTexture_Rotation": 0.0,
+      "EmissiveTexture_TexCoord": 0.0,
+      "EmissiveStrength": 1.0,
+      "SheenRoughnessFactor": 0.0,
+      "SheenColorTexture_Rotation": 0.0,
+      "SheenColorTexture_TexCoord": 0.0,
+      "SheenRoughnessTexture_Rotation": 0.0,
+      "SheenRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatFactor": 0.0,
+      "ClearCoatRoughnessFactor": 0.0,
+      "ClearCoatNormalScale": 1.0,
+      "ClearCoatTexture_Rotation": 0.0,
+      "ClearCoatTexture_TexCoord": 0.0,
+      "ClearCoatRoughnessTexture_Rotation": 0.0,
+      "ClearCoatRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatNormalTexture_Rotation": 0.0,
+      "ClearCoatNormalTexture_TexCoord": 0.0,
+      "DiffuseTexture_Rotation": 0.0,
+      "DiffuseTexture_TexCoord": 0.0,
+      "GlossinessFactor": 1.0,
+      "SpecularGlossinessTexture_Rotation": 0.0,
+      "SpecularGlossinessTexture_TexCoord": 0.0,
+      "ThicknessFactor": 0.0,
+      "ThicknessTexture_Rotation": 0.0,
+      "ThicknessTexture_TexCoord": 0.0,
+      "AttenuationDistance": 1.0
+    },
+    "vectors": {
+      "BaseColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "MetallicRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "NormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "TransmissionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "OcclusionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "MetallicRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "NormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "OcclusionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "TransmissionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "EmissiveTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "EmissiveFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "EmissiveTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenColorFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "SheenColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatNormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatNormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "DiffuseTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "SpecFactor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "AttenuationColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/Textures/Color.Color",
+      "MetallicRoughnessTexture": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/Textures/tripo_image_8d15cca3_2-tripo_image_8d15cca3_1.tripo_image_8d15cca3_2-tripo_image_8d15cca3_1",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/Textures/Normal.Normal",
+      "TransmissionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "OcclusionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "SpecularTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "IridescenceTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "IridescenceThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "AnisotropyTexture": "/InterchangeAssets/gltf/Textures/T_Anisotropy_Direction_Linear.T_Anisotropy_Direction_Linear",
+      "SpecularColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "EmissiveTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatNormalTexture": "/InterchangeAssets/gltf/Textures/T_Generic_N.T_Generic_N",
+      "DiffuseTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SpecularGlossinessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "ThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear"
+    }
+  },
+  {
+    "path": "/Game/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/Materials/tripo_mat_399e5018.tripo_mat_399e5018",
+    "root": "/InterchangeAssets/gltf/Substrate/M_GLTF.M_GLTF",
+    "scalars": {
+      "BaseColorTexture_Rotation": 0.0,
+      "BaseColorTexture_TexCoord": 0.0,
+      "MetallicRoughnessTexture_Rotation": 0.0,
+      "MetallicRoughnessTexture_TexCoord": 0.0,
+      "MetallicFactor": 1.0,
+      "RoughnessFactor": 1.0,
+      "NormalTexture_Rotation": 0.0,
+      "NormalTexture_TexCoord": 0.0,
+      "NormalScale": 1.0,
+      "TransmissionTexture_Rotation": 0.0,
+      "TransmissionTexture_TexCoord": 0.0,
+      "TransmissionFactor": 0.0,
+      "OcclusionTexture_Rotation": 0.0,
+      "OcclusionTexture_TexCoord": 0.0,
+      "OcclusionStrength": 1.0,
+      "IOR": 1.5,
+      "SpecularTexture_Rotation": 0.0,
+      "SpecularTexture_TexCoord": 0.0,
+      "SpecularFactor": 1.0,
+      "AlphaCutoff": 0.0,
+      "AlphaMode": 0.0,
+      "IridescenceIOR": 1.2999999523162842,
+      "IridescenceFactor": 0.0,
+      "IridescenceThicknessMinimum": 100.0,
+      "IridescenceThicknessMaximum": 400.0,
+      "IridescenceTexture_Rotation": 0.0,
+      "IridescenceTexture_TexCoord": 0.0,
+      "IridescenceThicknessTexture_Rotation": 0.0,
+      "IridescenceThicknessTexture_TexCoord": 0.0,
+      "AnisotropyStrength": 0.0,
+      "AnisotropyRotation": 0.0,
+      "AnisotropyTexture_Rotation": 0.0,
+      "AnisotropyTexture_TexCoord": 0.0,
+      "SpecularColorTexture_Rotation": 0.0,
+      "SpecularColorTexture_TexCoord": 0.0,
+      "EmissiveTexture_Rotation": 0.0,
+      "EmissiveTexture_TexCoord": 0.0,
+      "EmissiveStrength": 1.0,
+      "SheenRoughnessFactor": 0.0,
+      "SheenColorTexture_Rotation": 0.0,
+      "SheenColorTexture_TexCoord": 0.0,
+      "SheenRoughnessTexture_Rotation": 0.0,
+      "SheenRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatFactor": 0.0,
+      "ClearCoatRoughnessFactor": 0.0,
+      "ClearCoatNormalScale": 1.0,
+      "ClearCoatTexture_Rotation": 0.0,
+      "ClearCoatTexture_TexCoord": 0.0,
+      "ClearCoatRoughnessTexture_Rotation": 0.0,
+      "ClearCoatRoughnessTexture_TexCoord": 0.0,
+      "ClearCoatNormalTexture_Rotation": 0.0,
+      "ClearCoatNormalTexture_TexCoord": 0.0,
+      "DiffuseTexture_Rotation": 0.0,
+      "DiffuseTexture_TexCoord": 0.0,
+      "GlossinessFactor": 1.0,
+      "SpecularGlossinessTexture_Rotation": 0.0,
+      "SpecularGlossinessTexture_TexCoord": 0.0,
+      "ThicknessFactor": 0.0,
+      "ThicknessTexture_Rotation": 0.0,
+      "ThicknessTexture_TexCoord": 0.0,
+      "AttenuationDistance": 1.0
+    },
+    "vectors": {
+      "BaseColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "MetallicRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "NormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "TransmissionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "OcclusionTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "BaseColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "MetallicRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "NormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "OcclusionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "TransmissionTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "AnisotropyTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SpecularColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularColorFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "IridescenceTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "IridescenceThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "EmissiveTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "EmissiveFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "EmissiveTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenColorFactor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "SheenColorTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "SheenColorTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SheenRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatNormalTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ClearCoatRoughnessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatNormalTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ClearCoatTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "DiffuseTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseFactor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "SpecFactor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "DiffuseTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "SpecularGlossinessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ThicknessTexture_OffsetScale": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "ThicknessTexture_TilingMethod": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "AttenuationColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    "textures": {
+      "BaseColorTexture": "/Game/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/Textures/Color.Color",
+      "MetallicRoughnessTexture": "/Game/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/Textures/tripo_image_399e5018_2-tripo_image_399e5018_1.tripo_image_399e5018_2-tripo_image_399e5018_1",
+      "NormalTexture": "/Game/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/Textures/Normal.Normal",
+      "TransmissionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "OcclusionTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "SpecularTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "IridescenceTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "IridescenceThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "AnisotropyTexture": "/InterchangeAssets/gltf/Textures/T_Anisotropy_Direction_Linear.T_Anisotropy_Direction_Linear",
+      "SpecularColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "EmissiveTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenColorTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SheenRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatRoughnessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear",
+      "ClearCoatNormalTexture": "/InterchangeAssets/gltf/Textures/T_Generic_N.T_Generic_N",
+      "DiffuseTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "SpecularGlossinessTexture": "/InterchangeAssets/gltf/Textures/T_White_srgb.T_White_srgb",
+      "ThicknessTexture": "/InterchangeAssets/gltf/Textures/T_White_Linear.T_White_Linear"
+    }
+  },
+  {
+    "path": "/Game/Village/Materials/Props/MI_Prop_Glow.MI_Prop_Glow",
+    "root": "/Game/Village/Materials/M_PixelPropWA2.M_PixelPropWA2",
+    "scalars": {
+      "CameraFadeAmount": 0.0,
+      "TileCm": 90.0,
+      "RoughnessMul": 1.0,
+      "EmissiveStrength": 5.0
+    },
+    "vectors": {
+      "Tint": [
+        0.949999988079071,
+        0.6000000238418579,
+        0.23999999463558197,
+        1.0
+      ],
+      "Emissive": [
+        1.0,
+        0.550000011920929,
+        0.18000000715255737,
+        1.0
+      ]
+    },
+    "textures": {
+      "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_Plaster_Pixel_BC.T_Prop_Plaster_Pixel_BC",
+      "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_Plaster_Pixel_N.T_Prop_Plaster_Pixel_N",
+      "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_Plaster_Pixel_ORM.T_Prop_Plaster_Pixel_ORM"
+    }
+  },
+  {
+    "path": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Materials/tripo_mat_dbfe09e0.tripo_mat_dbfe09e0",
+    "root": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Materials/tripo_mat_dbfe09e0.tripo_mat_dbfe09e0",
+    "scalars": {},
+    "vectors": {},
+    "textures": {}
+  },
+  {
+    "path": "/Game/Libregrove/Level_V8/Materials/M_LG8_Waterfall.M_LG8_Waterfall",
+    "root": "/Game/Libregrove/Level_V8/Materials/M_LG8_Waterfall.M_LG8_Waterfall",
+    "scalars": {},
+    "vectors": {},
+    "textures": {
+      "FlowNoise": "/Game/Village/Textures/Pixel/T_Water_Ripple.T_Water_Ripple"
+    }
+  }
+]

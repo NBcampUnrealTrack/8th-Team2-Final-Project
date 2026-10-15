@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "source_log": "editor_render_crash_0735.log",
+  "observed_lines": [
+    "[2026.09.05-07.18.25:268][240]LogPython: EPILOGUE END True <Object '/Game/Maps/UEDPIE_0_L_Cindehearth.L_Cindehearth:PersistentLevel.BP_TestFieldCharacter_C_0' (0x000001EA23660A00) Class 'BP_TestFieldCharacter_C'> False False",
+    "[2026.09.05-07.18.28:258][249]LogPython: ARCHIVE FLOOR <Struct 'Vector' (0x000001E983B10EC0) {x: 1395.000000, y: 350.000000, z: 29.000000}> <Struct 'FindFloorResult' (0x000001EA4E79B888) {blocking_hit: True, walkable_floor: True, line_trace: True, floor_dist: 4.550001, line_dist: -24.000000, hit_result: {}}>",
+    "[2026.09.05-07.18.28:268][249]LogPython: ARCHIVE EXIT <Struct 'Vector' (0x000001E983B10EC0) {x: 1300.000000, y: 292.500000, z: 215.000000}>"
+  ]
+}

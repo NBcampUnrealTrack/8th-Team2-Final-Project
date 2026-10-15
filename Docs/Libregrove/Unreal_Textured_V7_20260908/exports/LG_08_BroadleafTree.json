@@ -1,0 +1,153 @@
+{
+  "id": "LG_08_BroadleafTree",
+  "name_ko": "리베르그로브 활엽수",
+  "source_name": "LG_08_BroadleafTree.fbx",
+  "output_name": "SM_LG_08_BroadleafTree_V7",
+  "source_fingerprint": "8416a431628f281cab688b6119321d233ef90db2990dffff2f2c229ac4049c48",
+  "output_report": {
+    "object": {
+      "name": "SM_LG_08_BroadleafTree_V7",
+      "type": "MESH",
+      "data_name": "SM_LG_08_BroadleafTree_V7_Mesh",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        4.9998650550842285,
+        4.9101457595825195,
+        4.5
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "collections": [
+        "Collection"
+      ]
+    },
+    "fingerprint": "98721fac7dc0ff654952d048af0f26881700e82beec2dbc3a150d088ff22fce5",
+    "geometry": {
+      "vertices": 5685,
+      "edges": 16991,
+      "polygons": 11303,
+      "triangles": 11303,
+      "ngons": 0,
+      "loose_vertices": 0,
+      "loose_edges": 0,
+      "zero_length_edges": 0,
+      "boundary_edges": 73,
+      "wire_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "invalid_face_normals": 0,
+      "non_finite_vertices": 0
+    },
+    "bounds": {
+      "local_min": [
+        -2.4999325275421143,
+        -2.4550728797912598,
+        0.0
+      ],
+      "local_max": [
+        2.4999325275421143,
+        2.4550728797912598,
+        4.5
+      ],
+      "world_min": [
+        -2.4999325275421143,
+        -2.4550728797912598,
+        0.0
+      ],
+      "world_max": [
+        2.4999325275421143,
+        2.4550728797912598,
+        4.5
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "tripo_mat_dbfe09e0"
+      }
+    ],
+    "uv_layers": [
+      {
+        "name": "UVMap",
+        "active": true,
+        "active_render": true,
+        "loop_count": 33909,
+        "bounds_min": [
+          0.001953125,
+          0.001953125
+        ],
+        "bounds_max": [
+          0.994384765625,
+          0.994873046875
+        ],
+        "out_of_zero_one_range": 0,
+        "non_finite": 0,
+        "degenerate_faces": 0
+      }
+    ],
+    "modifiers": [],
+    "quality": {
+      "passed": true,
+      "score": 94,
+      "blockers": [],
+      "warnings": [
+        {
+          "code": "non_manifold_geometry",
+          "message": "Mesh contains boundary, wire, or non-manifold edges."
+        }
+      ],
+      "requirements": {}
+    }
+  },
+  "scale_factor": 4.999864369998644,
+  "dimensions_cm": [
+    499.98650550842285,
+    491.01457595825195,
+    450.0
+  ],
+  "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_08_BroadleafTree_V7.glb",
+  "sha256": "088524fd7b9a1bbaa33794d24ba45cd947088cc8ba320993568a3841694b22fd",
+  "recommended_vertex_max": 3400,
+  "initial_triangle_budget": 5500,
+  "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree",
+  "geometry_uv_unchanged_except_uniform_scale": true
+}

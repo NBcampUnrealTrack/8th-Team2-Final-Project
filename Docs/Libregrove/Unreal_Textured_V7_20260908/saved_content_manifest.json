@@ -1,0 +1,204 @@
+{
+  "files": [
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Textures/LG_01_Cottage_A_fbx_basecolor.LG_01_Cottage_A_fbx_basecolor",
+      "class": "Texture2D",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_01_Cottage_A\\Textures\\LG_01_Cottage_A_fbx_basecolor.uasset",
+      "bytes": 14343523,
+      "sha256": "0d5039825320475303167ce5431144ddcaf163ba39c9ed60eabc4201debb1082"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Materials/tripo_mat_e34f3563.tripo_mat_e34f3563",
+      "class": "Material",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_01_Cottage_A\\Materials\\tripo_mat_e34f3563.uasset",
+      "bytes": 58794,
+      "sha256": "22589150dd3b6eb5cdc904e256a7a0ebbe98794ff84b6d0c1dabb691251988f9"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_01_Cottage_A/StaticMeshes/SM_LG_01_Cottage_A_V7.SM_LG_01_Cottage_A_V7",
+      "class": "StaticMesh",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_01_Cottage_A\\StaticMeshes\\SM_LG_01_Cottage_A_V7.uasset",
+      "bytes": 289204,
+      "sha256": "08c7cba316fad2d82a3ff4e71fa29cdd8947f19a34dcc7325193e943445e30b8"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/Textures/LG_02_Inn_fbx_basecolor.LG_02_Inn_fbx_basecolor",
+      "class": "Texture2D",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_02_Inn\\Textures\\LG_02_Inn_fbx_basecolor.uasset",
+      "bytes": 5145943,
+      "sha256": "a312a08cca42b2adff74b55a58edb6f97aaab71bbfca5e99995786a216aee0a0"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/Materials/tripo_mat_f544a036.tripo_mat_f544a036",
+      "class": "Material",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_02_Inn\\Materials\\tripo_mat_f544a036.uasset",
+      "bytes": 57781,
+      "sha256": "1e5ba4dcfa6ef4e7131a2f9e1fa131d1d0d149c49c47fe9f1ec9d7da74d079bc"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_02_Inn/StaticMeshes/SM_LG_02_Inn_V7.SM_LG_02_Inn_V7",
+      "class": "StaticMesh",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_02_Inn\\StaticMeshes\\SM_LG_02_Inn_V7.uasset",
+      "bytes": 497350,
+      "sha256": "cf083abf02f10b914747ee321803b300f6765f21862fe3339c2f75a71add529c"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/Textures/LG_03_VillageHall_fbx_basecolor.LG_03_VillageHall_fbx_basecolor",
+      "class": "Texture2D",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_03_VillageHall\\Textures\\LG_03_VillageHall_fbx_basecolor.uasset",
+      "bytes": 4326883,
+      "sha256": "a144969f3828b1ecf40f7acce101e1ad63e4dce1b4d91b1bd40941e828bf3850"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/Materials/tripo_mat_7a88dfe0.tripo_mat_7a88dfe0",
+      "class": "Material",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_03_VillageHall\\Materials\\tripo_mat_7a88dfe0.uasset",
+      "bytes": 58605,
+      "sha256": "0acf9dba5bb63bd7fd3a337c7d65f1c6f6a108d9adb6d1bd4f12bc60dac24502"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/StaticMeshes/SM_LG_03_VillageHall_V7.SM_LG_03_VillageHall_V7",
+      "class": "StaticMesh",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_03_VillageHall\\StaticMeshes\\SM_LG_03_VillageHall_V7.uasset",
+      "bytes": 545881,
+      "sha256": "e3ddf3c4598c77ea39139db9dcba2d1a173ac0f626a3b37facaf291394e16df9"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/Textures/LG_04_Workshop_fbx_basecolor.LG_04_Workshop_fbx_basecolor",
+      "class": "Texture2D",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_04_Workshop\\Textures\\LG_04_Workshop_fbx_basecolor.uasset",
+      "bytes": 4102518,
+      "sha256": "904017a881cbe4483de30d9a76f4d5bccc5cedb70090fbc8ec3c313a00315de0"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/Materials/tripo_mat_317b1c2b.tripo_mat_317b1c2b",
+      "class": "Material",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_04_Workshop\\Materials\\tripo_mat_317b1c2b.uasset",
+      "bytes": 57770,
+      "sha256": "f98b50d010847209c737d4671eef5622e0d22f10ba5a7dd776c304721c39e4ae"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_04_Workshop/StaticMeshes/SM_LG_04_Workshop_V7.SM_LG_04_Workshop_V7",
+      "class": "StaticMesh",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_04_Workshop\\StaticMeshes\\SM_LG_04_Workshop_V7.uasset",
+      "bytes": 463400,
+      "sha256": "4f0653f628eb65adc94545324f13dd6162e5c09cf9c40ac127685e08ae71335c"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/Textures/LG_05_WatermillHouse_fbx_basecolor.LG_05_WatermillHouse_fbx_basecolor",
+      "class": "Texture2D",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_05_WatermillHouse\\Textures\\LG_05_WatermillHouse_fbx_basecolor.uasset",
+      "bytes": 4671059,
+      "sha256": "8568087a28848d5b9440b9549a028d4ae88de3e4c1be05a756f40e1bf2384622"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/Materials/tripo_mat_12da9820.tripo_mat_12da9820",
+      "class": "Material",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_05_WatermillHouse\\Materials\\tripo_mat_12da9820.uasset",
+      "bytes": 58086,
+      "sha256": "7a4f985a7b3bfe5551d66e0257aefaa71f3d4e3e1d18c40651e5bb4efaef0de8"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/StaticMeshes/SM_LG_05_WatermillHouse_V7.SM_LG_05_WatermillHouse_V7",
+      "class": "StaticMesh",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_05_WatermillHouse\\StaticMeshes\\SM_LG_05_WatermillHouse_V7.uasset",
+      "bytes": 563628,
+      "sha256": "78e5d891c9478b97b8a2fd4b4ed30c3ddc64f987a5575ed80e489361f610b767"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/Textures/LG_06_NaiaShelter_fbx_basecolor.LG_06_NaiaShelter_fbx_basecolor",
+      "class": "Texture2D",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_06_NaiaShelter\\Textures\\LG_06_NaiaShelter_fbx_basecolor.uasset",
+      "bytes": 4932250,
+      "sha256": "5867978542e6c584d5048f0b5e464f453778b7280803d8f706c266caba47cdef"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/Materials/tripo_mat_6029c87e.tripo_mat_6029c87e",
+      "class": "Material",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_06_NaiaShelter\\Materials\\tripo_mat_6029c87e.uasset",
+      "bytes": 58395,
+      "sha256": "39d4e0f1c6cb732fc80f30bef81a2bf1060a10ec2ee12b24e0a29a2249bdd761"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/StaticMeshes/SM_LG_06_NaiaShelter_V7.SM_LG_06_NaiaShelter_V7",
+      "class": "StaticMesh",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_06_NaiaShelter\\StaticMeshes\\SM_LG_06_NaiaShelter_V7.uasset",
+      "bytes": 267886,
+      "sha256": "47a69cd66ae51768aa157b9f08713cb03478da67f37f180b034f032cc7cf9970"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Textures/LG_07_Sanctuary_fbx_basecolor.LG_07_Sanctuary_fbx_basecolor",
+      "class": "Texture2D",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_07_Sanctuary\\Textures\\LG_07_Sanctuary_fbx_basecolor.uasset",
+      "bytes": 4754345,
+      "sha256": "9ac4fbf85d80c24df866bc9ef6e455d594bbfeb09eb0e5bcaddfd2f0f0f792a4"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Materials/tripo_mat_50ec2d11.tripo_mat_50ec2d11",
+      "class": "Material",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_07_Sanctuary\\Materials\\tripo_mat_50ec2d11.uasset",
+      "bytes": 58968,
+      "sha256": "7bcced3c8513d94ba1ac52edb57bd7d4d87cce730394366b69812ebe02f5456b"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_07_Sanctuary/StaticMeshes/SM_LG_07_Sanctuary_V7.SM_LG_07_Sanctuary_V7",
+      "class": "StaticMesh",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_07_Sanctuary\\StaticMeshes\\SM_LG_07_Sanctuary_V7.uasset",
+      "bytes": 612078,
+      "sha256": "f38dcda61d4889d1871027fe7665ca86b68a7829d22bf468acf109edced72900"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Textures/LG_08_BroadleafTree_fbx_basecolor.LG_08_BroadleafTree_fbx_basecolor",
+      "class": "Texture2D",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_08_BroadleafTree\\Textures\\LG_08_BroadleafTree_fbx_basecolor.uasset",
+      "bytes": 6152364,
+      "sha256": "83d6d7425d019b6ef2c0962d539d7fc517d9fd4adebdf6a398207cd46fbc5718"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Materials/tripo_mat_dbfe09e0.tripo_mat_dbfe09e0",
+      "class": "Material",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_08_BroadleafTree\\Materials\\tripo_mat_dbfe09e0.uasset",
+      "bytes": 58152,
+      "sha256": "3f188b2080bfe7d19df4d19577bae427c186fcd4467cbe09c6bfdd65c28e0de7"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/StaticMeshes/SM_LG_08_BroadleafTree_V7.SM_LG_08_BroadleafTree_V7",
+      "class": "StaticMesh",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_08_BroadleafTree\\StaticMeshes\\SM_LG_08_BroadleafTree_V7.uasset",
+      "bytes": 440037,
+      "sha256": "76438f53ac08d1af38decde8cb540ddad10f6d08a15303c54a43910dccd7551d"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Textures/LG_09_MarketStall_fbx_basecolor.LG_09_MarketStall_fbx_basecolor",
+      "class": "Texture2D",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_09_MarketStall\\Textures\\LG_09_MarketStall_fbx_basecolor.uasset",
+      "bytes": 2980326,
+      "sha256": "ddb8a891d75173b5f037ce95a695e5edb2be1ca82b5226aff2b825e92ad71b2e"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/Materials/tripo_mat_62cb0827.tripo_mat_62cb0827",
+      "class": "Material",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_09_MarketStall\\Materials\\tripo_mat_62cb0827.uasset",
+      "bytes": 57478,
+      "sha256": "eb6b4f9c0179d8676f5995b06a9d0592c21553d28cf82418e20af48971b58b9e"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall/StaticMeshes/SM_LG_09_MarketStall_V7.SM_LG_09_MarketStall_V7",
+      "class": "StaticMesh",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Models\\LG_09_MarketStall\\StaticMeshes\\SM_LG_09_MarketStall_V7.uasset",
+      "bytes": 115237,
+      "sha256": "cd8a0d1fff62af8d0f06b61ab217e75792e0469aee6b9090a32ddfda0acd5baf"
+    },
+    {
+      "asset_path": "/Game/Libregrove/Textured_V7/Maps/L_Libregrove_AssetReview_V7",
+      "class": "World",
+      "file": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Content\\Libregrove\\Textured_V7\\Maps\\L_Libregrove_AssetReview_V7.umap",
+      "bytes": 65847,
+      "sha256": "3b3bbffc53f18695d5bb1e4bd68dd20705ffe72518129ad37f6baebd3e726bcd"
+    }
+  ],
+  "original_level_unchanged": true,
+  "source_backup_sha256": "1f4f3a87f1dfe12db568b7befe3c7e6ebfdc131c5bfd3e4491d8a9e786e622b8",
+  "working_blend_sha256": "64be4e246aba87b8ef23cb6d39a6b2fae7954c0616058c06f9d583ed33060b50",
+  "passed": true
+}

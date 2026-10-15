@@ -1,0 +1,466 @@
+{
+  "structures": [
+    {
+      "name": "WestSorting",
+      "kind": "workshop",
+      "center": [
+        -1117.6,
+        1742,
+        315
+      ],
+      "yaw": -90,
+      "world_size": [
+        300,
+        220,
+        210
+      ],
+      "old_yard": "West",
+      "purpose": "Covered ore grading and bagging bay"
+    },
+    {
+      "name": "EastTimber",
+      "kind": "workshop",
+      "center": [
+        1657.4,
+        1608,
+        315
+      ],
+      "yaw": -90,
+      "world_size": [
+        300,
+        220,
+        210
+      ],
+      "old_yard": "East",
+      "purpose": "Pit-prop timber repair and chain stores"
+    },
+    {
+      "name": "ToolRepair",
+      "kind": "workshop",
+      "center": [
+        -1102.8,
+        294.8,
+        157.5
+      ],
+      "yaw": -90,
+      "world_size": [
+        300,
+        220,
+        210
+      ],
+      "old_yard": "Smithy",
+      "purpose": "Cold tool repairs beside the forge square"
+    },
+    {
+      "name": "CrewRoom",
+      "kind": "store",
+      "center": [
+        -1770,
+        2250,
+        315
+      ],
+      "yaw": 180,
+      "house_factor": 1.05,
+      "world_size": [
+        292.1,
+        255.2,
+        245.7
+      ],
+      "purpose": "Miners changing room close to the work terrace"
+    },
+    {
+      "name": "LampStore",
+      "kind": "store",
+      "center": [
+        2050,
+        2320,
+        315
+      ],
+      "yaw": 180,
+      "house_factor": 0.9,
+      "world_size": [
+        250.3,
+        218.7,
+        210.6
+      ],
+      "purpose": "Lamp fuel and spare equipment store"
+    },
+    {
+      "name": "AssayPacking",
+      "kind": "store",
+      "center": [
+        1900,
+        -260,
+        157.5
+      ],
+      "yaw": 90,
+      "house_factor": 1.0,
+      "world_size": [
+        243,
+        278.1,
+        234
+      ],
+      "purpose": "Packing and outgoing sample store east of the assay"
+    }
+  ],
+  "props": [
+    {
+      "label": "CH_D4_Work_WestSorting_Crate0",
+      "key": "Crate",
+      "center_bottom": [
+        -1225.6,
+        1584,
+        315
+      ],
+      "size": [
+        58,
+        54,
+        46
+      ],
+      "yaw": -6
+    },
+    {
+      "label": "CH_D4_Work_WestSorting_Barrel1",
+      "key": "Barrel",
+      "center_bottom": [
+        -1011.5999999999999,
+        1587,
+        315
+      ],
+      "size": [
+        46,
+        46,
+        54
+      ],
+      "yaw": 12
+    },
+    {
+      "label": "CH_D4_Work_WestSorting_ToolRack2",
+      "key": "ToolRack",
+      "center_bottom": [
+        -1253.6,
+        1767,
+        368
+      ],
+      "size": [
+        14,
+        36,
+        44
+      ],
+      "yaw": 0
+    },
+    {
+      "label": "CH_D4_Work_EastTimber_Crate0",
+      "key": "Crate",
+      "center_bottom": [
+        1549.4,
+        1450,
+        315
+      ],
+      "size": [
+        58,
+        54,
+        46
+      ],
+      "yaw": -6
+    },
+    {
+      "label": "CH_D4_Work_EastTimber_Barrel1",
+      "key": "Barrel",
+      "center_bottom": [
+        1763.4,
+        1453,
+        315
+      ],
+      "size": [
+        46,
+        46,
+        54
+      ],
+      "yaw": 12
+    },
+    {
+      "label": "CH_D4_Work_EastTimber_ToolRack2",
+      "key": "ToolRack",
+      "center_bottom": [
+        1521.4,
+        1633,
+        368
+      ],
+      "size": [
+        14,
+        36,
+        44
+      ],
+      "yaw": 0
+    },
+    {
+      "label": "CH_D4_Work_ToolRepair_Crate0",
+      "key": "Crate",
+      "center_bottom": [
+        -1210.8,
+        136.8,
+        157.5
+      ],
+      "size": [
+        58,
+        54,
+        46
+      ],
+      "yaw": -6
+    },
+    {
+      "label": "CH_D4_Work_ToolRepair_Barrel1",
+      "key": "Barrel",
+      "center_bottom": [
+        -996.8,
+        139.8,
+        157.5
+      ],
+      "size": [
+        46,
+        46,
+        54
+      ],
+      "yaw": 12
+    },
+    {
+      "label": "CH_D4_Work_ToolRepair_ToolRack2",
+      "key": "ToolRack",
+      "center_bottom": [
+        -1238.8,
+        319.8,
+        210.5
+      ],
+      "size": [
+        14,
+        36,
+        44
+      ],
+      "yaw": 0
+    },
+    {
+      "label": "CH_D4_Work_CrewRoom_Crate0",
+      "key": "Crate",
+      "center_bottom": [
+        -1880,
+        2084,
+        315
+      ],
+      "size": [
+        54,
+        50,
+        48
+      ],
+      "yaw": 8
+    },
+    {
+      "label": "CH_D4_Work_CrewRoom_Barrel1",
+      "key": "Barrel",
+      "center_bottom": [
+        -1660,
+        2090,
+        315
+      ],
+      "size": [
+        44,
+        44,
+        52
+      ],
+      "yaw": -8
+    },
+    {
+      "label": "CH_D4_Work_CrewRoom_ToolRack2",
+      "key": "ToolRack",
+      "center_bottom": [
+        -1687,
+        2131,
+        384
+      ],
+      "size": [
+        14,
+        34,
+        43
+      ],
+      "yaw": -90
+    },
+    {
+      "label": "CH_D4_Work_LampStore_Crate0",
+      "key": "Crate",
+      "center_bottom": [
+        1940,
+        2154,
+        315
+      ],
+      "size": [
+        54,
+        50,
+        48
+      ],
+      "yaw": 8
+    },
+    {
+      "label": "CH_D4_Work_LampStore_Barrel1",
+      "key": "Barrel",
+      "center_bottom": [
+        2160,
+        2160,
+        315
+      ],
+      "size": [
+        44,
+        44,
+        52
+      ],
+      "yaw": -8
+    },
+    {
+      "label": "CH_D4_Work_LampStore_ToolRack2",
+      "key": "ToolRack",
+      "center_bottom": [
+        2133,
+        2201,
+        384
+      ],
+      "size": [
+        14,
+        34,
+        43
+      ],
+      "yaw": -90
+    },
+    {
+      "label": "CH_D4_Work_AssayPacking_Crate0",
+      "key": "Crate",
+      "center_bottom": [
+        1732,
+        -366,
+        157.5
+      ],
+      "size": [
+        54,
+        50,
+        48
+      ],
+      "yaw": 90
+    },
+    {
+      "label": "CH_D4_Work_AssayPacking_Barrel1",
+      "key": "Barrel",
+      "center_bottom": [
+        1738,
+        -152,
+        157.5
+      ],
+      "size": [
+        44,
+        44,
+        52
+      ],
+      "yaw": 8
+    },
+    {
+      "label": "CH_D4_Work_AssayPacking_ToolRack2",
+      "key": "ToolRack",
+      "center_bottom": [
+        1781,
+        -180,
+        226.5
+      ],
+      "size": [
+        14,
+        34,
+        43
+      ],
+      "yaw": 180
+    }
+  ],
+  "source": "Existing repaired P2 SmithyStructure/SmithyRoof/SmithyWalls and accepted Gorm-house base",
+  "scope": "Three canopy replacements plus three non-quest storage/crew buildings; no additional dwellings or residents",
+  "route_clearance": {
+    "conflicts": [],
+    "clearance_margin_cm": 72,
+    "route_count": 14,
+    "meaning": "Analytical route-footprint clearance only; not a physics or visual QA result"
+  },
+  "hide_labels": [
+    "CH_Crate_15_Source",
+    "CH_Crate_15_Source_P3",
+    "CH_HD2D_Yard_East_Crate0",
+    "CH_HD2D_Yard_East_Crate1",
+    "CH_HD2D_Yard_East_Crate2",
+    "CH_HD2D_Yard_East_Crate3",
+    "CH_HD2D_Yard_East_Crate4",
+    "CH_HD2D_Yard_East_Crate5",
+    "CH_HD2D_Yard_East_Crate6",
+    "CH_HD2D_Yard_East_Post0",
+    "CH_HD2D_Yard_East_Post1",
+    "CH_HD2D_Yard_East_Post2",
+    "CH_HD2D_Yard_East_Post3",
+    "CH_HD2D_Yard_East_Roof",
+    "CH_HD2D_Yard_Smithy_Crate0",
+    "CH_HD2D_Yard_Smithy_Crate1",
+    "CH_HD2D_Yard_Smithy_Crate2",
+    "CH_HD2D_Yard_Smithy_Crate3",
+    "CH_HD2D_Yard_Smithy_Crate4",
+    "CH_HD2D_Yard_Smithy_Crate5",
+    "CH_HD2D_Yard_Smithy_Crate6",
+    "CH_HD2D_Yard_Smithy_Post0",
+    "CH_HD2D_Yard_Smithy_Post1",
+    "CH_HD2D_Yard_Smithy_Post2",
+    "CH_HD2D_Yard_Smithy_Post3",
+    "CH_HD2D_Yard_Smithy_Roof",
+    "CH_HD2D_Yard_West_Crate0",
+    "CH_HD2D_Yard_West_Crate1",
+    "CH_HD2D_Yard_West_Crate2",
+    "CH_HD2D_Yard_West_Crate3",
+    "CH_HD2D_Yard_West_Crate4",
+    "CH_HD2D_Yard_West_Crate5",
+    "CH_HD2D_Yard_West_Crate6",
+    "CH_HD2D_Yard_West_Post0",
+    "CH_HD2D_Yard_West_Post1",
+    "CH_HD2D_Yard_West_Post2",
+    "CH_HD2D_Yard_West_Post3",
+    "CH_HD2D_Yard_West_Roof",
+    "CH_Scree_013",
+    "CH_Scree_013_HD2D",
+    "CH_Scree_023",
+    "CH_Scree_023_HD2D",
+    "CH_Scree_042",
+    "CH_Scree_042_HD2D",
+    "CH_Scree_045",
+    "CH_Scree_045_HD2D",
+    "CH_Scree_048",
+    "CH_Scree_048_HD2D",
+    "CH_Scree_055",
+    "CH_Scree_055_HD2D",
+    "CH_Scree_056",
+    "CH_Scree_056_HD2D",
+    "CH_Scree_070",
+    "CH_Scree_070_HD2D",
+    "CH_Scree_087",
+    "CH_Scree_087_HD2D",
+    "CH_Scree_101",
+    "CH_Scree_101_HD2D",
+    "CH_Scree_108",
+    "CH_Scree_108_HD2D",
+    "CH_Scree_109",
+    "CH_Scree_109_HD2D"
+  ],
+  "clear_generic_families": [
+    "CH_Crate_15",
+    "CH_Scree_013",
+    "CH_Scree_023",
+    "CH_Scree_042",
+    "CH_Scree_045",
+    "CH_Scree_048",
+    "CH_Scree_055",
+    "CH_Scree_056",
+    "CH_Scree_070",
+    "CH_Scree_087",
+    "CH_Scree_101",
+    "CH_Scree_108",
+    "CH_Scree_109"
+  ],
+  "status": "proposal_only"
+}

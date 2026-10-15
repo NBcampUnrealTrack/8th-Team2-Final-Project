@@ -1,0 +1,18 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Tavern_Caps006.blend",
+  "object_name": "CH_Dense_Tavern_Caps006",
+  "expected_fingerprint": "2b0216dc27a75efe3c08229537edafd12b190aab1fd48ebe4bd23e4a20e5f7ab",
+  "output_object_name": "CH_Dense_Tavern_WallFront007",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Tavern_WallFront007.blend",
+  "operation": "cap_polygon",
+  "selection_ids": [
+    36,
+    1094,
+    1175,
+    139
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "dense_arch_tavern_WallFront007"
+}

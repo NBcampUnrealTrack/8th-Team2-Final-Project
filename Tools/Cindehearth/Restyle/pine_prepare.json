@@ -1,0 +1,1 @@
+{"source_object_name": "CH_RestylePine_REF___tripo_node_e7b0faa4", "output_object_name": "CH_Pine_Game_v001", "operations": [{"type": "transform_object", "rotation_degrees": [0, 0, 0]}, {"type": "transform_vertices", "rotation_degrees": [0, 0, 90], "scale": [2.70132, 2.70132, 2.70132], "translation": [0, 0, 1.35]}, {"type": "delete_loose"}]}

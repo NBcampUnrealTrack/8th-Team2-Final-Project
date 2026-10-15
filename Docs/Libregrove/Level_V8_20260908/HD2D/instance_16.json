@@ -1,0 +1,54 @@
+{
+  "source": "/Game/Village/Materials/MI_HD2D_Water.MI_HD2D_Water",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_HD2D_Water_47df8.MI_HD2D_HD2D_Water_47df8",
+  "kind": "Water",
+  "scalars": {
+    "TileCm": 90.0,
+    "RippleScale": 0.6000000238418579,
+    "Ripple2Freq": 1.350000023841858,
+    "RippleSpeed": 0.07999999821186066,
+    "BandThreshold": 0.5,
+    "HighlightSharpness": 40.0,
+    "HighlightThreshold": 0.7400000095367432,
+    "ShallowDistance": 14.0,
+    "FoamWidth": 1.2000000476837158,
+    "DepthSteps": 3.0,
+    "FoamSharpness": 4.0,
+    "BandStrength": 0.3499999940395355,
+    "HighlightStrength": 0.30000001192092896,
+    "OpacityBase": 0.46000000834465027,
+    "SpecularBase": 0.11999999731779099,
+    "SpecularGlint": 0.8500000238418579,
+    "RoughnessBase": 0.3400000035762787,
+    "RoughnessGlint": 0.07999999821186066
+  },
+  "vectors": {
+    "DeepColor": [
+      0.02199999988079071,
+      0.07999999821186066,
+      0.10000000149011612,
+      1.0
+    ],
+    "ShallowColor": [
+      0.07500000298023224,
+      0.2150000035762787,
+      0.23000000417232513,
+      1.0
+    ],
+    "FoamColor": [
+      0.3400000035762787,
+      0.5,
+      0.5199999809265137,
+      1.0
+    ],
+    "HighlightColor": [
+      0.3799999952316284,
+      0.6000000238418579,
+      0.6299999952316284,
+      1.0
+    ]
+  },
+  "textures": {
+    "RippleTex": "/Game/Village/Textures/Pixel/T_Water_Ripple.T_Water_Ripple"
+  }
+}

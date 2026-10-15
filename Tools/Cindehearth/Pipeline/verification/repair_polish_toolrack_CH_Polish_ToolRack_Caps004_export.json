@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "polish_toolrack_CH_Polish_ToolRack_Caps004_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_toolrack_CH_Polish_ToolRack_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_toolrack_CH_Polish_ToolRack_Caps004_export"
+  },
+  {
+    "job_id": "polish_toolrack_CH_Polish_ToolRack_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_toolrack_CH_Polish_ToolRack_Caps004_export"
+  },
+  {
+    "job_id": "polish_toolrack_CH_Polish_ToolRack_Caps004_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_ToolRack_Caps004.glb",
+      "format": "glb",
+      "bytes": 3718560,
+      "object_names": [
+        "CH_Polish_ToolRack_Caps004"
+      ],
+      "fingerprints": {
+        "CH_Polish_ToolRack_Caps004": "d4ad280d79f57c78fc02692f2a8f51171576f2527067f89eb012879145af4de2"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

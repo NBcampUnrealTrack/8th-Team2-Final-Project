@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "status": "complete",
+  "run_id": "routes_v004b",
+  "started": "2026-09-05T18:31:22.898784",
+  "full_suite": false,
+  "routes": [
+    {
+      "route": "ashslope",
+      "passed": true,
+      "waypoints": 10
+    },
+    {
+      "route": "deepvein",
+      "passed": true,
+      "waypoints": 6
+    },
+    {
+      "route": "pinehollow",
+      "passed": true,
+      "waypoints": 5
+    },
+    {
+      "route": "gorm",
+      "passed": true,
+      "waypoints": 8
+    },
+    {
+      "route": "stairs_lower_west",
+      "passed": true,
+      "waypoints": 4
+    },
+    {
+      "route": "stairs_lower_east",
+      "passed": true,
+      "waypoints": 4
+    },
+    {
+      "route": "stairs_upper_west",
+      "passed": true,
+      "waypoints": 4
+    },
+    {
+      "route": "stairs_upper_east",
+      "passed": true,
+      "waypoints": 4
+    },
+    {
+      "route": "smithy_approach",
+      "passed": true,
+      "waypoints": 4
+    },
+    {
+      "route": "tavern_approach",
+      "passed": true,
+      "waypoints": 4
+    },
+    {
+      "route": "housing_north_alley",
+      "passed": true,
+      "waypoints": 5
+    },
+    {
+      "route": "housing_middle_alley",
+      "passed": true,
+      "waypoints": 4
+    }
+  ],
+  "completed_stages": [
+    "states",
+    "archive_anchors",
+    "archive_enter",
+    "archive_lower_floor_exit",
+    "archive_upper_floor",
+    "epilogue_start",
+    "epilogue_end",
+    "camera_verify"
+  ],
+  "finished": "2026-09-05T18:33:36.633974"
+}

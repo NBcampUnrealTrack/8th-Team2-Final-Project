@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"asset_name\": \"CH_GormHouse_Tripo_v001\",\n  \"request_id\": \"CH_GormHouse_20260905_v001\",\n  \"kind\": \"image\",\n  \"parameters\": {\n    \"image\": \"C:\\\\Users\\\\Ndus_072\\\\RevDevTool\\\\RevStudio-ProjectM\\\\Tools\\\\Cindehearth\\\\Pipeline\\\\reference\\\\GormHouse_v001.png\",\n    \"face_limit\": 20000,\n    \"model_version\": \"v3.1-20260211\",\n    \"texture\": true,\n    \"pbr\": true,\n    \"texture_quality\": \"standard\",\n    \"auto_size\": false,\n    \"quad\": false,\n    \"export_uv\": true\n  },\n  \"status\": \"submitted\",\n  \"task_id\": \"1000c101-304e-4bf3-87a0-f5706d905714\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

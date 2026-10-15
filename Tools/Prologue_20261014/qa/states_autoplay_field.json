@@ -1,0 +1,4 @@
+[{"shot": "f0_select", "py": "select_in_field.py", "wait": 2.5, "frames": 30},
+ {"shot": "f1_6s", "py": "stamp.py", "wait": 4.0, "frames": 10},
+ {"shot": "f2_44s", "py": "stamp.py", "wait": 37.0, "frames": 10},
+ {"shot": "f3_end", "py": "stamp.py", "wait": 28.0, "frames": 10}]

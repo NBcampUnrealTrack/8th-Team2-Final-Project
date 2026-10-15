@@ -1,0 +1,45 @@
+{
+  "candidate": "Cindehearth_PixelFire_Soot_v003",
+  "status": "APPLIED_REVIEW_CANDIDATE",
+  "user_approved": false,
+  "system": null,
+  "niagara": false,
+  "material_paths": [
+    "/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelFire.M_CH_PixelFire",
+    "/Game/Cindehearth/HD2D_v002/Materials/M_CH_PixelSmoke.M_CH_PixelSmoke"
+  ],
+  "primary": {
+    "form": "Upright orange fire tongue",
+    "geometry": "3 crossed planes at hearth, 2 at forge",
+    "timing": "10 fps UV quantization, continuous loop"
+  },
+  "secondary": {
+    "form": "Muted rising soot",
+    "geometry": "56 translucent planes",
+    "timing": "4 staggered phases, smooth fade at both ends of 7.14-second rise",
+    "bounds_scale": 5
+  },
+  "source_mesh": "/Engine/BasicShapes/Plane",
+  "shared_originals_unchanged": true,
+  "gates": {
+    "structural": "PASS: 5 fire / 56 smoke, materials compile",
+    "runtime": "PASS: visible in level and state captures",
+    "pixel": "PASS: upright silhouette and warm base in final viewport",
+    "aesthetic": "ASSISTANT_REVIEWED: fire primary, subdued soot secondary",
+    "archetype": "ASSISTANT_REVIEWED: persistent hearth and mining-village chimney smoke"
+  },
+  "candidate_history": [
+    "Old solid flame core rejected",
+    "Inverted UV flame rejected",
+    "Upright current flame selected for user review"
+  ],
+  "performance": {
+    "static_triangles": 122,
+    "gpu_timing_ms": null,
+    "shipping_profiled": false
+  },
+  "captures": [
+    "verification/final_viewport/CH_Restyle_final_square_day.png",
+    "verification/final_viewport/CH_Restyle_final_square_night.png"
+  ]
+}

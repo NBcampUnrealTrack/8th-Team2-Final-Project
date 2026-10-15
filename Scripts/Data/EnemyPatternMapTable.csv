@@ -1,0 +1,3 @@
+﻿Name,NaiaId,PatternId,FallbackAbilityId,ConcedeHealthRatio,ConcedeAnimation,ConcedeLoopAnimation
+4001,4001,P_SelfHealAtHalf,NU.Ability.Battle.BasicAttack,0,,
+1701,1701,P_Bramblecore_Lv10,NU.Ability.Battle.BasicAttack,0.25,/Game/Art/Sprites/Naia/1701_Bramblecore/PZA_Bramblecore_Lower.PZA_Bramblecore_Lower,/Game/Art/Sprites/Naia/1701_Bramblecore/PZA_Bramblecore_Prewake.PZA_Bramblecore_Prewake

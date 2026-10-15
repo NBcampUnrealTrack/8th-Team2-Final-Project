@@ -1,0 +1,21 @@
+{
+  "name": "T_Boss2_ParryCue",
+  "blend": "Additive",
+  "frame_w": 256,
+  "frame_h": 256,
+  "cols": 4,
+  "rows": 4,
+  "frames": 16,
+  "fps": 30,
+  "loop": false,
+  "pivot_px": [
+    128,
+    128
+  ],
+  "pivot_uv": [
+    0.5,
+    0.5
+  ],
+  "screen_scale_1080p": 1.0,
+  "note": "패링 입력창 시작 순간 뿌리 끝에서 1회"
+}

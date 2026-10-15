@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "gorm_repair_export_glb_001",
+    "state": "running"
+  },
+  {
+    "job_id": "gorm_repair_export_glb_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\gorm_repair_export_glb_001"
+  },
+  {
+    "job_id": "gorm_repair_export_glb_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\gorm_repair_export_glb_001"
+  },
+  {
+    "job_id": "gorm_repair_export_glb_001",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Export\\CH_GormP2_Clean_v003.glb",
+      "format": "glb",
+      "bytes": 5167480,
+      "object_names": [
+        "CH_GormP2_Clean_v003"
+      ],
+      "fingerprints": {
+        "CH_GormP2_Clean_v003": "515b9e93cb8abbed179516a501cafce00d08314489c0c55087ab4ec962086084"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

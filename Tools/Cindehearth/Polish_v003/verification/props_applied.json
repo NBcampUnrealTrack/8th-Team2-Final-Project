@@ -1,0 +1,1279 @@
+[
+  {
+    "module": "Table",
+    "source": "CH_FeastTable_0",
+    "created": "CH_FeastTable_0_P3",
+    "hidden": [
+      "CH_FeastTable_0_Timber",
+      "CH_FeastTable_0_Iron",
+      "CH_FeastTable_0_Stone",
+      "CH_FeastTable_0_Brass"
+    ]
+  },
+  {
+    "module": "Table",
+    "source": "CH_FeastTable_1",
+    "created": "CH_FeastTable_1_P3",
+    "hidden": [
+      "CH_FeastTable_1_Timber",
+      "CH_FeastTable_1_Iron",
+      "CH_FeastTable_1_Stone",
+      "CH_FeastTable_1_Brass"
+    ]
+  },
+  {
+    "module": "Table",
+    "source": "CH_FeastTable_2",
+    "created": "CH_FeastTable_2_P3",
+    "hidden": [
+      "CH_FeastTable_2_Timber",
+      "CH_FeastTable_2_Iron",
+      "CH_FeastTable_2_Stone",
+      "CH_FeastTable_2_Brass"
+    ]
+  },
+  {
+    "module": "Table",
+    "source": "CH_FeastTable_3",
+    "created": "CH_FeastTable_3_P3",
+    "hidden": [
+      "CH_FeastTable_3_Timber",
+      "CH_FeastTable_3_Iron",
+      "CH_FeastTable_3_Stone",
+      "CH_FeastTable_3_Brass"
+    ]
+  },
+  {
+    "module": "Table",
+    "source": "CH_FeastTable_4",
+    "created": "CH_FeastTable_4_P3",
+    "hidden": [
+      "CH_FeastTable_4_Timber",
+      "CH_FeastTable_4_Iron",
+      "CH_FeastTable_4_Stone",
+      "CH_FeastTable_4_Brass"
+    ]
+  },
+  {
+    "module": "Notice",
+    "source": "CH_GormNoticeboard",
+    "created": "CH_GormNoticeboard_P3",
+    "hidden": [
+      "CH_GormNoticeboard_Timber",
+      "CH_GormNoticeboard_Paper"
+    ]
+  },
+  {
+    "module": "ShiftBell",
+    "source": "CH_ShiftBell",
+    "created": "CH_ShiftBell_P3",
+    "hidden": [
+      "CH_ShiftBell_Iron",
+      "CH_ShiftBell_Brass"
+    ]
+  },
+  {
+    "module": "Forge",
+    "source": "CH_WorkingForge",
+    "created": "CH_WorkingForge_P3",
+    "hidden": [
+      "CH_WorkingForge_Stone",
+      "CH_WorkingForge_Dark",
+      "CH_WorkingForge_Flame",
+      "CH_WorkingForge_Iron",
+      "CH_WorkingForge_Brass"
+    ]
+  },
+  {
+    "module": "Anvil",
+    "source": "CH_Anvil",
+    "created": "CH_Anvil_P3",
+    "hidden": [
+      "CH_Anvil_Stone",
+      "CH_Anvil_Iron"
+    ]
+  },
+  {
+    "module": "StoneNaia",
+    "source": "CH_BellowsNaia",
+    "created": "CH_BellowsNaia_P3",
+    "hidden": [
+      "CH_BellowsNaia_Rock",
+      "CH_BellowsNaia_StoneLight",
+      "CH_BellowsNaia_NaiaGlow"
+    ]
+  },
+  {
+    "module": "AssayDesk",
+    "source": "CH_AssayWorktable",
+    "created": "CH_AssayWorktable_P3",
+    "hidden": [
+      "CH_AssayWorktable_Timber",
+      "CH_AssayWorktable_Iron",
+      "CH_AssayWorktable_Brass"
+    ]
+  },
+  {
+    "module": "Bed",
+    "source": "CH_ClinicCot_28",
+    "created": "CH_ClinicCot_28_P3",
+    "hidden": [
+      "CH_ClinicCot_28_Timber",
+      "CH_ClinicCot_28_Cloth",
+      "CH_ClinicCot_28_Paper"
+    ]
+  },
+  {
+    "module": "Bed",
+    "source": "CH_ClinicCot_34",
+    "created": "CH_ClinicCot_34_P3",
+    "hidden": [
+      "CH_ClinicCot_34_Timber",
+      "CH_ClinicCot_34_Cloth",
+      "CH_ClinicCot_34_Paper"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_GormHouse_ToolSign",
+    "created": "CH_GormHouse_ToolSign_P3",
+    "hidden": [
+      "CH_GormHouse_ToolSign_Timber",
+      "CH_GormHouse_ToolSign_Iron",
+      "CH_GormHouse_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_01_ToolSign",
+    "created": "CH_MinersHome_01_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_01_ToolSign_Timber",
+      "CH_MinersHome_01_ToolSign_Iron",
+      "CH_MinersHome_01_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_02_ToolSign",
+    "created": "CH_MinersHome_02_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_02_ToolSign_Timber",
+      "CH_MinersHome_02_ToolSign_Iron",
+      "CH_MinersHome_02_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_03_ToolSign",
+    "created": "CH_MinersHome_03_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_03_ToolSign_Timber",
+      "CH_MinersHome_03_ToolSign_Iron",
+      "CH_MinersHome_03_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_04_ToolSign",
+    "created": "CH_MinersHome_04_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_04_ToolSign_Timber",
+      "CH_MinersHome_04_ToolSign_Iron",
+      "CH_MinersHome_04_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_05_ToolSign",
+    "created": "CH_MinersHome_05_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_05_ToolSign_Timber",
+      "CH_MinersHome_05_ToolSign_Iron",
+      "CH_MinersHome_05_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_06_ToolSign",
+    "created": "CH_MinersHome_06_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_06_ToolSign_Timber",
+      "CH_MinersHome_06_ToolSign_Iron",
+      "CH_MinersHome_06_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_07_ToolSign",
+    "created": "CH_MinersHome_07_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_07_ToolSign_Timber",
+      "CH_MinersHome_07_ToolSign_Iron",
+      "CH_MinersHome_07_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_08_ToolSign",
+    "created": "CH_MinersHome_08_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_08_ToolSign_Timber",
+      "CH_MinersHome_08_ToolSign_Iron",
+      "CH_MinersHome_08_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_09_ToolSign",
+    "created": "CH_MinersHome_09_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_09_ToolSign_Timber",
+      "CH_MinersHome_09_ToolSign_Iron",
+      "CH_MinersHome_09_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_10_ToolSign",
+    "created": "CH_MinersHome_10_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_10_ToolSign_Timber",
+      "CH_MinersHome_10_ToolSign_Iron",
+      "CH_MinersHome_10_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_11_ToolSign",
+    "created": "CH_MinersHome_11_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_11_ToolSign_Timber",
+      "CH_MinersHome_11_ToolSign_Iron",
+      "CH_MinersHome_11_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_12_ToolSign",
+    "created": "CH_MinersHome_12_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_12_ToolSign_Timber",
+      "CH_MinersHome_12_ToolSign_Iron",
+      "CH_MinersHome_12_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_13_ToolSign",
+    "created": "CH_MinersHome_13_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_13_ToolSign_Timber",
+      "CH_MinersHome_13_ToolSign_Iron",
+      "CH_MinersHome_13_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_14_ToolSign",
+    "created": "CH_MinersHome_14_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_14_ToolSign_Timber",
+      "CH_MinersHome_14_ToolSign_Iron",
+      "CH_MinersHome_14_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_15_ToolSign",
+    "created": "CH_MinersHome_15_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_15_ToolSign_Timber",
+      "CH_MinersHome_15_ToolSign_Iron",
+      "CH_MinersHome_15_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "ToolSign",
+    "source": "CH_MinersHome_16_ToolSign",
+    "created": "CH_MinersHome_16_ToolSign_P3",
+    "hidden": [
+      "CH_MinersHome_16_ToolSign_Timber",
+      "CH_MinersHome_16_ToolSign_Iron",
+      "CH_MinersHome_16_ToolSign_Brass"
+    ]
+  },
+  {
+    "module": "Laundry",
+    "source": "CH_Laundry_0",
+    "created": "CH_Laundry_0_P3",
+    "hidden": [
+      "CH_Laundry_0_Timber",
+      "CH_Laundry_0_Iron",
+      "CH_Laundry_0_Paper",
+      "CH_Laundry_0_Cloth"
+    ]
+  },
+  {
+    "module": "AshNaia",
+    "source": "CH_DustNaia_0",
+    "created": "CH_DustNaia_0_P3",
+    "hidden": [
+      "CH_DustNaia_0_Ash",
+      "CH_DustNaia_0_NaiaGlow"
+    ]
+  },
+  {
+    "module": "Laundry",
+    "source": "CH_Laundry_1",
+    "created": "CH_Laundry_1_P3",
+    "hidden": [
+      "CH_Laundry_1_Timber",
+      "CH_Laundry_1_Iron",
+      "CH_Laundry_1_Paper",
+      "CH_Laundry_1_Cloth"
+    ]
+  },
+  {
+    "module": "AshNaia",
+    "source": "CH_DustNaia_1",
+    "created": "CH_DustNaia_1_P3",
+    "hidden": [
+      "CH_DustNaia_1_Ash",
+      "CH_DustNaia_1_NaiaGlow"
+    ]
+  },
+  {
+    "module": "Laundry",
+    "source": "CH_Laundry_2",
+    "created": "CH_Laundry_2_P3",
+    "hidden": [
+      "CH_Laundry_2_Timber",
+      "CH_Laundry_2_Iron",
+      "CH_Laundry_2_Paper",
+      "CH_Laundry_2_Cloth"
+    ]
+  },
+  {
+    "module": "AshNaia",
+    "source": "CH_DustNaia_2",
+    "created": "CH_DustNaia_2_P3",
+    "hidden": [
+      "CH_DustNaia_2_Ash",
+      "CH_DustNaia_2_NaiaGlow"
+    ]
+  },
+  {
+    "module": "Laundry",
+    "source": "CH_Laundry_3",
+    "created": "CH_Laundry_3_P3",
+    "hidden": [
+      "CH_Laundry_3_Timber",
+      "CH_Laundry_3_Iron",
+      "CH_Laundry_3_Paper",
+      "CH_Laundry_3_Cloth"
+    ]
+  },
+  {
+    "module": "AshNaia",
+    "source": "CH_DustNaia_3",
+    "created": "CH_DustNaia_3_P3",
+    "hidden": [
+      "CH_DustNaia_3_Ash",
+      "CH_DustNaia_3_NaiaGlow"
+    ]
+  },
+  {
+    "module": "AshNaia",
+    "source": "CH_WarmingAshNaia_0",
+    "created": "CH_WarmingAshNaia_0_P3",
+    "hidden": [
+      "CH_WarmingAshNaia_0_Ash",
+      "CH_WarmingAshNaia_0_NaiaGlow"
+    ]
+  },
+  {
+    "module": "AshNaia",
+    "source": "CH_WarmingAshNaia_1",
+    "created": "CH_WarmingAshNaia_1_P3",
+    "hidden": [
+      "CH_WarmingAshNaia_1_Ash",
+      "CH_WarmingAshNaia_1_NaiaGlow"
+    ]
+  },
+  {
+    "module": "Barricade",
+    "source": "CH_DeepveinBarricade",
+    "created": "CH_DeepveinBarricade_P3",
+    "hidden": [
+      "CH_DeepveinBarricade_Timber"
+    ]
+  },
+  {
+    "module": "AssayDesk",
+    "source": "CH_Weighbridge",
+    "created": "CH_Weighbridge_P3",
+    "hidden": [
+      "CH_Weighbridge_Timber",
+      "CH_Weighbridge_Iron",
+      "CH_Weighbridge_Brass"
+    ]
+  },
+  {
+    "module": "StoneNaia",
+    "source": "CH_RescuedStoneNaia",
+    "created": "CH_RescuedStoneNaia_P3",
+    "hidden": [
+      "CH_RescuedStoneNaia_Rock",
+      "CH_RescuedStoneNaia_StoneLight",
+      "CH_RescuedStoneNaia_NaiaGlow"
+    ]
+  },
+  {
+    "module": "StoneNaia",
+    "source": "CH_StoneNaiaColony_0",
+    "created": "CH_StoneNaiaColony_0_P3",
+    "hidden": [
+      "CH_StoneNaiaColony_0_Rock",
+      "CH_StoneNaiaColony_0_StoneLight",
+      "CH_StoneNaiaColony_0_NaiaGlow"
+    ]
+  },
+  {
+    "module": "StoneNaia",
+    "source": "CH_StoneNaiaColony_1",
+    "created": "CH_StoneNaiaColony_1_P3",
+    "hidden": [
+      "CH_StoneNaiaColony_1_Rock",
+      "CH_StoneNaiaColony_1_StoneLight",
+      "CH_StoneNaiaColony_1_NaiaGlow"
+    ]
+  },
+  {
+    "module": "StoneNaia",
+    "source": "CH_StoneNaiaColony_2",
+    "created": "CH_StoneNaiaColony_2_P3",
+    "hidden": [
+      "CH_StoneNaiaColony_2_Rock",
+      "CH_StoneNaiaColony_2_StoneLight",
+      "CH_StoneNaiaColony_2_NaiaGlow"
+    ]
+  },
+  {
+    "module": "StoneNaia",
+    "source": "CH_StoneNaiaColony_3",
+    "created": "CH_StoneNaiaColony_3_P3",
+    "hidden": [
+      "CH_StoneNaiaColony_3_Rock",
+      "CH_StoneNaiaColony_3_StoneLight",
+      "CH_StoneNaiaColony_3_NaiaGlow"
+    ]
+  },
+  {
+    "module": "StoneNaia",
+    "source": "CH_StoneNaiaColony_4",
+    "created": "CH_StoneNaiaColony_4_P3",
+    "hidden": [
+      "CH_StoneNaiaColony_4_Rock",
+      "CH_StoneNaiaColony_4_StoneLight",
+      "CH_StoneNaiaColony_4_NaiaGlow"
+    ]
+  },
+  {
+    "module": "StoneNaia",
+    "source": "CH_VeinSentinelProxy",
+    "created": "CH_VeinSentinelProxy_P3",
+    "hidden": [
+      "CH_VeinSentinelProxy_Rock",
+      "CH_VeinSentinelProxy_StoneLight",
+      "CH_VeinSentinelProxy_NaiaGlow"
+    ]
+  },
+  {
+    "module": "StoneNaia",
+    "source": "CH_BoundCogNaia",
+    "created": "CH_BoundCogNaia_P3",
+    "hidden": [
+      "CH_BoundCogNaia_Rock",
+      "CH_BoundCogNaia_StoneLight",
+      "CH_BoundCogNaia_NaiaGlow"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_TendedGrave_0",
+    "created": "CH_TendedGrave_0_P3",
+    "hidden": [
+      "CH_TendedGrave_0_Rock",
+      "CH_TendedGrave_0_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_TendedGrave_1",
+    "created": "CH_TendedGrave_1_P3",
+    "hidden": [
+      "CH_TendedGrave_1_Rock",
+      "CH_TendedGrave_1_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_02",
+    "created": "CH_UnnamedGrave_02_P3",
+    "hidden": [
+      "CH_UnnamedGrave_02_Rock",
+      "CH_UnnamedGrave_02_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_03",
+    "created": "CH_UnnamedGrave_03_P3",
+    "hidden": [
+      "CH_UnnamedGrave_03_Rock",
+      "CH_UnnamedGrave_03_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_04",
+    "created": "CH_UnnamedGrave_04_P3",
+    "hidden": [
+      "CH_UnnamedGrave_04_Rock",
+      "CH_UnnamedGrave_04_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_05",
+    "created": "CH_UnnamedGrave_05_P3",
+    "hidden": [
+      "CH_UnnamedGrave_05_Rock",
+      "CH_UnnamedGrave_05_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_06",
+    "created": "CH_UnnamedGrave_06_P3",
+    "hidden": [
+      "CH_UnnamedGrave_06_Rock",
+      "CH_UnnamedGrave_06_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_07",
+    "created": "CH_UnnamedGrave_07_P3",
+    "hidden": [
+      "CH_UnnamedGrave_07_Rock",
+      "CH_UnnamedGrave_07_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_08",
+    "created": "CH_UnnamedGrave_08_P3",
+    "hidden": [
+      "CH_UnnamedGrave_08_Rock",
+      "CH_UnnamedGrave_08_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_09",
+    "created": "CH_UnnamedGrave_09_P3",
+    "hidden": [
+      "CH_UnnamedGrave_09_Rock",
+      "CH_UnnamedGrave_09_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_10",
+    "created": "CH_UnnamedGrave_10_P3",
+    "hidden": [
+      "CH_UnnamedGrave_10_Rock",
+      "CH_UnnamedGrave_10_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_11",
+    "created": "CH_UnnamedGrave_11_P3",
+    "hidden": [
+      "CH_UnnamedGrave_11_Rock",
+      "CH_UnnamedGrave_11_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_12",
+    "created": "CH_UnnamedGrave_12_P3",
+    "hidden": [
+      "CH_UnnamedGrave_12_Rock",
+      "CH_UnnamedGrave_12_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_13",
+    "created": "CH_UnnamedGrave_13_P3",
+    "hidden": [
+      "CH_UnnamedGrave_13_Rock",
+      "CH_UnnamedGrave_13_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_14",
+    "created": "CH_UnnamedGrave_14_P3",
+    "hidden": [
+      "CH_UnnamedGrave_14_Rock",
+      "CH_UnnamedGrave_14_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_15",
+    "created": "CH_UnnamedGrave_15_P3",
+    "hidden": [
+      "CH_UnnamedGrave_15_Rock",
+      "CH_UnnamedGrave_15_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_16",
+    "created": "CH_UnnamedGrave_16_P3",
+    "hidden": [
+      "CH_UnnamedGrave_16_Rock",
+      "CH_UnnamedGrave_16_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_17",
+    "created": "CH_UnnamedGrave_17_P3",
+    "hidden": [
+      "CH_UnnamedGrave_17_Rock",
+      "CH_UnnamedGrave_17_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_18",
+    "created": "CH_UnnamedGrave_18_P3",
+    "hidden": [
+      "CH_UnnamedGrave_18_Rock",
+      "CH_UnnamedGrave_18_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_19",
+    "created": "CH_UnnamedGrave_19_P3",
+    "hidden": [
+      "CH_UnnamedGrave_19_Rock",
+      "CH_UnnamedGrave_19_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_20",
+    "created": "CH_UnnamedGrave_20_P3",
+    "hidden": [
+      "CH_UnnamedGrave_20_Rock",
+      "CH_UnnamedGrave_20_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_21",
+    "created": "CH_UnnamedGrave_21_P3",
+    "hidden": [
+      "CH_UnnamedGrave_21_Rock",
+      "CH_UnnamedGrave_21_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_22",
+    "created": "CH_UnnamedGrave_22_P3",
+    "hidden": [
+      "CH_UnnamedGrave_22_Rock",
+      "CH_UnnamedGrave_22_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_23",
+    "created": "CH_UnnamedGrave_23_P3",
+    "hidden": [
+      "CH_UnnamedGrave_23_Rock",
+      "CH_UnnamedGrave_23_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_24",
+    "created": "CH_UnnamedGrave_24_P3",
+    "hidden": [
+      "CH_UnnamedGrave_24_Rock",
+      "CH_UnnamedGrave_24_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_25",
+    "created": "CH_UnnamedGrave_25_P3",
+    "hidden": [
+      "CH_UnnamedGrave_25_Rock",
+      "CH_UnnamedGrave_25_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_26",
+    "created": "CH_UnnamedGrave_26_P3",
+    "hidden": [
+      "CH_UnnamedGrave_26_Rock",
+      "CH_UnnamedGrave_26_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_27",
+    "created": "CH_UnnamedGrave_27_P3",
+    "hidden": [
+      "CH_UnnamedGrave_27_Rock",
+      "CH_UnnamedGrave_27_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_28",
+    "created": "CH_UnnamedGrave_28_P3",
+    "hidden": [
+      "CH_UnnamedGrave_28_Rock",
+      "CH_UnnamedGrave_28_Iron"
+    ]
+  },
+  {
+    "module": "Grave",
+    "source": "CH_UnnamedGrave_29",
+    "created": "CH_UnnamedGrave_29_P3",
+    "hidden": [
+      "CH_UnnamedGrave_29_Rock",
+      "CH_UnnamedGrave_29_Iron"
+    ]
+  },
+  {
+    "module": "LedgerShelf",
+    "source": "CH_LedgerShelf_6.0",
+    "created": "CH_LedgerShelf_6.0_P3",
+    "hidden": [
+      "CH_LedgerShelf_6.0_Timber",
+      "CH_LedgerShelf_6.0_Iron",
+      "CH_LedgerShelf_6.0_Cloth",
+      "CH_LedgerShelf_6.0_Paper"
+    ]
+  },
+  {
+    "module": "LedgerShelf",
+    "source": "CH_LedgerShelf_10",
+    "created": "CH_LedgerShelf_10_P3",
+    "hidden": [
+      "CH_LedgerShelf_10_Timber",
+      "CH_LedgerShelf_10_Iron",
+      "CH_LedgerShelf_10_Cloth",
+      "CH_LedgerShelf_10_Paper"
+    ]
+  },
+  {
+    "module": "AssayDesk",
+    "source": "CH_UniqueQ7Documents",
+    "created": "CH_UniqueQ7Documents_P3",
+    "hidden": [
+      "CH_UniqueQ7Documents_Timber",
+      "CH_UniqueQ7Documents_Iron",
+      "CH_UniqueQ7Documents_Brass"
+    ]
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_00_Source",
+    "created": "CH_Crate_00_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_01_Source",
+    "created": "CH_Crate_01_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_02_Source",
+    "created": "CH_Crate_02_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_03_Source",
+    "created": "CH_Crate_03_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_04_Source",
+    "created": "CH_Crate_04_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_05_Source",
+    "created": "CH_Crate_05_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_06_Source",
+    "created": "CH_Crate_06_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_07_Source",
+    "created": "CH_Crate_07_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_08_Source",
+    "created": "CH_Crate_08_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_09_Source",
+    "created": "CH_Crate_09_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_10_Source",
+    "created": "CH_Crate_10_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_11_Source",
+    "created": "CH_Crate_11_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_12_Source",
+    "created": "CH_Crate_12_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_13_Source",
+    "created": "CH_Crate_13_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_14_Source",
+    "created": "CH_Crate_14_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_15_Source",
+    "created": "CH_Crate_15_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_16_Source",
+    "created": "CH_Crate_16_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_17_Source",
+    "created": "CH_Crate_17_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_18_Source",
+    "created": "CH_Crate_18_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_19_Source",
+    "created": "CH_Crate_19_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_20_Source",
+    "created": "CH_Crate_20_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_21_Source",
+    "created": "CH_Crate_21_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_22_Source",
+    "created": "CH_Crate_22_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_23_Source",
+    "created": "CH_Crate_23_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_24_Source",
+    "created": "CH_Crate_24_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_25_Source",
+    "created": "CH_Crate_25_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_26_Source",
+    "created": "CH_Crate_26_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_27_Source",
+    "created": "CH_Crate_27_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_28_Source",
+    "created": "CH_Crate_28_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_29_Source",
+    "created": "CH_Crate_29_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_30_Source",
+    "created": "CH_Crate_30_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Crate_31_Source",
+    "created": "CH_Crate_31_Source_P3"
+  },
+  {
+    "module": "Barrel",
+    "source": "CH_TavernCask_00_Source",
+    "created": "CH_TavernCask_00_Source_P3"
+  },
+  {
+    "module": "Barrel",
+    "source": "CH_TavernCask_01_Source",
+    "created": "CH_TavernCask_01_Source_P3"
+  },
+  {
+    "module": "Barrel",
+    "source": "CH_TavernCask_02_Source",
+    "created": "CH_TavernCask_02_Source_P3"
+  },
+  {
+    "module": "Barrel",
+    "source": "CH_TavernCask_03_Source",
+    "created": "CH_TavernCask_03_Source_P3"
+  },
+  {
+    "module": "Barrel",
+    "source": "CH_TavernCask_04_Source",
+    "created": "CH_TavernCask_04_Source_P3"
+  },
+  {
+    "module": "Barrel",
+    "source": "CH_TavernCask_05_Source",
+    "created": "CH_TavernCask_05_Source_P3"
+  },
+  {
+    "module": "Barrel",
+    "source": "CH_TavernCask_06_Source",
+    "created": "CH_TavernCask_06_Source_P3"
+  },
+  {
+    "module": "Barrel",
+    "source": "CH_TavernCask_07_Source",
+    "created": "CH_TavernCask_07_Source_P3"
+  },
+  {
+    "module": "Barrel",
+    "source": "CH_TavernCask_08_Source",
+    "created": "CH_TavernCask_08_Source_P3"
+  },
+  {
+    "module": "Barrel",
+    "source": "CH_TavernCask_09_Source",
+    "created": "CH_TavernCask_09_Source_P3"
+  },
+  {
+    "module": "Barrel",
+    "source": "CH_TavernCask_10_Source",
+    "created": "CH_TavernCask_10_Source_P3"
+  },
+  {
+    "module": "Barrel",
+    "source": "CH_TavernCask_11_Source",
+    "created": "CH_TavernCask_11_Source_P3"
+  },
+  {
+    "module": "Barrel",
+    "source": "CH_TavernCask_12_Source",
+    "created": "CH_TavernCask_12_Source_P3"
+  },
+  {
+    "module": "Barrel",
+    "source": "CH_TavernCask_13_Source",
+    "created": "CH_TavernCask_13_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_ArcadiaCrate_Source",
+    "created": "CH_ArcadiaCrate_Source_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_0_0",
+    "created": "CH_Stack_0_0_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_0_1",
+    "created": "CH_Stack_0_1_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_0_2",
+    "created": "CH_Stack_0_2_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_0_3",
+    "created": "CH_Stack_0_3_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_0_4",
+    "created": "CH_Stack_0_4_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_0_5",
+    "created": "CH_Stack_0_5_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_0_6",
+    "created": "CH_Stack_0_6_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_0_7",
+    "created": "CH_Stack_0_7_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_1_0",
+    "created": "CH_Stack_1_0_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_1_1",
+    "created": "CH_Stack_1_1_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_1_2",
+    "created": "CH_Stack_1_2_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_1_3",
+    "created": "CH_Stack_1_3_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_1_4",
+    "created": "CH_Stack_1_4_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_1_5",
+    "created": "CH_Stack_1_5_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_1_6",
+    "created": "CH_Stack_1_6_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_1_7",
+    "created": "CH_Stack_1_7_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_2_0",
+    "created": "CH_Stack_2_0_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_2_1",
+    "created": "CH_Stack_2_1_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_2_2",
+    "created": "CH_Stack_2_2_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_2_3",
+    "created": "CH_Stack_2_3_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_2_4",
+    "created": "CH_Stack_2_4_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_2_5",
+    "created": "CH_Stack_2_5_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_2_6",
+    "created": "CH_Stack_2_6_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_2_7",
+    "created": "CH_Stack_2_7_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_3_0",
+    "created": "CH_Stack_3_0_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_3_1",
+    "created": "CH_Stack_3_1_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_3_2",
+    "created": "CH_Stack_3_2_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_3_3",
+    "created": "CH_Stack_3_3_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_3_4",
+    "created": "CH_Stack_3_4_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_3_5",
+    "created": "CH_Stack_3_5_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_3_6",
+    "created": "CH_Stack_3_6_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_3_7",
+    "created": "CH_Stack_3_7_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_4_0",
+    "created": "CH_Stack_4_0_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_4_1",
+    "created": "CH_Stack_4_1_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_4_2",
+    "created": "CH_Stack_4_2_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_4_3",
+    "created": "CH_Stack_4_3_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_4_4",
+    "created": "CH_Stack_4_4_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_4_5",
+    "created": "CH_Stack_4_5_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_4_6",
+    "created": "CH_Stack_4_6_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_4_7",
+    "created": "CH_Stack_4_7_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_5_0",
+    "created": "CH_Stack_5_0_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_5_1",
+    "created": "CH_Stack_5_1_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_5_2",
+    "created": "CH_Stack_5_2_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_5_3",
+    "created": "CH_Stack_5_3_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_5_4",
+    "created": "CH_Stack_5_4_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_5_5",
+    "created": "CH_Stack_5_5_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_5_6",
+    "created": "CH_Stack_5_6_P3"
+  },
+  {
+    "module": "Crate",
+    "source": "CH_Stack_5_7",
+    "created": "CH_Stack_5_7_P3"
+  }
+]

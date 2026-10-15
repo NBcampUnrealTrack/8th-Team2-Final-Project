@@ -1,0 +1,17 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_RingLinks_Overlap004.blend",
+  "object_name": "CH_Polish_RingLinks_Overlap004",
+  "expected_fingerprint": "a357e922a63ed2f2dc065044704367edadff30db32130df57247bee73b7e9e9d",
+  "output_object_name": "CH_Polish_RingLinks_Caps005",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_RingLinks_Caps005.blend",
+  "operation": "fill_loops",
+  "selection_ids": [
+    0,
+    3,
+    4
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "polish_ringlinks_Caps005"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "job_id": "restyle_rock_cap_001",
+    "state": "running"
+  },
+  {
+    "job_id": "restyle_rock_cap_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\restyle_rock_cap_001"
+  },
+  {
+    "job_id": "restyle_rock_cap_001",
+    "state": "failed",
+    "success": false,
+    "error": "BMElemSeq[index]: outdated internal index table, run ensure_lookup_table() first",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 276, in <module>\n    result=run(json.loads(req.read_text(encoding='utf-8')))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 250, in run\n    changes['added_faces']=fill(bm,groups)\n                           ^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 65, in fill\n    edges=[bm.edges[i] for i in group['edge_ids']]\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 65, in <listcomp>\n    edges=[bm.edges[i] for i in group['edge_ids']]\n           ~~~~~~~~^^^\nIndexError: BMElemSeq[index]: outdated internal index table, run ensure_lookup_table() first\n"
+  }
+]

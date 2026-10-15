@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "output": "{\r\n  \"passed\": true,\r\n  \"world\": \"/Game/Maps/L_Cindehearth.L_Cindehearth\",\r\n  \"pie_running\": false,\r\n  \"actor_count\": 3303,\r\n  \"west_stair_location\": [\r\n    -399.0,\r\n    -1156.554,\r\n    0.0\r\n  ],\r\n  \"west_stair_bounds\": [\r\n    [\r\n      -399.0,\r\n      -1030.527,\r\n      78.75\r\n    ],\r\n    [\r\n      66.60000000000002,\r\n      126.02700000000004,\r\n      78.75\r\n    ]\r\n  ],\r\n  \"connection_dressing_count\": 106,\r\n  \"archive_anchors\": {\r\n    \"CH.Archive.Entry\": [\r\n      1077.7,\r\n      195.975,\r\n      215.0\r\n    ],\r\n    \"CH.Archive.Lower\": [\r\n      1172.7,\r\n      253.475,\r\n      29.0\r\n    ]\r\n  },\r\n  \"chapter\": 0,\r\n  \"night\": false,\r\n  \"dirty_maps\": [],\r\n  \"dirty_content\": [],\r\n  \"scene_mutated\": false,\r\n  \"runtime_archive_qa_performed\": false\r\n}",
+  "result": "None",
+  "warnings": [],
+  "execution_time_ms": 37.03989791870117
+}

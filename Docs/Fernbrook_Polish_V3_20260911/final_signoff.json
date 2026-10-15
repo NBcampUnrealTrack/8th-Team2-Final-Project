@@ -1,0 +1,189 @@
+{
+  "status": "APPLIED_VERIFIED_WITH_REMAINING_ART_ITEMS",
+  "engine": "5.8.1-56057345+++UE5+Release-5.8",
+  "map": "/Game/Fernbrook/Entrance_V1/Maps/L_Fernbrook_Entrance.L_Fernbrook_Entrance",
+  "PIE_stopped": true,
+  "saved_and_reloaded": true,
+  "protected_package_count": 709,
+  "protected_all_unchanged": true,
+  "changed_existing_packages": [
+    "Content/Fernbrook/Entrance_V1/Maps/L_Fernbrook_Entrance.umap",
+    "Content/Fernbrook/Polish_V2/Materials/MI_FB2_Tree_Canopy.uasset",
+    "Content/Fernbrook/Polish_V2/Materials/MI_FB2_Tree_Sapling.uasset"
+  ],
+  "new_packages": [
+    "Content/Fernbrook/Polish_V3/Materials/MI_FB3_ClearCreek_Windows.uasset",
+    "Content/Fernbrook/Polish_V3/Materials/M_FB3_ClearCreek.uasset"
+  ],
+  "actors": 230,
+  "foliage_instances": 8480,
+  "movement_waypoints_passed": 53,
+  "routes": [
+    {
+      "route": "entry_bridge_deep",
+      "passed": true,
+      "reason": "",
+      "reached": 24,
+      "total": 24
+    },
+    {
+      "route": "deep_bridge_return",
+      "passed": true,
+      "reason": "",
+      "reached": 24,
+      "total": 24
+    },
+    {
+      "route": "naia_glade",
+      "passed": true,
+      "reason": "",
+      "reached": 5,
+      "total": 5
+    }
+  ],
+  "missing_material_slots": 0,
+  "water": {
+    "material": "/Game/Fernbrook/Polish_V3/Materials/MI_FB3_ClearCreek_Windows.MI_FB3_ClearCreek_Windows",
+    "location": [
+      0.0,
+      500.0,
+      -8.0
+    ],
+    "scale": [
+      46.0,
+      97.0,
+      1.0
+    ],
+    "bounds": [
+      [
+        0.0,
+        500.0,
+        -8.0
+      ],
+      [
+        2300.0,
+        4850.0,
+        8.43769498715119e-15
+      ]
+    ],
+    "scalars": {
+      "FlowSpeedCm": 12.0,
+      "WaveLengthCm": 100.0,
+      "NormalStrength": 0.04800000041723251,
+      "DetailNormalStrength": 0.023000000044703484,
+      "PixelSizeCm": 2.0,
+      "PixelBlend": 0.10000000149011612,
+      "FoamWidthCm": 5.0,
+      "FoamStrength": 0.4000000059604645,
+      "CausticStrength": 0.18000000715255737,
+      "SurfaceOpacity": 0.03999999910593033,
+      "Roughness": 0.25999999046325684,
+      "Specular": 0.5,
+      "PhaseG": 0.15000000596046448
+    },
+    "vectors": {
+      "FlowDirection": [
+        -0.07999999821186066,
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "Scattering": [
+        0.0020000000949949026,
+        0.005499999970197678,
+        0.006000000052154064,
+        1.0
+      ],
+      "Absorption": [
+        0.02500000037252903,
+        0.00800000037997961,
+        0.004999999888241291,
+        1.0
+      ],
+      "SurfaceColor": [
+        0.02500000037252903,
+        0.10000000149011612,
+        0.11500000208616257,
+        1.0
+      ],
+      "FoamColor": [
+        0.550000011920929,
+        0.7200000286102295,
+        0.6399999856948853,
+        1.0
+      ]
+    }
+  },
+  "trees": {
+    "Canopy": {
+      "PixelGrid": 512.0,
+      "PixelInfluence": 1.1200000047683716,
+      "StyleInfluence": 0.0,
+      "Roughness": 0.9700000286102295,
+      "Metallic": 0.0,
+      "EmissiveGain": 0.0,
+      "TreePaletteSteps": 9.0,
+      "TreePaletteBlend": 0.0,
+      "TreeVariation": 0.30000001192092896
+    },
+    "Sapling": {
+      "PixelGrid": 384.0,
+      "PixelInfluence": 1.1200000047683716,
+      "StyleInfluence": 0.0,
+      "Roughness": 0.9700000286102295,
+      "Metallic": 0.0,
+      "EmissiveGain": 0.0,
+      "TreePaletteSteps": 9.0,
+      "TreePaletteBlend": 0.0,
+      "TreeVariation": 0.30000001192092896
+    }
+  },
+  "naia": {
+    "actor": "FB2_Naia_Aqupong_1010",
+    "flipbook": "/Game/Art/Sprites/Naia/1010_Aqupong/Frames/1010_Aqupong_Idle.1010_Aqupong_Idle",
+    "location": [
+      -420.0,
+      297.0,
+      57.04686141304348
+    ],
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ]
+  },
+  "previews": [
+    {
+      "file": "Preview/Game_Bridge_Final_001.png",
+      "sha256": "18269b4c53f1c3a863396450d57c047c69e4a4d8dc0bc4336302cab10976c47b",
+      "native_unedited": true
+    },
+    {
+      "file": "Preview/Game_Bridge_Motion_002.png",
+      "sha256": "5b1c146030aedd8ad4b0553eaa211229f1b4c0c54ff36fe8b08ecaeb144c14ce",
+      "native_unedited": true
+    },
+    {
+      "file": "Preview/Game_Naia_Final_001.png",
+      "sha256": "bd05802e2b7267e88da29249885eafa4aecafa8f6927f3dc271bbdc3a2e33ac4",
+      "native_unedited": true
+    },
+    {
+      "file": "Preview/Game_Entry_Final_001.png",
+      "sha256": "2442c8d67ce0ad6a612e14f3b8cbc424461990127b49e4fa603044f9751f4726",
+      "native_unedited": true
+    },
+    {
+      "file": "Preview/Editor_AfterReload_Final_001.png",
+      "sha256": "5cdecd350b78ffbbc99e0b3697a64cd29ecc5ed571ced26318f717b6a9797822",
+      "native_unedited": true
+    }
+  ],
+  "remaining": [
+    "Original reported water gap not reproduced at inspected bridge/glade/editor/PIE locations; exact user location still needed for root-cause closure.",
+    "Existing tree crown geometry and source texture detail remain; new FB12/FB13 Tripo references are not replacement meshes yet.",
+    "Foreground foliage still occludes player near Naia glade; no camera occlusion fade implemented.",
+    "Windows editor/PIE only; no mobile/cook/GPU performance qualification.",
+    "No physical fluid simulation, buoyancy, interaction wake or actually projected caustics."
+  ]
+}

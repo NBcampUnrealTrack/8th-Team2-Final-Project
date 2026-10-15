@@ -1,0 +1,30 @@
+{
+  "source": "/Game/Village/Materials/Props/MI_Prop_Leaf.MI_Prop_Leaf",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Leaf_ceddb.MI_HD2D_Prop_Leaf_ceddb",
+  "kind": "WorldProps",
+  "scalars": {
+    "CameraFadeAmount": 0.0,
+    "TileCm": 90.0,
+    "RoughnessMul": 1.0,
+    "EmissiveStrength": 0.0
+  },
+  "vectors": {
+    "Tint": [
+      0.46000000834465027,
+      0.4399999976158142,
+      0.23999999463558197,
+      1.0
+    ],
+    "Emissive": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "textures": {
+    "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_Leaf_Pixel_BC.T_Prop_Leaf_Pixel_BC",
+    "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_Leaf_Pixel_N.T_Prop_Leaf_Pixel_N",
+    "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_Leaf_Pixel_ORM.T_Prop_Leaf_Pixel_ORM"
+  }
+}

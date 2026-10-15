@@ -1,0 +1,23 @@
+{
+  "stage": "environment",
+  "created": [
+    "LG8_PostProcess",
+    "LG8_Sun",
+    "LG8_SkyLight",
+    "LG8_SkyDome",
+    "LG8_ForestHaze",
+    "LG8_SouthArrival"
+  ],
+  "removed_new_template": [
+    "DirectionalLight_0",
+    "SkyAtmosphere_0",
+    "SkyLight_0",
+    "ExponentialHeightFog_0",
+    "VolumetricCloud_0",
+    "PlayerStart_0",
+    "StaticMeshActor_0",
+    "Floor_0"
+  ],
+  "map": "/Game/Libregrove/Level_V8/Maps/L_Libregrove.L_Libregrove",
+  "total_actors": 6
+}

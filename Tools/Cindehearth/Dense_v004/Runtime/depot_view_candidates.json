@@ -1,0 +1,152 @@
+{
+  "camera": [
+    540.8084443665875,
+    2276.625745986781,
+    1132.7678373461088
+  ],
+  "player": [
+    540.0,
+    4180.8,
+    185.15000677108765
+  ],
+  "candidates": [
+    {
+      "label": "CH_GreyveinSky",
+      "ray_entry": 0.0,
+      "ray_exit": 1.0,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_center": [
+        0.0,
+        0.00762939453125,
+        0.0
+      ],
+      "bounds_extent": [
+        100000.0,
+        100000.0,
+        100000.0
+      ],
+      "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+      "collision": "NoCollision",
+      "actor_collision": true
+    },
+    {
+      "label": "CH_MainMineRockBrow_P3",
+      "ray_entry": 0.2509111053786626,
+      "ray_exit": 0.5346014167914237,
+      "location": [
+        540.0,
+        2934.6000000000004,
+        535.0
+      ],
+      "bounds_center": [
+        540.0,
+        2934.6000000000004,
+        680.0
+      ],
+      "bounds_extent": [
+        380.0,
+        290.0,
+        145.0
+      ],
+      "mesh": "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/StaticMeshes/CH_Polish_Ridge_BaseCaps008.CH_Polish_Ridge_BaseCaps008",
+      "collision": "NoCollision",
+      "actor_collision": true
+    },
+    {
+      "label": "CH_RidgeMass_15_HD2D_P3",
+      "ray_entry": 0.5649995806531666,
+      "ray_exit": 0.6024214309380029,
+      "location": [
+        173.7,
+        3176.2474040834863,
+        131.40969264729796
+      ],
+      "bounds_center": [
+        173.7,
+        3176.2474040834863,
+        329.3869265495282
+      ],
+      "bounds_extent": [
+        345.9048842617661,
+        177.49372076124246,
+        197.9772339022302
+      ],
+      "mesh": "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/StaticMeshes/CH_Polish_Ridge_BaseCaps008.CH_Polish_Ridge_BaseCaps008",
+      "collision": "NoCollision",
+      "actor_collision": true
+    },
+    {
+      "label": "CH_DeepveinTunnel_Path",
+      "ray_entry": 0.7891027513616518,
+      "ray_exit": 1.0,
+      "location": [
+        140.4,
+        0.0,
+        0.0
+      ],
+      "bounds_center": [
+        540.0,
+        4251.150000000001,
+        126.0
+      ],
+      "bounds_extent": [
+        116.54999999999998,
+        1567.8000000000002,
+        189.0
+      ],
+      "mesh": "/Game/Cindehearth/Meshes/SM_CH_DeepveinTunnel_Path.SM_CH_DeepveinTunnel_Path",
+      "collision": "BlockAll",
+      "actor_collision": true
+    },
+    {
+      "label": "CH_RingDepotFloor_Path",
+      "ray_entry": 0.9790527440615303,
+      "ray_exit": 1.0,
+      "location": [
+        540.0,
+        4190.85,
+        125.99999999999999
+      ],
+      "bounds_center": [
+        540.0,
+        4190.85,
+        126.0
+      ],
+      "bounds_extent": [
+        316.35,
+        301.5,
+        9.000000000000007
+      ],
+      "mesh": "/Game/Cindehearth/Meshes/SM_CH_Path_Path.SM_CH_Path_Path",
+      "collision": "BlockAll",
+      "actor_collision": true
+    },
+    {
+      "label": "CH_P3_DepotFloor",
+      "ray_entry": 0.982218577273195,
+      "ray_exit": 1.0,
+      "location": [
+        540.0,
+        4190.85,
+        121.0
+      ],
+      "bounds_center": [
+        540.0,
+        4190.85,
+        121.0
+      ],
+      "bounds_extent": [
+        466.20000000000005,
+        361.8000000000002,
+        11.0
+      ],
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "collision": "NoCollision",
+      "actor_collision": true
+    }
+  ]
+}

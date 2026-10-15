@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"downloaded\": true,\n  \"task_id\": \"acf82c22-bea2-44d1-b843-e3312c54c273\",\n  \"asset_name\": \"CH_Polish_Hearth_P2_v003\",\n  \"files\": {\n    \"model\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Hearth_P2_v003\\\\acf82c22-bea2-44d1-b843-e3312c54c273\\\\acf82c22-bea2-44d1-b843-e3312c54c273_model.fbx\",\n    \"rendered_image\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Hearth_P2_v003\\\\acf82c22-bea2-44d1-b843-e3312c54c273\\\\acf82c22-bea2-44d1-b843-e3312c54c273_rendered.webp\"\n  },\n  \"output_directory\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Hearth_P2_v003\\\\acf82c22-bea2-44d1-b843-e3312c54c273\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

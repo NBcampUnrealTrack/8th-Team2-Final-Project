@@ -1,0 +1,134 @@
+{
+  "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_AshNaia_Game_v003.blend",
+  "object": "CH_Polish_AshNaia_Game_v003",
+  "fingerprint": "62834e44cf30b33027773eebe716ba68474524fd3884bf1878acc4b119fcf879",
+  "report": {
+    "object": {
+      "name": "CH_Polish_AshNaia_Game_v003",
+      "type": "MESH",
+      "data_name": "CH_Polish_AshNaia_Game_v003_Mesh",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.6277480125427246,
+        3.0,
+        1.9887640476226807
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "collections": [
+        "Collection"
+      ]
+    },
+    "fingerprint": "62834e44cf30b33027773eebe716ba68474524fd3884bf1878acc4b119fcf879",
+    "geometry": {
+      "vertices": 506,
+      "edges": 1041,
+      "polygons": 541,
+      "triangles": 1000,
+      "ngons": 0,
+      "loose_vertices": 0,
+      "loose_edges": 0,
+      "zero_length_edges": 0,
+      "boundary_edges": 0,
+      "wire_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "invalid_face_normals": 0,
+      "non_finite_vertices": 0
+    },
+    "bounds": {
+      "local_min": [
+        -1.3138740062713623,
+        -1.5,
+        0.0
+      ],
+      "local_max": [
+        1.3138740062713623,
+        1.5,
+        1.9887640476226807
+      ],
+      "world_min": [
+        -1.3138740062713623,
+        -1.5,
+        0.0
+      ],
+      "world_max": [
+        1.3138740062713623,
+        1.5,
+        1.9887640476226807
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "tripo_mat_d2cc7162"
+      }
+    ],
+    "uv_layers": [
+      {
+        "name": "d2cc7162_68a7_4a94_8077_25d2c864932f_NewUVMap",
+        "active": true,
+        "active_render": true,
+        "loop_count": 2082,
+        "bounds_min": [
+          0.0002743675431702286,
+          0.0004797762958332896
+        ],
+        "bounds_max": [
+          0.9997847676277161,
+          0.9997846484184265
+        ],
+        "out_of_zero_one_range": 0,
+        "non_finite": 0,
+        "degenerate_faces": 0
+      }
+    ],
+    "modifiers": [],
+    "quality": {
+      "passed": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": [],
+      "requirements": {}
+    }
+  }
+}

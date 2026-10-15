@@ -1,0 +1,153 @@
+{
+  "id": "LG_09_MarketStall",
+  "name_ko": "광장 공용 노점",
+  "source_name": "LG_09_MarketStall.fbx",
+  "output_name": "SM_LG_09_MarketStall_V7",
+  "source_fingerprint": "f00142092e66bbbeacab2e90858d89ba16e08cb56efa6790f49e2f346e475020",
+  "output_report": {
+    "object": {
+      "name": "SM_LG_09_MarketStall_V7",
+      "type": "MESH",
+      "data_name": "SM_LG_09_MarketStall_V7_Mesh",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.012834310531616,
+        1.6017662286758423,
+        1.7100000381469727
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "collections": [
+        "Collection"
+      ]
+    },
+    "fingerprint": "f461cada9289fd04e591940ae3acd06700f4f1ce1512b815b2ddeafb0e8c0ce0",
+    "geometry": {
+      "vertices": 1534,
+      "edges": 3963,
+      "polygons": 2505,
+      "triangles": 2505,
+      "ngons": 0,
+      "loose_vertices": 0,
+      "loose_edges": 0,
+      "zero_length_edges": 0,
+      "boundary_edges": 411,
+      "wire_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "invalid_face_normals": 0,
+      "non_finite_vertices": 0
+    },
+    "bounds": {
+      "local_min": [
+        -1.006417155265808,
+        -0.8008831143379211,
+        0.0
+      ],
+      "local_max": [
+        1.006417155265808,
+        0.8008831143379211,
+        1.7100000381469727
+      ],
+      "world_min": [
+        -1.006417155265808,
+        -0.8008831143379211,
+        0.0
+      ],
+      "world_max": [
+        1.006417155265808,
+        0.8008831143379211,
+        1.7100000381469727
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "tripo_mat_62cb0827"
+      }
+    ],
+    "uv_layers": [
+      {
+        "name": "UVMap",
+        "active": true,
+        "active_render": true,
+        "loop_count": 7515,
+        "bounds_min": [
+          0.001953125,
+          0.001953125
+        ],
+        "bounds_max": [
+          0.997802734375,
+          0.96240234375
+        ],
+        "out_of_zero_one_range": 0,
+        "non_finite": 0,
+        "degenerate_faces": 4
+      }
+    ],
+    "modifiers": [],
+    "quality": {
+      "passed": true,
+      "score": 94,
+      "blockers": [],
+      "warnings": [
+        {
+          "code": "non_manifold_geometry",
+          "message": "Mesh contains boundary, wire, or non-manifold edges."
+        }
+      ],
+      "requirements": {}
+    }
+  },
+  "scale_factor": 2.0128342553344347,
+  "dimensions_cm": [
+    201.28343105316162,
+    160.17662286758423,
+    171.00000381469727
+  ],
+  "glb_path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Libregrove\\Unreal_Textured_V7_20260908\\Export\\SM_LG_09_MarketStall_V7.glb",
+  "sha256": "7a4b41634828f6e3541cff784a4b7c0fc22e32f8eab1c4dc2a507226e4e45232",
+  "recommended_vertex_max": 2300,
+  "initial_triangle_budget": 3600,
+  "ue_destination": "/Game/Libregrove/Textured_V7/Models/LG_09_MarketStall",
+  "geometry_uv_unchanged_except_uniform_scale": true
+}

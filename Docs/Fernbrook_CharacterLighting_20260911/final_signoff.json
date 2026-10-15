@@ -1,0 +1,29 @@
+{
+  "map": "/Game/Fernbrook/Entrance_V1/Maps/L_Fernbrook_Entrance.L_Fernbrook_Entrance",
+  "mode": "/Game/Fernbrook/CharacterLighting/Gameplay/BP_FB_GameMode.BP_FB_GameMode_C",
+  "ambient_lift": 0.44999998807907104,
+  "tint": [
+    1.2999999523162842,
+    1.2999999523162842,
+    1.2999999523162842,
+    1.0
+  ],
+  "unchanged_existing_assets": 1012,
+  "modified_existing_assets": [
+    "Content/Fernbrook/Entrance_V1/Maps/L_Fernbrook_Entrance.umap"
+  ],
+  "new_assets": [
+    "Content/Fernbrook/CharacterLighting/Gameplay/BP_FB_FieldCharacter.uasset",
+    "Content/Fernbrook/CharacterLighting/Gameplay/BP_FB_GameMode.uasset",
+    "Content/Fernbrook/CharacterLighting/Materials/MI_FB_Player_Lit.uasset"
+  ],
+  "actor_transforms_preserved": 241,
+  "movement_pass": true,
+  "movement_distance_cm": 278.21483080205076,
+  "dirty": {
+    "content": 0,
+    "maps": 0
+  },
+  "pie": "stopped",
+  "backup": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\FernbrookRecovery\\CharacterLighting_Before_20260911\\L_Fernbrook_Entrance.umap"
+}

@@ -1,0 +1,32 @@
+{
+  "map": "/Game/Maps/L_Cindehearth.L_Cindehearth",
+  "pie_running": false,
+  "chapter": 0,
+  "night": false,
+  "actor": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_1336",
+  "mesh": "/Game/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/StaticMeshes/CH_GormP2_Game_v001.CH_GormP2_Game_v001",
+  "material": "/Game/Cindehearth/Tripo/GormHouse_P2_v001/MI_CH_GormP2_Pixel.MI_CH_GormP2_Pixel",
+  "location": [
+    -1125.0,
+    -1620.0,
+    0.0
+  ],
+  "yaw": 180.0,
+  "dimensions_cm": [
+    315.0,
+    270.0,
+    260.00001192092896
+  ],
+  "render_triangles": 3363,
+  "nanite": false,
+  "original_shell_hidden_count": 12,
+  "sightline_infill_count": 4,
+  "supervisor_tool_parts": 3,
+  "walk_waypoints_passed": 8,
+  "epilogue": {
+    "played": true,
+    "view_target_restored": true,
+    "move_input_restored": true,
+    "look_input_restored": true
+  }
+}

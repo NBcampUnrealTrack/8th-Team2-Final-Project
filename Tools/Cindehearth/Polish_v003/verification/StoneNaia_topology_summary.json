@@ -1,0 +1,44 @@
+{
+  "name": "StoneNaia",
+  "geometry": {
+    "vertices": 882,
+    "edges": 1949,
+    "polygons": 1068,
+    "triangles": 1761,
+    "ngons": 0,
+    "loose_vertices": 0,
+    "loose_edges": 0,
+    "zero_length_edges": 0,
+    "boundary_edges": 4,
+    "wire_edges": 0,
+    "non_manifold_edges": 3,
+    "degenerate_faces": 0,
+    "invalid_face_normals": 0,
+    "non_finite_vertices": 0
+  },
+  "dimensions": [
+    1.6428920030593872,
+    3.0,
+    2.6365413665771484
+  ],
+  "components": [
+    {
+      "id": 0,
+      "faces": 1068,
+      "diameter": 4.3186
+    }
+  ],
+  "loops": [
+    {
+      "id": 0,
+      "edges": 4,
+      "simple": false,
+      "diameter": 0.6461,
+      "center": [
+        -0.09306301921606064,
+        -0.504885196685791,
+        2.259892463684082
+      ]
+    }
+  ]
+}

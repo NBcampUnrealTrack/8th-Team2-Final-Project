@@ -1,0 +1,16 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Hearth_Overlap004.blend",
+  "object_name": "CH_Polish_Hearth_Overlap004",
+  "expected_fingerprint": "5f284521248b9c8844f8905e6d693d3ebeca3052060c7950e1f58b327b9316aa",
+  "output_object_name": "CH_Polish_Hearth_Closed005",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Hearth_Closed005.blend",
+  "operation": "fill_loops",
+  "selection_ids": [
+    0,
+    1
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "polish_hearth_Closed005"
+}

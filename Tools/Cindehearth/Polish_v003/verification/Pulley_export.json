@@ -1,0 +1,22 @@
+{
+  "name": "Pulley",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Pulley_Caps006.glb",
+  "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Pulley_Caps006.blend",
+  "object": "CH_Polish_Pulley_Caps006",
+  "geometry": {
+    "vertices": 1323,
+    "edges": 2405,
+    "polygons": 1205,
+    "triangles": 2155,
+    "ngons": 0,
+    "loose_vertices": 0,
+    "loose_edges": 0,
+    "zero_length_edges": 0,
+    "boundary_edges": 245,
+    "wire_edges": 0,
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "invalid_face_normals": 0,
+    "non_finite_vertices": 0
+  }
+}

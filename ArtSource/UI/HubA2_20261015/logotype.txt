@@ -1,0 +1,5 @@
+Use $imagegen to create ONE game logotype asset for UI use, matching the header in the attached hub_A2.png and the logo style of login_logo.png:
+Line 1: "나이아 언바운드" in an elegant high-contrast Korean serif / calligraphic display style, ivory-to-champagne-gold gradient (#F6EEDC to #D2B47A), thin crisp strokes, gentle letter spacing, a faint soft glow.
+Line 2 below: "NAIA UNBOUND" in small spaced-out serif capitals, muted gold (#D6BE8C), flanked left and right by short hairlines that fade outward, with one tiny diamond centred under the line.
+Both lines centred. Wide horizontal composition 2048x640. Background: fully TRANSPARENT (alpha). No emblem, no frame, no plate, no other text. Korean characters must be correct: 나 이 아 (space) 언 바 운 드.
+Save the final PNG into the current working directory as exactly logotype_hires.png and reply with only that path.

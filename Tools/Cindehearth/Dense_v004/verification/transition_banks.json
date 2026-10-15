@@ -1,0 +1,20 @@
+{
+  "actors": [
+    "CH_D4_Transition_AshFoundation",
+    "CH_D4_Transition_AshRock_0",
+    "CH_D4_Transition_AshRock_1",
+    "CH_D4_Transition_AshRock_2",
+    "CH_D4_Transition_AshRock_3",
+    "CH_D4_Transition_AshRock_4",
+    "CH_D4_Transition_AshRock_5",
+    "CH_D4_Transition_PineSoilVerge",
+    "CH_D4_Transition_PineRock_-1_0",
+    "CH_D4_Transition_PineRock_-1_1",
+    "CH_D4_Transition_PineRock_-1_2",
+    "CH_D4_Transition_PineRock_1_0",
+    "CH_D4_Transition_PineRock_1_1",
+    "CH_D4_Transition_PineRock_1_2"
+  ],
+  "collision": "All new bank meshes NoCollision; existing walked floors unchanged",
+  "purpose": "Fill visible rectangular voids beside Ashslope bridge and Pinehollow shoulder"
+}

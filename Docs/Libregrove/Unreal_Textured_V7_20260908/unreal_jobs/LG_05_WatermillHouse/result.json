@@ -1,0 +1,19 @@
+{
+  "status": "finished",
+  "id": "LG_05_WatermillHouse",
+  "destination": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse",
+  "objects": [
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/Textures/LG_05_WatermillHouse_fbx_basecolor.LG_05_WatermillHouse_fbx_basecolor",
+      "class": "Texture2D"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/Materials/tripo_mat_12da9820.tripo_mat_12da9820",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/StaticMeshes/SM_LG_05_WatermillHouse_V7.SM_LG_05_WatermillHouse_V7",
+      "class": "StaticMesh"
+    }
+  ]
+}

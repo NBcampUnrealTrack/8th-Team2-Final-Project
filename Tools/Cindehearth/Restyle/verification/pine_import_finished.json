@@ -1,0 +1,170 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"168921478800218\",\n    \"command\": \"model.import\",\n    \"state\": \"finished\",\n    \"created_at\": 1788590828.0779169,\n    \"finished_at\": 1788590828.3231196,\n    \"result\": {\n      \"source_path\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Pine_P2_Restyle_v001\\\\e7b0faa4-61fb-40fa-baeb-5e99762ec608\\\\e7b0faa4-61fb-40fa-baeb-5e99762ec608_model.fbx\",\n      \"format\": \"fbx\",\n      \"name_prefix\": \"CH_RestylePine_REF__\",\n      \"objects\": [\n        {\n          \"name\": \"CH_RestylePine_REF___tripo_node_e7b0faa4\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_RestylePine_REF___tripo_node_e7b0faa4_Mesh\"\n        }\n      ],\n      \"mesh_reports\": [\n        {\n          \"object\": {\n            \"name\": \"CH_RestylePine_REF___tripo_node_e7b0faa4\",\n            \"type\": \"MESH\",\n            \"data_name\": \"CH_RestylePine_REF___tripo_node_e7b0faa4_Mesh\",\n            \"location\": [\n              0.0,\n              0.0,\n              0.0\n            ],\n            \"rotation_degrees\": [\n              -2.5044780654876655e-06,\n              0.0,\n              0.0\n            ],\n            \"scale\": [\n              1.0,\n              1.0,\n              1.0\n            ],\n            \"dimensions\": [\n              0.23291015625,\n              0.79931640625,\n              0.99951171875\n            ],\n            \"matrix_world\": [\n              [\n                1.0,\n                0.0,\n                0.0,\n                0.0\n              ],\n              [\n                0.0,\n                1.0,\n                4.371138828673793e-08,\n                0.0\n              ],\n              [\n                0.0,\n                -4.371138828673793e-08,\n                1.0,\n                0.0\n              ],\n              [\n                0.0,\n                0.0,\n                0.0,\n                1.0\n              ]\n            ],\n            \"parent\": null,\n            \"collections\": [\n              \"Collection\"\n            ]\n          },\n          \"fingerprint\": \"f4cc5c0c7199234c1b1821ce40b05c71887dc45e59aa5a910a64dddda918f1f0\",\n          \"geometry\": {\n            \"vertices\": 1901,\n            \"edges\": 4017,\n            \"polygons\": 2138,\n            \"triangles\": 3622,\n            \"ngons\": 0,\n            \"loose_vertices\": 0,\n            \"loose_edges\": 0,\n            \"zero_length_edges\": 0,\n            \"boundary_edges\": 136,\n            \"wire_edges\": 0,\n            \"non_manifold_edges\": 0,\n            \"degenerate_faces\": 0,\n            \"invalid_face_normals\": 0,\n            \"non_finite_vertices\": 0\n          },\n          \"bounds\": {\n            \"local_min\": [\n              -0.116455078125,\n              -0.399658203125,\n              -0.499755859375\n            ],\n            \"local_max\": [\n              0.116455078125,\n              0.399658203125,\n              0.499755859375\n            ],\n            \"world_min\": [\n              -0.116455078125,\n              -0.3996582329273224,\n              -0.4997558891773224\n            ],\n            \"world_max\": [\n              0.116455078125,\n              0.3996582329273224,\n              0.4997558891773224\n            ]\n          },\n          \"materials\": [\n            {\n              \"slot\": 0,\n              \"name\": \"tripo_mat_e7b0faa4\"\n            }\n          ],\n          \"uv_layers\": [\n            {\n              \"name\": \"e7b0faa4_61fb_40fa_baeb_5e99762ec608_NewUVMap\",\n              \"active\": true,\n              \"active_render\": true,\n              \"loop_count\": 7898,\n              \"bounds_min\": [\n                0.0008623996400274336,\n                0.0008435470517724752\n              ],\n              \"bounds_max\": [\n                0.9950461983680725,\n                0.9991750121116638\n              ],\n              \"out_of_zero_one_range\": 0,\n              \"non_finite\": 0,\n              \"degenerate_faces\": 0\n            }\n          ],\n          \"modifiers\": [],\n          \"quality\": {\n            \"passed\": true,\n            \"score\": 94,\n            \"blockers\": [],\n            \"warnings\": [\n              {\n                \"code\": \"non_manifold_geometry\",\n                \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n              }\n            ],\n            \"requirements\": {}\n          }\n        }\n      ]\n    }\n  }\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "result": {
+      "job_id": "168921478800218",
+      "command": "model.import",
+      "state": "finished",
+      "created_at": 1788590828.0779169,
+      "finished_at": 1788590828.3231196,
+      "result": {
+        "source_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Tripo\\CH_Pine_P2_Restyle_v001\\e7b0faa4-61fb-40fa-baeb-5e99762ec608\\e7b0faa4-61fb-40fa-baeb-5e99762ec608_model.fbx",
+        "format": "fbx",
+        "name_prefix": "CH_RestylePine_REF__",
+        "objects": [
+          {
+            "name": "CH_RestylePine_REF___tripo_node_e7b0faa4",
+            "type": "MESH",
+            "data_name": "CH_RestylePine_REF___tripo_node_e7b0faa4_Mesh"
+          }
+        ],
+        "mesh_reports": [
+          {
+            "object": {
+              "name": "CH_RestylePine_REF___tripo_node_e7b0faa4",
+              "type": "MESH",
+              "data_name": "CH_RestylePine_REF___tripo_node_e7b0faa4_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                -2.5044780654876655e-06,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                0.23291015625,
+                0.79931640625,
+                0.99951171875
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  4.371138828673793e-08,
+                  0.0
+                ],
+                [
+                  0.0,
+                  -4.371138828673793e-08,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "f4cc5c0c7199234c1b1821ce40b05c71887dc45e59aa5a910a64dddda918f1f0",
+            "geometry": {
+              "vertices": 1901,
+              "edges": 4017,
+              "polygons": 2138,
+              "triangles": 3622,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 136,
+              "wire_edges": 0,
+              "non_manifold_edges": 0,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -0.116455078125,
+                -0.399658203125,
+                -0.499755859375
+              ],
+              "local_max": [
+                0.116455078125,
+                0.399658203125,
+                0.499755859375
+              ],
+              "world_min": [
+                -0.116455078125,
+                -0.3996582329273224,
+                -0.4997558891773224
+              ],
+              "world_max": [
+                0.116455078125,
+                0.3996582329273224,
+                0.4997558891773224
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_mat_e7b0faa4"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "e7b0faa4_61fb_40fa_baeb_5e99762ec608_NewUVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 7898,
+                "bounds_min": [
+                  0.0008623996400274336,
+                  0.0008435470517724752
+                ],
+                "bounds_max": [
+                  0.9950461983680725,
+                  0.9991750121116638
+                ],
+                "out_of_zero_one_range": 0,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 94,
+              "blockers": [],
+              "warnings": [
+                {
+                  "code": "non_manifold_geometry",
+                  "message": "Mesh contains boundary, wire, or non-manifold edges."
+                }
+              ],
+              "requirements": {}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "isError": false
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "tool": "blender_save_copy",
+    "arguments": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Hearth_Game_v003.blend",
+      "overwrite": false
+    },
+    "request_id": 281158235573240
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"281158235573240\",\n    \"command\": \"file.save_copy\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "281158235573240",
+        "command": "file.save_copy",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"281158235573240\",\n    \"command\": \"file.save_copy\",\n    \"state\": \"finished\",\n    \"created_at\": 1788595150.6856318,\n    \"finished_at\": 1788595150.7629116,\n    \"result\": {\n      \"path\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Polish_v003\\\\CH_Polish_Hearth_Game_v003.blend\",\n      \"bytes\": 13109658,\n      \"copy\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "281158235573240",
+        "command": "file.save_copy",
+        "state": "finished",
+        "created_at": 1788595150.6856318,
+        "finished_at": 1788595150.7629116,
+        "result": {
+          "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Hearth_Game_v003.blend",
+          "bytes": 13109658,
+          "copy": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

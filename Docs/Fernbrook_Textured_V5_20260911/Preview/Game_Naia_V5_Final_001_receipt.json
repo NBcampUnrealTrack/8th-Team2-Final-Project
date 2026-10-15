@@ -1,0 +1,12 @@
+{
+  "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Fernbrook_Textured_V5_20260911\\Preview\\Game_Naia_V5_Final_001.png",
+  "sha256": "8a84f671b650bc2efc710162322a13fee67cd48655daa59b98c264ee2d0de115",
+  "live_camera": {
+    "success": true,
+    "output": "{\"camera\": [-299.9999999999984, -1455.4482671904357, 1122.7183849538278], \"rotation\": [1.4690353290379085e-14, -30.0, 90.0], \"fov\": 38.0, \"pawn\": [-300.0, 190.0, 112.71838495382679], \"capsule_half_height\": 48.0, \"capsule_radius\": 24.0, \"grounded\": true, \"world\": \"/Game/Fernbrook/Entrance_V1/Maps/UEDPIE_0_L_Fernbrook_Entrance.L_Fernbrook_Entrance\"}",
+    "result": "None",
+    "warnings": [],
+    "execution_time_ms": 4.582200050354004
+  },
+  "method": "specific player controller HighResShot; actual game view"
+}

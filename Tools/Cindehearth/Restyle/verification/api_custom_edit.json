@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "class_name": "MaterialNodeService",
+  "full_path": "unreal.MaterialNodeService",
+  "doc_string": "Material Node Service\r\n\r\n**C++ Source:**\r\n\r\n- **Plugin**: Revvy\r\n- **Module**: Revvy\r\n- **File**: UMaterialNodeService.h\r",
+  "base_classes": [
+    "Object",
+    "_ObjectBase",
+    "_WrapperBase",
+    "object"
+  ],
+  "methods": [
+    {
+      "name": "set_function_expression_property",
+      "signature": "(function_path, expression_id, property_name, property_value) -> bool",
+      "docstring": "X.set_function_expression_property(function_path, expression_id, property_name, property_value) -> bool\r\nSet a property on an expression inside a Material Function's graph.\nMaps to action=\"set_function_expression_property\"\n\nLike SetExpressionProperty but operates on a UMaterialFunction.\r\n\r\nArgs:\r\n    function_path (str): Full asset path to the UMaterialFunction\r\n    expression_id (str): Expression ID\r\n    property_name (str): Property name\r\n    property_value (str): Value as string\r\n\r\nReturns:\r\n    bool: True if successful"
+    },
+    {
+      "name": "set_expression_property",
+      "signature": "(material_path, expression_id, property_name, property_value) -> bool",
+      "docstring": "X.set_expression_property(material_path, expression_id, property_name, property_value) -> bool\r\nSet a property value on an expression.\nMaps to action=\"set_property\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    expression_id (str): ID of expression\r\n    property_name (str): Property name\r\n    property_value (str): Value as string\r\n\r\nReturns:\r\n    bool: True if successful"
+    },
+    {
+      "name": "get_expression_property",
+      "signature": "(material_path, expression_id, property_name) -> str",
+      "docstring": "X.get_expression_property(material_path, expression_id, property_name) -> str\r\nGet a property value from an expression.\nMaps to action=\"get_property\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    expression_id (str): ID of expression\r\n    property_name (str): Property name\r\n\r\nReturns:\r\n    str: Property value as string"
+    },
+    {
+      "name": "create_custom_expression",
+      "signature": "(material_path, code, output_type=\"CMOT_Float3\", description=\"Custom\", input_names=\"\", pos_x=0, pos_y=0) -> MaterialExpressionInfo",
+      "docstring": "X.create_custom_expression(material_path, code, output_type=\"CMOT_Float3\", description=\"Custom\", input_names=\"\", pos_x=0, pos_y=0) -> MaterialExpressionInfo\r\nCreate a Custom HLSL expression node with code, output type, and optional inputs.\nMaps to action=\"create_custom_expression\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    code (str): HLSL code string (e.g., \"return Input0 * 2.0;\")\r\n    output_type (str): Output type: \"CMOT_Float1\", \"CMOT_Float2\", \"CMOT_Float3\", \"CMOT_Float4\", \"CMOT_MaterialAttributes\"\r\n    description (str): Display name for the node\r\n    input_names (str): Comma-separated custom input names (e.g., \"Albedo,Mask,UV\") or empty for no custom inputs\r\n    pos_x (int32): X position in graph\r\n    pos_y (int32): Y position in graph\r\n\r\nReturns:\r\n    MaterialExpressionInfo: Created expression info Example: node = unreal.MaterialNodeService.create_custom_expression(\"/Game/M_Test\", \"return Input0 * 2;\", \"CMOT_Float3\", \"DoubleIt\", \"Color\", -500, 0)"
+    }
+  ],
+  "properties": []
+}

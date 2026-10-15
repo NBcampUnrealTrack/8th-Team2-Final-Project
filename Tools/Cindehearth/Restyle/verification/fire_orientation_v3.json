@@ -1,0 +1,28 @@
+{
+  "changed": [
+    "CH_HD2D_HearthFire0",
+    "CH_HD2D_HearthFire1",
+    "CH_HD2D_HearthFire2",
+    "CH_HD2D_ForgeFire0",
+    "CH_HD2D_ForgeFire1"
+  ],
+  "capture": {
+    "success": true,
+    "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Restyle_flame_v3.png",
+    "width": 1850,
+    "height": 823,
+    "camera": {
+      "location": [
+        1550,
+        -1500,
+        930
+      ],
+      "rotation": [
+        -17.91593392516447,
+        140.96448710125313,
+        3.3591089380175634e-07
+      ],
+      "fov": 43
+    }
+  }
+}

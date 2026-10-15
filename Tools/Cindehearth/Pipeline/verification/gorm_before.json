@@ -1,0 +1,420 @@
+[
+  {
+    "label": "CH_GormNoticeboard_Timber",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_184",
+    "location": [
+      -990.0,
+      -180.0,
+      157.5
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E8EB30) {pitch: 0.000000, yaw: -90.000000, roll: 0.000000}>",
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Notice_Timber.SM_CH_Notice_Timber",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormNoticeboard_Paper",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_185",
+    "location": [
+      -990.0,
+      -180.0,
+      157.5
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022EEF3C3940) {pitch: 0.000000, yaw: -90.000000, roll: 0.000000}>",
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Notice_Paper.SM_CH_Notice_Paper",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_Stone",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_251",
+    "location": [
+      -1125.0,
+      -1620.0,
+      0.0
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E26E00) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_Stone.SM_CH_RowHouse_Stone",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_Timber",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_252",
+    "location": [
+      -1125.0,
+      -1620.0,
+      0.0
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022EF795A1D0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_Timber.SM_CH_RowHouse_Timber",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_Iron",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_253",
+    "location": [
+      -1125.0,
+      -1620.0,
+      0.0
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02D975D0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_Iron.SM_CH_RowHouse_Iron",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_Brass",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_254",
+    "location": [
+      -1125.0,
+      -1620.0,
+      0.0
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E42AE0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_Brass.SM_CH_RowHouse_Brass",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_StoneLight",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_255",
+    "location": [
+      -1125.0,
+      -1620.0,
+      0.0
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E409C0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_StoneLight.SM_CH_RowHouse_StoneLight",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_RoofPatch",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_256",
+    "location": [
+      -1125.0,
+      -1620.0,
+      0.0
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6F800) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_RoofPatch.SM_CH_RowHouse_RoofPatch",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_Roof",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_257",
+    "location": [
+      -1125.0,
+      -1620.0,
+      0.0
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6FB70) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_Roof.SM_CH_RowHouse_Roof",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_Window",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_258",
+    "location": [
+      -1125.0,
+      -1620.0,
+      0.0
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6FFD0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_Window.SM_CH_RowHouse_Window",
+    "hidden": true,
+    "editor_hidden": true,
+    "collision": false
+  },
+  {
+    "label": "CH_GormHouse_Dark",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_259",
+    "location": [
+      -1125.0,
+      -1620.0,
+      0.0
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6E4A0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_RowHouse_Dark.SM_CH_RowHouse_Dark",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_ToolSign_Timber",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_260",
+    "location": [
+      -1046.25,
+      -1764.0000000000002,
+      6.75
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6FC60) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.531,
+      0.531,
+      0.531
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_ToolSign_Timber.SM_CH_ToolSign_Timber",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_ToolSign_Iron",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_261",
+    "location": [
+      -1046.25,
+      -1764.0000000000002,
+      6.75
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6E4F0) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.531,
+      0.531,
+      0.531
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_ToolSign_Iron.SM_CH_ToolSign_Iron",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_ToolSign_Brass",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_262",
+    "location": [
+      -1046.25,
+      -1764.0000000000002,
+      6.75
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6E400) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.531,
+      0.531,
+      0.531
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_ToolSign_Brass.SM_CH_ToolSign_Brass",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormSteps_Path",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_527",
+    "location": [
+      -810.0,
+      -1440.0,
+      2.475
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6FF80) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      1.8,
+      3.6,
+      0.045000000000000005
+    ],
+    "mesh": "/Game/Cindehearth/Meshes/SM_CH_Path_Path.SM_CH_Path_Path",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_Q12_GormDoor",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.TargetPoint_8",
+    "location": [
+      -1125.0,
+      -1759.5,
+      0.0
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6FF80) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mesh": null,
+    "hidden": true,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_Sign_Gorm",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.TextRenderActor_7",
+    "location": [
+      -1048.5,
+      -1760.3999999999999,
+      58.5
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6FF80) {pitch: 0.000000, yaw: -90.000000, roll: 0.000000}>",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mesh": null,
+    "hidden": true,
+    "editor_hidden": true,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_Firewood0",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_1184",
+    "location": [
+      -1215.0,
+      -1777.5,
+      9.9
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6FD00) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.1575,
+      0.1575,
+      0.63
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_Firewood1",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_1185",
+    "location": [
+      -1196.1,
+      -1777.5,
+      9.9
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6E310) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.1575,
+      0.1575,
+      0.63
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_GormHouse_Firewood2",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_1186",
+    "location": [
+      -1177.2,
+      -1777.5,
+      9.9
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6F940) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.1575,
+      0.1575,
+      0.63
+    ],
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_Gorm",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.PaperSpriteActor_24",
+    "location": [
+      810.0,
+      2925.0,
+      315.0
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6F940) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+    "scale": [
+      0.8163265306122452,
+      0.8163265306122452,
+      0.8163265306122452
+    ],
+    "mesh": null,
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  },
+  {
+    "label": "CH_Lettering_Gorm",
+    "path": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_1321",
+    "location": [
+      -1048.5,
+      -1760.3999999999999,
+      58.5
+    ],
+    "rotation": "<Struct 'Rotator' (0x0000022F02E6FBC0) {pitch: 0.000000, yaw: 180.000000, roll: 90.000000}>",
+    "scale": [
+      0.29250000000000004,
+      0.135,
+      0.45
+    ],
+    "mesh": "/Engine/BasicShapes/Plane.Plane",
+    "hidden": false,
+    "editor_hidden": false,
+    "collision": true
+  }
+]

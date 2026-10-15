@@ -1,0 +1,18 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Smithy_WallRear007.blend",
+  "object_name": "CH_Dense_Smithy_WallRear007",
+  "expected_fingerprint": "65ade502245de16082bedd66a4dc76cd2f696d07c8cd8c226bc2f8ff5cc121ad",
+  "output_object_name": "CH_Dense_Smithy_WallSide008",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Smithy_WallSide008.blend",
+  "operation": "cap_polygon",
+  "selection_ids": [
+    439,
+    2,
+    75,
+    495
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "dense_arch_smithy_WallSide008"
+}

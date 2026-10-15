@@ -1,0 +1,223 @@
+{
+ "canvas": [
+  60,
+  100
+ ],
+ "pivot": [
+  30,
+  96
+ ],
+ "jobId": 1003,
+ "anims": {
+  "Idle_Front": {
+   "source": "front_idle",
+   "offset": [
+    -3,
+    -5
+   ],
+   "align": "눈",
+   "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "bounce": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "clipped_px": {
+    "body": 0,
+    "hair4": 0
+   },
+   "neck_filled_px": 0,
+   "ribbon_moved_px": 0,
+   "jaw_filled_px": 0
+  },
+  "Walk_Front": {
+   "source": "front_walk",
+   "offset": [
+    -3,
+    -5
+   ],
+   "align": "눈",
+   "durations_ms": [
+    120,
+    110,
+    110,
+    110,
+    120,
+    110,
+    110,
+    110
+   ],
+   "bounce": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "clipped_px": {
+    "body": 0,
+    "hair4": 0
+   },
+   "neck_filled_px": 0,
+   "ribbon_moved_px": 0,
+   "jaw_filled_px": 0
+  },
+  "Idle_Side": {
+   "source": "side_idle",
+   "offset": [
+    -1,
+    -4
+   ],
+   "align": "눈",
+   "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "bounce": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "clipped_px": {
+    "body": 0,
+    "hair4": 0
+   },
+   "neck_filled_px": 160,
+   "ribbon_moved_px": 16,
+   "jaw_filled_px": 139
+  },
+  "Walk_Side": {
+   "source": "side_walk",
+   "offset": [
+    -1,
+    -4
+   ],
+   "align": "눈",
+   "durations_ms": [
+    110,
+    110,
+    110,
+    110,
+    110,
+    110,
+    110,
+    110
+   ],
+   "bounce": [
+    -4,
+    -5,
+    -3,
+    -4,
+    -3,
+    -4,
+    -3,
+    -4
+   ],
+   "clipped_px": {
+    "body": 0,
+    "hair4": 0
+   },
+   "neck_filled_px": 160,
+   "ribbon_moved_px": 0,
+   "jaw_filled_px": 152
+  },
+  "Idle_Back": {
+   "source": "back_idle",
+   "offset": [
+    -2,
+    -5
+   ],
+   "align": "귀",
+   "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "bounce": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "clipped_px": {
+    "body": 0,
+    "hair4": 0
+   },
+   "neck_filled_px": 0,
+   "ribbon_moved_px": 0,
+   "jaw_filled_px": 0
+  },
+  "Walk_Back": {
+   "source": "back_walk",
+   "offset": [
+    -2,
+    -5
+   ],
+   "align": "귀",
+   "durations_ms": [
+    120,
+    110,
+    110,
+    110,
+    120,
+    110,
+    110,
+    110
+   ],
+   "bounce": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "clipped_px": {
+    "body": 0,
+    "hair4": 0
+   },
+   "neck_filled_px": 0,
+   "ribbon_moved_px": 0,
+   "jaw_filled_px": 0
+  }
+ }
+}

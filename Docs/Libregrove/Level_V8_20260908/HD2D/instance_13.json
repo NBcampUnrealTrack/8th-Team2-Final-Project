@@ -1,0 +1,30 @@
+{
+  "source": "/Game/Libregrove/Level_V8/Materials/MI_LG8_Wood.MI_LG8_Wood",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Wood_9a32e.MI_HD2D_LG8_Wood_9a32e",
+  "kind": "WorldProps",
+  "scalars": {
+    "CameraFadeAmount": 0.0,
+    "TileCm": 75.0,
+    "RoughnessMul": 1.0,
+    "EmissiveStrength": 0.0
+  },
+  "vectors": {
+    "Tint": [
+      0.7200000286102295,
+      0.5699999928474426,
+      0.3700000047683716,
+      1.0
+    ],
+    "Emissive": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "textures": {
+    "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_BC.T_Prop_WoodPlanks_Pixel_BC",
+    "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_N.T_Prop_WoodPlanks_Pixel_N",
+    "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_WoodPlanks_Pixel_ORM.T_Prop_WoodPlanks_Pixel_ORM"
+  }
+}

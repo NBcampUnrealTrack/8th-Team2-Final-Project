@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "output": "{\"map\": \"/Game/Maps/L_Cindehearth.L_Cindehearth\", \"actors\": 1406, \"zones\": {\"Lighting\": 9, \"Gameplay\": 2, \"Terrain\": 10, \"Rail\": 147, \"Hearth\": 61, \"Smithy\": 17, \"Assay\": 15, \"Residential\": 256, \"Mine\": 48, \"Paths\": 4, \"Dressing\": 280, \"Greyvein\": 122, \"Ashslope\": 65, \"Pinehollow\": 147, \"Cemetery\": 62, \"Archive\": 17, \"Deepvein\": 34, \"Story\": 19, \"Signs\": 18, \"FinalDetails\": 71, \"Cinematics\": 2}, \"zero_bounds\": []}",
+  "result": "None",
+  "warnings": [],
+  "execution_time_ms": 22.649499893188477
+}

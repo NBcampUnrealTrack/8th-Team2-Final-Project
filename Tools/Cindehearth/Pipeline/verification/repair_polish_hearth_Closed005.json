@@ -1,0 +1,292 @@
+[
+  {
+    "job_id": "polish_hearth_Closed005",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_hearth_Closed005",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_hearth_Closed005"
+  },
+  {
+    "job_id": "polish_hearth_Closed005",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_hearth_Closed005"
+  },
+  {
+    "job_id": "polish_hearth_Closed005",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "1a9f8f60043d7be1a358da4064eab4d25aef319fc0da8a20e02df53b56f8196c",
+      "source": {
+        "object": {
+          "name": "CH_Polish_Hearth_Overlap004",
+          "type": "MESH",
+          "data_name": "CH_Polish_Hearth_Overlap004_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            3.0,
+            3.0,
+            0.5114802122116089
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "5f284521248b9c8844f8905e6d693d3ebeca3052060c7950e1f58b327b9316aa",
+        "geometry": {
+          "vertices": 995,
+          "edges": 2066,
+          "polygons": 1077,
+          "triangles": 1899,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 79,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.5,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            1.5,
+            1.5,
+            0.5114802122116089
+          ],
+          "world_min": [
+            -1.5,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            1.5,
+            1.5,
+            0.5114802122116089
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_acf82c22"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "acf82c22_bea2_44d1_b843_e3312c54c273_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 4053,
+            "bounds_min": [
+              0.0007974480395205319,
+              0.0008409784059040248
+            ],
+            "bounds_max": [
+              0.9761034250259399,
+              0.9992063641548157
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Polish_Hearth_Closed005",
+          "type": "MESH",
+          "data_name": "CH_Polish_Hearth_Closed005_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            3.0,
+            3.0,
+            0.5114802122116089
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "4348aa02c8345c66e9e13b0375554d210fed4ac765e894ecc4cd6abd4257b9c0",
+        "geometry": {
+          "vertices": 995,
+          "edges": 2139,
+          "polygons": 1152,
+          "triangles": 1974,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 0,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.5,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            1.5,
+            1.5,
+            0.5114802122116089
+          ],
+          "world_min": [
+            -1.5,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            1.5,
+            1.5,
+            0.5114802122116089
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_acf82c22"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "acf82c22_bea2_44d1_b843_e3312c54c273_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 4278,
+            "bounds_min": [
+              0.0007974480395205319,
+              0.0008409784059040248
+            ],
+            "bounds_max": [
+              0.9761034250259399,
+              0.9992063641548157
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 100,
+          "blockers": [],
+          "warnings": [],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "added_faces": 75
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Hearth_Closed005.blend"
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "job_id": "dense_arch_tavern_WallFront007",
+    "state": "running"
+  },
+  {
+    "job_id": "dense_arch_tavern_WallFront007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_tavern_WallFront007"
+  },
+  {
+    "job_id": "dense_arch_tavern_WallFront007",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_tavern_WallFront007"
+  },
+  {
+    "job_id": "dense_arch_tavern_WallFront007",
+    "state": "failed",
+    "success": false,
+    "error": "('non_manifold_edges', {'vertices': 1943, 'edges': 3680, 'polygons': 1900, 'triangles': 3143, 'ngons': 0, 'loose_vertices': 0, 'loose_edges': 0, 'zero_length_edges': 0, 'boundary_edges': 418, 'wire_edges': 0, 'non_manifold_edges': 1, 'degenerate_faces': 0, 'invalid_face_normals': 0, 'non_finite_vertices': 0})",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 295, in <module>\n    result=run(json.loads(req.read_text(encoding='utf-8')))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Tools\\Cindehearth\\Pipeline\\blender_repair_worker.py\", line 278, in run\n    assert after['geometry'][name]<=before['geometry'][name],(name,after['geometry'])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('non_manifold_edges', {'vertices': 1943, 'edges': 3680, 'polygons': 1900, 'triangles': 3143, 'ngons': 0, 'loose_vertices': 0, 'loose_edges': 0, 'zero_length_edges': 0, 'boundary_edges': 418, 'wire_edges': 0, 'non_manifold_edges': 1, 'degenerate_faces': 0, 'invalid_face_normals': 0, 'non_finite_vertices': 0})\n"
+  }
+]

@@ -1,0 +1,2071 @@
+{
+  "material": {
+    "blend_mode": "BLEND_Translucent",
+    "shading_model": "MSM_DefaultLit",
+    "two_sided": false
+  },
+  "expressions": [
+    {
+      "id": "MaterialExpressionWorldPosition_000002576ED79CA0",
+      "class": "WorldPosition",
+      "class_full": "MaterialExpressionWorldPosition",
+      "pos_x": -2600,
+      "pos_y": 0,
+      "properties": {
+        "WorldPositionShaderOffset": "WPT_Default"
+      },
+      "inputs": [],
+      "outputs": [
+        "XYZ",
+        "XY",
+        "Z"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809A5780",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2600,
+      "pos_y": 180,
+      "properties": {
+        "DefaultValue": "90.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "TileCm",
+      "group": "UV",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809AAF00",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2600,
+      "pos_y": 270,
+      "properties": {
+        "DefaultValue": "2.600000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "RippleScale",
+      "group": "UV",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000256809A2080",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -2400,
+      "pos_y": 220,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDivide_00000256809A4380",
+      "class": "Divide",
+      "class_full": "MaterialExpressionDivide",
+      "pos_x": -2200,
+      "pos_y": 0,
+      "properties": {
+        "ConstA": "1.000000",
+        "ConstB": "2.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809A94C0",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2200,
+      "pos_y": 320,
+      "properties": {
+        "DefaultValue": "1.620000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "Ripple2Freq",
+      "group": "UV",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000256809AA500",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -2000,
+      "pos_y": 260,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTime_000002576ED7A100",
+      "class": "Time",
+      "class_full": "MaterialExpressionTime",
+      "pos_x": -2200,
+      "pos_y": 480,
+      "properties": {
+        "bIgnorePause": "False",
+        "bOverride_Period": "False",
+        "Period": "0.000000"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809A49C0",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -2200,
+      "pos_y": 560,
+      "properties": {
+        "DefaultValue": "1.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "RippleSpeed",
+      "group": "Ripples",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionPanner_000002575EF43D80",
+      "class": "Panner",
+      "class_full": "MaterialExpressionPanner",
+      "pos_x": -1800,
+      "pos_y": 0,
+      "properties": {
+        "SpeedX": "0.020000",
+        "SpeedY": "0.011000",
+        "ConstCoordinate": "0",
+        "bFractionalPart": "False"
+      },
+      "inputs": [
+        "Coordinate",
+        "Time",
+        "Speed"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionPanner_000002575EF4D200",
+      "class": "Panner",
+      "class_full": "MaterialExpressionPanner",
+      "pos_x": -1800,
+      "pos_y": 300,
+      "properties": {
+        "SpeedX": "-0.014000",
+        "SpeedY": "0.024000",
+        "ConstCoordinate": "0",
+        "bFractionalPart": "False"
+      },
+      "inputs": [
+        "Coordinate",
+        "Time",
+        "Speed"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_0000025853350280",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1500,
+      "pos_y": 0,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_None",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Water_Ripple.T_Water_Ripple'",
+        "SamplerType": "SAMPLERTYPE_LinearColor",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "RippleTex",
+      "group": "Ripples",
+      "inputs": [
+        "Coordinates",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTextureSampleParameter2D_0000025853350500",
+      "class": "TextureSampleParameter2D",
+      "class_full": "MaterialExpressionTextureSampleParameter2D",
+      "pos_x": -1500,
+      "pos_y": 340,
+      "properties": {
+        "SortPriority": "32",
+        "MipValueMode": "TMVM_None",
+        "SamplerSource": "SSM_FromTextureAsset",
+        "GatherMode": "TGM_None",
+        "AutomaticViewMipBias": "True",
+        "ChannelNames": "()",
+        "ConstCoordinate": "0",
+        "ConstMipValue": "-1",
+        "Texture": "/Script/Engine.Texture2D'/Game/Village/Textures/Pixel/T_Water_Ripple.T_Water_Ripple'",
+        "SamplerType": "SAMPLERTYPE_LinearColor",
+        "IsDefaultMeshpaintTexture": "False"
+      },
+      "is_parameter": true,
+      "parameter_name": "RippleTex",
+      "group": "Ripples",
+      "inputs": [
+        "Coordinates",
+        "Apply View MipBias"
+      ],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionAdd_00000256809A9740",
+      "class": "Add",
+      "class_full": "MaterialExpressionAdd",
+      "pos_x": -1150,
+      "pos_y": 40,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000256809A58C0",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -1000,
+      "pos_y": 40,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionConstant_000002576ED75F60",
+      "class": "Constant",
+      "class_full": "MaterialExpressionConstant",
+      "pos_x": -1150,
+      "pos_y": 160,
+      "properties": {
+        "R": "0.500000"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000256809A3980",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -1150,
+      "pos_y": 280,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809A1400",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -1000,
+      "pos_y": 620,
+      "properties": {
+        "DefaultValue": "0.480000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "BandThreshold",
+      "group": "Ripples",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809A6680",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -1000,
+      "pos_y": 700,
+      "properties": {
+        "DefaultValue": "40.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "HighlightSharpness",
+      "group": "Ripples",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809AA780",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -1000,
+      "pos_y": 780,
+      "properties": {
+        "DefaultValue": "0.600000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "HighlightThreshold",
+      "group": "Ripples",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionSubtract_00000256809A9100",
+      "class": "Subtract",
+      "class_full": "MaterialExpressionSubtract",
+      "pos_x": -800,
+      "pos_y": 40,
+      "properties": {
+        "ConstA": "1.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000256809A8200",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -650,
+      "pos_y": 40,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionSaturate_000002585537F800",
+      "class": "Saturate",
+      "class_full": "MaterialExpressionSaturate",
+      "pos_x": -500,
+      "pos_y": 40,
+      "properties": {},
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionSubtract_00000256809AAB40",
+      "class": "Subtract",
+      "class_full": "MaterialExpressionSubtract",
+      "pos_x": -800,
+      "pos_y": 280,
+      "properties": {
+        "ConstA": "1.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000256809A4240",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -650,
+      "pos_y": 280,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionSaturate_000002585537CB00",
+      "class": "Saturate",
+      "class_full": "MaterialExpressionSaturate",
+      "pos_x": -500,
+      "pos_y": 280,
+      "properties": {},
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809A8C00",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -1600,
+      "pos_y": 900,
+      "properties": {
+        "DefaultValue": "52.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "ShallowDistance",
+      "group": "Depth",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809A4C40",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -1600,
+      "pos_y": 1080,
+      "properties": {
+        "DefaultValue": "16.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "FoamWidth",
+      "group": "Depth",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDepthFade_00000256809A8980",
+      "class": "DepthFade",
+      "class_full": "MaterialExpressionDepthFade",
+      "pos_x": -1350,
+      "pos_y": 900,
+      "properties": {
+        "OpacityDefault": "1.000000",
+        "FadeDistanceDefault": "38.000000"
+      },
+      "inputs": [
+        "Opacity",
+        "FadeDistance"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDepthFade_00000256809AADC0",
+      "class": "DepthFade",
+      "class_full": "MaterialExpressionDepthFade",
+      "pos_x": -1350,
+      "pos_y": 1080,
+      "properties": {
+        "OpacityDefault": "1.000000",
+        "FadeDistanceDefault": "9.000000"
+      },
+      "inputs": [
+        "Opacity",
+        "FadeDistance"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionOneMinus_0000025855378600",
+      "class": "OneMinus",
+      "class_full": "MaterialExpressionOneMinus",
+      "pos_x": -1150,
+      "pos_y": 900,
+      "properties": {},
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809AC080",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -1350,
+      "pos_y": 780,
+      "properties": {
+        "DefaultValue": "3.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "DepthSteps",
+      "group": "Depth",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000256809A6F40",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -1000,
+      "pos_y": 900,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCeil_0000025855375500",
+      "class": "Ceil",
+      "class_full": "MaterialExpressionCeil",
+      "pos_x": -850,
+      "pos_y": 900,
+      "properties": {},
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionDivide_00000256809A9600",
+      "class": "Divide",
+      "class_full": "MaterialExpressionDivide",
+      "pos_x": -700,
+      "pos_y": 900,
+      "properties": {
+        "ConstA": "1.000000",
+        "ConstB": "2.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionOneMinus_000002585537F700",
+      "class": "OneMinus",
+      "class_full": "MaterialExpressionOneMinus",
+      "pos_x": -1150,
+      "pos_y": 1080,
+      "properties": {},
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809AB180",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -1350,
+      "pos_y": 1180,
+      "properties": {
+        "DefaultValue": "2.600000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "FoamSharpness",
+      "group": "Depth",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000256809AB680",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -1000,
+      "pos_y": 1080,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionSaturate_000002585537E700",
+      "class": "Saturate",
+      "class_full": "MaterialExpressionSaturate",
+      "pos_x": -850,
+      "pos_y": 1080,
+      "properties": {},
+      "inputs": [
+        "Input"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_000002575EF45A00",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -500,
+      "pos_y": 1300,
+      "properties": {
+        "DefaultValue": "(R=0.008000,G=0.032000,B=0.050000,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "DeepColor",
+      "group": "Color",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_000002575EF49D80",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -500,
+      "pos_y": 1400,
+      "properties": {
+        "DefaultValue": "(R=0.030000,G=0.100000,B=0.122000,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "ShallowColor",
+      "group": "Color",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_000002575EF4E880",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -500,
+      "pos_y": 1500,
+      "properties": {
+        "DefaultValue": "(R=0.350000,G=0.520000,B=0.550000,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "FoamColor",
+      "group": "Color",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionVectorParameter_000002575EF4CA80",
+      "class": "VectorParameter",
+      "class_full": "MaterialExpressionVectorParameter",
+      "pos_x": -500,
+      "pos_y": 1600,
+      "properties": {
+        "DefaultValue": "(R=0.220000,G=0.420000,B=0.450000,A=1.000000)",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "ChannelNames": "()",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "HighlightColor",
+      "group": "Color",
+      "inputs": [],
+      "outputs": [
+        "RGB",
+        "R",
+        "G",
+        "B",
+        "A",
+        "RGBA"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809A99C0",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -500,
+      "pos_y": 1700,
+      "properties": {
+        "DefaultValue": "0.600000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "BandStrength",
+      "group": "Color",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809ABCC0",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -500,
+      "pos_y": 1780,
+      "properties": {
+        "DefaultValue": "0.800000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "HighlightStrength",
+      "group": "Color",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000256809A12C0",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -300,
+      "pos_y": 1700,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000256809A0640",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": -300,
+      "pos_y": 1780,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionLinearInterpolate_000002575EF41500",
+      "class": "LinearInterpolate",
+      "class_full": "MaterialExpressionLinearInterpolate",
+      "pos_x": -150,
+      "pos_y": 900,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000",
+        "ConstAlpha": "0.500000"
+      },
+      "inputs": [
+        "A",
+        "B",
+        "Alpha"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionLinearInterpolate_000002575EF44380",
+      "class": "LinearInterpolate",
+      "class_full": "MaterialExpressionLinearInterpolate",
+      "pos_x": 0,
+      "pos_y": 1000,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000",
+        "ConstAlpha": "0.500000"
+      },
+      "inputs": [
+        "A",
+        "B",
+        "Alpha"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionLinearInterpolate_000002575EF44080",
+      "class": "LinearInterpolate",
+      "class_full": "MaterialExpressionLinearInterpolate",
+      "pos_x": 150,
+      "pos_y": 1100,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000",
+        "ConstAlpha": "0.500000"
+      },
+      "inputs": [
+        "A",
+        "B",
+        "Alpha"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionLinearInterpolate_000002575EF4B280",
+      "class": "LinearInterpolate",
+      "class_full": "MaterialExpressionLinearInterpolate",
+      "pos_x": 300,
+      "pos_y": 1200,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000",
+        "ConstAlpha": "0.500000"
+      },
+      "inputs": [
+        "A",
+        "B",
+        "Alpha"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809A3480",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -150,
+      "pos_y": 1900,
+      "properties": {
+        "DefaultValue": "0.960000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "OpacityBase",
+      "group": "Surface",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionConstant_000002576ED715E0",
+      "class": "Constant",
+      "class_full": "MaterialExpressionConstant",
+      "pos_x": -150,
+      "pos_y": 1980,
+      "properties": {
+        "R": "1.000000"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionLinearInterpolate_000002575EF40F00",
+      "class": "LinearInterpolate",
+      "class_full": "MaterialExpressionLinearInterpolate",
+      "pos_x": 150,
+      "pos_y": 1900,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000",
+        "ConstAlpha": "0.500000"
+      },
+      "inputs": [
+        "A",
+        "B",
+        "Alpha"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809A8480",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -150,
+      "pos_y": 2100,
+      "properties": {
+        "DefaultValue": "0.020000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "SpecularBase",
+      "group": "Surface",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809A2580",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -150,
+      "pos_y": 2180,
+      "properties": {
+        "DefaultValue": "0.850000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "SpecularGlint",
+      "group": "Surface",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionLinearInterpolate_000002575EF41E00",
+      "class": "LinearInterpolate",
+      "class_full": "MaterialExpressionLinearInterpolate",
+      "pos_x": 150,
+      "pos_y": 2100,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000",
+        "ConstAlpha": "0.500000"
+      },
+      "inputs": [
+        "A",
+        "B",
+        "Alpha"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809A21C0",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -150,
+      "pos_y": 2300,
+      "properties": {
+        "DefaultValue": "0.600000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "RoughnessBase",
+      "group": "Surface",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809AB400",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -150,
+      "pos_y": 2380,
+      "properties": {
+        "DefaultValue": "0.080000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "RoughnessGlint",
+      "group": "Surface",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionLinearInterpolate_000002575EF43300",
+      "class": "LinearInterpolate",
+      "class_full": "MaterialExpressionLinearInterpolate",
+      "pos_x": 150,
+      "pos_y": 2300,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000",
+        "ConstAlpha": "0.500000"
+      },
+      "inputs": [
+        "A",
+        "B",
+        "Alpha"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMultiply_00000256809A30C0",
+      "class": "Multiply",
+      "class_full": "MaterialExpressionMultiply",
+      "pos_x": 800,
+      "pos_y": -250,
+      "properties": {
+        "ConstA": "0.000000",
+        "ConstB": "1.000000"
+      },
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionConstant_000002579FF04360",
+      "class": "Constant",
+      "class_full": "MaterialExpressionConstant",
+      "pos_x": 650,
+      "pos_y": -450,
+      "properties": {
+        "R": "1.000000"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionMaterialFunctionCall_00000256809A26C0",
+      "class": "MaterialFunctionCall",
+      "class_full": "MaterialExpressionMaterialFunctionCall",
+      "pos_x": 1350,
+      "pos_y": -200,
+      "properties": {
+        "MaterialFunction": "/Script/Engine.MaterialFunction'/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color'"
+      },
+      "function_path": "/Game/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.MF_LG8_HD2D_Color",
+      "inputs": [
+        "SourceColor (V3)",
+        "Saturation (S)",
+        "Contrast (S)",
+        "PaletteSteps (S)",
+        "PosterizeStrength (S)",
+        "ShadowLift (S)",
+        "GlobalTint (V3)",
+        "Strength (S)"
+      ],
+      "outputs": [
+        "StyledColor"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000256809A44C0",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 50,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "Saturation",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000256809A3FC0",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 170,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "Contrast",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000256809A2440",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 290,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "PaletteSteps",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000256809A7080",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 410,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "PosterizeStrength",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000256809A5500",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 530,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "ShadowLift",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000256809A8AC0",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 400,
+      "pos_y": 650,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "GlobalTint",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCollectionParameter_00000256809A9880",
+      "class": "CollectionParameter",
+      "class_full": "MaterialExpressionCollectionParameter",
+      "pos_x": 450,
+      "pos_y": -400,
+      "properties": {
+        "Collection": "/Script/Engine.MaterialParameterCollection'/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D'",
+        "SortPriority": "32"
+      },
+      "collection_path": "/Game/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.MPC_LG8_HD2D",
+      "collection_parameter_name": "StyleStrength",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_00000256809A8340",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": 450,
+      "pos_y": -540,
+      "properties": {
+        "DefaultValue": "0.650000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "StyleInfluence",
+      "group": "Per Material",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_00000256809ABF40",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": 1000,
+      "pos_y": -380,
+      "properties": {
+        "Code": "return saturate(Global*Local);",
+        "OutputType": "CMOT_Float1",
+        "Description": "Custom",
+        "Inputs": "((InputName=\"Global\",Input=(Expression=\"/Script/Engine.MaterialExpressionCollectionParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Water.M_LG8_HD2D_Water:MaterialExpressionCollectionParameter_6'\")),(InputName=\"Local\",Input=(Expression=\"/Script/Engine.MaterialExpressionScalarParameter'/Game/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Water.M_LG8_HD2D_Water:MaterialExpressionScalarParameter_18'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "return saturate(Global*Local);",
+      "output_type": "CMOT_Float1",
+      "custom_input_names": "Global,Local",
+      "inputs": [
+        "Global",
+        "Local"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A5780",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A2080",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809AAF00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A2080",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionWorldPosition_000002576ED79CA0",
+      "source_output_index": 1,
+      "source_output_name": "XY",
+      "target_id": "MaterialExpressionDivide_00000256809A4380",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000256809A2080",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_00000256809A4380",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_00000256809A4380",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809AA500",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A94C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809AA500",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_00000256809A4380",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionPanner_000002575EF43D80",
+      "target_input": "Coordinate"
+    },
+    {
+      "source_id": "MaterialExpressionTime_000002576ED7A100",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionPanner_000002575EF43D80",
+      "target_input": "Time"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A49C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionPanner_000002575EF43D80",
+      "target_input": "Speed"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000256809AA500",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionPanner_000002575EF4D200",
+      "target_input": "Coordinate"
+    },
+    {
+      "source_id": "MaterialExpressionTime_000002576ED7A100",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionPanner_000002575EF4D200",
+      "target_input": "Time"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A49C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionPanner_000002575EF4D200",
+      "target_input": "Speed"
+    },
+    {
+      "source_id": "MaterialExpressionPanner_000002575EF43D80",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025853350280",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionPanner_000002575EF4D200",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionTextureSampleParameter2D_0000025853350500",
+      "target_input": "Coordinates"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_0000025853350280",
+      "source_output_index": 1,
+      "source_output_name": "R",
+      "target_id": "MaterialExpressionAdd_00000256809A9740",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_0000025853350500",
+      "source_output_index": 1,
+      "source_output_name": "R",
+      "target_id": "MaterialExpressionAdd_00000256809A9740",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionAdd_00000256809A9740",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A58C0",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionConstant_000002576ED75F60",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A58C0",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_0000025853350280",
+      "source_output_index": 1,
+      "source_output_name": "R",
+      "target_id": "MaterialExpressionMultiply_00000256809A3980",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionTextureSampleParameter2D_0000025853350500",
+      "source_output_index": 1,
+      "source_output_name": "R",
+      "target_id": "MaterialExpressionMultiply_00000256809A3980",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000256809A58C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionSubtract_00000256809A9100",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A1400",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionSubtract_00000256809A9100",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionSubtract_00000256809A9100",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A8200",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A6680",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A8200",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000256809A8200",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionSaturate_000002585537F800",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000256809A3980",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionSubtract_00000256809AAB40",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809AA780",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionSubtract_00000256809AAB40",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionSubtract_00000256809AAB40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A4240",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A6680",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A4240",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000256809A4240",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionSaturate_000002585537CB00",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A8C00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDepthFade_00000256809A8980",
+      "target_input": "FadeDistance"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A4C40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDepthFade_00000256809AADC0",
+      "target_input": "FadeDistance"
+    },
+    {
+      "source_id": "MaterialExpressionDepthFade_00000256809A8980",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionOneMinus_0000025855378600",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionOneMinus_0000025855378600",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A6F40",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809AC080",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A6F40",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000256809A6F40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCeil_0000025855375500",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionCeil_0000025855375500",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_00000256809A9600",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809AC080",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionDivide_00000256809A9600",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionDepthFade_00000256809AADC0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionOneMinus_000002585537F700",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionOneMinus_000002585537F700",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809AB680",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809AB180",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809AB680",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000256809AB680",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionSaturate_000002585537E700",
+      "target_input": "Input"
+    },
+    {
+      "source_id": "MaterialExpressionSaturate_000002585537F800",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A12C0",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A99C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A12C0",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionSaturate_000002585537CB00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A0640",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809ABCC0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A0640",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_000002575EF45A00",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF41500",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_000002575EF49D80",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF41500",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionDivide_00000256809A9600",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF41500",
+      "target_input": "Alpha"
+    },
+    {
+      "source_id": "MaterialExpressionLinearInterpolate_000002575EF41500",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF44380",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_000002575EF49D80",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF44380",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000256809A12C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF44380",
+      "target_input": "Alpha"
+    },
+    {
+      "source_id": "MaterialExpressionLinearInterpolate_000002575EF44380",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF44080",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_000002575EF4CA80",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF44080",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000256809A0640",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF44080",
+      "target_input": "Alpha"
+    },
+    {
+      "source_id": "MaterialExpressionLinearInterpolate_000002575EF44080",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF4B280",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionVectorParameter_000002575EF4E880",
+      "source_output_index": 0,
+      "source_output_name": "RGB",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF4B280",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionSaturate_000002585537E700",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF4B280",
+      "target_input": "Alpha"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A3480",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF40F00",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionConstant_000002576ED715E0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF40F00",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionSaturate_000002585537E700",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF40F00",
+      "target_input": "Alpha"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A8480",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF41E00",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A2580",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF41E00",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionSaturate_000002585537CB00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF41E00",
+      "target_input": "Alpha"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A21C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF43300",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809AB400",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF43300",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionSaturate_000002585537CB00",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionLinearInterpolate_000002575EF43300",
+      "target_input": "Alpha"
+    },
+    {
+      "source_id": "MaterialExpressionLinearInterpolate_000002575EF4B280",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A30C0",
+      "target_input": "A"
+    },
+    {
+      "source_id": "MaterialExpressionConstant_000002579FF04360",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMultiply_00000256809A30C0",
+      "target_input": "B"
+    },
+    {
+      "source_id": "MaterialExpressionMultiply_00000256809A30C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000256809A26C0",
+      "target_input": "SourceColor (V3)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A44C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000256809A26C0",
+      "target_input": "Saturation (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A3FC0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000256809A26C0",
+      "target_input": "Contrast (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A2440",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000256809A26C0",
+      "target_input": "PaletteSteps (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A7080",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000256809A26C0",
+      "target_input": "PosterizeStrength (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A5500",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000256809A26C0",
+      "target_input": "ShadowLift (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A8AC0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000256809A26C0",
+      "target_input": "GlobalTint (V3)"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_00000256809ABF40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionMaterialFunctionCall_00000256809A26C0",
+      "target_input": "Strength (S)"
+    },
+    {
+      "source_id": "MaterialExpressionCollectionParameter_00000256809A9880",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000256809ABF40",
+      "target_input": "Global"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_00000256809A8340",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_00000256809ABF40",
+      "target_input": "Local"
+    }
+  ],
+  "output_connections": [
+    {
+      "property": "BaseColor",
+      "expression_id": "MaterialExpressionMaterialFunctionCall_00000256809A26C0",
+      "output_index": 0,
+      "output_name": "StyledColor"
+    },
+    {
+      "property": "Specular",
+      "expression_id": "MaterialExpressionLinearInterpolate_000002575EF41E00",
+      "output_index": 0,
+      "output_name": ""
+    },
+    {
+      "property": "Roughness",
+      "expression_id": "MaterialExpressionLinearInterpolate_000002575EF43300",
+      "output_index": 0,
+      "output_name": ""
+    },
+    {
+      "property": "Opacity",
+      "expression_id": "MaterialExpressionLinearInterpolate_000002575EF40F00",
+      "output_index": 0,
+      "output_name": ""
+    }
+  ]
+}

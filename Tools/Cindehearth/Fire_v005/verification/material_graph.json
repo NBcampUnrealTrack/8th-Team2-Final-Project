@@ -1,0 +1,226 @@
+{
+  "material": {
+    "blend_mode": "BLEND_Translucent",
+    "shading_model": "MSM_Unlit",
+    "two_sided": true
+  },
+  "expressions": [
+    {
+      "id": "MaterialExpressionTextureCoordinate_000002370444A3A0",
+      "class": "TextureCoordinate",
+      "class_full": "MaterialExpressionTextureCoordinate",
+      "pos_x": -900,
+      "pos_y": 0,
+      "properties": {
+        "CoordinateIndex": "0",
+        "UTiling": "1.000000",
+        "VTiling": "1.000000",
+        "UnMirrorU": "False",
+        "UnMirrorV": "False"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionTime_0000023704448A40",
+      "class": "Time",
+      "class_full": "MaterialExpressionTime",
+      "pos_x": -900,
+      "pos_y": 160,
+      "properties": {
+        "bIgnorePause": "False",
+        "bOverride_Period": "False",
+        "Period": "0.000000"
+      },
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_0000023615B75B40",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -900,
+      "pos_y": 320,
+      "properties": {
+        "DefaultValue": "0.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "Phase",
+      "group": "Fire",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionScalarParameter_0000023615B776C0",
+      "class": "ScalarParameter",
+      "class_full": "MaterialExpressionScalarParameter",
+      "pos_x": -900,
+      "pos_y": 480,
+      "properties": {
+        "DefaultValue": "1.000000",
+        "ControlType": "Numeric",
+        "SliderMin": "0.000000",
+        "SliderMax": "0.000000",
+        "Enumeration": "None",
+        "EnumerationIndex": "0",
+        "bUseCustomPrimitiveData": "False",
+        "PrimitiveDataIndex": "0",
+        "SortPriority": "32"
+      },
+      "is_parameter": true,
+      "parameter_name": "Intensity",
+      "group": "Fire",
+      "inputs": [],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_0000023615B76180",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -450,
+      "pos_y": 0,
+      "properties": {
+        "Code": "// Persistent, rooted fire with five independent tapered tongues.\nfloat2 q=(floor(UV*float2(64.0,80.0))+.5)/float2(64.0,80.0);\nfloat t=floor(Time*16.0)/16.0+Phase*9.0;\nfloat h=q.y;\nfloat field=-1.0;\nfloat heat=0.0;\n[unroll] for(int i=0;i<5;i++){\n    float seed=float(i)*2.371;\n    float peak=.55+.19*sin(seed+1.2)+.07*sin(t*2.1+seed);\n    float u=max(0.0,(h-.045)/peak);\n    float bend=(sin(u*7.0-t*2.6+seed)*.047+sin(u*15.0-t*3.7+seed)*.019)*u;\n    float center=.24+float(i)*.13+bend;\n    float width=(.115+.022*sin(seed))*pow(saturate(1.0-u),.82);\n    width*=.85+.15*sin(u*20.0-t*5.0+seed);\n    float density=(width-abs(q.x-center))/max(width,.012);\n    density=min(density,(1.0-u)*8.0);\n    field=max(field,density);\n    heat=max(heat,saturate(density)*saturate((.56-h)*2.6));\n}\nfloat root=smoothstep(.035,.065,h);\nfloat a=smoothstep(0.0,.16,field)*root;\nfloat bands=floor(saturate(heat)*6.0)/6.0;\nfloat3 orange=lerp(float3(1.4,.095,.003),float3(2.7,.62,.018),saturate(field*1.5));\nfloat3 col=lerp(orange,float3(3.9,2.25,.43),bands);\na*=lerp(.68,.96,saturate(field));\n// A few motes separate from the tip and fade out before their loop reset.\n[unroll] for(int j=0;j<3;j++){\n    float age=frac(t*(.19+.018*j)+float(j)*.317);\n    float2 pos=float2(.34+.16*j+.035*sin(age*5.0+j),.43+age*.51);\n    float2 delta=(q-pos)/float2(.011,.018);\n    float spark=saturate(1.0-dot(delta,delta))*smoothstep(.02,.16,age)*(1.0-smoothstep(.62,.98,age));\n    col=lerp(col,float3(2.8,1.14,.09),step(a,spark));\n    a=max(a,spark*.78);\n}\nreturn float4(col*Intensity,a);\n",
+        "OutputType": "CMOT_Float4",
+        "Description": "Cindehearth fixed front fire",
+        "Inputs": "((InputName=\"UV\",Input=(Expression=\"/Script/Engine.MaterialExpressionTextureCoordinate'/Game/Cindehearth/Fire_v005/Materials/M_CH_FrontFire.M_CH_FrontFire:MaterialExpressionTextureCoordinate_0'\")),(InputName=\"Time\",Input=(Expression=\"/Script/Engine.MaterialExpressionTime'/Game/Cindehearth/Fire_v005/Materials/M_CH_FrontFire.M_CH_FrontFire:MaterialExpressionTime_0'\")),(InputName=\"Phase\",Input=(Expression=\"/Script/Engine.MaterialExpressionScalarParameter'/Game/Cindehearth/Fire_v005/Materials/M_CH_FrontFire.M_CH_FrontFire:MaterialExpressionScalarParameter_0'\")),(InputName=\"Intensity\",Input=(Expression=\"/Script/Engine.MaterialExpressionScalarParameter'/Game/Cindehearth/Fire_v005/Materials/M_CH_FrontFire.M_CH_FrontFire:MaterialExpressionScalarParameter_1'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "// Persistent, rooted fire with five independent tapered tongues.\nfloat2 q=(floor(UV*float2(64.0,80.0))+.5)/float2(64.0,80.0);\nfloat t=floor(Time*16.0)/16.0+Phase*9.0;\nfloat h=q.y;\nfloat field=-1.0;\nfloat heat=0.0;\n[unroll] for(int i=0;i<5;i++){\n    float seed=float(i)*2.371;\n    float peak=.55+.19*sin(seed+1.2)+.07*sin(t*2.1+seed);\n    float u=max(0.0,(h-.045)/peak);\n    float bend=(sin(u*7.0-t*2.6+seed)*.047+sin(u*15.0-t*3.7+seed)*.019)*u;\n    float center=.24+float(i)*.13+bend;\n    float width=(.115+.022*sin(seed))*pow(saturate(1.0-u),.82);\n    width*=.85+.15*sin(u*20.0-t*5.0+seed);\n    float density=(width-abs(q.x-center))/max(width,.012);\n    density=min(density,(1.0-u)*8.0);\n    field=max(field,density);\n    heat=max(heat,saturate(density)*saturate((.56-h)*2.6));\n}\nfloat root=smoothstep(.035,.065,h);\nfloat a=smoothstep(0.0,.16,field)*root;\nfloat bands=floor(saturate(heat)*6.0)/6.0;\nfloat3 orange=lerp(float3(1.4,.095,.003),float3(2.7,.62,.018),saturate(field*1.5));\nfloat3 col=lerp(orange,float3(3.9,2.25,.43),bands);\na*=lerp(.68,.96,saturate(field));\n// A few motes separate from the tip and fade out before their loop reset.\n[unroll] for(int j=0;j<3;j++){\n    float age=frac(t*(.19+.018*j)+float(j)*.317);\n    float2 pos=float2(.34+.16*j+.035*sin(age*5.0+j),.43+age*.51);\n    float2 delta=(q-pos)/float2(.011,.018);\n    float spark=saturate(1.0-dot(delta,delta))*smoothstep(.02,.16,age)*(1.0-smoothstep(.62,.98,age));\n    col=lerp(col,float3(2.8,1.14,.09),step(a,spark));\n    a=max(a,spark*.78);\n}\nreturn float4(col*Intensity,a);\n",
+      "output_type": "CMOT_Float4",
+      "custom_input_names": "UV,Time,Phase,Intensity",
+      "inputs": [
+        "UV",
+        "Time",
+        "Phase",
+        "Intensity"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_0000023615B794C0",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -100,
+      "pos_y": -80,
+      "properties": {
+        "Code": "return Shape.rgb;",
+        "OutputType": "CMOT_Float3",
+        "Description": "Warm core and orange rim",
+        "Inputs": "((InputName=\"Shape\",Input=(Expression=\"/Script/Engine.MaterialExpressionCustom'/Game/Cindehearth/Fire_v005/Materials/M_CH_FrontFire.M_CH_FrontFire:MaterialExpressionCustom_0'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "return Shape.rgb;",
+      "output_type": "CMOT_Float3",
+      "custom_input_names": "Shape",
+      "inputs": [
+        "Shape"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    },
+    {
+      "id": "MaterialExpressionCustom_0000023615B79600",
+      "class": "Custom",
+      "class_full": "MaterialExpressionCustom",
+      "pos_x": -100,
+      "pos_y": 80,
+      "properties": {
+        "Code": "return Shape.a;",
+        "OutputType": "CMOT_Float1",
+        "Description": "Rooted silhouette and fading motes",
+        "Inputs": "((InputName=\"Shape\",Input=(Expression=\"/Script/Engine.MaterialExpressionCustom'/Game/Cindehearth/Fire_v005/Materials/M_CH_FrontFire.M_CH_FrontFire:MaterialExpressionCustom_0'\")))",
+        "ContainsClipInstruction": "CMCI_Search",
+        "ShowCode": "False"
+      },
+      "hlsl_code": "return Shape.a;",
+      "output_type": "CMOT_Float1",
+      "custom_input_names": "Shape",
+      "inputs": [
+        "Shape"
+      ],
+      "outputs": [
+        "Output_0"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_id": "MaterialExpressionTextureCoordinate_000002370444A3A0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_0000023615B76180",
+      "target_input": "UV"
+    },
+    {
+      "source_id": "MaterialExpressionTime_0000023704448A40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_0000023615B76180",
+      "target_input": "Time"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000023615B75B40",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_0000023615B76180",
+      "target_input": "Phase"
+    },
+    {
+      "source_id": "MaterialExpressionScalarParameter_0000023615B776C0",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_0000023615B76180",
+      "target_input": "Intensity"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_0000023615B76180",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_0000023615B794C0",
+      "target_input": "Shape"
+    },
+    {
+      "source_id": "MaterialExpressionCustom_0000023615B76180",
+      "source_output_index": 0,
+      "source_output_name": "",
+      "target_id": "MaterialExpressionCustom_0000023615B79600",
+      "target_input": "Shape"
+    }
+  ],
+  "output_connections": [
+    {
+      "property": "EmissiveColor",
+      "expression_id": "MaterialExpressionCustom_0000023615B794C0",
+      "output_index": 0,
+      "output_name": ""
+    },
+    {
+      "property": "Opacity",
+      "expression_id": "MaterialExpressionCustom_0000023615B79600",
+      "output_index": 0,
+      "output_name": ""
+    }
+  ]
+}

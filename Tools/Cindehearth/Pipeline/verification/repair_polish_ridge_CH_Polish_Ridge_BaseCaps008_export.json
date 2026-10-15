@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "polish_ridge_CH_Polish_Ridge_BaseCaps008_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_ridge_CH_Polish_Ridge_BaseCaps008_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_ridge_CH_Polish_Ridge_BaseCaps008_export"
+  },
+  {
+    "job_id": "polish_ridge_CH_Polish_Ridge_BaseCaps008_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_ridge_CH_Polish_Ridge_BaseCaps008_export"
+  },
+  {
+    "job_id": "polish_ridge_CH_Polish_Ridge_BaseCaps008_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Ridge_BaseCaps008.glb",
+      "format": "glb",
+      "bytes": 2383420,
+      "object_names": [
+        "CH_Polish_Ridge_BaseCaps008"
+      ],
+      "fingerprints": {
+        "CH_Polish_Ridge_BaseCaps008": "2a4aa6c2e57a3b3ffcf632fd868e8b230ea40890783a7c97b24f8215e3b360d3"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

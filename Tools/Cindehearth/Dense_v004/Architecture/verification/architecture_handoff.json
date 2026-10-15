@@ -1,0 +1,1020 @@
+{
+  "status": "EXPORTED_FOR_UE_ASSEMBLY",
+  "date": "2026-09-05",
+  "credit_cost": 220,
+  "balance": 1560,
+  "frozen": 0,
+  "tripo_tasks": {
+    "Tavern": "4caa7db6-bf5c-462b-a2f7-2b6fc1428808",
+    "Smithy": "dda91e9f-07fe-4fb0-b1fa-683ddbfe6b0a"
+  },
+  "assets": {
+    "Tavern": {
+      "export": {
+        "name": "Tavern",
+        "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Tavern_Foundation014.glb",
+        "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Tavern_Foundation014.blend",
+        "object": "CH_Dense_Tavern_Foundation014",
+        "geometry": {
+          "vertices": 1943,
+          "edges": 3677,
+          "polygons": 1900,
+          "triangles": 3142,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 412,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        }
+      },
+      "report": {
+        "object": {
+          "name": "CH_Dense_Tavern_Foundation014",
+          "type": "MESH",
+          "data_name": "CH_Dense_Tavern_Foundation014_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.5062344074249268,
+            3.0,
+            2.643890380859375
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "67fa81de10c8451776939fca02f19276d350190573143f4a6e06a5da14884381",
+        "geometry": {
+          "vertices": 1943,
+          "edges": 3677,
+          "polygons": 1900,
+          "triangles": 3142,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 412,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.2531172037124634,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            1.2531172037124634,
+            1.5,
+            2.643890380859375
+          ],
+          "world_min": [
+            -1.2531172037124634,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            1.2531172037124634,
+            1.5,
+            2.643890380859375
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_4caa7db6"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_4caa7db6_bf5c_462b_a2f7_2b6fc1428808_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 6942,
+            "bounds_min": [
+              0.000958724063821137,
+              0.0009959731251001358
+            ],
+            "bounds_max": [
+              0.9943252205848694,
+              0.999045193195343
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      }
+    },
+    "SmithyStructure": {
+      "export": {
+        "name": "SmithyStructure",
+        "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyStructure_Final018.glb",
+        "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyStructure_Final018.blend",
+        "object": "CH_Dense_SmithyStructure_Final018",
+        "geometry": {
+          "vertices": 1105,
+          "edges": 2248,
+          "polygons": 1183,
+          "triangles": 1966,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 164,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        }
+      },
+      "report": {
+        "object": {
+          "name": "CH_Dense_SmithyStructure_Final018",
+          "type": "MESH",
+          "data_name": "CH_Dense_SmithyStructure_Final018_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.2129945755004883,
+            2.9868099689483643,
+            1.3336589336395264
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "3c07e625f796bcc601fbab03ab4b213b949739934d32acd5328c525895a234d8",
+        "geometry": {
+          "vertices": 1105,
+          "edges": 2248,
+          "polygons": 1183,
+          "triangles": 1966,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 164,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.1028333902359009,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            1.1101611852645874,
+            1.4868099689483643,
+            1.3336589336395264
+          ],
+          "world_min": [
+            -1.1028333902359009,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            1.1101611852645874,
+            1.4868099689483643,
+            1.3336589336395264
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_dda91e9f"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "dda91e9f_07fe_4fb0_b1fa_683ddbfe6b0a_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 4332,
+            "bounds_min": [
+              0.0008409030851908028,
+              0.0008020272362045944
+            ],
+            "bounds_max": [
+              0.9902401566505432,
+              0.9977079629898071
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      }
+    },
+    "SmithyRoof": {
+      "export": {
+        "name": "SmithyRoof",
+        "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyRoof_RearFar023.glb",
+        "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyRoof_RearFar023.blend",
+        "object": "CH_Dense_SmithyRoof_RearFar023",
+        "geometry": {
+          "vertices": 670,
+          "edges": 1406,
+          "polygons": 726,
+          "triangles": 1236,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 124,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        }
+      },
+      "report": {
+        "object": {
+          "name": "CH_Dense_SmithyRoof_RearFar023",
+          "type": "MESH",
+          "data_name": "CH_Dense_SmithyRoof_RearFar023_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.2085978984832764,
+            3.0,
+            1.3439178466796875
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "f4d68deb7ee9d66edebe4c3d3652f279ada61107ed8912c3124c8ab4b71d14dd",
+        "geometry": {
+          "vertices": 670,
+          "edges": 1406,
+          "polygons": 726,
+          "triangles": 1236,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 124,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.1101611852645874,
+            -1.5,
+            1.1548607349395752
+          ],
+          "local_max": [
+            1.098436713218689,
+            1.5,
+            2.4987785816192627
+          ],
+          "world_min": [
+            -1.1101611852645874,
+            -1.5,
+            1.1548607349395752
+          ],
+          "world_max": [
+            1.098436713218689,
+            1.5,
+            2.4987785816192627
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_dda91e9f"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "dda91e9f_07fe_4fb0_b1fa_683ddbfe6b0a_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 2688,
+            "bounds_min": [
+              0.0009624365484341979,
+              0.0010830300161615014
+            ],
+            "bounds_max": [
+              0.9902400970458984,
+              0.9992015361785889
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      }
+    },
+    "SmithyWalls": {
+      "export": {
+        "name": "SmithyWalls",
+        "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyWalls_Final016.glb",
+        "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_SmithyWalls_Final016.blend",
+        "object": "CH_Dense_SmithyWalls_Final016",
+        "geometry": {
+          "vertices": 16,
+          "edges": 28,
+          "polygons": 16,
+          "triangles": 24,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 0,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        }
+      },
+      "report": {
+        "object": {
+          "name": "CH_Dense_SmithyWalls_Final016",
+          "type": "MESH",
+          "data_name": "CH_Dense_SmithyWalls_Final016_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.177903175354004,
+            2.862339735031128,
+            1.1769726276397705
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "6f158f424b8c4b7f08528a94780d88f56091dbcf04979894dd6f7b6a83b0c92b",
+        "geometry": {
+          "vertices": 16,
+          "edges": 28,
+          "polygons": 16,
+          "triangles": 24,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 0,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.0953973531723022,
+            -1.4354071617126465,
+            0.0037988927215337753
+          ],
+          "local_max": [
+            1.0825058221817017,
+            1.4269325733184814,
+            1.1807714700698853
+          ],
+          "world_min": [
+            -1.0953973531723022,
+            -1.4354071617126465,
+            0.0037988927215337753
+          ],
+          "world_max": [
+            1.0825058221817017,
+            1.4269325733184814,
+            1.1807714700698853
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_dda91e9f.001"
+          },
+          {
+            "slot": 1,
+            "name": "CH_Dense_SmithyWalls_Stone"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 56,
+            "bounds_min": [
+              -2.1021270751953125,
+              -2.1021270751953125
+            ],
+            "bounds_max": [
+              3.1021270751953125,
+              3.1021270751953125
+            ],
+            "out_of_zero_one_range": 56,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 100,
+          "blockers": [],
+          "warnings": [],
+          "requirements": {}
+        }
+      }
+    },
+    "TavernWallsFrame": {
+      "export": {
+        "name": "TavernWallsFrame",
+        "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWallsFrame_025.glb",
+        "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWallsFrame_025.blend",
+        "object": "CH_Dense_TavernWallsFrame_025",
+        "geometry": {
+          "vertices": 24,
+          "edges": 42,
+          "polygons": 24,
+          "triangles": 36,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 0,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        }
+      },
+      "report": {
+        "object": {
+          "name": "CH_Dense_TavernWallsFrame_025",
+          "type": "MESH",
+          "data_name": "CH_Dense_TavernWallsFrame_025_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            1.8232861757278442,
+            2.1565308570861816,
+            0.7638201713562012
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "5fb012fccb286acd28671b6d06ff2898fea0a629aaa85add7f62d1c0eaf520d6",
+        "geometry": {
+          "vertices": 24,
+          "edges": 42,
+          "polygons": 24,
+          "triangles": 36,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 0,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.1670972108840942,
+            -1.4606163501739502,
+            0.24884924292564392
+          ],
+          "local_max": [
+            0.65618896484375,
+            0.695914626121521,
+            1.0126694440841675
+          ],
+          "world_min": [
+            -1.1670972108840942,
+            -1.4606163501739502,
+            0.24884924292564392
+          ],
+          "world_max": [
+            0.65618896484375,
+            0.695914626121521,
+            1.0126694440841675
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_4caa7db6.001"
+          },
+          {
+            "slot": 1,
+            "name": "CH_Dense_TavernWalls_Stone"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 84,
+            "bounds_min": [
+              -1.4604825973510742,
+              -1.4604825973510742
+            ],
+            "bounds_max": [
+              2.460482597351074,
+              2.460482597351074
+            ],
+            "out_of_zero_one_range": 84,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 100,
+          "blockers": [],
+          "warnings": [],
+          "requirements": {}
+        }
+      }
+    },
+    "TavernWallsInset": {
+      "export": {
+        "name": "TavernWallsInset",
+        "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWallsInset_Weld027.glb",
+        "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWallsInset_Weld027.blend",
+        "object": "CH_Dense_TavernWallsInset_Weld027",
+        "geometry": {
+          "vertices": 8,
+          "edges": 18,
+          "polygons": 12,
+          "triangles": 12,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 0,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        }
+      },
+      "report": {
+        "object": {
+          "name": "CH_Dense_TavernWallsInset_Weld027",
+          "type": "MESH",
+          "data_name": "CH_Dense_TavernWallsInset_Weld027_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            0.07686161994934082,
+            2.121896266937256,
+            0.7604591846466064
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "ec66623309e5ec267213a9848fdde20616455b58a7f0aa29533991473d4e93b4",
+        "geometry": {
+          "vertices": 8,
+          "edges": 18,
+          "polygons": 12,
+          "triangles": 12,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 0,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            0.4567186236381531,
+            -1.4431871175765991,
+            0.2503756284713745
+          ],
+          "local_max": [
+            0.5335802435874939,
+            0.6787092685699463,
+            1.010834813117981
+          ],
+          "world_min": [
+            0.4567186236381531,
+            -1.4431871175765991,
+            0.2503756284713745
+          ],
+          "world_max": [
+            0.5335802435874939,
+            0.6787092685699463,
+            1.010834813117981
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "CH_Dense_TavernWalls_Stone.001"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 36,
+            "bounds_min": [
+              -1.4287933111190796,
+              -1.4287934303283691
+            ],
+            "bounds_max": [
+              2.4292001724243164,
+              2.4292001724243164
+            ],
+            "out_of_zero_one_range": 36,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 100,
+          "blockers": [],
+          "warnings": [],
+          "requirements": {}
+        }
+      }
+    }
+  },
+  "assembly": {
+    "front_axis": "+X",
+    "width_axis": "Y",
+    "unit": "meters in Blender; GLB import centimeters in Unreal",
+    "shared_origin": "All exported parts use the original normalized building origin and identity object transforms. Copy one computed building transform to every part; never recenter or individually fit the wall or roof bounds.",
+    "tavern": [
+      "Tavern",
+      "TavernWallsFrame",
+      "TavernWallsInset"
+    ],
+    "smithy": [
+      "SmithyStructure",
+      "SmithyRoof",
+      "SmithyWalls"
+    ],
+    "roof_visibility": "Apply CH.InteriorRoof only to SmithyRoof. Tavern is a closed exterior building with a solid door.",
+    "wall_material": "Use HD2D stone world-aligned or repeated UV material. Walls carry a neutral matte placeholder only; their finite cube UVs intentionally tile outside 0..1.",
+    "body_material": "Original P2 Color/Normal, nearest sampled PixelGrid256, normal strength0.025 or lower, roughness0.97."
+  },
+  "limitations": [
+    "P2 body meshes retain separated decorative surface patches and internal/overlapping boundaries; not globally watertight.",
+    "Both repair wall meshes are closed (boundary/nonmanifold/loose/degenerate all zero).",
+    "Split roof/structure seams intentionally remain open and match in shared coordinates.",
+    "Typed review renderer supports one object at a time; final multi-part assembly material and gameplay camera acceptance must be checked in Unreal.",
+    "Review files WallReview012 and WallReview010 are rejected intermediate UV appearances, not final art evidence."
+  ],
+  "tavern_wall_correction": {
+    "reason": "Original front repair solid covered wood door and first floor window frames.",
+    "door_panel_x_m": 0.6381546258926392,
+    "lowest_window_frame_x_m": 0.5484,
+    "front_translation_m": [
+      -0.14,
+      0,
+      0
+    ],
+    "new_front_bounds": {
+      "local_min": [
+        0.4567186236381531,
+        -1.4431871175765991,
+        0.2503756284713745
+      ],
+      "local_max": [
+        0.5335802435874939,
+        0.6787092685699463,
+        1.010834813117981
+      ],
+      "world_min": [
+        0.4567186236381531,
+        -1.4431871175765991,
+        0.2503756284713745
+      ],
+      "world_max": [
+        0.5335802435874939,
+        0.6787092685699463,
+        1.010834813117981
+      ]
+    },
+    "replace_previous": "TavernWalls",
+    "assembly": [
+      "TavernWallsFrame",
+      "TavernWallsInset"
+    ],
+    "copy_transform": true,
+    "source_other_three_walls_unchanged": true,
+    "note": "Hide previous TavernWalls actor. Spawn Frame and Inset with the exact previous actor transform/material. Do not fit individual bounds. Main Tavern body remains unchanged."
+  }
+}

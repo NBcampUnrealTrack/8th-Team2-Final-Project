@@ -1,0 +1,32 @@
+[
+  {
+    "job_id": "gorm_before_clay_001",
+    "state": "running"
+  },
+  {
+    "job_id": "gorm_before_clay_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\gorm_before_clay_001"
+  },
+  {
+    "job_id": "gorm_before_clay_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\gorm_before_clay_001"
+  },
+  {
+    "job_id": "gorm_before_clay_001",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\gorm_before_clay_001"
+  },
+  {
+    "job_id": "gorm_before_clay_001",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Repair\\Review\\before_front_left.png",
+      "bytes": 1174073,
+      "view": "front_left",
+      "mode": "clay"
+    }
+  }
+]

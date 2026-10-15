@@ -1,0 +1,12 @@
+{
+  "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Fernbrook_TreePolish_V6_20260911\\Preview\\Game_Entry_V6_001.png",
+  "sha256": "a7c8391edfc4bb3eafbb8b064145dcd96c9f1f69843bf64f51a9fd5c8aeda16c",
+  "live_camera": {
+    "success": true,
+    "output": "{\"camera\": [1350.0000000000014, -4025.448267190435, 1124.2585095963473], \"rotation\": [1.4690353290379085e-14, -30.0, 90.0], \"fov\": 38.0, \"pawn\": [1350.0, -2380.0, 114.25850959634592], \"capsule_half_height\": 48.0, \"capsule_radius\": 24.0, \"grounded\": true, \"world\": \"/Game/Fernbrook/Entrance_V1/Maps/UEDPIE_0_L_Fernbrook_Entrance.L_Fernbrook_Entrance\"}",
+    "result": "None",
+    "warnings": [],
+    "execution_time_ms": 5.792800426483154
+  },
+  "method": "specific player controller HighResShot; actual game view"
+}

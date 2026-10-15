@@ -1,0 +1,27 @@
+[
+ {
+  "shot": "fit_root",
+  "py": "qa_preload.py",
+  "wait": 12,
+  "frames": 120,
+  "noui": true
+ },
+ {
+  "shot": "fit_battle",
+  "py": "qa_battle4.py",
+  "wait": 11,
+  "frames": 200
+ },
+ {
+  "shot": "fit_layout",
+  "py": "qa_layout.py",
+  "wait": 0.2,
+  "frames": 8
+ },
+ {
+  "shot": "fit_target",
+  "py": "qa_attack.py",
+  "wait": 0.6,
+  "frames": 20
+ }
+]

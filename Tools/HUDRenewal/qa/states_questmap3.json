@@ -1,0 +1,6 @@
+[
+ {"shot": "q3_idle", "py": "qa_qm_idle.py", "wait": 20, "frames": 240},
+ {"shot": "q3_ready", "py": "qa_qfx_ready.py", "wait": 0.5, "frames": 20},
+ {"shot": "q3_ready_after", "py": "", "wait": 2.6, "frames": 60},
+ {"shot": "q3_edge", "py": "qa_qm_edge.py", "wait": 1.5, "frames": 60}
+]

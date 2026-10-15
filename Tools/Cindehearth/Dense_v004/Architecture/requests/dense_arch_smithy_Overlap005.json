@@ -1,0 +1,23 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Smithy_Game_v004.blend",
+  "object_name": "CH_Dense_Smithy_Game_v004",
+  "expected_fingerprint": "d80d03c75108e812f8337cb791b352e149e8ab46228d0a26979ff43ac2a9948b",
+  "output_object_name": "CH_Dense_Smithy_Overlap005",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Smithy_Overlap005.blend",
+  "operation": "delete_faces",
+  "selection_ids": [
+    34,
+    39,
+    47,
+    75,
+    76,
+    77,
+    228,
+    386,
+    1331
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "dense_arch_smithy_Overlap005"
+}

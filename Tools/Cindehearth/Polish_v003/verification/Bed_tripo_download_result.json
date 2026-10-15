@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"downloaded\": true,\n  \"task_id\": \"cf6facc2-1154-4b05-b2a7-6e6310712f90\",\n  \"asset_name\": \"CH_Polish_Bed_P2_v003\",\n  \"files\": {\n    \"model\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Bed_P2_v003\\\\cf6facc2-1154-4b05-b2a7-6e6310712f90\\\\cf6facc2-1154-4b05-b2a7-6e6310712f90_model.fbx\",\n    \"rendered_image\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Bed_P2_v003\\\\cf6facc2-1154-4b05-b2a7-6e6310712f90\\\\cf6facc2-1154-4b05-b2a7-6e6310712f90_rendered.webp\"\n  },\n  \"output_directory\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_Bed_P2_v003\\\\cf6facc2-1154-4b05-b2a7-6e6310712f90\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

@@ -1,0 +1,32 @@
+[
+ {
+  "shot": "resn_preload",
+  "py": "qa_preload.py",
+  "wait": 12,
+  "frames": 120,
+  "noui": true
+ },
+ {
+  "shot": "resn_battle",
+  "py": "qa_battle.py",
+  "wait": 11,
+  "frames": 200
+ },
+ {
+  "shot": "resn_mid",
+  "py": "qa_result_new.py",
+  "wait": 0.35,
+  "frames": 6
+ },
+ {
+  "shot": "resn_full",
+  "wait": 2.5,
+  "frames": 60
+ },
+ {
+  "shot": "resn_plain",
+  "py": "qa_result_plain.py",
+  "wait": 2.5,
+  "frames": 60
+ }
+]

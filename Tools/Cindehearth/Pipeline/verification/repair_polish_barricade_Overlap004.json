@@ -1,0 +1,297 @@
+[
+  {
+    "job_id": "polish_barricade_Overlap004",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_barricade_Overlap004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_barricade_Overlap004"
+  },
+  {
+    "job_id": "polish_barricade_Overlap004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_barricade_Overlap004"
+  },
+  {
+    "job_id": "polish_barricade_Overlap004",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "09c5f872c2cdc2896d6cc9dfccc4bfb36993f180fc84fd5588a8a3eb5f74e3a3",
+      "source": {
+        "object": {
+          "name": "CH_Polish_Barricade_Game_v003",
+          "type": "MESH",
+          "data_name": "CH_Polish_Barricade_Game_v003_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.114802122116089,
+            2.9648265838623047,
+            3.0
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "95d961968f6c57b174a5369ab7c86e3b65272712b135400e29b2e167d6783ce1",
+        "geometry": {
+          "vertices": 439,
+          "edges": 745,
+          "polygons": 340,
+          "triangles": 610,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 201,
+          "wire_edges": 0,
+          "non_manifold_edges": 1,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.0574010610580444,
+            -1.4824132919311523,
+            0.0
+          ],
+          "local_max": [
+            1.0574010610580444,
+            1.4824132919311523,
+            3.0
+          ],
+          "world_min": [
+            -1.0574010610580444,
+            -1.4824132919311523,
+            0.0
+          ],
+          "world_max": [
+            1.0574010610580444,
+            1.4824132919311523,
+            3.0
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_d5254c03"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "d5254c03_b646_44ac_a63c_ee17a7d74055_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 1290,
+            "bounds_min": [
+              0.0004951779264956713,
+              0.0004951595328748226
+            ],
+            "bounds_max": [
+              0.990962028503418,
+              0.999504804611206
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Polish_Barricade_Overlap004",
+          "type": "MESH",
+          "data_name": "CH_Polish_Barricade_Overlap004_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.114802122116089,
+            2.9648265838623047,
+            3.0
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "f9d4cbe59c3943f1bfa3271042ed8cae09197275778e0dc67c388e0d01ac0f4f",
+        "geometry": {
+          "vertices": 439,
+          "edges": 743,
+          "polygons": 339,
+          "triangles": 609,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 199,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.0574010610580444,
+            -1.4824132919311523,
+            0.0
+          ],
+          "local_max": [
+            1.0574010610580444,
+            1.4824132919311523,
+            3.0
+          ],
+          "world_min": [
+            -1.0574010610580444,
+            -1.4824132919311523,
+            0.0
+          ],
+          "world_max": [
+            1.0574010610580444,
+            1.4824132919311523,
+            3.0
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_d5254c03"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "d5254c03_b646_44ac_a63c_ee17a7d74055_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 1287,
+            "bounds_min": [
+              0.0004951779264956713,
+              0.0004951595328748226
+            ],
+            "bounds_max": [
+              0.990962028503418,
+              0.999504804611206
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "deleted_faces": 1
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Barricade_Overlap004.blend"
+    }
+  }
+]

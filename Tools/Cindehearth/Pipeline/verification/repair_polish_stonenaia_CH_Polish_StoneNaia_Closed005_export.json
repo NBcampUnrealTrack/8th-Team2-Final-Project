@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "polish_stonenaia_CH_Polish_StoneNaia_Closed005_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_stonenaia_CH_Polish_StoneNaia_Closed005_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_stonenaia_CH_Polish_StoneNaia_Closed005_export"
+  },
+  {
+    "job_id": "polish_stonenaia_CH_Polish_StoneNaia_Closed005_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_stonenaia_CH_Polish_StoneNaia_Closed005_export"
+  },
+  {
+    "job_id": "polish_stonenaia_CH_Polish_StoneNaia_Closed005_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_StoneNaia_Closed005.glb",
+      "format": "glb",
+      "bytes": 3945492,
+      "object_names": [
+        "CH_Polish_StoneNaia_Closed005"
+      ],
+      "fingerprints": {
+        "CH_Polish_StoneNaia_Closed005": "6c2908359ba2a20d512385f834d62180741cc5434ce090bdbec7acc7e8178672"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

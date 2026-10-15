@@ -1,0 +1,7 @@
+{
+  "mode": "built-in image_gen",
+  "asset": "T_CharacterInfo_Illustration.png",
+  "reference": "/Game/Developers/MinkiCho/ProjectM_Character_Info_Concept",
+  "purpose": "Decorative only; existing live CharacterPortrait and all data text remain separate UMG widgets.",
+  "prompt": "Use case: stylized-concept. Asset type: transparent decorative backdrop for a fantasy RPG character information UMG panel. Input image is a style and composition reference ONLY; do not reproduce the UI. Create ONE tall portrait-format overlay with genuine alpha transparency: an elegant large upper-body line illustration of a youthful androgynous anime adventurer with short tousled hair and travel cloak, looking forward, like the pale blue-gray character sketch behind the small playable character in the reference. Fine restrained slate-blue ink outlines and sparse pale blue-gray shaded facets, pale antique gold celestial circles, a few leaves and small star strokes, and a delicate perspective compass floor near the bottom. Character sketch occupies upper two-thirds; bottom center remains relatively open for a live character sprite. All imagery is decorative and very subdued, no opaque paper background, no enclosing box or frame. Crisp drafted lines, not blurred or glowing. No text, labels, digits, logos, UI panels, buttons, chibi foreground sprite or screenshot. A tall 2:3 composition, art cleanly fades to fully transparent around outer edges. Preserve actual transparency."
+}

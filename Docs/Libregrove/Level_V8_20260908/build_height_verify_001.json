@@ -1,0 +1,10 @@
+{
+  "stage": "height_verify",
+  "created": [],
+  "height_range": [
+    -153.125,
+    503.515625
+  ],
+  "max_error_cm": 0.19600000000002638,
+  "total_actors": 7
+}

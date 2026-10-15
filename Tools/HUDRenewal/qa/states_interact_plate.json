@@ -1,0 +1,6 @@
+[
+ {"shot": "ip_idle", "py": "qa_village.py", "wait": 20, "frames": 240},
+ {"shot": "ip_near", "py": "qa_interact.py", "wait": 1.4, "frames": 40},
+ {"shot": "ip_clean", "py": "qa_hide_prompt.py", "wait": 0.5, "frames": 20},
+ {"shot": "ip_clean2", "py": "", "wait": 1.1, "frames": 30}
+]

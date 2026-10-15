@@ -1,0 +1,4057 @@
+{
+  "map_backup": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\FernbrookRecovery\\CharacterLighting_Before_20260911\\L_Fernbrook_Entrance.umap",
+  "files": [
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Bush.uasset",
+      "sha256": "9791389b9d1f6ba3b803d08992bab530d1f5a18d00b3c8208f515ca67303a5b1"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Canopy.uasset",
+      "sha256": "acbd08f0599b992d9f2eb5fc1861b4b29196eaeb31b1ca0777e132d84aa401b9"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Fern.uasset",
+      "sha256": "7042ed5c71ee29c783c617da09fdb39d09a55de30927a85d0efbd917b2770271"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Grass.uasset",
+      "sha256": "350b57a566332d2e04b1a9f6628cf5c21486585c0a1a368d9be7c5aab56004a7"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Rock.uasset",
+      "sha256": "3bf09aaec69d3a2dd721def455e6c688cc47e02655fa84d112919fe96a756500"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Sapling.uasset",
+      "sha256": "2fb4676649390d0e7176652dbe1522ce1f7875711bea94e154eec0c981ebe735"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Landscape/LI_Cobblestone.uasset",
+      "sha256": "5c1a96f5e60cc845767921b82101867240e8004192151e83601f45200b08b69d"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Landscape/LI_Dirt.uasset",
+      "sha256": "6b562821f9ea9ab5ed8a09a11048286d9efd9b3ecc66b1c87d14219697a3144c"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Landscape/LI_Grass.uasset",
+      "sha256": "8f30b46b377e6332cabfa2d6a7fe3a75c4b2bbe8bb3b135d2dec47d67290670c"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Landscape/LI_Moss.uasset",
+      "sha256": "fd28e551ce06dc1acc548e24dba3636b98875558958155f234e1513231c1311e"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Maps/L_Fernbrook_Entrance.umap",
+      "sha256": "0fffe4c0853f6a4231b13de3a5645cb6fc1d33c780494d6bd2ce935ae423980e"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/MPC_FB1_HD2D.uasset",
+      "sha256": "a09879aaffc8a98ec64f639c305a3c9bcf8232fc1b5136b0f18132e5688056a7"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/M_FB1_HD2D_Landscape_Stable.uasset",
+      "sha256": "b8893acaeb6085ed9529c02a0caf801d88bafcca4cea464101b82fe3a0f0edcf"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/M_FB1_HD2D_Sky.uasset",
+      "sha256": "ba0b8d101780b42ee76f287f46890585c83937c68614a5a8f7a93b5501bd84f6"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/M_FB1_HD2D_Surface.uasset",
+      "sha256": "2c600e0aaf626f9edca03db95f7646b37ae37c6331f56f0f53bd4e0f8bf76a74"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/M_FB1_HD2D_Water.uasset",
+      "sha256": "0e1312120b1fc826a8cbe0283729cc482bf3a2ef13e3d3154fdad006549c6d82"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/M_FB1_HD2D_WorldProps.uasset",
+      "sha256": "0d557ec4a61a0e611e2eee1d54c0df1c16ea8b663d68011b97b4fda122eb3392"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB01_Textured.uasset",
+      "sha256": "961057a58ce74fa89b7cf595faf0ad7ae2f86a6c3a199a3e214d377c39ddf669"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB02_Textured.uasset",
+      "sha256": "33031909e664753ed1677d2e583eb64ef35d9923f73014f2f0fa23fb2f25e915"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB03_Textured.uasset",
+      "sha256": "e5c566705b033e96835e47928a99d17035fe77a4a05a2cf9d3e6728017beee13"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB04_Textured.uasset",
+      "sha256": "9035c117cabc9c3c8cb88cf71cb5432c57fdbfd89b77260d3376640dc44ee3c9"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB05_Textured.uasset",
+      "sha256": "4a91acad2e19ab5085b540c80fb1e382fd5b2b87447d85f104223d1e0fcfdfb0"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB06_Textured.uasset",
+      "sha256": "b6dec83f7a397363fb15da64650e053f2f0c6db509c8581a0141609875586632"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_Creek.uasset",
+      "sha256": "f99ffb34233bde3033f5170e523bd7ad6d9dfcdc1f54bf19baffd9958c84571c"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_ForestFloor.uasset",
+      "sha256": "a715cf3e8a4ce086243b8a18f2b21a6f567ba4250d575dbba1ecf474b6566aee"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_Leaf.uasset",
+      "sha256": "f5f8059c4bd2ba5093e1922656a68998a00a86c5dc4f3b54698d528ae8790bab"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_NaiaEyes.uasset",
+      "sha256": "45c2c2cb2426bfdcc6f9dbcd69fb7879956aac9ed9dda891a6b69163345d58e7"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_NaiaGlow.uasset",
+      "sha256": "d4278f8023dab5643f3904a08c8d158aa660100681ab8c7af234bd3b1451a813"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_Rock.uasset",
+      "sha256": "652e1a54ac3bfaaef28a0dddcea5e87388475d2af51d17ecb27d90b9ca208777"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_Sky.uasset",
+      "sha256": "b818c3103b6cc44fc0de16026f008d6d8348f07e6c361e3c7941762c94b06cae"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_Soil.uasset",
+      "sha256": "d86de24dd92910506388688d8b233c534bb63f462e91a13baa44fd92bd515ca9"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_Undergrowth.uasset",
+      "sha256": "b2f716afdd193cec3b5491fed4afa928d8613c2b99b2d19c4f8563d7147e2934"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Materials/Instances/MI_FB1_Wood.uasset",
+      "sha256": "f38f09a537b62e14c90e39c01a991e67bf1b1dc9c1d1d771358ada06189bff93"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Reuse/SM_FB1_Bush.uasset",
+      "sha256": "a0a8a624ae0e8a04bb74c0907294600fcec98d841c7904615f2790c88c43a43f"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Reuse/SM_FB1_Cliff_Block.uasset",
+      "sha256": "f6446780f42162fefc419fa225c17e53cca606948697bca526a4bd9d9ed87053"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Reuse/SM_FB1_Cliff_Corner.uasset",
+      "sha256": "cd8621a94ef351d9a0c78bf3bba784dca71fd60b39e3889e795f39e0e49dd8ee"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Reuse/SM_FB1_Rock_A.uasset",
+      "sha256": "136f9f73e942c6b392da2bd58a62db60c6cb8110b57784d92daaed13bea27fde"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Reuse/SM_FB1_Rock_B.uasset",
+      "sha256": "6bb3d35349a8644758ad1df6fb7b5d12c1b42d8a3214a8eb49097975d7732900"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Auxiliary/Fern/Materials/M_FB1_Undergrowth_Preview.uasset",
+      "sha256": "30b3c754008691c07354ba04b0e47b08f45085fef4ff6ce01398c4016d5f7152"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Auxiliary/Fern/StaticMeshes/SM_FB1_Fern_V1.uasset",
+      "sha256": "00d09777c0663613129389ecb74397d3ae504da7898ea672e5b6cb861ab1e8bf"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Auxiliary/Grass/Materials/M_FB1_Undergrowth_Preview.uasset",
+      "sha256": "7c1b56385634c4e0a258da3a25cd6e2e8dc964bb89e1519684a7f8169a108643"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/Auxiliary/Grass/StaticMeshes/SM_FB1_Grass_V1.uasset",
+      "sha256": "c6cc5297110b3a65e16e3b932ec053795c9fd91de7c4f5afe4a3861fe90bf727"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB01/Materials/tripo_mat_0a415c9b.uasset",
+      "sha256": "84ecfa7f1986be7905933c0af3a75d80f9f1411651136e336fe240ff27bef588"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB01/StaticMeshes/SM_FB01_TallBroadleafTree_V1.uasset",
+      "sha256": "4d0bef1babb01d8def35fd733565df6b9caa81c3eceeb5ea7799d7b77b9527ae"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB01/Textures/tripo_rgb_2fed9900-7493-42f9-a941-d330e64d801e.uasset",
+      "sha256": "07962e9758202004d7a7a2e6a2046e10010f56b1f0c21c8d63e4f40a3d7bd10a"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB02/Materials/tripo_mat_8f88a159.uasset",
+      "sha256": "a6eb89fbc5732d3ee35a7bc92b517e751ed119d7ca3bbf4abfbfdcb6a2a89943"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB02/StaticMeshes/SM_FB02_HollowStump_V1.uasset",
+      "sha256": "d6d1455828e02017a5ebac87ded8049ebe89a6e57d159ee0a4a63cdda8acb7ba"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB02/Textures/tripo_rgb_410f3b54-728b-4b57-866e-6be4ce9cda7b.uasset",
+      "sha256": "6571f2f0e32b1d5c002a34c25ba901bf980b826c0a697c529dc2fd854d565350"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB03/Materials/tripo_mat_dde091e8.uasset",
+      "sha256": "543f7cc0d96d8cc235db4dfc4d72f0d762ef48e59435d96d4b8c5bdeee36ff5c"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB03/StaticMeshes/SM_FB03_FallenLog_V1.uasset",
+      "sha256": "55603012edd156a308deab3fdc50c06a7092cd99e6679c11e45e87a868921965"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB03/Textures/tripo_rgb_029775d4-02ff-4ec5-9a7a-d1ce2bdffc07.uasset",
+      "sha256": "adfc5be74220cb88f65bbbd29aafb733d0550407fc1987d7d01015dfd9c4076b"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB04/Materials/tripo_mat_c9816e88.uasset",
+      "sha256": "9d40339c127966564db17fd549af9c39daff05eb304691aa3f4edef732fe5528"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB04/StaticMeshes/SM_FB04_RootedBank_V1.uasset",
+      "sha256": "4321319b7ee66f54ffaad0ada046968c454d1b4f553596517cb23c17d7b31b24"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB04/Textures/tripo_rgb_dadd0eca-e047-4d58-a3fe-321ea119de72.uasset",
+      "sha256": "8f588157ea1c36e31d2d6126b041aefddf9d304fb8fec4080335cc14fe4284eb"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB05/Materials/tripo_mat_e2fd79b2.uasset",
+      "sha256": "8a9e2727a478da1990f7fd82dae4cb351a2e40a515528696ddf46441a236969d"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB05/StaticMeshes/SM_FB05_WagonWheel_V1.uasset",
+      "sha256": "565aba4101331fe92791849548f182ac5ebf756871f285032885529b0310c0d9"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB05/Textures/tripo_rgb_ba7a4cfe-1a1a-40af-84b2-093c23f5023b.uasset",
+      "sha256": "3ba37ac0e6ae8533c0ac7d5ae41646767a21db109c7b6d83b6d5d6ffd223c09f"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB06/Materials/tripo_mat_1a99507a.uasset",
+      "sha256": "bdcc6d1abaab651283372d0d9447983f1d415e34063e284c45daa7af138beac4"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB06/StaticMeshes/SM_FB06_ForestryAxe_V1.uasset",
+      "sha256": "2a9cd4f0d06b76d8d3aa4d41c7bd385857b9bf07a8b4211a4ea910c3320a362b"
+    },
+    {
+      "path": "Content/Fernbrook/Entrance_V1/Models/FB06/Textures/tripo_rgb_fbfeb13b-168b-440e-9d60-a2cdbd26154c.uasset",
+      "sha256": "c69777e05ef50e7c176219caaa7870c23d755080d20bf4dacea7aa013c6dc58d"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Foliage/FT_FB2_BankGrass.uasset",
+      "sha256": "67d50c718882797c68cc9d0fa866f82122384ce071acef5a1d4034489601aeff"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Foliage/FT_FB2_DryGrass.uasset",
+      "sha256": "37f9b061fad62b820b3cf82277967e28d0a02d167c78996d638aa633069176a6"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Foliage/FT_FB2_ShadeFern.uasset",
+      "sha256": "aed3730fc45253a490cbad306fbfa227abcc000e8f2bd275a10078239c22f047"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Foliage/FT_FB2_TrailGrass.uasset",
+      "sha256": "43683e6df1c385b390aa9c419087325b733b1749ad78fffbf7f50e42826a7d1b"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Materials/MI_FB2_BankGrass.uasset",
+      "sha256": "c713146e40ca1f7c32131e79ea44f76f7adefd8d88a96c1f4b16dda51e2f4500"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Materials/MI_FB2_DryGrass.uasset",
+      "sha256": "f7a881d320a1a0a3027a4c2dcea2663e5f5339a6aa6a7e8bd6890b6a503a853c"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Materials/MI_FB2_ShadeFern.uasset",
+      "sha256": "7662ba1de23d84c0c4e51e3d74ec0af9a08b1a910311a0081a46b1c1c0f94bda"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Materials/MI_FB2_TrailGrass.uasset",
+      "sha256": "4adea41e83c3e67e6a56e8acb45a3b9799bbc96093bf58cf8fe7812d65ea2eb2"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Materials/MI_FB2_Tree_Canopy.uasset",
+      "sha256": "cc06567772348da6e6fefae15b3014708409b317ad8648e58850e76e528aa927"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Materials/MI_FB2_Tree_Sapling.uasset",
+      "sha256": "4b643656ba7db73bffb2c839357207cb2698f0d934c32d32a44278a0a8ca3f9a"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V2/Materials/M_FB2_HD2D_Tree.uasset",
+      "sha256": "7e331e3bc66546d564801b0413b9c85d115f9226da6cf01b183f8b0c8c6a5e29"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V3/Materials/MI_FB3_ClearCreek_Windows.uasset",
+      "sha256": "fca76f0057065cf27fe7de3eb6ec5fbc5a05b957f2bce9fe03a18c7306b99ed7"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V3/Materials/M_FB3_ClearCreek.uasset",
+      "sha256": "78d413d426b6aa15f696558bf5c3d803ebd7dd6a70e442cbb6a42b15f93f9fe5"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Foliage/FT_FB07_Textured_V5.uasset",
+      "sha256": "350f00096a0ac6988f43acef3d5b4da7aa2761b980813333bf5945936ec4b811"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Foliage/FT_FB08_Textured_V5.uasset",
+      "sha256": "92089dab4e9eac3e90b7aa56aaf32f69f3eca62307f9145da73d1905beff16c4"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Foliage/FT_FB09_Textured_V5.uasset",
+      "sha256": "3b27e5c68aa4f69c8a01ad90113e0a1b9082bd8465facb8972a29a44c58db728"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Foliage/FT_FB10_Textured_V5.uasset",
+      "sha256": "dd5a0e4d6ffb44ef07c2f4cf98d6acd8e4b361e83db3b49d39cd055b06dcd88c"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB07_Textured_V5.uasset",
+      "sha256": "bfe600ce4d311833d01482f9ff04b5d2c9b92130d5bbfbd50b5ad5ccd779386d"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB08_Textured_V5.uasset",
+      "sha256": "dc353a4a05233ca0024fe86304eb99d9a4555dfcb65da7c13ea213d01280c66e"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB09_Textured_V5.uasset",
+      "sha256": "d3a009aa4122ac7609ce5040805611670b95b5f72b8072908243643a34fc9231"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB10_Textured_V5.uasset",
+      "sha256": "724392e215b27b7830e066428df8fd16305c181d07dd7a3757a6a6e3e5612cf1"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB11_Textured_V5.uasset",
+      "sha256": "27839ad112e101c3a9493aecbd3b258acb0db974396b044c43d54dca6a32a6ed"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB12_Textured_V5.uasset",
+      "sha256": "50e559c327994a05747a3c9ef8d63d6d36d8b9db6ae3f7492f16fac3e19f9861"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB13_Textured_V5.uasset",
+      "sha256": "a994a20bba0dcd7575de6ae6c561d00bfc86128dacc2eb7c87edbd2bcacac14c"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB5_BridgeStone.uasset",
+      "sha256": "57e39e6a6feb68cdad6823a32cb68ea98e1641da9c5f4782d4656eacce73c7b1"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB5_Vegetation_Controls.uasset",
+      "sha256": "719691219bfcfe0dc423bfef0b726937e30fd6c62e3f45daecc4e4f4892f563f"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Materials/MI_FB5_Wood_Controls.uasset",
+      "sha256": "f77cf78dac17d787874a04a48c872f78cf6b99c5f5db6ce2d38fd0fe4236b6a5"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB07/Materials/tripo_mat_dde72ec1.uasset",
+      "sha256": "026fcf02cb7edd96416facfc9fdd62d635e9f75e2c85860c348ea04ca0997f04"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB07/StaticMeshes/SM_FB07_Wildflower_White_A_V5.uasset",
+      "sha256": "f1c1ffc8c7982cd44129c119986e992361295b5d4dc15b0dbb0201de09e70e87"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB07/Textures/tripo_rgb_a5a448a9-0d00-4202-96e8-eafe0b59cb0a.uasset",
+      "sha256": "518968351639b02fc39181ca74e97058099a6c67b8152f76f34a39b71e98d8d7"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB08/Materials/tripo_mat_01b034c2.uasset",
+      "sha256": "8c4babdbfac265ed707bf9cbf2a1cd1d59bace3d865e466bd6cc718ed2177be8"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB08/StaticMeshes/SM_FB08_Wildflower_Cream_B_V5.uasset",
+      "sha256": "49a725ab906a00b1c9020492f22e639b7b98c3d52e5ce094887d645c4e823b06"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB08/Textures/tripo_rgb_3e19aa52-6a07-4001-9043-18a42d1c584f.uasset",
+      "sha256": "a29da861728945f6d8dc13eb4c15f1391fe8912d0994a03c85cd3a035b275983"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB09/Materials/tripo_mat_58de7363.uasset",
+      "sha256": "d0d2544f4dc8b6e61a2acca7b6baada3aad30260c99beeb244c518ac172eef9b"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB09/StaticMeshes/SM_FB09_Broadleaf_Weed_A_V5.uasset",
+      "sha256": "c0b9f2ac38dda4a1e93f59ae3c22d3e6378e22194cc1b927a135a8e1a195aaef"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB09/Textures/tripo_rgb_deebee7d-c62f-4f41-9ab7-aab3c20beb1b.uasset",
+      "sha256": "14272647fdab9f885d2e3520919dcc7268b48129ce672dc26abe41ddffb76107"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB10/Materials/tripo_mat_4ccd1029.uasset",
+      "sha256": "b10e0f5fd88cff0511e985402fe9045152920cc153008a434bf8265bb043c047"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB10/StaticMeshes/SM_FB10_Broadleaf_Weed_B_V5.uasset",
+      "sha256": "36f2adb0c2eb1109bc083d5e8cbb98040296cf9f6d3f8a1d3fc72f38c69ba923"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB10/Textures/tripo_rgb_e03808b6-f95d-41e0-9003-6ea239af444e.uasset",
+      "sha256": "6cc3d7103663b41b230c084a244076c98d733333888c77bc8c6b29bc43b52011"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB11/Materials/tripo_mat_573207f3.uasset",
+      "sha256": "1379ee3d290a5de4a2b8040ada45546ea6ef5a2b1ddd30f18e2481fbdca8fbf3"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB11/StaticMeshes/SM_FB11_WoodBridge_V5.uasset",
+      "sha256": "8036236209f59e87d2006f6482ceb23537952f9a9139e51be8cf86785c0635f9"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB11/Textures/tripo_rgb_8e392266-471e-4211-95d3-2c23da67ee8c.uasset",
+      "sha256": "1bf04aac6554fec11e71c2ac26d0758650b2c6ab0a38276a7e36cfbbd1ced2a5"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB12/Materials/tripo_mat_c9ccb7b5.uasset",
+      "sha256": "59c5b44be7ff5055bc913d7f643c894d0c12896b948466591f302b343bda6499"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB12/StaticMeshes/SM_FB12_Broadleaf_Asymmetric_V5.uasset",
+      "sha256": "ca1229fb55e2f2d8747f30a452e054d67a11515a8c0bec841faeab9160f0d73f"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB12/Textures/tripo_rgb_6520990e-89f5-4cb5-b125-62df6765f97e.uasset",
+      "sha256": "8fef0f1340232380a38bda8103a2a260ed7d1dcfa165ddcb70c859a05574d894"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB13/Materials/tripo_mat_31c88845.uasset",
+      "sha256": "732c926aa7940803141c851979a324ffea5c231b41e3fe222eaef9df48d3df2f"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB13/StaticMeshes/SM_FB13_Slender_OpenCanopy_V5.uasset",
+      "sha256": "9d22012baa950fd9529b410c8ed9b1731d332742fcd0b7b6866708ca83324eba"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V5/Models/FB13/Textures/tripo_rgb_522c2565-6ceb-47f6-b1a4-a7f6bb5372fe.uasset",
+      "sha256": "082324381833098f0cb9a40597266fc538f7baa056a2b70f52fd79113183aec6"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V6/Materials/MI_FB6_Canopy.uasset",
+      "sha256": "3d7c974964bb76c3f87c328756fd8019a34ee417f083f269fe3660a3aa317061"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V6/Materials/MI_FB6_Sapling.uasset",
+      "sha256": "4dc5c4eafd4d08a4c8e5cadfefc622db1bd3ac970c6138f005d9fc9350e4bcaf"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V6/Materials/MI_FB6_Tree_Controls.uasset",
+      "sha256": "a337a75d17ceb5d25f0f3784fde8f630ae5772b3847cbdd4f6d8cd1f8f3e6da3"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V6/Materials/M_FB6_HD2D_Tree.uasset",
+      "sha256": "b0e6890b12e89539e7e0940f5c461287cad95e9a95f176988908ae73966438cf"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V6/Models/SM_FB6_Canopy.uasset",
+      "sha256": "6f5a2c536a8b900f256360cddfd77fe69b05cf74f4292ef31f6e3e67ead14ebb"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V6/Models/SM_FB6_Sapling.uasset",
+      "sha256": "f21f4da859d8da92231b1fa7b4cfae64a94df9896b07334cd064bffe10412281"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Foliage/FT_LG8_Bush.uasset",
+      "sha256": "0df6d3319ff4c1f43aa9b98ab9868b1f358b7b89edf0094d29d160bdb21be278"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Foliage/FT_LG8_Canopy.uasset",
+      "sha256": "bbf9a6874aa3464b7cb905c7574046969c6a65c6fe1e5fecc37b85fa4d03dceb"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Foliage/FT_LG8_Rock.uasset",
+      "sha256": "cde355032fc6c2f0f876719e3a3c4f28a0b0b797b26bf51400319ad66c94c773"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Foliage/FT_LG8_Saplings.uasset",
+      "sha256": "e364dd75956f0ed64f972633591d069d609b5565d2a2baa7ba4d6f02cc114b2e"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Gameplay/BP_LG8_FieldCharacter.uasset",
+      "sha256": "7ac0366c566c590fa96c4fa3923260377a78339a8be3a1bb3f9b54484af44340"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Gameplay/BP_LG8_GameMode.uasset",
+      "sha256": "f08c646bcd5d458ee6be7797b01d730a601592bf4bb7738d7fda1e23659ca757"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/MF_LG8_HD2D_Color.uasset",
+      "sha256": "5f1b15f7bc88f2d8c4a930a2c2b49928853baa5d777470a2b3345af971fba2fc"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/MPC_LG8_HD2D.uasset",
+      "sha256": "165e36766aad3e6775b0e7e58c71b90063d37cb47a6ba07cac9ce5a5cac95291"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape.uasset",
+      "sha256": "45340bd7e1bc3438a4331ffa029976df753d01c15dfd13ad02a8ec2f5f7a3e48"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Landscape_Stable.uasset",
+      "sha256": "7f8a78ec21a55665aa35342ee7cf6ca2bc142c3e3741194929d571058d84bad5"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Sky.uasset",
+      "sha256": "2f4d7932ed91c4edb2571e1cc57c6dda79cd5545fbb91bb2cc2dd27f47677442"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Surface.uasset",
+      "sha256": "736cabc0c90436e67df3a8e74aa43aadc04e04bcaa17360b502c2da7080f4b26"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Water.uasset",
+      "sha256": "a968211fd67737dc6f4e403b5a1c8369b71d1932db4797100a52040cb41cc257"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/M_LG8_HD2D_Waterfall.uasset",
+      "sha256": "c3ba72bf5d1f49be371207168f69098789ccecf77aaff1a3267f889061a2f1e6"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/M_LG8_HD2D_WorldProps.uasset",
+      "sha256": "95a0d335507c2a8da92132aa18d07c74ad160f83ac0974b81a85c0664c651c99"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Landscape/LI_Cobblestone.uasset",
+      "sha256": "826caea9160ab58476f8fe415f59b8e8d27786f5530bb611e8b86dda2e6c8cff"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Landscape/LI_Dirt.uasset",
+      "sha256": "a34972679dc57ccb761f10658da5a6d5fc132d6fc0ea1b9a2e3a764d8f75ce49"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Landscape/LI_Grass.uasset",
+      "sha256": "e988bba6f9e0b1804683b837f90d5a249cff683bfc8ee79605e233ce94e0fc4a"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Landscape/LI_Moss.uasset",
+      "sha256": "4f9f69702efe4f4b6d202bcffe6c117cd83150607b71064a4513a39a44887c92"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Maps/L_Libregrove.umap",
+      "sha256": "e3215426305e7d4afca551c731e8a3256448ff02a87448a223c9d5306be34a7f"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Materials/MI_LG8_Cliff.uasset",
+      "sha256": "75a172ccd0e3b480611bb657b24e22f460bff17006dc9803fa013529faf05856"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Materials/MI_LG8_Cobble.uasset",
+      "sha256": "829d7b3c5ad7ac16167d149d91bfaa311c255cd7e6a0c9a8975044e0e871424d"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Materials/MI_LG8_River.uasset",
+      "sha256": "09ff4a4d07d42736a932add8d430c2a866800aa5254c1a3f78387b0c36ae305b"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Materials/MI_LG8_ShrineGlow.uasset",
+      "sha256": "816d6243bb1ebe0218626b344a6a7982ec21f3acf5e474775b849db9c7b0311f"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Materials/MI_LG8_Sky_Day.uasset",
+      "sha256": "a6176607bf75de16a63332bbfbd9d81d2251816678529d36ecaf69674b25bee8"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Materials/MI_LG8_Stone.uasset",
+      "sha256": "46fd8799fc55ebf6397675797a72262c68c76e894dd34b7e932fdf729a7530ce"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Materials/MI_LG8_Terrain.uasset",
+      "sha256": "130613bc7db2aab5388e005435d810155c71c9550278d5238cc2dcecc8b72ecb"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Materials/MI_LG8_Timber.uasset",
+      "sha256": "551c153658f39a7f69422bc69d68467dabb0745fd3a9f138f4662470e235d25c"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Materials/MI_LG8_Wood.uasset",
+      "sha256": "73d852b973600944217d542c462b244fe53413a7e2e045085befdc91928704c9"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/Materials/M_LG8_Waterfall.uasset",
+      "sha256": "b06aab84a9beed25ffcb51a75f0bd63e7fd9f4f9e3835dfae6ffca942e57ce1e"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Anvil_c33d9.uasset",
+      "sha256": "f120732a74fd7c7280137ab2660bf866f3691d10631ed620465c2431d9676278"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Barrel_892b0.uasset",
+      "sha256": "7a0dbf5d1b29aa3ee4dd4b580ebd2a709bd73703d6cbd7244fdf5f33aaf40db9"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Bell_e58ba.uasset",
+      "sha256": "8da074c998c1ae016df3e6cb560107b7dc792fe7f6315bd1bb35e7a578c9e8f7"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Crate_109b9.uasset",
+      "sha256": "637d9c79b9e46939165951c4bf0c3d64343b2e948d797d7d08ae10d8fdf10f1d"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_HD2D_Water_47df8.uasset",
+      "sha256": "12cae67f49e29f26e6f81f8c976869d0a7d0c872213aa5ad512197c239752768"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Laundry_d9245.uasset",
+      "sha256": "916aafee082530d03edcdbfce231952ea8cb46eda5b4d72e4aa5b7877282f659"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Cobble_0f5d6.uasset",
+      "sha256": "ea5083553ba12c1257b46e34bbd002bbfe302df4fb65fbb91eb05ca0987d153e"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_River_e988d.uasset",
+      "sha256": "a111611d6004ee96db1f1edb36ede85668286e25643356b08e8949fd9166a418"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Sky_Day_17e60.uasset",
+      "sha256": "0fd00bb17a8e0b944528a78d1847fbe47a54a5efae95bd693d35f5f44847005d"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Stone_fcbe3.uasset",
+      "sha256": "78ac38c83277a7d75b064ec222816b464156b2c904fe2063223cd431d4e70087"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Terrain_5574e.uasset",
+      "sha256": "48cb1e85bfe6b43614b76b0ba0df2abac6911c613bc387b8b2d6e3ea2a071f21"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Timber_b167e.uasset",
+      "sha256": "788d6524d68601bb80f3d4e3100011cd61d25128004063d726221cf5530b8ab8"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Waterfall_89dc5.uasset",
+      "sha256": "425268741815178ffc554840f6f34992a7357a2201b57d1c8f2f855c1c946aac"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG8_Wood_9a32e.uasset",
+      "sha256": "bc0e77c9d750ebfcbfce9de72e5e2ebf2524dca9e2f794585cb1344d873d335c"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_01_Cottage_A_53c2b.uasset",
+      "sha256": "f2ead16e65fbe456bb638faa98e2b9fadb721c040ec8294fd2f30114e7b6905c"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_02_Inn_b5ef8.uasset",
+      "sha256": "0062b2d2c2a7a5f0c8549bc5007d9f3fca6f66e21e94d0e30be7520ab1086f7f"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_03_VillageHall_01750.uasset",
+      "sha256": "f79b5e1b072222b731768dc7bd377e41b31a8c65c5acdc22ea2ebac397e37900"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_04_Workshop_e285b.uasset",
+      "sha256": "38dfcc870e188d5a0420a05cdd45bb5318e9ab478c63fac66a719943dabeaeae"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_05_WatermillHouse_12e88.uasset",
+      "sha256": "3a43a3d5fa9422fd639752984e6d63f0f18ed509a57805d540b4556264cb22a5"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_06_NaiaShelter_2aed2.uasset",
+      "sha256": "bd1eaafdc6f022c8cffa3f6acb012d07e25416e7739892f99a2a1cdf9d0fe6ad"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_07_Sanctuary_882dc.uasset",
+      "sha256": "f1d922e8165cd8e0a38e15cca5c31daebad4a490980ca59b45ee1b4e575d8b00"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_08_BroadleafTree_76350.uasset",
+      "sha256": "030a0cbe35e7eb91c6d1174332768d395bad72646dc62d43141b707f99d71f60"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_LG_09_MarketStall_c1564.uasset",
+      "sha256": "1f185b831f521e1c0be911f06378e8ab4e107b34f33f4426d84ff4d58139f917"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Noticeboard_857f3.uasset",
+      "sha256": "4a6ddf61606b8d354f74f2632456d537c81572c6cf72863a48e5a1135aed54ce"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Portal_42136.uasset",
+      "sha256": "53c38d9d221c7d570ce5fb671b55c5a9a86017c8bbf3125d0f941c8611dc7e2d"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_FountainStone_da722.uasset",
+      "sha256": "6050e6d687ed5118f9681537d3ec47e651054ae9f3ff2456c52f9b18118cbbcf"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Glow_0f852.uasset",
+      "sha256": "95cfb361722318813b094534480b116ffac89c000fe14642b2fc652e03861170"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Leaf_ceddb.uasset",
+      "sha256": "fca814524a0b44cb767e63c05c494fb5b04494e4ebc0c989a7ed60172b9c4764"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Metal_16029.uasset",
+      "sha256": "9e3f942c4240394cf0fbc6fd0c01f815845ec1b127154ac5003b17341590f4d3"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Rock_c6bf7.uasset",
+      "sha256": "0b717064fd2b831244b12fb828f9dea8507c26b90685c124ec049b4be1ade144"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Roof_336d2.uasset",
+      "sha256": "f0c4d2d3e59f879201805f51661d806eada4701c1340b7f17b59dba40fa7356a"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Soil_ed98c.uasset",
+      "sha256": "0f3ef2b0dddfb8ad6e9e8192abaf100893dd6e36d3531b74892742a7da0f4923"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Stone_aae7b.uasset",
+      "sha256": "686f04330b7f5a2bf78ffeceefd0c6de3b856133d13ff15c3aea2ad57207cafa"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Timber_df2b4.uasset",
+      "sha256": "f80e7d12395e53bd625e722fd8533cd900f86c78061081a414a218466669902d"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Wood_07b79.uasset",
+      "sha256": "94bcd71da9191ed6e8425669765baf9709e034c5a5ea9c3cfc7e832d4c2c8173"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Rock_0311b.uasset",
+      "sha256": "4d09bf678e6b768764191dcfdea65d8953db445a2cd64ec3383990c350c30a93"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Table_02f13.uasset",
+      "sha256": "74218521823d9ff197d41ab779e9d3ac96974eeda2937876e8802881302faac2"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Terrain_Stable.uasset",
+      "sha256": "8c05489783b88f44bd43bef9575b48129a830427145817fd92add5cd723e603f"
+    },
+    {
+      "path": "Content/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_ToolRack_97b46.uasset",
+      "sha256": "56ebbb978f997d302da2d9b070560f466a03492f366fdc26da1f389ff2cd4787"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Maps/L_Libregrove_AssetReview_V7.umap",
+      "sha256": "3b3bbffc53f18695d5bb1e4bd68dd20705ffe72518129ad37f6baebd3e726bcd"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Materials/tripo_mat_e34f3563.uasset",
+      "sha256": "22589150dd3b6eb5cdc904e256a7a0ebbe98794ff84b6d0c1dabb691251988f9"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_01_Cottage_A/StaticMeshes/SM_LG_01_Cottage_A_V7.uasset",
+      "sha256": "08c7cba316fad2d82a3ff4e71fa29cdd8947f19a34dcc7325193e943445e30b8"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_01_Cottage_A/Textures/LG_01_Cottage_A_fbx_basecolor.uasset",
+      "sha256": "0d5039825320475303167ce5431144ddcaf163ba39c9ed60eabc4201debb1082"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_02_Inn/Materials/tripo_mat_f544a036.uasset",
+      "sha256": "1e5ba4dcfa6ef4e7131a2f9e1fa131d1d0d149c49c47fe9f1ec9d7da74d079bc"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_02_Inn/StaticMeshes/SM_LG_02_Inn_V7.uasset",
+      "sha256": "cf083abf02f10b914747ee321803b300f6765f21862fe3339c2f75a71add529c"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_02_Inn/Textures/LG_02_Inn_fbx_basecolor.uasset",
+      "sha256": "a312a08cca42b2adff74b55a58edb6f97aaab71bbfca5e99995786a216aee0a0"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_03_VillageHall/Materials/tripo_mat_7a88dfe0.uasset",
+      "sha256": "0acf9dba5bb63bd7fd3a337c7d65f1c6f6a108d9adb6d1bd4f12bc60dac24502"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_03_VillageHall/StaticMeshes/SM_LG_03_VillageHall_V7.uasset",
+      "sha256": "e3ddf3c4598c77ea39139db9dcba2d1a173ac0f626a3b37facaf291394e16df9"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_03_VillageHall/Textures/LG_03_VillageHall_fbx_basecolor.uasset",
+      "sha256": "a144969f3828b1ecf40f7acce101e1ad63e4dce1b4d91b1bd40941e828bf3850"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_04_Workshop/Materials/tripo_mat_317b1c2b.uasset",
+      "sha256": "f98b50d010847209c737d4671eef5622e0d22f10ba5a7dd776c304721c39e4ae"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_04_Workshop/StaticMeshes/SM_LG_04_Workshop_V7.uasset",
+      "sha256": "4f0653f628eb65adc94545324f13dd6162e5c09cf9c40ac127685e08ae71335c"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_04_Workshop/Textures/LG_04_Workshop_fbx_basecolor.uasset",
+      "sha256": "904017a881cbe4483de30d9a76f4d5bccc5cedb70090fbc8ec3c313a00315de0"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/Materials/tripo_mat_12da9820.uasset",
+      "sha256": "7a4f985a7b3bfe5551d66e0257aefaa71f3d4e3e1d18c40651e5bb4efaef0de8"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/StaticMeshes/SM_LG_05_WatermillHouse_V7.uasset",
+      "sha256": "78e5d891c9478b97b8a2fd4b4ed30c3ddc64f987a5575ed80e489361f610b767"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_05_WatermillHouse/Textures/LG_05_WatermillHouse_fbx_basecolor.uasset",
+      "sha256": "8568087a28848d5b9440b9549a028d4ae88de3e4c1be05a756f40e1bf2384622"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/Materials/tripo_mat_6029c87e.uasset",
+      "sha256": "39d4e0f1c6cb732fc80f30bef81a2bf1060a10ec2ee12b24e0a29a2249bdd761"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/StaticMeshes/SM_LG_06_NaiaShelter_V7.uasset",
+      "sha256": "47a69cd66ae51768aa157b9f08713cb03478da67f37f180b034f032cc7cf9970"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_06_NaiaShelter/Textures/LG_06_NaiaShelter_fbx_basecolor.uasset",
+      "sha256": "5867978542e6c584d5048f0b5e464f453778b7280803d8f706c266caba47cdef"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Materials/tripo_mat_50ec2d11.uasset",
+      "sha256": "7bcced3c8513d94ba1ac52edb57bd7d4d87cce730394366b69812ebe02f5456b"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_07_Sanctuary/StaticMeshes/SM_LG_07_Sanctuary_V7.uasset",
+      "sha256": "f38dcda61d4889d1871027fe7665ca86b68a7829d22bf468acf109edced72900"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_07_Sanctuary/Textures/LG_07_Sanctuary_fbx_basecolor.uasset",
+      "sha256": "9ac4fbf85d80c24df866bc9ef6e455d594bbfeb09eb0e5bcaddfd2f0f0f792a4"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Materials/tripo_mat_dbfe09e0.uasset",
+      "sha256": "fe62a8c25e1241fc6fe1529cabe3b534632e6e994654f6754965d79d41c31b44"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/StaticMeshes/SM_LG_08_BroadleafTree_V7.uasset",
+      "sha256": "76438f53ac08d1af38decde8cb540ddad10f6d08a15303c54a43910dccd7551d"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_08_BroadleafTree/Textures/LG_08_BroadleafTree_fbx_basecolor.uasset",
+      "sha256": "83d6d7425d019b6ef2c0962d539d7fc517d9fd4adebdf6a398207cd46fbc5718"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_09_MarketStall/Materials/tripo_mat_62cb0827.uasset",
+      "sha256": "eb6b4f9c0179d8676f5995b06a9d0592c21553d28cf82418e20af48971b58b9e"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_09_MarketStall/StaticMeshes/SM_LG_09_MarketStall_V7.uasset",
+      "sha256": "cd8a0d1fff62af8d0f06b61ab217e75792e0469aee6b9090a32ddfda0acd5baf"
+    },
+    {
+      "path": "Content/Libregrove/Textured_V7/Models/LG_09_MarketStall/Textures/LG_09_MarketStall_fbx_basecolor.uasset",
+      "sha256": "ddb8a891d75173b5f037ce95a695e5edb2be1ca82b5226aff2b825e92ad71b2e"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Ash.uasset",
+      "sha256": "e241f790f1811b73ae32cafdba5d919d9947f027ed4fb3a8702d2b785d9432a2"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Brass.uasset",
+      "sha256": "63f01611eb3ea16b4ceca79d30338e4dfc67420517f9568b0911d693b5f750e7"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Cloth.uasset",
+      "sha256": "96924465f76a10db0297539a9e2f776571bb881e232e2620268ccded96bca313"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Dark.uasset",
+      "sha256": "ee2a7b525465fd0e6b59b5dbdb940a0f7b89945d0fc4a73f1f3b154d5efb5060"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Ember.uasset",
+      "sha256": "7941a28754fb7bae2f792154f73d51913ec614c6a835f1e2a88671009c789aae"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Flame.uasset",
+      "sha256": "cf0eb8edd5acba760d310ce90355f8ab180dbaf1bf3024be4d779cabe28ff2ae"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Iron.uasset",
+      "sha256": "b870e96a97afbd2ba095b7b68ca59159621cf791ab9741027d591d4a38a041e8"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_LetterPaper.uasset",
+      "sha256": "e90b7a3322a96efc030c3a725e9739b024451da3b3142539a009e2a5299881b9"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_NaiaGlow.uasset",
+      "sha256": "2282e6bfd0a7369b1e49ff5bba659d58cef79319693f097c2f6e66d8e683760d"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Paper.uasset",
+      "sha256": "cdd3fed42855802d85ca5d3ebc3b6d14f5ebeac6b19f7124c8890c18d85c0b3b"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Path.uasset",
+      "sha256": "f7a942b719f00eb1293f2b7f49902d72428cee6acfe85cf667fac7d9591c6dc9"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Pine.uasset",
+      "sha256": "1cb73d7b48baf13d382c9e8b40f76778b0761db0502bfe098bfaa32759e9d15a"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Rock.uasset",
+      "sha256": "6390b9eb377ed3fcf00d0fb4fe070ebd49e0fe62e75e4211355abd747e1b7827"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Roof.uasset",
+      "sha256": "014597b9c977e371f5c41684be43ad33edc6294219743d64f3667aad496f6a95"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_RoofPatch.uasset",
+      "sha256": "c96252fd298e23cb43c79bab96e9c9ed68962708122422a19cd6e86c813737d1"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Seal.uasset",
+      "sha256": "e303ec59b92bfa6e1c96f49bf65998ba1b5a68c43a05991cb9fc46e3255066b9"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Sky.uasset",
+      "sha256": "cc88e9488cebad29e6a379157b681bd743c2ef2d576c607a07c9907c101cc171"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Sky_Night.uasset",
+      "sha256": "6a9f67c7a39fc8269cdeff5e1dee9d34d066989a2be54b9482475870d7fd7000"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Soil.uasset",
+      "sha256": "17aec55a421f416350c9d04ff11b89e57526191d6f7a1c2527108fdded3b3347"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Stone.uasset",
+      "sha256": "79420ee0d3988784aade4d01cb18ff7f36e7f2813cff7c300a6eec2664a238dd"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_StoneLight.uasset",
+      "sha256": "968fa51830ffa9fdf287044a7127b33e86c1e1409524d013569bd0bd05875373"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Timber.uasset",
+      "sha256": "ce1e247fbf0c12506bbb2a783c93483382908db53451bd78700f4003ce17b947"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Vein.uasset",
+      "sha256": "40260ee9239f55e591e6ec7cc6bcfef45fea3c0b4ecd72e59080c2ac3ad24d69"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/MI_CH_Window.uasset",
+      "sha256": "37b6af3a6f188f9829bdc62f654936e7d19772f4e3b7f3a94045823ab2fbec46"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/M_CH_ChimneySmoke.uasset",
+      "sha256": "a0a31d5cf222aa9f88090c798ca752a7ed2ec985f3581db95c1e3e5155fd4814"
+    },
+    {
+      "path": "Content/Cindehearth/Materials/M_CH_Solid.uasset",
+      "sha256": "2b3c088e3cc46495a2a267fe07294927a421b2882961dfcab79bc3b54a78f59a"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Anvil_Iron.uasset",
+      "sha256": "5db55aec1a0582342699ac8139a8dbec2b71a5ca5ed266b58e41c584fd2b1706"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Anvil_Stone.uasset",
+      "sha256": "8d8e819fad9c41d6c7f703b1b63ef2ad03491f8e6809def9fc6b5e19147f0f87"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_AshNaia_Ash.uasset",
+      "sha256": "2e514128ffb661fdab4ee257a1b7c9c7a34a63a4c4d25b977f6e0e9949167e73"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_AshNaia_NaiaGlow.uasset",
+      "sha256": "a242016ec431a98a26b9cf6eb6295d54463f7ff0d2337742eafbb1baa75b0698"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_AshslopeRamps_Path.uasset",
+      "sha256": "abba3f41f0e9686fd0ec2b4846b9227f964a6afb3b9e02ceb123755359ad59ad"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_AssayDesk_Brass.uasset",
+      "sha256": "21a9ae33b30398f492259972143c1414e50408c69b7753163b8ae2df023c301d"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_AssayDesk_Iron.uasset",
+      "sha256": "cd1d8fabc104ccb931b7f7f13917751cb706f9bc15001517e2043b28797ea143"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_AssayDesk_Paper.uasset",
+      "sha256": "bb96915cd43632faebc332357e773d4ccd022a0011b14d8a34fbd37d1d497790"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_AssayDesk_Timber.uasset",
+      "sha256": "7ed5f816f484075b12bb2554b0d281046e495b7c01b7bea3a5d8c8c158c7e3cb"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Assay_Brass.uasset",
+      "sha256": "a112ea1a5c0ebd9f7d36fc8200edeff9727e55d3190c62e96aafd52ba1cd8209"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Assay_Dark.uasset",
+      "sha256": "a34ba23efa1db3b609c069d8e09db6c2f66cfce81f500213d9c6cbb2e02c023c"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Assay_Iron.uasset",
+      "sha256": "ac7a0545b7afda4ac5a58159bb07a357f745d129af5f86c69e3215e039aa8500"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Assay_Roof.uasset",
+      "sha256": "9b97b3c0aeba9dc3b34161890e869f109ca273e9ff89bb61fad888af04120be9"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Assay_RoofPatch.uasset",
+      "sha256": "0e53a01fe19f138328136b6a44ca01fbb5d92c3d539b00b5581ba8e338f20b23"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Assay_Stone.uasset",
+      "sha256": "a6a3834ac44379f2618a9937490687c230889f0fbccf5822bdb01cc1907fb8b0"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Assay_StoneLight.uasset",
+      "sha256": "a7f46f4dd22076f032bc1f783e003c8ea83fc1e785d7bc409ceaa560b88dcd55"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Assay_Timber.uasset",
+      "sha256": "70667cb2ff11b3f13b0b33e6bb1049dcdc76edd16b683d44d5498645278d9ed7"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Barricade_Timber.uasset",
+      "sha256": "1d6c0a502502d1308ddf73310005c43cc6d1a3ea7b3aaa2d667d074b8ca3b7e9"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Bed_Cloth.uasset",
+      "sha256": "775dbf535d6be63f7f652b20c5dfcc06631aacb093b6854da82979c046bbeee8"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Bed_Paper.uasset",
+      "sha256": "d1ec072b14addbd7310018b0376b0aa0dda2433eede7f344174d9ffaf3eb6b3e"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Bed_Timber.uasset",
+      "sha256": "f71034a8e082e58e9973a32136599b8c2c3469aa3c689db0c14666ac092e75fb"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Block_Stone.uasset",
+      "sha256": "09cdda5b7a8f536e67845ea11b3b52a70b328e18c19f9b1d35fe7e1a26e10577"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_BurrowHouse_Brass.uasset",
+      "sha256": "d124094575a8c0b071f9d9310594cf7388d931480409fd8ec2093d7a93500930"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_BurrowHouse_Dark.uasset",
+      "sha256": "cc49f2ce75b6b052f5301cb1d0aad8fe8ad29740151e2b37f42b094d0ef97b1a"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_BurrowHouse_Iron.uasset",
+      "sha256": "5616290d54cdb330832c83d306fa76137f661279496d1bc7bbaeb164aa55be43"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_BurrowHouse_Roof.uasset",
+      "sha256": "be11a17a1c9c8e96c8d05b0c3cb5ee9d7201030fbe140caa91e178e541fa2766"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_BurrowHouse_RoofPatch.uasset",
+      "sha256": "a358d482c85998758885e19ce1187248a04b23a90b4115f780193b50cdadb14a"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_BurrowHouse_Stone.uasset",
+      "sha256": "acc2ebcd61baea66742acfd743ed5c035895ccf1b65f680550b3b3d9d5c670e9"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_BurrowHouse_StoneLight.uasset",
+      "sha256": "b4655f8edf94a26e783d476a15f49ef532cda2dfae23af873f090fa7392bae0f"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_BurrowHouse_Timber.uasset",
+      "sha256": "e44cbd1d97ac0eead8b9cc510c69858bd490749f143a330fc18254d1806368d5"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_BurrowHouse_Window.uasset",
+      "sha256": "1266dcecf33a4f1eaa227cee8a4967a800f29144d0122d4ac2ac8de37998295c"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_CemeteryTrail_Path.uasset",
+      "sha256": "fb30bdce949a360876fee26229f477e5d33a669dcdf72a602c187d660651e5d8"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Clinic_Brass.uasset",
+      "sha256": "ce08f834796d28562f425ece567cc00c17b15fd895f605bd682f2419980b897a"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Clinic_Dark.uasset",
+      "sha256": "91a6198e265cfd90d9b9f8af5e0e932d42bfda4d23082eb91cfb9296ce2df73a"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Clinic_Iron.uasset",
+      "sha256": "0f4128f95d114a44480098f15bb6091338cd080e8bc2951bb58c060d32cb71af"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Clinic_Roof.uasset",
+      "sha256": "3974c60d478ec50558a097c9b8a7dd87099bbd320fbba6ea7ae9d1d9fc11a596"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Clinic_RoofPatch.uasset",
+      "sha256": "f899f11eee9149e10d2202f10ee035a7ffa81742e332ccd11f27b213fd0c68ff"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Clinic_Stone.uasset",
+      "sha256": "9981be59543bf038a27755c99d6dfa760f9002ed0e87ddac12bdef1e57a8e77d"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Clinic_StoneLight.uasset",
+      "sha256": "7fdd61f32c3a62f7b2e09bc49188da1e808a3c652de345ebda63a5fce64551da"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Clinic_Timber.uasset",
+      "sha256": "7d7ba70a3877fc74dd63be0a733a9f4063b22c4291d7fd28b759ff0b0f2bea1f"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Clinic_Window.uasset",
+      "sha256": "7af08486519b86fe6f6ba28e22f19b113c0bb7e6cbb196f1643a69871edf6e1e"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_DeepveinChamber_Rock.uasset",
+      "sha256": "fb584839ca84ccbd2ab5afc617ac0b5e5ebc58e4a619f059c43e820b35c5c9ae"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_DeepveinChamber_Vein.uasset",
+      "sha256": "8f17ccf30524a23dcf236df9835aa3de93b156f7b109d09bc3f3647b319cb506"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_DeepveinTunnel_Path.uasset",
+      "sha256": "1587675b9122870faf5970578b032d82860b19ca9078fe4d81c66dd9d8da0d22"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_DeepveinTunnel_Rock.uasset",
+      "sha256": "4bb5b6864cc934930058918a2da7659315aa2b66df1360f89689055ab2d3ba96"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Earth_Soil.uasset",
+      "sha256": "fbd6cb03f3ed91b30a0c929f853d68c7f026e117ae2c84b679ed695f42b2f059"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Fire_Ember.uasset",
+      "sha256": "94e80768b37149aedc30da50d8619289d67cc2bb61ffd5f3fe1d628ca8c845d8"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Fire_Flame.uasset",
+      "sha256": "5c9dcc59384884589e17b3f926f5689b53cbf5952909f54c9ebe93d9ca714492"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Forge_Brass.uasset",
+      "sha256": "7b694c4536071d7b05077c78d13572684b9d7516cfb0b925244e31a70c3e75a6"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Forge_Dark.uasset",
+      "sha256": "fe37c1117830caa98291f0a32e333124e04ae7f2fe06244489037e791b7974a0"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Forge_Flame.uasset",
+      "sha256": "9d43d3a2bd056fe2e63f188ad6fd4cd66a21f829c4033033e12c8dbb34ce6104"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Forge_Iron.uasset",
+      "sha256": "1d44349d099f16016f9e39ce6b0977dab7b0b8a7ecc7a26fda291b96e29947c3"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Forge_Stone.uasset",
+      "sha256": "141944fb584422127fe0f10d94f2782de2a92714fc8094928d3139c0e6be36a2"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_FreedLights_Vein.uasset",
+      "sha256": "1b5a91eeb7d4263aa3db3d8550072de8fb204850946f57ae5c2bc6a188bbb1d3"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Grave_Iron.uasset",
+      "sha256": "84c6ea09ffe6ac5e38186abe4c9751be6f54ce452f94014e399dfbcc3ef0a07e"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Grave_Rock.uasset",
+      "sha256": "50db8e85f781fc6055b0d77954dbcbbf55c0360f0b6ee39ea97bfbc1e215671a"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Hatch_Iron.uasset",
+      "sha256": "3964e7bb83a9907d27af311e45b84ed43b982e74ecb05218fe5075c6ecee69a6"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Hatch_Timber.uasset",
+      "sha256": "ff56a1daf4d1b342ab8f67fab36eb53a56b378293bdc5edf87dd25a988e6a7ba"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Hearth_Dark.uasset",
+      "sha256": "d6a1328f0bfeeae260df2ceedb48f4460090c8ed4c0884805857302daf3ede34"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Hearth_Ember.uasset",
+      "sha256": "52365b213bd20d1ebeccb979d609a7d8e880830453e4c9e099cf2e2ff29112db"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Hearth_Stone.uasset",
+      "sha256": "48cd438d56cdf460249c72e79b3c3f17d647ae92b607df1d54390b0df9595c52"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Hearth_StoneLight.uasset",
+      "sha256": "51858d045b74126d1a41cef970727cf6cf1e6bc8605b49894575928ef0b2457c"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Hearth_Timber.uasset",
+      "sha256": "2f40b47576b5114141edcce76a6e5a8508f37b1200fc363944a63c22f6e78e09"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Hollowcore_Iron.uasset",
+      "sha256": "4f2276ec72284f7eda1bb2c47dc1888c8b9e44a26cdb6c391272edc2bbca29cb"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Hollowcore_Vein.uasset",
+      "sha256": "b571069265114cfe8d7c834b2de715c5575e4d8ce5f9760d636e21b790b12e42"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Laundry_Cloth.uasset",
+      "sha256": "96e9efc5c869351c68d9d512895703afc54dc17e8cd52e8a376fc1552f6ff243"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Laundry_Iron.uasset",
+      "sha256": "d6a97386bca7b4fa81e6a13d33903d24807fef078958796f27692abc3da94106"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Laundry_Paper.uasset",
+      "sha256": "0dc0df430206c99b51f98bfd5de67749ba70cf462a1badeadfbbcf164ea599e7"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Laundry_Timber.uasset",
+      "sha256": "edc3d5800d669d26bac42066b9e6b1423e70861acebcec48c0ee5ddfc669135e"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_LedgerShelf_Cloth.uasset",
+      "sha256": "c1eb37ece42922c355bcff1a45dbe8eecccc01199fea6fc6f3c4cef98b0aa4cd"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_LedgerShelf_Iron.uasset",
+      "sha256": "3ae7bfd6e4122d7ec4ad0645e39ede3fcc575bf34e0fc5c01c5dc5f414031826"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_LedgerShelf_Paper.uasset",
+      "sha256": "d7de4da2a12414418528ccf35c369ba5a7068ea20cbb9bd1ce7ab242ba7d4e3d"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_LedgerShelf_Timber.uasset",
+      "sha256": "1e1c77f32904412c9329d222a7d652f411e0cf9aff9f72536cdced6a07dda64c"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Letter_Paper.uasset",
+      "sha256": "6390245cdefb910246b64471fb5b964127116de882396e63b2f61b973c02224b"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Letter_Seal.uasset",
+      "sha256": "bdc71e0216c19bd463bcba0b45ae6f45d0d09f252a94ceaff4e781a5b9b5bfd0"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Minecart_Brass.uasset",
+      "sha256": "07a18f44a39dff1e1b7176aeea6e2c4346702d059f87890a7bace09745d15ebc"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Minecart_Iron.uasset",
+      "sha256": "c40296a1a121b15124abee2c33dde62cb27c7a76d29d99cd0889b59bed090bbe"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Minecart_Rock.uasset",
+      "sha256": "487349b13b25cb161350396aa25ebcfd00a946b4dc063c2c3d8caa76f3be6ae7"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_MinePortal_Stone.uasset",
+      "sha256": "c6ccc076ea78a4f1b29466bcf4feb8d6054fa0c702ca7998572a7cb7525b04ea"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_MinePortal_StoneLight.uasset",
+      "sha256": "5f62cd75ff0bf054f61803073349103eec2852c984a61c41a78583609cb21efc"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_MinePortal_Timber.uasset",
+      "sha256": "50137363612c18d76dcbb8b65aee7678aef3cf69163b5216cd663ff7b2948271"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Notice_Paper.uasset",
+      "sha256": "031cc418904beb8b34a65a2b07a035807d67c03a2353329eb5f91388dd122b42"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Notice_Timber.uasset",
+      "sha256": "2ef7011f4569186a7b06a0573097633ad7dea1ad41172c9eb7ea695606540a4b"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Office_Brass.uasset",
+      "sha256": "8588252888c88d2d257c10d4abb610b1e43d7ca25f94db6b28c9c51f1cb31c9f"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Office_Dark.uasset",
+      "sha256": "784d9bcc241c22f4834b899a5437c119e60c7bfeb8c48ff44b181bf71f1387ff"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Office_Iron.uasset",
+      "sha256": "9b7b81dd1139d2915853a9a2a286374c8bc024c532d03f30c6defa754a56b593"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Office_Roof.uasset",
+      "sha256": "3d115355e6169e9509179208ef7090dc531ce4b52579a3b7a21e5e6386f8ad3b"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Office_RoofPatch.uasset",
+      "sha256": "37cdec07e1af2596d88aa83f4083b00d45915ff6d38cb16ca240bcda76080df2"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Office_Stone.uasset",
+      "sha256": "f313b3caaf7b978529d6e61fc13e66b8edf2ee54822cce76f8144d7ef7d698cd"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Office_StoneLight.uasset",
+      "sha256": "bb866c8eeff05cfc601a4895c794ed7fd0cb9047fb112d03b8da5b0929b6e7fb"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Office_Timber.uasset",
+      "sha256": "54d56832a796e26562dbbf942ae47061aa4beb1b5921cd87e599dc538afb4f36"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Office_Window.uasset",
+      "sha256": "e220155fe18f565559522476c8e16d6afc98db74f2734a8326aceea3e310cfad"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_OrganicVeins_Vein.uasset",
+      "sha256": "07cb6d2594ae69b58b4a7e48c2b6bc3054b775db5bdc6b445b54d8b9e001ed44"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Path_Path.uasset",
+      "sha256": "7685e81b37627d0026e7aff3e879a3e00c8b7617e9ef530280e0eefa853617a9"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Pine_Pine.uasset",
+      "sha256": "a5296f324bccdea6f7b43d089eac7433a60fab167fa4824c3a410a39b25113f5"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Pine_Timber.uasset",
+      "sha256": "31a6a96c62002974134025e1539f3a01570df9c205dadc807af6b85340fd42f7"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_PlazaPavers_StoneLight.uasset",
+      "sha256": "13af4c5e48b7218f3320e0edf6bf39090da91d7ae849133a7519cadff517ce3f"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Pulley_Brass.uasset",
+      "sha256": "4db260cb0bde48b96178501f5424559d5b5a8d4fedac6d0cc7aa4ffcffe41e46"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Pulley_Iron.uasset",
+      "sha256": "17223f018381abb11b4d2831283dd2d30f0d730d980b2d8c767d67c5ffde1969"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Pulley_Timber.uasset",
+      "sha256": "d38180371f54d47abea17d405146de77a8a67285b22329430bf027d489f63102"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Rail4_Brass.uasset",
+      "sha256": "3004109f490d02ef1cfb59973a6fbdbad361d3e67af948f0ddb90c0ed0be2449"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Rail4_Iron.uasset",
+      "sha256": "288a23e8841a32c798055d528478d96b42578dc21a2d07c41b3ea6f0d1cb0e87"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Rail4_Timber.uasset",
+      "sha256": "8701b5cf4d19f6c92e4cd8e76610be2330c4352037baaa5e4e83488595aad94b"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Railbed_Path.uasset",
+      "sha256": "130ab33df7ef9afa5fbafba181073440b6699473ca5f5ddd749b00b6a227ab7d"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_RetainingWalls_Stone.uasset",
+      "sha256": "5ec85467df69edd5d6b798586eff3f79d6038e429390d31160065aad93d68bbd"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_RetainingWalls_StoneLight.uasset",
+      "sha256": "1bc187cb3b8d5ef81bbe0f9b7ad74da51eaa051232cdbde255241e0f0c030d5c"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_RingPile_Iron.uasset",
+      "sha256": "655dffca8f871262cc4996b23c1db5d3212ea073ba105635adb3ae12e9986429"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_RoofSlab_Roof.uasset",
+      "sha256": "89642d99ca423904d01cb615287e8c1a21a5b6abd7919fd48ce6b342d38790ac"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_RowHouse_Brass.uasset",
+      "sha256": "9261d0e8b7eecfa7c493f59a4c83e02674823dc0aac0beacd3ca14b4a5500026"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_RowHouse_Dark.uasset",
+      "sha256": "ce48b20b6a920ae12759d4b0af4d629ad076ef8d0a05f902c1a4220b7d487879"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_RowHouse_Iron.uasset",
+      "sha256": "bfe17edd67391a9aa032e96efc1641c075800c7dbf00fcbf1b0b9e73e275f897"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_RowHouse_Roof.uasset",
+      "sha256": "8e362eac26156c9c165322a19486721643746f341a93dd8ec4e9bd8fad55eca5"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_RowHouse_RoofPatch.uasset",
+      "sha256": "8d29f60e341f9c6246f9c47decbbd07aa0aba80de3247a199bd8f18cd536a800"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_RowHouse_Stone.uasset",
+      "sha256": "13c2c8bfc05c914a754866a648ef93226cd3b0c7b240b1c264c2d01e50939bc8"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_RowHouse_StoneLight.uasset",
+      "sha256": "315a5b2a02b1626a16275f6af19791461d09054fe620760a005305eca17388b4"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_RowHouse_Timber.uasset",
+      "sha256": "1c9c08a2112ef1e3c5907262958a82cce077f052cfa05ffdf192e16b23450638"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_RowHouse_Window.uasset",
+      "sha256": "12c9b3f3613eb06697f1616ea876e45b811297d1d9123b218a0e8b3b6969e035"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_ShiftBell_Brass.uasset",
+      "sha256": "c43bbeda858469b6696327f605a089ac4c4f2d19df54eec78f38425a93a1e76d"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_ShiftBell_Iron.uasset",
+      "sha256": "0284375a076458f2ec92b150cc4ef6edbf148761b3025a1cd292bbebe3bbf7b5"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_SlopeHouse_Brass.uasset",
+      "sha256": "5463b731a783d69d42068d93d1c8d6a0be3f1c00f84ace03bda0bffe05e050ef"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_SlopeHouse_Dark.uasset",
+      "sha256": "038aeadc49d0ff279a46c440462043fc274f8e6914bf351e1fceadd7d83a550c"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_SlopeHouse_Iron.uasset",
+      "sha256": "d9e874067d150950b7e149614d384eef5309bc4fadbc4cf2351449bf17d09344"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_SlopeHouse_Roof.uasset",
+      "sha256": "88921938276bcfce2e8ab6ad3e5e0d2eb47891df799535917dcbe87c92858ab4"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_SlopeHouse_RoofPatch.uasset",
+      "sha256": "d148950a93262903f2f00910bb4fa16c70577b08fc89a4e6d1b4ec154042bdd7"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_SlopeHouse_Stone.uasset",
+      "sha256": "b20028246ae42d2e8a8564866f701dc8cc410ce85c1a5a541f2aa6caeb07da5d"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_SlopeHouse_StoneLight.uasset",
+      "sha256": "cd090158839ad07f9dda965cf92480c8053fcdffafbd18e4934cf296f4f8c9f2"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_SlopeHouse_Timber.uasset",
+      "sha256": "49ed5720ee322d6b5701e4b2e46c868637b8830f54e493ac4b5d3045f9f2c1b0"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_SlopeHouse_Window.uasset",
+      "sha256": "fe4cfda227ab42e3b25bc9c10e728f0a41a8de93aae158e592fac305d4c03232"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Smithy_Dark.uasset",
+      "sha256": "a526851ba6aa798ef30f37f9a6c01e418ed1cd2a964e7435bc323f68478f0328"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Smithy_Iron.uasset",
+      "sha256": "153588c2f79da4a08d11e46ba8e778c8e72775ff54a5e5809e529ffa8eec104c"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Smithy_Roof.uasset",
+      "sha256": "7b19f56d5bcd6c161a94de14dacf8044db192bb1cc73d53805a7226eda1558cf"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Smithy_RoofPatch.uasset",
+      "sha256": "e61c022ac26848b43158e00cf7e516cbecf830b13e4d6e19ba19a11155587995"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Smithy_Stone.uasset",
+      "sha256": "c746e5559900a192ccc721352dd698ea8c0f63ddecc5608cd0916d583fe2d49e"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Smithy_StoneLight.uasset",
+      "sha256": "57391d9ed2e6774d8cb679426322a1d10dc270a51274253a48d7690addea9292"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Stairs35_Stone.uasset",
+      "sha256": "c70ce28eb6a43f124d2db798e9628b4c7ca8e6b52759008a85633f73677d8cb6"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_StoneNaia_NaiaGlow.uasset",
+      "sha256": "401b6490394a518ff991923976a3c0d444bc4622a58a6a0446002cf65144051c"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_StoneNaia_Rock.uasset",
+      "sha256": "00d2fc21f2a297527de57fb2995bda18d81a1611117460d88ff7edf6129b6eeb"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_StoneNaia_StoneLight.uasset",
+      "sha256": "02357d9f0fb9a4db9212f4a320d99eea9cd61e1c8ece9a4de53145c144f1c7a9"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Table_Brass.uasset",
+      "sha256": "ecb8ae38ea6960e3bd5a092b838721642eb1e440fa6e826277235419479e2ad7"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Table_Iron.uasset",
+      "sha256": "f96c06dc8fe63c5c1d1559b67d8d90399cc6801be061eb2f15a718163a7a5250"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Table_Stone.uasset",
+      "sha256": "230a9f6a0437483032ea9e8bed9cfe094a9e938d1e580dd3c09d3dddf4db3653"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Table_Timber.uasset",
+      "sha256": "b910c420912216970496c8d21b6a15deee2bd568ca988bdb194dabaff4409c81"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Tavern_Brass.uasset",
+      "sha256": "95766cd86e9b7ec27aa281bc466b779cc9dd04d892aa963d44fffbdd79884e91"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Tavern_Dark.uasset",
+      "sha256": "9ecaad0693ccbe2f09d7802228ad17707d265f076c5475aa9ec9f5112f6c0019"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Tavern_Iron.uasset",
+      "sha256": "da867daae2ff328b4639a31b90a7dffcd959d8249075e44e177a51693c37fdd0"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Tavern_Roof.uasset",
+      "sha256": "85cca4522323e4a92578f7930541e39b71325f84a259d7fcfcd3b7b13d6f8fc6"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Tavern_RoofPatch.uasset",
+      "sha256": "2f28eb0a4ac3b31aeac6bead7690df69ed96d7c149d9fb5defb7a8fb45314fc4"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Tavern_Stone.uasset",
+      "sha256": "6dba0cafd9cb2b42a7b55b180640b23524c881d420bc0448630cc9249b316968"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Tavern_StoneLight.uasset",
+      "sha256": "bf4985c37a4f4f6ea5b740a17ebf68fdf7b833c7a1871fa869442eba8955190c"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Tavern_Timber.uasset",
+      "sha256": "3ccaa36bc914bc8ae4152b2c6251b7a92027aa085885a5109b07b42b57008c76"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Tavern_Window.uasset",
+      "sha256": "9fd90202d24cbe5685f5fa22df431393ab29a80cec8528dd65495bc6cde79814"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Terrace0_Soil.uasset",
+      "sha256": "eb9ae412fe9d259d5bc9e5ef117cca0c0118a3a48effd34b015387ff9b7fc6c6"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Terrace1_Soil.uasset",
+      "sha256": "bba704455ae70646020ce1a8a0a50c5dbb4aa90aa8dceed6e03783ae141613c1"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_Terrace2_Soil.uasset",
+      "sha256": "a8da5dfe81e282cf9df48e6d6f276d48b2310115c67c7b0000b5ec71346bfa97"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_ToolSign_Brass.uasset",
+      "sha256": "7df7551551193109258997c224243fcba699b05a4183d8d226c2e0e154df47e7"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_ToolSign_Iron.uasset",
+      "sha256": "6de00d573c08979036b405bbe79e79eb128d0a6220610e5f5dcc993b439b38b1"
+    },
+    {
+      "path": "Content/Cindehearth/Meshes/SM_CH_ToolSign_Timber.uasset",
+      "sha256": "2b53a6ae3ec04640390fe2d78e16b885dd071976cc4105d64c900c0282173448"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/MI_CH_ArchiveClue.uasset",
+      "sha256": "4696023c6cefacc085a18541c7ca1e372e525e928871e285329c2f588e4758ad"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/MI_CH_Assay.uasset",
+      "sha256": "3ca51f81b5fc8e337f08289b706f9e1b293d982c1ab179831dc466dfc935bd10"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/MI_CH_Clinic.uasset",
+      "sha256": "59b719a30cfc81c13c209e4e7dadb1ddf1aeb34cc9507d00bd3a39c3299353a0"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/MI_CH_DorenSeal.uasset",
+      "sha256": "d57db9b7883f9b1a31cb7c39f70d3bd79b0a2f9660cf0a0073e0ee966e037b76"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/MI_CH_Gorm.uasset",
+      "sha256": "30df23ea2138cbbaf88e3911908822ecc0f4895f77f2eb6eb237f26a84d589e2"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/MI_CH_Rockfall.uasset",
+      "sha256": "8973a51ad91032c5cd81a79610710801ff614d9149e31ba37e5b29c5eafce29b"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/MI_CH_ShiftBoard.uasset",
+      "sha256": "dd71c48ceeb10eca4a4e0167389db5dc6974f7136b56b9217acdf296aba6c056"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/MI_CH_Smithy.uasset",
+      "sha256": "35b0e84ddb45c1c35aef0c0e112b024e428a941074d220ac1450d18bfc60cee9"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/MI_CH_Tavern.uasset",
+      "sha256": "8b8b4a709d687ea6e8f6de39518bab0a40bb7a51eb3247d2fc26fe94ef7efa64"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/MI_CH_VillageName.uasset",
+      "sha256": "056ae24d3105203e69c7e24c0c59a63e679217c508c5f1d3458a8ea30183cf24"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/M_CH_Sign.uasset",
+      "sha256": "fa815b2f748d63fcfdd2218fb43a40bf5694e3daa936777431f13a943971ecc6"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/T_CH_ArchiveClue.uasset",
+      "sha256": "d36799ba2d301ca340a7a716244089ead24d007b98cae66ea544a9e0ceaf576f"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/T_CH_Assay.uasset",
+      "sha256": "6f4bb97086cb6b8e33a3d332c766e7972ca96319e9854d4bd69064b0eda0c7f2"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/T_CH_Clinic.uasset",
+      "sha256": "fbd7338d0e7c5a25ed7ad3f7e9a4475da020e322cf2b834c9a03951dc8d60748"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/T_CH_DorenSeal.uasset",
+      "sha256": "4b38f88c5a598b2ec3cb2614a627fe992dc4aea559e5b8b28984bb99a17b9534"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/T_CH_Gorm.uasset",
+      "sha256": "c52102629735dc357e77f97bed5256aa08b80fbcc4bbd061c08b057ef28164e9"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/T_CH_Rockfall.uasset",
+      "sha256": "88e46996e5806a4dc2e8e5638d576764eaa3d4c69efd90cb78e15205d47254b3"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/T_CH_ShiftBoard.uasset",
+      "sha256": "155da915f89b0fd64d0b35a2d5bcd3adaa9113337186ca6c09cf9bf187810894"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/T_CH_Smithy.uasset",
+      "sha256": "ad39755ae514e59e764994a7ea2ad77fa5e1b28cffc42af4bfde6694e98f4e8a"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/T_CH_Tavern.uasset",
+      "sha256": "b65b0d736a0c737eec1795a32c67189ada1932140b2c1ec04fc79652a9e587cb"
+    },
+    {
+      "path": "Content/Cindehearth/Signs/T_CH_VillageName.uasset",
+      "sha256": "43894fe95f755edce4287c5a36260fae5a2f64222372424b45e65ea129dd9165"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Materials/MI_CH_Smithy.uasset",
+      "sha256": "5230b912167277e863b7dc1d8a95a7d949a17dadca8b35d8194058197e9e4018"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Materials/MI_CH_Tavern.uasset",
+      "sha256": "8f22e90b61b786c2abf0c76c8d9ad16cccaed78561a754bfd3aab03bf4546b2d"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/Smithy/CH_Dense_Smithy_RoofCorner014/Materials/tripo_mat_dda91e9f.uasset",
+      "sha256": "6b108191e4901d4a17884545aeb1870968040a0bb8f7b61c6fc4d6248b6de707"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/Smithy/CH_Dense_Smithy_RoofCorner014/StaticMeshes/CH_Dense_Smithy_RoofCorner014.uasset",
+      "sha256": "d2d7f6da8c0f6858f3be65bc1fe8cc630554a967f09d96561c7d74658cceabea"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/Smithy/CH_Dense_Smithy_RoofCorner014/Textures/Color.uasset",
+      "sha256": "966019f80f9235fd47fd3ddf786eed2dbf4acfbc8015f1abcc594255303a58e4"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/Smithy/CH_Dense_Smithy_RoofCorner014/Textures/Normal.uasset",
+      "sha256": "f70a67482f4e823c842ef4423dce40e7e930a0a06d07779484528a9876ecfdb5"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/Smithy/CH_Dense_Smithy_RoofCorner014/Textures/tripo_image_dda91e9f_2-tripo_image_dda91e9f_1.uasset",
+      "sha256": "36f1f33129ba8f9c6ae08c3f12d8b7991d96bd07578828f61d4c0214c863bd5a"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/SmithyRoof/CH_Dense_SmithyRoof_RearFar023/Materials/tripo_mat_dda91e9f.uasset",
+      "sha256": "2c15e8b01f585a2545775b449d1e95be5c4f7d8bf3042e1aaa182a8bbd3cb213"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/SmithyRoof/CH_Dense_SmithyRoof_RearFar023/StaticMeshes/CH_Dense_SmithyRoof_RearFar023.uasset",
+      "sha256": "8f05ceaf9820fa09c8c5aec9be4c8439b170f1f881b3752cb2c292c8d3845eae"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/SmithyRoof/CH_Dense_SmithyRoof_RearFar023/Textures/Color.uasset",
+      "sha256": "6f6b78c9617abdbdbe96250ad75cd5d5e9c6fa88979303e77d0bc0aea76eebd1"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/SmithyRoof/CH_Dense_SmithyRoof_RearFar023/Textures/Normal.uasset",
+      "sha256": "171aea8a78224b035f5dbd917fc176f0a33187203d7cb5c72c1ae726b3fb196c"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/SmithyRoof/CH_Dense_SmithyRoof_RearFar023/Textures/tripo_image_dda91e9f_2-tripo_image_dda91e9f_1.uasset",
+      "sha256": "cdfe0a63fe177ba77ab15ff1d8bfae1eb69a24a055e4855b76e27ff64ce49146"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/Materials/tripo_mat_dda91e9f.uasset",
+      "sha256": "6aa1c2acd960bf38e650ebac7ddb3a5b2b66a899db4469ac3203c0312a72d09a"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/StaticMeshes/CH_Dense_SmithyStructure_Final018.uasset",
+      "sha256": "568e703433126784b135169a7296fad04b9b07ce1a298b57011e6e61dab4bae8"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/Textures/Color.uasset",
+      "sha256": "3d3ce37d3a4700bf48832460e890926b43bbbfb77802918d8943a10e798ea6ff"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/Textures/Normal.uasset",
+      "sha256": "f81037ed0b5b5c62c61eb0b4089eda853ed0c2db9808c6b50f50fc508965d4d3"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/Textures/tripo_image_dda91e9f_2-tripo_image_dda91e9f_1.uasset",
+      "sha256": "0a51e634b5438da829053c90c647924f3d8e0f2d7aebd10aa5f473926587fd64"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/SmithyWalls/CH_Dense_SmithyWalls_Final016/Materials/CH_Dense_SmithyWalls_Stone.uasset",
+      "sha256": "6e3900b40e80c6499e82df0fb9dbec8ce913b258225a89856bc458ff49b3204b"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/SmithyWalls/CH_Dense_SmithyWalls_Final016/StaticMeshes/CH_Dense_SmithyWalls_Final016.uasset",
+      "sha256": "657eab1d2cff60549a918ecdfca49e206011adb0d45fbd0edafad8f94d4114c9"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/Materials/tripo_mat_4caa7db6.uasset",
+      "sha256": "fb55eff8d928b9b6a32602f909f1b39a0da186b4833613876e94d4d81993a719"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/StaticMeshes/CH_Dense_Tavern_Foundation014.uasset",
+      "sha256": "ac00f97abd5252b05a9845233fa8b0d77f88a212df4a44286263dff18af576fb"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/Textures/Color.uasset",
+      "sha256": "c844c8d8a374604aaeff82b43b6cc762c3c162c74d4406b003038f08ac358641"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/Textures/Normal.uasset",
+      "sha256": "48888c25fcbb2b680c2b33778b6c3591134d685b330505c9a2a7e1f9e170fa7a"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/Textures/tripo_image_4caa7db6_2-tripo_image_4caa7db6_1.uasset",
+      "sha256": "3cd38ef4d04b0c06501baf4de732ed0a1c8f7639ab17d82a01e1255587317875"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/TavernWalls/CH_Dense_TavernWalls_Final016/Materials/CH_Dense_TavernWalls_Stone.uasset",
+      "sha256": "d64833b4ee720c8808c5bd140d4470b490d45dec38f3bff5653d4787586bf053"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/TavernWalls/CH_Dense_TavernWalls_Final016/StaticMeshes/CH_Dense_TavernWalls_Final016.uasset",
+      "sha256": "3e033ae2b25fe1f464504c21efc61a7f326ed06af214ed23950a6142a7281d7c"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/TavernWallsFrame/CH_Dense_TavernWallsFrame_025/Materials/CH_Dense_TavernWalls_Stone.uasset",
+      "sha256": "e2ac6b98caf018b7438edbb70a76023e00cad3e5fff4980a62ac4a8320fed51e"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/TavernWallsFrame/CH_Dense_TavernWallsFrame_025/StaticMeshes/CH_Dense_TavernWallsFrame_025.uasset",
+      "sha256": "66cf44079afc58547be832571f3319521bab676d6b2d5d14ac9c7b82f42d8d9f"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/TavernWallsInset/CH_Dense_TavernWallsInset_Weld027/Materials/CH_Dense_TavernWalls_Stone_001.uasset",
+      "sha256": "3a6457b657f1d7a906c9d6b9c4f81ca1477dd3a192143af389a11965b9bc4eab"
+    },
+    {
+      "path": "Content/Cindehearth/Dense_v004/Models/TavernWallsInset/CH_Dense_TavernWallsInset_Weld027/StaticMeshes/CH_Dense_TavernWallsInset_Weld027.uasset",
+      "sha256": "4da91d553a18d37a9521ab69ba805fb6fab640abce8c50aae8976d849a3b2a99"
+    },
+    {
+      "path": "Content/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Forge.uasset",
+      "sha256": "82a5594a66a08cdab788680308be84af89897a64197a52b9db6d3550e31929c4"
+    },
+    {
+      "path": "Content/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Hearth.uasset",
+      "sha256": "5c06d946871c606d47cfb278d1ebc1b6c8576344956cceff780d4bd192ad102a"
+    },
+    {
+      "path": "Content/Cindehearth/Fire_v005/Materials/M_CH_FrontFire.uasset",
+      "sha256": "4671065a5c01ea8b269baf9ffb3910261f83404852f360502637947599e86322"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Ash.uasset",
+      "sha256": "12163f20ef48d8afcf3571644c44e2f92f16aaf00477dcc9b18e2a3196a34314"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Brass.uasset",
+      "sha256": "cf4aecb859bf43fc97410c523de581bd89171fd3c4ba8d018531d1732394f32c"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_BurrowHouse.uasset",
+      "sha256": "2f6e85548297c4ae9366a10335ac2bb0b36362eba37aa86f0030cafce980cdf2"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Cloth.uasset",
+      "sha256": "6e35490d6c81a7e8e25b4c98e93e152a0162f2e94606e0bb55b8bd1f1e7bb190"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Iron.uasset",
+      "sha256": "4b7531b8e6a5c99eb49ef4e0850a17759026907e98d25a325237f47f2f434a6a"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_P2_Cart.uasset",
+      "sha256": "6ac58e08eea4189706c904b95c68dc3d5b2a7e63efbf4dce60dc95880d4f8d66"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_P2_Pine.uasset",
+      "sha256": "07e42a25fb446e231518e08a1194521217cf10ac8987d10ec2c51e6831b7ecd7"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_P2_PineVolume.uasset",
+      "sha256": "8c9dea41a1f7b754ec342c20cb141a0b0e86882a6bd811b0ad916a96f6154b2d"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_P2_Rock.uasset",
+      "sha256": "5595a676188f967ffe25f176a4d2b4f6cf4ddf42276dbc70d6df682ce720d8db"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Paper.uasset",
+      "sha256": "95c087ae55d1d863466c0265905af53ea725f30d87031ea599411adfcdb4000d"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Path.uasset",
+      "sha256": "3cd477b6542ff636bd568b11b77f8d059e5efcea2d3216238b9bb3dc59a98c19"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Pine.uasset",
+      "sha256": "302314c4c768c14ae06179107f1e7fdc90b13aa00b03b7578b12c8de2d574ee1"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_PixelFire0.uasset",
+      "sha256": "3d07a77b14ff111c7308d141cb6656f41b9d13ee0d9b9797b6a611d47e15c748"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_PixelFire1.uasset",
+      "sha256": "ca8edf085722639908833ed8fe27a8a369a07eceb429bfc98834887889087a7b"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_PixelFire2.uasset",
+      "sha256": "ca5d65f1bda37509104bee621c7ad6741f946a8bc1ef0cd50264df26a3c52865"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_PixelFire3.uasset",
+      "sha256": "6a0f6e10f0be127a1786ad19215a4aa7d2e8d1771f7898d230bfaac9b120b6d1"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_PixelSmoke0.uasset",
+      "sha256": "e83ba36acc0a747cc27331573f488d335be88ab6ca9904b109ada2d6dbee3218"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_PixelSmoke1.uasset",
+      "sha256": "2f11ebca7f7c98bf818c5b3e397b9f557375b39239951792a54052fd4e06b6ef"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_PixelSmoke2.uasset",
+      "sha256": "dbf715a3c04b891738a8fc578aca85412e831f82a372b716e60f22acedd84a24"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_PixelSmoke3.uasset",
+      "sha256": "4133e23c7b474a9f73e848f799a018dca67c7eecc789ca747847ace9ba241d85"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Rock.uasset",
+      "sha256": "d23be05dc28d767ecf0452bfd59ee70e198ce69badb18b89cdd28dc3483cc9e9"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Roof.uasset",
+      "sha256": "1518d383841752b218e017198bc82fc7132865c5f7dda78fc8f0b848a7decff7"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_RoofPatch.uasset",
+      "sha256": "fb830e93768f9db6d6b4a05d40584a735f679953d70515afa3f5d2c662d6786c"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_RowHouse.uasset",
+      "sha256": "fdeebd440b9fd72cd991037397e32e01e25fa74467ca07f807566368f37dde13"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Sky_Day.uasset",
+      "sha256": "f0dd6c396762e76d56e4e9565ea80d9b132903b9db110b200d1880355f2ee7a0"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Sky_Night.uasset",
+      "sha256": "73c3f0da06323bed820e99ba347a4e76ed69365c164cff737324129f3f843e2b"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_SlopeHouse.uasset",
+      "sha256": "4f0da1c5d16fc69b6df0f6afd5e1f446fb0fc787420f40e5be27096e6cd0750a"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Soil.uasset",
+      "sha256": "fc9b6707bc1dfb92abc91b189fc385450be41906a3c6c2b7e104b8c1042cb5b6"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Stone.uasset",
+      "sha256": "56c413855836d6236385af344b19d8a8cc6a8b7b0677dd576b6e7d939cf451f0"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_StoneLight.uasset",
+      "sha256": "e69f123214f6da3f0f7d736be914cb4819d7e8c0865397bef626739bf0331119"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Timber.uasset",
+      "sha256": "97297e75fcb3bd914fc039b6fa6268ba3b26b5635e8b6a6d52a860a0cf3eaf91"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/MI_CH_Wood.uasset",
+      "sha256": "5fd98b82fa1cc2fcc0835f7c208ea3850162d49fca9c17626f704464cf38bcf6"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/M_CH_AtlasWorld.uasset",
+      "sha256": "058309f82b4f8c85bb68996d146b9364cf9276e60ed4bfd9def6ec01b68653b7"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/M_CH_PixelFire.uasset",
+      "sha256": "2504400512ab8bae144583b181dd24a69343dac99c36c2ce5983a674447d6d72"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Materials/M_CH_PixelSmoke.uasset",
+      "sha256": "8a0789b96c9ab502fa72fbb5435fd1c72d9d8769b5857b53c2a99f13abf8a086"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Textures/EnvironmentAtlas_v001.uasset",
+      "sha256": "e3be3d53694e933fffce68a6c6e33bd47a3ed1cbee0d8e934cbdc4e5412bbbf3"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/Materials/tripo_mat_30895201.uasset",
+      "sha256": "ebd2aa24baa4c74bb6e25cda420455ed260dc46ec878dbb0c510e8d3940c2d10"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/StaticMeshes/CH_Cart_Manifold_v004.uasset",
+      "sha256": "64bfdb35ef71039788e40a2cc5cc599bded7cbc9b6098bd06a9e288b14ad30a0"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/Textures/Color.uasset",
+      "sha256": "19c512f26c1d7094e4b2f0961f835c5bef13fac18ed937e9e2c347b0964fa7ad"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/Textures/Normal.uasset",
+      "sha256": "5d53bf7fbad26b81da2c91499f00a8503fa32f3b7ffa3f5b40de25f47ea89571"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Cart/CH_Cart_Manifold_v004/Textures/tripo_image_30895201_2-tripo_image_30895201_1.uasset",
+      "sha256": "cfbea326e9654f74e7baf002064c1c880583eed8d2daa7fd982ad9eddf4b9637"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/ClosedRoof/CH_ClosedRoof_v001/Materials/CH_GormP2_Repaired_v002_RoofMaterial.uasset",
+      "sha256": "7700b414f0fb900dd2c70ebf3a90f875709e0c3ee391bf04332c0145d9038816"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/ClosedRoof/CH_ClosedRoof_v001/StaticMeshes/CH_ClosedRoof_v001.uasset",
+      "sha256": "e2768eab538cd17ae2bad4241e004dcdbc3c239badf237a1b8d4c653c7b1b9a8"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/ClosedRoof/CH_ClosedRoof_v001/Textures/CH_GormRoof_Color_v002.uasset",
+      "sha256": "614c7a3dbc9c39802d68e66fc9ffbdf1556b5bb670b781bb1061600b4f868f78"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/Materials/tripo_mat_e7b0faa4.uasset",
+      "sha256": "1f504f00db2eb92af844cf85148953de4433e05335e8a16e1fc2d96a7bccb676"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/StaticMeshes/CH_Pine_Closed_v002.uasset",
+      "sha256": "a4f85676c2699ba3730a154daf874c11396f0484301ca27c65b8cd8ed1667505"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/Textures/Color.uasset",
+      "sha256": "1c3d975472dfd6e54ba259862911ef489c62b04816d4a119381a0b589f22aefd"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/Textures/Normal.uasset",
+      "sha256": "2e070aa9558920be44216566ba53887d1189ac364f04a9a53cd69db311fe463f"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Pine/CH_Pine_Closed_v002/Textures/tripo_image_e7b0faa4_2-tripo_image_e7b0faa4_1.uasset",
+      "sha256": "700da9f56c6b6a39d03752bfe778b4fb9d8a5803087ab80b4d774772c5c96133"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/Materials/tripo_mat_798ff027.uasset",
+      "sha256": "64204689ef000796da96793efc5ad301f3c52a324c43db6d3c27ec76c56519fb"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/StaticMeshes/CH_PineVolume_Closed_v005.uasset",
+      "sha256": "2fbf6257aa04034b7c59b1b41775352f0e6dad9f0573345771132ff728d2d5fc"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/Textures/Color.uasset",
+      "sha256": "8711c4b1ce97a4ec9d5f7c2066f91d61f10591dbff9dd182364a3ff14d172963"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/Textures/Normal.uasset",
+      "sha256": "f9f684da0315b03ceb3a64b5807f563451fbf85f9e14a90ff6800d9b41024668"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/PineVolume/CH_PineVolume_Closed_v005/Textures/tripo_image_798ff027_2-tripo_image_798ff027_1.uasset",
+      "sha256": "56df42b173266909665e1e4a8a45d1d0c623f9645004ffcd42b7f085981752b7"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Materials/tripo_mat_b18f59b5.uasset",
+      "sha256": "3c29d85aba0c3aa407cae459259461fe69407e053fc964cface10fa3061f5a2a"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.uasset",
+      "sha256": "360436b818eb867b986eeaf8c7ad5edaf75b0b9a0209112f5536b5c77d6ba89a"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Textures/Color.uasset",
+      "sha256": "cd4095553f5c7b6de9146ed1d10d7db89d4e23da33bc05d376a497222fbc25b9"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Textures/Normal.uasset",
+      "sha256": "581ca0873cfdbdb97d442bf9c12559a37ded50ab2c550512bae139aacea19a4d"
+    },
+    {
+      "path": "Content/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/Textures/tripo_image_b18f59b5_2-tripo_image_b18f59b5_1.uasset",
+      "sha256": "e45b0a7a98d6af0c80682b3635fa5afc9f69349f5e80c6c20e785eafba1d3c18"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Anvil.uasset",
+      "sha256": "d516495beaf7fc20a4c23b657728ec4b9f99d557a3c20fd8561915c2f850f5f7"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_AshNaia.uasset",
+      "sha256": "2bc15ff21f73582f320a55081406c63f3896bcd50c39883b11a9a930cb987faf"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Barrel.uasset",
+      "sha256": "bd3d915916f7f10da041d0e91fdf717cf069fb3d653e220436f03d966bcf756a"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Barricade.uasset",
+      "sha256": "430e16616bca33aa6cd0eb2ccb707e6f934606a74df90316e434fb30781ea32c"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Bed.uasset",
+      "sha256": "db6c34c4f8b6997b111436b876cd79948653fd337f6807aba803ebb4b23e328c"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Bell.uasset",
+      "sha256": "3678bf1631b5b98d5ee49f7cc0bedaa7fac9d528cc486aaad90bee100bd99fd0"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Crate.uasset",
+      "sha256": "d880ae8541b26da9b7e1f340106f8990da2a97e7416e4bf3728d6c75b18cb1ab"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Desk.uasset",
+      "sha256": "efc8dbcfbfc7f0ac395912c5877c74562aab8a261f77c9ec9d50ffa4db97bac8"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Forge.uasset",
+      "sha256": "6acc32eb25c7442be69c71db89c547f6913d8d559cd1acc1d6acf9f8a9579a65"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Grave.uasset",
+      "sha256": "4376003e0e3ed8873fafef181b34305493a73c6f3fc42097db979b46813aaec2"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Hearth.uasset",
+      "sha256": "6d8be65352bd25343091658658c465e0986fa6520802e8151000f8580d800fa0"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Hollowcore.uasset",
+      "sha256": "9822c15ec887997c9e19fced80e35acbbf815079e5ac665d1ca55ae348601360"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Laundry.uasset",
+      "sha256": "e41d6be12e80daa2895f51aacdd806b03c5672291bfe09b735ada07f9f4a263e"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Noticeboard.uasset",
+      "sha256": "3f8f6354eba40d7484409b1272fa55824105d86816de181e8068f58f1986b990"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Portal.uasset",
+      "sha256": "79aff3e5838b4ff8e1f660cb140a71199b6ae13bf745f16197d85ec7820d1190"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Pulley.uasset",
+      "sha256": "47cfdfb7fb93ccd2274536d440c6ed4b5da5c3e6901ff3a6c8fd47d8478d63ef"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Ridge.uasset",
+      "sha256": "5497b5e507626db2f5fdb81e59a6544082030c9a1098f4163e235e68a16263ef"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_RingLinks.uasset",
+      "sha256": "2a2d8dc3f41d3bf34d3c88a901ccfade367699765eeef0f5d12eed4fd854dbd5"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Shelf.uasset",
+      "sha256": "cd13cab3f3395f6a49c3cec4ab4aedee91924cbb48f7a2b76f886c99d397eeff"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_ShelfOpen.uasset",
+      "sha256": "3932ee51ebfc0d550f456727cff109542efff4d16dd010212ab907cf3d0edb72"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_StoneNaia.uasset",
+      "sha256": "93e302ab2b53e95b4c0997cca2d1bb3d285095100a6dcedaec0a6e7d02b2693f"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Table.uasset",
+      "sha256": "09bda4f66168f037851044b797c2090381753ed4882c5a3b4aa206b14082316c"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_ToolRack.uasset",
+      "sha256": "849cbe315207c12a1c935f1100556be009fc2d16234978f625b03e5a44e64f1f"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Materials/MI_CH_Wall.uasset",
+      "sha256": "0ce00261e25a4dcc756c0f65e7fca82a0fa8a8f53be3fcc4d64fdd3574e4d7f7"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Materials/tripo_mat_f36ec94d.uasset",
+      "sha256": "62710af0723d0c855004b6d3ee288c4378bae36327c075b4d5f2c3ef47879ce1"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/StaticMeshes/CH_Polish_Anvil_Caps005.uasset",
+      "sha256": "69b76a4ea9e5ff2ab7795388fd2c07a749d296fa80fc17e14ee401fbeccefcad"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Textures/Color.uasset",
+      "sha256": "e7668be0c49077f2e04931b38d9d9640648e4fd8c45a9a7b3c7978978e39e293"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Textures/Normal.uasset",
+      "sha256": "e54591962f9ac24f3017c40582c40837d4d3493d044a22a688609f9c7719569f"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Anvil/CH_Polish_Anvil_Caps005/Textures/tripo_image_f36ec94d_2-tripo_image_f36ec94d_1.uasset",
+      "sha256": "fdfddd08e4183f5f4927e4bb8c53a01203af63d56aa29ced89edeeeef5b5865d"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/AshNaia/CH_Polish_AshNaia_Game_v003/Materials/tripo_mat_d2cc7162.uasset",
+      "sha256": "2e6657d9bbae0a33385012a3457a4fbbebe292831f5d48d2764cb9924a9bb34a"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/AshNaia/CH_Polish_AshNaia_Game_v003/StaticMeshes/CH_Polish_AshNaia_Game_v003.uasset",
+      "sha256": "30211761f7b80124165ff255cdd5a82ba30263ffbf0f1fe46f92a6a423047f6e"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/AshNaia/CH_Polish_AshNaia_Game_v003/Textures/Color.uasset",
+      "sha256": "55540b7fbe77330f0d27780e7748723c754f52cc8b77cf9f08a9ac32af0a4be8"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/AshNaia/CH_Polish_AshNaia_Game_v003/Textures/Normal.uasset",
+      "sha256": "0975159401ecfb0b5e0d2e6e53e18a6c7a5c70b4bf3cc5deb31ae10f227f437c"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/AshNaia/CH_Polish_AshNaia_Game_v003/Textures/tripo_image_d2cc7162_2-tripo_image_d2cc7162_1.uasset",
+      "sha256": "d2db50a7ff5ee0f995f3c5906caab15346e9b6ecf1a60c96efca24fcfd5c5549"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Materials/tripo_mat_2439e2fa.uasset",
+      "sha256": "28320eaf63a53ad8a15b99e280eabf9bd72fab3dd9b6d837f0f9ebf9c4b59031"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/StaticMeshes/CH_Polish_Barrel_Closed004.uasset",
+      "sha256": "9ce7644700e9af4f4fd6707d78fd137971053da0e18a78268d08a24b5d73fa0a"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Textures/Color.uasset",
+      "sha256": "0ceea3555a0a087d4d0f83082a5cda1b204c7187b76913d012070c55897e70d2"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Textures/Normal.uasset",
+      "sha256": "abd52ba3f914c9f6e6d0138dae51178a023198e48391a56b4ad9e602d7bd4f50"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/Textures/tripo_image_2439e2fa_2-tripo_image_2439e2fa_1.uasset",
+      "sha256": "c8bf57c8f868b8c840e25be1bcebfcd9daeb915f0c7e73e21aa32a21eb975527"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Barricade/CH_Polish_Barricade_Caps005/Materials/tripo_mat_d5254c03.uasset",
+      "sha256": "d8463a81a147db0f7cb80803a455e1f5e4d2edf212e8d7c69e10b419961c9e9b"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Barricade/CH_Polish_Barricade_Caps005/StaticMeshes/CH_Polish_Barricade_Caps005.uasset",
+      "sha256": "992150048ae0776d5e60e3a1f97075832b3cf10c071e27a841d3bbaac8e2d881"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Barricade/CH_Polish_Barricade_Caps005/Textures/Color.uasset",
+      "sha256": "695560da5d097b412b94171c0f9709c26d49d752924ff779c8dd29f0ea0c0490"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Barricade/CH_Polish_Barricade_Caps005/Textures/Normal.uasset",
+      "sha256": "8b3abeb999d70ecb39152273d518bf50c234f00c823588d5166dcc831d7febad"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Barricade/CH_Polish_Barricade_Caps005/Textures/tripo_image_d5254c03_2-tripo_image_d5254c03_1.uasset",
+      "sha256": "0beee9acc50a95be6867759c0dd089ef06dbc40a8df7a30029037d8736d7fc45"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Bed/CH_Polish_Bed_Closed004/Materials/tripo_mat_cf6facc2.uasset",
+      "sha256": "c246ac8639e7507dcbf775b79371e5ffd45a85d9b848ad044881c4254d38e920"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Bed/CH_Polish_Bed_Closed004/StaticMeshes/CH_Polish_Bed_Closed004.uasset",
+      "sha256": "0736d36eaf14bc7f33b6e12d98e06d32200bf58ee9a1eec29f2dd5b1bd92353a"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Bed/CH_Polish_Bed_Closed004/Textures/Color.uasset",
+      "sha256": "bb38d6e6e376b145eb96ea4d9e56c3875ece6fc51d048627950a0a3b744d6500"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Bed/CH_Polish_Bed_Closed004/Textures/Normal.uasset",
+      "sha256": "ea8a22993732e5d72ecc367ffd692b70598030171997b5b891dec95fea5bf811"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Bed/CH_Polish_Bed_Closed004/Textures/tripo_image_cf6facc2_2-tripo_image_cf6facc2_1.uasset",
+      "sha256": "9ac2acfc040c6a09cb5cbe6f1b279c651de3ffd1d8f25d80dd433088432d4c9c"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/Materials/tripo_mat_898ef2ed.uasset",
+      "sha256": "a0e2d0c8b5bafea58921170c3618c8e57f506db0f5652633876b080f6c4ee144"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/StaticMeshes/CH_Polish_Bell_Closed004.uasset",
+      "sha256": "ea678ccd431144a7a78f18a908d4c2315ab3f0ab7a413c395ec5e77ac852dfb2"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/Textures/Color.uasset",
+      "sha256": "4120b93bac07f2d44d368e9c55016666fd68556d09739587794a00ffa699bdc6"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/Textures/Normal.uasset",
+      "sha256": "ccf64f8518bcb90f0708456aa504af26e02f19e0dd6a7977ce830fdca7f24d3b"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Bell/CH_Polish_Bell_Closed004/Textures/tripo_image_898ef2ed_2-tripo_image_898ef2ed_1.uasset",
+      "sha256": "c78cadd7c45c3a207e7e2756ade7f022efba23d681d2ea0b75deaa9d167e64e6"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Materials/tripo_mat_eaa7130b.uasset",
+      "sha256": "6814d5f7a60a43e158321659391965c0279494a5742f1ffea221176b5e67a9a8"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.uasset",
+      "sha256": "120cfda9e5669f60f779ffd12d90fbb8b59fdeb21e58ea10c82b5bae24d3dec4"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Textures/Color.uasset",
+      "sha256": "82074f7720da7b4c3b73239db2094e5cfa39227429b7f10f7a41368e36940c54"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Textures/Normal.uasset",
+      "sha256": "ae584e712175d1880f972fb913b65f755ec4ed95ce80d99df6e9b8c2f1ca21fb"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/Textures/tripo_image_eaa7130b_2-tripo_image_eaa7130b_1.uasset",
+      "sha256": "436d129a1a15c1e0a9d31a886a2ae85ec32616c48b23d079d9c7b8ff8d81a9c6"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Desk/CH_Polish_Desk_Caps004/Materials/tripo_mat_b57c255e.uasset",
+      "sha256": "86a49bb6aab1835dc23c63e789a8e0d086e00ef81fb0e9289dfe7049f176d5ba"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Desk/CH_Polish_Desk_Caps004/StaticMeshes/CH_Polish_Desk_Caps004.uasset",
+      "sha256": "aeff2f9e1766c5314251e44368e041ca033103a51f00b54b3ab5257bca17de92"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Desk/CH_Polish_Desk_Caps004/Textures/Color.uasset",
+      "sha256": "4e70060a0399ff74444dbcfa8fd72e85d97dbf0db4b8ad9b2965243793aa97f1"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Desk/CH_Polish_Desk_Caps004/Textures/Normal.uasset",
+      "sha256": "8e0f8b7ba1c08cb1b686478d95a0263385c0fd8ded90a638b0ad17ba98e41bdd"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Desk/CH_Polish_Desk_Caps004/Textures/tripo_image_b57c255e_2-tripo_image_b57c255e_1.uasset",
+      "sha256": "910800c2f9d908a5837ab527f4c0fd97f311afa8353de1de69ea1711956e1e0b"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Forge/CH_Polish_Forge_Caps008/Materials/tripo_mat_c1bd81e3.uasset",
+      "sha256": "8af09d6052daad12104df32ac09b44328e69c005eeab0ce5a17f6615397a2dff"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Forge/CH_Polish_Forge_Caps008/StaticMeshes/CH_Polish_Forge_Caps008.uasset",
+      "sha256": "8d12e85c5b954f549c56b09ff60a24dce62dd7b2000cc460c6eb6f7647bd0027"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Forge/CH_Polish_Forge_Caps008/Textures/Color.uasset",
+      "sha256": "a58c6a63de6787e85d160171de6f46facf5a9c14525c30be9f9a194d738ccb66"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Forge/CH_Polish_Forge_Caps008/Textures/Normal.uasset",
+      "sha256": "6d93e5a92fc10a7e00ce277a2d5d74439e63e64aacccad1120cf44d431a94043"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Forge/CH_Polish_Forge_Caps008/Textures/tripo_image_c1bd81e3_2-tripo_image_c1bd81e3_1.uasset",
+      "sha256": "c8d7c78da7133dd8c93216a0274f858b5a26dbf949f4132415c9aabc0e56efab"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Grave/CH_Polish_Grave_Closed004/Materials/tripo_mat_dd13efbf.uasset",
+      "sha256": "17ba14a8d05c41007665a37a0995c170a41553668ba1303b2402e8b5d9ce4139"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Grave/CH_Polish_Grave_Closed004/StaticMeshes/CH_Polish_Grave_Closed004.uasset",
+      "sha256": "8b1bcb0e48cb02ac7ee13234c168019fee5d074ee2273e435440fc30c7970085"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Grave/CH_Polish_Grave_Closed004/Textures/Color.uasset",
+      "sha256": "f4449a0dfa2e39d5529afb7b738b21a857b64de863d4b6069967a071cd6faa09"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Grave/CH_Polish_Grave_Closed004/Textures/Normal.uasset",
+      "sha256": "b50566cc90929218644de3ca3725f2b93e49edfb6df347878da1bb91ae1abd5c"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Grave/CH_Polish_Grave_Closed004/Textures/tripo_image_dd13efbf_2-tripo_image_dd13efbf_1.uasset",
+      "sha256": "d8afc0641728c58fa6ba0cd63961826b4bbc5f4caf4db738692aab031eb43e1b"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Hearth/CH_Polish_Hearth_Closed005/Materials/tripo_mat_acf82c22.uasset",
+      "sha256": "5a1db7f96f8060de1604cc07ac26bc38992115ffe0a776b19143b97664278a39"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Hearth/CH_Polish_Hearth_Closed005/StaticMeshes/CH_Polish_Hearth_Closed005.uasset",
+      "sha256": "d89f6b2b36d1f8dc332e8efef03c4e451e515f49783cc2d3e6bf1b968f6a6830"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Hearth/CH_Polish_Hearth_Closed005/Textures/Color.uasset",
+      "sha256": "69b58d17af4708c2c4d5cee404323b9e3526fcc1f54135d075fe0d782e1435b3"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Hearth/CH_Polish_Hearth_Closed005/Textures/Normal.uasset",
+      "sha256": "68a40f791670580d957a757331915c73a27fd062bb2a67e458b5bc4a668825b3"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Hearth/CH_Polish_Hearth_Closed005/Textures/tripo_image_acf82c22_2-tripo_image_acf82c22_1.uasset",
+      "sha256": "f298e8ca0210fef9630a987eb23b4a5ea4c6d35b2fac1496169e641766d77a75"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Hollowcore/CH_Polish_Hollowcore_Caps006/Materials/tripo_mat_130c5fb9.uasset",
+      "sha256": "1443c66e393577a19d80f181c5c505798d0b39aeaa25268895fe4b615b1e9230"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Hollowcore/CH_Polish_Hollowcore_Caps006/StaticMeshes/CH_Polish_Hollowcore_Caps006.uasset",
+      "sha256": "9ca2629fdbba3ba28b0338045d32a1de437bcf83753601ab31c8c102a32ae2c8"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Hollowcore/CH_Polish_Hollowcore_Caps006/Textures/Color.uasset",
+      "sha256": "6c5b3c89760ccf6fec87081dec507b302fbeae94bc7fb2fbf52550f37620693b"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Hollowcore/CH_Polish_Hollowcore_Caps006/Textures/Normal.uasset",
+      "sha256": "8b1dca45c01b99530eac88de5602c5828ce77a0e1527eafdf62ffce3e99b6fac"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Hollowcore/CH_Polish_Hollowcore_Caps006/Textures/tripo_image_130c5fb9_2-tripo_image_130c5fb9_1.uasset",
+      "sha256": "a4dbc711f70e406acd4be3611138bcff52479568b2d8d586961a04f0d1b42177"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/Materials/tripo_mat_4b6b3464.uasset",
+      "sha256": "b83dbd82ca0700cc351b51cafacc6ca6ce737169226ed2131752ce71633ce1d7"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/StaticMeshes/CH_Polish_Laundry_Caps004.uasset",
+      "sha256": "f04060cad8a32ecab9e968bf9a9183e97988dac52aa3d6d1a46be2635276b72f"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/Textures/Color.uasset",
+      "sha256": "6ecdbbd429958240f4bb3ed840725d81716c7122401e74290c35371ab211d291"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/Textures/Normal.uasset",
+      "sha256": "859335bcbd14f6c568321204a7c3c643ec59ae63dae1fd1a9fa1ff4fd2fa63c8"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Laundry/CH_Polish_Laundry_Caps004/Textures/tripo_image_4b6b3464_2-tripo_image_4b6b3464_1.uasset",
+      "sha256": "3fb1525db5b3d2f1575264d94438f548249bd9ae83fde52e557d1bdd625a3b02"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/Materials/tripo_mat_e1abc989.uasset",
+      "sha256": "520081591153fe7a025997196f281e4cf3b7df33d36e843aa3b66b9072414387"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/StaticMeshes/CH_Polish_Noticeboard_Caps004.uasset",
+      "sha256": "7e834242b14437792b37c017bbfd1fbc34ec6a32ce7c5339b68eebaa010fcc7f"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/Textures/Color.uasset",
+      "sha256": "4cf1196433e34e175daf954f9db4faf9fb04c699c7aa60eec71638db099f385b"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/Textures/Normal.uasset",
+      "sha256": "81e7d6b61702704ccea6fe104861386c82a377eaf60ca60c894d6104f24a708d"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Noticeboard/CH_Polish_Noticeboard_Caps004/Textures/tripo_image_e1abc989_2-tripo_image_e1abc989_1.uasset",
+      "sha256": "6d176d17bd437a9c8224dceeb4407f2e48bb18d27ad57a19baa82a713ea28b1a"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Materials/tripo_mat_dbac5f18.uasset",
+      "sha256": "7c35d58cd8d25199f46318c1251218382e148699d32d4d001bd3ed817ce6e0d7"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/StaticMeshes/CH_Polish_Portal_Caps004.uasset",
+      "sha256": "d0b256abd2bfaeb9f1c776a7e0b264242240384f9169070c8ce2ae7830e93108"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Textures/Color.uasset",
+      "sha256": "36339033bf1a4e05bac5c1bf4a122bbace8eb9a4d86c6c78a4f366b408e3933e"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Textures/Normal.uasset",
+      "sha256": "04304697631e63168405a82200e31400f896e15fb49a3e052fe7e963dc221c11"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Portal/CH_Polish_Portal_Caps004/Textures/tripo_image_dbac5f18_2-tripo_image_dbac5f18_1.uasset",
+      "sha256": "554b74e8eb0ed1f7a52cb88e5efdda81de179d6e3b2d8d88ff7d4fcfcee2c26e"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Pulley/CH_Polish_Pulley_Caps006/Materials/tripo_mat_c78a117a.uasset",
+      "sha256": "97ed21c1c8f25e2118b2cf1aff2232f4beab61e3c8a72cbfc260cce890a09f42"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Pulley/CH_Polish_Pulley_Caps006/StaticMeshes/CH_Polish_Pulley_Caps006.uasset",
+      "sha256": "bbd5cd17537f6550c570f4a70026eda90474f03f8db82da4489bb092747f7264"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Pulley/CH_Polish_Pulley_Caps006/Textures/Color.uasset",
+      "sha256": "0d0125072babc9f542da7574e383f6d660a0d64480c041cfeecd900ab3a49c16"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Pulley/CH_Polish_Pulley_Caps006/Textures/Normal.uasset",
+      "sha256": "999e3f12eb660d9f5d6d3641441e5a17c971c6f6b5e9853edb3a4f04b3bcb41a"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Pulley/CH_Polish_Pulley_Caps006/Textures/tripo_image_c78a117a_2-tripo_image_c78a117a_1.uasset",
+      "sha256": "4a6570af4faa9ff4d3e18dde1c9113a8decc8d1bdfd773cf2027238a39757fff"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/Materials/tripo_mat_b1ec04a3.uasset",
+      "sha256": "aa83cdddf32d2dd7ca16837c9b3bc98b99e4e43adac36be4299ea1c78a593554"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/StaticMeshes/CH_Polish_Ridge_BaseCaps008.uasset",
+      "sha256": "56f220fc6ea1b84f307c4b288c90f40572cc0b5f3d5127ad25d8568f11a91282"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/Textures/Color.uasset",
+      "sha256": "6f455cedc44eda2da1ad6726d6263e89fb67eb19cd05d5a3a10584e8932a88c1"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/Textures/Normal.uasset",
+      "sha256": "aab45b960256aa5f97bf7055f505a0dc77ae8b2224b39f5e0ce16872ec93f078"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/Textures/tripo_image_b1ec04a3_2-tripo_image_b1ec04a3_1.uasset",
+      "sha256": "425306417cb8c3aa0506963bcd49894672d3c7791bcd9994775e481fe1240304"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/RingLinks/CH_Polish_RingLinks_Caps005/Materials/tripo_mat_b1eede47.uasset",
+      "sha256": "bc5c2542dea2addcbc3bff19cbf627efd11e4c0f17657b0350f8ceb4d29210d5"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/RingLinks/CH_Polish_RingLinks_Caps005/StaticMeshes/CH_Polish_RingLinks_Caps005.uasset",
+      "sha256": "62f72f36f9d257fccea248ffed6884a5d34ffae0dc622342a3ca4cfff2ca2df5"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/RingLinks/CH_Polish_RingLinks_Caps005/Textures/Color.uasset",
+      "sha256": "bbd50df3ba06bf02e1416826b326c9f4bd511de5ac2ba7552a9c0e8fc9af02c3"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/RingLinks/CH_Polish_RingLinks_Caps005/Textures/Normal.uasset",
+      "sha256": "f725b6a9ab01419c79f976a383a8ed39cab2e1160a1315356c758ce8288ba7b8"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/RingLinks/CH_Polish_RingLinks_Caps005/Textures/tripo_image_b1eede47_2-tripo_image_b1eede47_1.uasset",
+      "sha256": "bb36f29c9e17ee3f216ffc3ef495ac255effd4b2552baa9bf79b48b83a3a52d4"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Shelf/CH_Polish_Shelf_Caps005/Materials/tripo_mat_4cb0fb0c.uasset",
+      "sha256": "a9ce29262027c6c118120e03c15056c476eac718a54e198055fed6c2e2d8e082"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Shelf/CH_Polish_Shelf_Caps005/StaticMeshes/CH_Polish_Shelf_Caps005.uasset",
+      "sha256": "f6cca0e6bc1da90c5dd8bcb81bb4010211d0d8c4d37051de726389a02a962b51"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Shelf/CH_Polish_Shelf_Caps005/Textures/Color.uasset",
+      "sha256": "8aa59f79dfaea7765ed1d4ae07e0fe59de25d393bfc8f90c36297e2ea71189f1"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Shelf/CH_Polish_Shelf_Caps005/Textures/Normal.uasset",
+      "sha256": "fa534c0b642538bb34e3adbaea103d592eb457b9ee3a6cbf6f285d5133719f04"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Shelf/CH_Polish_Shelf_Caps005/Textures/tripo_image_4cb0fb0c_2-tripo_image_4cb0fb0c_1.uasset",
+      "sha256": "a82bea70167db77833200f886b82513061b86509f5994a7a4912206e069276a5"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/ShelfOpen/CH_Polish_Shelf_Open006/Materials/tripo_mat_4cb0fb0c.uasset",
+      "sha256": "a7792b24e4dd5689531cfa88e8e1f69b569cd90d34fed4588918a94533324903"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/ShelfOpen/CH_Polish_Shelf_Open006/StaticMeshes/CH_Polish_Shelf_Open006.uasset",
+      "sha256": "20e770dbdf303980d8cd7d2870811bb054ce1cf803c970de0f35b390c81ad3d7"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/ShelfOpen/CH_Polish_Shelf_Open006/Textures/Color.uasset",
+      "sha256": "770a1301639ce3aed2c92daa8f741c92ac326797493b7c0ea50cdf79a742aad2"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/ShelfOpen/CH_Polish_Shelf_Open006/Textures/Normal.uasset",
+      "sha256": "f08da574924c150f614c0894331a3df685cb6a044922561095ad7e3503486d47"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/ShelfOpen/CH_Polish_Shelf_Open006/Textures/tripo_image_4cb0fb0c_2-tripo_image_4cb0fb0c_1.uasset",
+      "sha256": "eee6aca81b4124f09a0edfb4dc7ae8c3526f96bbfee31181d295e439dbd1962a"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/StoneNaia/CH_Polish_StoneNaia_Closed005/Materials/tripo_mat_f281a5b2.uasset",
+      "sha256": "4f0846b9c5a80ae119c5c4a285e70207c0a9bb555273841988085dc9d178dd50"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/StoneNaia/CH_Polish_StoneNaia_Closed005/StaticMeshes/CH_Polish_StoneNaia_Closed005.uasset",
+      "sha256": "f86ac626927d68a0195bdb11f21021a76db2cc3b15cdc41a6d1c51cc808a3399"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/StoneNaia/CH_Polish_StoneNaia_Closed005/Textures/Color.uasset",
+      "sha256": "a39dd01b0c61bf57e64a3a6390c03a0d5f8c6e32afbac33f59cffa405cbd8620"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/StoneNaia/CH_Polish_StoneNaia_Closed005/Textures/Normal.uasset",
+      "sha256": "2e17ece9125ae0c6b567b4bbfacc791001b5e13bbd15160426932ebfcc1bde7d"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/StoneNaia/CH_Polish_StoneNaia_Closed005/Textures/tripo_image_f281a5b2_2-tripo_image_f281a5b2_1.uasset",
+      "sha256": "11e0216f393b42c193d503bba5ba731570dd1cd4af2c8968b18128ff003b0153"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/Materials/tripo_mat_399e5018.uasset",
+      "sha256": "b6de7cfa58db153a88d643977d6e7d89fab0c5a8eea3e53cfb24e36086be9892"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/StaticMeshes/CH_Polish_Table_Caps004.uasset",
+      "sha256": "e5233b6b23b7e1649221dcbaf1021e039f560bb9bda0031962291e69dd8b4f56"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/Textures/Color.uasset",
+      "sha256": "0f3fbbf425fefbbcb3169eb24d0365e43e0e92fdbce25d0f39340564e038f03a"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/Textures/Normal.uasset",
+      "sha256": "cc8551a440deeaa7525db4bf718f775e4a64990799d80654b4cac3d48027c364"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/Textures/tripo_image_399e5018_2-tripo_image_399e5018_1.uasset",
+      "sha256": "3e289a6c53dc8de25e82d39a53656c5bbbeb326b5d01850feb7974cfe906d5e9"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/Materials/tripo_mat_8d15cca3.uasset",
+      "sha256": "867ba1acc88c1d097b6229a111be8c047b47863d54eae6c8b9e35080953e36e8"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/StaticMeshes/CH_Polish_ToolRack_Caps004.uasset",
+      "sha256": "a072c9cc260cabc7d3ba62fef5e8184da32d8ccf28d0722ddc3554d1199a74c7"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/Textures/Color.uasset",
+      "sha256": "31b85ce7bc2533e1f7f91f0f50d89abf72bbd8e0327c0e2cac1d160709fc7e90"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/Textures/Normal.uasset",
+      "sha256": "edbf8f67401d6d68b881e69c901a33f40f70da9571391e53a9333c34f98d2e09"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/Textures/tripo_image_8d15cca3_2-tripo_image_8d15cca3_1.uasset",
+      "sha256": "68f1733bb4e550e611208198db0adc401732e71513a811d87a55ca9e6e1bd7ae"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/Materials/tripo_mat_56d1db8c.uasset",
+      "sha256": "597786ed3f4c2a4ccde15b610b9460ecdb552e3d1c0805622d699c871944c22f"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.uasset",
+      "sha256": "4025d55ef31a2e0ff1b1bb9eec949d6ad1aa8139b21b8262e69d3adb56b79593"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/Textures/Color.uasset",
+      "sha256": "22ac12b4b92a31b6f8bfe5dcba10d1ec18caa7645765a9b6d8f5bfd336d710a0"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/Textures/Normal.uasset",
+      "sha256": "7554fa7bc2cbb56bc82630947c968aede897b9e733cf6336a4db9972a8f15d8a"
+    },
+    {
+      "path": "Content/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/Textures/tripo_image_56d1db8c_2-tripo_image_56d1db8c_1.uasset",
+      "sha256": "daab62781597bf560c82c5ae27c912bf0bb78ff13a8a89bc32d230efff963673"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_Repair_v006/MI_CH_RepairedRoof_Pixel.uasset",
+      "sha256": "61386d90be564fa08f6e67ac368a1c6e91dac45a46b36ad1536fa169debef328"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_v001/MI_CH_GormP2_Pixel.uasset",
+      "sha256": "23a855cb2de914b9df2f104c7723f1996950a1543151eb3daaf49de2cee67947"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_v001/M_CH_P2_Pixel.uasset",
+      "sha256": "d854055ed685062e20542cc7a727959bb77905bbf9def14a9b770ad243742c57"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/Materials/CH_GormP2_Repaired_v002_RoofMaterial.uasset",
+      "sha256": "a3cb10ab695e4b213c708cd45c6e51ada901fa57e04be36e5d99fce4a427824e"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/Materials/tripo_mat_f79424fa.uasset",
+      "sha256": "172d33150f910386a1ebf3c3f1d89acbd537bdc999f289ad0c23bdad290964b8"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/StaticMeshes/CH_GormP2_Clean_v006.uasset",
+      "sha256": "7ecfd333e21e0bc8a83fd4e4e16de60d1a127f671a0d9a6545649d48040c4bc8"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/Textures/CH_GormRoof_Color_v002.uasset",
+      "sha256": "00f08ccbf9031f71974b5eaf9c9fb818c27f7ef84e7099d182966442d993adcd"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/Textures/Color.uasset",
+      "sha256": "f851ac34e8fc8fa9ced7f0aaaeede7377b2d73f4cca167bfa417105f9003c0ae"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/Textures/Normal.uasset",
+      "sha256": "1157ad30b6ded19f8c2408e55cd00ad5d0fcb5c3ed0013c961ea5992d45b6361"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/Textures/tripo_image_f79424fa_2-tripo_image_f79424fa_1.uasset",
+      "sha256": "35ad41e167dccb9f7e69e04847d0249ef74f96e4c4d4203fa0c6d48c0d278390"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/Materials/tripo_mat_f79424fa.uasset",
+      "sha256": "6d63e12564c8cf5ada034a7507a6e150e9e66b56b6edbdba69a3e3a8a024a80e"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/StaticMeshes/CH_GormP2_Game_v001.uasset",
+      "sha256": "5de41bfec779cf0741ffccb16c91f63b39013451fae47650dd627c8e18d86d52"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/Textures/Color.uasset",
+      "sha256": "4021de605e30ada0081d4442e8dadb93fd3bc9954f8255f19a7be7481cae5183"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/Textures/Normal.uasset",
+      "sha256": "d2bdd8fb1cd05df5adede867cd1e96a006488c367c41d42c3bf1eadc61559af8"
+    },
+    {
+      "path": "Content/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/Textures/tripo_image_f79424fa_2-tripo_image_f79424fa_1.uasset",
+      "sha256": "4a7ddc39aa7ac5296daa0811f44d1dad82ab870bba945b62d507c113c55979f9"
+    },
+    {
+      "path": "Content/Village/Materials/MF_CameraOcclusionFade.uasset",
+      "sha256": "8a6f4acc4facecd9cfec6fec12f49be2c7e4e13b08869650beaa5c57a993b676"
+    },
+    {
+      "path": "Content/Village/Materials/MI_CliffRock.uasset",
+      "sha256": "0997e07df2496840f37ea727519bd13c4c85e248d73cd8bf95017d5cca7b4e57"
+    },
+    {
+      "path": "Content/Village/Materials/MI_HD2D_BlobShadow.uasset",
+      "sha256": "d7d0b4c11bc2691feab57503ab221051cf5afa284bd02fbab4e1e3f8b3ebb97a"
+    },
+    {
+      "path": "Content/Village/Materials/MI_HD2D_Sky.uasset",
+      "sha256": "74ec9bf6d0c602c6d5be23fae8b0662b501417a1092f0c3c66395888ea5dce78"
+    },
+    {
+      "path": "Content/Village/Materials/MI_HD2D_Water.uasset",
+      "sha256": "7583a7ffa6096f047754c7f972ae0f560abcbe865c0c4dcfb26591aa94aff2a7"
+    },
+    {
+      "path": "Content/Village/Materials/MI_PixelSprite_Lit.uasset",
+      "sha256": "201dd29badd3b67eb240c9cea128e60a013ccbb5f28b346951c9614bff538473"
+    },
+    {
+      "path": "Content/Village/Materials/MI_VillageLandscape.uasset",
+      "sha256": "85ba458ebbe99cc6c619cbabdbc5633e0c7c326ff151ecd21df834c4b03d8403"
+    },
+    {
+      "path": "Content/Village/Materials/MI_VillagePixelLandscape.uasset",
+      "sha256": "2869d361ec08f52da01d5aae815e1f200f3628279b2d42c0c5516d52c10ed72d"
+    },
+    {
+      "path": "Content/Village/Materials/MI_VillagePixelLandscape2.uasset",
+      "sha256": "5f4c065a91968fb1635fea622f7df1dbf55159663767a851b6ab6471b592a496"
+    },
+    {
+      "path": "Content/Village/Materials/M_CliffRock.uasset",
+      "sha256": "90b105f06ed773afcff46f89852ec6bc104cf9b6331079aed71fab39d98251d7"
+    },
+    {
+      "path": "Content/Village/Materials/M_HD2D_BlobShadow.uasset",
+      "sha256": "2a7305381d37e42062aa85a2b05253a9166e3fef1d6e042346e6d653cd018ea4"
+    },
+    {
+      "path": "Content/Village/Materials/M_HD2D_Sky.uasset",
+      "sha256": "610ce2a2028b7bf192581c85bc239bac407900e3a4ecbfd42bc38f2aaca9e86a"
+    },
+    {
+      "path": "Content/Village/Materials/M_HD2D_Water.uasset",
+      "sha256": "0fe737bf95d90a2332b0efb95852ef8bbe69e2e4ec6fe3609c5ed296d046af27"
+    },
+    {
+      "path": "Content/Village/Materials/M_PixelProp.uasset",
+      "sha256": "f195ffb5f82b8a5e48fd21469dfd3163fb5e6b499e905a212737fe8c5ce9dfbd"
+    },
+    {
+      "path": "Content/Village/Materials/M_PixelPropWA2.uasset",
+      "sha256": "c03d3c77c56f88dee6340d9fe6a7a68033bbb3e8e55e2b6e097fa04dccab6184"
+    },
+    {
+      "path": "Content/Village/Materials/M_PixelProp_WorldAligned.uasset",
+      "sha256": "716b32dd404f8f53c0859267f53445f85de9ee59f6218c9a37f1e28c43f01fdf"
+    },
+    {
+      "path": "Content/Village/Materials/M_PixelSprite_Lit.uasset",
+      "sha256": "1b5ca7623c6c61671bb51cc2bd57de7eb1063ee2d569ee2a53ccd80f0bce3522"
+    },
+    {
+      "path": "Content/Village/Materials/M_ProbeWA.uasset",
+      "sha256": "07eed6aeb340d538ab9d8d3565c3c4de62c6135598a0e02775022872ee75051a"
+    },
+    {
+      "path": "Content/Village/Materials/M_Probe_Delete.uasset",
+      "sha256": "067debbb4ce5412f5ab1ae3c617624937f757d8d120a78f92fa2b2e75b1f49dc"
+    },
+    {
+      "path": "Content/Village/Materials/M_VillageLandscape.uasset",
+      "sha256": "ba2b8bd7cb6a860f660af1afa50993420b8bad3ea2d6415dc80d1c0a6c7f1194"
+    },
+    {
+      "path": "Content/Village/Materials/M_VillagePixelLandscape.uasset",
+      "sha256": "e153e327d1123715c8c2322f99615a5eae9778991c3c57928907eaf17e9f8397"
+    },
+    {
+      "path": "Content/Village/Materials/M_VillagePixelLandscape2.uasset",
+      "sha256": "bf6b0ea280b2a3ab416f5d58291a96fe2deb083a2d9f4be0a865deeee968fc4b"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_Bark.uasset",
+      "sha256": "d9883864843dcdf0ee9d4fc3bf797b60a4517da1bb81f8b17de37bd9dc58438c"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_Cliff.uasset",
+      "sha256": "8e00de1966c2c1666b10528051c5318d1fe7e711b0b0b8e3a3b1bbec03f44432"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_Cloth.uasset",
+      "sha256": "c6e41005b7309f25df610bce05ad0afcbfe81c75aa05f89a661d5a813af749f9"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_Cobble.uasset",
+      "sha256": "8a56c86ab3560df4ff2963a50855b4aa9a2a182955ce4e434bb28928c3267f12"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_FountainStone.uasset",
+      "sha256": "2eebb590484be43289331aa207e1c096bab83e6929c1dc35c8e7f4f630dce285"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_Glow.uasset",
+      "sha256": "c3dd954f0f15f189d77a0a3a926382a171e25482ebdea8140bfcd46744ea867e"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_Leaf.uasset",
+      "sha256": "f36897ba8f08538c3cf62932d9d5b8d5185c4dbc7a4da692aee5755405d718bc"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_Metal.uasset",
+      "sha256": "f1a32345b3f0d51bee2ea83a56300a8fe3f3b5fabe4c90cf29f48bdbac0ae5db"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_Rock.uasset",
+      "sha256": "770e0f674c2a155cf40cce48eb43d6df8372901cece4f9b08f1238f396a41d27"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_Roof.uasset",
+      "sha256": "48e8804aa3238f20dbab6d446d076d9a2015b4e75f4df957a5d307ab6a21f7ab"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_RoofMoss.uasset",
+      "sha256": "1eb3852ad4ca3b6adbfc43e450c4ee7eff19f20a39e71af0b94069b50d977f29"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_Soil.uasset",
+      "sha256": "09e002ed3bd6efa10afa81ddfb80b57f7753d6b71dd3ce1312f72e938decec7f"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_Stone.uasset",
+      "sha256": "7b091ce06219ba77f12bec769b94a4bb00d145bc90d39c909d83c424c0c3d578"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_StoneSmooth.uasset",
+      "sha256": "a7feb9d909b4aeb33425bf97e5bab5624e57883cdecc7c8462557e8b86365e36"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_Timber.uasset",
+      "sha256": "778291b71e98f2a419ce2944a6c8177c194b56a453d73854e06a9d4c085fed29"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_Wall.uasset",
+      "sha256": "4fc550e8299539af46f32696ccbe21e4c73af26fa23f02ea8c227618c0b7b9f6"
+    },
+    {
+      "path": "Content/Village/Materials/Props/MI_Prop_Wood.uasset",
+      "sha256": "5a6e1d32ce5b39bfedadfe8ece81293ff0c593c9e59c60caa8c04d63d562b8ca"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/FB_Player_Idle_Down.uasset",
+      "sha256": "8f6b04ae86312df1698394fff5510e414c4dc25fa1b0d1d661b6a1ff17b729a7"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/FB_Player_Idle_Left.uasset",
+      "sha256": "10867bbdf4a97f25cb66a88078e609aad3f57abedbfb7996536cb8c29883e1c5"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/FB_Player_Idle_Right.uasset",
+      "sha256": "26cc3311b31f1bce43ae9fe4a29fdd58aaa277822d5af06142a624d09e2e08f3"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/FB_Player_Idle_Up.uasset",
+      "sha256": "67502e13f3dccd038b4bf528a9b29d4a96ee9611d02eefdefd5b42c5be43f3cc"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/FB_Player_Walk_Down.uasset",
+      "sha256": "52c83e6ceabfc03754e630092cb235a2cf98a141a1ef29168c78cf877aad37ed"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/FB_Player_Walk_Left.uasset",
+      "sha256": "25152649ca4355df38e029a9192ae4b913a1e06d3cc444e64b666bd853fe1e4f"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/FB_Player_Walk_Right.uasset",
+      "sha256": "989ed0a892f198254df97475800f0f0cc5ea168ad2843a12a88f03cbc807dddd"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/FB_Player_Walk_Up.uasset",
+      "sha256": "ddd196570b9692bd81391760881cee1f9fa577cdd2efb89c9863c89788ef3ee1"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Down_0.uasset",
+      "sha256": "09e58ab733a39d0dfee6147f684ce4dc32d279cc5b8c782631144f014b739492"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Down_1.uasset",
+      "sha256": "ca289dc5b3bab9b3fa256914aac4acf656ae6bdd8031dfcae6ef58dd7b82c7bc"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Down_2.uasset",
+      "sha256": "6212aa19d1b217bdfd0745a0e108547600383ad8b42401093dbaac347dd90d07"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Down_3.uasset",
+      "sha256": "8b3ab9dffb530ac6dbbe758449ef49f25266434cac3b4efc62b54ba546211bc2"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Down_4.uasset",
+      "sha256": "052e7781683e6c823a4d2f2dc12e02cefb083247d77b4244daf06ecb99bbbe5c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Down_5.uasset",
+      "sha256": "59b1305a440103195f3da151dc866038551603d66e8927782112a136c931d331"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Left_0.uasset",
+      "sha256": "3b9c8231b0ea5ed138a75aa9a281169cb8b7771ba9149bd1d05a70f352208246"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Left_1.uasset",
+      "sha256": "23a1924c7900563db70aa0d8c307a1dbc64f03e076ca0d02a44e6a7d32c9fd2a"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Left_2.uasset",
+      "sha256": "ced500c8dccc3d40f4921b9f64018e95f61719c1a7cc2c517f1166564da29286"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Left_3.uasset",
+      "sha256": "929d4d92691cfbbd686c9b1f0d13e71f6be939e73f6b1d5e19b76fe03cdf527a"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Left_4.uasset",
+      "sha256": "4147315d47f20fef0163ab01b62bd6b596200efd9fea144015993039a1d4282a"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Left_5.uasset",
+      "sha256": "545933ae9391b12b72539b0d4f2532cca8772cc38159078173addb0c1056817e"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Right_0.uasset",
+      "sha256": "0989474c4143b6815ad3393c7e3ad540d79c049040ef493f3b9a159baa7c13c0"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Right_1.uasset",
+      "sha256": "ac03f2da589322ce904b9d10bfc62dce0b4dc0452e896179d50427c15de86f6b"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Right_2.uasset",
+      "sha256": "83ff33643b05732298c55f9d98600fbe287d8a50893e16cf5cefe41476ec1be5"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Right_3.uasset",
+      "sha256": "52a2885f92adf34e548750044940c97b564c5967474ce06a1e6599bc56e5dfbf"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Right_4.uasset",
+      "sha256": "0f02fa382291835b8abde8523f692b90103d36ca505b6a354436631ff55a48df"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Right_5.uasset",
+      "sha256": "92de69ede8837c5cfdf629d4276fb8ebc7ca0bce7b9d66ce61af065319f7ad45"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Up_0.uasset",
+      "sha256": "18d46b94f9c7bc119a7a370a42f6f8b3a8eb357fe53d38520a109eae28a76056"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Up_1.uasset",
+      "sha256": "0aa517d82e591cabc3645395d6fcebce808087b0278b717fb10b299109e567fe"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Up_2.uasset",
+      "sha256": "21d180b9fdb11a3348cd863c32df0e9d3d9f1cdf577739c72231cb52bd188656"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Up_3.uasset",
+      "sha256": "31dca381d66ee54fdea6ca9fb5358b25a33078883e7ea9e52a13ef98c1ddc4b6"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Up_4.uasset",
+      "sha256": "93b232e73993a79d0f0a76f9d6d7a2c180747ac0e0e29d4cf47fd9cefebc8d6a"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Frames/S_Player_Up_5.uasset",
+      "sha256": "4ab675013874a7b14798277c03b55258525647382cc0d07626c0784db6610840"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/4TestCHBodt.uasset",
+      "sha256": "3000a71b5e8cf5357a24613ace3ea8c7e52a6cad36d6e741d8f076c8b3605216"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/4TestCHBodt1.uasset",
+      "sha256": "1962328f6bb1217bdd299cbee72502958d1e0c555a0e514a9c91bc8e8a138120"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/4TestCHBodt_N.uasset",
+      "sha256": "0df26d5bf0239d70b5793cdb0fb9c2d2858594dd348170c8218d5002064b9357"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/4TestCHBodt_Sprite.uasset",
+      "sha256": "d0bdfb26b15a787dd97c00a825282877aa0cfab545efe4dba719517628722130"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/idle_back.uasset",
+      "sha256": "7320412a70d26aa24b0376ee157c06105f293354d6605a9805a0dc256e829148"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/idle_front.uasset",
+      "sha256": "617585b22cab525d8a7aa33c8a1561ca2d96189598d98a7f1af47881f686979b"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/idle_left.uasset",
+      "sha256": "2db11a17b6cc705bc0cd65a4d5c15977726ff7bbe15b9e35810753a0347b9e74"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/TestCHBody.uasset",
+      "sha256": "91e96732044bb17db6ae9978aa9ab7f24f9d5069052c24e9ec3030ea1f053698"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/TestCHBody_Flipbook.uasset",
+      "sha256": "f3334e775d51bc74d788f0b8bea0afd70772069f3c141db3e17c1eca530c6c48"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/TestCHBody_N.uasset",
+      "sha256": "fc7f61d9c412af8636b4d70fafc69fce333f54ad4334347fd15e5796bf85cce6"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/TestCHBody_Sprite.uasset",
+      "sha256": "10a327072791f459b6f8db0e3ec026a17b445b760974c86a8e0116c01ef5ad28"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/walk_down.uasset",
+      "sha256": "8947bd40ee6efebca6e9a84810cc55d822f039e3ce5693022992d47780fe6c88"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/walk_left.uasset",
+      "sha256": "2e81aa097c6d8fde9ea5cc5dcc3459a365e4c0e2a015da8a3e24fd46015d95a7"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/walk_up.uasset",
+      "sha256": "0095a93f122e70fbd829b401074d3ee9cfac3b442f057553d09b86e10396a1ed"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_down_0.uasset",
+      "sha256": "45fcb88adf93044cc68255293b50b2c0b577d1553f49a79b0ffab2a0e6bc6b96"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_down_0_N.uasset",
+      "sha256": "2e07e4a368e8c83d0f4f2c5aa3653a67f11df061f788cd9babe2aafee58ab493"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_down_1.uasset",
+      "sha256": "7d659a8cf866ee27429d4bd10608583e0b46c9009624bb525a797a8b30d69254"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_down_1_N.uasset",
+      "sha256": "ea718c4bd12299a9190d9b24f69309348a4158f1f6040a4d4ace173c0674bc43"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_down_2.uasset",
+      "sha256": "7379f450435982d9842b68f5bfb7ebfa841fdaf12133338695a6c72875f76ca9"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_down_2_N.uasset",
+      "sha256": "6b392bff10bfaf481fc27cde8b195ada703426fd42879a1546a8b293195bcb0a"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_down_3.uasset",
+      "sha256": "9873e3fe3f2b08ee9b530518a6d923071fb3a72e4b8e1481b89045f03ec169a9"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_down_3_N.uasset",
+      "sha256": "f799237c622f210f29df8dd8e53ed8f78822631ceb06ccae5c94979b902578a6"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_down_4.uasset",
+      "sha256": "71748c0c2c026635cd354893af48512164198cb8114f92a72746cc420675e90c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_down_4_N.uasset",
+      "sha256": "ac233bbb683a810518eec048f2bba02795958f379585cd774964c461c9131ccf"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_down_5.uasset",
+      "sha256": "2fb7eac115aac1ec7427f49c77b99770e9da9b63058dc4da993738b360e0c278"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_down_5_N.uasset",
+      "sha256": "b572c386ecf6195134d33fcb9561fe0ce3079430515a0f4683772c6da7c4710c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_left_0.uasset",
+      "sha256": "e043de3fdf94d0ed13a0adbcf4f03213cfb3544f8544fbcbae121762e810743f"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_left_0_N.uasset",
+      "sha256": "e067413521d871b743ef64284ea3989730cde86762531e14f43d096f9e226d84"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_left_1.uasset",
+      "sha256": "18667bdb9a6b70c7b428becb6de287412fc622db3c83c5b978d7de6dea74354b"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_left_1_N.uasset",
+      "sha256": "9b64391cfb2394a4797d34d09b1ca3e1b2e64e93a78e51a947ff460a18722ab8"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_left_2.uasset",
+      "sha256": "8871ee626db35b854611d27dcaf2edac0e69ab43f0088862c0da4974c98361d3"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_left_2_N.uasset",
+      "sha256": "efa11dc07067325e577c1d11cd065ff5d4f1bb559b44d8e609eb33a435a5bf16"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_left_3.uasset",
+      "sha256": "0b80ee4ab780563a2ea5961e0a13facd2119c0e9411ddf7a7d7bc4e93230a8e4"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_left_3_N.uasset",
+      "sha256": "4a60c68552b7638d23ed5dd77ba2314bba0ec40248b5bac818a9c62d02ec5cb0"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_left_4.uasset",
+      "sha256": "037037a734e8cfa596cb23571c9018202032fb5611dcbfc7670ee78f2c6ffb06"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_left_4_N.uasset",
+      "sha256": "ded15aafc14eb32a87238ae1eead3c0a4f1f45f0c448e07c54a310364e8f5558"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_left_5.uasset",
+      "sha256": "60370dd0c052f14152314aab13b344835f8d0ceeba092c4c82cec66db4e2e6eb"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_left_5_N.uasset",
+      "sha256": "864dfba9cada7296e51929d58a3e45a7708b4ce55de391c17798bd3d8ef10069"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_right_0.uasset",
+      "sha256": "37b26493e37532e83dfa5c9a7649837a51a236a30c945173c70dd98cc8180b4c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_right_0_N.uasset",
+      "sha256": "6199066521561296a8c145ecfd63285953f798f1e920236664f5887de5acf87c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_right_1.uasset",
+      "sha256": "d54e88bface8753f707f34c89c9f95b09f0f8a5cce47611acc1cd8599465d3ac"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_right_1_N.uasset",
+      "sha256": "dda38cd7ae016cdcec0ff0a192e9c3a54394043fdae2cb44f956f5b5c86a5508"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_right_2.uasset",
+      "sha256": "a958fb39e6604ab8b27ee8361aa968a410607f5bc491fd4e8ffd7f084132c2b2"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_right_2_N.uasset",
+      "sha256": "72d8a7ceaf991dd86e07c0cfc6022d646bca649a8fb6002212807308a49e7b81"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_right_3.uasset",
+      "sha256": "be64c2fb646d33aeeb8a7a43e0d56d857ac03416fd43d261578b3ee017c0b16e"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_right_3_N.uasset",
+      "sha256": "0a8a0a85f06c6f3f83863ff8b0359ddefd675f42eaaa72e8e9be4d44db34ba02"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_right_4.uasset",
+      "sha256": "ec38edc1dd2632ee26fb0b866c02acb3b0dd972c66acbfb0646e663103809b54"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_right_4_N.uasset",
+      "sha256": "020b3d6ab3d7cf1cb51274e73e6a788e487e86a3c8d43f1f2b41206409337e1b"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_right_5.uasset",
+      "sha256": "0f995b6db47dd25b5be5dec34457cecb6cd1c59c09841461efbbfb8e1cc537fb"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_right_5_N.uasset",
+      "sha256": "b81835a6e33338dc36c092425125a09c7500dfb8ba6a1d219b7101e9b730813f"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_up_0.uasset",
+      "sha256": "0a808ea9c7f67adb3c35a2877fc5aa96fcf9d867bfc8ae0555215ddda6e09351"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_up_0_N.uasset",
+      "sha256": "a12f5742aec5787c22ae1233aa76c512019f65479a890f8c33c0863a591de190"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_up_1.uasset",
+      "sha256": "3850a268e1ec9c11884a1922357aedd088c64cf3cc6cf30f65d5fe0110f012ba"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_up_1_N.uasset",
+      "sha256": "791e793720538d6b8adfd759b4f2f7f067e052989121194b6aab640256fe01ac"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_up_2.uasset",
+      "sha256": "ecc454cc5f71e1b303f6e7a4efc06c262e0fd98d02ca2de397e3701989264b2c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_up_2_N.uasset",
+      "sha256": "16d569014b7f71ae0410d00da39edb2e3d597f3765033e1e14f0cbbff84bab45"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_up_3.uasset",
+      "sha256": "5701acd6ec5deaaf1e472d59e787b953be233790be8d19b119618e739224ed48"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_up_3_N.uasset",
+      "sha256": "6772af354627d6df1db1c152d11c1eb3d7b1b97e3b1e9ec3c0b8b606a39b8061"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_up_4.uasset",
+      "sha256": "f57a5adab7b64ed2283b30166866510ca353c0ac319db7748c77dec82f7eab02"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_up_4_N.uasset",
+      "sha256": "700933f5e5f58012f57a530789942f296b203b8f4a3c2b4abbdf964e65c98186"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_up_5.uasset",
+      "sha256": "56b474211194c74da2dcd31b08f8c115a5fb3d80acea59d7315abe14afdb2ed1"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Tex/walk_up_5_N.uasset",
+      "sha256": "67ef395353730ca10679dbc3fa14f50315f09edb6af7d6c37a30f064ee87f913"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Armor/NormalMap/Testa_N.uasset",
+      "sha256": "908085ab0734c53c27200dc720dfeeb6fbb1b703aa4579213b2b05cf4859494f"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Armor/Tex/Testa.uasset",
+      "sha256": "e6bebfbb1961d04f35d44b43f25ef77504c31b0257a4e9b434448edbc54ba545"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Eyes/4TestCHEyes_1.uasset",
+      "sha256": "4c5fef56838cd77762c52574839d4efbc74c1710f57d645b81beb3b40f5d5450"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Eyes/4TestCHEyes_1_N.uasset",
+      "sha256": "e7400bf6b6cf9dda6c9c2d0e54b7aaded491d9bfccec4b36cb242e2e467b9fdf"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Eyes/4TestCHEyes_1_Sprite.uasset",
+      "sha256": "2f9dafd9b3fffa57d1fa17903ef8b20b9b9e3679191cf1acdc7d27028de704e5"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Eyes/4TestCHEyes_2.uasset",
+      "sha256": "aa96fc4a0b5fdcafa25e1340c463f687b63f1a93903bbfee2bc0f973ec3b8690"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Eyes/4TestCHEyes_2_N.uasset",
+      "sha256": "4bc37382344b9b18cf688b55633dd9caaaada377bffd2629b3e0bb2dbe43b437"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Eyes/4TestCHEyes_2_Sprite.uasset",
+      "sha256": "1aa8fe91f556241e8cf741de8544a70bcba9b97cb36c6ca3a1cf1e52324d1039"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Eyes/FB_Eyes_1.uasset",
+      "sha256": "3173ee351944b18baae739c2f29a91a2e5146fbef6dbb9e14fb88a694dfbf352"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Eyes/FB_Eyes_2.uasset",
+      "sha256": "6d27185a3d2b506022974843dd35d693c7bfd9c144c3075dd27e19350ee26b34"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Eyes/TestCHEyes_1.uasset",
+      "sha256": "91452a8574f13722c676e5a48fffaaa6ca5e66e412d8982b0dd143aa075d54d7"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Eyes/TestCHEyes_1_N.uasset",
+      "sha256": "945c04571e9185a430977fb2c589479939e682aecf505e09eabe8309eab8f0f2"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Eyes/TestCHEyes_1_Sprite.uasset",
+      "sha256": "2ed2f82c9b7133efbeed2805c2320010b2b8601179e273b6b71bc687bf251c99"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Eyes/TestCHEyes_2.uasset",
+      "sha256": "526fb51469dfebb2ec9af2d7e0ed480f7cff1fbd1c7efd77dcbb3bb3b286d956"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Eyes/TestCHEyes_2_N.uasset",
+      "sha256": "4bc547f28977faf9914370b74987f3dd99163a5e6df5d243ebfd6bc4f2075c39"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Eyes/TestCHEyes_2_Sprite.uasset",
+      "sha256": "f6b4a7e07d927b677dc09f950766d84731d66d3a38504f1a4804031ce21e9fd0"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Hair/4TestCHHair1.uasset",
+      "sha256": "3a104782150facd7da8ac87b5ab91789bb42ef7f8416caf4a8fe3242652780ba"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Hair/4TestCHHair1_N.uasset",
+      "sha256": "379184ced00a4411ee13225f456621eefd23cc56943da0645b5b173bf91f5cf9"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Hair/4TestCHHair1_Sprite.uasset",
+      "sha256": "cde1dac25ecabb6d975d661400c89062b7add4fe1bcf5e7f249e3c0629c92457"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Hair/4TestCHHair2.uasset",
+      "sha256": "a37f6b6f49abf2693ac45fc9d553e7b5b26c940731d0fc6673188727fa123e73"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Hair/4TestCHHair2_N.uasset",
+      "sha256": "5cb7c8e756e3de3666bdc6f7e536d1b9b5e66cc9a01adb3a00bf6978761e9629"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Hair/4TestCHHair2_Sprite.uasset",
+      "sha256": "25ab595e1bc358da90957b077623880d30cae391c87c2e58166b14d7245e9b5d"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Hair/FB_Hair_1.uasset",
+      "sha256": "93a0b1a147e8ec95a8ab3f9311fc378ce47686a5c51d7ef15813f676c24966e5"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Hair/FB_Hair_2.uasset",
+      "sha256": "509e98a6a3dadacc55264e38fba61836085f9ccdb08d841f86c2ee404a3ae728"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Hair/TestCHHair_1.uasset",
+      "sha256": "02a54c973c58e6fbca76e586a4b8f890b913bfb0fd235b4ee0811d4475506d49"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Hair/TestCHHair_1_N.uasset",
+      "sha256": "0bcdda1594201384696309bf851c88602bda82040d81d903558062436a32d072"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Hair/TestCHHair_1_Sprite.uasset",
+      "sha256": "e87fbd18697033556ed2989f8e989a8c09ec941efc8f39fc0853f01fb64e57ee"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Hair/TestCHHair_2.uasset",
+      "sha256": "497d7b6e5aa6b1dfea0835c4ca6612e90dcea1ab166b763a75115ed4d2e7104f"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Hair/TestCHHair_2_N.uasset",
+      "sha256": "9b47a0b1fbfed0352c1c5dec4a77fa9a625783b50de20dc85496bcf419cee950"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Hair/TestCHHair_2_Sprite.uasset",
+      "sha256": "4cf0f425346e5f636133e22fe13e82ca3e459a256f1b0440357553dce7f51937"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/NormalMap/idle_front_N_0.uasset",
+      "sha256": "3e7cada5e79001953c5dd203e20186c26b2750278ac54f50d6214fc6335d5a4c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/NormalMap/idle_front_N_1.uasset",
+      "sha256": "a32d75c89f39f58dd724f611f0faf2a9d8ccc303dfae3f11262c4e938a188767"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/NormalMap/idle_front_N_2.uasset",
+      "sha256": "ab38d727da15801b1eba07e988cb5f00fb16e32568ff6bd21d447798a543c714"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/NormalMap/idle_front_N_3.uasset",
+      "sha256": "647716d3764141dcc24076678ab251f1457be48fcbbe5d27908e2dfafb813fc1"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/NormalMap/idle_front_N_4.uasset",
+      "sha256": "19fc94fc4c867cdd66c5b1c22ec13e1ded1a6f55e2e5b6d0d035fdede9cba751"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/NormalMap/idle_front_N_5.uasset",
+      "sha256": "3ccf13a2271e1424bf73c8dc81ebf44203b7190978434cb0f07c7165625810c5"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_back_0_Sprite.uasset",
+      "sha256": "782d2d6f54f90257e8084d3d6b393df4f2585abec22e03a36492c3592d77f94b"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_back_1_Sprite.uasset",
+      "sha256": "f0500c309c84aadf70e039dd923223fe5b332396cd913ff2d5c82d269f1d7c7e"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_back_2_Sprite.uasset",
+      "sha256": "e78dd402c6a5ece6d69d4cb4940cab8c743626ea1a092afaf7b3a491a16d7441"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_back_3_Sprite.uasset",
+      "sha256": "23ab9efadb415090580cbc9ea8e6c63bce408cac6c6bc3883c7a8b7151bb1236"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_back_4_Sprite.uasset",
+      "sha256": "6f7cc447c5c878208757e0c1ca81a413462008ee5e5226866b7ec5f7946bc765"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_back_5_Sprite.uasset",
+      "sha256": "8f45980842aaf54a27a92d16136fbff1f6f9a45ee371129cb84036b55c02cfa3"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_front_0_Sprite.uasset",
+      "sha256": "558f2d7a89c0f75356c5647cc01e101ede59323a2872cae21263a0eedbbbe7c4"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_front_1_Sprite.uasset",
+      "sha256": "53b5cdec9544a52cd07b24d4f2cf7839d3dfde2398a84a1748db4c94e967c0c5"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_front_2_Sprite.uasset",
+      "sha256": "55bd6639baffc51bb9e5fa354aa37b6435c548db5fe9d2199ec687d7bd2e392f"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_front_3_Sprite.uasset",
+      "sha256": "2a1abae00c791beaab8e22b4b09a4a5bca211d406110c2929cd3bc0c56acebdf"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_front_4_Sprite.uasset",
+      "sha256": "8f83c7979642edb98b8dad0fd5c7a69b7f5326de8d61f94057ee9c7edf9bbf5c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_front_5_Sprite.uasset",
+      "sha256": "09e554144d503a7a7152ea2f2907e84dfefb6d004020939411c7f304490932f5"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_left_0_Sprite.uasset",
+      "sha256": "2e07e34e12a53e28fdcdc616098e393018969c785fc70b8078b3d9db665405f7"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_left_1_Sprite.uasset",
+      "sha256": "f896970782a16be730398c7df01a4ccc930a75bbbedcbafd3be487471bba8736"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_left_2_Sprite.uasset",
+      "sha256": "2ab9422bb2faad6bbaeaa9b6880990e5635e5786b1153833d93900fad8650c36"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_left_3_Sprite.uasset",
+      "sha256": "fc535849db67bd6eaf202858cf5b37c2d58555cb6c43915f080c8ef8f7251fa7"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_left_4_Sprite.uasset",
+      "sha256": "6ff50cba189f49ce913322f4cf9bd70431c1786baa5b350970d3a198b3a571cb"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/idle_left_5_Sprite.uasset",
+      "sha256": "3b38c994a4ce2c4b8a3c01c0966d486b2ec196a8b018de495e39cc60d5017123"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/walk_down_0_Sprite.uasset",
+      "sha256": "8281a7ea20d2e24687c325cf770bb06a7cc12c55a70cc742e2778c34fbe8290f"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/walk_down_1_Sprite.uasset",
+      "sha256": "52a650ce3d1706361749cad57edbf8df695e0a976c657ad2d9891f0449211de7"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/walk_down_2_Sprite.uasset",
+      "sha256": "fbaab1290d0d06bf1b654ed531e5f839f163da278d838ee905bf9836632c5300"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/walk_down_3_Sprite.uasset",
+      "sha256": "bd6f37937a0cfa4c62b9d9a27e0990f4f326febdc195714c85c6dda5cccae752"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/walk_left_0_Sprite.uasset",
+      "sha256": "6a50c2af5e63382e8b4327092081619b5230f5e8908c87fcd95cf805ef4ce8fa"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/walk_left_1_Sprite.uasset",
+      "sha256": "2adc14c7d37773a20f74bd2991eebf65d318d5b7eee174366cd560f7604d0870"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/walk_left_2_Sprite.uasset",
+      "sha256": "35f144be1efa58f8a9012bd24c2edcb47c0b89fd2e3e6d02ded52fb98c7bd02f"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/walk_left_3_Sprite.uasset",
+      "sha256": "e5b8b10bc0ae67e97578cf7972177e179bd4cbd390ab7bf91cebfee438d939d4"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/walk_up_0_Sprite.uasset",
+      "sha256": "618faf1349027ad03bd29ce480bb82d298a5f191e4c26b3e96b6c839890a40f4"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/walk_up_1_Sprite.uasset",
+      "sha256": "b187cf295469b028d2e786e5f206a307c4f620e8d553e6c40944537fa062f173"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/walk_up_2_Sprite.uasset",
+      "sha256": "eb4105c8a76893b96fe0ce5491a82236d59aae958e183bfcce2b6836189113f6"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Sprites/walk_up_3_Sprite.uasset",
+      "sha256": "978c4d20c9ad6a11ad8485133ce7b4c108352b8b96e61a1fb8a0bce38951a99d"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_back_0.uasset",
+      "sha256": "9e5b24d14ccd9f67ece190d5fd99ead57283f67f14bd7fbe70620e46eabf9bb4"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_back_0_N.uasset",
+      "sha256": "7025014ae8ab9bfe0ce6d458eb7e25351738adc8d0fac548219796fd44a59df8"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_back_1.uasset",
+      "sha256": "46906bcbcc32954ae5d8420eae1d3be700101eb35342772cd670e016be6ad45c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_back_1_N.uasset",
+      "sha256": "d738672a50e7486e25d800316c246644366cc57d3386687e6261b33d18317672"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_back_2.uasset",
+      "sha256": "ba93d8d6b3a23f7e01d609057f05ef3e98956b6f59d910b44b73051a506915a0"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_back_2_N.uasset",
+      "sha256": "d3bef15503a466ad3461c9eca9e232c8ef577e396c2c0d4980be7cb60f0c2389"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_back_3.uasset",
+      "sha256": "792e8a915abeea4d2bf2974b473d53da90f243b6e91a09a95aaa7f3c951f67b0"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_back_3_N.uasset",
+      "sha256": "aadbd73289069c9f7cff9870dd6afa3952c6b1652183a8c87950142efd900d58"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_back_4.uasset",
+      "sha256": "d3026f9170fac43b6c8a2bb3147f147773f97d907e672c0fb82abb1921d96f23"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_back_4_N.uasset",
+      "sha256": "56c3e7fa4a748f3827549ba496ea807b33091f2bda43733938d9bc83a788103a"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_back_5.uasset",
+      "sha256": "1b52569c8df9d34676633c5135e6bad73efc6b59b2b8acbec8ff1ba97c98f6cc"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_back_5_N.uasset",
+      "sha256": "9ffab031a00fd6ba73b2026e1240853b11c2bf5635ceb762db9e083d77ff3f73"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_front_0.uasset",
+      "sha256": "c3017d056e3928897cc9264d446bfee58957a43f41359470fdb481bdfebdbb0d"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_front_0_N.uasset",
+      "sha256": "eff1a369dc50827e01b859e435ca18d1d6f6d08b32549e8adceb9c038996cc3d"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_front_1.uasset",
+      "sha256": "a1d7e8658d92825a96806031a383828fb62090039c880c4784d920cb8c2e519d"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_front_1_N.uasset",
+      "sha256": "4b9bb75d64a9f91796f156a558271c9bd45e827491ff798fa82c36c389dec37f"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_front_2.uasset",
+      "sha256": "562662f11e0d2af64a2a065669af9111350192438f9e64008f0688b7b0ac76b5"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_front_2_N.uasset",
+      "sha256": "7751c5d9ce4d392b7946998a0a72e1cf690e06a5e9e060395b9e791edc0a282e"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_front_3.uasset",
+      "sha256": "5a32c7d5d449b1a848d664eb9e3fb9967ec7d2dca13b9f5dd19ed465dbf3642a"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_front_3_N.uasset",
+      "sha256": "048d75a40cbd62828efb3e3309a7ed340bdc6f642307423b0656e4c00218b589"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_front_4.uasset",
+      "sha256": "6f1ae97bae1dd1db68d73b886d3c12e35a5270894bd8298e4c7e3943fd86772f"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_front_4_N.uasset",
+      "sha256": "6d074e520af0268d2789fc2849d299202284a0bd28bf6e99bd78855702657ed2"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_front_5.uasset",
+      "sha256": "7db06712b1f92eb3c27aff373b7e08adbb5036695f9efacf9b0237914a132163"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_front_5_N.uasset",
+      "sha256": "9f101451e4837b781ddd46d9ac014cd28cd4c343ccc3a67ef0da9c4b29b25f09"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_left_0.uasset",
+      "sha256": "041e481e953b0e218c347a71d5e2e2c6430612c43f884c4f39a4e216fc9770c2"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_left_0_N.uasset",
+      "sha256": "8380242bd1928f3618677f9c60300eafec034bcd796b428e227bcb7009e20f96"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_left_1.uasset",
+      "sha256": "6fc734df9a7065bc48125607653cf4cfb77d5aa02e9668a95436c58c91a146c9"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_left_1_N.uasset",
+      "sha256": "96f48945c47434fa29be389c71d25ae3210b0ad19051a4350b1068835ced3ce3"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_left_2.uasset",
+      "sha256": "e7dc11ab2a5039d5ce59e2323125a9ef0ce521fa2c8c6111eea2914ea3f2154b"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_left_2_N.uasset",
+      "sha256": "a4f9ef563a4f08b00385ad80416a2e01963d24e23238eab60e7542ec48e545a4"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_left_3.uasset",
+      "sha256": "6cf3d4bd8ea96b3031e260803a3df009d36c4b789c9998c9ddd8fc391c534e70"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_left_3_N.uasset",
+      "sha256": "4719072a13bf085b0ff5c9141e5bac20f2dffc7c2e5b69f2358c3b3bbe96e4cf"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_left_4.uasset",
+      "sha256": "767470db9b4929b907dd71ef8553a80dc8599fa43eb033edac727690ed32553e"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_left_4_N.uasset",
+      "sha256": "c5b4154ba37c777589a0fc73edac1a03ebb452216ebd23678f1dd00731da0073"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_left_5.uasset",
+      "sha256": "112c5ebacc17ee77c1d84f61f67c3fb72f0efcd13cb5e8824a9f8b5333fc15b0"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/idle_left_5_N.uasset",
+      "sha256": "730c19380dcc916b438c53064454e4a2c483bc33544dff442a54fe673392cb04"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_down_0.uasset",
+      "sha256": "f9206cc61c8aaad1a98075efa7e3ac04d3dbfe9a3e72eab7312cc4d00209018d"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_down_0_N.uasset",
+      "sha256": "3c6fbb63482d8978226401d26359c2c66b24d5f16ab9c1200a725a24c22c1064"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_down_1.uasset",
+      "sha256": "f6ecc34e0b0aab5e9d2116dccbd49029c5619a951d4f169d9dd8eff0c8e56373"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_down_1_N.uasset",
+      "sha256": "4905014cbb72ae5d4f88b10071782aba01d704c7db448251adb1e2af4bcefc65"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_down_2.uasset",
+      "sha256": "4e8e2e281d35f10235b3f64cf2d4d8f598ea48c2d2874780adcb76683cd5bcfc"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_down_2_N.uasset",
+      "sha256": "057c6f4d15fe8f0f08a6ee6c09072ce0aa7ac50e975e89a386a182eff6f80dfb"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_down_3.uasset",
+      "sha256": "0bc0648e8b17c81f6ccb6fa49f3a6f38b73df74ee883ffafa5f393f7b6d7d999"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_down_3_N.uasset",
+      "sha256": "1da4317141c8ee37529dab9fdbc1ccbfb4f94029c28ffa2435714f294cc57e15"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_left_0.uasset",
+      "sha256": "a5be56a45d5d5bc7e6892517b1500a90f4ab9147e99a3aff71ec2e9269f12c3e"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_left_0_N.uasset",
+      "sha256": "20326f6f13e586ecfb9983b80eecfa08b44347b590c632b2518443c6b3d2b1d3"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_left_1.uasset",
+      "sha256": "b292746c56467681fd4e857940a2351144d8725e5bc738669f4f2101ff4668d5"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_left_1_N.uasset",
+      "sha256": "195e6b10b4eb87a6dbac8e0ec5e887d4d39573afe95995caf8d8a7f03c437e1c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_left_2.uasset",
+      "sha256": "235da2f1889713ffd3a75f083f3f1c43f496787eab18d625ba957fc48c758dfa"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_left_2_N.uasset",
+      "sha256": "5cc1b1e6ba6ac577405037fd79280338b4e3b80b97339bef5102fd0724e2b923"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_left_3.uasset",
+      "sha256": "1aba527260f3b01e65f2331eb51e359fcc13a5da9e0be5b95da7c864330cc156"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_left_3_N.uasset",
+      "sha256": "d99a34ad6832ba6c4aa41ba0981a04361d14aa98690ac9895d96c17ea293c235"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_up_0.uasset",
+      "sha256": "58c7a2572debc7444df268c9958fc42b95352b4adbc67db0734a57675dcde839"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_up_0_N.uasset",
+      "sha256": "2c9947cc37849391894cd638cb66926121edd03fc721f1059b9c96164f22056d"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_up_1.uasset",
+      "sha256": "1d12d2e5c2c58020ec2051306527dec91d23b73a63bd01e59f5983f64eb864ad"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_up_1_N.uasset",
+      "sha256": "b01cba220334784e672fd0d08cc3922bbb04cd19040087f5bd65e309024b2fdc"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_up_2.uasset",
+      "sha256": "ccde9c9484f7dc10821364e6b3b88896e45c8b80da4e461fbd78aa6f004ce6a3"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_up_2_N.uasset",
+      "sha256": "4a9e833ee359ef7b6fc2c55f58998fc4ab536615aace54b579a6ae1a986b33b8"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_up_3.uasset",
+      "sha256": "0ac160670520975a865837f38833d8ba2501ff9b3d14097caaad5f7774ceda4a"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/Tex/walk_up_3_N.uasset",
+      "sha256": "22fa094911753752a24d842129af0bf3ed32fbaecd305e6a9634f0913f0a1ad7"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back.uasset",
+      "sha256": "fd065871299ee06cccfd460b297b259da8df212742a68de964a71b755af5d6f7"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_0.uasset",
+      "sha256": "d67a18c0b3bdb88a2291424645d78c6211c7cf73a519375e200ae86769133827"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_0_Sprite.uasset",
+      "sha256": "c379117cc8f7ad22bef3e1a28a31e0fd093a7c0a0e978d326e1d5c642d439588"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_1.uasset",
+      "sha256": "416733d77e7cee7ebf39ff7fac5737edd8c18c0c59c26bae755904de84003738"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_1_Sprite.uasset",
+      "sha256": "8e23fa41b969ce3cb48a02469e1e5edd54e5feded89944c0c99306b0c9d52d6c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_2.uasset",
+      "sha256": "63cfac4d991296d5e9d9aa6f1eb0e247723d6f3f1bcded681621bfd6cd55c782"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_2_Sprite.uasset",
+      "sha256": "fde7bbcfa848c38ebb3630ec01d61b380bf0755b33f713188c637e6c7438b891"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_3.uasset",
+      "sha256": "5d815c61100a1758cc61e05d7ae278eac099a01f3ee21f029ecb3951897e8ad1"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_3_Sprite.uasset",
+      "sha256": "3236ee3b7d4f670f41ab0302c4068fadfa48aade536f8329cf58c727b305c10a"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_4.uasset",
+      "sha256": "998a67ebf414a8332ae059a1fb37d0b631047cb6e96edb5e703ddcc9ce9221f9"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_4_Sprite.uasset",
+      "sha256": "10eccbd61e828cc4f10c9f1675521e0b029f7f61a8c0a88cd73b2f000c6a1ac3"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_5.uasset",
+      "sha256": "43d850d919b5f3d56f9d1b76a733843daee942c5ed586ccad1f33aed0184a960"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_5_Sprite.uasset",
+      "sha256": "dc2077e9d749e11699a7d88cbd1b2bf6117ed979159f9b44c42290d2db3c5da9"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_6.uasset",
+      "sha256": "3631df56dac56cd7a7c68ede2f0229a1d30edc979fa0312dbdec6014d6fe3f30"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_6_Sprite.uasset",
+      "sha256": "89b19f354180365bac3b6d95cfbbfb3e14b9a47cf345759079af6e782a5758f4"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_7.uasset",
+      "sha256": "64f906e9a88535c2e855773b49b0a4bcf7633d27a089c43db232d55f8ada3c6c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Idle_back_7_Sprite.uasset",
+      "sha256": "bf1baeb8bfef41620ecb9a391fb2716c74e6b1bfd2dd1e5594f4253c611364cf"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_side.uasset",
+      "sha256": "4c59f3f22648d32c9489f87622614d12b07d708d9c2492b9ae699c76e310f43d"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_side_Flipbook.uasset",
+      "sha256": "f5fbbcc6505ecf7c2745187532bd6d85db37d81bbdc04889f06fbb85c5fb11fb"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_side_Sprite.uasset",
+      "sha256": "641c049cd39d820c490f0a171ec537b163c2cbb9bbb187e7651dfa60d055643b"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side.uasset",
+      "sha256": "8c3b54f3a1a5adfe587a37b63b75fd804ad701bcbef625d936f8424301887fbc"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_0.uasset",
+      "sha256": "fd3deff3a63bdf27e9d34c90936f8b6a9539630ed0ec1bcbb5051cda4e2b4e2a"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_0_Sprite.uasset",
+      "sha256": "540319b0deb4ec64f1bed1403af8eff4251fab2f1d5c155fa0e63111e1cfd75f"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_1.uasset",
+      "sha256": "5b9504c63be82af2b629cd880a6bcab516e1e86ca4e01b0bf019c04e3ef14e96"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_1_Sprite.uasset",
+      "sha256": "e2ef1ff7479e512f610c35ef14812cb6af2a38095421f12615af358520bc1969"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_2.uasset",
+      "sha256": "db5e2aa5653ec678def1d0fec02548b89d55fe69491a4c91ea6e0b593288995d"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_2_Sprite.uasset",
+      "sha256": "485e920995353cad267f74aeb5f98a8d594d7de8b43499f1c0ffd30eff721b05"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_3.uasset",
+      "sha256": "effa51351c944b4b38384ad440e646aef067e1b509725a0e56897adb15273296"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_3_Sprite.uasset",
+      "sha256": "daf5a74cf93d059058664017feb80290cae4968cf99967d9c1b85e0c19901b16"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_4.uasset",
+      "sha256": "2f0fcc66ce0f73af76e9dd34373fcb6c1a0d9aefd59a475aee6e04f606ddcb20"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_4_Sprite.uasset",
+      "sha256": "67faa571b533829fc2dbfc57a39a3638c7634cfc65732cb25e2a6bf7a7b4e4ce"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_5.uasset",
+      "sha256": "6246d20bc6f3f4bd0d95ec25d3c9b60ebd9abc3791767c6eadba4b71a4006b9a"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_5_Sprite.uasset",
+      "sha256": "ed505767590b8d86d446bd4cb1ddb1efd41dac14ddf213701363ab26089bf04f"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_6.uasset",
+      "sha256": "1eecff82b4fcd9ac78077a17d7429bd42eae5efd6c3220501a0f61a4efbb54db"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_6_Sprite.uasset",
+      "sha256": "af2a7d0dc24850ce9001a231b5f8271e52d59fe09fe9362917b23e1f1be1b229"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_7.uasset",
+      "sha256": "7a624783729cf89c2c5bf9f3e520738052b5ed4938e0020d54642b77336b1df5"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_side_7_Sprite.uasset",
+      "sha256": "7d1a9173f51006ffb03f6ca20ec48c6c6e494354d91ba31f1e73d1051663f32b"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up.uasset",
+      "sha256": "3e7ab311d5ce8168746ce02bfb01370a424c2c07dbeb69c3df50cccb61b0eb3a"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_0.uasset",
+      "sha256": "0bd405532af05f1d179789ddb730de6c35cc7838e7fc38358f5301453fa2015e"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_0_Sprite.uasset",
+      "sha256": "401cc021514e0c807c5d2e4d39bfc41ac661c0c13cce956b7d52913848607f5c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_1.uasset",
+      "sha256": "b5c3cc684de103fe904ab70eef438dd6486ff611ae90b739ab91ae6876481fbb"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_1_Sprite.uasset",
+      "sha256": "b2556b9caf0f2d7bf438e13604145585dee1fd5b63e5a7dd8b9003020b3ac430"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_2.uasset",
+      "sha256": "0804b90461a9077f93a01a3d4a0336d287ce9c420ac9dacdebd2a8d5ac7e5662"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_2_Sprite.uasset",
+      "sha256": "ad2d9e5bec1c2a9749f84c939d764cb703f2964c541ec86dcb5832e15bda951a"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_3.uasset",
+      "sha256": "92de0cd5d9f34fd98b7566a011cf4b83bd5617b11083faa1684c75d2186816d8"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_3_Sprite.uasset",
+      "sha256": "ca41fe5731c20a6bb1f9843bbc027d42e0e9f0f2d676f9c34d70cdac98dfbf38"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_4.uasset",
+      "sha256": "2f965a70a879faae2a926876332fae1f70b493db44408020039697e762b7adaf"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_4_Sprite.uasset",
+      "sha256": "cb2bd2d0e63237d254a888e5c625113541c18a4f234adf9defb845d6aba0041b"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_5.uasset",
+      "sha256": "238dc5c4de02233dd3c1e9e28d1c2916137f662cd12f2b7b230551e59b3ed63f"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_5_Sprite.uasset",
+      "sha256": "e98ea5e43fa25377632dc4dee5e478ad78af8917b8d5eab27cd0bf2a77165847"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_6.uasset",
+      "sha256": "69a1b15a05dfb20a230f04cdb5d699a5216ef5c87bed245ef5271425395fd0a0"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_6_Sprite.uasset",
+      "sha256": "75cd6cee8b809f45d16fd8dc84c5edda7a2097ddb77c133235f9f934a036f33d"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_7.uasset",
+      "sha256": "77564273cc03c8c1d73e3aaf2dbdb2a6e98698924b178ef4abb6f5cb3b521796"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/CWh_Walk_up_7_Sprite.uasset",
+      "sha256": "390d97ff0f3e4f445adfc8fb8ef9176ce1a709bfb8bcb8097ff6a50dff3a2f88"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front.uasset",
+      "sha256": "0e160a8911fa8b40ff959e85414730d2cbe74d03c20f0ccf771ccb06d7c2e94f"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_0.uasset",
+      "sha256": "63c9d0d7d3debb6ed3b4bb7a969d41080dcd4dede873567f28ee813013cef1cf"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_0_Sprite.uasset",
+      "sha256": "955e2b7221004a07587df432ea82ed6de7b63c83a917af900beec933ca06104e"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_1.uasset",
+      "sha256": "752eaa8425b60613b7f778c1b737ee154cffcb9767703d9e6ff0af3f400f7b28"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_1_Sprite.uasset",
+      "sha256": "4eff982ea0b3897fb721f44440ec78c98dd871ad5b0a65005641912081e43eef"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_2.uasset",
+      "sha256": "c1aa246dcdcd2fff770c0e351b264e723aabfbb8408c9d0f18e7bdad35b96b69"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_2_Sprite.uasset",
+      "sha256": "3d9a197bc02840a15f0e0fdc0d4c6f6934d767d9fb22d50d0c29a20fab33aa08"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_3.uasset",
+      "sha256": "060c51ed955c864509dcd0a002bf5adf55cb66aa43d45181cae0117f7f60784b"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_3_Sprite.uasset",
+      "sha256": "707343f85c92bdda66b865f7e7c15f253a313a2d4a76775196e1192221bb5a90"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_4.uasset",
+      "sha256": "971d5b39ef0af9c778f65bf916d12fa2245055d0d67bcb211162022f274caad0"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_4_Sprite.uasset",
+      "sha256": "ec85d9429fa53b9e2569aa80540e5e5d2f0bcb9833b7814f4e88b44bac41f689"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_5.uasset",
+      "sha256": "d95828b0fd9a4d97c9b174d3495b422bd4c9ca63caed13955f6467243170078a"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_5_Sprite.uasset",
+      "sha256": "f6fb7d0f95452bba80ddc70be8c610cce27a1b93e9c7ba63cbf86a7a5d091b10"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_6.uasset",
+      "sha256": "b31b5b25bfa59bc3a048d28564429d4385e107822d4e3e4f94260956bc301821"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_6_Sprite.uasset",
+      "sha256": "661efe211053b294c9273c9dc192f9eec30d419df85c4c9c073073ac25c809a1"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_7.uasset",
+      "sha256": "cf23619c1c16f4e5f80dd1d98e282cabc522d550779d3d39963a73062ddf51f7"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_idle_front_7_Sprite.uasset",
+      "sha256": "920560b78b32ddd0e217515c8748e6ca63090e995c2ca599c563e5f5cdff0f8d"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down.uasset",
+      "sha256": "33a44971ba2e09d925288295aa695e5f4f5f69fed25f9414c8315988a4b70641"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_0.uasset",
+      "sha256": "04ea02e79b49dd2ad53e6e59728c2d8d0549bc2010d3fe469f6bd2064bde553d"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_0_Sprite.uasset",
+      "sha256": "deee37915e334678d617dacfb559305acf66e694670825ef14508e2e033b1cbb"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_1.uasset",
+      "sha256": "58c89b6e1153e2ea7396a658148d54cebf1a1bed5e15959d51830d880f99ede9"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_1_Sprite.uasset",
+      "sha256": "c33519c904da7fa51afc3765e5007de083ab1109bd2d69c72b15259866bad0cc"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_2.uasset",
+      "sha256": "c1b4161c5542e51f72c65c1f95ee752cef781fccc79dde1c9e61bc1d0f77cd5c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_2_Sprite.uasset",
+      "sha256": "274e21680aee46e154ac550087f7e60c60933da65d0c031f9a12d0f35e6545f8"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_3.uasset",
+      "sha256": "4fe8f6aa42510951403391892bec23c0885a858896048ee2b698991a87474e40"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_3_Sprite.uasset",
+      "sha256": "d9372b8e2db24ec21bcaa65bd1fa42fcc03a35328897f302e8e826ce91459750"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_4.uasset",
+      "sha256": "f9b44d769a48dd59b351e1d36d35cc677dbf360dc949521f2a4d78b1257e3d16"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_4_Sprite.uasset",
+      "sha256": "db20a6510701098b5a133b348dc6eee593e8ead31ddc81325e1b63abb1997220"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_5.uasset",
+      "sha256": "f47662b482ca190c45b13cba9e90ac361824f1457b1075574c9f62846ab2193c"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_5_Sprite.uasset",
+      "sha256": "3e48d040d5c3bca84eb11d83255570a5c5f23157c4b0b45b8f0ab32a89a44ca2"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_6.uasset",
+      "sha256": "f7f269a5907958f3b8671b00dc69b145859bebcb2842552bce02e03ea965f7c2"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_6_Sprite.uasset",
+      "sha256": "8ceaa7c16236ef4b355ec2360ccd47ceeb75fe56154d04e866d42e3edb329eea"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_7.uasset",
+      "sha256": "e5f8ccf6d83f031047d5635a387078a48f44277c370b94688c0f2b19b4c5419e"
+    },
+    {
+      "path": "Content/Art/Sprites/Player/Player/WPlayer/WCh_Walk_down_7_Sprite.uasset",
+      "sha256": "46a16319367af3e489ae7307f458653db581b05ebaf33fede9ae509fd04dc231"
+    }
+  ]
+}

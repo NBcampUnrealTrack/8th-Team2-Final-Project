@@ -1,0 +1,5 @@
+﻿Name,SkillEffectId,SkillId,EffectIndex,EffectType,TargetScope,StackType,AffectedStat,Value,bIsPercent,DurationTurns,DurationScope,MaxPerBattle,Element,ConditionType,ConditionValue,StatusEffectId,Chance,ImplementBy
+17010101,17010101,170101,1,Damage,Enemy,None,AttackPower,100,TRUE,0,Instant,0,,None,,0,0,Data
+17010201,17010201,170102,1,Damage,Enemy,None,AttackPower,140,TRUE,0,Instant,0,,None,,0,0,Data
+17010301,17010301,170103,1,Damage,Enemy,None,AttackPower,120,TRUE,0,Instant,0,,None,,0,0,Data
+17010401,17010401,170104,1,Damage,Enemy,None,AttackPower,200,TRUE,0,Instant,0,,None,,0,0,Data

@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-29",
+  "mode": "built-in image_gen",
+  "reference_asset": "/Game/Developers/MinkiCho/상점_페이지",
+  "reference_role": "style and subject reference",
+  "output_file": "T_Shop_MerchantStallV2.png",
+  "texture_asset": "/Game/Developers/MinkiCho/Art/Shop/Concept20260929/T_Shop_MerchantStallV2",
+  "use": "WBP_ShopPage / MerchantBanner. UMG brush UV crop; original pixels unchanged.",
+  "prompt": "Use the attached game shop screenshot as STYLE AND SUBJECT REFERENCE only. Generate a standalone texture asset: the wide merchant stall illustration at the top center of that screenshot, without ANY UI, lettering, speech bubble, border, tabs, icons or panels. Wide landscape 3:1 composition. Painterly finely detailed fantasy RPG 2.5D art, muted navy and warm amber palette. Small youthful blond human/elf shopkeeper with short tousled hair and red/brown waistcoat stands BEHIND a wooden sales counter at about 30% from left, full head and upper torso visible, not a giant portrait. Merchant head near 50% height. Left quarter a striped faded cream and brown canvas awning, shelves with potion bottles and wooden crates. Right part hanging lanterns, stone wall, parchment notice without legible writing, plants and shelves. Keep middle-right upper area relatively calm dark blue stone wall, to place a separate UMG speech bubble later. Match subject scale, rustic ambiance and visual rendering of the merchant banner in the reference. Fill the frame with stall illustration only; no surrounding shop interface or outdoor field. Crisp readable game art, restrained lighting, no excessive bloom. Important: no cat, no text, no UI. Opaque background. Save project-ready texture."
+}

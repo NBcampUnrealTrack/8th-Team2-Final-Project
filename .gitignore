@@ -1,24 +1,50 @@
+# Unreal Engine generated
 Binaries/
-Build/
 DerivedDataCache/
 Intermediate/
 Saved/
+Build/
 
-*.sln
-*.suo
-*.xcodeproj
-*.xcworkspace
-*.VC.db
-*.VC.VC.opendb
+# Plugin build artifacts (plugins manage their own sources)
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
 
-*.log
-*.tmp
+# TurboLink는 서브모듈(RevStudio/TurboLink)이다.
+# 생성 코드(SRevGame/, pb/)와 대용량 SDK(Source/ThirdParty, 약 6GB) 제외 규칙은
+# 서브모듈 자체의 .gitignore가 담당하므로 여기에 둘 필요가 없다.
+#   최초 세팅:  Scripts/Setup.bat  (SDK 설치 + 생성 코드 만들기)
+#   proto 변경: Scripts/GenerateProto.bat
 
-.DS_Store
+# Visual Studio 가 설치하는 UE 통합 플러그인 (사람마다 설치 여부가 다른 로컬 툴).
+# UE 5.8에서 빌드된 적이 없어 .uproject에서 Enabled=false로 꺼둔 상태다.
+# 켜면 BlueprintGraphClasses.h 를 못 찾아 에디터가 못 뜬다.
+Plugins/VisualStudioTools/
 
-.vscode/
-.idea/
-
-# Visual Studio cache
+# Visual Studio / Rider
 .vs/
-*.ipch
+.idea/
+.vscode/
+*.sln
+*.slnx
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vsconfig
+
+# AI assistant local config (machine-specific)
+.claude/settings.local.json
+.kimi-code/
+
+# Python generated cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local UI authoring and validation scripts
+/Tools/UIHUDPolish/
+
+# OS
+Thumbs.db
+.DS_Store

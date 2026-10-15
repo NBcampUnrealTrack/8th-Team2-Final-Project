@@ -1,0 +1,170 @@
+[
+  {
+    "key": "General",
+    "prompt": "Production UI bitmap asset for ProjectM, refined high-resolution modern fantasy MMORPG over an HD2D world. Flat clean minimal art, not pixel art. Deep navy surfaces #101A2B #17243A, muted blue-gray edge, warm ivory information #EEE7D3, extremely restrained muted champagne accents. No text, no lettering, no watermark, no labels, no mockup, no UI screenshot, no glow, no drop shadow, no 3D perspective. Square PNG with real transparent alpha outside the asset. ONE isolated monochrome warm ivory #EEE7D3 channel glyph on fully transparent background. Centered symbol occupies 76% of canvas with equal padding. Designed to remain clear at 24 pixels. Uniform broad clean strokes, flat smooth precise silhouette, uncomplicated geometric shapes. All gaps and holes transparent. No blue, no shaded bevel, no gradients, no dark outline, no enclosing plate, no decorative frame. A single rounded rectangular speech bubble with short lower-left tail and three evenly spaced round transparent cutout dots.",
+    "generation_tool": "native image_gen",
+    "generated_path": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-b96255ac-cedc-485d-a06c-02bc749a247b.png",
+    "source_file": "ArtSource/UI/ChatRootTheme_20260917/T_ChatRoot_General.png",
+    "asset_path": "/Game/Developers/dongh/UI/Chat/RootTheme/Textures/T_ChatRoot_General",
+    "sha256": "6082b2eb982f0ffc65cca321e0aa187d43f89b45caa88ef74cb7f0805404aa84",
+    "qa": {
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "solid_bbox": [
+        127,
+        240,
+        1126,
+        1076
+      ],
+      "alpha_zero": 944499,
+      "alpha_one": 8596,
+      "pixels_opaque": 2865,
+      "pixel_edits": false
+    }
+  },
+  {
+    "key": "Local",
+    "prompt": "Production UI bitmap asset for ProjectM, refined high-resolution modern fantasy MMORPG over an HD2D world. Flat clean minimal art, not pixel art. Deep navy surfaces #101A2B #17243A, muted blue-gray edge, warm ivory information #EEE7D3, extremely restrained muted champagne accents. No text, no lettering, no watermark, no labels, no mockup, no UI screenshot, no glow, no drop shadow, no 3D perspective. Square PNG with real transparent alpha outside the asset. ONE isolated monochrome warm ivory #EEE7D3 channel glyph on fully transparent background. Centered symbol occupies 76% of canvas with equal padding. Designed to remain clear at 24 pixels. Uniform broad clean strokes, flat smooth precise silhouette, uncomplicated geometric shapes. All gaps and holes transparent. No blue, no shaded bevel, no gradients, no dark outline, no enclosing plate, no decorative frame. A clean location map pin, simple teardrop silhouette pointing down, with one round transparent hole in upper half.",
+    "generation_tool": "native image_gen",
+    "generated_path": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-9a64c95b-c591-4312-b739-415afa4db439.png",
+    "source_file": "ArtSource/UI/ChatRootTheme_20260917/T_ChatRoot_Local.png",
+    "asset_path": "/Game/Developers/dongh/UI/Chat/RootTheme/Textures/T_ChatRoot_Local",
+    "sha256": "e35810bd15463640244ab2b67338f224b7a34e4156f6d1a34f2f2e0c33ea228b",
+    "qa": {
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "solid_bbox": [
+        290,
+        163,
+        964,
+        1090
+      ],
+      "alpha_zero": 1226802,
+      "alpha_one": 2754,
+      "pixels_opaque": 1565,
+      "pixel_edits": false
+    }
+  },
+  {
+    "key": "World",
+    "prompt": "Production UI bitmap asset for ProjectM, refined high-resolution modern fantasy MMORPG over an HD2D world. Flat clean minimal art, not pixel art. Deep navy surfaces #101A2B #17243A, muted blue-gray edge, warm ivory information #EEE7D3, extremely restrained muted champagne accents. No text, no lettering, no watermark, no labels, no mockup, no UI screenshot, no glow, no drop shadow, no 3D perspective. Square PNG with real transparent alpha outside the asset. ONE isolated monochrome warm ivory #EEE7D3 channel glyph on fully transparent background. Centered symbol occupies 76% of canvas with equal padding. Designed to remain clear at 24 pixels. Uniform broad clean strokes, flat smooth precise silhouette, uncomplicated geometric shapes. All gaps and holes transparent. No blue, no shaded bevel, no gradients, no dark outline, no enclosing plate, no decorative frame. A simple globe: continuous round outer ring, one vertical elliptical meridian and one horizontal equator, all with identical bold strokes. Only those lines, no continents.",
+    "generation_tool": "native image_gen",
+    "generated_path": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-454b0182-a47d-4357-a35e-b84b58cea714.png",
+    "source_file": "ArtSource/UI/ChatRootTheme_20260917/T_ChatRoot_World.png",
+    "asset_path": "/Game/Developers/dongh/UI/Chat/RootTheme/Textures/T_ChatRoot_World",
+    "sha256": "871771d9fbb04827f873e99c3fc54755f14bb1c1e09496fc77e25de6e1b0f3fb",
+    "qa": {
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "solid_bbox": [
+        136,
+        138,
+        1118,
+        1121
+      ],
+      "alpha_zero": 1103934,
+      "alpha_one": 137059,
+      "pixels_opaque": 5827,
+      "pixel_edits": false
+    }
+  },
+  {
+    "key": "Party",
+    "prompt": "Production UI bitmap asset for ProjectM, refined high-resolution modern fantasy MMORPG over an HD2D world. Flat clean minimal art, not pixel art. Deep navy surfaces #101A2B #17243A, muted blue-gray edge, warm ivory information #EEE7D3, extremely restrained muted champagne accents. No text, no lettering, no watermark, no labels, no mockup, no UI screenshot, no glow, no drop shadow, no 3D perspective. Square PNG with real transparent alpha outside the asset. ONE isolated monochrome warm ivory #EEE7D3 channel glyph on fully transparent background. Centered symbol occupies 76% of canvas with equal padding. Designed to remain clear at 24 pixels. Uniform broad clean strokes, flat smooth precise silhouette, uncomplicated geometric shapes. All gaps and holes transparent. No blue, no shaded bevel, no gradients, no dark outline, no enclosing plate, no decorative frame. A compact party/group of THREE people: three circular heads above three simple shoulder silhouettes, center figure slightly forward, symmetrical grouping. Clear small separations.",
+    "generation_tool": "native image_gen",
+    "generated_path": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-23fe384d-f5eb-4b67-98dc-92885db524b3.png",
+    "source_file": "ArtSource/UI/ChatRootTheme_20260917/T_ChatRoot_Party.png",
+    "asset_path": "/Game/Developers/dongh/UI/Chat/RootTheme/Textures/T_ChatRoot_Party",
+    "sha256": "ed6204b21da9debf97f5c4fdb561711448c1ec4e0a31d605e1466d93f2828ff4",
+    "qa": {
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "solid_bbox": [
+        110,
+        318,
+        1144,
+        979
+      ],
+      "alpha_zero": 1119890,
+      "alpha_one": 23624,
+      "pixels_opaque": 2495,
+      "pixel_edits": false
+    }
+  },
+  {
+    "key": "Whisper",
+    "prompt": "Production UI bitmap asset for ProjectM, refined high-resolution modern fantasy MMORPG over an HD2D world. Flat clean minimal art, not pixel art. Deep navy surfaces #101A2B #17243A, muted blue-gray edge, warm ivory information #EEE7D3, extremely restrained muted champagne accents. No text, no lettering, no watermark, no labels, no mockup, no UI screenshot, no glow, no drop shadow, no 3D perspective. Square PNG with real transparent alpha outside the asset. ONE isolated monochrome warm ivory #EEE7D3 channel glyph on fully transparent background. Centered symbol occupies 76% of canvas with equal padding. Designed to remain clear at 24 pixels. Uniform broad clean strokes, flat smooth precise silhouette, uncomplicated geometric shapes. All gaps and holes transparent. No blue, no shaded bevel, no gradients, no dark outline, no enclosing plate, no decorative frame. Two overlapping compact speech bubbles, one upper-left and one lower-right, two clear opposing tails, empty interiors with transparent holes, broad consistent outline strokes.",
+    "generation_tool": "native image_gen",
+    "generated_path": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-f032c77f-e0cd-4f88-b55c-ee98fc8de278.png",
+    "source_file": "ArtSource/UI/ChatRootTheme_20260917/T_ChatRoot_Whisper.png",
+    "asset_path": "/Game/Developers/dongh/UI/Chat/RootTheme/Textures/T_ChatRoot_Whisper",
+    "sha256": "92b01b190509b775845cc19359cb67036ebdce89f8fca417a41efe741371d273",
+    "qa": {
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "solid_bbox": [
+        125,
+        173,
+        1139,
+        1098
+      ],
+      "alpha_zero": 1320341,
+      "alpha_one": 26525,
+      "pixels_opaque": 2778,
+      "pixel_edits": false
+    }
+  },
+  {
+    "key": "System",
+    "prompt": "Production UI bitmap asset for ProjectM, refined high-resolution modern fantasy MMORPG over an HD2D world. Flat clean minimal art, not pixel art. Deep navy surfaces #101A2B #17243A, muted blue-gray edge, warm ivory information #EEE7D3, extremely restrained muted champagne accents. No text, no lettering, no watermark, no labels, no mockup, no UI screenshot, no glow, no drop shadow, no 3D perspective. Square PNG with real transparent alpha outside the asset. ONE isolated monochrome warm ivory #EEE7D3 channel glyph on fully transparent background. Centered symbol occupies 76% of canvas with equal padding. Designed to remain clear at 24 pixels. Uniform broad clean strokes, flat smooth precise silhouette, uncomplicated geometric shapes. All gaps and holes transparent. No blue, no shaded bevel, no gradients, no dark outline, no enclosing plate, no decorative frame. A simple notification bell silhouette with a small top knob, smoothly domed body, a horizontal lip and one separated round clapper below. No sound rays, no extra marks.",
+    "generation_tool": "native image_gen",
+    "generated_path": "C:\\Users\\user\\AppData\\Roaming\\reddy-ide\\codex-runtime-home\\home\\generated_images\\01a0a9b3-6c50-72a2-b422-cf4905c02440\\exec-61904137-7a0e-4267-9491-78dd0160da54.png",
+    "source_file": "ArtSource/UI/ChatRootTheme_20260917/T_ChatRoot_System.png",
+    "asset_path": "/Game/Developers/dongh/UI/Chat/RootTheme/Textures/T_ChatRoot_System",
+    "sha256": "544c78e1a5886872953ff54ae16c78f852b3d6440ce153640a9b95e1ec45f8ed",
+    "qa": {
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "solid_bbox": [
+        218,
+        152,
+        1036,
+        1102
+      ],
+      "alpha_zero": 1147852,
+      "alpha_one": 6123,
+      "pixels_opaque": 1172,
+      "pixel_edits": false
+    }
+  }
+]

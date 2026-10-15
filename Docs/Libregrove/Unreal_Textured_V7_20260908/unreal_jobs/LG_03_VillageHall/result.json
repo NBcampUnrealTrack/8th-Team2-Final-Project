@@ -1,0 +1,19 @@
+{
+  "status": "finished",
+  "id": "LG_03_VillageHall",
+  "destination": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall",
+  "objects": [
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/Textures/LG_03_VillageHall_fbx_basecolor.LG_03_VillageHall_fbx_basecolor",
+      "class": "Texture2D"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/Materials/tripo_mat_7a88dfe0.tripo_mat_7a88dfe0",
+      "class": "Material"
+    },
+    {
+      "path": "/Game/Libregrove/Textured_V7/Models/LG_03_VillageHall/StaticMeshes/SM_LG_03_VillageHall_V7.SM_LG_03_VillageHall_V7",
+      "class": "StaticMesh"
+    }
+  ]
+}

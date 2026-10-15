@@ -1,0 +1,14 @@
+PROJECT: opening prologue of "Naia Unbounds", a cozy fantasy creature-companion RPG rendered in HD-2D pixel art (pixel sprites in a softly lit diorama, like Octopath Traveler / Sea of Stars). The prologue is a 4-picture "pixel storybook" told in second person: an abandoned newborn is raised by spirits in a spirit-only forest, grows up, and finally walks out into the human world, where people call the spirits "Naia".
+
+STYLE (identical for every picture of the set):
+- High quality hand-crafted PIXEL ART illustration. Clean, consistent square pixels as if drawn on a 704x396 canvas and enlarged with nearest-neighbour; NO blurry gradients, NO painterly brush smears, NO photo texture, NO 3D render look.
+- Limited palette (about 48 colours) with soft HD-2D lighting: glowing light sources get a gentle pixel bloom halo, cool shadows, warm highlights.
+- Storybook memory mood: slightly muted, gentle vignette toward the corners, calm and tender, never scary or grim.
+- The spirits are FORMLESS GLOWING WISPS of light (pale teal, soft gold, rose, mint). A few wisps only HINT at small round creature silhouettes (a seal-like tail, round ears, a little cloud puff, a leaf sprout) inspired by the attached creature sprite sheet, but they must stay luminous and featureless: no eyes, no faces, no outlines of actual characters.
+- Human figures are always seen from behind or far away, faces never visible, gender-ambiguous, simple undyed linen clothes.
+- Canvas: landscape. Compose for a 16:9 frame; keep all important content inside the central 16:9 band (anything in the outer top/bottom strips may be cropped). Keep the lowest ~20% of the 16:9 frame calm and darker because white subtitle text will sit there.
+- STRICTLY NO text, letters, numbers, logos, signatures, watermarks, borders, frames, UI, speech bubbles.
+
+REFERENCES ATTACHED:
+1) An in-game screenshot of the human village (timber houses, slate roofs, cobblestone, warm lamps). Use it only for the human-world architecture and the overall pixel density/lighting feel.
+2) A sheet of the game's creature ("Naia") sprites. Use only as the faint shape-hints inside the spirit wisps, never draw them literally.

@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-30",
+  "reference_asset": "/Game/Developers/MinkiCho/대화_패널2",
+  "method": "built-in image_gen",
+  "prompt_file": "panel_prompt.txt",
+  "image_file": "T_Dialogue_Panel2.png",
+  "image_sha256": "27df1e2dcf2847a2ab0ff7eaaf13636e13b1b3a15829a67114fe5d0265b15771",
+  "pixel_size": [
+    2040,
+    771
+  ],
+  "postprocessing": "none; original alpha preserved; UMG brush UV crops transparent padding",
+  "brush_uv": [
+    0,
+    0.20752269779507135,
+    1,
+    0.7600518806744487
+  ],
+  "unreal_asset": "/Game/Developers/MinkiCho/Art/Dialogue/Panel2/T_Dialogue_Panel2",
+  "widget_asset": "/Game/Developers/zxcv1/Dialogue/UI/WBP_DialogueWidget",
+  "option_widget": "/Game/Developers/MinkiCho/UI/Dialogue/WBP_DialogueOptionEntryPanel2",
+  "shared_original_option_widget_unchanged": true,
+  "final_screenshot": "Saved/DialoguePanel2_20260930/final_panel200000.png",
+  "native_code_and_dialogue_data_changed": false,
+  "panel1_reference_preserved": true,
+  "panel1_switch_preset_implemented": false
+}

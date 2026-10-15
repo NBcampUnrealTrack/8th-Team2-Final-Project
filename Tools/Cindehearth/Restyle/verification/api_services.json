@@ -1,0 +1,290 @@
+{
+  "success": true,
+  "classes": [
+    {
+      "success": true,
+      "class_name": "MaterialService",
+      "full_path": "unreal.MaterialService",
+      "doc_string": "Material service exposed directly to Python.\n\nProvides 26 material management actions:\n\nLifecycle:\n- create: Create a new material asset\n- create_instance: Create a material instance from a parent\n- save: Save material to disk\n- compile: Compile/rebuild material shaders\n- refresh_editor: Refresh open Material Editor\n- open: Open material in editor\n\nInformation:\n- get_info: Get comprehensive material information\n- summarize: Get AI-friendly material summary\n- list_properties: List all editable properties\n- get_property: Get a property value\n- get_property_info: Get detailed property metadata\n\nProperty Management:\n- set_property: Set a single property value\n- set_properties: Set multiple properties at once\n\nParameter Management:\n- list_parameters: List all material parameters\n- get_parameter: Get a parameter's value and info\n- set_parameter_default: Set a parameter's default value\n\nInstance Information:\n- get_instance_info: Get material instance information\n- list_instance_properties: List instance editable properties\n- get_instance_property: Get an instance property value\n- set_instance_property: Set an instance property value\n\nInstance Parameters:\n- list_instance_parameters: List instance parameter overrides\n- set_instance_scalar_parameter: Set scalar parameter override\n- set_instance_vector_parameter: Set vector/color parameter override\n- set_instance_texture_parameter: Set texture parameter override\n- clear_instance_parameter_override: Clear parameter override\n- save_instance: Save material instance to disk\n\nPython Usage:\n  import unreal\n\n  # Create a material\n  result = unreal.MaterialService.create_material(\"M_NewMaterial\", \"/Game/Materials\")\n\n  # Create material instance\n  result = unreal.MaterialService.create_instance(\"/Game/Materials/M_Base\", \"MI_Red\", \"/Game/Materials\")\n\n  # Set instance parameter\n  unreal.MaterialService.set_instance_vector_parameter(\"/Game/MI_Red\", \"BaseColor\", 1.0, 0.0, 0.0, 1.0)\r\nnote: This replaces the JSON-based manage_material MCP tool\r\n\r\n**C++ Source:**\r\n\r\n- **Plugin**: Revvy\r\n- **Module**: Revvy\r\n- **File**: UMaterialService.h\r",
+      "base_classes": [
+        "Object",
+        "_ObjectBase",
+        "_WrapperBase",
+        "object"
+      ],
+      "methods": [
+        {
+          "name": "set_property",
+          "signature": "(material_path, property_name, property_value) -> bool",
+          "docstring": "X.set_property(material_path, property_name, property_value) -> bool\r\nSet a material property value.\nMaps to action=\"set_property\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    property_name (str): Name of the property\r\n    property_value (str): New value as string\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_parameter_default",
+          "signature": "(material_path, parameter_name, default_value) -> bool",
+          "docstring": "X.set_parameter_default(material_path, parameter_name, default_value) -> bool\r\nSet a parameter's default value.\nMaps to action=\"set_parameter_default\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    parameter_name (str): Name of the parameter\r\n    default_value (str): New default value as string\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_instance_vector_parameter",
+          "signature": "(instance_path, parameter_name, r, g, b, a=1.000000) -> bool",
+          "docstring": "X.set_instance_vector_parameter(instance_path, parameter_name, r, g, b, a=1.000000) -> bool\r\nSet a vector/color parameter override on a material instance.\nMaps to action=\"set_instance_vector_parameter\"\r\n\r\nArgs:\r\n    instance_path (str): Full path to the material instance\r\n    parameter_name (str): Name of the parameter\r\n    r (float): Red component (0.0-1.0)\r\n    g (float): Green component (0.0-1.0)\r\n    b (float): Blue component (0.0-1.0)\r\n    a (float): Alpha component (0.0-1.0)\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_instance_texture_parameter",
+          "signature": "(instance_path, parameter_name, texture_path) -> bool",
+          "docstring": "X.set_instance_texture_parameter(instance_path, parameter_name, texture_path) -> bool\r\nSet a texture parameter override on a material instance.\nMaps to action=\"set_instance_texture_parameter\"\r\n\r\nArgs:\r\n    instance_path (str): Full path to the material instance\r\n    parameter_name (str): Name of the parameter\r\n    texture_path (str): Path to the texture asset (empty to clear)\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_instance_scalar_parameter",
+          "signature": "(instance_path, parameter_name, value) -> bool",
+          "docstring": "X.set_instance_scalar_parameter(instance_path, parameter_name, value) -> bool\r\nSet a scalar parameter override on a material instance.\nMaps to action=\"set_instance_scalar_parameter\"\r\n\r\nArgs:\r\n    instance_path (str): Full path to the material instance\r\n    parameter_name (str): Name of the parameter\r\n    value (float): New scalar value\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_instance_property",
+          "signature": "(instance_path, property_name, property_value) -> bool",
+          "docstring": "X.set_instance_property(instance_path, property_name, property_value) -> bool\r\nSet a material instance property value.\nMaps to action=\"set_instance_property\"\r\n\r\nArgs:\r\n    instance_path (str): Full path to the material instance\r\n    property_name (str): Name of the property\r\n    property_value (str): New value as string\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_instance_parameters_bulk",
+          "signature": "(instance_path, names, types, values) -> int32",
+          "docstring": "X.set_instance_parameters_bulk(instance_path, names, types, values) -> int32\r\nSet multiple parameters on a material instance in one call.\nMaps to action=\"set_instance_parameters_bulk\"\n\nSupports Scalar, Vector, Texture, and StaticSwitch parameter types.\nMuch more efficient than calling individual set methods for instances\nwith many parameters (e.g., Real_Landscape master materials with 50+ params).\r\n\r\nArgs:\r\n    instance_path (str): Full path to the material instance\r\n    names (Array[str]): Array of parameter names\r\n    types (Array[str]): Array of parameter types (\"Scalar\", \"Vector\", \"Texture\", \"StaticSwitch\")\r\n    values (Array[str]): Array of values as strings. For Scalar: \"0.5\". For Vector: \"(R=1,G=0,B=0,A=1)\". For Texture: \"/Game/Textures/T_Tex\". For StaticSwitch: \"true\"/\"false\".\r\n\r\nReturns:\r\n    int32: Number of parameters successfully set Example: count = unreal.MaterialService.set_instance_parameters_bulk( \"/Game/Materials/MI_Landscape\", [\"Tiling\", \"BaseColor\", \"DiffuseTexture\", \"UseSnow\"], [\"Scalar\", \"Vector\", \"Texture\", \"StaticSwitch\"], [\"0.01\", \"(R=0.2,G=0.5,B=0.1,A=1)\", \"/Game/T_Grass_BC\", \"true\"]"
+        },
+        {
+          "name": "parameter_exists",
+          "signature": "(material_path, parameter_name) -> bool",
+          "docstring": "X.parameter_exists(material_path, parameter_name) -> bool\r\nCheck if a parameter exists in a material.\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    parameter_name (str): Name of the parameter (case-insensitive)\r\n\r\nReturns:\r\n    bool: True if parameter exists Example: if not unreal.MaterialService.parameter_exists(\"/Game/Materials/M_Base\", \"BaseColor\"): # Add the parameter node"
+        },
+        {
+          "name": "list_parameters",
+          "signature": "(material_path) -> Array[MaterialParameterInfo_Custom]",
+          "docstring": "X.list_parameters(material_path) -> Array[MaterialParameterInfo_Custom]\r\nList all parameters in a material.\nMaps to action=\"list_parameters\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n\r\nReturns:\r\n    Array[MaterialParameterInfo_Custom]: Array of parameter information"
+        },
+        {
+          "name": "list_instance_parameters",
+          "signature": "(instance_path) -> Array[MaterialParameterInfo_Custom]",
+          "docstring": "X.list_instance_parameters(instance_path) -> Array[MaterialParameterInfo_Custom]\r\nList all parameter overrides in a material instance.\nMaps to action=\"list_instance_parameters\"\r\n\r\nArgs:\r\n    instance_path (str): Full path to the material instance\r\n\r\nReturns:\r\n    Array[MaterialParameterInfo_Custom]: Array of parameter information with override status"
+        },
+        {
+          "name": "get_property_info",
+          "signature": "(material_path, property_name) -> MaterialPropertyInfo_Custom",
+          "docstring": "X.get_property_info(material_path, property_name) -> MaterialPropertyInfo_Custom or None\r\nGet detailed property metadata.\nMaps to action=\"get_property_info\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    property_name (str): Name of the property\r\n\r\nReturns:\r\n    MaterialPropertyInfo_Custom or None: True if successful\r\n\r\n    out_info (MaterialPropertyInfo_Custom): Detailed property information"
+        },
+        {
+          "name": "get_property",
+          "signature": "(material_path, property_name) -> str",
+          "docstring": "X.get_property(material_path, property_name) -> str\r\nGet a material property value.\nMaps to action=\"get_property\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    property_name (str): Name of the property\r\n\r\nReturns:\r\n    str: Property value as string"
+        },
+        {
+          "name": "get_parameter",
+          "signature": "(material_path, parameter_name) -> MaterialParameterInfo_Custom",
+          "docstring": "X.get_parameter(material_path, parameter_name) -> MaterialParameterInfo_Custom or None\r\nGet a specific parameter's value and info.\nMaps to action=\"get_parameter\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    parameter_name (str): Name of the parameter\r\n\r\nReturns:\r\n    MaterialParameterInfo_Custom or None: True if found\r\n\r\n    out_info (MaterialParameterInfo_Custom): Parameter information"
+        },
+        {
+          "name": "get_instance_property",
+          "signature": "(instance_path, property_name) -> str",
+          "docstring": "X.get_instance_property(instance_path, property_name) -> str\r\nGet a material instance property value.\nMaps to action=\"get_instance_property\"\r\n\r\nArgs:\r\n    instance_path (str): Full path to the material instance\r\n    property_name (str): Name of the property\r\n\r\nReturns:\r\n    str: Property value as string"
+        },
+        {
+          "name": "create_material",
+          "signature": "(material_name, destination_path) -> MaterialCreateResult",
+          "docstring": "X.create_material(material_name, destination_path) -> MaterialCreateResult\r\nCreate a new material asset.\nMaps to action=\"create\"\r\n\r\nArgs:\r\n    material_name (str): Name for the new material\r\n    destination_path (str): Path where to create the asset (e.g., \"/Game/Materials\")\r\n\r\nReturns:\r\n    MaterialCreateResult: Create result with asset path"
+        },
+        {
+          "name": "create_instance",
+          "signature": "(parent_material_path, instance_name, destination_path) -> MaterialCreateResult",
+          "docstring": "X.create_instance(parent_material_path, instance_name, destination_path) -> MaterialCreateResult\r\nCreate a material instance from a parent material.\nMaps to action=\"create_instance\"\r\n\r\nArgs:\r\n    parent_material_path (str): Full path to the parent material\r\n    instance_name (str): Name for the new instance\r\n    destination_path (str): Path where to create the instance\r\n\r\nReturns:\r\n    MaterialCreateResult: Create result with asset path"
+        },
+        {
+          "name": "compile_material",
+          "signature": "(material_path) -> bool",
+          "docstring": "X.compile_material(material_path) -> bool\r\nCompile/rebuild a material's shaders.\nMaps to action=\"compile\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "clear_instance_parameter_override",
+          "signature": "(instance_path, parameter_name) -> bool",
+          "docstring": "X.clear_instance_parameter_override(instance_path, parameter_name) -> bool\r\nClear a parameter override on a material instance.\nMaps to action=\"clear_instance_parameter_override\"\r\n\r\nArgs:\r\n    instance_path (str): Full path to the material instance\r\n    parameter_name (str): Name of the parameter to clear\r\n\r\nReturns:\r\n    bool: True if successful"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "success": true,
+      "class_name": "MaterialNodeService",
+      "full_path": "unreal.MaterialNodeService",
+      "doc_string": "Material Node Service\r\n\r\n**C++ Source:**\r\n\r\n- **Plugin**: Revvy\r\n- **Module**: Revvy\r\n- **File**: UMaterialNodeService.h\r",
+      "base_classes": [
+        "Object",
+        "_ObjectBase",
+        "_WrapperBase",
+        "object"
+      ],
+      "methods": [
+        {
+          "name": "set_parameter_metadata",
+          "signature": "(material_path, expression_id, group_name, sort_priority=0) -> bool",
+          "docstring": "X.set_parameter_metadata(material_path, expression_id, group_name, sort_priority=0) -> bool\r\nSet parameter metadata (group, sort priority).\nMaps to action=\"set_parameter_metadata\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    expression_id (str): Parameter expression ID\r\n    group_name (str): New group name\r\n    sort_priority (int32): Sort priority within group\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_function_expression_property",
+          "signature": "(function_path, expression_id, property_name, property_value) -> bool",
+          "docstring": "X.set_function_expression_property(function_path, expression_id, property_name, property_value) -> bool\r\nSet a property on an expression inside a Material Function's graph.\nMaps to action=\"set_function_expression_property\"\n\nLike SetExpressionProperty but operates on a UMaterialFunction.\r\n\r\nArgs:\r\n    function_path (str): Full asset path to the UMaterialFunction\r\n    expression_id (str): Expression ID\r\n    property_name (str): Property name\r\n    property_value (str): Value as string\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "set_expression_property",
+          "signature": "(material_path, expression_id, property_name, property_value) -> bool",
+          "docstring": "X.set_expression_property(material_path, expression_id, property_name, property_value) -> bool\r\nSet a property value on an expression.\nMaps to action=\"set_property\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    expression_id (str): ID of expression\r\n    property_name (str): Property name\r\n    property_value (str): Value as string\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "promote_to_parameter",
+          "signature": "(material_path, expression_id, parameter_name, group_name=\"\") -> MaterialExpressionInfo",
+          "docstring": "X.promote_to_parameter(material_path, expression_id, parameter_name, group_name=\"\") -> MaterialExpressionInfo\r\nPromote a constant expression to a parameter.\nMaps to action=\"promote_to_parameter\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    expression_id (str): Expression to promote (must be Constant, Constant3Vector, etc.)\r\n    parameter_name (str): Name for the new parameter\r\n    group_name (str): Optional parameter group\r\n\r\nReturns:\r\n    MaterialExpressionInfo: New parameter expression info"
+        },
+        {
+          "name": "list_connections",
+          "signature": "(material_path) -> Array[MaterialNodeConnectionInfo]",
+          "docstring": "X.list_connections(material_path) -> Array[MaterialNodeConnectionInfo]\r\nList all connections in a material.\nMaps to action=\"list_connections\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n\r\nReturns:\r\n    Array[MaterialNodeConnectionInfo]: Array of connection info"
+        },
+        {
+          "name": "get_output_connections",
+          "signature": "(material_path) -> Array[MaterialOutputConnectionInfo]",
+          "docstring": "X.get_output_connections(material_path) -> Array[MaterialOutputConnectionInfo]\r\nGet current connections to material outputs.\nMaps to action=\"get_output_connections\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n\r\nReturns:\r\n    Array[MaterialOutputConnectionInfo]: Array of output connection info"
+        },
+        {
+          "name": "get_material_diagnostics",
+          "signature": "(material_path) -> MaterialDiagnostics",
+          "docstring": "X.get_material_diagnostics(material_path) -> MaterialDiagnostics\r\nComprehensive material diagnostic — compile status, errors, and the textures the\nshader actually references. Reliable replacement for `get_used_textures`.\n\nUse this after building a material graph to verify it compiles cleanly and samples\nthe expected textures. Particularly useful for materials with `MaterialFunctionCall`\nnodes (triplanar / world-aligned), where `MaterialEditingLibrary.get_used_textures`\nsilently returns 0.\r\n\r\nArgs:\r\n    material_path (str): \r\n\r\nReturns:\r\n    MaterialDiagnostics:"
+        },
+        {
+          "name": "get_expression_property",
+          "signature": "(material_path, expression_id, property_name) -> str",
+          "docstring": "X.get_expression_property(material_path, expression_id, property_name) -> str\r\nGet a property value from an expression.\nMaps to action=\"get_property\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    expression_id (str): ID of expression\r\n    property_name (str): Property name\r\n\r\nReturns:\r\n    str: Property value as string"
+        },
+        {
+          "name": "disconnect_output",
+          "signature": "(material_path, material_property) -> bool",
+          "docstring": "X.disconnect_output(material_path, material_property) -> bool\r\nDisconnect a material output property.\nMaps to action=\"disconnect_output\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    material_property (str): Property name to disconnect\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "disconnect_input",
+          "signature": "(material_path, expression_id, input_name) -> bool",
+          "docstring": "X.disconnect_input(material_path, expression_id, input_name) -> bool\r\nDisconnect an input on an expression.\nMaps to action=\"disconnect\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    expression_id (str): Expression with the input\r\n    input_name (str): Input to disconnect\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "create_parameter",
+          "signature": "(material_path, parameter_type, parameter_name, group_name=\"\", default_value=\"\", pos_x=0, pos_y=0) -> MaterialExpressionInfo",
+          "docstring": "X.create_parameter(material_path, parameter_type, parameter_name, group_name=\"\", default_value=\"\", pos_x=0, pos_y=0) -> MaterialExpressionInfo\r\nCreate a parameter expression directly.\nMaps to action=\"create_parameter\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    parameter_type (str): Type: \"Scalar\", \"Vector\", \"Texture\", \"TextureObject\", \"StaticBool\", \"StaticSwitch\"\r\n    parameter_name (str): Name for the parameter\r\n    group_name (str): Optional parameter group\r\n    default_value (str): Default value as string. For Scalar: \"0.5\". For Vector/Color: \"(R=1.0,G=0.0,B=0.0,A=1.0)\" or \"1.0,0.0,0.0,1.0\" or \"1.0,0.0,0.0\" (alpha defaults to 1.0) or \"1.0/0.0/0.0\". For StaticBool/StaticSwitch: \"true\"/\"false\". For Texture/TextureObject: asset path \"/Game/Textures/T_Tex\"\r\n    pos_x (int32): X position in graph\r\n    pos_y (int32): Y position in graph\r\n\r\nReturns:\r\n    MaterialExpressionInfo: Created parameter info"
+        },
+        {
+          "name": "create_material_function",
+          "signature": "(function_name, directory_path, description=\"\", expose_to_library=False) -> MaterialCreateResult",
+          "docstring": "X.create_material_function(function_name, directory_path, description=\"\", expose_to_library=False) -> MaterialCreateResult\r\nCreate a new Material Function asset.\nMaps to action=\"create_material_function\"\n\nCreates an empty UMaterialFunction that can be populated with\nexpressions, inputs, and outputs. Use add_function_input/output\nto define the function's interface.\r\n\r\nArgs:\r\n    function_name (str): Name for the new function asset\r\n    directory_path (str): Content directory to create it in\r\n    description (str): Optional description text\r\n    expose_to_library (bool): If true, function appears in the material function library\r\n\r\nReturns:\r\n    MaterialCreateResult: Create result with asset path Example: result = unreal.MaterialNodeService.create_material_function(\"MF_MyLayer\", \"/Game/Materials/Functions\", \"Custom layer blending function\", True)"
+        },
+        {
+          "name": "create_function_expression",
+          "signature": "(function_path, expression_class, pos_x=0, pos_y=0) -> MaterialExpressionInfo",
+          "docstring": "X.create_function_expression(function_path, expression_class, pos_x=0, pos_y=0) -> MaterialExpressionInfo\r\nCreate a material expression inside a Material Function's graph.\nMaps to action=\"create_function_expression\"\n\nLike CreateExpression but operates on a UMaterialFunction instead of UMaterial.\r\n\r\nArgs:\r\n    function_path (str): Full asset path to the UMaterialFunction\r\n    expression_class (str): Class name (e.g., \"Add\", \"Multiply\", \"TextureSample\")\r\n    pos_x (int32): X position in graph\r\n    pos_y (int32): Y position in graph\r\n\r\nReturns:\r\n    MaterialExpressionInfo: Created expression info Example: node = unreal.MaterialNodeService.create_function_expression(\"/Game/MF_MyLayer\", \"Multiply\", -200, 0)"
+        },
+        {
+          "name": "create_function_call",
+          "signature": "(material_path, function_path, pos_x=0, pos_y=0) -> MaterialExpressionInfo",
+          "docstring": "X.create_function_call(material_path, function_path, pos_x=0, pos_y=0) -> MaterialExpressionInfo\r\nCreate a MaterialFunctionCall expression referencing a material function asset.\nMaps to action=\"create_function_call\"\n\nThe function reference is loaded and set automatically, which creates the\ncorrect input/output pins matching the function's interface.\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    function_path (str): Full path to the material function asset (e.g., \"/Engine/Functions/Engine_MaterialFunctions03/Procedurals/NoiseFunctions\")\r\n    pos_x (int32): X position in graph\r\n    pos_y (int32): Y position in graph\r\n\r\nReturns:\r\n    MaterialExpressionInfo: Created expression info with function's inputs/outputs Example: func = unreal.MaterialNodeService.create_function_call(\"/Game/M_Test\", \"/Game/MF_TerrainLayer\", -500, 0)"
+        },
+        {
+          "name": "create_expression",
+          "signature": "(material_path, expression_class, pos_x=0, pos_y=0) -> MaterialExpressionInfo",
+          "docstring": "X.create_expression(material_path, expression_class, pos_x=0, pos_y=0) -> MaterialExpressionInfo\r\nCreate a new material expression.\nMaps to action=\"create\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    expression_class (str): Class name (e.g., \"Constant3Vector\", \"MaterialExpressionAdd\")\r\n    pos_x (int32): X position in graph\r\n    pos_y (int32): Y position in graph\r\n\r\nReturns:\r\n    MaterialExpressionInfo: Created expression info (empty if failed)"
+        },
+        {
+          "name": "create_custom_expression",
+          "signature": "(material_path, code, output_type=\"CMOT_Float3\", description=\"Custom\", input_names=\"\", pos_x=0, pos_y=0) -> MaterialExpressionInfo",
+          "docstring": "X.create_custom_expression(material_path, code, output_type=\"CMOT_Float3\", description=\"Custom\", input_names=\"\", pos_x=0, pos_y=0) -> MaterialExpressionInfo\r\nCreate a Custom HLSL expression node with code, output type, and optional inputs.\nMaps to action=\"create_custom_expression\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    code (str): HLSL code string (e.g., \"return Input0 * 2.0;\")\r\n    output_type (str): Output type: \"CMOT_Float1\", \"CMOT_Float2\", \"CMOT_Float3\", \"CMOT_Float4\", \"CMOT_MaterialAttributes\"\r\n    description (str): Display name for the node\r\n    input_names (str): Comma-separated custom input names (e.g., \"Albedo,Mask,UV\") or empty for no custom inputs\r\n    pos_x (int32): X position in graph\r\n    pos_y (int32): Y position in graph\r\n\r\nReturns:\r\n    MaterialExpressionInfo: Created expression info Example: node = unreal.MaterialNodeService.create_custom_expression(\"/Game/M_Test\", \"return Input0 * 2;\", \"CMOT_Float3\", \"DoubleIt\", \"Color\", -500, 0)"
+        },
+        {
+          "name": "create_collection_parameter",
+          "signature": "(material_path, collection_path, parameter_name, pos_x=0, pos_y=0) -> MaterialExpressionInfo",
+          "docstring": "X.create_collection_parameter(material_path, collection_path, parameter_name, pos_x=0, pos_y=0) -> MaterialExpressionInfo\r\nCreate a CollectionParameter expression referencing a MaterialParameterCollection.\nMaps to action=\"create_collection_parameter\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    collection_path (str): Full path to the MaterialParameterCollection asset\r\n    parameter_name (str): Name of the parameter within the collection to use\r\n    pos_x (int32): X position in graph\r\n    pos_y (int32): Y position in graph\r\n\r\nReturns:\r\n    MaterialExpressionInfo: Created expression info Example: node = unreal.MaterialNodeService.create_collection_parameter(\"/Game/M_Test\", \"/Game/MPC_Weather\", \"WindStrength\", -500, 0)"
+        },
+        {
+          "name": "connect_to_output",
+          "signature": "(material_path, expression_id, output_name, material_property) -> bool",
+          "docstring": "X.connect_to_output(material_path, expression_id, output_name, material_property) -> bool\r\nConnect an expression output to a material property (BaseColor, Roughness, etc.).\nMaps to action=\"connect_to_output\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    expression_id (str): Source expression ID\r\n    output_name (str): Output name (empty for first output)\r\n    material_property (str): Property name (BaseColor, Metallic, Roughness, etc.)\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "connect_function_expressions",
+          "signature": "(function_path, source_expression_id, source_output, target_expression_id, target_input) -> bool",
+          "docstring": "X.connect_function_expressions(function_path, source_expression_id, source_output, target_expression_id, target_input) -> bool\r\nConnect two expressions inside a Material Function's graph.\nMaps to action=\"connect_function_expressions\"\n\nLike ConnectExpressions but operates on a UMaterialFunction.\r\n\r\nArgs:\r\n    function_path (str): Full asset path to the UMaterialFunction\r\n    source_expression_id (str): Source expression ID\r\n    source_output (str): Output name (empty for first output)\r\n    target_expression_id (str): Target expression ID\r\n    target_input (str): Input name on target\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "connect_expressions",
+          "signature": "(material_path, source_expression_id, source_output, target_expression_id, target_input) -> bool",
+          "docstring": "X.connect_expressions(material_path, source_expression_id, source_output, target_expression_id, target_input) -> bool\r\nConnect two material expressions.\nMaps to action=\"connect\"\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    source_expression_id (str): Source expression ID\r\n    source_output (str): Output name (empty for first output)\r\n    target_expression_id (str): Target expression ID\r\n    target_input (str): Input name on target\r\n\r\nReturns:\r\n    bool: True if successful"
+        },
+        {
+          "name": "batch_create_specialized",
+          "signature": "(material_path, descriptors) -> Array[MaterialExpressionInfo]",
+          "docstring": "X.batch_create_specialized(material_path, descriptors) -> Array[MaterialExpressionInfo]\r\nBatch-create expressions of all types (including specialized) in one transaction.\nMaps to action=\"batch_create_specialized\"\n\nSupports generic expressions, MaterialFunctionCall (with function path),\nCustom HLSL (with code, output type, inputs), and CollectionParameter\n(with collection path and parameter name). All created in a single transaction\nwith one graph refresh for 10-100x speedup.\n\nFor generic expressions, only ClassName/PosX/PosY are needed.\nFor MaterialFunctionCall, also set FunctionPath.\nFor Custom, also set HLSLCode, HLSLOutputType, HLSLDescription, HLSLInputNames.\nFor CollectionParameter, also set CollectionPath, CollectionParamName.\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    descriptors (Array[BatchCreateDescriptor]): Array of creation descriptors\r\n\r\nReturns:\r\n    Array[MaterialExpressionInfo]: Array of created expression info in same order (empty entries on failure) Example: descs = [FBatchCreateDescriptor(ClassName=\"Multiply\", PosX=-400, PosY=0), FBatchCreateDescriptor(ClassName=\"MaterialFunctionCall\", PosX=-600, PosY=0, FunctionPath=\"/Game/MF_Test\")] nodes = unreal.MaterialNodeService.batch_create_specialized(\"/Game/M_Test\", descs)"
+        },
+        {
+          "name": "batch_create_expressions",
+          "signature": "(material_path, expression_classes, pos_x_array, pos_y_array) -> Array[MaterialExpressionInfo]",
+          "docstring": "X.batch_create_expressions(material_path, expression_classes, pos_x_array, pos_y_array) -> Array[MaterialExpressionInfo]\r\nBatch-create multiple expressions in one call for performance.\nMaps to action=\"batch_create\"\n\nAll nodes are created in a single transaction with one graph refresh,\nyielding 10-100x speedup over individual create calls for large materials.\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    expression_classes (Array[str]): Array of class names (e.g., [\"Add\", \"Multiply\", \"Constant\"])\r\n    pos_x_array (Array[int32]): Array of X positions (same length as ExpressionClasses)\r\n    pos_y_array (Array[int32]): Array of Y positions (same length as ExpressionClasses)\r\n\r\nReturns:\r\n    Array[MaterialExpressionInfo]: Array of created expression info in same order Example: nodes = unreal.MaterialNodeService.batch_create_expressions(\"/Game/M_Test\", [\"Add\",\"Multiply\",\"Constant\"], [-300,-200,-100], [0,200,400])"
+        },
+        {
+          "name": "batch_connect_expressions",
+          "signature": "(material_path, source_ids, source_outputs, target_ids, target_inputs) -> int32",
+          "docstring": "X.batch_connect_expressions(material_path, source_ids, source_outputs, target_ids, target_inputs) -> int32\r\nBatch-connect multiple expression pairs in one call.\nMaps to action=\"batch_connect\"\n\nAll connections are made in a single transaction with one graph refresh.\r\n\r\nArgs:\r\n    material_path (str): Full path to the material\r\n    source_ids (Array[str]): Array of source expression IDs\r\n    source_outputs (Array[str]): Array of source output names (empty string for first output)\r\n    target_ids (Array[str]): Array of target expression IDs\r\n    target_inputs (Array[str]): Array of target input names\r\n\r\nReturns:\r\n    int32: Number of successful connections Example: count = unreal.MaterialNodeService.batch_connect_expressions(\"/Game/M_Test\", [n1.id, n2.id], [\"\", \"\"], [n3.id, n3.id], [\"A\", \"B\"])"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "success": true,
+      "class_name": "ActorService",
+      "full_path": "unreal.ActorService",
+      "doc_string": "Actor service exposed directly to Python for level actor management.\n\nPython Usage:\n  import unreal\n  actor_service = unreal.ActorService\n\n  # Discovery\n  actors = actor_service.list_level_actors()\n  lights = actor_service.find_actors_by_class(\"PointLight\")\n\n  # Lifecycle\n  actor_service.add_actor(\"PointLight\", (0, 0, 100))\n  actor_service.remove_actor(\"MyLight\")\n\n  # Transform\n  actor_service.set_location(\"MyActor\", (100, 200, 300))\n  actor_service.set_rotation(\"MyActor\", (0, 90, 0))\n  transform = actor_service.get_transform(\"MyActor\")\n\n  # Transform Locking\n  actor_service.set_actor_lock_location(\"MyActor\", True)   # Lock location in viewport\n  actor_service.set_preserve_scale_ratio(True)   # Lock uniform scale (padlock icon)\n  actor_service.set_absolute_transform(\"MyActor\", False, True, False)  # Absolute rotation\n\n  # Properties\n  value = actor_service.get_property(\"MyLight\", \"LightComponent.Intensity\")\n  actor_service.set_property(\"MyLight\", \"LightComponent.Intensity\", \"5000\")\n\n  # Organization\n  actor_service.set_folder(\"MyActor\", \"Level/Props\")\n  actor_service.rename_actor(\"OldName\", \"NewName\")\n\n  # Viewport\n  actor_service.focus_actor(\"MyActor\")\n  actor_service.refresh_viewport()\r\nnote: All 27 level actor operations available via Python\r\n\r\n**C++ Source:**\r\n\r\n- **Plugin**: Revvy\r\n- **Module**: Revvy\r\n- **File**: UActorService.h\r",
+      "base_classes": [
+        "Object",
+        "_ObjectBase",
+        "_WrapperBase",
+        "object"
+      ],
+      "methods": [
+        {
+          "name": "set_property",
+          "signature": "(actor_name_or_label, property_path, value) -> bool",
+          "docstring": "X.set_property(actor_name_or_label, property_path, value) -> bool\r\nSet a property value on an actor or its component.\r\n\r\nArgs:\r\n    actor_name_or_label (str): Name or label of the actor\r\n    property_path (str): Property path (e.g., \"Intensity\" or \"LightComponent.Intensity\")\r\n    value (str): The value to set (as string, e.g., \"5000\" or \"(R=255,G=0,B=0,A=255)\")\r\n\r\nReturns:\r\n    bool: True if property was set"
+        },
+        {
+          "name": "get_property",
+          "signature": "(actor_name_or_label, property_path) -> str",
+          "docstring": "X.get_property(actor_name_or_label, property_path) -> str or None\r\nGet a property value from an actor or its component.\r\n\r\nArgs:\r\n    actor_name_or_label (str): Name or label of the actor\r\n    property_path (str): Property path (e.g., \"Intensity\" or \"LightComponent.Intensity\")\r\n\r\nReturns:\r\n    str or None: True if property found\r\n\r\n    out_value (str): The property value as string"
+        }
+      ],
+      "properties": []
+    },
+    {
+      "success": true,
+      "class_name": "ScreenshotService",
+      "full_path": "unreal.ScreenshotService",
+      "doc_string": "Service for capturing screenshots of editor windows and viewports.\nProvides Python-accessible methods for AI vision capabilities.\n\nThis service supports:\n- Level viewport screenshots (using existing UE functionality)\n- Full editor window screenshots (using Windows GDI with DWM)\n- Active tab/window information retrieval\n\nUsage from Python:\n  import unreal\n  result = unreal.ScreenshotService.capture_active_window(\"E:/Screenshots/capture.png\")\n  if result.success:\n      print(f\"Captured: {result.file_path}\")\r\n\r\n**C++ Source:**\r\n\r\n- **Plugin**: Revvy\r\n- **Module**: Revvy\r\n- **File**: UScreenshotService.h\r",
+      "base_classes": [
+        "Object",
+        "_ObjectBase",
+        "_WrapperBase",
+        "object"
+      ],
+      "methods": [
+        {
+          "name": "describe_scene",
+          "signature": "(location, rotation, fov=0.000000, class_filter=\"\", max_actors=50, only_in_frustum=True, use_current_camera=True) -> str",
+          "docstring": "X.describe_scene(location, rotation, fov=0.000000, class_filter=\"\", max_actors=50, only_in_frustum=True, use_current_camera=True) -> str\r\nCompact JSON description of the actors a camera can see — the \"eyes\" half of the\nsee->act->check loop. Pair with CaptureFromPose using the same pose: both return the\nsame camera block so actor names correlate to image content without burned-in labels.\n\nFilters match Epic's MCP toolset: skips pending-kill, editor-hidden, transient, and\n\"management\" actors (AInfo subclasses / actors with no primitive components).\r\n\r\nArgs:\r\n    location (Vector): Camera pose for the frustum test (cm). Ignored when bUseCurrentCamera.\r\n    rotation (Rotator): Camera rotation (degrees). Ignored when bUseCurrentCamera.\r\n    fov (float): FOV degrees; 0 = current viewport FOV. Ignored when bUseCurrentCamera.\r\n    class_filter (str): Case-insensitive class-name substring (\"\" = all classes).\r\n    max_actors (int32): Cap on returned actors, nearest-first (default 50, clamp 1..500).\r\n    only_in_frustum (bool): false = whole-level listing (frustum test skipped).\r\n    use_current_camera (bool): Use the live viewport camera for the frustum.\r\n\r\nReturns:\r\n    str: JSON {success, camera:{location, rotation, fov}, viewport:[w,h], actor_count, actors:[{name, label, class, pos_cm:[x,y,z], extent_cm:[x,y,z], dist_cm, screen_px:[x,y]|null}]}"
+        },
+        {
+          "name": "capture_from_pose",
+          "signature": "(location, rotation, file_path, fov=0.000000, show_ui=False, use_current_camera=False) -> str",
+          "docstring": "X.capture_from_pose(location, rotation, file_path, fov=0.000000, show_ui=False, use_current_camera=False) -> str\r\nCapture the level viewport to a PNG, optionally from an arbitrary camera pose,\nWITHOUT disturbing the user's camera (pose + show flags saved and restored).\n\nSynchronous and cross-platform: sets the pose on the active level viewport client,\nforces Viewport->Draw(), reads the framebuffer via GetViewportScreenShot(), restores.\nThis is the same recipe Epic's UE 5.8 MCP EditorToolset uses — it works while Python\nholds the game thread (no engine tick needed).\n\nUnits: Location in UE centimeters, Rotation in degrees, FOV in degrees.\nOutput resolution = current viewport size.\r\n\r\nArgs:\r\n    location (Vector): Camera world location (cm). Ignored when bUseCurrentCamera.\r\n    rotation (Rotator): Camera rotation (degrees). Ignored when bUseCurrentCamera.\r\n    file_path (str): Output path; normalized to ProjectSaved/Revvy/Screenshots/<name>.png when bare.\r\n    fov (float): Horizontal FOV in degrees; 0 = keep current viewport FOV.\r\n    show_ui (bool): Keep selection outlines / gizmos visible (default false: clean image).\r\n    use_current_camera (bool): Capture the viewport exactly as-is, ignoring Location/Rotation/FOV.\r\n\r\nReturns:\r\n    str: JSON {success, file_path, width, height, camera:{location:[x,y,z], rotation:[pitch,yaw,roll], fov}, message?}"
+        }
+      ],
+      "properties": []
+    }
+  ]
+}

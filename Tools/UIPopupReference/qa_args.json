@@ -1,0 +1,3 @@
+﻿{
+    "code":  "import unreal\nexec(compile(open(r\u0027D:/UnrealEngine/ProjectM/Tools/UIPopupReference/qa.py\u0027,encoding=\u0027utf-8-sig\u0027).read(),r\u0027D:/UnrealEngine/ProjectM/Tools/UIPopupReference/qa.py\u0027,\u0027exec\u0027))"
+}

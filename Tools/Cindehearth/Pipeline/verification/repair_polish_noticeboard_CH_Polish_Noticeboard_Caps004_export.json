@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "polish_noticeboard_CH_Polish_Noticeboard_Caps004_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_noticeboard_CH_Polish_Noticeboard_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_noticeboard_CH_Polish_Noticeboard_Caps004_export"
+  },
+  {
+    "job_id": "polish_noticeboard_CH_Polish_Noticeboard_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_noticeboard_CH_Polish_Noticeboard_Caps004_export"
+  },
+  {
+    "job_id": "polish_noticeboard_CH_Polish_Noticeboard_Caps004_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Noticeboard_Caps004.glb",
+      "format": "glb",
+      "bytes": 2577380,
+      "object_names": [
+        "CH_Polish_Noticeboard_Caps004"
+      ],
+      "fingerprints": {
+        "CH_Polish_Noticeboard_Caps004": "1cbe2c01f6d0664c78eea4b77ea3bca6a66886b82d25250a84cdb3ffc4db608e"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

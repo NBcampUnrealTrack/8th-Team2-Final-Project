@@ -1,0 +1,205 @@
+[
+  {
+    "tool": "blender_material_assign",
+    "arguments": {
+      "source_object_name": "CH_Dense_TavernWalls_UV015",
+      "output_object_name": "CH_Dense_TavernWalls_Final016",
+      "material_name": "CH_Dense_TavernWalls_Stone",
+      "create_material": true,
+      "base_color": [
+        0.2,
+        0.18,
+        0.15,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.96
+    },
+    "request_id": 205315516952535
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"205315516952535\",\n    \"command\": \"material.assign\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "205315516952535",
+        "command": "material.assign",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"205315516952535\",\n    \"command\": \"material.assign\",\n    \"state\": \"finished\",\n    \"created_at\": 1788599468.897748,\n    \"finished_at\": 1788599468.9044666,\n    \"result\": {\n      \"source_object_name\": \"CH_Dense_TavernWalls_UV015\",\n      \"source_fingerprint\": \"321a093eafdb5fc965c79e910f750980b6118f26d8ad45b8b3ea784be20816d7\",\n      \"output_object_name\": \"CH_Dense_TavernWalls_Final016\",\n      \"material_name\": \"CH_Dense_TavernWalls_Stone\",\n      \"material_created\": true,\n      \"slot\": 1,\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_Dense_TavernWalls_Final016\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Dense_TavernWalls_Final016_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            1.8406774997711182,\n            2.1565308570861816,\n            0.7638201713562012\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"933cfbbbba10c89018d1afd79a26b3d8a982418b4745db64feb68a75b4eee373\",\n        \"geometry\": {\n          \"vertices\": 32,\n          \"edges\": 56,\n          \"polygons\": 32,\n          \"triangles\": 48,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 0,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 0,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            -1.1670972108840942,\n            -1.4606163501739502,\n            0.24884924292564392\n          ],\n          \"local_max\": [\n            0.6735802292823792,\n            0.695914626121521,\n            1.0126694440841675\n          ],\n          \"world_min\": [\n            -1.1670972108840942,\n            -1.4606163501739502,\n            0.24884924292564392\n          ],\n          \"world_max\": [\n            0.6735802292823792,\n            0.695914626121521,\n            1.0126694440841675\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"tripo_mat_4caa7db6.001\"\n          },\n          {\n            \"slot\": 1,\n            \"name\": \"CH_Dense_TavernWalls_Stone\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"UVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 112,\n            \"bounds_min\": [\n              -1.4604825973510742,\n              -1.4604825973510742\n            ],\n            \"bounds_max\": [\n              2.460482597351074,\n              2.460482597351074\n            ],\n            \"out_of_zero_one_range\": 112,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 0\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 100,\n          \"blockers\": [],\n          \"warnings\": [],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "205315516952535",
+        "command": "material.assign",
+        "state": "finished",
+        "created_at": 1788599468.897748,
+        "finished_at": 1788599468.9044666,
+        "result": {
+          "source_object_name": "CH_Dense_TavernWalls_UV015",
+          "source_fingerprint": "321a093eafdb5fc965c79e910f750980b6118f26d8ad45b8b3ea784be20816d7",
+          "output_object_name": "CH_Dense_TavernWalls_Final016",
+          "material_name": "CH_Dense_TavernWalls_Stone",
+          "material_created": true,
+          "slot": 1,
+          "output": {
+            "object": {
+              "name": "CH_Dense_TavernWalls_Final016",
+              "type": "MESH",
+              "data_name": "CH_Dense_TavernWalls_Final016_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                1.8406774997711182,
+                2.1565308570861816,
+                0.7638201713562012
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "933cfbbbba10c89018d1afd79a26b3d8a982418b4745db64feb68a75b4eee373",
+            "geometry": {
+              "vertices": 32,
+              "edges": 56,
+              "polygons": 32,
+              "triangles": 48,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 0,
+              "wire_edges": 0,
+              "non_manifold_edges": 0,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -1.1670972108840942,
+                -1.4606163501739502,
+                0.24884924292564392
+              ],
+              "local_max": [
+                0.6735802292823792,
+                0.695914626121521,
+                1.0126694440841675
+              ],
+              "world_min": [
+                -1.1670972108840942,
+                -1.4606163501739502,
+                0.24884924292564392
+              ],
+              "world_max": [
+                0.6735802292823792,
+                0.695914626121521,
+                1.0126694440841675
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_mat_4caa7db6.001"
+              },
+              {
+                "slot": 1,
+                "name": "CH_Dense_TavernWalls_Stone"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "UVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 112,
+                "bounds_min": [
+                  -1.4604825973510742,
+                  -1.4604825973510742
+                ],
+                "bounds_max": [
+                  2.460482597351074,
+                  2.460482597351074
+                ],
+                "out_of_zero_one_range": 112,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 100,
+              "blockers": [],
+              "warnings": [],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

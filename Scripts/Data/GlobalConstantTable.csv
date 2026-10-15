@@ -1,0 +1,25 @@
+﻿Name,ConfigId,Category,ValueType,ValueInt,ValueFloat,Name_KR,Description
+MaxCharacterSlot,9001,Account,int,8,0,캐릭터 생성 제한,한 계정이 만들 수 있는 캐릭터 수
+CharacterNameMinLength,9002,Account,int,2,0,캐릭터 이름 최소 길이,
+CharacterNameMaxLength,9003,Account,int,14,0,캐릭터 이름 최대 길이,
+FriendMax,9004,Account,int,100,0,친구 등록 최대 수,
+PlayerMaxLevel,9101,Progression,int,60,0,플레이어 최대 레벨,`LevelProgressionTable..csv`와 일치하도록 작성
+NaiaMaxLevel,9102,Progression,int,60,0,나이아 최대 레벨,플레이어 최대 레벨과 동일하게 설정
+StatPointPerLevel,9103,Progression,int,1,0,레벨업 스탯 포인트,레벨업 시 스탯 포인트 1 적립.
+LifeSkillMaxLevel,9104,Progression,int,10,0,생활 스킬 최대 레벨,제작 직군(마공학자·갑주사·화혜장·세공사)
+InventorySlotDefault,9201,Inventory,int,30,0,인벤토리 기본 칸 수,
+InventorySlotMax,9202,Inventory,int,99,0,인벤토리 최대 칸 수,확장 상한
+WarehouseSlotDefault,9203,Inventory,int,100,0,창고 기본 칸 수,계정 공용
+WarehouseSlotMax,9204,Inventory,int,999,0,창고 최대 칸 수,창고 확장 상한
+ItemStackMaxDefault,9205,Inventory,int,99,0,아이템 기본 최대 스택,ItemTable의 MaxStack 미지정 시 기본값
+GoldMax,9206,Inventory,int,999999999,0,골드 보유 상한,
+EquipSlotCount,9207,Inventory,int,9,0,플레이어 장비 슬롯 수,무기·갑옷·투구·장갑·신발·귀걸이·반지2
+NaiaOwnedMax,9301,Naia,int,4,0,나이아 보유 최대 수,포획 가능 총량. 초과 시 포획 불가
+NaiaStorageMax,9302,Naia,int,500,0,나이아 보관함 최대 수,보유분과 별도 보관
+NaiaPartyMax,9303,Naia,int,1,0,전투 참여 정령 수,
+NaiaActiveSkillSlot,9304,Naia,int,3,0,나이아 액티브 스킬 슬롯,레벨업 or 스킬북을 통해 스킬 교체 가능
+NaiaPassiveSlot,9305,Naia,int,1,0,나이아 패시브 슬롯,포획 시 랜덤 1개 영구 고정
+NaiaAffectionMax,9306,Naia,int,15,0,애정도 최대 레벨,
+PartyMemberMax,9401,Battle,int,4,0,파티 최대 인원,나이아까지 포함하면 전투 인원은 총 8인
+EscapeBaseRate,9402,Battle,float,0,1,기본 도주 확률,보스와의 전투에서는 도주 불가능.
+MinSpeed,9403,Battle,int,5,0,최소 속도,모든 속도 감소의 하한. 어떤 감소를 합쳐도 5미만으로 내려가지 않는다. 턴 게이지의 속도 0 방지.

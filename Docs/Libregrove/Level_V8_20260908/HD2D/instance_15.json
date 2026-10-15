@@ -1,0 +1,30 @@
+{
+  "source": "/Game/Village/Materials/Props/MI_Prop_FountainStone.MI_Prop_FountainStone",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_FountainStone_da722.MI_HD2D_Prop_FountainStone_da722",
+  "kind": "WorldProps",
+  "scalars": {
+    "CameraFadeAmount": 0.0,
+    "TileCm": 180.0,
+    "RoughnessMul": 1.0,
+    "EmissiveStrength": 0.0
+  },
+  "vectors": {
+    "Tint": [
+      0.7200000286102295,
+      0.7099999785423279,
+      0.6800000071525574,
+      1.0
+    ],
+    "Emissive": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "textures": {
+    "Tex_BC": "/Game/Village/Textures/Pixel/T_Fountain_BC.T_Fountain_BC",
+    "Tex_N": "/Game/Village/Textures/Pixel/T_Fountain_N.T_Fountain_N",
+    "Tex_ORM": "/Game/Village/Textures/Pixel/T_Fountain_ORM.T_Fountain_ORM"
+  }
+}

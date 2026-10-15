@@ -1,0 +1,201 @@
+[
+  {
+    "tool": "blender_model_import",
+    "arguments": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Smithy_Walls013_ForUV.glb",
+      "name_prefix": "CH_Dense_SmithyWalls_UVREF__"
+    },
+    "request_id": 197861504305517
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"197861504305517\",\n    \"command\": \"model.import\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "197861504305517",
+        "command": "model.import",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"197861504305517\",\n    \"command\": \"model.import\",\n    \"state\": \"finished\",\n    \"created_at\": 1788599512.8477387,\n    \"finished_at\": 1788599512.9091673,\n    \"result\": {\n      \"source_path\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Dense_v004\\\\Architecture\\\\CH_Dense_Smithy_Walls013_ForUV.glb\",\n      \"format\": \"glb\",\n      \"name_prefix\": \"CH_Dense_SmithyWalls_UVREF__\",\n      \"objects\": [\n        {\n          \"name\": \"CH_Dense_SmithyWalls_UVREF___CH_Dense_Smithy_Walls013\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Dense_SmithyWalls_UVREF___CH_Dense_Smithy_Walls013_Mesh\"\n        }\n      ],\n      \"mesh_reports\": [\n        {\n          \"object\": {\n            \"name\": \"CH_Dense_SmithyWalls_UVREF___CH_Dense_Smithy_Walls013\",\n            \"type\": \"MESH\",\n            \"data_name\": \"CH_Dense_SmithyWalls_UVREF___CH_Dense_Smithy_Walls013_Mesh\",\n            \"location\": [\n              0.0,\n              0.0,\n              0.0\n            ],\n            \"rotation_degrees\": [\n              0.0,\n              0.0,\n              0.0\n            ],\n            \"scale\": [\n              1.0,\n              1.0,\n              1.0\n            ],\n            \"dimensions\": [\n              2.1602344512939453,\n              2.8446507453918457,\n              1.1753785610198975\n            ],\n            \"matrix_world\": [\n              [\n                1.0,\n                0.0,\n                0.0,\n                0.0\n              ],\n              [\n                0.0,\n                1.0,\n                0.0,\n                0.0\n              ],\n              [\n                0.0,\n                0.0,\n                1.0,\n                0.0\n              ],\n              [\n                0.0,\n                0.0,\n                0.0,\n                1.0\n              ]\n            ],\n            \"parent\": null,\n            \"collections\": [\n              \"Collection\"\n            ]\n          },\n          \"fingerprint\": \"d2f6d31ff5cdcf56b250b599867322d5e64780f6ab0793de68c1b74d2cd0fc7c\",\n          \"geometry\": {\n            \"vertices\": 8,\n            \"edges\": 10,\n            \"polygons\": 4,\n            \"triangles\": 4,\n            \"ngons\": 0,\n            \"loose_vertices\": 0,\n            \"loose_edges\": 0,\n            \"zero_length_edges\": 0,\n            \"boundary_edges\": 8,\n            \"wire_edges\": 0,\n            \"non_manifold_edges\": 0,\n            \"degenerate_faces\": 0,\n            \"invalid_face_normals\": 0,\n            \"non_finite_vertices\": 0\n          },\n          \"bounds\": {\n            \"local_min\": [\n              -1.0779188871383667,\n              -1.417928695678711,\n              0.004396677017211914\n            ],\n            \"local_max\": [\n              1.0823155641555786,\n              1.4267220497131348,\n              1.1797752380371094\n            ],\n            \"world_min\": [\n              -1.0779188871383667,\n              -1.417928695678711,\n              0.004396677017211914\n            ],\n            \"world_max\": [\n              1.0823155641555786,\n              1.4267220497131348,\n              1.1797752380371094\n            ]\n          },\n          \"materials\": [\n            {\n              \"slot\": 0,\n              \"name\": \"tripo_mat_dda91e9f.001\"\n            }\n          ],\n          \"uv_layers\": [\n            {\n              \"name\": \"UVMap\",\n              \"active\": true,\n              \"active_render\": true,\n              \"loop_count\": 12,\n              \"bounds_min\": [\n                0.42143484950065613,\n                0.40461522340774536\n              ],\n              \"bounds_max\": [\n                0.9180994033813477,\n                1.0\n              ],\n              \"out_of_zero_one_range\": 0,\n              \"non_finite\": 0,\n              \"degenerate_faces\": 0\n            }\n          ],\n          \"modifiers\": [],\n          \"quality\": {\n            \"passed\": true,\n            \"score\": 94,\n            \"blockers\": [],\n            \"warnings\": [\n              {\n                \"code\": \"non_manifold_geometry\",\n                \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n              }\n            ],\n            \"requirements\": {}\n          }\n        }\n      ]\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "197861504305517",
+        "command": "model.import",
+        "state": "finished",
+        "created_at": 1788599512.8477387,
+        "finished_at": 1788599512.9091673,
+        "result": {
+          "source_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Smithy_Walls013_ForUV.glb",
+          "format": "glb",
+          "name_prefix": "CH_Dense_SmithyWalls_UVREF__",
+          "objects": [
+            {
+              "name": "CH_Dense_SmithyWalls_UVREF___CH_Dense_Smithy_Walls013",
+              "type": "MESH",
+              "data_name": "CH_Dense_SmithyWalls_UVREF___CH_Dense_Smithy_Walls013_Mesh"
+            }
+          ],
+          "mesh_reports": [
+            {
+              "object": {
+                "name": "CH_Dense_SmithyWalls_UVREF___CH_Dense_Smithy_Walls013",
+                "type": "MESH",
+                "data_name": "CH_Dense_SmithyWalls_UVREF___CH_Dense_Smithy_Walls013_Mesh",
+                "location": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "rotation_degrees": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "dimensions": [
+                  2.1602344512939453,
+                  2.8446507453918457,
+                  1.1753785610198975
+                ],
+                "matrix_world": [
+                  [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                ],
+                "parent": null,
+                "collections": [
+                  "Collection"
+                ]
+              },
+              "fingerprint": "d2f6d31ff5cdcf56b250b599867322d5e64780f6ab0793de68c1b74d2cd0fc7c",
+              "geometry": {
+                "vertices": 8,
+                "edges": 10,
+                "polygons": 4,
+                "triangles": 4,
+                "ngons": 0,
+                "loose_vertices": 0,
+                "loose_edges": 0,
+                "zero_length_edges": 0,
+                "boundary_edges": 8,
+                "wire_edges": 0,
+                "non_manifold_edges": 0,
+                "degenerate_faces": 0,
+                "invalid_face_normals": 0,
+                "non_finite_vertices": 0
+              },
+              "bounds": {
+                "local_min": [
+                  -1.0779188871383667,
+                  -1.417928695678711,
+                  0.004396677017211914
+                ],
+                "local_max": [
+                  1.0823155641555786,
+                  1.4267220497131348,
+                  1.1797752380371094
+                ],
+                "world_min": [
+                  -1.0779188871383667,
+                  -1.417928695678711,
+                  0.004396677017211914
+                ],
+                "world_max": [
+                  1.0823155641555786,
+                  1.4267220497131348,
+                  1.1797752380371094
+                ]
+              },
+              "materials": [
+                {
+                  "slot": 0,
+                  "name": "tripo_mat_dda91e9f.001"
+                }
+              ],
+              "uv_layers": [
+                {
+                  "name": "UVMap",
+                  "active": true,
+                  "active_render": true,
+                  "loop_count": 12,
+                  "bounds_min": [
+                    0.42143484950065613,
+                    0.40461522340774536
+                  ],
+                  "bounds_max": [
+                    0.9180994033813477,
+                    1.0
+                  ],
+                  "out_of_zero_one_range": 0,
+                  "non_finite": 0,
+                  "degenerate_faces": 0
+                }
+              ],
+              "modifiers": [],
+              "quality": {
+                "passed": true,
+                "score": 94,
+                "blockers": [],
+                "warnings": [
+                  {
+                    "code": "non_manifold_geometry",
+                    "message": "Mesh contains boundary, wire, or non-manifold edges."
+                  }
+                ],
+                "requirements": {}
+              }
+            }
+          ]
+        }
+      }
+    },
+    "isError": false
+  }
+]

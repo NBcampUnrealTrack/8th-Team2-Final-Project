@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "dense_arch_smithy_CH_Dense_Smithy_RoofCorner014_export",
+    "state": "running"
+  },
+  {
+    "job_id": "dense_arch_smithy_CH_Dense_Smithy_RoofCorner014_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithy_CH_Dense_Smithy_RoofCorner014_export"
+  },
+  {
+    "job_id": "dense_arch_smithy_CH_Dense_Smithy_RoofCorner014_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithy_CH_Dense_Smithy_RoofCorner014_export"
+  },
+  {
+    "job_id": "dense_arch_smithy_CH_Dense_Smithy_RoofCorner014_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Smithy_RoofCorner014.glb",
+      "format": "glb",
+      "bytes": 4453524,
+      "object_names": [
+        "CH_Dense_Smithy_RoofCorner014"
+      ],
+      "fingerprints": {
+        "CH_Dense_Smithy_RoofCorner014": "4035ae874f08b1f6d06cdbf480ba0375e046801bb0cf5ab945418764e6ffb364"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

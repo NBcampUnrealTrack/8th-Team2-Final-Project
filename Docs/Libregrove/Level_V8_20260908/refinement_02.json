@@ -1,0 +1,18 @@
+{
+  "trees_removed": 3,
+  "recoverable_level_backup": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\LibregroveV8Backup\\BeforeEntryClear_20260909.umap",
+  "terrain_before": {
+    "TileCm_Cobblestone": 180.0,
+    "TileCm_Grass": 180.0,
+    "TileCm_Dirt": 180.0,
+    "TileCm_Moss": 210.0
+  },
+  "terrain_after": {
+    "TileCm_Cobblestone": 720.0,
+    "TileCm_Grass": 300.0,
+    "TileCm_Dirt": 360.0,
+    "TileCm_Moss": 330.0
+  },
+  "dof_sensor_width": 120.0,
+  "dof_fstop": 2.4
+}

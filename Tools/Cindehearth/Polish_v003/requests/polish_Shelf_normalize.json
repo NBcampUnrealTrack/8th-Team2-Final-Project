@@ -1,0 +1,30 @@
+{
+  "source_object_name": "CH_Polish_Shelf_REF___tripo_node_4cb0fb0c",
+  "output_object_name": "CH_Polish_Shelf_Game_v003",
+  "operations": [
+    {
+      "type": "transform_object",
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "transform_vertices",
+      "scale": [
+        3.001465559355154,
+        3.001465559355154,
+        3.001465559355154
+      ],
+      "translation": [
+        -0.0,
+        -0.005862237420615535,
+        1.5
+      ]
+    },
+    {
+      "type": "delete_loose"
+    }
+  ]
+}

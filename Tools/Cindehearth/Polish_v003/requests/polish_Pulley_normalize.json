@@ -1,0 +1,30 @@
+{
+  "source_object_name": "CH_Polish_Pulley_REF___tripo_node_c78a117a",
+  "output_object_name": "CH_Polish_Pulley_Game_v003",
+  "operations": [
+    {
+      "type": "transform_object",
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "transform_vertices",
+      "scale": [
+        3.001465559355154,
+        3.001465559355154,
+        3.001465559355154
+      ],
+      "translation": [
+        -0.0,
+        -0.0,
+        1.4706888128969222
+      ]
+    },
+    {
+      "type": "delete_loose"
+    }
+  ]
+}

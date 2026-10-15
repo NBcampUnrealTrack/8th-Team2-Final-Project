@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "distance_cm": 278.21483080205076,
+  "samples": [
+    {
+      "t": 0.28200000000651926,
+      "material_ok": true,
+      "flipbook": "/Game/Art/Sprites/Player/Player/idle_front.idle_front",
+      "location": [
+        1350.0,
+        -2380.0,
+        114.2585129737854
+      ]
+    },
+    {
+      "t": 0.6099999999860302,
+      "material_ok": true,
+      "flipbook": "/Game/Art/Sprites/Player/Player/walk_down.walk_down",
+      "location": [
+        1350.0,
+        -2346.7896578118216,
+        114.54072253041238
+      ]
+    },
+    {
+      "t": 0.9380000000819564,
+      "material_ok": true,
+      "flipbook": "/Game/Art/Sprites/Player/Player/walk_down.walk_down",
+      "location": [
+        1350.0,
+        -2305.956315503643,
+        114.80324791743828
+      ]
+    },
+    {
+      "t": 1.2820000000065193,
+      "material_ok": true,
+      "flipbook": "/Game/Art/Sprites/Player/Player/walk_down.walk_down",
+      "location": [
+        1350.0,
+        -2265.1229731954645,
+        115.00397922102913
+      ]
+    },
+    {
+      "t": 1.6099999999860302,
+      "material_ok": true,
+      "flipbook": "/Game/Art/Sprites/Player/Player/walk_down.walk_down",
+      "location": [
+        1350.0,
+        -2224.289630887286,
+        115.16902932492782
+      ]
+    },
+    {
+      "t": 1.9540000000270084,
+      "material_ok": true,
+      "flipbook": "/Game/Art/Sprites/Player/Player/walk_down.walk_down",
+      "location": [
+        1350.0,
+        -2183.4562885791074,
+        115.53580740816837
+      ]
+    },
+    {
+      "t": 2.2820000000065193,
+      "material_ok": true,
+      "flipbook": "/Game/Art/Sprites/Player/Player/walk_down.walk_down",
+      "location": [
+        1350.0,
+        -2142.622946270929,
+        115.67932931077635
+      ]
+    },
+    {
+      "t": 2.60999999998603,
+      "material_ok": true,
+      "flipbook": "/Game/Art/Sprites/Player/Player/walk_down.walk_down",
+      "location": [
+        1350.0,
+        -2101.789578407259,
+        115.82484480420426
+      ]
+    },
+    {
+      "t": 2.9380000000819564,
+      "material_ok": true,
+      "flipbook": "/Game/Art/Sprites/Player/Player/idle_front.idle_front",
+      "location": [
+        1350.0,
+        -2101.789578407259,
+        115.82484480420426
+      ]
+    },
+    {
+      "t": 3.2820000000065193,
+      "material_ok": true,
+      "flipbook": "/Game/Art/Sprites/Player/Player/idle_front.idle_front",
+      "location": [
+        1350.0,
+        -2101.789578407259,
+        115.82484480420426
+      ]
+    },
+    {
+      "t": 3.60999999998603,
+      "material_ok": true,
+      "flipbook": "/Game/Art/Sprites/Player/Player/idle_front.idle_front",
+      "location": [
+        1350.0,
+        -2101.789578407259,
+        115.82484480420426
+      ]
+    }
+  ],
+  "materials": 8
+}

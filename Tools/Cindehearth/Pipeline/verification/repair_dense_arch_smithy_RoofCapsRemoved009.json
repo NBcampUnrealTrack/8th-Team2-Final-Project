@@ -1,0 +1,292 @@
+[
+  {
+    "job_id": "dense_arch_smithy_RoofCapsRemoved009",
+    "state": "running"
+  },
+  {
+    "job_id": "dense_arch_smithy_RoofCapsRemoved009",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithy_RoofCapsRemoved009"
+  },
+  {
+    "job_id": "dense_arch_smithy_RoofCapsRemoved009",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "41ed9cb83851e08780fc8328aee5d63b14e12f4a508f7ae469702afc27daf9ec",
+      "source": {
+        "object": {
+          "name": "CH_Dense_Smithy_WallSide008",
+          "type": "MESH",
+          "data_name": "CH_Dense_Smithy_WallSide008_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.220322370529175,
+            3.0,
+            2.4987785816192627
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "641feb5a18e72c02113bcbbe3ecb400a7212066f852fd044a32fafd34ec83608",
+        "geometry": {
+          "vertices": 1734,
+          "edges": 3625,
+          "polygons": 1917,
+          "triangles": 3208,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 208,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.1101611852645874,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            1.1101611852645874,
+            1.5,
+            2.4987785816192627
+          ],
+          "world_min": [
+            -1.1101611852645874,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            1.1101611852645874,
+            1.5,
+            2.4987785816192627
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_dda91e9f"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "dda91e9f_07fe_4fb0_b1fa_683ddbfe6b0a_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 7042,
+            "bounds_min": [
+              0.0008409030851908028,
+              0.0008020272362045944
+            ],
+            "bounds_max": [
+              0.9902401566505432,
+              1.0
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Dense_Smithy_RoofCapsRemoved009",
+          "type": "MESH",
+          "data_name": "CH_Dense_Smithy_RoofCapsRemoved009_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.220322370529175,
+            3.0,
+            2.4987785816192627
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "bb3306b390016e27b7b40f7a0dec43a2887b1ef11ebd6c2896e170e66f560719",
+        "geometry": {
+          "vertices": 1734,
+          "edges": 3617,
+          "polygons": 1907,
+          "triangles": 3198,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 222,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.1101611852645874,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            1.1101611852645874,
+            1.5,
+            2.4987785816192627
+          ],
+          "world_min": [
+            -1.1101611852645874,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            1.1101611852645874,
+            1.5,
+            2.4987785816192627
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_dda91e9f"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "dda91e9f_07fe_4fb0_b1fa_683ddbfe6b0a_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 7012,
+            "bounds_min": [
+              0.0008409030851908028,
+              0.0008020272362045944
+            ],
+            "bounds_max": [
+              0.9902401566505432,
+              1.0
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "deleted_faces": 10
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Smithy_RoofCapsRemoved009.blend"
+    }
+  }
+]

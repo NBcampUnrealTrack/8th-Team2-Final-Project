@@ -1,0 +1,12 @@
+{
+  "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Fernbrook_Textured_V5_20260911\\Preview\\Game_Entry_V5_Final_001.png",
+  "sha256": "e862d22ca472d65180c5ce247815e35b5da31a1401ef5148f2066c5b2d6b0812",
+  "live_camera": {
+    "success": true,
+    "output": "{\"camera\": [1350.0000000000014, -4025.448267190435, 1124.258509596347], \"rotation\": [1.4690353290379085e-14, -30.0, 90.0], \"fov\": 38.0, \"pawn\": [1350.0, -2380.0, 114.25850959634592], \"capsule_half_height\": 48.0, \"capsule_radius\": 24.0, \"grounded\": true, \"world\": \"/Game/Fernbrook/Entrance_V1/Maps/UEDPIE_0_L_Fernbrook_Entrance.L_Fernbrook_Entrance\"}",
+    "result": "None",
+    "warnings": [],
+    "execution_time_ms": 5.197402000427246
+  },
+  "method": "specific player controller HighResShot; actual game view"
+}

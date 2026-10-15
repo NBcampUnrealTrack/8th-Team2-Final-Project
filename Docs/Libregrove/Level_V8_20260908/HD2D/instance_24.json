@@ -1,0 +1,30 @@
+{
+  "source": "/Game/Village/Materials/Props/MI_Prop_Roof.MI_Prop_Roof",
+  "instance": "/Game/Libregrove/Level_V8/HD2D/Instances/MI_HD2D_Prop_Roof_336d2.MI_HD2D_Prop_Roof_336d2",
+  "kind": "WorldProps",
+  "scalars": {
+    "CameraFadeAmount": 0.0,
+    "TileCm": 90.0,
+    "RoughnessMul": 1.0,
+    "EmissiveStrength": 0.0
+  },
+  "vectors": {
+    "Tint": [
+      0.8799999952316284,
+      0.8799999952316284,
+      0.8199999928474426,
+      1.0
+    ],
+    "Emissive": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "textures": {
+    "Tex_BC": "/Game/Village/Textures/Pixel/T_Prop_RoofShingle_Pixel_BC.T_Prop_RoofShingle_Pixel_BC",
+    "Tex_N": "/Game/Village/Textures/Pixel/T_Prop_RoofShingle_Pixel_N.T_Prop_RoofShingle_Pixel_N",
+    "Tex_ORM": "/Game/Village/Textures/Pixel/T_Prop_RoofShingle_Pixel_ORM.T_Prop_RoofShingle_Pixel_ORM"
+  }
+}

@@ -1,0 +1,5925 @@
+[
+  {
+    "label": "CH_D4_Link_WestLower_Curb_L_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -483.6,
+      -1125.04725,
+      -8.0
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -483.6,
+        -1125.04725,
+        20.999999999999996
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        28.999999999999996
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestLower_Curb_L_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -483.6,
+      -1062.03375,
+      31.375
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -483.6,
+        -1062.03375,
+        60.375
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestLower_Curb_L_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -483.6,
+      -999.02025,
+      70.75
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -483.6,
+        -999.02025,
+        99.75
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestLower_Curb_L_03",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -483.6,
+      -936.00675,
+      110.125
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -483.6,
+        -936.00675,
+        139.125
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestLower_LandingPier_L",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -489.6,
+      -882.5,
+      153.5
+    ],
+    "scale": [
+      0.45250729219493024,
+      0.16,
+      0.3850511489372585
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -489.6,
+        -882.5,
+        187.5
+      ],
+      [
+        19.0,
+        24.0,
+        34.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestLower_Curb_R_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -314.4,
+      -1125.04725,
+      -8.0
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -314.4,
+        -1125.04725,
+        20.999999999999996
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        28.999999999999996
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestLower_Curb_R_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -314.4,
+      -1062.03375,
+      31.375
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -314.4,
+        -1062.03375,
+        60.375
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestLower_Curb_R_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -314.4,
+      -999.02025,
+      70.75
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -314.4,
+        -999.02025,
+        99.75
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestLower_Curb_R_03",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -314.4,
+      -936.00675,
+      110.125
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -314.4,
+        -936.00675,
+        139.125
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestLower_LandingPier_R",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -308.4,
+      -882.5,
+      153.5
+    ],
+    "scale": [
+      0.45250729219493024,
+      0.16,
+      0.3850511489372585
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -308.4,
+        -882.5,
+        187.5
+      ],
+      [
+        19.0,
+        24.0,
+        34.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestLower_SupplyCrate",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      -572.6,
+      -826.5,
+      157.5
+    ],
+    "scale": [
+      0.1614194149851631,
+      0.16,
+      0.15927144343722452
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -572.6,
+        -826.5,
+        179.5
+      ],
+      [
+        27.10658807283926,
+        27.10658807283926,
+        22.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestLower_WaterBarrel",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/StaticMeshes/CH_Polish_Barrel_Closed004.CH_Polish_Barrel_Closed004",
+    "visible": true,
+    "location": [
+      -625.6,
+      -791.5,
+      157.5
+    ],
+    "scale": [
+      0.14795043980192948,
+      0.14933819460268888,
+      0.16666666666666666
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -625.6,
+        -791.5,
+        182.5
+      ],
+      [
+        26.222205674401266,
+        26.222205674401266,
+        25.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestLower_PierTools",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/StaticMeshes/CH_Polish_ToolRack_Caps004.CH_Polish_ToolRack_Caps004",
+    "visible": true,
+    "location": [
+      -514.6,
+      -882.5,
+      169.5
+    ],
+    "scale": [
+      0.09781512611313195,
+      0.10666666666666667,
+      0.15905185744023143
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -514.6,
+        -882.5,
+        190.5
+      ],
+      [
+        6.0,
+        16.0,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestUpper_Curb_L_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -543.6,
+      683.9527500000002,
+      149.5
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -543.6,
+        683.9527500000002,
+        178.5
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestUpper_Curb_L_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -543.6,
+      746.9662500000002,
+      188.875
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -543.6,
+        746.9662500000002,
+        217.875
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestUpper_Curb_L_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -543.6,
+      809.9797500000002,
+      228.25
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -543.6,
+        809.9797500000002,
+        257.25
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestUpper_Curb_L_03",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -543.6,
+      872.9932500000002,
+      267.625
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -543.6,
+        872.9932500000002,
+        296.625
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestUpper_LandingPier_L",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -549.6,
+      926.5000000000002,
+      311.0
+    ],
+    "scale": [
+      0.45250729219493024,
+      0.16,
+      0.3850511489372585
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -549.6,
+        926.5000000000002,
+        345.0
+      ],
+      [
+        19.0,
+        24.0,
+        34.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestUpper_Curb_R_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -374.4,
+      683.9527500000002,
+      149.5
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -374.4,
+        683.9527500000002,
+        178.5
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestUpper_Curb_R_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -374.4,
+      746.9662500000002,
+      188.875
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -374.4,
+        746.9662500000002,
+        217.875
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestUpper_Curb_R_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -374.4,
+      809.9797500000002,
+      228.25
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -374.4,
+        809.9797500000002,
+        257.25
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestUpper_Curb_R_03",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -374.4,
+      872.9932500000002,
+      267.625
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -374.4,
+        872.9932500000002,
+        296.625
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestUpper_LandingPier_R",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -368.4,
+      926.5000000000002,
+      311.0
+    ],
+    "scale": [
+      0.45250729219493024,
+      0.16,
+      0.3850511489372585
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -368.4,
+        926.5000000000002,
+        345.0
+      ],
+      [
+        19.0,
+        24.0,
+        34.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestUpper_SupplyCrate",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      -632.6,
+      982.5000000000002,
+      315.0
+    ],
+    "scale": [
+      0.1614194149851631,
+      0.16,
+      0.15927144343722452
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -632.6,
+        982.5000000000002,
+        337.0
+      ],
+      [
+        27.10658807283926,
+        27.10658807283926,
+        22.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestUpper_WaterBarrel",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/StaticMeshes/CH_Polish_Barrel_Closed004.CH_Polish_Barrel_Closed004",
+    "visible": true,
+    "location": [
+      -685.6,
+      1017.5000000000002,
+      315.0
+    ],
+    "scale": [
+      0.14795043980192948,
+      0.14933819460268888,
+      0.16666666666666666
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -685.6,
+        1017.5000000000002,
+        340.0
+      ],
+      [
+        26.222205674401266,
+        26.222205674401266,
+        25.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_WestUpper_PierTools",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/StaticMeshes/CH_Polish_ToolRack_Caps004.CH_Polish_ToolRack_Caps004",
+    "visible": true,
+    "location": [
+      -574.6,
+      926.5000000000002,
+      327.0
+    ],
+    "scale": [
+      0.09781512611313195,
+      0.10666666666666667,
+      0.15905185744023143
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -574.6,
+        926.5000000000002,
+        348.0
+      ],
+      [
+        6.0,
+        16.0,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastLower_Curb_L_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1521.0000000000002,
+      -1125.04725,
+      -8.0
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1521.0000000000002,
+        -1125.04725,
+        20.999999999999996
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        28.999999999999996
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastLower_Curb_L_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1521.0000000000002,
+      -1062.03375,
+      31.375
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1521.0000000000002,
+        -1062.03375,
+        60.375
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastLower_Curb_L_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1521.0000000000002,
+      -999.02025,
+      70.75
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1521.0000000000002,
+        -999.02025,
+        99.75
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastLower_Curb_L_03",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1521.0000000000002,
+      -936.00675,
+      110.125
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1521.0000000000002,
+        -936.00675,
+        139.125
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastLower_LandingPier_L",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1515.0000000000002,
+      -882.5,
+      153.5
+    ],
+    "scale": [
+      0.45250729219493024,
+      0.16,
+      0.3850511489372585
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1515.0000000000002,
+        -882.5,
+        187.5
+      ],
+      [
+        19.0,
+        24.0,
+        34.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastLower_Curb_R_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1690.2,
+      -1125.04725,
+      -8.0
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1690.2,
+        -1125.04725,
+        20.999999999999996
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        28.999999999999996
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastLower_Curb_R_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1690.2,
+      -1062.03375,
+      31.375
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1690.2,
+        -1062.03375,
+        60.375
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastLower_Curb_R_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1690.2,
+      -999.02025,
+      70.75
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1690.2,
+        -999.02025,
+        99.75
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastLower_Curb_R_03",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1690.2,
+      -936.00675,
+      110.125
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1690.2,
+        -936.00675,
+        139.125
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastLower_LandingPier_R",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1696.2,
+      -882.5,
+      153.5
+    ],
+    "scale": [
+      0.45250729219493024,
+      0.16,
+      0.3850511489372585
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1696.2,
+        -882.5,
+        187.5
+      ],
+      [
+        19.0,
+        24.0,
+        34.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastUpper_Curb_L_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1521.0000000000002,
+      683.9527500000002,
+      149.5
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1521.0000000000002,
+        683.9527500000002,
+        178.5
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastUpper_Curb_L_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1521.0000000000002,
+      746.9662500000002,
+      188.875
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1521.0000000000002,
+        746.9662500000002,
+        217.875
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastUpper_Curb_L_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1521.0000000000002,
+      809.9797500000002,
+      228.25
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1521.0000000000002,
+        809.9797500000002,
+        257.25
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastUpper_Curb_L_03",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1521.0000000000002,
+      872.9932500000002,
+      267.625
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1521.0000000000002,
+        872.9932500000002,
+        296.625
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastUpper_LandingPier_L",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1515.0000000000002,
+      926.5000000000002,
+      311.0
+    ],
+    "scale": [
+      0.45250729219493024,
+      0.16,
+      0.3850511489372585
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1515.0000000000002,
+        926.5000000000002,
+        345.0
+      ],
+      [
+        19.0,
+        24.0,
+        34.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastUpper_Curb_R_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1690.2,
+      683.9527500000002,
+      149.5
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1690.2,
+        683.9527500000002,
+        178.5
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastUpper_Curb_R_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1690.2,
+      746.9662500000002,
+      188.875
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1690.2,
+        746.9662500000002,
+        217.875
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastUpper_Curb_R_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1690.2,
+      809.9797500000002,
+      228.25
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1690.2,
+        809.9797500000002,
+        257.25
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastUpper_Curb_R_03",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1690.2,
+      872.9932500000002,
+      267.625
+    ],
+    "scale": [
+      0.3096102525544259,
+      0.2233783333333334,
+      0.32842597997589695
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1690.2,
+        872.9932500000002,
+        296.625
+      ],
+      [
+        13.0,
+        33.50675000000001,
+        29.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_EastUpper_LandingPier_R",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      1696.2,
+      926.5000000000002,
+      311.0
+    ],
+    "scale": [
+      0.45250729219493024,
+      0.16,
+      0.3850511489372585
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        1696.2,
+        926.5000000000002,
+        345.0
+      ],
+      [
+        19.0,
+        24.0,
+        34.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailLower_Edge_L_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      399.45,
+      -1130.625,
+      -2.3125
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        399.45,
+        -1130.625,
+        17.6875
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailLower_Edge_L_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      399.45,
+      -979.875,
+      37.0625
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        399.45,
+        -979.875,
+        57.0625
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailLower_Edge_L_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      399.45,
+      -829.125,
+      76.4375
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        399.45,
+        -829.125,
+        96.4375
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailLower_Edge_L_03",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      399.45,
+      -678.375,
+      115.8125
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        399.45,
+        -678.375,
+        135.8125
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailLower_FootPier_L",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      390.45,
+      -1206.0,
+      -4.0
+    ],
+    "scale": [
+      0.40487494564809545,
+      0.19333333333333333,
+      0.3624010813527139
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        390.45,
+        -1206.0,
+        28.0
+      ],
+      [
+        17.0,
+        29.0,
+        32.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailLower_HeadPier_L",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      390.45,
+      -603.0,
+      153.5
+    ],
+    "scale": [
+      0.40487494564809545,
+      0.19333333333333333,
+      0.3624010813527139
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        390.45,
+        -603.0,
+        185.5
+      ],
+      [
+        17.0,
+        29.0,
+        32.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailLower_Edge_R_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      780.45,
+      -1130.625,
+      -2.3125
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        780.45,
+        -1130.625,
+        17.6875
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailLower_Edge_R_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      780.45,
+      -979.875,
+      37.0625
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        780.45,
+        -979.875,
+        57.0625
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailLower_Edge_R_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      780.45,
+      -829.125,
+      76.4375
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        780.45,
+        -829.125,
+        96.4375
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailLower_Edge_R_03",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      780.45,
+      -678.375,
+      115.8125
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        780.45,
+        -678.375,
+        135.8125
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailLower_FootPier_R",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      789.45,
+      -1206.0,
+      -4.0
+    ],
+    "scale": [
+      0.40487494564809545,
+      0.19333333333333333,
+      0.3624010813527139
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        789.45,
+        -1206.0,
+        28.0
+      ],
+      [
+        17.0,
+        29.0,
+        32.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailLower_HeadPier_R",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      789.45,
+      -603.0,
+      153.5
+    ],
+    "scale": [
+      0.40487494564809545,
+      0.19333333333333333,
+      0.3624010813527139
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        789.45,
+        -603.0,
+        185.5
+      ],
+      [
+        17.0,
+        29.0,
+        32.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailUpper_Edge_L_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      399.45,
+      678.375,
+      155.1875
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        399.45,
+        678.375,
+        175.1875
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailUpper_Edge_L_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      399.45,
+      829.125,
+      194.5625
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        399.45,
+        829.125,
+        214.5625
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailUpper_Edge_L_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      399.45,
+      979.875,
+      233.9375
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        399.45,
+        979.875,
+        253.9375
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailUpper_Edge_L_03",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      399.45,
+      1130.625,
+      273.3125
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        399.45,
+        1130.625,
+        293.3125
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailUpper_FootPier_L",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      390.45,
+      603.0,
+      153.5
+    ],
+    "scale": [
+      0.40487494564809545,
+      0.19333333333333333,
+      0.3624010813527139
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        390.45,
+        603.0,
+        185.5
+      ],
+      [
+        17.0,
+        29.0,
+        32.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailUpper_HeadPier_L",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      390.45,
+      1206.0,
+      311.0
+    ],
+    "scale": [
+      0.40487494564809545,
+      0.19333333333333333,
+      0.3624010813527139
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        390.45,
+        1206.0,
+        343.0
+      ],
+      [
+        17.0,
+        29.0,
+        32.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailUpper_Edge_R_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      780.45,
+      678.375,
+      155.1875
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        780.45,
+        678.375,
+        175.1875
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailUpper_Edge_R_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      780.45,
+      829.125,
+      194.5625
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        780.45,
+        829.125,
+        214.5625
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailUpper_Edge_R_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      780.45,
+      979.875,
+      233.9375
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        780.45,
+        979.875,
+        253.9375
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailUpper_Edge_R_03",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      780.45,
+      1130.625,
+      273.3125
+    ],
+    "scale": [
+      0.2619779060075912,
+      0.3333333333333333,
+      0.2265006758454462
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        780.45,
+        1130.625,
+        293.3125
+      ],
+      [
+        11.0,
+        50.0,
+        20.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailUpper_FootPier_R",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      789.45,
+      603.0,
+      153.5
+    ],
+    "scale": [
+      0.40487494564809545,
+      0.19333333333333333,
+      0.3624010813527139
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        789.45,
+        603.0,
+        185.5
+      ],
+      [
+        17.0,
+        29.0,
+        32.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_RailUpper_HeadPier_R",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      789.45,
+      1206.0,
+      311.0
+    ],
+    "scale": [
+      0.40487494564809545,
+      0.19333333333333333,
+      0.3624010813527139
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        789.45,
+        1206.0,
+        343.0
+      ],
+      [
+        17.0,
+        29.0,
+        32.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Ashslope_BrokenCourse_S_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -2267.8999999999996,
+      219.2,
+      148.5
+    ],
+    "scale": [
+      0.2857940792810086,
+      0.26,
+      0.2378257096377185
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -2267.8999999999996,
+        219.2,
+        169.5
+      ],
+      [
+        39.0,
+        12.0,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Ashslope_BrokenCourse_S_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -2363.8999999999996,
+      219.2,
+      148.5
+    ],
+    "scale": [
+      0.2857940792810086,
+      0.26,
+      0.2378257096377185
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -2363.8999999999996,
+        219.2,
+        169.5
+      ],
+      [
+        39.0,
+        12.0,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Ashslope_BrokenCourse_S_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -2459.8999999999996,
+      219.2,
+      148.5
+    ],
+    "scale": [
+      0.2857940792810086,
+      0.26,
+      0.2378257096377185
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -2459.8999999999996,
+        219.2,
+        169.5
+      ],
+      [
+        39.0,
+        12.0,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Ashslope_Rubble_S",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/StaticMeshes/CH_Polish_Ridge_BaseCaps008.CH_Polish_Ridge_BaseCaps008",
+    "visible": true,
+    "location": [
+      -2567.8999999999996,
+      186.2,
+      141.5
+    ],
+    "scale": [
+      0.36666666666666664,
+      0.30812439853478185,
+      0.43669331079196544
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -2567.8999999999996,
+        186.2,
+        169.5
+      ],
+      [
+        64.05075418248134,
+        53.136082309837946,
+        28.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Ashslope_BrokenCourse_N_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -2267.8999999999996,
+      504.40000000000003,
+      148.5
+    ],
+    "scale": [
+      0.2857940792810086,
+      0.26,
+      0.2378257096377185
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -2267.8999999999996,
+        504.4000000000001,
+        169.5
+      ],
+      [
+        39.0,
+        12.000000000000028,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Ashslope_BrokenCourse_N_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -2363.8999999999996,
+      504.40000000000003,
+      148.5
+    ],
+    "scale": [
+      0.2857940792810086,
+      0.26,
+      0.2378257096377185
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -2363.8999999999996,
+        504.4000000000001,
+        169.5
+      ],
+      [
+        39.0,
+        12.000000000000028,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Ashslope_BrokenCourse_N_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      -2459.8999999999996,
+      504.40000000000003,
+      148.5
+    ],
+    "scale": [
+      0.2857940792810086,
+      0.26,
+      0.2378257096377185
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -2459.8999999999996,
+        504.4000000000001,
+        169.5
+      ],
+      [
+        39.0,
+        12.000000000000028,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Ashslope_Rubble_N",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/StaticMeshes/CH_Polish_Ridge_BaseCaps008.CH_Polish_Ridge_BaseCaps008",
+    "visible": true,
+    "location": [
+      -2567.8999999999996,
+      537.4000000000001,
+      141.5
+    ],
+    "scale": [
+      0.36666666666666664,
+      0.30812439853478185,
+      0.43669331079196544
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -2567.8999999999996,
+        537.4000000000001,
+        169.5
+      ],
+      [
+        64.05075418248134,
+        53.136082309837974,
+        28.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Ashslope_OreCrate",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      -2301.8999999999996,
+      139.2,
+      157.5
+    ],
+    "scale": [
+      0.2017742687314539,
+      0.17333333333333334,
+      0.1737506655678813
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -2301.8999999999996,
+        139.2,
+        181.5
+      ],
+      [
+        32.55339690600704,
+        28.99342317760471,
+        24.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Ashslope_StackedCrate",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      -2301.8999999999996,
+      139.2,
+      203.5
+    ],
+    "scale": [
+      0.13451617915430258,
+      0.12666666666666668,
+      0.12307338811058259
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -2301.8999999999996,
+        139.2,
+        220.5
+      ],
+      [
+        22.16644055752431,
+        21.295763749288078,
+        17.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Ashslope_Barrel",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/StaticMeshes/CH_Polish_Barrel_Closed004.CH_Polish_Barrel_Closed004",
+    "visible": true,
+    "location": [
+      -2368.8999999999996,
+      143.2,
+      157.5
+    ],
+    "scale": [
+      0.15851832835921018,
+      0.16000520850288094,
+      0.18
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -2368.8999999999996,
+        143.2,
+        184.5
+      ],
+      [
+        29.502809593688653,
+        29.502809593688568,
+        27.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Ashslope_DiscardedCrate",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      -2425.8999999999996,
+      152.2,
+      157.5
+    ],
+    "scale": [
+      0.14796779706973284,
+      0.13333333333333333,
+      0.10859416597992581
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        -2425.8999999999996,
+        152.2,
+        172.5
+      ],
+      [
+        27.31277175232799,
+        26.072870910043775,
+        15.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Cemetery_TrailCourse_L_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      2434.9741044645257,
+      1385.8032309230439,
+      308.325
+    ],
+    "scale": [
+      0.29770216591771725,
+      0.24,
+      0.2378257096377185
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        2434.9741044645257,
+        1385.8032309230439,
+        329.325
+      ],
+      [
+        37.718050565927115,
+        27.644700094336486,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Cemetery_TrailCourse_L_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      2551.5241044645254,
+      1446.103230923044,
+      347.7
+    ],
+    "scale": [
+      0.29770216591771725,
+      0.24,
+      0.2378257096377185
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        2551.5241044645254,
+        1446.103230923044,
+        368.7
+      ],
+      [
+        37.718050565927115,
+        27.644700094336486,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Cemetery_TrailCourse_L_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      2682.0601044645255,
+      1513.6392309230437,
+      391.8
+    ],
+    "scale": [
+      0.29770216591771725,
+      0.24,
+      0.2378257096377185
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        2682.0601044645255,
+        1513.6392309230437,
+        412.8
+      ],
+      [
+        37.718050565927115,
+        27.644700094336486,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Cemetery_StoneFooting_L_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/StaticMeshes/CH_Polish_Ridge_BaseCaps008.CH_Polish_Ridge_BaseCaps008",
+    "visible": true,
+    "location": [
+      2424.4637203195957,
+      1337.5807943076466,
+      287.875
+    ],
+    "scale": [
+      0.35,
+      0.34461281415074285,
+      0.4834818798053903
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        2424.4637203195957,
+        1337.5807943076466,
+        318.875
+      ],
+      [
+        42.825284746139914,
+        52.76297665973584,
+        31.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Cemetery_StoneFooting_L_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/StaticMeshes/CH_Polish_Ridge_BaseCaps008.CH_Polish_Ridge_BaseCaps008",
+    "visible": true,
+    "location": [
+      2624.9297203195956,
+      1441.2967943076467,
+      355.6
+    ],
+    "scale": [
+      0.35,
+      0.34461281415074285,
+      0.4834818798053903
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        2624.9297203195956,
+        1441.2967943076467,
+        386.6
+      ],
+      [
+        42.825284746139914,
+        52.76297665973584,
+        31.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Cemetery_TrailCourse_R_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      2343.9898955354743,
+      1561.660769076956,
+      308.325
+    ],
+    "scale": [
+      0.29770216591771725,
+      0.24,
+      0.2378257096377185
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        2343.9898955354743,
+        1561.660769076956,
+        329.325
+      ],
+      [
+        37.718050565927115,
+        27.644700094336486,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Cemetery_TrailCourse_R_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      2460.539895535474,
+      1621.9607690769562,
+      347.7
+    ],
+    "scale": [
+      0.29770216591771725,
+      0.24,
+      0.2378257096377185
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        2460.539895535474,
+        1621.9607690769562,
+        368.7
+      ],
+      [
+        37.718050565927115,
+        27.644700094336486,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Cemetery_TrailCourse_R_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      2591.075895535474,
+      1689.4967690769563,
+      391.8
+    ],
+    "scale": [
+      0.29770216591771725,
+      0.24,
+      0.2378257096377185
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        2591.075895535474,
+        1689.4967690769563,
+        412.8
+      ],
+      [
+        37.718050565927115,
+        27.644700094336486,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Cemetery_StoneFooting_R_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/StaticMeshes/CH_Polish_Ridge_BaseCaps008.CH_Polish_Ridge_BaseCaps008",
+    "visible": true,
+    "location": [
+      2298.556279680404,
+      1580.9392056923534,
+      287.875
+    ],
+    "scale": [
+      0.35,
+      0.34461281415074285,
+      0.4834818798053903
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        2298.556279680404,
+        1580.9392056923534,
+        318.875
+      ],
+      [
+        67.43107191510308,
+        65.1320354938266,
+        31.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Cemetery_StoneFooting_R_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/StaticMeshes/CH_Polish_Ridge_BaseCaps008.CH_Polish_Ridge_BaseCaps008",
+    "visible": true,
+    "location": [
+      2499.0222796804037,
+      1684.6552056923535,
+      355.6
+    ],
+    "scale": [
+      0.35,
+      0.34461281415074285,
+      0.4834818798053903
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        2499.0222796804037,
+        1684.6552056923535,
+        386.6
+      ],
+      [
+        67.43107191510308,
+        65.1320354938266,
+        31.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Pinehollow_ThresholdCourse_L_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      421.0,
+      -3120.3,
+      -10.0
+    ],
+    "scale": [
+      0.29770216591771725,
+      0.22666666666666666,
+      0.18120054067635696
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        421.0,
+        -3120.3,
+        6.0
+      ],
+      [
+        12.5,
+        34.0,
+        16.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Pinehollow_ThresholdCourse_L_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      421.0,
+      -3220.3,
+      -10.0
+    ],
+    "scale": [
+      0.29770216591771725,
+      0.22666666666666666,
+      0.18120054067635696
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        421.0,
+        -3220.3,
+        6.0
+      ],
+      [
+        12.5,
+        34.0,
+        16.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Pinehollow_LowRubble_L",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/StaticMeshes/CH_Polish_Ridge_BaseCaps008.CH_Polish_Ridge_BaseCaps008",
+    "visible": true,
+    "location": [
+      385.0,
+      -3353.3,
+      -18.0
+    ],
+    "scale": [
+      0.37333333333333335,
+      0.37299269296315696,
+      0.4288952159563946
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        385.0,
+        -3353.3,
+        9.5
+      ],
+      [
+        71.49742261192853,
+        67.83716857408399,
+        27.5
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Pinehollow_ThresholdCourse_R_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      659.0,
+      -3120.3,
+      -10.0
+    ],
+    "scale": [
+      0.29770216591771725,
+      0.22666666666666666,
+      0.18120054067635696
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        659.0,
+        -3120.3,
+        6.0
+      ],
+      [
+        12.5,
+        34.0,
+        16.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Pinehollow_ThresholdCourse_R_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+    "visible": true,
+    "location": [
+      659.0,
+      -3220.3,
+      -10.0
+    ],
+    "scale": [
+      0.29770216591771725,
+      0.22666666666666666,
+      0.18120054067635696
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        659.0,
+        -3220.3,
+        6.0
+      ],
+      [
+        12.5,
+        34.0,
+        16.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Pinehollow_LowRubble_R",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Ridge/CH_Polish_Ridge_BaseCaps008/StaticMeshes/CH_Polish_Ridge_BaseCaps008.CH_Polish_Ridge_BaseCaps008",
+    "visible": true,
+    "location": [
+      695.0,
+      -3353.3,
+      -18.0
+    ],
+    "scale": [
+      0.37333333333333335,
+      0.37299269296315696,
+      0.4288952159563946
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        695.0,
+        -3353.3,
+        9.5
+      ],
+      [
+        71.49742261192853,
+        67.83716857408399,
+        27.5
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Pinehollow_RestTable",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Table/CH_Polish_Table_Caps004/StaticMeshes/CH_Polish_Table_Caps004.CH_Polish_Table_Caps004",
+    "visible": true,
+    "location": [
+      807.0,
+      -3186.3,
+      0.0
+    ],
+    "scale": [
+      0.5,
+      0.3526076342120729,
+      0.39507842438495216
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        807.0,
+        -3186.3,
+        24.0
+      ],
+      [
+        78.09585803546065,
+        52.117245893020936,
+        24.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Pinehollow_ToolStand",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/StaticMeshes/CH_Polish_ToolRack_Caps004.CH_Polish_ToolRack_Caps004",
+    "visible": true,
+    "location": [
+      860.0,
+      -3096.3,
+      0.0
+    ],
+    "scale": [
+      0.1956302522262639,
+      0.20666666666666667,
+      0.2650864290670524
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        860.0,
+        -3096.3,
+        35.0
+      ],
+      [
+        31.0,
+        12.0,
+        35.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Pinehollow_SupplyCrate_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      918.0,
+      -3187.3,
+      0.0
+    ],
+    "scale": [
+      0.14796779706973284,
+      0.14,
+      0.15203183237189613
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        918.0,
+        -3187.3,
+        21.0
+      ],
+      [
+        24.708532632475908,
+        23.857437664694316,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Pinehollow_SupplyCrate_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      951.0,
+      -3245.3,
+      0.0
+    ],
+    "scale": [
+      0.14796779706973284,
+      0.14,
+      0.15203183237189613
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        951.0,
+        -3245.3,
+        21.0
+      ],
+      [
+        27.178510430364213,
+        26.514577379124148,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Pinehollow_SupplyCrate_02",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      356.0,
+      -3171.3,
+      0.0
+    ],
+    "scale": [
+      0.14796779706973284,
+      0.14,
+      0.15203183237189613
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        356.0,
+        -3171.3,
+        21.0
+      ],
+      [
+        23.41129505434276,
+        22.48348747782711,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Pinehollow_SupplyCrate_03",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      320.0,
+      -3233.3,
+      0.0
+    ],
+    "scale": [
+      0.14796779706973284,
+      0.14,
+      0.15203183237189613
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        320.0,
+        -3233.3,
+        21.0
+      ],
+      [
+        26.426865785664972,
+        25.69849195498864,
+        21.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Pinehollow_Barrel_00",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/StaticMeshes/CH_Polish_Barrel_Closed004.CH_Polish_Barrel_Closed004",
+    "visible": true,
+    "location": [
+      912.0,
+      -3290.3,
+      0.0
+    ],
+    "scale": [
+      0.14795043980192948,
+      0.14933819460268888,
+      0.16333333333333333
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        912.0,
+        -3290.3,
+        24.5
+      ],
+      [
+        21.0,
+        21.0,
+        24.5
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Link_Pinehollow_Barrel_01",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/StaticMeshes/CH_Polish_Barrel_Closed004.CH_Polish_Barrel_Closed004",
+    "visible": true,
+    "location": [
+      360.0,
+      -3291.3,
+      0.0
+    ],
+    "scale": [
+      0.14795043980192948,
+      0.14933819460268888,
+      0.16333333333333333
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.ConnectionDressing"
+    ],
+    "bounds": [
+      [
+        360.0,
+        -3291.3,
+        24.5
+      ],
+      [
+        25.71964229922338,
+        25.719642299223324,
+        24.5
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_FreyaTavern",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/Tavern/CH_Dense_Tavern_Foundation014/StaticMeshes/CH_Dense_Tavern_Foundation014.CH_Dense_Tavern_Foundation014",
+    "visible": true,
+    "location": [
+      -126.0,
+      -1718.55,
+      0.0
+    ],
+    "scale": [
+      1.5960198864428539,
+      1.8666666666666667,
+      1.6642142321232758
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -126.0,
+        -1718.55,
+        220.0
+      ],
+      [
+        280.0000000000001,
+        200.00000000000023,
+        220.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_FreyaTavern_Walls",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/TavernWalls/CH_Dense_TavernWalls_Final016/StaticMeshes/CH_Dense_TavernWalls_Final016.CH_Dense_TavernWalls_Final016",
+    "visible": false,
+    "location": [
+      -126.0,
+      -1718.55,
+      0.0
+    ],
+    "scale": [
+      1.5960198864428539,
+      1.8666666666666667,
+      1.6642142321232758
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -54.627842203776,
+        -1679.1668528214977,
+        104.97186774975472
+      ],
+      [
+        201.27621866861986,
+        146.8878939470892,
+        63.5580231719282
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_DorikSmithy",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/StaticMeshes/CH_Dense_SmithyStructure_Final018.CH_Dense_SmithyStructure_Final018",
+    "visible": true,
+    "location": [
+      -92.7,
+      715.0,
+      157.5
+    ],
+    "scale": [
+      1.5763476382034216,
+      1.5666666666666667,
+      1.320645249342101
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -91.66678314208986,
+        714.4224416290034,
+        245.56451485848646
+      ],
+      [
+        233.96678314208992,
+        174.42244162900352,
+        88.06451485848646
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_DorikSmithy_Roof",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyRoof/CH_Dense_SmithyRoof_RearFar023/StaticMeshes/CH_Dense_SmithyRoof_RearFar023.CH_Dense_SmithyRoof_RearFar023",
+    "visible": true,
+    "location": [
+      -92.7,
+      715.0,
+      157.5
+    ],
+    "scale": [
+      1.5763476382034216,
+      1.5666666666666667,
+      1.320645249342101
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.InteriorRoof"
+    ],
+    "bounds": [
+      [
+        -92.70000000000002,
+        715.9240921909367,
+        398.758069051682
+      ],
+      [
+        235.00000000000009,
+        174.07590780906344,
+        88.74193094831793
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_DorikSmithy_Walls",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyWalls/CH_Dense_SmithyWalls_Final016/StaticMeshes/CH_Dense_SmithyWalls_Final016.CH_Dense_SmithyWalls_Final016",
+    "visible": true,
+    "location": [
+      -92.7,
+      715.0,
+      157.5
+    ],
+    "scale": [
+      1.5763476382034216,
+      1.5666666666666667,
+      1.320645249342101
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -92.03615798950196,
+        716.0160774731542,
+        235.7198620561157
+      ],
+      [
+        224.21660435994474,
+        171.65662332860643,
+        77.71816308373074
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_UnloadingShelter",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/StaticMeshes/CH_Dense_SmithyStructure_Final018.CH_Dense_SmithyStructure_Final018",
+    "visible": true,
+    "location": [
+      73.8,
+      1869.3,
+      315.0
+    ],
+    "scale": [
+      1.5763476382034216,
+      1.5666666666666667,
+      1.320645249342101
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        74.83321685791014,
+        1868.7224416290035,
+        403.06451485848646
+      ],
+      [
+        233.96678314208992,
+        174.42244162900352,
+        88.06451485848646
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_UnloadingShelter_Roof",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyRoof/CH_Dense_SmithyRoof_RearFar023/StaticMeshes/CH_Dense_SmithyRoof_RearFar023.CH_Dense_SmithyRoof_RearFar023",
+    "visible": true,
+    "location": [
+      73.8,
+      1869.3,
+      315.0
+    ],
+    "scale": [
+      1.5763476382034216,
+      1.5666666666666667,
+      1.320645249342101
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.InteriorRoof"
+    ],
+    "bounds": [
+      [
+        73.79999999999998,
+        1870.2240921909367,
+        556.258069051682
+      ],
+      [
+        235.00000000000009,
+        174.07590780906344,
+        88.74193094831796
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_UnloadingShelter_Walls",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyWalls/CH_Dense_SmithyWalls_Final016/StaticMeshes/CH_Dense_SmithyWalls_Final016.CH_Dense_SmithyWalls_Final016",
+    "visible": true,
+    "location": [
+      73.8,
+      1869.3,
+      315.0
+    ],
+    "scale": [
+      1.5763476382034216,
+      1.5666666666666667,
+      1.320645249342101
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        74.46384201049804,
+        1870.316077473154,
+        393.21986205611574
+      ],
+      [
+        224.21660435994474,
+        171.65662332860643,
+        77.71816308373076
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_WestSorting",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/StaticMeshes/CH_Dense_SmithyStructure_Final018.CH_Dense_SmithyStructure_Final018",
+    "visible": true,
+    "location": [
+      -1117.6,
+      1742.0,
+      315.0
+    ],
+    "scale": [
+      0.9908470868707222,
+      1.0,
+      0.8404106132177007
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.Workstore"
+    ],
+    "bounds": [
+      [
+        -1116.9404998779296,
+        1741.6369633096592,
+        371.04105490994596
+      ],
+      [
+        149.3404998779297,
+        109.63696330965945,
+        56.041054909945956
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_WestSorting_Roof",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyRoof/CH_Dense_SmithyRoof_RearFar023/StaticMeshes/CH_Dense_SmithyRoof_RearFar023.CH_Dense_SmithyRoof_RearFar023",
+    "visible": true,
+    "location": [
+      -1117.6,
+      1742.0,
+      315.0
+    ],
+    "scale": [
+      0.9908470868707222,
+      1.0,
+      0.8404106132177007
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.Workstore",
+      "CH.InteriorRoof"
+    ],
+    "bounds": [
+      [
+        -1117.6,
+        1742.5808579485888,
+        468.5278621237977
+      ],
+      [
+        150.0,
+        109.4191420514112,
+        56.47213787620231
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_WestSorting_Walls",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyWalls/CH_Dense_SmithyWalls_Final016/StaticMeshes/CH_Dense_SmithyWalls_Final016.CH_Dense_SmithyWalls_Final016",
+    "visible": true,
+    "location": [
+      -1117.6,
+      1742.0,
+      315.0
+    ],
+    "scale": [
+      0.9908470868707222,
+      1.0,
+      0.8404106132177007
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.Workstore"
+    ],
+    "bounds": [
+      [
+        -1117.1762710571288,
+        1742.6386772688397,
+        364.77627585389183
+      ],
+      [
+        143.11698150634766,
+        107.89844894940984,
+        49.457012871465
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_EastTimber",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/StaticMeshes/CH_Dense_SmithyStructure_Final018.CH_Dense_SmithyStructure_Final018",
+    "visible": true,
+    "location": [
+      1657.4,
+      1608.0,
+      315.0
+    ],
+    "scale": [
+      0.9908470868707222,
+      1.0,
+      0.8404106132177007
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.Workstore"
+    ],
+    "bounds": [
+      [
+        1658.0595001220704,
+        1607.6369633096592,
+        371.04105490994596
+      ],
+      [
+        149.3404998779297,
+        109.63696330965945,
+        56.041054909945956
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_EastTimber_Roof",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyRoof/CH_Dense_SmithyRoof_RearFar023/StaticMeshes/CH_Dense_SmithyRoof_RearFar023.CH_Dense_SmithyRoof_RearFar023",
+    "visible": true,
+    "location": [
+      1657.4,
+      1608.0,
+      315.0
+    ],
+    "scale": [
+      0.9908470868707222,
+      1.0,
+      0.8404106132177007
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.Workstore",
+      "CH.InteriorRoof"
+    ],
+    "bounds": [
+      [
+        1657.4,
+        1608.5808579485888,
+        468.5278621237977
+      ],
+      [
+        150.0,
+        109.4191420514112,
+        56.47213787620231
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_EastTimber_Walls",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyWalls/CH_Dense_SmithyWalls_Final016/StaticMeshes/CH_Dense_SmithyWalls_Final016.CH_Dense_SmithyWalls_Final016",
+    "visible": true,
+    "location": [
+      1657.4,
+      1608.0,
+      315.0
+    ],
+    "scale": [
+      0.9908470868707222,
+      1.0,
+      0.8404106132177007
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.Workstore"
+    ],
+    "bounds": [
+      [
+        1657.8237289428712,
+        1608.6386772688397,
+        364.77627585389183
+      ],
+      [
+        143.11698150634766,
+        107.89844894940984,
+        49.457012871465
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_ToolRepair",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyStructure/CH_Dense_SmithyStructure_Final018/StaticMeshes/CH_Dense_SmithyStructure_Final018.CH_Dense_SmithyStructure_Final018",
+    "visible": true,
+    "location": [
+      -1102.8,
+      294.8,
+      157.5
+    ],
+    "scale": [
+      0.9908470868707222,
+      1.0,
+      0.8404106132177007
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.Workstore"
+    ],
+    "bounds": [
+      [
+        -1102.1404998779296,
+        294.4369633096593,
+        213.54105490994593
+      ],
+      [
+        149.3404998779297,
+        109.63696330965934,
+        56.04105490994593
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_ToolRepair_Roof",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyRoof/CH_Dense_SmithyRoof_RearFar023/StaticMeshes/CH_Dense_SmithyRoof_RearFar023.CH_Dense_SmithyRoof_RearFar023",
+    "visible": true,
+    "location": [
+      -1102.8,
+      294.8,
+      157.5
+    ],
+    "scale": [
+      0.9908470868707222,
+      1.0,
+      0.8404106132177007
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.Workstore",
+      "CH.InteriorRoof"
+    ],
+    "bounds": [
+      [
+        -1102.8,
+        295.3808579485888,
+        311.0278621237977
+      ],
+      [
+        150.0,
+        109.41914205141126,
+        56.47213787620234
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_ToolRepair_Walls",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/SmithyWalls/CH_Dense_SmithyWalls_Final016/StaticMeshes/CH_Dense_SmithyWalls_Final016.CH_Dense_SmithyWalls_Final016",
+    "visible": true,
+    "location": [
+      -1102.8,
+      294.8,
+      157.5
+    ],
+    "scale": [
+      0.9908470868707222,
+      1.0,
+      0.8404106132177007
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.Workstore"
+    ],
+    "bounds": [
+      [
+        -1102.3762710571289,
+        295.43867726883974,
+        207.27627585389183
+      ],
+      [
+        143.11698150634766,
+        107.89844894940973,
+        49.45701287146501
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_CrewRoom",
+    "mesh": "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/StaticMeshes/CH_GormP2_Clean_v006.CH_GormP2_Clean_v006",
+    "visible": true,
+    "location": [
+      -1767.0232413482665,
+      2250.0,
+      315.00001126527786
+    ],
+    "scale": [
+      0.9450000000000001,
+      0.9450000000000001,
+      0.9450000000000001
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.Workstore"
+    ],
+    "bounds": [
+      [
+        -1770.0,
+        2250.0,
+        437.85000563263895
+      ],
+      [
+        146.00250000000005,
+        127.57499999999982,
+        122.85000563263895
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_LampStore",
+    "mesh": "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/StaticMeshes/CH_GormP2_Clean_v006.CH_GormP2_Clean_v006",
+    "visible": true,
+    "location": [
+      2052.5515074157715,
+      2320.0,
+      315.00000965595245
+    ],
+    "scale": [
+      0.81,
+      0.81,
+      0.81
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.Workstore"
+    ],
+    "bounds": [
+      [
+        2050.0,
+        2320.0,
+        420.30000482797624
+      ],
+      [
+        125.14499999999998,
+        109.34999999999991,
+        105.30000482797624
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_AssayPacking",
+    "mesh": "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/StaticMeshes/CH_GormP2_Clean_v006.CH_GormP2_Clean_v006",
+    "visible": true,
+    "location": [
+      1900.0,
+      -262.8350082397461,
+      157.50001072883606
+    ],
+    "scale": [
+      0.9,
+      0.9,
+      0.9
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.Workstore"
+    ],
+    "bounds": [
+      [
+        1900.0,
+        -260.0,
+        274.50000536441803
+      ],
+      [
+        121.5,
+        139.05000000000007,
+        117.00000536441803
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_WestSorting_Crate0",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      -1225.6,
+      1584.0,
+      315.0
+    ],
+    "scale": [
+      0.19504845977373877,
+      0.18,
+      0.1665110545025529
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        -1225.6,
+        1584.0,
+        338.0
+      ],
+      [
+        31.663403473906556,
+        29.883416609705364,
+        23.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_WestSorting_Barrel1",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/StaticMeshes/CH_Polish_Barrel_Closed004.CH_Polish_Barrel_Closed004",
+    "visible": true,
+    "location": [
+      -1011.5999999999999,
+      1587.0,
+      315.0
+    ],
+    "scale": [
+      0.16204095787830372,
+      0.16356087980294498,
+      0.18
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        -1011.5999999999999,
+        1587.0,
+        342.0
+      ],
+      [
+        27.279363705685967,
+        27.27936370568591,
+        27.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_WestSorting_ToolRack2",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/StaticMeshes/CH_Polish_ToolRack_Caps004.CH_Polish_ToolRack_Caps004",
+    "visible": true,
+    "location": [
+      -1253.6,
+      1767.0,
+      368.0
+    ],
+    "scale": [
+      0.11411764713198727,
+      0.12,
+      0.1666257554135758
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        -1253.6,
+        1767.0,
+        390.0
+      ],
+      [
+        7.0,
+        18.0,
+        22.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_EastTimber_Crate0",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      1549.4,
+      1450.0,
+      315.0
+    ],
+    "scale": [
+      0.19504845977373877,
+      0.18,
+      0.1665110545025529
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        1549.4,
+        1450.0,
+        338.0
+      ],
+      [
+        31.663403473906556,
+        29.883416609705364,
+        23.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_EastTimber_Barrel1",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/StaticMeshes/CH_Polish_Barrel_Closed004.CH_Polish_Barrel_Closed004",
+    "visible": true,
+    "location": [
+      1763.4,
+      1453.0,
+      315.0
+    ],
+    "scale": [
+      0.16204095787830372,
+      0.16356087980294498,
+      0.18
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        1763.4,
+        1453.0,
+        342.0
+      ],
+      [
+        27.27936370568591,
+        27.27936370568591,
+        27.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_EastTimber_ToolRack2",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/StaticMeshes/CH_Polish_ToolRack_Caps004.CH_Polish_ToolRack_Caps004",
+    "visible": true,
+    "location": [
+      1521.4,
+      1633.0,
+      368.0
+    ],
+    "scale": [
+      0.11411764713198727,
+      0.12,
+      0.1666257554135758
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        1521.4,
+        1633.0,
+        390.0
+      ],
+      [
+        7.0,
+        18.0,
+        22.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_ToolRepair_Crate0",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      -1210.8,
+      136.8,
+      157.5
+    ],
+    "scale": [
+      0.19504845977373877,
+      0.18,
+      0.1665110545025529
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        -1210.8,
+        136.8,
+        180.5
+      ],
+      [
+        31.663403473906556,
+        29.883416609705336,
+        23.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_ToolRepair_Barrel1",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/StaticMeshes/CH_Polish_Barrel_Closed004.CH_Polish_Barrel_Closed004",
+    "visible": true,
+    "location": [
+      -996.8,
+      139.8,
+      157.5
+    ],
+    "scale": [
+      0.16204095787830372,
+      0.16356087980294498,
+      0.18
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        -996.8,
+        139.8,
+        184.5
+      ],
+      [
+        27.279363705685967,
+        27.279363705685995,
+        27.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_ToolRepair_ToolRack2",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/StaticMeshes/CH_Polish_ToolRack_Caps004.CH_Polish_ToolRack_Caps004",
+    "visible": true,
+    "location": [
+      -1238.8,
+      319.8,
+      210.5
+    ],
+    "scale": [
+      0.11411764713198727,
+      0.12,
+      0.1666257554135758
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        -1238.8,
+        319.8,
+        232.5
+      ],
+      [
+        7.0,
+        18.0,
+        22.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_CrewRoom_Crate0",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      -1880.0,
+      2084.0,
+      315.0
+    ],
+    "scale": [
+      0.18159684185830852,
+      0.16666666666666666,
+      0.1737506655678813
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        -1880.0,
+        2084.0,
+        339.0
+      ],
+      [
+        30.21656538002412,
+        28.514375444461166,
+        24.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_CrewRoom_Barrel1",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/StaticMeshes/CH_Polish_Barrel_Closed004.CH_Polish_Barrel_Closed004",
+    "visible": true,
+    "location": [
+      -1660.0,
+      2090.0,
+      315.0
+    ],
+    "scale": [
+      0.1549956988401166,
+      0.15644953720281693,
+      0.17333333333333334
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        -1660.0,
+        2090.0,
+        341.0
+      ],
+      [
+        24.847705733435987,
+        24.84770573343576,
+        26.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_CrewRoom_ToolRack2",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/StaticMeshes/CH_Polish_ToolRack_Caps004.CH_Polish_ToolRack_Caps004",
+    "visible": true,
+    "location": [
+      -1687.0,
+      2131.0,
+      384.0
+    ],
+    "scale": [
+      0.11411764713198727,
+      0.11333333333333333,
+      0.1628388064269036
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        -1687.0,
+        2131.0,
+        405.5
+      ],
+      [
+        17.0,
+        7.0,
+        21.5
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_LampStore_Crate0",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      1940.0,
+      2154.0,
+      315.0
+    ],
+    "scale": [
+      0.18159684185830852,
+      0.16666666666666666,
+      0.1737506655678813
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        1940.0,
+        2154.0,
+        339.0
+      ],
+      [
+        30.21656538002412,
+        28.514375444461166,
+        24.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_LampStore_Barrel1",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/StaticMeshes/CH_Polish_Barrel_Closed004.CH_Polish_Barrel_Closed004",
+    "visible": true,
+    "location": [
+      2160.0,
+      2160.0,
+      315.0
+    ],
+    "scale": [
+      0.1549956988401166,
+      0.15644953720281693,
+      0.17333333333333334
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        2160.0,
+        2160.0,
+        341.0
+      ],
+      [
+        24.84770573343576,
+        24.84770573343576,
+        26.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_LampStore_ToolRack2",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/StaticMeshes/CH_Polish_ToolRack_Caps004.CH_Polish_ToolRack_Caps004",
+    "visible": true,
+    "location": [
+      2133.0,
+      2201.0,
+      384.0
+    ],
+    "scale": [
+      0.11411764713198727,
+      0.11333333333333333,
+      0.1628388064269036
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        2133.0,
+        2201.0,
+        405.5
+      ],
+      [
+        17.0,
+        7.0,
+        21.5
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_AssayPacking_Crate0",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Crate/CH_Polish_Crate_Caps004/StaticMeshes/CH_Polish_Crate_Caps004.CH_Polish_Crate_Caps004",
+    "visible": true,
+    "location": [
+      1732.0,
+      -366.0,
+      157.5
+    ],
+    "scale": [
+      0.18159684185830852,
+      0.16666666666666666,
+      0.1737506655678813
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        1732.0,
+        -366.0,
+        181.5
+      ],
+      [
+        25.0,
+        27.0,
+        24.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_AssayPacking_Barrel1",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/Barrel/CH_Polish_Barrel_Closed004/StaticMeshes/CH_Polish_Barrel_Closed004.CH_Polish_Barrel_Closed004",
+    "visible": true,
+    "location": [
+      1738.0,
+      -152.0,
+      157.5
+    ],
+    "scale": [
+      0.1549956988401166,
+      0.15644953720281693,
+      0.17333333333333334
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        1738.0,
+        -152.0,
+        183.5
+      ],
+      [
+        24.847705733435987,
+        24.847705733435987,
+        26.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Work_AssayPacking_ToolRack2",
+    "mesh": "/Game/Cindehearth/Polish_v003/Models/ToolRack/CH_Polish_ToolRack_Caps004/StaticMeshes/CH_Polish_ToolRack_Caps004.CH_Polish_ToolRack_Caps004",
+    "visible": true,
+    "location": [
+      1781.0,
+      -180.0,
+      226.5
+    ],
+    "scale": [
+      0.11411764713198727,
+      0.11333333333333333,
+      0.1628388064269036
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004",
+      "CH.Workstore.Detail"
+    ],
+    "bounds": [
+      [
+        1781.0,
+        -180.0,
+        248.0
+      ],
+      [
+        7.0,
+        17.0,
+        21.5
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Transition_AshFoundation",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "visible": true,
+    "location": [
+      -2465.0,
+      140.0,
+      -32.5
+    ],
+    "scale": [
+      3.3,
+      14.8,
+      3.3
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -2465.0,
+        140.0,
+        -32.5
+      ],
+      [
+        165.0,
+        740.0,
+        165.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Transition_AshRock_0",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      -2465.0,
+      -475.0,
+      -10.0
+    ],
+    "scale": [
+      2.0833333333333335,
+      1.8183228965149985,
+      1.4769119823318635
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -2465.0,
+        -475.0,
+        65.0
+      ],
+      [
+        215.87466766295165,
+        185.8979072452969,
+        75.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Transition_AshRock_1",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      -2443.0,
+      -250.0,
+      -10.0
+    ],
+    "scale": [
+      2.0833333333333335,
+      1.8183228965149985,
+      1.4769119823318635
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -2443.0,
+        -250.0,
+        65.0
+      ],
+      [
+        187.5,
+        147.5,
+        75.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Transition_AshRock_2",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      -2465.0,
+      -25.0,
+      -10.0
+    ],
+    "scale": [
+      2.0833333333333335,
+      1.8183228965149985,
+      1.4769119823318635
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -2465.0,
+        -25.0,
+        65.0
+      ],
+      [
+        215.87466766295165,
+        185.89790724529692,
+        75.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Transition_AshRock_3",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      -2443.0,
+      180.0,
+      -10.0
+    ],
+    "scale": [
+      2.0833333333333335,
+      1.8183228965149985,
+      1.4769119823318635
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -2443.0,
+        180.0,
+        65.0
+      ],
+      [
+        215.87466766295165,
+        185.8979072452969,
+        75.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Transition_AshRock_4",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      -2465.0,
+      570.0,
+      -10.0
+    ],
+    "scale": [
+      2.0833333333333335,
+      1.8183228965149985,
+      1.4769119823318635
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -2465.0,
+        570.0,
+        65.0
+      ],
+      [
+        187.5,
+        147.5,
+        75.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Transition_AshRock_5",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      -2443.0,
+      795.0,
+      -10.0
+    ],
+    "scale": [
+      2.0833333333333335,
+      1.8183228965149985,
+      1.4769119823318635
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -2443.0,
+        795.0,
+        65.0
+      ],
+      [
+        215.87466766295165,
+        185.8979072452969,
+        75.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Transition_PineSoilVerge",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "visible": true,
+    "location": [
+      306.9,
+      -2925.0,
+      -85.0
+    ],
+    "scale": [
+      33.3,
+      6.1,
+      1.7
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        306.89999999999986,
+        -2925.0,
+        -85.0
+      ],
+      [
+        1664.9999999999998,
+        305.0,
+        85.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Transition_PineRock_-1_0",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      -1283.1,
+      -2700.0,
+      -75.0
+    ],
+    "scale": [
+      1.7222222222222223,
+      1.7258658000820324,
+      1.230759985276553
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -1283.1,
+        -2700.0,
+        -12.5
+      ],
+      [
+        155.0,
+        140.0,
+        62.5
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Transition_PineRock_-1_1",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      -1303.1,
+      -2890.0,
+      -75.0
+    ],
+    "scale": [
+      1.7222222222222223,
+      1.7258658000820324,
+      1.230759985276553
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -1303.1,
+        -2890.0,
+        -12.5
+      ],
+      [
+        189.15927583545363,
+        179.20028006684925,
+        62.5
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Transition_PineRock_-1_2",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      -1283.1,
+      -3080.0,
+      -75.0
+    ],
+    "scale": [
+      1.7222222222222223,
+      1.7258658000820324,
+      1.230759985276553
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -1283.1,
+        -3080.0,
+        -12.5
+      ],
+      [
+        206.7878302319359,
+        202.7401601956717,
+        62.5
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Transition_PineRock_1_0",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      1896.9,
+      -2700.0,
+      -75.0
+    ],
+    "scale": [
+      1.7222222222222223,
+      1.7258658000820324,
+      1.230759985276553
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        1896.9,
+        -2700.0,
+        -12.5
+      ],
+      [
+        155.0,
+        140.0,
+        62.5
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Transition_PineRock_1_1",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      1916.9,
+      -2890.0,
+      -75.0
+    ],
+    "scale": [
+      1.7222222222222223,
+      1.7258658000820324,
+      1.230759985276553
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        1916.9,
+        -2890.0,
+        -12.5
+      ],
+      [
+        189.15927583545363,
+        179.20028006684925,
+        62.5
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_Transition_PineRock_1_2",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      1896.9,
+      -3080.0,
+      -75.0
+    ],
+    "scale": [
+      1.7222222222222223,
+      1.7258658000820324,
+      1.230759985276553
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Polish_v003",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        1896.9,
+        -3080.0,
+        -12.5
+      ],
+      [
+        206.7878302319359,
+        202.7401601956717,
+        62.5
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_FreyaTavern_TavernWallsInset",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/TavernWallsInset/CH_Dense_TavernWallsInset_Weld027/StaticMeshes/CH_Dense_TavernWallsInset_Weld027.CH_Dense_TavernWallsInset_Weld027",
+    "visible": true,
+    "location": [
+      -126.0,
+      -1718.55,
+      0.0
+    ],
+    "scale": [
+      1.5960198864428539,
+      1.8666666666666667,
+      1.6642142321232758
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -54.64873453776042,
+        -1797.5768354222605,
+        104.94621832977434
+      ],
+      [
+        198.04366048177087,
+        6.13363293612656,
+        63.278349108328044
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_FreyaTavern_TavernWallsFrame",
+    "mesh": "/Game/Cindehearth/Dense_v004/Models/TavernWallsFrame/CH_Dense_TavernWallsFrame_025/StaticMeshes/CH_Dense_TavernWallsFrame_025.CH_Dense_TavernWallsFrame_025",
+    "visible": true,
+    "location": [
+      -126.0,
+      -1718.55,
+      0.0
+    ],
+    "scale": [
+      1.5960198864428539,
+      1.8666666666666667,
+      1.6642142321232758
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004"
+    ],
+    "bounds": [
+      [
+        -54.627842203776,
+        -1677.779011294953,
+        104.97186774975472
+      ],
+      [
+        201.27621866861986,
+        145.50005242054453,
+        63.5580231719282
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_BuriedTrailCore",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "visible": true,
+    "location": [
+      2932.0291278264967,
+      1754.4320584121645,
+      -42.40559924905898
+    ],
+    "scale": [
+      11.36040382467726,
+      0.9,
+      10.0
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        2932.0291278264967,
+        1754.4320584121645,
+        -42.40559924905892
+      ],
+      [
+        631.5213227873091,
+        356.0022790882706,
+        642.1535573625001
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_Trail_00_L",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      2697.4989950914883,
+      1549.7747035171992,
+      -280.0
+    ],
+    "scale": [
+      2.8444444444444446,
+      1.9477628315211508,
+      6.553354079335035
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        2612.551601295796,
+        1505.825085754196,
+        38.75000126220243
+      ],
+      [
+        375.3297927321946,
+        296.9536029682347,
+        392.3239295072244
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_Trail_00_R",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      2629.4905964980558,
+      1681.2237724403258,
+      -280.0
+    ],
+    "scale": [
+      2.8444444444444446,
+      1.9477628315211508,
+      6.553354079335035
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        2544.5432027023635,
+        1637.2741546773225,
+        38.75000126220243
+      ],
+      [
+        375.3297927321946,
+        296.9536029682347,
+        392.3239295072244
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_Trail_01_L",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      3036.2816673400384,
+      1725.0522250666422,
+      -280.0
+    ],
+    "scale": [
+      2.7777777777777777,
+      1.9477628315211508,
+      7.632730045343158
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        2937.3429380956436,
+        1673.863846730909,
+        91.25000147009456
+      ],
+      [
+        384.21693668616217,
+        301.5515848759678,
+        443.0995407718738
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_Trail_01_R",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      2968.273268746606,
+      1856.5012939897688,
+      -280.0
+    ],
+    "scale": [
+      2.7777777777777777,
+      1.9477628315211508,
+      7.632730045343158
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        2869.334539502211,
+        1805.3129156540354,
+        91.25000147009456
+      ],
+      [
+        384.21693668616217,
+        301.5515848759677,
+        443.0995407718738
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_Trail_02_L",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      3375.064339588589,
+      1900.3297466160857,
+      -279.9999999999999
+    ],
+    "scale": [
+      2.8444444444444446,
+      1.9477628315211508,
+      8.712106011351281
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        3262.134274895492,
+        1841.9026077076226,
+        143.75000167798675
+      ],
+      [
+        403.3124636295993,
+        311.4311241136945,
+        497.3239299230086
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_Trail_02_R",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      3307.0559409951566,
+      2031.7788155392122,
+      -279.9999999999999
+    ],
+    "scale": [
+      2.8444444444444446,
+      1.9477628315211508,
+      8.712106011351281
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        3194.1258763020596,
+        1973.3516766307491,
+        143.75000167798675
+      ],
+      [
+        403.3124636295993,
+        311.4311241136945,
+        497.3239299230086
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_BuriedPlateauCore",
+    "mesh": "/Engine/BasicShapes/Cube.Cube",
+    "visible": true,
+    "location": [
+      3969.9,
+      2110.5,
+      154.0
+    ],
+    "scale": [
+      12.885,
+      9.96,
+      9.0
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        3969.8999999999996,
+        2110.5,
+        154.0
+      ],
+      [
+        644.2499999999998,
+        498.0,
+        450.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_WestFace_00",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      3245.65,
+      1702.5,
+      -203.0
+    ],
+    "scale": [
+      2.611111111111111,
+      3.513369664452709,
+      8.172246302236312
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        3245.65,
+        1702.5,
+        212.0
+      ],
+      [
+        249.59368819656402,
+        296.90836712214536,
+        415.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_WestFace_01",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      3245.65,
+      2110.5,
+      -207.0
+    ],
+    "scale": [
+      2.611111111111111,
+      3.513369664452709,
+      8.172246302236312
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        3245.65,
+        2110.5,
+        208.0
+      ],
+      [
+        254.30814682813434,
+        300.6985256539193,
+        415.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_WestFace_02",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      3245.65,
+      2518.5,
+      -203.0
+    ],
+    "scale": [
+      2.611111111111111,
+      3.513369664452709,
+      8.172246302236312
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        3245.65,
+        2518.5,
+        212.0
+      ],
+      [
+        249.59368819656402,
+        296.90836712214514,
+        415.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_SouthFace_00",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      3450.65,
+      1532.5,
+      -203.0
+    ],
+    "scale": [
+      3.611111111111111,
+      2.9586270858549124,
+      8.172246302236312
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        3450.65,
+        1532.5,
+        212.0
+      ],
+      [
+        333.1778979898063,
+        251.1961349128958,
+        415.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_SouthFace_01",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      3969.9,
+      1532.5,
+      -206.0
+    ],
+    "scale": [
+      3.611111111111111,
+      2.9586270858549124,
+      8.172246302236312
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        3969.9,
+        1532.5,
+        209.0
+      ],
+      [
+        337.11522829354317,
+        256.6802741200545,
+        415.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_SouthFace_02",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      4489.15,
+      1532.5,
+      -203.0
+    ],
+    "scale": [
+      3.611111111111111,
+      2.9586270858549124,
+      8.172246302236312
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        4489.15,
+        1532.5,
+        212.0
+      ],
+      [
+        333.1778979898063,
+        251.1961349128958,
+        415.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_NorthButtress",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      3969.9,
+      2688.5,
+      -206.0
+    ],
+    "scale": [
+      9.269444444444444,
+      2.9586270858549124,
+      8.172246302236312
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        3969.8999999999996,
+        2688.5,
+        209.0
+      ],
+      [
+        834.2499999999998,
+        240.0,
+        415.0
+      ]
+    ]
+  },
+  {
+    "label": "CH_D4_CemeteryBank_EastButtress",
+    "mesh": "/Game/Cindehearth/HD2D_v002/Models/Rock/CH_Rock_Closed_v002/StaticMeshes/CH_Rock_Closed_v002.CH_Rock_Closed_v002",
+    "visible": true,
+    "location": [
+      4694.15,
+      2110.5,
+      -206.0
+    ],
+    "scale": [
+      2.6666666666666665,
+      8.481397646117417,
+      8.172246302236312
+    ],
+    "tags": [
+      "Cindehearth",
+      "CH.HD2D",
+      "CH.Dense_v004",
+      "CH.CemeteryBank"
+    ],
+    "bounds": [
+      [
+        4694.15,
+        2110.5,
+        209.0
+      ],
+      [
+        240.0,
+        688.0,
+        415.0
+      ]
+    ]
+  }
+]

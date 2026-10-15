@@ -1,0 +1,315 @@
+{
+  "prior": {
+    "type": "perspective",
+    "location": [
+      -641.3275936521189,
+      -276.67727549593735,
+      319.23912774103144
+    ],
+    "rotation": [
+      0.0,
+      -18.0,
+      -110.0
+    ],
+    "fov": 60.0,
+    "realtime": false,
+    "game_view": false
+  },
+  "framing": {
+    "actor_center": [
+      -850.0,
+      -850.0,
+      121.0
+    ],
+    "actor_extent": [
+      145.18679809570312,
+      144.6196746826172,
+      121.5
+    ],
+    "distance": 641.515293170242
+  },
+  "scene": {
+    "success": true,
+    "camera": {
+      "location": [
+        -1058.6724063478812,
+        -1423.3227245040625,
+        319.23912774103144
+      ],
+      "rotation": [
+        -18,
+        70,
+        0
+      ],
+      "fov": 60
+    },
+    "viewport": [
+      1543,
+      615
+    ],
+    "actor_count": 13,
+    "total_matching": 13,
+    "actors": [
+      {
+        "name": "StaticMeshActor_1",
+        "label": "LGV7_LG_01_Cottage_A",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          -850,
+          -850,
+          -0.5
+        ],
+        "extent_cm": [
+          145.18679809570312,
+          144.6196746826172,
+          121.5
+        ],
+        "dist_cm": 688.822349675424,
+        "screen_px": [
+          771,
+          535
+        ]
+      },
+      {
+        "name": "StaticMeshActor_2",
+        "label": "LGV7_LG_02_Inn",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          -850,
+          -0.5
+        ],
+        "extent_cm": [
+          201.67604064941406,
+          118.92041015625,
+          180.0485076904297
+        ],
+        "dist_cm": 1245.6802640339815,
+        "screen_px": [
+          -345,
+          343
+        ]
+      },
+      {
+        "name": "StaticMeshActor_4",
+        "label": "LGV7_LG_04_Workshop",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          -850,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          171.39671325683594,
+          119.96936798095703,
+          125.99500274658203
+        ],
+        "dist_cm": 1473.6433968464958,
+        "screen_px": [
+          1042,
+          186
+        ]
+      },
+      {
+        "name": "DirectionalLight_0",
+        "label": "DirectionalLight",
+        "class": "DirectionalLight",
+        "pos_cm": [
+          0,
+          0,
+          400
+        ],
+        "extent_cm": [
+          175.82205561136266,
+          128,
+          189.16763074012482
+        ],
+        "dist_cm": 1775.713141399846,
+        "screen_px": [
+          345,
+          -198
+        ]
+      },
+      {
+        "name": "PlayerStart_0",
+        "label": "PlayerStart",
+        "class": "PlayerStart",
+        "pos_cm": [
+          0,
+          0,
+          92
+        ],
+        "extent_cm": [
+          184,
+          128,
+          128
+        ],
+        "dist_cm": 1788.3714556066325,
+        "screen_px": [
+          369,
+          63
+        ]
+      },
+      {
+        "name": "StaticMeshActor_0",
+        "label": "SM_SkySphere",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          0
+        ],
+        "extent_cm": [
+          1638400,
+          1638400,
+          1638400
+        ],
+        "dist_cm": 1802.3730087673127,
+        "screen_px": [
+          376,
+          135
+        ]
+      },
+      {
+        "name": "Floor_0",
+        "label": "Floor",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          4000.00146484375,
+          4000,
+          200.0001220703125
+        ],
+        "dist_cm": 1802.4616367236993,
+        "screen_px": [
+          376,
+          135
+        ]
+      },
+      {
+        "name": "StaticMeshActor_5",
+        "label": "LGV7_LG_05_WatermillHouse",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          152.62559509277344,
+          113.25818634033203,
+          139.5
+        ],
+        "dist_cm": 1802.4616367236993,
+        "screen_px": [
+          376,
+          135
+        ]
+      },
+      {
+        "name": "Brush_1",
+        "label": "Brush1",
+        "class": "Brush",
+        "pos_cm": [
+          -90,
+          110,
+          20
+        ],
+        "extent_cm": [
+          1000,
+          1000,
+          100
+        ],
+        "dist_cm": 1838.191737515858,
+        "screen_px": [
+          482,
+          110
+        ]
+      },
+      {
+        "name": "StaticMeshActor_7",
+        "label": "LGV7_LG_07_Sanctuary",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          -850,
+          850,
+          -0.5
+        ],
+        "extent_cm": [
+          141.65773010253906,
+          141.67970275878906,
+          180
+        ],
+        "dist_cm": 2305.1623571293594,
+        "screen_px": [
+          1125,
+          78
+        ]
+      },
+      {
+        "name": "StaticMeshActor_6",
+        "label": "LGV7_LG_06_NaiaShelter",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          850,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          147.91751098632812,
+          141.03805541992188,
+          112.5
+        ],
+        "dist_cm": 2402.3136853150704,
+        "screen_px": [
+          -105,
+          99
+        ]
+      },
+      {
+        "name": "StaticMeshActor_8",
+        "label": "LGV7_LG_08_BroadleafTree",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          850,
+          -0.5
+        ],
+        "extent_cm": [
+          249.99325561523438,
+          245.50729370117188,
+          225
+        ],
+        "dist_cm": 2528.046001068332,
+        "screen_px": [
+          654,
+          55
+        ]
+      },
+      {
+        "name": "StaticMeshActor_9",
+        "label": "LGV7_LG_09_MarketStall",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          850,
+          850,
+          -0.5
+        ],
+        "extent_cm": [
+          100.64171600341797,
+          80.08831024169922,
+          85.5
+        ],
+        "dist_cm": 2985.508277380751,
+        "screen_px": [
+          278,
+          37
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "date": "2026-09-05",
+  "acceptance": "VISIBLE_DEFECT_REPAIR_VERIFIED",
+  "scope": "Gorm house exterior: user-marked roof holes, gable gaps and detached panel; not whole-town final art or global watertight certification",
+  "previous_acceptance": "v001 rejected by user visual QA",
+  "additional_tripo_generations": 0,
+  "additional_tripo_credits": 0,
+  "source_file_hashes_verified": true,
+  "roof_rebuild": {
+    "roof": {
+      "object": {
+        "name": "CH_GormP2_Repaired_v002_Roof",
+        "type": "MESH",
+        "data_name": "CH_GormP2_Repaired_v002_RoofMesh",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          3.0900001525878906,
+          2.439000129699707,
+          1.540000081062317
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent": null,
+        "collections": [
+          "Scene Collection"
+        ]
+      },
+      "fingerprint": "1fe10051b5d063aa4cb7a5aff13bf1616bf2a1056134bb24ccbe916784aba1cd",
+      "geometry": {
+        "vertices": 12,
+        "edges": 20,
+        "polygons": 10,
+        "triangles": 20,
+        "ngons": 0,
+        "loose_vertices": 0,
+        "loose_edges": 0,
+        "zero_length_edges": 0,
+        "boundary_edges": 0,
+        "wire_edges": 0,
+        "non_manifold_edges": 0,
+        "degenerate_faces": 0,
+        "invalid_face_normals": 0,
+        "non_finite_vertices": 0
+      },
+      "bounds": {
+        "local_min": [
+          -1.5134999752044678,
+          -1.1230000257492065,
+          0.8999999761581421
+        ],
+        "local_max": [
+          1.5765000581741333,
+          1.315999984741211,
+          2.440000057220459
+        ],
+        "world_min": [
+          -1.5134999752044678,
+          -1.1230000257492065,
+          0.8999999761581421
+        ],
+        "world_max": [
+          1.5765000581741333,
+          1.315999984741211,
+          2.440000057220459
+        ]
+      },
+      "materials": [
+        {
+          "slot": 0,
+          "name": "CH_GormP2_Repaired_v002_RoofMaterial"
+        }
+      ],
+      "uv_layers": [
+        {
+          "name": "f79424fa_dbd0_4137_95c2_3e7a2ff0a14f_NewUVMap",
+          "active": true,
+          "active_render": true,
+          "loop_count": 40,
+          "bounds_min": [
+            0.019999999552965164,
+            0.029999999329447746
+          ],
+          "bounds_max": [
+            0.9800000190734863,
+            0.9800000190734863
+          ],
+          "out_of_zero_one_range": 0,
+          "non_finite": 0,
+          "degenerate_faces": 0
+        }
+      ],
+      "modifiers": [],
+      "quality": {
+        "passed": true,
+        "score": 100,
+        "blockers": [],
+        "warnings": [],
+        "requirements": {
+          "require_manifold": true
+        }
+      }
+    },
+    "deleted_roof_faces": 788,
+    "deleted_stray_faces": 6,
+    "texture_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Repair\\CH_GormRoof_Color_v002.png",
+    "texture_size": 1024
+  },
+  "output": {
+    "object": {
+      "name": "CH_GormP2_Clean_v006",
+      "type": "MESH",
+      "data_name": "CH_GormP2_Clean_v006_Mesh",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.0900001525878906,
+        2.700000047683716,
+        2.5999999046325684
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "collections": [
+        "Collection"
+      ]
+    },
+    "fingerprint": "dc842c992dee0b6753e11a11103b6dd0c32a3e4a4e6636726ac2911b4e11c9b0",
+    "geometry": {
+      "vertices": 1365,
+      "edges": 2376,
+      "polygons": 1062,
+      "triangles": 1994,
+      "ngons": 0,
+      "loose_vertices": 0,
+      "loose_edges": 0,
+      "zero_length_edges": 0,
+      "boundary_edges": 634,
+      "wire_edges": 0,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "invalid_face_normals": 0,
+      "non_finite_vertices": 0
+    },
+    "bounds": {
+      "local_min": [
+        -1.5134999752044678,
+        -1.350000023841858,
+        -1.1920928955078125e-07
+      ],
+      "local_max": [
+        1.5765000581741333,
+        1.350000023841858,
+        2.5999999046325684
+      ],
+      "world_min": [
+        -1.5134999752044678,
+        -1.350000023841858,
+        -1.1920928955078125e-07
+      ],
+      "world_max": [
+        1.5765000581741333,
+        1.350000023841858,
+        2.5999999046325684
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "tripo_mat_f79424fa"
+      },
+      {
+        "slot": 1,
+        "name": "CH_GormP2_Repaired_v002_RoofMaterial"
+      }
+    ],
+    "uv_layers": [
+      {
+        "name": "f79424fa_dbd0_4137_95c2_3e7a2ff0a14f_NewUVMap",
+        "active": true,
+        "active_render": true,
+        "loop_count": 4118,
+        "bounds_min": [
+          0.0010820861207321286,
+          0.0010808086954057217
+        ],
+        "bounds_max": [
+          0.9989191293716431,
+          0.9896203875541687
+        ],
+        "out_of_zero_one_range": 0,
+        "non_finite": 0,
+        "degenerate_faces": 0
+      }
+    ],
+    "modifiers": [],
+    "quality": {
+      "passed": true,
+      "score": 94,
+      "blockers": [],
+      "warnings": [
+        {
+          "code": "non_manifold_geometry",
+          "message": "Mesh contains boundary, wire, or non-manifold edges."
+        }
+      ],
+      "requirements": {}
+    }
+  },
+  "roof_quads": 10,
+  "roof_closed": true,
+  "globally_watertight": false,
+  "remaining_open_boundary_edges": 634,
+  "final_quad_faces": 932,
+  "final_triangle_faces": 130,
+  "files": [
+    {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Repair\\CH_GormP2_Clean_v006.blend",
+      "sha256": "dcb8e338fb5a199cc4dda6b89fad419fd88d4fbd98fc68e2f037bfe779678184"
+    },
+    {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Export\\CH_GormP2_Clean_v006.glb",
+      "sha256": "bbe776ed810d8a3079fd2f3c41d7ff70a1385a1a9336a91e9d618a618fab2dad"
+    },
+    {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Export\\CH_GormP2_Clean_v006.fbx",
+      "sha256": "8ed8b0ef1987cc598f69b72fec8f7fc29a8657e059ea034066ef88e0af7f5e70"
+    },
+    {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Repair\\CH_GormRoof_Color_v002.png",
+      "sha256": "e3b314396e8e7e1319e27db4c2c0846fed7d7c0af4fa8ffa4f076d90e13cafd6"
+    }
+  ],
+  "unreal": {
+    "passed": true,
+    "mesh": "/Game/Cindehearth/Tripo/GormHouse_P2_Repair_v006/CH_GormP2_Clean_v006/StaticMeshes/CH_GormP2_Clean_v006.CH_GormP2_Clean_v006",
+    "triangles": 1994,
+    "nanite": false,
+    "location": [
+      -1125.0,
+      -1620.0,
+      0.0
+    ],
+    "rotation": [
+      -0.0,
+      0.0,
+      180.0
+    ],
+    "original_shell_hidden": true,
+    "material_slots": 2,
+    "collision": "BlockAll / ComplexAsSimple",
+    "saved_map": "/Game/Maps/L_Cindehearth",
+    "saved_preview": "day, chapter 0",
+    "pie_running": false
+  },
+  "walk": {
+    "passed": true,
+    "reached": 8,
+    "total": 8,
+    "evidence": "repair_walk.json"
+  },
+  "epilogue": {
+    "played": true,
+    "view_target_restored": true,
+    "move_input_restored": true,
+    "look_input_restored": true
+  },
+  "review_images": [
+    "gorm_repaired_v006_blender_textured.png",
+    "gorm_repaired_v006_blender_clay.png",
+    "gorm_repaired_v006_blender_back.png",
+    "gorm_repaired_v006_day.png",
+    "gorm_repaired_v006_night.png",
+    "gorm_repaired_v006_player_camera.png"
+  ],
+  "tests": {
+    "offline_transport": 5,
+    "blender_fixture": "selected deletion, retained winding, stale fingerprint, source preservation, capped opening, closed 10-quad roof passed"
+  },
+  "rejected_candidates": [
+    "v003: flipped back-gable winding",
+    "v004: invalid visual cap",
+    "v005: non-manifold guard rejection, no file saved"
+  ],
+  "interactive_blender": "Existing interactive scene preserved; repaired file saved separately",
+  "interrupted_readonly_job": "gorm_repair_inspect_001: client closed, no mutation; replaced by inspect_002"
+}

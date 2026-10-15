@@ -1,0 +1,274 @@
+[
+  {
+    "name": "square",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_square.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      210.60000000000002,
+      -350.0,
+      210.3499960899353
+    ],
+    "camera_position": [
+      210.72108208676957,
+      -2253.979682355306,
+      1157.7894588298345
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "square_night",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_square_night.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      210.6,
+      -350.0,
+      210.3499960899353
+    ],
+    "camera_position": [
+      210.6,
+      -2253.2463527769655,
+      1157.8483457454042
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "square_hushed",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_square_hushed.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      210.6,
+      -350.0,
+      210.3499960899353
+    ],
+    "camera_position": [
+      210.6,
+      -2253.2463527769655,
+      1157.8483457454042
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "square_recovered",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_square_recovered.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      210.6,
+      -350.0,
+      210.3499960899353
+    ],
+    "camera_position": [
+      210.6,
+      -2253.2463527769655,
+      1157.8483457454042
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "tavern",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_tavern.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      -126.00000000000003,
+      -2110.0,
+      54.87499761581421
+    ],
+    "camera_position": [
+      -125.87619064682715,
+      -4012.598983610048,
+      1002.4305346123281
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "tavern_night",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_tavern_night.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      -126.0,
+      -2110.0,
+      54.87499761581421
+    ],
+    "camera_position": [
+      -126.00000000000045,
+      -4013.2463527769687,
+      1002.3733472712834
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "smithy",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_smithy.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      -92.7,
+      510.0,
+      212.37499809265137
+    ],
+    "camera_position": [
+      -92.71225020935181,
+      -1394.21018306229,
+      1159.8154075685798
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "smithy_inside",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_smithy_inside.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      -92.7,
+      690.0,
+      220.11868715286255
+    ],
+    "camera_position": [
+      -92.69999999999955,
+      -1213.2463529318266,
+      1167.6170368016697
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "homes",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_homes.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      -606.6,
+      -1337.4,
+      50.14999990463258
+    ],
+    "camera_position": [
+      -606.4109416147359,
+      -3239.9004937182317,
+      997.7108792459485
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "stair",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_stair.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      -399.0,
+      -1240.0,
+      50.14999866485596
+    ],
+    "camera_position": [
+      -399.000000125046,
+      -3143.246352835635,
+      997.6483483203252
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "mine",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_mine.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      540.0,
+      2599.6000000000004,
+      365.1500086784363
+    ],
+    "camera_position": [
+      539.6546146635037,
+      694.9413559152549,
+      1312.5324942397044
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "ash_entry",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_ash_entry.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      -2375.6,
+      268.0,
+      207.64999914169312
+    ],
+    "camera_position": [
+      -2374.5273875879234,
+      -1634.3885865882198,
+      1155.2062910612326
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "pine_entry",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_pine_entry.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      540.0,
+      -3175.8,
+      52.399999141693115
+    ],
+    "camera_position": [
+      538.9275731988446,
+      -5077.779641493587,
+      999.9554534277287
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "logging",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_logging.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      -525.5999999999999,
+      -4482.3,
+      50.14999866485596
+    ],
+    "camera_position": [
+      -525.2080372971354,
+      -6385.06577913649,
+      997.6491759444509
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "cemetery",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_cemetery.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      2737.8,
+      1658.25,
+      509.96538782119745
+    ],
+    "camera_position": [
+      2736.5996471025187,
+      -247.25498701874767,
+      1457.294606896695
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "depot",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_depot.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      540.0,
+      4180.8,
+      185.15000677108765
+    ],
+    "camera_position": [
+      540.8084443665875,
+      2276.625745986781,
+      1132.7678373461088
+    ],
+    "fov": 32.0
+  },
+  {
+    "name": "cocoon",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Dense_v004/verification/player_cocoon.png",
+    "actual_game_view": true,
+    "pawn_position": [
+      540.0,
+      6130.5,
+      5.149999141693115
+    ],
+    "camera_position": [
+      540.0000000000005,
+      4226.536363280203,
+      952.714569813309
+    ],
+    "fov": 32.0
+  }
+]

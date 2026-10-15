@@ -1,0 +1,40 @@
+{
+  "reason": "Original front repair solid covered wood door and first floor window frames.",
+  "door_panel_x_m": 0.6381546258926392,
+  "lowest_window_frame_x_m": 0.5484,
+  "front_translation_m": [
+    -0.14,
+    0,
+    0
+  ],
+  "new_front_bounds": {
+    "local_min": [
+      0.4567186236381531,
+      -1.4431871175765991,
+      0.2503756284713745
+    ],
+    "local_max": [
+      0.5335802435874939,
+      0.6787092685699463,
+      1.010834813117981
+    ],
+    "world_min": [
+      0.4567186236381531,
+      -1.4431871175765991,
+      0.2503756284713745
+    ],
+    "world_max": [
+      0.5335802435874939,
+      0.6787092685699463,
+      1.010834813117981
+    ]
+  },
+  "replace_previous": "TavernWalls",
+  "assembly": [
+    "TavernWallsFrame",
+    "TavernWallsInset"
+  ],
+  "copy_transform": true,
+  "source_other_three_walls_unchanged": true,
+  "note": "Hide previous TavernWalls actor. Spawn Frame and Inset with the exact previous actor transform/material. Do not fit individual bounds. Main Tavern body remains unchanged."
+}

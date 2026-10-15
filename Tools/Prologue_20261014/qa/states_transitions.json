@@ -1,0 +1,44 @@
+[
+{
+"shot": "c00_03.5",
+"py": "play.py",
+"wait": 2.6,
+"frames": 10
+},
+{
+"shot": "c01_10.7",
+"py": "stamp.py",
+"wait": 6.699999999999999,
+"frames": 3
+},
+{
+"shot": "c02_18.4",
+"py": "stamp.py",
+"wait": 7.25,
+"frames": 3
+},
+{
+"shot": "c03_24.4",
+"py": "stamp.py",
+"wait": 5.5,
+"frames": 3
+},
+{
+"shot": "c04_29.6",
+"py": "stamp.py",
+"wait": 4.650000000000002,
+"frames": 3
+},
+{
+"shot": "c05_55.7",
+"py": "stamp.py",
+"wait": 25.6,
+"frames": 3
+},
+{
+"shot": "c06_58.0",
+"py": "stamp.py",
+"wait": 1.7999999999999972,
+"frames": 3
+}
+]

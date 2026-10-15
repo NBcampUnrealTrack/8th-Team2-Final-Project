@@ -1,0 +1,9 @@
+[
+ {"shot": "sh2_idle", "py": "qa_village.py", "wait": 20, "frames": 240},
+ {"shot": "sh2_near", "py": "qa_shop_go.py", "wait": 1.2, "frames": 30},
+ {"shot": "sh2_talk", "py": "qa_shop_talk.py", "wait": 2.2, "frames": 50},
+ {"shot": "sh2_open", "py": "qa_shop_pick.py", "wait": 2.5, "frames": 60},
+ {"shot": "sh2_qty", "py": "qa_shop_qty.py", "wait": 0.8, "frames": 20},
+ {"shot": "sh2_bought", "py": "qa_shop_buy.py", "wait": 1.5, "frames": 30},
+ {"shot": "sh2_sell", "py": "qa_shop_selltab.py", "wait": 1.2, "frames": 30}
+]

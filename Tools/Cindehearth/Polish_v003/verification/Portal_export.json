@@ -1,0 +1,22 @@
+{
+  "name": "Portal",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Portal_Caps004.glb",
+  "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Portal_Caps004.blend",
+  "object": "CH_Polish_Portal_Caps004",
+  "geometry": {
+    "vertices": 1282,
+    "edges": 2544,
+    "polygons": 1334,
+    "triangles": 2420,
+    "ngons": 0,
+    "loose_vertices": 0,
+    "loose_edges": 0,
+    "zero_length_edges": 0,
+    "boundary_edges": 0,
+    "wire_edges": 0,
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "invalid_face_normals": 0,
+    "non_finite_vertices": 0
+  }
+}

@@ -1,0 +1,230 @@
+[
+  {
+    "tool": "blender_mesh_edit",
+    "arguments": {
+      "source_object_name": "CH_Polish_Hearth_REF___tripo_node_acf82c22",
+      "output_object_name": "CH_Polish_Hearth_Game_v003",
+      "operations": [
+        {
+          "type": "transform_object",
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "transform_vertices",
+          "scale": [
+            3.001465559355154,
+            3.001465559355154,
+            3.001465559355154
+          ],
+          "translation": [
+            -0.0,
+            -0.0,
+            0.2557401074743527
+          ]
+        },
+        {
+          "type": "delete_loose"
+        }
+      ]
+    },
+    "request_id": 172413664631951
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"172413664631951\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "172413664631951",
+        "command": "mesh.edit",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"172413664631951\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"finished\",\n    \"created_at\": 1788595147.3396382,\n    \"finished_at\": 1788595147.4285197,\n    \"result\": {\n      \"source_object_name\": \"CH_Polish_Hearth_REF___tripo_node_acf82c22\",\n      \"source_fingerprint\": \"eb52721b129600f7cf56a412adae3e22d34bcf5a1f75de3b5173a64ebdd8ade8\",\n      \"output_object_name\": \"CH_Polish_Hearth_Game_v003\",\n      \"operations\": [\n        {\n          \"type\": \"transform_object\"\n        },\n        {\n          \"type\": \"transform_vertices\"\n        },\n        {\n          \"type\": \"delete_loose\"\n        }\n      ],\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_Polish_Hearth_Game_v003\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Polish_Hearth_Game_v003_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            3.0,\n            3.0,\n            0.5114802122116089\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"4576fb1da336b0e5403d40887811e3ea45b5c34e552ed6915a1fe833023761b1\",\n        \"geometry\": {\n          \"vertices\": 995,\n          \"edges\": 2069,\n          \"polygons\": 1080,\n          \"triangles\": 1902,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 81,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 4,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            -1.5,\n            -1.5,\n            0.0\n          ],\n          \"local_max\": [\n            1.5,\n            1.5,\n            0.5114802122116089\n          ],\n          \"world_min\": [\n            -1.5,\n            -1.5,\n            0.0\n          ],\n          \"world_max\": [\n            1.5,\n            1.5,\n            0.5114802122116089\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"tripo_mat_acf82c22\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"acf82c22_bea2_44d1_b843_e3312c54c273_NewUVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 4062,\n            \"bounds_min\": [\n              0.0007974480395205319,\n              0.0008409784059040248\n            ],\n            \"bounds_max\": [\n              0.9761034250259399,\n              0.9992063641548157\n            ],\n            \"out_of_zero_one_range\": 0,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 0\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 94,\n          \"blockers\": [],\n          \"warnings\": [\n            {\n              \"code\": \"non_manifold_geometry\",\n              \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n            }\n          ],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "172413664631951",
+        "command": "mesh.edit",
+        "state": "finished",
+        "created_at": 1788595147.3396382,
+        "finished_at": 1788595147.4285197,
+        "result": {
+          "source_object_name": "CH_Polish_Hearth_REF___tripo_node_acf82c22",
+          "source_fingerprint": "eb52721b129600f7cf56a412adae3e22d34bcf5a1f75de3b5173a64ebdd8ade8",
+          "output_object_name": "CH_Polish_Hearth_Game_v003",
+          "operations": [
+            {
+              "type": "transform_object"
+            },
+            {
+              "type": "transform_vertices"
+            },
+            {
+              "type": "delete_loose"
+            }
+          ],
+          "output": {
+            "object": {
+              "name": "CH_Polish_Hearth_Game_v003",
+              "type": "MESH",
+              "data_name": "CH_Polish_Hearth_Game_v003_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                3.0,
+                3.0,
+                0.5114802122116089
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "4576fb1da336b0e5403d40887811e3ea45b5c34e552ed6915a1fe833023761b1",
+            "geometry": {
+              "vertices": 995,
+              "edges": 2069,
+              "polygons": 1080,
+              "triangles": 1902,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 81,
+              "wire_edges": 0,
+              "non_manifold_edges": 4,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -1.5,
+                -1.5,
+                0.0
+              ],
+              "local_max": [
+                1.5,
+                1.5,
+                0.5114802122116089
+              ],
+              "world_min": [
+                -1.5,
+                -1.5,
+                0.0
+              ],
+              "world_max": [
+                1.5,
+                1.5,
+                0.5114802122116089
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_mat_acf82c22"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "acf82c22_bea2_44d1_b843_e3312c54c273_NewUVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 4062,
+                "bounds_min": [
+                  0.0007974480395205319,
+                  0.0008409784059040248
+                ],
+                "bounds_max": [
+                  0.9761034250259399,
+                  0.9992063641548157
+                ],
+                "out_of_zero_one_range": 0,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 94,
+              "blockers": [],
+              "warnings": [
+                {
+                  "code": "non_manifold_geometry",
+                  "message": "Mesh contains boundary, wire, or non-manifold edges."
+                }
+              ],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

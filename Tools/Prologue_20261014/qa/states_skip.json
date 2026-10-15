@@ -1,0 +1,5 @@
+[{"shot": "k00_start", "py": "play.py", "wait": 0.4, "frames": 3},
+ {"shot": "k01_p1", "py": "stamp.py", "wait": 4.5, "frames": 10},
+ {"shot": "k02_letterbox", "py": "seek33.py", "wait": 1.5, "frames": 10},
+ {"shot": "k03_hold", "py": "hold.py", "wait": 0.5, "frames": 3},
+ {"shot": "k04_after_skip", "py": "stamp.py", "wait": 2.0, "frames": 10}]

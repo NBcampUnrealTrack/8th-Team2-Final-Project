@@ -1,0 +1,38 @@
+[
+  {
+    "job_id": "polish_pulley_CH_Polish_Pulley_Caps006_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_pulley_CH_Polish_Pulley_Caps006_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_pulley_CH_Polish_Pulley_Caps006_export"
+  },
+  {
+    "job_id": "polish_pulley_CH_Polish_Pulley_Caps006_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_pulley_CH_Polish_Pulley_Caps006_export"
+  },
+  {
+    "job_id": "polish_pulley_CH_Polish_Pulley_Caps006_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_pulley_CH_Polish_Pulley_Caps006_export"
+  },
+  {
+    "job_id": "polish_pulley_CH_Polish_Pulley_Caps006_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Pulley_Caps006.glb",
+      "format": "glb",
+      "bytes": 5018820,
+      "object_names": [
+        "CH_Polish_Pulley_Caps006"
+      ],
+      "fingerprints": {
+        "CH_Polish_Pulley_Caps006": "4112aa09b64ea693f79c8565425936f38435cbeaa4618c89ec32b1b05440d5d8"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

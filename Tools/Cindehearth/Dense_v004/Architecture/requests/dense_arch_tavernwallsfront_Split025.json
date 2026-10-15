@@ -1,0 +1,17 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWalls_Final016.blend",
+  "object_name": "CH_Dense_TavernWalls_Final016",
+  "expected_fingerprint": "933cfbbbba10c89018d1afd79a26b3d8a982418b4745db64feb68a75b4eee373",
+  "output_object_name": "CH_Dense_TavernWallsFront_025",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_TavernWallsFront_025.blend",
+  "operation": "delete_components",
+  "selection_ids": [
+    1,
+    2,
+    3
+  ],
+  "distance": 1e-05,
+  "max_faces": 100,
+  "max_diameter": 4.5,
+  "job_id": "dense_arch_tavernwallsfront_Split025"
+}

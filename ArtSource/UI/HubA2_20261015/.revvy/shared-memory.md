@@ -1,0 +1,1 @@
+- 2026-10-15: Created emblem_hires.png from ref/emblem.png using built-in imagegen; final 1024x1024 RGBA PNG with transparent background, champagne gold and ivory highlights; generated source preserved.

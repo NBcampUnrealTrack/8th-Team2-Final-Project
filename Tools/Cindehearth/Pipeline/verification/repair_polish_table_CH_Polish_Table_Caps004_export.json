@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "polish_table_CH_Polish_Table_Caps004_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_table_CH_Polish_Table_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_table_CH_Polish_Table_Caps004_export"
+  },
+  {
+    "job_id": "polish_table_CH_Polish_Table_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_table_CH_Polish_Table_Caps004_export"
+  },
+  {
+    "job_id": "polish_table_CH_Polish_Table_Caps004_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Table_Caps004.glb",
+      "format": "glb",
+      "bytes": 2742740,
+      "object_names": [
+        "CH_Polish_Table_Caps004"
+      ],
+      "fingerprints": {
+        "CH_Polish_Table_Caps004": "d920e86802a587918775a04817cf0d9e61fd524669f1edffdab0ae64bf2930ee"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

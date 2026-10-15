@@ -1,0 +1,32 @@
+[
+ {
+  "shot": "it_idle",
+  "py": "qa_village.py",
+  "wait": 20,
+  "frames": 240
+ },
+ {
+  "shot": "it_cfg",
+  "py": "qa_google_cfg.py",
+  "wait": 0.1,
+  "frames": 2
+ },
+ {
+  "shot": "it_pop",
+  "py": "qa_interact.py",
+  "wait": 0.12,
+  "frames": 4
+ },
+ {
+  "shot": "it_key",
+  "py": "",
+  "wait": 1.2,
+  "frames": 40
+ },
+ {
+  "shot": "it_key2",
+  "py": "",
+  "wait": 0.55,
+  "frames": 20
+ }
+]

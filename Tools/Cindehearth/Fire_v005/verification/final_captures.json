@@ -1,0 +1,87 @@
+[
+  {
+    "name": "hearth_day",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Fire_v005/verification/final_hearth_day.png",
+    "actual_game_view": true,
+    "camera_rotation": [
+      -25.000000000000018,
+      90.00000000000001,
+      5.26403070836944e-15
+    ],
+    "fov": 32.0,
+    "pawn": [
+      -59.39999999999998,
+      -343.2545637313705,
+      241.6247439481553
+    ],
+    "captured_time": 21.40005323290825
+  },
+  {
+    "name": "hearth_night",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Fire_v005/verification/final_hearth_night.png",
+    "actual_game_view": true,
+    "camera_rotation": [
+      -25.000000000000018,
+      90.00000000000001,
+      5.26403070836944e-15
+    ],
+    "fov": 32.0,
+    "pawn": [
+      -59.4,
+      -343.2545637313705,
+      241.6247439481553
+    ],
+    "captured_time": 26.40005725622177
+  },
+  {
+    "name": "forge",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Fire_v005/verification/final_forge.png",
+    "actual_game_view": true,
+    "camera_rotation": [
+      -25.000000000000018,
+      90.00000000000001,
+      5.26403070836944e-15
+    ],
+    "fov": 32.0,
+    "pawn": [
+      -92.7,
+      660.0,
+      219.71388292312622
+    ],
+    "captured_time": 31.06672555208206
+  },
+  {
+    "name": "hearth_motion_a",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Fire_v005/verification/final_hearth_motion_a.png",
+    "actual_game_view": true,
+    "camera_rotation": [
+      -25.000000000000018,
+      90.00000000000001,
+      5.26403070836944e-15
+    ],
+    "fov": 32.0,
+    "pawn": [
+      -59.4,
+      -343.2545637313705,
+      241.6247439481553
+    ],
+    "captured_time": 36.066726595163345
+  },
+  {
+    "name": "hearth_motion_b",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Fire_v005/verification/final_hearth_motion_b.png",
+    "actual_game_view": true,
+    "camera_rotation": [
+      -25.000000000000018,
+      90.00000000000001,
+      5.26403070836944e-15
+    ],
+    "fov": 32.0,
+    "pawn": [
+      -59.4,
+      -343.2545637313705,
+      241.6247439481553
+    ],
+    "captured_time": 41.06672781705856
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "source_object_name": "CH_Dense_TavernWalls_UVREF___CH_Dense_Tavern_Walls013",
+  "output_object_name": "CH_Dense_TavernWalls_Solid014",
+  "modifier": {
+    "type": "solidify",
+    "thickness": 0.035,
+    "offset": 0
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "source": "CH_GormHouse_ToolSign_Timber",
+    "output": "CH_GormP2_SupervisorTool_Timber",
+    "location": [
+      -1204,
+      -1770,
+      40
+    ],
+    "scale": [
+      0.24,
+      0.24,
+      0.24
+    ],
+    "previous_scale": [
+      0.24,
+      0.24,
+      0.24
+    ],
+    "previous_location": [
+      -1204.0,
+      -1746.0,
+      40.0
+    ]
+  },
+  {
+    "source": "CH_GormHouse_ToolSign_Iron",
+    "output": "CH_GormP2_SupervisorTool_Iron",
+    "location": [
+      -1204,
+      -1770,
+      40
+    ],
+    "scale": [
+      0.24,
+      0.24,
+      0.24
+    ],
+    "previous_scale": [
+      0.24,
+      0.24,
+      0.24
+    ],
+    "previous_location": [
+      -1204.0,
+      -1746.0,
+      40.0
+    ]
+  },
+  {
+    "source": "CH_GormHouse_ToolSign_Brass",
+    "output": "CH_GormP2_SupervisorTool_Brass",
+    "location": [
+      -1204,
+      -1770,
+      40
+    ],
+    "scale": [
+      0.24,
+      0.24,
+      0.24
+    ],
+    "previous_scale": [
+      0.24,
+      0.24,
+      0.24
+    ],
+    "previous_location": [
+      -1204.0,
+      -1746.0,
+      40.0
+    ]
+  }
+]

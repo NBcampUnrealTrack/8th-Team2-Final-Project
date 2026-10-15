@@ -1,0 +1,131 @@
+{
+  "status": "APPLIED_SAVED_RELOADED_VERIFIED_WITH_REMAINING_VISIBILITY_ITEM",
+  "changed_existing": [
+    "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Canopy.uasset",
+    "Content/Fernbrook/Entrance_V1/Foliage/FT_FB1_Sapling.uasset",
+    "Content/Fernbrook/Entrance_V1/Maps/L_Fernbrook_Entrance.umap"
+  ],
+  "new_assets": [
+    {
+      "path": "Content/Fernbrook/Polish_V6/Materials/M_FB6_HD2D_Tree.uasset",
+      "sha256": "b0e6890b12e89539e7e0940f5c461287cad95e9a95f176988908ae73966438cf"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V6/Materials/MI_FB6_Canopy.uasset",
+      "sha256": "3d7c974964bb76c3f87c328756fd8019a34ee417f083f269fe3660a3aa317061"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V6/Materials/MI_FB6_Sapling.uasset",
+      "sha256": "4dc5c4eafd4d08a4c8e5cadfefc622db1bd3ac970c6138f005d9fc9350e4bcaf"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V6/Materials/MI_FB6_Tree_Controls.uasset",
+      "sha256": "a337a75d17ceb5d25f0f3784fde8f630ae5772b3847cbdd4f6d8cd1f8f3e6da3"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V6/Models/SM_FB6_Canopy.uasset",
+      "sha256": "6f5a2c536a8b900f256360cddfd77fe69b05cf74f4292ef31f6e3e67ead14ebb"
+    },
+    {
+      "path": "Content/Fernbrook/Polish_V6/Models/SM_FB6_Sapling.uasset",
+      "sha256": "f21f4da859d8da92231b1fa7b4cfae64a94df9896b07334cd064bffe10412281"
+    }
+  ],
+  "protected_village_files_unchanged": 709,
+  "backups_verified": 108,
+  "original_v5_assets_unchanged": true,
+  "actors": 241,
+  "instances": 8981,
+  "all_instance_transforms_preserved": true,
+  "tree_instances_adjusted": 824,
+  "meshes": [
+    {
+      "kind": "Canopy",
+      "factor": 0.92,
+      "render_size_cm": [
+        319.6943664550781,
+        291.2686462402344,
+        386.3999938964844
+      ],
+      "render_vertices": 2062,
+      "triangles": 1826,
+      "height_distribution_cm": {
+        "min": 330.26417416287757,
+        "p25": 378.75256613985016,
+        "median": 420.6925567123713,
+        "p75": 458.3492676526532,
+        "max": 520.6441007918121
+      },
+      "geometry_uniform_scale_verified": true,
+      "normals_UV_indices_exact": true,
+      "bounds_contain_render_vertices": true,
+      "collision_uniform_scale_verified": true
+    },
+    {
+      "kind": "Sapling",
+      "factor": 1.3,
+      "render_size_cm": [
+        231.87884521484375,
+        252.6077117919922,
+        416.0
+      ],
+      "render_vertices": 1877,
+      "triangles": 1440,
+      "height_distribution_cm": {
+        "min": 158.620924949646,
+        "p25": 195.82357120513916,
+        "median": 219.73855209350586,
+        "p75": 239.86456489562988,
+        "max": 273.85353660583496
+      },
+      "geometry_uniform_scale_verified": true,
+      "normals_UV_indices_exact": true,
+      "bounds_contain_render_vertices": true,
+      "collision_uniform_scale_verified": true
+    }
+  ],
+  "gameplay": [
+    {
+      "route": "bridge_forward",
+      "passed": true,
+      "reason": "",
+      "reached": 17,
+      "total": 17
+    },
+    {
+      "route": "bridge_return",
+      "passed": true,
+      "reason": "",
+      "reached": 17,
+      "total": 17
+    },
+    {
+      "route": "entry_bridge_deep",
+      "passed": true,
+      "reason": "",
+      "reached": 24,
+      "total": 24
+    },
+    {
+      "route": "deep_bridge_return",
+      "passed": true,
+      "reason": "",
+      "reached": 24,
+      "total": 24
+    },
+    {
+      "route": "naia_glade",
+      "passed": true,
+      "reason": "",
+      "reached": 5,
+      "total": 5
+    }
+  ],
+  "gameplay_points_passed": 87,
+  "PIE": "stopped",
+  "caveats": [
+    "Naia glade foreground canopy visibility requires separate camera-occlusion polish.",
+    "No mobile/cook/performance or automatic LOD certification."
+  ],
+  "git_commit_push": false
+}

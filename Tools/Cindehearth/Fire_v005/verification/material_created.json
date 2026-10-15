@@ -1,0 +1,10 @@
+{
+  "material": "/Game/Cindehearth/Fire_v005/Materials/M_CH_FrontFire",
+  "instances": [
+    "/Game/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Hearth",
+    "/Game/Cindehearth/Fire_v005/Materials/MI_CH_FrontFire_Forge"
+  ],
+  "compile_requested": true,
+  "expressions": 7,
+  "render_mode": "Unlit translucent, depth-tested; two static quads; no Niagara"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "tool": "blender_save_copy",
+    "arguments": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Grave_Game_v003.blend",
+      "overwrite": false
+    },
+    "request_id": 4103960254604
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"4103960254604\",\n    \"command\": \"file.save_copy\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "4103960254604",
+        "command": "file.save_copy",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"4103960254604\",\n    \"command\": \"file.save_copy\",\n    \"state\": \"finished\",\n    \"created_at\": 1788595715.8166766,\n    \"finished_at\": 1788595716.0541873,\n    \"result\": {\n      \"path\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Polish_v003\\\\CH_Polish_Grave_Game_v003.blend\",\n      \"bytes\": 24438326,\n      \"copy\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "4103960254604",
+        "command": "file.save_copy",
+        "state": "finished",
+        "created_at": 1788595715.8166766,
+        "finished_at": 1788595716.0541873,
+        "result": {
+          "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Grave_Game_v003.blend",
+          "bytes": 24438326,
+          "copy": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

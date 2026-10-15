@@ -1,0 +1,21 @@
+{
+  "name": "T_Boss2_KnotGlow_Charge",
+  "blend": "Additive",
+  "frame_w": 256,
+  "frame_h": 256,
+  "cols": 4,
+  "rows": 4,
+  "frames": 16,
+  "fps": 24,
+  "loop": true,
+  "pivot_px": [
+    128,
+    150
+  ],
+  "pivot_uv": [
+    0.5,
+    0.5859
+  ],
+  "screen_scale_1080p": 1.0,
+  "note": "보스 앞쪽 옹이 소켓에 부착, 루프"
+}

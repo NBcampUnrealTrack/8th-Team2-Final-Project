@@ -1,0 +1,358 @@
+{
+  "_meta": null,
+  "nextCursor": null,
+  "tools": [
+    {
+      "name": "blender_repair_job_status",
+      "title": null,
+      "description": "Read the durable result of an already submitted job without restarting it.",
+      "inputSchema": {
+        "properties": {
+          "job_id": {
+            "title": "Job Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "job_id"
+        ],
+        "title": "blender_repair_job_statusArguments",
+        "type": "object"
+      },
+      "outputSchema": null,
+      "icons": null,
+      "annotations": null,
+      "_meta": null,
+      "execution": null
+    },
+    {
+      "name": "blender_topology_inspect",
+      "title": null,
+      "description": "Read mesh counts, connected face components and boundary loops with stable IDs and bounds. Does not save or modify the input file.",
+      "inputSchema": {
+        "properties": {
+          "job_id": {
+            "title": "Job Id",
+            "type": "string"
+          },
+          "blend_path": {
+            "title": "Blend Path",
+            "type": "string"
+          },
+          "object_name": {
+            "title": "Object Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "job_id",
+          "blend_path",
+          "object_name"
+        ],
+        "title": "blender_topology_inspectArguments",
+        "type": "object"
+      },
+      "outputSchema": null,
+      "icons": null,
+      "annotations": null,
+      "_meta": null,
+      "execution": null
+    },
+    {
+      "name": "blender_repair_mesh_copy",
+      "title": null,
+      "description": "ONE bounded repair on a new mesh copy: weld; delete exact inspected component or face IDs; fill exact simple closed loops; or fill cycles within exact inspected boundary networks. Face-count/diameter guards apply. Preserve source, material and existing UV loops. Planar-project cap UVs into adjacent material regions. No implicit selection, remeshing, or arbitrary code.",
+      "inputSchema": {
+        "properties": {
+          "job_id": {
+            "title": "Job Id",
+            "type": "string"
+          },
+          "blend_path": {
+            "title": "Blend Path",
+            "type": "string"
+          },
+          "object_name": {
+            "title": "Object Name",
+            "type": "string"
+          },
+          "expected_fingerprint": {
+            "title": "Expected Fingerprint",
+            "type": "string"
+          },
+          "output_object_name": {
+            "title": "Output Object Name",
+            "type": "string"
+          },
+          "output_blend": {
+            "title": "Output Blend",
+            "type": "string"
+          },
+          "operation": {
+            "enum": [
+              "weld",
+              "delete_components",
+              "delete_faces",
+              "fill_loops",
+              "fill_networks",
+              "cap_polygon"
+            ],
+            "title": "Operation",
+            "type": "string"
+          },
+          "selection_ids": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Selection Ids",
+            "type": "array"
+          },
+          "distance": {
+            "default": 1e-05,
+            "title": "Distance",
+            "type": "number"
+          },
+          "max_faces": {
+            "default": 100,
+            "title": "Max Faces",
+            "type": "integer"
+          },
+          "max_diameter": {
+            "default": 0.5,
+            "title": "Max Diameter",
+            "type": "number"
+          }
+        },
+        "required": [
+          "job_id",
+          "blend_path",
+          "object_name",
+          "expected_fingerprint",
+          "output_object_name",
+          "output_blend",
+          "operation",
+          "selection_ids"
+        ],
+        "title": "blender_repair_mesh_copyArguments",
+        "type": "object"
+      },
+      "outputSchema": null,
+      "icons": null,
+      "annotations": null,
+      "_meta": null,
+      "execution": null
+    },
+    {
+      "name": "blender_rebuild_gable_roof",
+      "title": null,
+      "description": "Replace ONE inspected roof component with a closed gable roof of ten quads. Bake the old roof's base color onto new UVs (no lighting bake). Optionally remove exact inspected stray components, capped at 20 faces total. Keeps house, original source mesh and textures. No generic geometry or script input.",
+      "inputSchema": {
+        "properties": {
+          "job_id": {
+            "title": "Job Id",
+            "type": "string"
+          },
+          "blend_path": {
+            "title": "Blend Path",
+            "type": "string"
+          },
+          "object_name": {
+            "title": "Object Name",
+            "type": "string"
+          },
+          "expected_fingerprint": {
+            "title": "Expected Fingerprint",
+            "type": "string"
+          },
+          "output_object_name": {
+            "title": "Output Object Name",
+            "type": "string"
+          },
+          "output_blend": {
+            "title": "Output Blend",
+            "type": "string"
+          },
+          "roof_component_id": {
+            "title": "Roof Component Id",
+            "type": "integer"
+          },
+          "delete_component_ids": {
+            "items": {
+              "type": "integer"
+            },
+            "title": "Delete Component Ids",
+            "type": "array"
+          },
+          "center_x": {
+            "title": "Center X",
+            "type": "number"
+          },
+          "half_width": {
+            "title": "Half Width",
+            "type": "number"
+          },
+          "front_y": {
+            "title": "Front Y",
+            "type": "number"
+          },
+          "back_y": {
+            "title": "Back Y",
+            "type": "number"
+          },
+          "eave_z": {
+            "title": "Eave Z",
+            "type": "number"
+          },
+          "ridge_z": {
+            "title": "Ridge Z",
+            "type": "number"
+          },
+          "thickness": {
+            "title": "Thickness",
+            "type": "number"
+          },
+          "texture_path": {
+            "title": "Texture Path",
+            "type": "string"
+          },
+          "texture_size": {
+            "default": 1024,
+            "enum": [
+              512,
+              1024
+            ],
+            "title": "Texture Size",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "job_id",
+          "blend_path",
+          "object_name",
+          "expected_fingerprint",
+          "output_object_name",
+          "output_blend",
+          "roof_component_id",
+          "delete_component_ids",
+          "center_x",
+          "half_width",
+          "front_y",
+          "back_y",
+          "eave_z",
+          "ridge_z",
+          "thickness",
+          "texture_path"
+        ],
+        "title": "blender_rebuild_gable_roofArguments",
+        "type": "object"
+      },
+      "outputSchema": null,
+      "icons": null,
+      "annotations": null,
+      "_meta": null,
+      "execution": null
+    },
+    {
+      "name": "blender_repair_export",
+      "title": null,
+      "description": "Export only the inspected object as a new FBX or GLB, preserving the .blend and source object.",
+      "inputSchema": {
+        "properties": {
+          "job_id": {
+            "title": "Job Id",
+            "type": "string"
+          },
+          "blend_path": {
+            "title": "Blend Path",
+            "type": "string"
+          },
+          "object_name": {
+            "title": "Object Name",
+            "type": "string"
+          },
+          "expected_fingerprint": {
+            "title": "Expected Fingerprint",
+            "type": "string"
+          },
+          "output_path": {
+            "title": "Output Path",
+            "type": "string"
+          }
+        },
+        "required": [
+          "job_id",
+          "blend_path",
+          "object_name",
+          "expected_fingerprint",
+          "output_path"
+        ],
+        "title": "blender_repair_exportArguments",
+        "type": "object"
+      },
+      "outputSchema": null,
+      "icons": null,
+      "annotations": null,
+      "_meta": null,
+      "execution": null
+    },
+    {
+      "name": "blender_mesh_review_render",
+      "title": null,
+      "description": "Render only the exact model from a fixed review angle in an isolated Blender process. Saves a new PNG; never saves preview lights or changes to the .blend.",
+      "inputSchema": {
+        "properties": {
+          "job_id": {
+            "title": "Job Id",
+            "type": "string"
+          },
+          "blend_path": {
+            "title": "Blend Path",
+            "type": "string"
+          },
+          "object_name": {
+            "title": "Object Name",
+            "type": "string"
+          },
+          "output_path": {
+            "title": "Output Path",
+            "type": "string"
+          },
+          "view": {
+            "enum": [
+              "front_left",
+              "front_right",
+              "back_left",
+              "back_right",
+              "top"
+            ],
+            "title": "View",
+            "type": "string"
+          },
+          "mode": {
+            "default": "textured",
+            "enum": [
+              "textured",
+              "clay"
+            ],
+            "title": "Mode",
+            "type": "string"
+          }
+        },
+        "required": [
+          "job_id",
+          "blend_path",
+          "object_name",
+          "output_path",
+          "view"
+        ],
+        "title": "blender_mesh_review_renderArguments",
+        "type": "object"
+      },
+      "outputSchema": null,
+      "icons": null,
+      "annotations": null,
+      "_meta": null,
+      "execution": null
+    }
+  ]
+}

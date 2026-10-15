@@ -1,0 +1,641 @@
+{
+  "date": "2026-09-05",
+  "scope": "Gorm house exterior sample; not final art for the whole village",
+  "source_preserved": true,
+  "source": {
+    "object": {
+      "name": "CH_GormP2_REF__tripo_node_f79424fa",
+      "type": "MESH",
+      "data_name": "CH_GormP2_REF__tripo_node_f79424fa_Mesh",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        -2.5044780654876655e-06,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.99951171875,
+        0.9775390625,
+        0.90673828125
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          -4.371138828673793e-08,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "collections": [
+        "Collection"
+      ]
+    },
+    "fingerprint": "4c4ce9fd1dc88904d46245c27feffb3b1a72c2d0378501fab5dff070f92891ba",
+    "geometry": {
+      "vertices": 2129,
+      "edges": 3984,
+      "polygons": 1907,
+      "triangles": 3363,
+      "ngons": 0,
+      "loose_vertices": 0,
+      "loose_edges": 0,
+      "zero_length_edges": 0,
+      "boundary_edges": 803,
+      "wire_edges": 0,
+      "non_manifold_edges": 12,
+      "degenerate_faces": 0,
+      "invalid_face_normals": 0,
+      "non_finite_vertices": 0
+    },
+    "bounds": {
+      "local_min": [
+        -0.499755859375,
+        -0.489013671875,
+        -0.453369140625
+      ],
+      "local_max": [
+        0.499755859375,
+        0.488525390625,
+        0.453369140625
+      ],
+      "world_min": [
+        -0.499755859375,
+        -0.4890137016773224,
+        -0.4533691704273224
+      ],
+      "world_max": [
+        0.499755859375,
+        0.4885254204273224,
+        0.4533691704273224
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "tripo_mat_f79424fa"
+      }
+    ],
+    "uv_layers": [
+      {
+        "name": "f79424fa_dbd0_4137_95c2_3e7a2ff0a14f_NewUVMap",
+        "active": true,
+        "active_render": true,
+        "loop_count": 7177,
+        "bounds_min": [
+          0.0010820861207321286,
+          0.0010808086954057217
+        ],
+        "bounds_max": [
+          0.9989191293716431,
+          0.9896203875541687
+        ],
+        "out_of_zero_one_range": 0,
+        "non_finite": 0,
+        "degenerate_faces": 0
+      }
+    ],
+    "modifiers": [],
+    "quality": {
+      "passed": true,
+      "score": 94,
+      "blockers": [],
+      "warnings": [
+        {
+          "code": "non_manifold_geometry",
+          "message": "Mesh contains boundary, wire, or non-manifold edges."
+        }
+      ],
+      "requirements": {
+        "require_uv": true,
+        "require_material": true,
+        "max_triangles": 4500
+      }
+    }
+  },
+  "final": {
+    "object": {
+      "name": "CH_GormP2_Game_v001",
+      "type": "MESH",
+      "data_name": "CH_GormP2_Game_v001_Mesh",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.1500000953674316,
+        2.700000047683716,
+        2.5999999046325684
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent": null,
+      "collections": [
+        "Collection"
+      ]
+    },
+    "fingerprint": "18c220125260c20be6db8054d3f2b0d573457432472428bebac52d8949825b7a",
+    "geometry": {
+      "vertices": 2129,
+      "edges": 3984,
+      "polygons": 1907,
+      "triangles": 3363,
+      "ngons": 0,
+      "loose_vertices": 0,
+      "loose_edges": 0,
+      "zero_length_edges": 0,
+      "boundary_edges": 803,
+      "wire_edges": 0,
+      "non_manifold_edges": 12,
+      "degenerate_faces": 0,
+      "invalid_face_normals": 0,
+      "non_finite_vertices": 0
+    },
+    "bounds": {
+      "local_min": [
+        -1.5750000476837158,
+        -1.350000023841858,
+        -1.1920928955078125e-07
+      ],
+      "local_max": [
+        1.5749999284744263,
+        1.350000023841858,
+        2.5999999046325684
+      ],
+      "world_min": [
+        -1.5750000476837158,
+        -1.350000023841858,
+        -1.1920928955078125e-07
+      ],
+      "world_max": [
+        1.5749999284744263,
+        1.350000023841858,
+        2.5999999046325684
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "tripo_mat_f79424fa"
+      }
+    ],
+    "uv_layers": [
+      {
+        "name": "f79424fa_dbd0_4137_95c2_3e7a2ff0a14f_NewUVMap",
+        "active": true,
+        "active_render": true,
+        "loop_count": 7177,
+        "bounds_min": [
+          0.0010820861207321286,
+          0.0010808086954057217
+        ],
+        "bounds_max": [
+          0.9989191293716431,
+          0.9896203875541687
+        ],
+        "out_of_zero_one_range": 0,
+        "non_finite": 0,
+        "degenerate_faces": 0
+      }
+    ],
+    "modifiers": [],
+    "quality": {
+      "passed": true,
+      "score": 94,
+      "blockers": [],
+      "warnings": [
+        {
+          "code": "non_manifold_geometry",
+          "message": "Mesh contains boundary, wire, or non-manifold edges."
+        }
+      ],
+      "requirements": {
+        "require_uv": true,
+        "require_material": true,
+        "require_applied_scale": true,
+        "max_triangles": 4500
+      }
+    }
+  },
+  "quad_faces": 1456,
+  "triangle_faces": 451,
+  "mutation_jobs": [
+    {
+      "evidence": "blender_p2_backup.json",
+      "job_id": "61419361836462",
+      "command": "file.save_copy",
+      "state": "finished"
+    },
+    {
+      "evidence": "blender_p2_export.json",
+      "job_id": "213191772045228",
+      "command": "model.export",
+      "state": "finished"
+    },
+    {
+      "evidence": "blender_p2_export_glb.json",
+      "job_id": "45934065907643",
+      "command": "model.export",
+      "state": "finished"
+    },
+    {
+      "evidence": "blender_p2_final_save.json",
+      "job_id": "119277645508309",
+      "command": "file.save_copy",
+      "state": "finished"
+    },
+    {
+      "evidence": "blender_p2_fit.json",
+      "job_id": "130565348219316",
+      "command": "mesh.edit",
+      "state": "finished"
+    },
+    {
+      "evidence": "blender_p2_import.json",
+      "job_id": "36370764226674",
+      "command": "model.import",
+      "state": "finished"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "blender_p2_backup.json",
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Blender\\CH_GormP2_REF_v001.blend",
+      "bytes": 5001890,
+      "sha256": "30619b05dd6071688a5e8552040cf6eead6caef54552ce1751a301edd4080240"
+    },
+    {
+      "role": "blender_p2_final_save.json",
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Blender\\CH_GormP2_Final_v001.blend",
+      "bytes": 5025444,
+      "sha256": "0ac5998dfcc28f21fe97f942fb7213fe2fae9e227863bc1cf50afe1c55cc091f"
+    },
+    {
+      "role": "blender_p2_export.json",
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Export\\CH_GormP2_Game_v001.fbx",
+      "bytes": 156044,
+      "sha256": "43ecff12cda0dde0c4e50bffab4abf69d1b32f5f0cd16fc0ac0eb23f9f7c3e05"
+    },
+    {
+      "role": "blender_p2_export_glb.json",
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Export\\CH_GormP2_Game_v001.glb",
+      "bytes": 4601952,
+      "sha256": "a2098649121e5e32a9846d2ea8edeaea6e0cdcf33fb77c111e9124d51bb4cb47"
+    }
+  ],
+  "unreal": {
+    "map": "/Game/Maps/L_Cindehearth.L_Cindehearth",
+    "pie_running": false,
+    "chapter": 0,
+    "night": false,
+    "actor": "/Game/Maps/L_Cindehearth.L_Cindehearth:PersistentLevel.StaticMeshActor_1336",
+    "mesh": "/Game/Cindehearth/Tripo/GormHouse_P2_v001/CH_GormP2_Game_v001/StaticMeshes/CH_GormP2_Game_v001.CH_GormP2_Game_v001",
+    "material": "/Game/Cindehearth/Tripo/GormHouse_P2_v001/MI_CH_GormP2_Pixel.MI_CH_GormP2_Pixel",
+    "location": [
+      -1125.0,
+      -1620.0,
+      0.0
+    ],
+    "yaw": 180.0,
+    "dimensions_cm": [
+      315.0,
+      270.0,
+      260.00001192092896
+    ],
+    "render_triangles": 3363,
+    "nanite": false,
+    "original_shell_hidden_count": 12,
+    "sightline_infill_count": 4,
+    "supervisor_tool_parts": 3,
+    "walk_waypoints_passed": 8,
+    "epilogue": {
+      "played": true,
+      "view_target_restored": true,
+      "move_input_restored": true,
+      "look_input_restored": true
+    }
+  },
+  "sightline": {
+    "status": "applied",
+    "move_delta": [
+      -157.5,
+      0,
+      0
+    ],
+    "before": [
+      {
+        "label": "CH_MinersHome_06_Stone",
+        "location": [
+          -1305.0,
+          -2610.0,
+          0.0
+        ]
+      },
+      {
+        "label": "CH_MinersHome_06_Timber",
+        "location": [
+          -1305.0,
+          -2610.0,
+          0.0
+        ]
+      },
+      {
+        "label": "CH_MinersHome_06_Iron",
+        "location": [
+          -1305.0,
+          -2610.0,
+          0.0
+        ]
+      },
+      {
+        "label": "CH_MinersHome_06_Brass",
+        "location": [
+          -1305.0,
+          -2610.0,
+          0.0
+        ]
+      },
+      {
+        "label": "CH_MinersHome_06_StoneLight",
+        "location": [
+          -1305.0,
+          -2610.0,
+          0.0
+        ]
+      },
+      {
+        "label": "CH_MinersHome_06_RoofPatch",
+        "location": [
+          -1305.0,
+          -2610.0,
+          0.0
+        ]
+      },
+      {
+        "label": "CH_MinersHome_06_Roof",
+        "location": [
+          -1305.0,
+          -2610.0,
+          0.0
+        ]
+      },
+      {
+        "label": "CH_MinersHome_06_Window",
+        "location": [
+          -1305.0,
+          -2610.0,
+          0.0
+        ]
+      },
+      {
+        "label": "CH_MinersHome_06_Dark",
+        "location": [
+          -1305.0,
+          -2610.0,
+          0.0
+        ]
+      },
+      {
+        "label": "CH_MinersHome_06_ToolSign_Timber",
+        "location": [
+          -1226.25,
+          -2754.0,
+          6.75
+        ]
+      },
+      {
+        "label": "CH_MinersHome_06_ToolSign_Iron",
+        "location": [
+          -1226.25,
+          -2754.0,
+          6.75
+        ]
+      },
+      {
+        "label": "CH_MinersHome_06_ToolSign_Brass",
+        "location": [
+          -1226.25,
+          -2754.0,
+          6.75
+        ]
+      },
+      {
+        "label": "CH_MinersHome_06_Firewood0",
+        "location": [
+          -1395.0,
+          -2767.5,
+          9.9
+        ]
+      },
+      {
+        "label": "CH_MinersHome_06_Firewood1",
+        "location": [
+          -1376.1,
+          -2767.5,
+          9.9
+        ]
+      },
+      {
+        "label": "CH_MinersHome_06_Firewood2",
+        "location": [
+          -1357.2,
+          -2767.5,
+          9.9
+        ]
+      }
+    ],
+    "created": [
+      {
+        "label": "CH_GormStairInfill_West_Wall",
+        "location": [
+          -945.0,
+          -1350.0,
+          76.5
+        ],
+        "dimensions": [
+          90,
+          38.25,
+          153
+        ]
+      },
+      {
+        "label": "CH_GormStairInfill_West_Cap",
+        "location": [
+          -945.0,
+          -1350.0,
+          156.6
+        ],
+        "dimensions": [
+          90,
+          44.1,
+          8.1
+        ]
+      },
+      {
+        "label": "CH_GormStairInfill_East_Wall",
+        "location": [
+          -675.0,
+          -1350.0,
+          76.5
+        ],
+        "dimensions": [
+          90,
+          38.25,
+          153
+        ]
+      },
+      {
+        "label": "CH_GormStairInfill_East_Cap",
+        "location": [
+          -675.0,
+          -1350.0,
+          156.6
+        ],
+        "dimensions": [
+          90,
+          44.1,
+          8.1
+        ]
+      }
+    ],
+    "readback_passed": true
+  },
+  "supervisor_tool": [
+    {
+      "source": "CH_GormHouse_ToolSign_Timber",
+      "output": "CH_GormP2_SupervisorTool_Timber",
+      "location": [
+        -1204,
+        -1770,
+        40
+      ],
+      "scale": [
+        0.24,
+        0.24,
+        0.24
+      ],
+      "previous_scale": [
+        0.24,
+        0.24,
+        0.24
+      ],
+      "previous_location": [
+        -1204.0,
+        -1746.0,
+        40.0
+      ]
+    },
+    {
+      "source": "CH_GormHouse_ToolSign_Iron",
+      "output": "CH_GormP2_SupervisorTool_Iron",
+      "location": [
+        -1204,
+        -1770,
+        40
+      ],
+      "scale": [
+        0.24,
+        0.24,
+        0.24
+      ],
+      "previous_scale": [
+        0.24,
+        0.24,
+        0.24
+      ],
+      "previous_location": [
+        -1204.0,
+        -1746.0,
+        40.0
+      ]
+    },
+    {
+      "source": "CH_GormHouse_ToolSign_Brass",
+      "output": "CH_GormP2_SupervisorTool_Brass",
+      "location": [
+        -1204,
+        -1770,
+        40
+      ],
+      "scale": [
+        0.24,
+        0.24,
+        0.24
+      ],
+      "previous_scale": [
+        0.24,
+        0.24,
+        0.24
+      ],
+      "previous_location": [
+        -1204.0,
+        -1746.0,
+        40.0
+      ]
+    }
+  ],
+  "acceptance": "REJECTED_BY_VISUAL_QA",
+  "rejection": "2026-09-05: user identified open roof gaps and floating geometry; prior checks established transforms and UV preservation only, not mesh repair."
+}

@@ -1,0 +1,230 @@
+[
+  {
+    "tool": "blender_mesh_edit",
+    "arguments": {
+      "source_object_name": "CH_RestyleRock_REF___tripo_node_b18f59b5",
+      "output_object_name": "CH_Rock_Game_v001",
+      "operations": [
+        {
+          "type": "transform_object",
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "transform_vertices",
+          "scale": [
+            1.8008793356130923,
+            1.8008793356130923,
+            1.8008793356130923
+          ],
+          "translation": [
+            -0.0,
+            -0.0,
+            0.5078163165608207
+          ]
+        },
+        {
+          "type": "delete_loose"
+        }
+      ]
+    },
+    "request_id": 272146458046281
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"272146458046281\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "272146458046281",
+        "command": "mesh.edit",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"272146458046281\",\n    \"command\": \"mesh.edit\",\n    \"state\": \"finished\",\n    \"created_at\": 1788591130.6106036,\n    \"finished_at\": 1788591130.70678,\n    \"result\": {\n      \"source_object_name\": \"CH_RestyleRock_REF___tripo_node_b18f59b5\",\n      \"source_fingerprint\": \"3234f5ee8379fee451704c7fb210cee4d5b2f05a74cc977b5427f3b034c38db1\",\n      \"output_object_name\": \"CH_Rock_Game_v001\",\n      \"operations\": [\n        {\n          \"type\": \"transform_object\"\n        },\n        {\n          \"type\": \"transform_vertices\"\n        },\n        {\n          \"type\": \"delete_loose\"\n        }\n      ],\n      \"output\": {\n        \"object\": {\n          \"name\": \"CH_Rock_Game_v001\",\n          \"type\": \"MESH\",\n          \"data_name\": \"CH_Rock_Game_v001_Mesh\",\n          \"location\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"rotation_degrees\": [\n            0.0,\n            0.0,\n            0.0\n          ],\n          \"scale\": [\n            1.0,\n            1.0,\n            1.0\n          ],\n          \"dimensions\": [\n            1.8000000715255737,\n            1.622374176979065,\n            1.0156326293945312\n          ],\n          \"matrix_world\": [\n            [\n              1.0,\n              0.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              1.0,\n              0.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              1.0,\n              0.0\n            ],\n            [\n              0.0,\n              0.0,\n              0.0,\n              1.0\n            ]\n          ],\n          \"parent\": null,\n          \"collections\": [\n            \"Collection\"\n          ]\n        },\n        \"fingerprint\": \"4aed6a2c0c19611d2b78d2b280229911dcd2c18dcfdc20cf98bff9e3abb28960\",\n        \"geometry\": {\n          \"vertices\": 912,\n          \"edges\": 1928,\n          \"polygons\": 1019,\n          \"triangles\": 1732,\n          \"ngons\": 0,\n          \"loose_vertices\": 0,\n          \"loose_edges\": 0,\n          \"zero_length_edges\": 0,\n          \"boundary_edges\": 86,\n          \"wire_edges\": 0,\n          \"non_manifold_edges\": 0,\n          \"degenerate_faces\": 0,\n          \"invalid_face_normals\": 0,\n          \"non_finite_vertices\": 0\n        },\n        \"bounds\": {\n          \"local_min\": [\n            -0.9000000357627869,\n            -0.8111870884895325,\n            0.0\n          ],\n          \"local_max\": [\n            0.9000000357627869,\n            0.8111870884895325,\n            1.0156326293945312\n          ],\n          \"world_min\": [\n            -0.9000000357627869,\n            -0.8111870884895325,\n            0.0\n          ],\n          \"world_max\": [\n            0.9000000357627869,\n            0.8111870884895325,\n            1.0156326293945312\n          ]\n        },\n        \"materials\": [\n          {\n            \"slot\": 0,\n            \"name\": \"tripo_mat_b18f59b5\"\n          }\n        ],\n        \"uv_layers\": [\n          {\n            \"name\": \"b18f59b5_a0ce_48b1_a2e4_3403a83a57af_NewUVMap\",\n            \"active\": true,\n            \"active_render\": true,\n            \"loop_count\": 3770,\n            \"bounds_min\": [\n              0.0005162683082744479,\n              0.0006255580810829997\n            ],\n            \"bounds_max\": [\n              0.9906895160675049,\n              0.9994956254959106\n            ],\n            \"out_of_zero_one_range\": 0,\n            \"non_finite\": 0,\n            \"degenerate_faces\": 0\n          }\n        ],\n        \"modifiers\": [],\n        \"quality\": {\n          \"passed\": true,\n          \"score\": 94,\n          \"blockers\": [],\n          \"warnings\": [\n            {\n              \"code\": \"non_manifold_geometry\",\n              \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n            }\n          ],\n          \"requirements\": {}\n        }\n      },\n      \"source_preserved\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "272146458046281",
+        "command": "mesh.edit",
+        "state": "finished",
+        "created_at": 1788591130.6106036,
+        "finished_at": 1788591130.70678,
+        "result": {
+          "source_object_name": "CH_RestyleRock_REF___tripo_node_b18f59b5",
+          "source_fingerprint": "3234f5ee8379fee451704c7fb210cee4d5b2f05a74cc977b5427f3b034c38db1",
+          "output_object_name": "CH_Rock_Game_v001",
+          "operations": [
+            {
+              "type": "transform_object"
+            },
+            {
+              "type": "transform_vertices"
+            },
+            {
+              "type": "delete_loose"
+            }
+          ],
+          "output": {
+            "object": {
+              "name": "CH_Rock_Game_v001",
+              "type": "MESH",
+              "data_name": "CH_Rock_Game_v001_Mesh",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dimensions": [
+                1.8000000715255737,
+                1.622374176979065,
+                1.0156326293945312
+              ],
+              "matrix_world": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "parent": null,
+              "collections": [
+                "Collection"
+              ]
+            },
+            "fingerprint": "4aed6a2c0c19611d2b78d2b280229911dcd2c18dcfdc20cf98bff9e3abb28960",
+            "geometry": {
+              "vertices": 912,
+              "edges": 1928,
+              "polygons": 1019,
+              "triangles": 1732,
+              "ngons": 0,
+              "loose_vertices": 0,
+              "loose_edges": 0,
+              "zero_length_edges": 0,
+              "boundary_edges": 86,
+              "wire_edges": 0,
+              "non_manifold_edges": 0,
+              "degenerate_faces": 0,
+              "invalid_face_normals": 0,
+              "non_finite_vertices": 0
+            },
+            "bounds": {
+              "local_min": [
+                -0.9000000357627869,
+                -0.8111870884895325,
+                0.0
+              ],
+              "local_max": [
+                0.9000000357627869,
+                0.8111870884895325,
+                1.0156326293945312
+              ],
+              "world_min": [
+                -0.9000000357627869,
+                -0.8111870884895325,
+                0.0
+              ],
+              "world_max": [
+                0.9000000357627869,
+                0.8111870884895325,
+                1.0156326293945312
+              ]
+            },
+            "materials": [
+              {
+                "slot": 0,
+                "name": "tripo_mat_b18f59b5"
+              }
+            ],
+            "uv_layers": [
+              {
+                "name": "b18f59b5_a0ce_48b1_a2e4_3403a83a57af_NewUVMap",
+                "active": true,
+                "active_render": true,
+                "loop_count": 3770,
+                "bounds_min": [
+                  0.0005162683082744479,
+                  0.0006255580810829997
+                ],
+                "bounds_max": [
+                  0.9906895160675049,
+                  0.9994956254959106
+                ],
+                "out_of_zero_one_range": 0,
+                "non_finite": 0,
+                "degenerate_faces": 0
+              }
+            ],
+            "modifiers": [],
+            "quality": {
+              "passed": true,
+              "score": 94,
+              "blockers": [],
+              "warnings": [
+                {
+                  "code": "non_manifold_geometry",
+                  "message": "Mesh contains boundary, wire, or non-manifold edges."
+                }
+              ],
+              "requirements": {}
+            }
+          },
+          "source_preserved": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

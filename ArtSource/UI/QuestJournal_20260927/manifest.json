@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-27",
+  "revision": 2,
+  "source": "T_QuestJournal_Navy.png",
+  "asset": "/Game/Developers/MinkiCho/Art/Quest/Reference20260927/T_QuestJournal_Navy",
+  "consumer": "/Game/Developers/zxcv1/Quest/UI/WBP_QuestJournal:QM_IndexMist",
+  "reference": "/Game/Developers/MinkiCho/퀘스트_시안 (reuploaded 2026-09-27)",
+  "tool": "built-in image_gen",
+  "size": [
+    932,
+    1688
+  ],
+  "mode": "RGBA",
+  "sha256": "7a6c828f21966ba88eb8ffd7e599534ab5f1aacf3502b0317e1cf5bd45798485",
+  "purpose": "Opaque navy surface, gold double frame and open book/celestial compass ornament. Live text, data and controls remain UMG widgets. Replaces the previous dragon/adventurer design.",
+  "edit_prompt": "Edit IMAGE 1, the isolated tall navy panel texture, to match the NEW lower ornament in IMAGE 2 (the complete quest journal reference). Preserve the exact tall portrait panel proportions and all outer thin champagne-gold double frame lines and corners from IMAGE 1. Keep the upper 55% entirely blank dark navy for live UI text. REMOVE the dragon and person completely. Replace ONLY the lower 40% ornament with an elegant geometric antique celestial compass rose above an OPEN BOOK, thin circular astrolabe rings and small four-point stars, as on the bottom-left navy panel in IMAGE 2. Thin muted champagne-gold ink engraving, with faint blue-gray secondary lines, sophisticated and quiet. The book and compass should be recognizable but not brighter than the frame or foreground text. No people, no dragons, no feathers. NO TEXT OR LETTERS whatsoever, no Latin motto, no title, no icons or buttons at top, no UI screenshot content. Deliver exactly one standalone navy panel texture as RGBA PNG with real transparent outside corner pixels (not black and not a drawn checkerboard). Inside the gold frame the navy is fully opaque. Flat orthographic texture, no outside scene, preserve full frame uncropped."
+}

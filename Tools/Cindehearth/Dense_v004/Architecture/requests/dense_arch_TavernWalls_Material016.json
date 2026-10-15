@@ -1,0 +1,14 @@
+{
+  "source_object_name": "CH_Dense_TavernWalls_UV015",
+  "output_object_name": "CH_Dense_TavernWalls_Final016",
+  "material_name": "CH_Dense_TavernWalls_Stone",
+  "create_material": true,
+  "base_color": [
+    0.2,
+    0.18,
+    0.15,
+    1
+  ],
+  "metallic": 0,
+  "roughness": 0.96
+}

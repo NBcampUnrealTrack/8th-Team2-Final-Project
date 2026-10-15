@@ -1,0 +1,68 @@
+[
+  {
+    "tool": "blender_model_export",
+    "arguments": {
+      "path": "Cindehearth/Export/CH_GormP2_Game_v001.fbx",
+      "object_names": [
+        "CH_GormP2_Game_v001"
+      ],
+      "overwrite": false
+    },
+    "request_id": 213191772045228
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"213191772045228\",\n    \"command\": \"model.export\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "213191772045228",
+        "command": "model.export",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"213191772045228\",\n    \"command\": \"model.export\",\n    \"state\": \"finished\",\n    \"created_at\": 1788587358.5906036,\n    \"finished_at\": 1788587358.676932,\n    \"result\": {\n      \"path\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Export\\\\CH_GormP2_Game_v001.fbx\",\n      \"format\": \"fbx\",\n      \"bytes\": 156044,\n      \"object_names\": [\n        \"CH_GormP2_Game_v001\"\n      ],\n      \"fingerprints\": {\n        \"CH_GormP2_Game_v001\": \"18c220125260c20be6db8054d3f2b0d573457432472428bebac52d8949825b7a\"\n      },\n      \"apply_modifiers\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "213191772045228",
+        "command": "model.export",
+        "state": "finished",
+        "created_at": 1788587358.5906036,
+        "finished_at": 1788587358.676932,
+        "result": {
+          "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Export\\CH_GormP2_Game_v001.fbx",
+          "format": "fbx",
+          "bytes": 156044,
+          "object_names": [
+            "CH_GormP2_Game_v001"
+          ],
+          "fingerprints": {
+            "CH_GormP2_Game_v001": "18c220125260c20be6db8054d3f2b0d573457432472428bebac52d8949825b7a"
+          },
+          "apply_modifiers": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

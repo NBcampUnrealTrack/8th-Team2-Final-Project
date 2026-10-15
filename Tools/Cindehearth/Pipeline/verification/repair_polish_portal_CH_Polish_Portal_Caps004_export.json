@@ -1,0 +1,48 @@
+[
+  {
+    "job_id": "polish_portal_CH_Polish_Portal_Caps004_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_portal_CH_Polish_Portal_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_CH_Polish_Portal_Caps004_export"
+  },
+  {
+    "job_id": "polish_portal_CH_Polish_Portal_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_CH_Polish_Portal_Caps004_export"
+  },
+  {
+    "job_id": "polish_portal_CH_Polish_Portal_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_CH_Polish_Portal_Caps004_export"
+  },
+  {
+    "job_id": "polish_portal_CH_Polish_Portal_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_CH_Polish_Portal_Caps004_export"
+  },
+  {
+    "job_id": "polish_portal_CH_Polish_Portal_Caps004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_portal_CH_Polish_Portal_Caps004_export"
+  },
+  {
+    "job_id": "polish_portal_CH_Polish_Portal_Caps004_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Portal_Caps004.glb",
+      "format": "glb",
+      "bytes": 3760084,
+      "object_names": [
+        "CH_Polish_Portal_Caps004"
+      ],
+      "fingerprints": {
+        "CH_Polish_Portal_Caps004": "b3a1d209196c97c73ce0741573dd5f449ba6c580c3c80bc2a200a44f1c8bc7b3"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

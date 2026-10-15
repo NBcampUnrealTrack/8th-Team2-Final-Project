@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"downloaded\": true,\n  \"task_id\": \"b1eede47-0443-4e3c-ba01-a762dad29700\",\n  \"asset_name\": \"CH_Polish_RingLinks_P2_v003\",\n  \"files\": {\n    \"model\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_RingLinks_P2_v003\\\\b1eede47-0443-4e3c-ba01-a762dad29700\\\\b1eede47-0443-4e3c-ba01-a762dad29700_model.fbx\",\n    \"rendered_image\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_RingLinks_P2_v003\\\\b1eede47-0443-4e3c-ba01-a762dad29700\\\\b1eede47-0443-4e3c-ba01-a762dad29700_rendered.webp\"\n  },\n  \"output_directory\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Polish_RingLinks_P2_v003\\\\b1eede47-0443-4e3c-ba01-a762dad29700\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

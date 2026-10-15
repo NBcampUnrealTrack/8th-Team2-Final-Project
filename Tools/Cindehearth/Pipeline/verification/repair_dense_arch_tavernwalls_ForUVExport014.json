@@ -1,0 +1,33 @@
+[
+  {
+    "job_id": "dense_arch_tavernwalls_ForUVExport014",
+    "state": "running"
+  },
+  {
+    "job_id": "dense_arch_tavernwalls_ForUVExport014",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_tavernwalls_ForUVExport014"
+  },
+  {
+    "job_id": "dense_arch_tavernwalls_ForUVExport014",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_tavernwalls_ForUVExport014"
+  },
+  {
+    "job_id": "dense_arch_tavernwalls_ForUVExport014",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Tavern_Walls013_ForUV.glb",
+      "format": "glb",
+      "bytes": 4293808,
+      "object_names": [
+        "CH_Dense_Tavern_Walls013"
+      ],
+      "fingerprints": {
+        "CH_Dense_Tavern_Walls013": "1d7e56df1921122a05b25005b412e7fad33303c73709391d41e5d9f5adf8f5f1"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

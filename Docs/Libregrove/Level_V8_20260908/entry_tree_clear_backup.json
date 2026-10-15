@@ -1,0 +1,66 @@
+{
+  "level_backup": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\LibregroveV8Backup\\BeforeEntryClear_20260909.umap",
+  "sha256": "288d6f2d34f74473c25febf6d49ee2b1195eafa8ff7b04bb858bd02d2f82d89a",
+  "instances": [
+    {
+      "component": "/Game/Libregrove/Level_V8/Maps/L_Libregrove.L_Libregrove:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0",
+      "index": 149,
+      "location": [
+        439.82440185546875,
+        -4078.265380859375,
+        81.62473939584743
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.57317715883255,
+        0.819431483745575
+      ],
+      "scale": [
+        1.1498637199401853,
+        1.1498637199401853,
+        1.1498637199401855
+      ]
+    },
+    {
+      "component": "/Game/Libregrove/Level_V8/Maps/L_Libregrove.L_Libregrove:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0",
+      "index": 153,
+      "location": [
+        -60.55784225463867,
+        -3923.07373046875,
+        121.50692414057266
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.24293150007724762,
+        0.970043420791626
+      ],
+      "scale": [
+        0.8493895530700685,
+        0.8493895530700685,
+        0.8493895530700684
+      ]
+    },
+    {
+      "component": "/Game/Libregrove/Level_V8/Maps/L_Libregrove.L_Libregrove:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0",
+      "index": 156,
+      "location": [
+        -315.2724914550781,
+        -3944.363037109375,
+        151.3346389366052
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.41425538063049316,
+        0.9101607203483582
+      ],
+      "scale": [
+        1.1372206211090086,
+        1.1372206211090086,
+        1.1372206211090088
+      ]
+    }
+  ]
+}

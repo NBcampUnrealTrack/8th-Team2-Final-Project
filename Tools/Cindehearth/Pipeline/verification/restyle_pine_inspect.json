@@ -1,0 +1,167 @@
+[
+  {
+    "tool": "blender_mesh_inspect",
+    "arguments": {
+      "object_name": "CH_Pine_Game_v001",
+      "requirements": {
+        "require_uv": true,
+        "require_material": true,
+        "max_triangles": 4000
+      }
+    },
+    "request_id": 153476211014460
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"object\": {\n      \"name\": \"CH_Pine_Game_v001\",\n      \"type\": \"MESH\",\n      \"data_name\": \"CH_Pine_Game_v001_Mesh\",\n      \"location\": [\n        0.0,\n        0.0,\n        0.0\n      ],\n      \"rotation_degrees\": [\n        0.0,\n        0.0,\n        0.0\n      ],\n      \"scale\": [\n        1.0,\n        1.0,\n        1.0\n      ],\n      \"dimensions\": [\n        2.1592092514038086,\n        0.6291648745536804,\n        2.7000010013580322\n      ],\n      \"matrix_world\": [\n        [\n          1.0,\n          0.0,\n          0.0,\n          0.0\n        ],\n        [\n          0.0,\n          1.0,\n          0.0,\n          0.0\n        ],\n        [\n          0.0,\n          0.0,\n          1.0,\n          0.0\n        ],\n        [\n          0.0,\n          0.0,\n          0.0,\n          1.0\n        ]\n      ],\n      \"parent\": null,\n      \"collections\": [\n        \"Collection\"\n      ]\n    },\n    \"fingerprint\": \"694aae8427aec309ed9ce42481cd2c02e9ab0f91cc32a12e1d7bb2be1192efb5\",\n    \"geometry\": {\n      \"vertices\": 1901,\n      \"edges\": 4017,\n      \"polygons\": 2138,\n      \"triangles\": 3622,\n      \"ngons\": 0,\n      \"loose_vertices\": 0,\n      \"loose_edges\": 0,\n      \"zero_length_edges\": 0,\n      \"boundary_edges\": 136,\n      \"wire_edges\": 0,\n      \"non_manifold_edges\": 0,\n      \"degenerate_faces\": 0,\n      \"invalid_face_normals\": 0,\n      \"non_finite_vertices\": 0\n    },\n    \"bounds\": {\n      \"local_min\": [\n        -1.0796046257019043,\n        -0.3145824372768402,\n        -4.76837158203125e-07\n      ],\n      \"local_max\": [\n        1.0796046257019043,\n        0.3145824372768402,\n        2.700000524520874\n      ],\n      \"world_min\": [\n        -1.0796046257019043,\n        -0.3145824372768402,\n        -4.76837158203125e-07\n      ],\n      \"world_max\": [\n        1.0796046257019043,\n        0.3145824372768402,\n        2.700000524520874\n      ]\n    },\n    \"materials\": [\n      {\n        \"slot\": 0,\n        \"name\": \"tripo_mat_e7b0faa4\"\n      }\n    ],\n    \"uv_layers\": [\n      {\n        \"name\": \"e7b0faa4_61fb_40fa_baeb_5e99762ec608_NewUVMap\",\n        \"active\": true,\n        \"active_render\": true,\n        \"loop_count\": 7898,\n        \"bounds_min\": [\n          0.0008623996400274336,\n          0.0008435470517724752\n        ],\n        \"bounds_max\": [\n          0.9950461983680725,\n          0.9991750121116638\n        ],\n        \"out_of_zero_one_range\": 0,\n        \"non_finite\": 0,\n        \"degenerate_faces\": 0\n      }\n    ],\n    \"modifiers\": [],\n    \"quality\": {\n      \"passed\": true,\n      \"score\": 94,\n      \"blockers\": [],\n      \"warnings\": [\n        {\n          \"code\": \"non_manifold_geometry\",\n          \"message\": \"Mesh contains boundary, wire, or non-manifold edges.\"\n        }\n      ],\n      \"requirements\": {\n        \"require_uv\": true,\n        \"require_material\": true,\n        \"max_triangles\": 4000\n      }\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "object": {
+          "name": "CH_Pine_Game_v001",
+          "type": "MESH",
+          "data_name": "CH_Pine_Game_v001_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.1592092514038086,
+            0.6291648745536804,
+            2.7000010013580322
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "694aae8427aec309ed9ce42481cd2c02e9ab0f91cc32a12e1d7bb2be1192efb5",
+        "geometry": {
+          "vertices": 1901,
+          "edges": 4017,
+          "polygons": 2138,
+          "triangles": 3622,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 136,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.0796046257019043,
+            -0.3145824372768402,
+            -4.76837158203125e-07
+          ],
+          "local_max": [
+            1.0796046257019043,
+            0.3145824372768402,
+            2.700000524520874
+          ],
+          "world_min": [
+            -1.0796046257019043,
+            -0.3145824372768402,
+            -4.76837158203125e-07
+          ],
+          "world_max": [
+            1.0796046257019043,
+            0.3145824372768402,
+            2.700000524520874
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_e7b0faa4"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "e7b0faa4_61fb_40fa_baeb_5e99762ec608_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 7898,
+            "bounds_min": [
+              0.0008623996400274336,
+              0.0008435470517724752
+            ],
+            "bounds_max": [
+              0.9950461983680725,
+              0.9991750121116638
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {
+            "require_uv": true,
+            "require_material": true,
+            "max_triangles": 4000
+          }
+        }
+      }
+    },
+    "isError": false
+  }
+]

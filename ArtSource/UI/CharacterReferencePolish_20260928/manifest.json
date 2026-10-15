@@ -1,0 +1,26 @@
+{
+  "mode": "built-in image_gen",
+  "reference": "/Game/Developers/MinkiCho/ProjectM_Character_Info_Concept",
+  "reference_size": [
+    1690,
+    931
+  ],
+  "purpose": "Design revision: shared atmosphere, separate traveler silhouette and independent leaf sprites for future motion. No animation yet.",
+  "assets": [
+    {
+      "name": "T_CharacterMenu_Atmosphere.png",
+      "transparent": false,
+      "prompt": "Edit the attached RPG character-menu concept into a CLEAN BACKGROUND PLATE ONLY for the large IVORY area to the right of the navy sidebar. Preserve its luminous warm ivory, pale slate-blue watercolor grain, delicate gold astronomical sweeping arcs and minute geometric flecks. Reconstruct a complete landscape 16:9 background with calm luminous warm ivory center, desaturated blue-gray painterly texture primarily at far left, far right and lower edges; large very thin antique gold partial orbital circles sweeping behind the left half, a small four-point celestial star high in the right third. Match the refined quiet light of the reference, not brown parchment. REMOVE ALL UI: navy sidebar, outer frame, text, symbols for controls, profile icon, buttons, rows, information card. REMOVE BOTH CHARACTERS and ALL LEAVES and branches, no foliage at all because leaves will be separate animated sprites. Remove floor compass; it will be separate. Entire central/right area calm enough for text laid over it. No opaque card shapes. Detailed fine etched arcs and subtle fractured watercolor surface, no blur filter, no vignette ring, no bloom, no noisy stars everywhere. No text or logos. Output opaque landscape 16:9 production background, ideally 2048x1152."
+    },
+    {
+      "name": "T_CharacterMenu_Traveler.png",
+      "transparent": true,
+      "prompt": "Extract and redraw ONLY the large pale BLUE-GRAY background adventurer SILHOUETTE from the supplied reference, as one isolated transparent decorative image. This is the big outlined youthful anime traveler looking to the RIGHT with short tousled layered hair and a flowing travel cloak spreading dramatically to the LEFT, occupying the left middle of the menu behind the smaller chibi character. Match pose and silhouette: three-quarter side face turned right and slightly down, shoulders, cloak collar and long cape sweeping diagonally across left side, upper torso fading softly out near lower edge. Retain the flat airy desaturated slate-blue watercolor shading and finer darker-blue etched garment/hair lines visible in the reference. NO foreground chibi character, no UI, no text, no leaves or foliage, no star rings or floor, no background, no gold lines. All outside figure fully transparent, real RGBA alpha. Composition horizontal 4:3, head in upper-right third, cape extending to far left and bottom left. Preserve outer silhouette elegantly and keep the center-lower portion airy to place a real live character in front. This is an extracted decorative illustration, not a screenshot or card."
+    },
+    {
+      "name": "T_CharacterMenu_Leaves.png",
+      "transparent": true,
+      "prompt": "Using ONLY the slate-blue leaves in the supplied character menu as style reference, create a single transparent square 2x2 UI SPRITE ATLAS. Exactly FOUR isolated botanical motifs placed one in each equal quadrant, with generous completely transparent gutters between cells. TOP LEFT: ONE single long narrow leaf angled 35 degrees, blue-gray watercolor shading with a delicate antique gold center vein, no branch. TOP RIGHT: ONE single curled narrow leaf at a different angle, muted slate-blue with gold center vein. BOTTOM LEFT: airy loose spray of FOUR slender leaves on a very fine graceful twig, asymmetric and diagonal, room between leaves. BOTTOM RIGHT: an elegant longer sweep of FIVE or SIX blue-gray leaves on two sparse stems, slightly denser near the corner, designed to sit at bottom-right of the menu and point up-left. Match the reference's floating fantasy foliage: slim lance-shaped pointed leaves, subtly angular watercolor edges and thin fine vein lines. Palette muted desaturated slate blue, very little gold, not green. Art vivid enough to tint/adjust opacity later in UMG, restrained shading. NO glow, blur, shadows outside forms, opaque background, paper, frames, circles, characters, text, numbers, grid or checkerboard. Actual alpha transparency. Square 1024x1024, four isolated equal cells, all art must fit fully inside its cell."
+    }
+  ]
+}

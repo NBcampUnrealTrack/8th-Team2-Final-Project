@@ -1,0 +1,62 @@
+[
+  {
+    "key": "Journal",
+    "generated_file": "C:/Users/user/AppData/Roaming/reddy-ide/codex-runtime-home/home/generated_images/01a0a9b3-6c50-72a2-b422-cf4905c02440/exec-2fff9442-4dbf-43a4-9d5f-199181e6c614.png",
+    "source_file": "ArtSource/UI/NaiaFolio_20260917/T_NaiaFolio_Journal.png",
+    "asset_path": "/Game/Developers/MinkiCho/Art/UITheme/NaiaFolio/Textures/T_NaiaFolio_Journal",
+    "prompt": "Reinterpret the provided quest concept into ONE EMPTY OPEN JOURNAL / FOLDING ADVENTURE RECORD background texture, not a screenshot. Reference is for warm metal outlines, shaped corners, gentle page impression and palette family; remove ALL content and background. Production Unreal UMG texture, one standalone asset. Genuine RGBA transparency outside its silhouette, no checkerboard baked into image. High resolution, exact orthographic front view, clean modern fantasy 2D graphic, soft visible blue navy plus satin champagne metal, no leather, paper grain, rust, baroque carving, giant ornaments, neon, text, icons, labels, buttons, scene or mockup. No black vignette. Never draw any lettering.\nLandscape 16:9 canvas. Flat modern fantasy folded folio silhouette: narrower index leaf on left 34% of usable width, broader record leaf on right 66%, a narrow visible binding/seam at x=36% of canvas. The two leaves must be perceived as joined pages of one abstract open journal, with slight offset of their top edges and two or three small stepped ivory-blue page edges beneath the lower/right edges. Near-square cut page corners, extremely subtle top contour suggesting an open page, no photorealistic book perspective.\nLeft index surface clear soft navy around #294764. Right record surface a noticeably lighter desaturated slate-blue around #415D77, smooth filled near-opaque surfaces, subtly warm neutral highlight at top. Each page has uninterrupted generous EMPTY safe text area, no lines inside. Texture/material variation below 3%.\nThe outer edge is a visible satin champagne-metal band with restrained upper highlight and darker inner keyline, about 7 pixels apparent at 1100px display width; never an ultra-thin hairline. Consistent thickness around corners. Subtle double page outline, inner line narrow. Binding is a slender warm-metal seam with three small paired lozenge-shaped hinge links at top, middle and bottom; simple symmetric seed/leaf emblem integrated at the top of the seam. Edge decorations only; huge open centers. Use the SAME elongated lozenge/seed shape in the few corner fittings. No full page-sized symbol or decorative pattern.\nEdges fit completely inside image, equal tight 2% transparent padding. This background will sit behind real text, real tabs and real buttons later. Include ZERO UI controls or their placeholders. One coherent empty fold-out journal texture only.",
+    "max_texture_size": 2048,
+    "provider": "native image_gen; exact image model not exposed",
+    "pixel_editing": "none",
+    "qa": {
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGBA",
+      "alpha_gt127_bbox": [
+        45,
+        18,
+        1645,
+        884
+      ],
+      "center_rgba": [
+        64,
+        97,
+        133,
+        253
+      ]
+    },
+    "sha256": "da2f25c60daf63005ec7ea4e985da1861d800cd0b48c53041db17f2d95a27e03"
+  },
+  {
+    "key": "Motif",
+    "generated_file": "C:/Users/user/AppData/Roaming/reddy-ide/codex-runtime-home/home/generated_images/01a0a9b3-6c50-72a2-b422-cf4905c02440/exec-60b5306c-4bdc-433c-9152-36f8a9fff7d5.png",
+    "source_file": "ArtSource/UI/NaiaFolio_20260917/T_NaiaFolio_Motif.png",
+    "asset_path": "/Game/Developers/MinkiCho/Art/UITheme/NaiaFolio/Textures/T_NaiaFolio_Motif",
+    "prompt": "Extract and refine the pointed blue seed/leaf ornament at the TOP OF THE BINDING in this reference into ONE independent small UI motif asset. Genuine transparent RGBA background, square canvas, the centered ornament occupies 70% of width and 88% of height. A slim symmetric pointed almond/lozenge-shaped satin champagne metal outline around a desaturated blue center, with ONE elegant ivory leaf vein. Clean restrained front-facing 2D graphic, matching the reference's warm metal highlight and consistent outline weight. Short pointed terminals top and bottom; no rays, no stars, no circular badge, no wings, no text, no frame, no multiple icons. Very small display target 20x32 px: strong clean silhouette with only a few large readable shapes, no micro-detail. Subtle metal appearance without photorealistic reflection or glow. This is a reusable Naia seed motif for border midpoints and header markers. One motif only.",
+    "max_texture_size": 256,
+    "provider": "native image_gen; exact image model not exposed",
+    "pixel_editing": "none",
+    "qa": {
+      "dimensions": [
+        1070,
+        1470
+      ],
+      "mode": "RGBA",
+      "alpha_gt127_bbox": [
+        312,
+        194,
+        759,
+        1251
+      ],
+      "center_rgba": [
+        243,
+        233,
+        203,
+        253
+      ]
+    },
+    "sha256": "1f023d06410b2fb264378f89a2bf0fe06150a34de1ce9ad1e102011fe11e73c4"
+  }
+]

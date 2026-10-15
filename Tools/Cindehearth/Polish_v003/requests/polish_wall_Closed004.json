@@ -1,0 +1,15 @@
+{
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Wall_Game_v003.blend",
+  "object_name": "CH_Polish_Wall_Game_v003",
+  "expected_fingerprint": "b8adf8df69b00345731cc2de2857c1021b2ed55241e7af1323f60e64802fbdb5",
+  "output_object_name": "CH_Polish_Wall_Closed004",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Wall_Closed004.blend",
+  "operation": "fill_loops",
+  "selection_ids": [
+    0
+  ],
+  "distance": 1e-05,
+  "max_faces": 1500,
+  "max_diameter": 4.5,
+  "job_id": "polish_wall_Closed004"
+}

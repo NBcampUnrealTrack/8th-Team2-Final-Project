@@ -1,0 +1,48 @@
+{
+  "Set Relative Rotation": [
+    {
+      "title": "Set Relative Rotation",
+      "key": "FUNC SceneComponent::K2_SetRelativeRotation"
+    }
+  ],
+  "Set Absolute": [
+    {
+      "title": "Set Absolute",
+      "key": "FUNC SceneComponent::SetAbsolute"
+    }
+  ],
+  "Set Field Of View": [],
+  "Target Arm Length": [],
+  "Camera Lag": [],
+  "BeginPlay": [
+    {
+      "title": "\uc774\ubca4\ud2b8 BeginPlay",
+      "key": "EVENT Actor::ReceiveBeginPlay"
+    }
+  ],
+  "override": [
+    {
+      "name": "ReceiveBeginPlay",
+      "owner": "Actor",
+      "already": true
+    }
+  ],
+  "nodes": [
+    {
+      "id": "60D7BC4640AFBF526CA86F84B9AB7A2D",
+      "title": "BeginPlay \uc774\ubca4\ud2b8"
+    },
+    {
+      "id": "F04C178C4D30686B3D8881934BCA9A20",
+      "title": "ActorBeginOverlap \uc774\ubca4\ud2b8"
+    },
+    {
+      "id": "DEC1D54F4679C48B2A222AB2EBB218B7",
+      "title": "Tick \uc774\ubca4\ud2b8"
+    },
+    {
+      "id": "2D6CD9844939F0F4D49D28BE3DF00A0C",
+      "title": "Print String"
+    }
+  ]
+}

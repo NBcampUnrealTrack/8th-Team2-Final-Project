@@ -1,0 +1,155 @@
+{
+  "prior": {
+    "type": "perspective",
+    "location": [
+      612.7412065425467,
+      -1501.8631775914005,
+      382.3962423066323
+    ],
+    "rotation": [
+      0.0,
+      -18.0,
+      70.0
+    ],
+    "fov": 60.0,
+    "realtime": false,
+    "game_view": false
+  },
+  "framing": {
+    "actor_center": [
+      -850.0,
+      0.0,
+      125.49500274658203
+    ],
+    "actor_extent": [
+      171.39671325683594,
+      119.96936798095703,
+      125.99500274658203
+    ],
+    "distance": 657.6338275882272
+  },
+  "scene": {
+    "success": true,
+    "camera": {
+      "location": [
+        -636.084548942802,
+        587.7278714521019,
+        328.71503154718835
+      ],
+      "rotation": [
+        -18,
+        -110,
+        0
+      ],
+      "fov": 60
+    },
+    "viewport": [
+      1543,
+      615
+    ],
+    "actor_count": 5,
+    "total_matching": 5,
+    "actors": [
+      {
+        "name": "StaticMeshActor_4",
+        "label": "LGV7_LG_04_Workshop",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          -850,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          171.39671325683594,
+          119.96936798095703,
+          125.99500274658203
+        ],
+        "dist_cm": 706.8001189015456,
+        "screen_px": [
+          772,
+          537
+        ]
+      },
+      {
+        "name": "Brush_1",
+        "label": "Brush1",
+        "class": "Brush",
+        "pos_cm": [
+          -90,
+          110,
+          20
+        ],
+        "extent_cm": [
+          1000,
+          1000,
+          100
+        ],
+        "dist_cm": 788.5031543750481,
+        "screen_px": [
+          3394,
+          1132
+        ]
+      },
+      {
+        "name": "StaticMeshActor_0",
+        "label": "SM_SkySphere",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          0
+        ],
+        "extent_cm": [
+          1638400,
+          1638400,
+          1638400
+        ],
+        "dist_cm": 926.3267113985515,
+        "screen_px": [
+          3313,
+          973
+        ]
+      },
+      {
+        "name": "Floor_0",
+        "label": "Floor",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          4000.00146484375,
+          4000,
+          200.0001220703125
+        ],
+        "dist_cm": 926.5042586421298,
+        "screen_px": [
+          3312,
+          974
+        ]
+      },
+      {
+        "name": "StaticMeshActor_1",
+        "label": "LGV7_LG_01_Cottage_A",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          -850,
+          -850,
+          -0.5
+        ],
+        "extent_cm": [
+          145.18679809570312,
+          144.6196746826172,
+          121.5
+        ],
+        "dist_cm": 1490.370353149784,
+        "screen_px": [
+          1038,
+          191
+        ]
+      }
+    ]
+  }
+}

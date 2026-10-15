@@ -1,0 +1,68 @@
+[
+  {
+    "tool": "blender_model_export",
+    "arguments": {
+      "path": "Cindehearth/Export/CH_GormHouse_Game_v001.glb",
+      "object_names": [
+        "CH_GormHouse_Game_v001"
+      ],
+      "overwrite": false
+    },
+    "request_id": 167287375242523
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"queued\": true,\n    \"job_id\": \"167287375242523\",\n    \"command\": \"model.export\",\n    \"state\": \"queued\"\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "queued": true,
+        "job_id": "167287375242523",
+        "command": "model.export",
+        "state": "queued"
+      }
+    },
+    "isError": false
+  },
+  {
+    "_meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"result\": {\n    \"job_id\": \"167287375242523\",\n    \"command\": \"model.export\",\n    \"state\": \"finished\",\n    \"created_at\": 1788587077.655498,\n    \"finished_at\": 1788587078.6299908,\n    \"result\": {\n      \"path\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Export\\\\CH_GormHouse_Game_v001.glb\",\n      \"format\": \"glb\",\n      \"bytes\": 1459896,\n      \"object_names\": [\n        \"CH_GormHouse_Game_v001\"\n      ],\n      \"fingerprints\": {\n        \"CH_GormHouse_Game_v001\": \"d29ddc05ce106f2fbb76cf3a757da3399755f09be4033bfa577374aa8e7e9371\"\n      },\n      \"apply_modifiers\": true\n    }\n  }\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "result": {
+        "job_id": "167287375242523",
+        "command": "model.export",
+        "state": "finished",
+        "created_at": 1788587077.655498,
+        "finished_at": 1788587078.6299908,
+        "result": {
+          "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Export\\CH_GormHouse_Game_v001.glb",
+          "format": "glb",
+          "bytes": 1459896,
+          "object_names": [
+            "CH_GormHouse_Game_v001"
+          ],
+          "fingerprints": {
+            "CH_GormHouse_Game_v001": "d29ddc05ce106f2fbb76cf3a757da3399755f09be4033bfa577374aa8e7e9371"
+          },
+          "apply_modifiers": true
+        }
+      }
+    },
+    "isError": false
+  }
+]

@@ -1,0 +1,297 @@
+[
+  {
+    "job_id": "dense_arch_smithy_WallSide008",
+    "state": "running"
+  },
+  {
+    "job_id": "dense_arch_smithy_WallSide008",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithy_WallSide008"
+  },
+  {
+    "job_id": "dense_arch_smithy_WallSide008",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\dense_arch_smithy_WallSide008"
+  },
+  {
+    "job_id": "dense_arch_smithy_WallSide008",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "72a6040bba6e28ad69022f18f010eb803a1ef43a008187b0d2e0ad253abede7a",
+      "source": {
+        "object": {
+          "name": "CH_Dense_Smithy_WallRear007",
+          "type": "MESH",
+          "data_name": "CH_Dense_Smithy_WallRear007_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.220322370529175,
+            3.0,
+            2.4987785816192627
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "65ade502245de16082bedd66a4dc76cd2f696d07c8cd8c226bc2f8ff5cc121ad",
+        "geometry": {
+          "vertices": 1734,
+          "edges": 3622,
+          "polygons": 1916,
+          "triangles": 3206,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 206,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.1101611852645874,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            1.1101611852645874,
+            1.5,
+            2.4987785816192627
+          ],
+          "world_min": [
+            -1.1101611852645874,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            1.1101611852645874,
+            1.5,
+            2.4987785816192627
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_dda91e9f"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "dda91e9f_07fe_4fb0_b1fa_683ddbfe6b0a_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 7038,
+            "bounds_min": [
+              0.0008409030851908028,
+              0.0008020272362045944
+            ],
+            "bounds_max": [
+              0.9902401566505432,
+              1.0
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Dense_Smithy_WallSide008",
+          "type": "MESH",
+          "data_name": "CH_Dense_Smithy_WallSide008_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            2.220322370529175,
+            3.0,
+            2.4987785816192627
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "641feb5a18e72c02113bcbbe3ecb400a7212066f852fd044a32fafd34ec83608",
+        "geometry": {
+          "vertices": 1734,
+          "edges": 3625,
+          "polygons": 1917,
+          "triangles": 3208,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 208,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -1.1101611852645874,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            1.1101611852645874,
+            1.5,
+            2.4987785816192627
+          ],
+          "world_min": [
+            -1.1101611852645874,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            1.1101611852645874,
+            1.5,
+            2.4987785816192627
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_dda91e9f"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "dda91e9f_07fe_4fb0_b1fa_683ddbfe6b0a_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 7042,
+            "bounds_min": [
+              0.0008409030851908028,
+              0.0008020272362045944
+            ],
+            "bounds_max": [
+              0.9902401566505432,
+              1.0
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "added_faces": 1
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Dense_v004\\Architecture\\CH_Dense_Smithy_WallSide008.blend"
+    }
+  }
+]

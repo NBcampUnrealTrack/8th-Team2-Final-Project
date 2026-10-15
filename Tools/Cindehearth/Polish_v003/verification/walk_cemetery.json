@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "route": "cemetery",
+  "waypoints_reached": 4,
+  "total_waypoints": 4,
+  "final_pos": [
+    4536.506692348829,
+    2916.9860495646617,
+    680.1499966451529
+  ],
+  "samples": [
+    {
+      "seconds": 0.81,
+      "pos": [
+        2925.0,
+        2160.0,
+        365.2
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 2.83,
+      "pos": [
+        3521.1,
+        2484.3,
+        512.4
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "seconds": 4.84,
+      "pos": [
+        4128.5,
+        2839.4,
+        665.1
+      ],
+      "mode": "<MovementMode.MOVE_WALKING: 1>"
+    }
+  ]
+}

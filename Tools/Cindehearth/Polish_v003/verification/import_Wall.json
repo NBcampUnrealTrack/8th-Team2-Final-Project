@@ -1,0 +1,27 @@
+{
+  "status": "finished",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Wall_Closed004.glb",
+  "assets": [
+    "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/Textures/Normal.Normal",
+    "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/Textures/Color.Color",
+    "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/Textures/tripo_image_56d1db8c_2-tripo_image_56d1db8c_1.tripo_image_56d1db8c_2-tripo_image_56d1db8c_1",
+    "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/Materials/tripo_mat_56d1db8c.tripo_mat_56d1db8c",
+    "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004"
+  ],
+  "meshes": [
+    {
+      "path": "/Game/Cindehearth/Polish_v003/Models/Wall/CH_Polish_Wall_Closed004/StaticMeshes/CH_Polish_Wall_Closed004.CH_Polish_Wall_Closed004",
+      "triangles": 1458,
+      "min": [
+        -41.98827362060547,
+        -150.0,
+        0.0
+      ],
+      "max": [
+        41.98827362060547,
+        150.0,
+        176.59991455078125
+      ]
+    }
+  ]
+}

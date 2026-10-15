@@ -1,0 +1,87 @@
+[
+  {
+    "shelf": "CH_LedgerShelf_6.0_P3"
+  },
+  {
+    "shelf": "CH_LedgerShelf_10_P3"
+  },
+  {
+    "pulley": "CH_AbandonedLoggingGear_P3"
+  },
+  {
+    "stockpile": "CH_RestRingStockpile_0",
+    "clusters": [
+      "CH_RestRingStockpile_0_P3_0_0",
+      "CH_RestRingStockpile_0_P3_0_1",
+      "CH_RestRingStockpile_0_P3_0_2",
+      "CH_RestRingStockpile_0_P3_0_3",
+      "CH_RestRingStockpile_0_P3_0_4",
+      "CH_RestRingStockpile_0_P3_0_5",
+      "CH_RestRingStockpile_0_P3_1_0",
+      "CH_RestRingStockpile_0_P3_1_1",
+      "CH_RestRingStockpile_0_P3_1_2",
+      "CH_RestRingStockpile_0_P3_1_3",
+      "CH_RestRingStockpile_0_P3_2_0",
+      "CH_RestRingStockpile_0_P3_2_1"
+    ],
+    "document_clues": false
+  },
+  {
+    "stockpile": "CH_RestRingStockpile_1",
+    "clusters": [
+      "CH_RestRingStockpile_1_P3_0_0",
+      "CH_RestRingStockpile_1_P3_0_1",
+      "CH_RestRingStockpile_1_P3_0_2",
+      "CH_RestRingStockpile_1_P3_0_3",
+      "CH_RestRingStockpile_1_P3_0_4",
+      "CH_RestRingStockpile_1_P3_0_5",
+      "CH_RestRingStockpile_1_P3_1_0",
+      "CH_RestRingStockpile_1_P3_1_1",
+      "CH_RestRingStockpile_1_P3_1_2",
+      "CH_RestRingStockpile_1_P3_1_3",
+      "CH_RestRingStockpile_1_P3_2_0",
+      "CH_RestRingStockpile_1_P3_2_1"
+    ],
+    "document_clues": false
+  },
+  {
+    "stockpile": "CH_RestRingStockpile_2",
+    "clusters": [
+      "CH_RestRingStockpile_2_P3_0_0",
+      "CH_RestRingStockpile_2_P3_0_1",
+      "CH_RestRingStockpile_2_P3_0_2",
+      "CH_RestRingStockpile_2_P3_0_3",
+      "CH_RestRingStockpile_2_P3_0_4",
+      "CH_RestRingStockpile_2_P3_0_5",
+      "CH_RestRingStockpile_2_P3_1_0",
+      "CH_RestRingStockpile_2_P3_1_1",
+      "CH_RestRingStockpile_2_P3_1_2",
+      "CH_RestRingStockpile_2_P3_1_3",
+      "CH_RestRingStockpile_2_P3_2_0",
+      "CH_RestRingStockpile_2_P3_2_1"
+    ],
+    "document_clues": false
+  },
+  {
+    "stockpile": "CH_RestRingStockpile_3",
+    "clusters": [
+      "CH_RestRingStockpile_3_P3_0_0",
+      "CH_RestRingStockpile_3_P3_0_1",
+      "CH_RestRingStockpile_3_P3_0_2",
+      "CH_RestRingStockpile_3_P3_0_3",
+      "CH_RestRingStockpile_3_P3_0_4",
+      "CH_RestRingStockpile_3_P3_0_5",
+      "CH_RestRingStockpile_3_P3_1_0",
+      "CH_RestRingStockpile_3_P3_1_1",
+      "CH_RestRingStockpile_3_P3_1_2",
+      "CH_RestRingStockpile_3_P3_1_3",
+      "CH_RestRingStockpile_3_P3_2_0",
+      "CH_RestRingStockpile_3_P3_2_1"
+    ],
+    "document_clues": false
+  },
+  {
+    "cocoon": "CH_HollowcoreCocoon_P3",
+    "ring_clusters": 18
+  }
+]

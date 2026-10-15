@@ -1,0 +1,297 @@
+[
+  {
+    "job_id": "polish_laundry_Caps004",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_laundry_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_laundry_Caps004"
+  },
+  {
+    "job_id": "polish_laundry_Caps004",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_laundry_Caps004"
+  },
+  {
+    "job_id": "polish_laundry_Caps004",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "source_preserved": true,
+      "input_sha256": "a8ca70099bf83a1c688c116922e7b27af0e9e51a7fe20f82f1598320a04d8636",
+      "source": {
+        "object": {
+          "name": "CH_Polish_Laundry_Game_v003",
+          "type": "MESH",
+          "data_name": "CH_Polish_Laundry_Game_v003_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            0.6785539984703064,
+            3.0,
+            1.6985832452774048
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "f6a65ab09d183508944d9aa8d429ec35a8f60474a1e2c34361820b9edfaea969",
+        "geometry": {
+          "vertices": 755,
+          "edges": 1443,
+          "polygons": 735,
+          "triangles": 1232,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 184,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -0.3392769992351532,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            0.3392769992351532,
+            1.5,
+            1.6985832452774048
+          ],
+          "world_min": [
+            -0.3392769992351532,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            0.3392769992351532,
+            1.5,
+            1.6985832452774048
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_4b6b3464"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_4b6b3464_8c0c_4af5_84c4_29f820384ff0_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 2702,
+            "bounds_min": [
+              0.0006690844311378896,
+              0.0006690607406198978
+            ],
+            "bounds_max": [
+              0.9993309378623962,
+              0.9968388080596924
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "output": {
+        "object": {
+          "name": "CH_Polish_Laundry_Caps004",
+          "type": "MESH",
+          "data_name": "CH_Polish_Laundry_Caps004_Mesh",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dimensions": [
+            0.6785539984703064,
+            3.0,
+            1.6985832452774048
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "parent": null,
+          "collections": [
+            "Collection"
+          ]
+        },
+        "fingerprint": "94b2b465e11a7c06c60e158d0adc9f98456eb778816f15e6e784e24655872443",
+        "geometry": {
+          "vertices": 755,
+          "edges": 1494,
+          "polygons": 817,
+          "triangles": 1328,
+          "ngons": 0,
+          "loose_vertices": 0,
+          "loose_edges": 0,
+          "zero_length_edges": 0,
+          "boundary_edges": 26,
+          "wire_edges": 0,
+          "non_manifold_edges": 0,
+          "degenerate_faces": 0,
+          "invalid_face_normals": 0,
+          "non_finite_vertices": 0
+        },
+        "bounds": {
+          "local_min": [
+            -0.3392769992351532,
+            -1.5,
+            0.0
+          ],
+          "local_max": [
+            0.3392769992351532,
+            1.5,
+            1.6985832452774048
+          ],
+          "world_min": [
+            -0.3392769992351532,
+            -1.5,
+            0.0
+          ],
+          "world_max": [
+            0.3392769992351532,
+            1.5,
+            1.6985832452774048
+          ]
+        },
+        "materials": [
+          {
+            "slot": 0,
+            "name": "tripo_mat_4b6b3464"
+          }
+        ],
+        "uv_layers": [
+          {
+            "name": "tripo_4b6b3464_8c0c_4af5_84c4_29f820384ff0_NewUVMap",
+            "active": true,
+            "active_render": true,
+            "loop_count": 2962,
+            "bounds_min": [
+              0.0006690844311378896,
+              0.0006690607406198978
+            ],
+            "bounds_max": [
+              0.9993309378623962,
+              0.9968388080596924
+            ],
+            "out_of_zero_one_range": 0,
+            "non_finite": 0,
+            "degenerate_faces": 0
+          }
+        ],
+        "modifiers": [],
+        "quality": {
+          "passed": true,
+          "score": 94,
+          "blockers": [],
+          "warnings": [
+            {
+              "code": "non_manifold_geometry",
+              "message": "Mesh contains boundary, wire, or non-manifold edges."
+            }
+          ],
+          "requirements": {}
+        }
+      },
+      "changes": {
+        "added_faces": 82
+      },
+      "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Laundry_Caps004.blend"
+    }
+  }
+]

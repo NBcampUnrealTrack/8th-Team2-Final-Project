@@ -1,0 +1,50 @@
+[
+ {
+  "shot": "db_idle",
+  "py": "qa_village.py",
+  "wait": 20,
+  "frames": 240
+ },
+ {
+  "shot": "db_near",
+  "py": "qa_interact.py",
+  "wait": 1.0,
+  "frames": 30
+ },
+ {
+  "shot": "db_open",
+  "py": "qa_open_dialogue.py",
+  "wait": 2.0,
+  "frames": 40
+ },
+ {
+  "shot": "db_talk",
+  "py": "qa_dialogue_pick_talk.py",
+  "wait": 3.0,
+  "frames": 60
+ },
+ {
+  "shot": "db_b0",
+  "py": "qa_dialogue_bob.py",
+  "wait": 0.27,
+  "frames": 6
+ },
+ {
+  "shot": "db_b1",
+  "py": "qa_dialogue_bob.py",
+  "wait": 0.27,
+  "frames": 6
+ },
+ {
+  "shot": "db_b2",
+  "py": "qa_dialogue_bob.py",
+  "wait": 0.27,
+  "frames": 6
+ },
+ {
+  "shot": "db_b3",
+  "py": "qa_dialogue_bob.py",
+  "wait": 0.27,
+  "frames": 6
+ }
+]

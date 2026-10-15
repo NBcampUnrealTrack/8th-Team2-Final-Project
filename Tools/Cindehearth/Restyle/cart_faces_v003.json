@@ -1,0 +1,23 @@
+{
+  "job_id": "restyle_cart_faces_003",
+  "blend_path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_Cart_NoOutlier_v002.blend",
+  "object_name": "CH_Cart_NoOutlier_v002",
+  "expected_fingerprint": "690b67cbd41316b9c677e99fde467bb1eefe990943f17c6f2d7887492db43a04",
+  "output_object_name": "CH_Cart_Faces_v003",
+  "output_blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Restyle\\CH_Cart_Faces_v003.blend",
+  "operation": "delete_faces",
+  "selection_ids": [
+    23,
+    26,
+    66,
+    78,
+    81,
+    83,
+    84,
+    86,
+    92,
+    137
+  ],
+  "max_faces": 10,
+  "max_diameter": 0.6
+}

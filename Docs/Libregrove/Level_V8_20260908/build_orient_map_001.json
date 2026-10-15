@@ -1,0 +1,6 @@
+{
+  "stage": "orient_map",
+  "created": [],
+  "east_direction": "-UE X; north +UE Y; fixed camera yaw 90",
+  "total_actors": 246
+}

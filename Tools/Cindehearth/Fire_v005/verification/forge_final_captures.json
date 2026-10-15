@@ -1,0 +1,19 @@
+[
+  {
+    "name": "forge",
+    "file": "C:/Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Tools/Cindehearth/Fire_v005/verification/forge_final_forge.png",
+    "actual_game_view": true,
+    "camera_rotation": [
+      -25.000000000000018,
+      90.00000000000001,
+      5.26403070836944e-15
+    ],
+    "fov": 32.0,
+    "pawn": [
+      -92.70000000000005,
+      660.0,
+      219.71388292312622
+    ],
+    "captured_time": 20.0896962210536
+  }
+]

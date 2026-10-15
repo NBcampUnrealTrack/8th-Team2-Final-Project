@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-05",
+  "engine": "UE 5.8",
+  "target": "ProjectMEditor Win64 Development",
+  "build": "Succeeded",
+  "archive_enter_exit": "Passed: Q7 ladder helper, walkable cellar floor, returned to assay floor",
+  "epilogue": "Passed: camera activated, finished, pawn view and move/look input restored",
+  "limitations": [
+    "Quest ID map intentionally unbound pending actual chapter data",
+    "Traversal checks cover selected routes, not all collision surfaces",
+    "No packaged build, combat, audio, multiplayer or save/load validation"
+  ]
+}

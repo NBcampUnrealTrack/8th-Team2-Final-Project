@@ -1,0 +1,12 @@
+{
+  "path": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Docs\\Fernbrook_CharacterLighting_20260911\\Preview\\Character_Entry_Final_002.png",
+  "sha256": "5401f6cd9465d537b33ff23f3e36ed91c16ffe4efa0ecb0f18f0b9d03f0fe38a",
+  "live_camera": {
+    "success": true,
+    "output": "{\"camera\": [1350.0000000000016, -4025.4482671904357, 1124.2585129737865], \"rotation\": [1.4690353290379085e-14, -30.0, 90.0], \"fov\": 38.0, \"pawn\": [1350.0, -2380.0, 114.2585129737854], \"capsule_half_height\": 48.0, \"capsule_radius\": 24.0, \"grounded\": true, \"world\": \"/Game/Fernbrook/Entrance_V1/Maps/UEDPIE_0_L_Fernbrook_Entrance.L_Fernbrook_Entrance\"}",
+    "result": "None",
+    "warnings": [],
+    "execution_time_ms": 8.281797409057617
+  },
+  "method": "specific player controller HighResShot; actual game view"
+}

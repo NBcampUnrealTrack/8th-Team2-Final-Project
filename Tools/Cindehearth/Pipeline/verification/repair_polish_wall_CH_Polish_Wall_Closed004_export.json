@@ -1,0 +1,38 @@
+[
+  {
+    "job_id": "polish_wall_CH_Polish_Wall_Closed004_export",
+    "state": "running"
+  },
+  {
+    "job_id": "polish_wall_CH_Polish_Wall_Closed004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_wall_CH_Polish_Wall_Closed004_export"
+  },
+  {
+    "job_id": "polish_wall_CH_Polish_Wall_Closed004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_wall_CH_Polish_Wall_Closed004_export"
+  },
+  {
+    "job_id": "polish_wall_CH_Polish_Wall_Closed004_export",
+    "state": "running_or_interrupted",
+    "receipt": "C:\\Users\\Ndus_072\\RevDevTool\\RevStudio-ProjectM\\Saved\\CindehearthRepair\\polish_wall_CH_Polish_Wall_Closed004_export"
+  },
+  {
+    "job_id": "polish_wall_CH_Polish_Wall_Closed004_export",
+    "state": "finished",
+    "success": true,
+    "result": {
+      "path": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Wall_Closed004.glb",
+      "format": "glb",
+      "bytes": 3767764,
+      "object_names": [
+        "CH_Polish_Wall_Closed004"
+      ],
+      "fingerprints": {
+        "CH_Polish_Wall_Closed004": "3924718872de3f1ac650a7b453cb32dba3f1b928c426a8abbd54ed353fb81997"
+      },
+      "apply_modifiers": true
+    }
+  }
+]

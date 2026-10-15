@@ -1,0 +1,13 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"downloaded\": true,\n  \"task_id\": \"4caa7db6-bf5c-462b-a2f7-2b6fc1428808\",\n  \"asset_name\": \"CH_Dense_Tavern_P2_v004\",\n  \"files\": {\n    \"model\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Dense_Tavern_P2_v004\\\\4caa7db6-bf5c-462b-a2f7-2b6fc1428808\\\\4caa7db6-bf5c-462b-a2f7-2b6fc1428808_model.fbx\",\n    \"rendered_image\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Dense_Tavern_P2_v004\\\\4caa7db6-bf5c-462b-a2f7-2b6fc1428808\\\\4caa7db6-bf5c-462b-a2f7-2b6fc1428808_rendered.webp\"\n  },\n  \"output_directory\": \"C:\\\\Users\\\\Ndus_072\\\\AppData\\\\Local\\\\Revvy\\\\BlenderExchange\\\\Cindehearth\\\\Tripo\\\\CH_Dense_Tavern_P2_v004\\\\4caa7db6-bf5c-462b-a2f7-2b6fc1428808\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

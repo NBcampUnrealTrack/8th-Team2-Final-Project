@@ -1,0 +1,338 @@
+[
+  {
+    "name": "village_day",
+    "night": false,
+    "quest": 0,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_village_day.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          0,
+          -8300,
+          4300
+        ],
+        "rotation": [
+          -26.56505117707799,
+          90,
+          3.1178524834738926e-07
+        ],
+        "fov": 53
+      }
+    }
+  },
+  {
+    "name": "square_day",
+    "night": false,
+    "quest": 0,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_square_day.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          1550,
+          -1500,
+          930
+        ],
+        "rotation": [
+          -17.91593392516447,
+          140.96448710125313,
+          3.3591089380175634e-07
+        ],
+        "fov": 43
+      }
+    }
+  },
+  {
+    "name": "homes_day",
+    "night": false,
+    "quest": 0,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_homes_day.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          -900,
+          -4150,
+          1050
+        ],
+        "rotation": [
+          -23.886499921634744,
+          90,
+          2.823035884632823e-07
+        ],
+        "fov": 43
+      }
+    }
+  },
+  {
+    "name": "mine",
+    "night": false,
+    "quest": 0,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_mine.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          1650,
+          2600,
+          1040
+        ],
+        "rotation": [
+          -16.910098376785818,
+          127.05652818940959,
+          2.862827685101893e-07
+        ],
+        "fov": 50
+      }
+    }
+  },
+  {
+    "name": "cemetery",
+    "night": false,
+    "quest": 0,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_cemetery.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          4900,
+          2050,
+          1200
+        ],
+        "rotation": [
+          -29.264089701969674,
+          81.20945681718605,
+          3.0751595754980426e-07
+        ],
+        "fov": 48
+      }
+    }
+  },
+  {
+    "name": "ashslope",
+    "night": false,
+    "quest": 0,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_ashslope.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          -6600,
+          -1600,
+          1850
+        ],
+        "rotation": [
+          -32.20435445624024,
+          87.51044707800085,
+          3.6127403428795947e-07
+        ],
+        "fov": 48
+      }
+    }
+  },
+  {
+    "name": "logging",
+    "night": false,
+    "quest": 0,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_logging.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          -1650,
+          -7180,
+          540
+        ],
+        "rotation": [
+          -23.113393644935396,
+          41.13179596167828,
+          1.2507573586232543e-07
+        ],
+        "fov": 42
+      }
+    }
+  },
+  {
+    "name": "pine",
+    "night": false,
+    "quest": 0,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_pine.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          1300,
+          -8800,
+          850
+        ],
+        "rotation": [
+          -15.32963115267502,
+          114.94390526342458,
+          2.3539606592562058e-07
+        ],
+        "fov": 47
+      }
+    }
+  },
+  {
+    "name": "rings",
+    "night": false,
+    "quest": 8,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_rings.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          1450,
+          5550,
+          750
+        ],
+        "rotation": [
+          -26.202891330008864,
+          142.43140797117252,
+          4.871748064322259e-07
+        ],
+        "fov": 50
+      }
+    }
+  },
+  {
+    "name": "hollowcore",
+    "night": false,
+    "quest": 8,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_hollowcore.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          1100,
+          8490,
+          430
+        ],
+        "rotation": [
+          -18.67181656698204,
+          124.99202019855868,
+          3.099772425122735e-07
+        ],
+        "fov": 47
+      }
+    }
+  },
+  {
+    "name": "sky",
+    "night": false,
+    "quest": 0,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_sky.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          0,
+          -4700,
+          580
+        ],
+        "rotation": [
+          9.480362440273632,
+          90,
+          -1.1483105727999354e-07
+        ],
+        "fov": 64
+      }
+    }
+  },
+  {
+    "name": "square_night",
+    "night": true,
+    "quest": 0,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_square_night.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          1550,
+          -1500,
+          930
+        ],
+        "rotation": [
+          -17.91593392516447,
+          140.96448710125313,
+          3.3591089380175634e-07
+        ],
+        "fov": 43
+      }
+    }
+  },
+  {
+    "name": "square_hushed",
+    "night": true,
+    "quest": 9,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_square_hushed.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          1550,
+          -1500,
+          930
+        ],
+        "rotation": [
+          -17.91593392516447,
+          140.96448710125313,
+          3.3591089380175634e-07
+        ],
+        "fov": 43
+      }
+    }
+  },
+  {
+    "name": "square_recovered",
+    "night": true,
+    "quest": 12,
+    "capture": {
+      "success": true,
+      "file_path": "../../../../../../Users/Ndus_072/RevDevTool/RevStudio-ProjectM/Saved/Revvy/Screenshots/CH_Polish_final_square_recovered.png",
+      "width": 2038,
+      "height": 792,
+      "camera": {
+        "location": [
+          1550,
+          -1500,
+          930
+        ],
+        "rotation": [
+          -17.91593392516447,
+          140.96448710125313,
+          3.3591089380175634e-07
+        ],
+        "fov": 43
+      }
+    }
+  }
+]

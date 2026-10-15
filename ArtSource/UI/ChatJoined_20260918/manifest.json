@@ -1,0 +1,86 @@
+{
+  "reference": "ArtSource/UI/ChatConnectedConcept_20260918/T_Chat_Connected_Concept_01.png",
+  "images": [
+    {
+      "key": "Frame",
+      "prompt": "Use case: stylized-concept. Generate ONE production Unreal UMG texture, a clean blank OUTER FRAME ONLY for the approved connected fantasy chat HUD shown in the style reference. Not a screenshot, not a UI mockup, not a collection. Wide canvas aspect 2.1:1. The frame occupies 98% width and 96% height with even tiny clearance. Outside AND the entire inside opening must be truly transparent alpha zero: hollow frame ring with no colored body fill at all. One continuous front-facing flat rectangular outline with small precise chamfered corners. All sides straight, top NOT stepped, no internal dividers. Elegant ivory satin metal rim with a small muted champagne highlight, 1.2% of the short canvas dimension thick, visibly substantial for a 600x280 HUD. Slim dark-blue supporting edge beside the metal creates contrast, not a massive bevel. Tiny tasteful champagne diamond centered on each lower chamfer corner, only these two accents. Match reference cool blue and warm pale trim. Preserve large clear transparent opening. No navy background plate, no colored center, no gray backdrop, no checkerboard painted into image, no environment, text, icons, buttons, symbols inside opening, logo, watermark, shadow outside or dramatic glossy lighting. Crisp continuous geometry, same stroke thickness everywhere. Production RGBA.",
+      "native_source": "C:/Users/user/AppData/Roaming/reddy-ide/codex-runtime-home/home/generated_images/01a0a9b3-6c50-72a2-b422-cf4905c02440/exec-6d6f6166-af1a-4f2d-8282-3740172c744c.png",
+      "attempt": 1,
+      "source_file": "ArtSource/UI/ChatJoined_20260918/T_ChatJoined_Frame.png",
+      "asset_path": "/Game/Developers/MinkiCho/Art/FieldHUD/Chat_New/Textures/T_ChatJoined_Frame",
+      "dimensions": [
+        1817,
+        866
+      ],
+      "mode": "RGBA",
+      "sha256": "a201bd3089283f7e38a08bf522cd8c648cb12fecc2f1f9b716550f13b7ef4ec2",
+      "center_pixel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_32_bbox": [
+        24,
+        18,
+        1793,
+        843
+      ]
+    },
+    {
+      "key": "TabIdle",
+      "prompt": "Generate ONE production UMG IDLE TAB surface texture matching the approved connected blue chat HUD in the reference. This is a single blank component, NOT screenshot, NOT composite. Canvas exactly wide 3:1. Fill EVERY pixel of the rectangular canvas with blue satin, NO outer transparent padding, NO exterior backdrop. It must tile directly beside neighboring buttons without a visual air gap. Matte clear blue navy about #284A65 with very subtle vertical soft gradient, fully opaque. Straight rectangular silhouette, NO chamfer, rounded corners, bevel, shadow, perimeter frame or ornament. Only a single pale blue-ivory vertical separator at the EXACT RIGHT EDGE, of width equivalent to 2% of canvas HEIGHT (about one pixel when tab displays at120x40). Separator extends from15% to85% height and has crisp ends. All other edges unbordered. Blank middle for an icon and text inserted by Unreal. No letters, labels, icons, wordmarks, textures of fabric/paper, gray surfaces or neon. This deliberately simple idle surface belongs inside a shared metal outer frame.",
+      "native_source": "C:/Users/user/AppData/Roaming/reddy-ide/codex-runtime-home/home/generated_images/01a0a9b3-6c50-72a2-b422-cf4905c02440/exec-c2e8538e-20a7-4f96-942c-5f968f816237.png",
+      "attempt": 1,
+      "source_file": "ArtSource/UI/ChatJoined_20260918/T_ChatJoined_TabIdle.png",
+      "asset_path": "/Game/Developers/MinkiCho/Art/FieldHUD/Chat_New/Textures/T_ChatJoined_TabIdle",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGB",
+      "sha256": "15644b6411d19e347061cffd9fdcca179b94cff5be1f760449d74b919f2d78f2",
+      "center_pixel": [
+        36,
+        76,
+        111
+      ],
+      "alpha_32_bbox": [
+        0,
+        0,
+        2172,
+        724
+      ]
+    },
+    {
+      "key": "TabSelected",
+      "prompt": "Generate ONE production UMG SELECTED TAB texture matching the approved connected chat HUD in reference. The user specifically requires the GENERAL tab region to be visually unambiguous. A single blank component only, NOT a screenshot or text. Wide 3:1 full-bleed rectangle: blue extends to ALL FOUR CANVAS EDGES, ZERO transparent or empty padding. Strong clear blue satin fill #2F628A, modestly brighter than idle blue navy, no electric saturation. Clearly bounded rectangular clickable region: continuous pale ivory line on LEFT and RIGHT edges of width equivalent to2.5% of canvas HEIGHT, subtle ivory top line; a warm champagne BOTTOM rule of thickness5% of canvas HEIGHT. This is a SELECTED BORDER, deliberately visible when scaled to120x40px. The bottom gold rule stops exactly at left/right boundaries; it must not extend into the neighboring tab. A tiny single champagne diamond at the BOTTOM CENTER sits fully INSIDE this bottom band (its top can reach12% of height from bottom), no part protrudes beyond canvas. Keep central80% of panel empty for icon and Korean label added in engine. Straight square outside boundaries, no clipped corners, no outside border overhang, no shadow, no thick3Dbevel. Clear precise rectangular bounds, balanced light-metal trim, zero text, icon, number, logos, watermark, backdrop or scenery. Blue must fill all the way to the edge so this tab is seamlessly attached to the other tabs inside a shared housing.",
+      "native_source": "C:/Users/user/AppData/Roaming/reddy-ide/codex-runtime-home/home/generated_images/01a0a9b3-6c50-72a2-b422-cf4905c02440/exec-ac46d4b2-47e8-473c-8a37-2abf41a65672.png",
+      "attempt": 1,
+      "source_file": "ArtSource/UI/ChatJoined_20260918/T_ChatJoined_TabSelected.png",
+      "asset_path": "/Game/Developers/MinkiCho/Art/FieldHUD/Chat_New/Textures/T_ChatJoined_TabSelected",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGB",
+      "sha256": "80d6d2defe54437363fe47ec14fc0001e8041976794c6c282a47caa836e01ddc",
+      "center_pixel": [
+        41,
+        94,
+        143
+      ],
+      "alpha_32_bbox": [
+        0,
+        0,
+        2172,
+        724
+      ]
+    }
+  ],
+  "agent_model": "GPT-6 family Codex session",
+  "image_provider": "native image_gen; exact image model not exposed",
+  "qa": "First outputs inspected. Hollow continuous frame; full-bleed idle/selected surfaces; deliberately explicit left/right selected boundaries and contained bottom diamond. Source pixels preserved.",
+  "source_pixels_unmodified": true,
+  "guide_sha256": "6ee4559f6ffe1d11a03652d40929f041721ace3afb9bb231f8a48c047a3c498d"
+}

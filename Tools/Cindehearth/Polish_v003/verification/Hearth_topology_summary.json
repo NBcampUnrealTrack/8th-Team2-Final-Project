@@ -1,0 +1,92 @@
+{
+  "name": "Hearth",
+  "geometry": {
+    "vertices": 995,
+    "edges": 2069,
+    "polygons": 1080,
+    "triangles": 1902,
+    "ngons": 0,
+    "loose_vertices": 0,
+    "loose_edges": 0,
+    "zero_length_edges": 0,
+    "boundary_edges": 81,
+    "wire_edges": 0,
+    "non_manifold_edges": 4,
+    "degenerate_faces": 0,
+    "invalid_face_normals": 0,
+    "non_finite_vertices": 0
+  },
+  "dimensions": [
+    3.0,
+    3.0,
+    0.5114802122116089
+  ],
+  "components": [
+    {
+      "id": 0,
+      "faces": 968,
+      "diameter": 4.2677
+    },
+    {
+      "id": 1,
+      "faces": 38,
+      "diameter": 0.9423
+    },
+    {
+      "id": 2,
+      "faces": 37,
+      "diameter": 1.0014
+    },
+    {
+      "id": 3,
+      "faces": 37,
+      "diameter": 1.0198
+    }
+  ],
+  "loops": [
+    {
+      "id": 0,
+      "edges": 3,
+      "simple": false,
+      "diameter": 0.3385,
+      "center": [
+        0.523937463760376,
+        -0.8808011710643768,
+        0.4389350414276123
+      ]
+    },
+    {
+      "id": 1,
+      "edges": 1,
+      "simple": false,
+      "diameter": 0.3329,
+      "center": [
+        -0.748900830745697,
+        1.0727894306182861,
+        0.4418661594390869
+      ]
+    },
+    {
+      "id": 2,
+      "edges": 1,
+      "simple": false,
+      "diameter": 0.3813,
+      "center": [
+        -0.8485588729381561,
+        1.0068392753601074,
+        0.45359063148498535
+      ]
+    },
+    {
+      "id": 3,
+      "edges": 76,
+      "simple": true,
+      "diameter": 4.2116,
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "source_object_name": "CH_RestyleRock_REF___tripo_node_b18f59b5",
+  "output_object_name": "CH_Rock_Game_v001",
+  "operations": [
+    {
+      "type": "transform_object",
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "transform_vertices",
+      "scale": [
+        1.8008793356130923,
+        1.8008793356130923,
+        1.8008793356130923
+      ],
+      "translation": [
+        -0.0,
+        -0.0,
+        0.5078163165608207
+      ]
+    },
+    {
+      "type": "delete_loose"
+    }
+  ]
+}

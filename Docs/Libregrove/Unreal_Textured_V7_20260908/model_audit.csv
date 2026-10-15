@@ -1,0 +1,10 @@
+﻿id,name_ko,x_cm,y_cm,z_cm,source_mesh_vertices,recommended_mesh_vertex_max,ue_render_vertices,triangles,initial_triangle_budget,above_recommended_budget,basecolor_resolution,source_boundary_edges,source_nonmanifold_edges,source_degenerate_faces,source_uv_degenerate_faces,ue_collision_shapes,uv_channels,engine_import_qa_pass
+LG_01_Cottage_A,아랫마을 기본 주택,290.3736,289.2393,243.0,4516,2600,10006,6574,4500,True,4096x4096,1975,26,0,8,0,1,True
+LG_02_Inn,물가 여관,403.3521,237.8408,360.097,9631,4800,19288,12889,8000,True,2048x2048,5421,8,0,4,0,1,True
+LG_03_VillageHall,마을 회관·성역 회당 공용,318.7352,304.4171,315.0,9171,4200,19875,13450,7000,True,2048x2048,4178,0,0,12,0,1,True
+LG_04_Workshop,목공·직공 작업소,342.7934,239.9387,251.99,8370,3200,18435,12452,5000,True,2048x2048,3872,48,1,151,0,1,True
+LG_05_WatermillHouse,물레방앗간 본체,305.2512,226.5164,279.0,9895,3500,22276,14769,6000,True,2048x2048,3950,1,0,91,0,1,True
+LG_06_NaiaShelter,나이아 안식처,295.835,282.0761,225.0,3375,4000,7889,6251,6500,False,2048x2048,479,0,0,1,0,1,True
+LG_07_Sanctuary,에코크라운 성역 핵심,283.3155,283.3594,360.0,10933,4200,21318,17726,7000,True,2048x2048,3896,7,0,64,0,1,True
+LG_08_BroadleafTree,리베르그로브 활엽수,499.9865,491.0146,450.0,5685,3400,19295,11303,5500,True,2048x2048,73,0,0,0,0,1,True
+LG_09_MarketStall,광장 공용 노점,201.2834,160.1766,171.0,1534,2300,3004,2505,3600,False,2048x2048,411,0,0,4,0,1,True

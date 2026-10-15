@@ -1,0 +1,1808 @@
+{
+  "status": "finished",
+  "count": 106,
+  "placements": [
+    {
+      "label": "CH_D4_Link_WestLower_Curb_L_00",
+      "group": "WestLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        -483.6,
+        -1125.04725,
+        -8.0
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestLower_Curb_L_01",
+      "group": "WestLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        -483.6,
+        -1062.03375,
+        31.375
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestLower_Curb_L_02",
+      "group": "WestLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        -483.6,
+        -999.02025,
+        70.75
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestLower_Curb_L_03",
+      "group": "WestLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        -483.6,
+        -936.00675,
+        110.125
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestLower_LandingPier_L",
+      "group": "WestLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        -489.6,
+        -882.5,
+        153.5
+      ],
+      "size": [
+        38,
+        48,
+        68
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestLower_Curb_R_00",
+      "group": "WestLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        -314.4,
+        -1125.04725,
+        -8.0
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestLower_Curb_R_01",
+      "group": "WestLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        -314.4,
+        -1062.03375,
+        31.375
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestLower_Curb_R_02",
+      "group": "WestLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        -314.4,
+        -999.02025,
+        70.75
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestLower_Curb_R_03",
+      "group": "WestLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        -314.4,
+        -936.00675,
+        110.125
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestLower_LandingPier_R",
+      "group": "WestLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        -308.4,
+        -882.5,
+        153.5
+      ],
+      "size": [
+        38,
+        48,
+        68
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestLower_SupplyCrate",
+      "group": "WestLower",
+      "mesh": "Crate",
+      "center_bottom": [
+        -572.6,
+        -826.5,
+        157.5
+      ],
+      "size": [
+        48,
+        48,
+        44
+      ],
+      "yaw": -8,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestLower_WaterBarrel",
+      "group": "WestLower",
+      "mesh": "Barrel",
+      "center_bottom": [
+        -625.6,
+        -791.5,
+        157.5
+      ],
+      "size": [
+        42,
+        42,
+        50
+      ],
+      "yaw": 17,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestLower_PierTools",
+      "group": "WestLower",
+      "mesh": "ToolRack",
+      "center_bottom": [
+        -514.6,
+        -882.5,
+        169.5
+      ],
+      "size": [
+        12,
+        32,
+        42
+      ],
+      "yaw": 180,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestUpper_Curb_L_00",
+      "group": "WestUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        -543.6,
+        683.9527500000002,
+        149.5
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestUpper_Curb_L_01",
+      "group": "WestUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        -543.6,
+        746.9662500000002,
+        188.875
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestUpper_Curb_L_02",
+      "group": "WestUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        -543.6,
+        809.9797500000002,
+        228.25
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestUpper_Curb_L_03",
+      "group": "WestUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        -543.6,
+        872.9932500000002,
+        267.625
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestUpper_LandingPier_L",
+      "group": "WestUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        -549.6,
+        926.5000000000002,
+        311.0
+      ],
+      "size": [
+        38,
+        48,
+        68
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestUpper_Curb_R_00",
+      "group": "WestUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        -374.4,
+        683.9527500000002,
+        149.5
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestUpper_Curb_R_01",
+      "group": "WestUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        -374.4,
+        746.9662500000002,
+        188.875
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestUpper_Curb_R_02",
+      "group": "WestUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        -374.4,
+        809.9797500000002,
+        228.25
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestUpper_Curb_R_03",
+      "group": "WestUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        -374.4,
+        872.9932500000002,
+        267.625
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestUpper_LandingPier_R",
+      "group": "WestUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        -368.4,
+        926.5000000000002,
+        311.0
+      ],
+      "size": [
+        38,
+        48,
+        68
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestUpper_SupplyCrate",
+      "group": "WestUpper",
+      "mesh": "Crate",
+      "center_bottom": [
+        -632.6,
+        982.5000000000002,
+        315.0
+      ],
+      "size": [
+        48,
+        48,
+        44
+      ],
+      "yaw": -8,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestUpper_WaterBarrel",
+      "group": "WestUpper",
+      "mesh": "Barrel",
+      "center_bottom": [
+        -685.6,
+        1017.5000000000002,
+        315.0
+      ],
+      "size": [
+        42,
+        42,
+        50
+      ],
+      "yaw": 17,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_WestUpper_PierTools",
+      "group": "WestUpper",
+      "mesh": "ToolRack",
+      "center_bottom": [
+        -574.6,
+        926.5000000000002,
+        327.0
+      ],
+      "size": [
+        12,
+        32,
+        42
+      ],
+      "yaw": 180,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastLower_Curb_L_00",
+      "group": "EastLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        1521.0000000000002,
+        -1125.04725,
+        -8.0
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastLower_Curb_L_01",
+      "group": "EastLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        1521.0000000000002,
+        -1062.03375,
+        31.375
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastLower_Curb_L_02",
+      "group": "EastLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        1521.0000000000002,
+        -999.02025,
+        70.75
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastLower_Curb_L_03",
+      "group": "EastLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        1521.0000000000002,
+        -936.00675,
+        110.125
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastLower_LandingPier_L",
+      "group": "EastLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        1515.0000000000002,
+        -882.5,
+        153.5
+      ],
+      "size": [
+        38,
+        48,
+        68
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastLower_Curb_R_00",
+      "group": "EastLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        1690.2,
+        -1125.04725,
+        -8.0
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastLower_Curb_R_01",
+      "group": "EastLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        1690.2,
+        -1062.03375,
+        31.375
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastLower_Curb_R_02",
+      "group": "EastLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        1690.2,
+        -999.02025,
+        70.75
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastLower_Curb_R_03",
+      "group": "EastLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        1690.2,
+        -936.00675,
+        110.125
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastLower_LandingPier_R",
+      "group": "EastLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        1696.2,
+        -882.5,
+        153.5
+      ],
+      "size": [
+        38,
+        48,
+        68
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastUpper_Curb_L_00",
+      "group": "EastUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        1521.0000000000002,
+        683.9527500000002,
+        149.5
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastUpper_Curb_L_01",
+      "group": "EastUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        1521.0000000000002,
+        746.9662500000002,
+        188.875
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastUpper_Curb_L_02",
+      "group": "EastUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        1521.0000000000002,
+        809.9797500000002,
+        228.25
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastUpper_Curb_L_03",
+      "group": "EastUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        1521.0000000000002,
+        872.9932500000002,
+        267.625
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastUpper_LandingPier_L",
+      "group": "EastUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        1515.0000000000002,
+        926.5000000000002,
+        311.0
+      ],
+      "size": [
+        38,
+        48,
+        68
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastUpper_Curb_R_00",
+      "group": "EastUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        1690.2,
+        683.9527500000002,
+        149.5
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastUpper_Curb_R_01",
+      "group": "EastUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        1690.2,
+        746.9662500000002,
+        188.875
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastUpper_Curb_R_02",
+      "group": "EastUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        1690.2,
+        809.9797500000002,
+        228.25
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastUpper_Curb_R_03",
+      "group": "EastUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        1690.2,
+        872.9932500000002,
+        267.625
+      ],
+      "size": [
+        26,
+        67.01350000000002,
+        58
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_EastUpper_LandingPier_R",
+      "group": "EastUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        1696.2,
+        926.5000000000002,
+        311.0
+      ],
+      "size": [
+        38,
+        48,
+        68
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailLower_Edge_L_00",
+      "group": "RailLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        399.45,
+        -1130.625,
+        -2.3125
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailLower_Edge_L_01",
+      "group": "RailLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        399.45,
+        -979.875,
+        37.0625
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailLower_Edge_L_02",
+      "group": "RailLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        399.45,
+        -829.125,
+        76.4375
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailLower_Edge_L_03",
+      "group": "RailLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        399.45,
+        -678.375,
+        115.8125
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailLower_FootPier_L",
+      "group": "RailLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        390.45,
+        -1206.0,
+        -4
+      ],
+      "size": [
+        34,
+        58,
+        64
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailLower_HeadPier_L",
+      "group": "RailLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        390.45,
+        -603.0,
+        153.5
+      ],
+      "size": [
+        34,
+        58,
+        64
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailLower_Edge_R_00",
+      "group": "RailLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        780.45,
+        -1130.625,
+        -2.3125
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailLower_Edge_R_01",
+      "group": "RailLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        780.45,
+        -979.875,
+        37.0625
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailLower_Edge_R_02",
+      "group": "RailLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        780.45,
+        -829.125,
+        76.4375
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailLower_Edge_R_03",
+      "group": "RailLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        780.45,
+        -678.375,
+        115.8125
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailLower_FootPier_R",
+      "group": "RailLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        789.45,
+        -1206.0,
+        -4
+      ],
+      "size": [
+        34,
+        58,
+        64
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailLower_HeadPier_R",
+      "group": "RailLower",
+      "mesh": "Wall",
+      "center_bottom": [
+        789.45,
+        -603.0,
+        153.5
+      ],
+      "size": [
+        34,
+        58,
+        64
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailUpper_Edge_L_00",
+      "group": "RailUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        399.45,
+        678.375,
+        155.1875
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailUpper_Edge_L_01",
+      "group": "RailUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        399.45,
+        829.125,
+        194.5625
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailUpper_Edge_L_02",
+      "group": "RailUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        399.45,
+        979.875,
+        233.9375
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailUpper_Edge_L_03",
+      "group": "RailUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        399.45,
+        1130.625,
+        273.3125
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailUpper_FootPier_L",
+      "group": "RailUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        390.45,
+        603.0,
+        153.5
+      ],
+      "size": [
+        34,
+        58,
+        64
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailUpper_HeadPier_L",
+      "group": "RailUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        390.45,
+        1206.0,
+        311.0
+      ],
+      "size": [
+        34,
+        58,
+        64
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailUpper_Edge_R_00",
+      "group": "RailUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        780.45,
+        678.375,
+        155.1875
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailUpper_Edge_R_01",
+      "group": "RailUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        780.45,
+        829.125,
+        194.5625
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailUpper_Edge_R_02",
+      "group": "RailUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        780.45,
+        979.875,
+        233.9375
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailUpper_Edge_R_03",
+      "group": "RailUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        780.45,
+        1130.625,
+        273.3125
+      ],
+      "size": [
+        22,
+        100,
+        40
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailUpper_FootPier_R",
+      "group": "RailUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        789.45,
+        603.0,
+        153.5
+      ],
+      "size": [
+        34,
+        58,
+        64
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_RailUpper_HeadPier_R",
+      "group": "RailUpper",
+      "mesh": "Wall",
+      "center_bottom": [
+        789.45,
+        1206.0,
+        311.0
+      ],
+      "size": [
+        34,
+        58,
+        64
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_S_00",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2174.2999999999997,
+        159.79999999999998,
+        148.5
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_S_01",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2270.2999999999997,
+        159.79999999999998,
+        148.5
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_S_02",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2366.2999999999997,
+        159.79999999999998,
+        148.5
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_Rubble_S",
+      "group": "Ashslope",
+      "mesh": "Ridge",
+      "center_bottom": [
+        -2474.2999999999997,
+        126.79999999999998,
+        141.5
+      ],
+      "size": [
+        110,
+        76,
+        56
+      ],
+      "yaw": -18,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_N_00",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2174.2999999999997,
+        563.8,
+        148.5
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_N_01",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2270.2999999999997,
+        563.8,
+        148.5
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_BrokenCourse_N_02",
+      "group": "Ashslope",
+      "mesh": "Wall",
+      "center_bottom": [
+        -2366.2999999999997,
+        563.8,
+        148.5
+      ],
+      "size": [
+        24,
+        78,
+        42
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_Rubble_N",
+      "group": "Ashslope",
+      "mesh": "Ridge",
+      "center_bottom": [
+        -2474.2999999999997,
+        596.8,
+        141.5
+      ],
+      "size": [
+        110,
+        76,
+        56
+      ],
+      "yaw": 18,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_OreCrate",
+      "group": "Ashslope",
+      "mesh": "Crate",
+      "center_bottom": [
+        -2208.2999999999997,
+        79.79999999999998,
+        157.5
+      ],
+      "size": [
+        60,
+        52,
+        48
+      ],
+      "yaw": -6,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_StackedCrate",
+      "group": "Ashslope",
+      "mesh": "Crate",
+      "center_bottom": [
+        -2208.2999999999997,
+        79.79999999999998,
+        203.5
+      ],
+      "size": [
+        40,
+        38,
+        34
+      ],
+      "yaw": 7,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_Barrel",
+      "group": "Ashslope",
+      "mesh": "Barrel",
+      "center_bottom": [
+        -2275.2999999999997,
+        83.79999999999998,
+        157.5
+      ],
+      "size": [
+        45,
+        45,
+        54
+      ],
+      "yaw": 23,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Ashslope_DiscardedCrate",
+      "group": "Ashslope",
+      "mesh": "Crate",
+      "center_bottom": [
+        -2332.2999999999997,
+        92.79999999999998,
+        157.5
+      ],
+      "size": [
+        44,
+        40,
+        30
+      ],
+      "yaw": -19,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Cemetery_TrailCourse_L_00",
+      "group": "Cemetery",
+      "mesh": "Wall",
+      "center_bottom": [
+        2434.9741044645257,
+        1385.8032309230439,
+        308.325
+      ],
+      "size": [
+        25,
+        72,
+        42
+      ],
+      "yaw": -62.6441063878429,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Cemetery_TrailCourse_L_01",
+      "group": "Cemetery",
+      "mesh": "Wall",
+      "center_bottom": [
+        2551.5241044645254,
+        1446.103230923044,
+        347.7
+      ],
+      "size": [
+        25,
+        72,
+        42
+      ],
+      "yaw": -62.6441063878429,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Cemetery_TrailCourse_L_02",
+      "group": "Cemetery",
+      "mesh": "Wall",
+      "center_bottom": [
+        2682.0601044645255,
+        1513.6392309230437,
+        391.8
+      ],
+      "size": [
+        25,
+        72,
+        42
+      ],
+      "yaw": -62.6441063878429,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Cemetery_StoneFooting_L_00",
+      "group": "Cemetery",
+      "mesh": "Ridge",
+      "center_bottom": [
+        2424.4637203195957,
+        1337.5807943076466,
+        287.875
+      ],
+      "size": [
+        105,
+        85,
+        62
+      ],
+      "yaw": -89.6441063878429,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Cemetery_StoneFooting_L_01",
+      "group": "Cemetery",
+      "mesh": "Ridge",
+      "center_bottom": [
+        2624.9297203195956,
+        1441.2967943076467,
+        355.6
+      ],
+      "size": [
+        105,
+        85,
+        62
+      ],
+      "yaw": -89.6441063878429,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Cemetery_TrailCourse_R_00",
+      "group": "Cemetery",
+      "mesh": "Wall",
+      "center_bottom": [
+        2343.9898955354743,
+        1561.660769076956,
+        308.325
+      ],
+      "size": [
+        25,
+        72,
+        42
+      ],
+      "yaw": -62.6441063878429,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Cemetery_TrailCourse_R_01",
+      "group": "Cemetery",
+      "mesh": "Wall",
+      "center_bottom": [
+        2460.539895535474,
+        1621.9607690769562,
+        347.7
+      ],
+      "size": [
+        25,
+        72,
+        42
+      ],
+      "yaw": -62.6441063878429,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Cemetery_TrailCourse_R_02",
+      "group": "Cemetery",
+      "mesh": "Wall",
+      "center_bottom": [
+        2591.075895535474,
+        1689.4967690769563,
+        391.8
+      ],
+      "size": [
+        25,
+        72,
+        42
+      ],
+      "yaw": -62.6441063878429,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Cemetery_StoneFooting_R_00",
+      "group": "Cemetery",
+      "mesh": "Ridge",
+      "center_bottom": [
+        2298.556279680404,
+        1580.9392056923534,
+        287.875
+      ],
+      "size": [
+        105,
+        85,
+        62
+      ],
+      "yaw": -35.6441063878429,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Cemetery_StoneFooting_R_01",
+      "group": "Cemetery",
+      "mesh": "Ridge",
+      "center_bottom": [
+        2499.0222796804037,
+        1684.6552056923535,
+        355.6
+      ],
+      "size": [
+        105,
+        85,
+        62
+      ],
+      "yaw": -35.6441063878429,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Pinehollow_ThresholdCourse_L_00",
+      "group": "Pinehollow",
+      "mesh": "Wall",
+      "center_bottom": [
+        421.0,
+        -3120.3,
+        -10
+      ],
+      "size": [
+        25,
+        68,
+        32
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Pinehollow_ThresholdCourse_L_01",
+      "group": "Pinehollow",
+      "mesh": "Wall",
+      "center_bottom": [
+        421.0,
+        -3220.3,
+        -10
+      ],
+      "size": [
+        25,
+        68,
+        32
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Pinehollow_LowRubble_L",
+      "group": "Pinehollow",
+      "mesh": "Ridge",
+      "center_bottom": [
+        385.0,
+        -3353.3,
+        -18
+      ],
+      "size": [
+        112,
+        92,
+        55
+      ],
+      "yaw": -30,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Pinehollow_ThresholdCourse_R_00",
+      "group": "Pinehollow",
+      "mesh": "Wall",
+      "center_bottom": [
+        659.0,
+        -3120.3,
+        -10
+      ],
+      "size": [
+        25,
+        68,
+        32
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Pinehollow_ThresholdCourse_R_01",
+      "group": "Pinehollow",
+      "mesh": "Wall",
+      "center_bottom": [
+        659.0,
+        -3220.3,
+        -10
+      ],
+      "size": [
+        25,
+        68,
+        32
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Pinehollow_LowRubble_R",
+      "group": "Pinehollow",
+      "mesh": "Ridge",
+      "center_bottom": [
+        695.0,
+        -3353.3,
+        -18
+      ],
+      "size": [
+        112,
+        92,
+        55
+      ],
+      "yaw": 30,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Pinehollow_RestTable",
+      "group": "Pinehollow",
+      "mesh": "Table",
+      "center_bottom": [
+        807.0,
+        -3186.3,
+        0
+      ],
+      "size": [
+        150,
+        94,
+        48
+      ],
+      "yaw": 4,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Pinehollow_ToolStand",
+      "group": "Pinehollow",
+      "mesh": "ToolRack",
+      "center_bottom": [
+        860.0,
+        -3096.3,
+        0
+      ],
+      "size": [
+        24,
+        62,
+        70
+      ],
+      "yaw": 90,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Pinehollow_SupplyCrate_00",
+      "group": "Pinehollow",
+      "mesh": "Crate",
+      "center_bottom": [
+        918.0,
+        -3187.3,
+        0
+      ],
+      "size": [
+        44,
+        42,
+        42
+      ],
+      "yaw": -8,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Pinehollow_SupplyCrate_01",
+      "group": "Pinehollow",
+      "mesh": "Crate",
+      "center_bottom": [
+        951.0,
+        -3245.3,
+        0
+      ],
+      "size": [
+        44,
+        42,
+        42
+      ],
+      "yaw": 17,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Pinehollow_SupplyCrate_02",
+      "group": "Pinehollow",
+      "mesh": "Crate",
+      "center_bottom": [
+        356.0,
+        -3171.3,
+        0
+      ],
+      "size": [
+        44,
+        42,
+        42
+      ],
+      "yaw": 4,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Pinehollow_SupplyCrate_03",
+      "group": "Pinehollow",
+      "mesh": "Crate",
+      "center_bottom": [
+        320.0,
+        -3233.3,
+        0
+      ],
+      "size": [
+        44,
+        42,
+        42
+      ],
+      "yaw": -14,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Pinehollow_Barrel_00",
+      "group": "Pinehollow",
+      "mesh": "Barrel",
+      "center_bottom": [
+        912.0,
+        -3290.3,
+        0
+      ],
+      "size": [
+        42,
+        42,
+        49
+      ],
+      "yaw": 0,
+      "collision": false
+    },
+    {
+      "label": "CH_D4_Link_Pinehollow_Barrel_01",
+      "group": "Pinehollow",
+      "mesh": "Barrel",
+      "center_bottom": [
+        360.0,
+        -3291.3,
+        0
+      ],
+      "size": [
+        42,
+        42,
+        49
+      ],
+      "yaw": 15,
+      "collision": false
+    }
+  ]
+}

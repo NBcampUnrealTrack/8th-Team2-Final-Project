@@ -1,0 +1,22 @@
+{
+  "name": "Table",
+  "source": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Table_Caps004.glb",
+  "blend": "C:\\Users\\Ndus_072\\AppData\\Local\\Revvy\\BlenderExchange\\Cindehearth\\Polish_v003\\CH_Polish_Table_Caps004.blend",
+  "object": "CH_Polish_Table_Caps004",
+  "geometry": {
+    "vertices": 703,
+    "edges": 1361,
+    "polygons": 739,
+    "triangles": 1224,
+    "ngons": 0,
+    "loose_vertices": 0,
+    "loose_edges": 0,
+    "zero_length_edges": 0,
+    "boundary_edges": 20,
+    "wire_edges": 0,
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "invalid_face_normals": 0,
+    "non_finite_vertices": 0
+  }
+}

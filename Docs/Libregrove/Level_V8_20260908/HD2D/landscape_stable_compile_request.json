@@ -1,0 +1,4 @@
+{
+  "requested": true,
+  "note": "Check subsequent shader log, return bool alone is insufficient"
+}

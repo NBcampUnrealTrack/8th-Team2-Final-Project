@@ -1,0 +1,155 @@
+{
+  "prior": {
+    "type": "perspective",
+    "location": [
+      1054.3466140504825,
+      561.4377078457093,
+      306.1296179748214
+    ],
+    "rotation": [
+      0.0,
+      -18.0,
+      -110.0
+    ],
+    "fov": 60.0,
+    "realtime": false,
+    "game_view": false
+  },
+  "framing": {
+    "actor_center": [
+      850.0,
+      0.0,
+      112.0
+    ],
+    "actor_extent": [
+      147.91751098632812,
+      141.03805541992188,
+      112.5
+    ],
+    "distance": 628.216640212587
+  },
+  "scene": {
+    "success": true,
+    "camera": {
+      "location": [
+        645.6533859495174,
+        -561.4377078457093,
+        306.1296179748214
+      ],
+      "rotation": [
+        -18,
+        70,
+        0
+      ],
+      "fov": 60
+    },
+    "viewport": [
+      1543,
+      615
+    ],
+    "actor_count": 5,
+    "total_matching": 5,
+    "actors": [
+      {
+        "name": "StaticMeshActor_6",
+        "label": "LGV7_LG_06_NaiaShelter",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          850,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          147.91751098632812,
+          141.03805541992188,
+          112.5
+        ],
+        "dist_cm": 671.5590525667312,
+        "screen_px": [
+          771,
+          523
+        ]
+      },
+      {
+        "name": "StaticMeshActor_0",
+        "label": "SM_SkySphere",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          0
+        ],
+        "extent_cm": [
+          1638400,
+          1638400,
+          1638400
+        ],
+        "dist_cm": 908.7331498193133,
+        "screen_px": [
+          3534,
+          987
+        ]
+      },
+      {
+        "name": "Floor_0",
+        "label": "Floor",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          0,
+          0,
+          -0.5
+        ],
+        "extent_cm": [
+          4000.00146484375,
+          4000,
+          200.0001220703125
+        ],
+        "dist_cm": 908.9017093165274,
+        "screen_px": [
+          3533,
+          988
+        ]
+      },
+      {
+        "name": "Brush_1",
+        "label": "Brush1",
+        "class": "Brush",
+        "pos_cm": [
+          -90,
+          110,
+          20
+        ],
+        "extent_cm": [
+          1000,
+          1000,
+          100
+        ],
+        "dist_cm": 1036.2840624358298,
+        "screen_px": [
+          3511,
+          768
+        ]
+      },
+      {
+        "name": "StaticMeshActor_9",
+        "label": "LGV7_LG_09_MarketStall",
+        "class": "StaticMeshActor",
+        "pos_cm": [
+          850,
+          850,
+          -0.5
+        ],
+        "extent_cm": [
+          100.64171600341797,
+          80.08831024169922,
+          85.5
+        ],
+        "dist_cm": 1458.7445507771506,
+        "screen_px": [
+          1045,
+          176
+        ]
+      }
+    ]
+  }
+}
