@@ -6,7 +6,9 @@
 Naia Unbound는 HD-2D 그래픽을 기반으로 나이아(정령)과의 교감, 캐릭터 성장, 전략적인 턴제 전투를 결합한 MMORPG입니다.
 
 ## 시연 영상
-https://www.youtube.com/watch?v=F7Tzd1F59cA
+[![Video Label](https://github.com/user-attachments/assets/6b30bc6c-e541-4cc7-8f22-2642c45309ab)]([https://youtu.be/59USvjy2toI](https://www.youtube.com/watch?v=F7Tzd1F59cA
+)
+> 이미지를 클릭하면 YouTube에서 재생됩니다.
 
 ## 게임 개요
 |항목|내용|
@@ -36,3 +38,5 @@ https://www.youtube.com/watch?v=F7Tzd1F59cA
 
 ## 참고 링크
 * [프로젝트 브로셔](https://app.notion.com/p/teamsparta/8-2-Naia-Unbound-3b12dc3ef51480c5b7f7e2fe085554ea?v=32f2dc3ef5148074bffa000ce95cce75&source=copy_link)
+
+<img width="1484" height="1060" alt="Logo" src="https://github.com/user-attachments/assets/6b30bc6c-e541-4cc7-8f22-2642c45309ab" />
