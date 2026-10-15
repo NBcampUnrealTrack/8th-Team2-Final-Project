@@ -5,11 +5,8 @@
 
 Naia Unbound는 HD-2D 그래픽을 기반으로 나이아(정령)과의 교감, 캐릭터 성장, 전략적인 턴제 전투를 결합한 MMORPG입니다.
 
-## Trailer
-준비중
-
 ## 시연 영상
-준비중
+https://www.youtube.com/watch?v=F7Tzd1F59cA
 
 ## 게임 개요
 |항목|내용|
